@@ -1,0 +1,1858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-02-03">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="criticality" title="criticality" type="double"></attribute>
+      <attribute id="key" title="key" type="string"></attribute>
+      <attribute id="lines" title="lines" type="integer"></attribute>
+      <attribute id="words" title="words" type="integer"></attribute>
+      <attribute id="eigencentrality" title="Eigenvector Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="triangles" title="Number of triangles" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="scenes" title="scenes" type="integer"></attribute>
+    </attributes>
+    <nodes>
+      <node id="0" label="Dogberry">
+        <attvalues>
+          <attvalue for="criticality" value="0.6154761904761904"></attvalue>
+          <attvalue for="key" value="Dogberry"></attvalue>
+          <attvalue for="lines" value="182"></attvalue>
+          <attvalue for="words" value="1709"></attvalue>
+          <attvalue for="eigencentrality" value="0.6654203705045248"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.696969696969697"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.782608695652174"></attvalue>
+          <attvalue for="betweenesscentrality" value="16.00238095238095"></attvalue>
+          <attvalue for="clustering" value="0.6025641025641025"></attvalue>
+          <attvalue for="triangles" value="47"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="26"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="1" label="Leonato">
+        <attvalues>
+          <attvalue for="criticality" value="0.2080729166666667"></attvalue>
+          <attvalue for="key" value="Leonato"></attvalue>
+          <attvalue for="lines" value="335"></attvalue>
+          <attvalue for="words" value="2976"></attvalue>
+          <attvalue for="eigencentrality" value="0.9757074465707715"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7666666666666667"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8478260869565217"></attvalue>
+          <attvalue for="betweenesscentrality" value="6.658333333333334"></attvalue>
+          <attvalue for="clustering" value="0.7333333333333333"></attvalue>
+          <attvalue for="triangles" value="88"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="2" label="A Lord">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="man-a-lord."></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="5"></attvalue>
+          <attvalue for="eigencentrality" value="0.1648449042247821"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4791666666666667"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5289855072463768"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="3" label="Borachio">
+        <attvalues>
+          <attvalue for="criticality" value="1.137301587301587"></attvalue>
+          <attvalue for="key" value="Borachio"></attvalue>
+          <attvalue for="lines" value="131"></attvalue>
+          <attvalue for="words" value="1123"></attvalue>
+          <attvalue for="eigencentrality" value="0.9584944361734277"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8214285714285714"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8913043478260869"></attvalue>
+          <attvalue for="betweenesscentrality" value="40.942857142857136"></attvalue>
+          <attvalue for="clustering" value="0.5686274509803921"></attvalue>
+          <attvalue for="triangles" value="87"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="36"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="4" label="Second Watch">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="man-sec.-watch."></attvalue>
+          <attvalue for="lines" value="9"></attvalue>
+          <attvalue for="words" value="71"></attvalue>
+          <attvalue for="eigencentrality" value="0.27034169331748237"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5348837209302325"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6231884057971014"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="5" label="Singer">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="man-song"></attvalue>
+          <attvalue for="lines" value="10"></attvalue>
+          <attvalue for="words" value="58"></attvalue>
+          <attvalue for="eigencentrality" value="0.1648449042247821"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4791666666666667"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5289855072463769"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="6" label="Don John">
+        <attvalues>
+          <attvalue for="criticality" value="0.25854591836734697"></attvalue>
+          <attvalue for="key" value="DonJohn"></attvalue>
+          <attvalue for="lines" value="108"></attvalue>
+          <attvalue for="words" value="1013"></attvalue>
+          <attvalue for="eigencentrality" value="0.874598766102573"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.71875"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8043478260869565"></attvalue>
+          <attvalue for="betweenesscentrality" value="7.239285714285716"></attvalue>
+          <attvalue for="clustering" value="0.7802197802197802"></attvalue>
+          <attvalue for="triangles" value="71"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="7" label="Beatrice">
+        <attvalues>
+          <attvalue for="criticality" value="0.10539965986394553"></attvalue>
+          <attvalue for="key" value="Beatrice"></attvalue>
+          <attvalue for="lines" value="287"></attvalue>
+          <attvalue for="words" value="2647"></attvalue>
+          <attvalue for="eigencentrality" value="0.8797790011536464"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.71875"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8043478260869565"></attvalue>
+          <attvalue for="betweenesscentrality" value="2.951190476190475"></attvalue>
+          <attvalue for="clustering" value="0.8241758241758241"></attvalue>
+          <attvalue for="triangles" value="75"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="8" label="A Boy">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="man-boy."></attvalue>
+          <attvalue for="lines" value="2"></attvalue>
+          <attvalue for="words" value="8"></attvalue>
+          <attvalue for="eigencentrality" value="0.42434206440575706"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5111111111111111"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5942028985507247"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="15"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="9" label="Claudio">
+        <attvalues>
+          <attvalue for="criticality" value="0.7405092592592591"></attvalue>
+          <attvalue for="key" value="Claudio1"></attvalue>
+          <attvalue for="lines" value="276"></attvalue>
+          <attvalue for="words" value="2297"></attvalue>
+          <attvalue for="eigencentrality" value="0.9999999999999998"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8214285714285714"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8913043478260869"></attvalue>
+          <attvalue for="betweenesscentrality" value="26.658333333333328"></attvalue>
+          <attvalue for="clustering" value="0.5947712418300654"></attvalue>
+          <attvalue for="triangles" value="91"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="36"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="10" label="Benedick">
+        <attvalues>
+          <attvalue for="criticality" value="0.2080729166666667"></attvalue>
+          <attvalue for="key" value="Benedick"></attvalue>
+          <attvalue for="lines" value="454"></attvalue>
+          <attvalue for="words" value="4192"></attvalue>
+          <attvalue for="eigencentrality" value="0.9757074465707715"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7666666666666667"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8478260869565217"></attvalue>
+          <attvalue for="betweenesscentrality" value="6.658333333333334"></attvalue>
+          <attvalue for="clustering" value="0.7333333333333333"></attvalue>
+          <attvalue for="triangles" value="88"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="11" label="Margaret">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Margaret"></attvalue>
+          <attvalue for="lines" value="70"></attvalue>
+          <attvalue for="words" value="614"></attvalue>
+          <attvalue for="eigencentrality" value="0.7558941226806926"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6571428571428571"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7391304347826086"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="55"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="22"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="12" label="Friar Francis">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="FrancisFr"></attvalue>
+          <attvalue for="lines" value="82"></attvalue>
+          <attvalue for="words" value="689"></attvalue>
+          <attvalue for="eigencentrality" value="0.6206443380023019"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5609756097560976"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6666666666666667"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="13" label="Antonio">
+        <attvalues>
+          <attvalue for="criticality" value="0.12337301587301587"></attvalue>
+          <attvalue for="key" value="Antonio4"></attvalue>
+          <attvalue for="lines" value="55"></attvalue>
+          <attvalue for="words" value="489"></attvalue>
+          <attvalue for="eigencentrality" value="0.9457801040029379"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7419354838709677"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8260869565217391"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.701190476190476"></attvalue>
+          <attvalue for="clustering" value="0.7904761904761904"></attvalue>
+          <attvalue for="triangles" value="83"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="30"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="14" label="First Watch">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="man-first-watch."></attvalue>
+          <attvalue for="lines" value="11"></attvalue>
+          <attvalue for="words" value="88"></attvalue>
+          <attvalue for="eigencentrality" value="0.27034169331748237"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5348837209302325"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6231884057971014"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="15" label="Verges">
+        <attvalues>
+          <attvalue for="criticality" value="0.6154761904761904"></attvalue>
+          <attvalue for="key" value="Verges"></attvalue>
+          <attvalue for="lines" value="26"></attvalue>
+          <attvalue for="words" value="209"></attvalue>
+          <attvalue for="eigencentrality" value="0.665420370504525"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.696969696969697"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.782608695652174"></attvalue>
+          <attvalue for="betweenesscentrality" value="16.00238095238095"></attvalue>
+          <attvalue for="clustering" value="0.6025641025641025"></attvalue>
+          <attvalue for="triangles" value="47"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="26"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="16" label="Hero">
+        <attvalues>
+          <attvalue for="criticality" value="0.044826007326007326"></attvalue>
+          <attvalue for="key" value="Hero"></attvalue>
+          <attvalue for="lines" value="131"></attvalue>
+          <attvalue for="words" value="1122"></attvalue>
+          <attvalue for="eigencentrality" value="0.8498516585858129"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.696969696969697"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.782608695652174"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.1654761904761906"></attvalue>
+          <attvalue for="clustering" value="0.8974358974358975"></attvalue>
+          <attvalue for="triangles" value="70"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="26"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="17" label="Watch">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="man-watch."></attvalue>
+          <attvalue for="lines" value="16"></attvalue>
+          <attvalue for="words" value="120"></attvalue>
+          <attvalue for="eigencentrality" value="0.27034169331748237"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5348837209302325"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6231884057971014"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="18" label="Don Pedro">
+        <attvalues>
+          <attvalue for="criticality" value="0.7405092592592591"></attvalue>
+          <attvalue for="key" value="Pedro"></attvalue>
+          <attvalue for="lines" value="319"></attvalue>
+          <attvalue for="words" value="2782"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8214285714285714"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8913043478260869"></attvalue>
+          <attvalue for="betweenesscentrality" value="26.658333333333328"></attvalue>
+          <attvalue for="clustering" value="0.5947712418300654"></attvalue>
+          <attvalue for="triangles" value="91"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="36"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="19" label="A Sexton">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="man-sex."></attvalue>
+          <attvalue for="lines" value="15"></attvalue>
+          <attvalue for="words" value="121"></attvalue>
+          <attvalue for="eigencentrality" value="0.27034169331748237"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5348837209302325"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6231884057971014"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="20" label="Ursula">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Ursula2"></attvalue>
+          <attvalue for="lines" value="48"></attvalue>
+          <attvalue for="words" value="410"></attvalue>
+          <attvalue for="eigencentrality" value="0.7558941226806926"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6571428571428571"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7391304347826086"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="55"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="22"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="21" label="Conrade">
+        <attvalues>
+          <attvalue for="criticality" value="0.1525297619047619"></attvalue>
+          <attvalue for="key" value="Conrade"></attvalue>
+          <attvalue for="lines" value="37"></attvalue>
+          <attvalue for="words" value="288"></attvalue>
+          <attvalue for="eigencentrality" value="0.331758636344881"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5609756097560976"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6521739130434783"></attvalue>
+          <attvalue for="betweenesscentrality" value="2.4404761904761902"></attvalue>
+          <attvalue for="clustering" value="0.7857142857142857"></attvalue>
+          <attvalue for="triangles" value="22"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="22" label="Balthasar">
+        <attvalues>
+          <attvalue for="criticality" value="0.05773809523809525"></attvalue>
+          <attvalue for="key" value="Balthasar1"></attvalue>
+          <attvalue for="lines" value="28"></attvalue>
+          <attvalue for="words" value="209"></attvalue>
+          <attvalue for="eigencentrality" value="0.7858214652485266"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6764705882352942"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7608695652173914"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.385714285714286"></attvalue>
+          <attvalue for="clustering" value="0.9090909090909091"></attvalue>
+          <attvalue for="triangles" value="60"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="23" label="Messengers">
+        <attvalues>
+          <attvalue for="criticality" value="0.0698051948051948"></attvalue>
+          <attvalue for="key" value="man-mess."></attvalue>
+          <attvalue for="lines" value="30"></attvalue>
+          <attvalue for="words" value="257"></attvalue>
+          <attvalue for="eigencentrality" value="0.7165727834194247"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6571428571428571"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7391304347826086"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.5357142857142856"></attvalue>
+          <attvalue for="clustering" value="0.8545454545454545"></attvalue>
+          <attvalue for="triangles" value="47"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="22"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="0" target="1" label="Dogberry --- Leonato" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1" source="0" target="3" label="Dogberry --- Borachio" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="2" source="0" target="4" label="Dogberry --- Second Watch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="3" source="0" target="9" label="Dogberry --- Claudio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="4" source="0" target="10" label="Dogberry --- Benedick">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="5" source="0" target="13" label="Dogberry --- Antonio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="6" source="0" target="14" label="Dogberry --- First Watch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="7" source="0" target="15" label="Dogberry --- Verges" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="8" source="0" target="17" label="Dogberry --- Watch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="9" source="0" target="18" label="Dogberry --- Don Pedro">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="10" source="0" target="19" label="Dogberry --- A Sexton">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="11" source="0" target="21" label="Dogberry --- Conrade" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="12" source="0" target="23" label="Dogberry --- Messengers">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="13" source="1" target="0" label="Leonato --- Dogberry" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="14" source="1" target="3" label="Leonato --- Borachio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="15" source="1" target="6" label="Leonato --- Don John" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="16" source="1" target="7" label="Leonato --- Beatrice" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="17" source="1" target="8" label="Leonato --- A Boy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="18" source="1" target="9" label="Leonato --- Claudio" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="19" source="1" target="10" label="Leonato --- Benedick" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="20" source="1" target="11" label="Leonato --- Margaret">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="21" source="1" target="12" label="Leonato --- Friar Francis" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="22" source="1" target="13" label="Leonato --- Antonio" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="23" source="1" target="15" label="Leonato --- Verges" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="24" source="1" target="16" label="Leonato --- Hero" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="25" source="1" target="18" label="Leonato --- Don Pedro" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="26" source="1" target="20" label="Leonato --- Ursula">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="27" source="1" target="22" label="Leonato --- Balthasar" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="28" source="1" target="23" label="Leonato --- Messengers" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="29" source="2" target="5" label="A Lord --- Singer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="30" source="2" target="9" label="A Lord --- Claudio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="31" source="2" target="18" label="A Lord --- Don Pedro">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="32" source="3" target="0" label="Borachio --- Dogberry" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="33" source="3" target="1" label="Borachio --- Leonato" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="34" source="3" target="4" label="Borachio --- Second Watch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="35" source="3" target="6" label="Borachio --- Don John" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="36" source="3" target="7" label="Borachio --- Beatrice">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="37" source="3" target="9" label="Borachio --- Claudio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="38" source="3" target="10" label="Borachio --- Benedick" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="39" source="3" target="11" label="Borachio --- Margaret">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="40" source="3" target="13" label="Borachio --- Antonio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="41" source="3" target="14" label="Borachio --- First Watch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="42" source="3" target="15" label="Borachio --- Verges" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="43" source="3" target="16" label="Borachio --- Hero">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="44" source="3" target="17" label="Borachio --- Watch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="45" source="3" target="18" label="Borachio --- Don Pedro" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="46" source="3" target="19" label="Borachio --- A Sexton">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="47" source="3" target="20" label="Borachio --- Ursula">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="48" source="3" target="21" label="Borachio --- Conrade" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="49" source="3" target="22" label="Borachio --- Balthasar">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="50" source="4" target="0" label="Second Watch --- Dogberry" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="51" source="4" target="3" label="Second Watch --- Borachio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="52" source="4" target="14" label="Second Watch --- First Watch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="53" source="4" target="15" label="Second Watch --- Verges" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="54" source="4" target="17" label="Second Watch --- Watch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="55" source="4" target="19" label="Second Watch --- A Sexton">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="56" source="4" target="21" label="Second Watch --- Conrade" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="57" source="5" target="2" label="Singer --- A Lord">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="58" source="5" target="9" label="Singer --- Claudio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="59" source="5" target="18" label="Singer --- Don Pedro">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="60" source="6" target="1" label="Don John --- Leonato" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="61" source="6" target="3" label="Don John --- Borachio" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="62" source="6" target="7" label="Don John --- Beatrice" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="63" source="6" target="9" label="Don John --- Claudio" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="64" source="6" target="10" label="Don John --- Benedick" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="65" source="6" target="11" label="Don John --- Margaret">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="66" source="6" target="12" label="Don John --- Friar Francis">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="67" source="6" target="13" label="Don John --- Antonio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="68" source="6" target="16" label="Don John --- Hero" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="69" source="6" target="18" label="Don John --- Don Pedro" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="70" source="6" target="20" label="Don John --- Ursula">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="71" source="6" target="21" label="Don John --- Conrade">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="72" source="6" target="22" label="Don John --- Balthasar">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="73" source="6" target="23" label="Don John --- Messengers">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="74" source="7" target="1" label="Beatrice --- Leonato" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="75" source="7" target="3" label="Beatrice --- Borachio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="76" source="7" target="6" label="Beatrice --- Don John" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="77" source="7" target="8" label="Beatrice --- A Boy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="78" source="7" target="9" label="Beatrice --- Claudio" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="79" source="7" target="10" label="Beatrice --- Benedick" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="80" source="7" target="11" label="Beatrice --- Margaret" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="81" source="7" target="12" label="Beatrice --- Friar Francis" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="82" source="7" target="13" label="Beatrice --- Antonio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="83" source="7" target="16" label="Beatrice --- Hero" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="84" source="7" target="18" label="Beatrice --- Don Pedro" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="85" source="7" target="20" label="Beatrice --- Ursula" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="86" source="7" target="22" label="Beatrice --- Balthasar" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="87" source="7" target="23" label="Beatrice --- Messengers" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="88" source="8" target="1" label="A Boy --- Leonato">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="89" source="8" target="7" label="A Boy --- Beatrice">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="90" source="8" target="9" label="A Boy --- Claudio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="91" source="8" target="10" label="A Boy --- Benedick">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="92" source="8" target="18" label="A Boy --- Don Pedro">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="93" source="8" target="22" label="A Boy --- Balthasar">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="94" source="9" target="0" label="Claudio --- Dogberry">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="95" source="9" target="1" label="Claudio --- Leonato" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="96" source="9" target="2" label="Claudio --- A Lord">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="97" source="9" target="3" label="Claudio --- Borachio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="98" source="9" target="5" label="Claudio --- Singer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="99" source="9" target="6" label="Claudio --- Don John" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="100" source="9" target="7" label="Claudio --- Beatrice" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="101" source="9" target="8" label="Claudio --- A Boy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="102" source="9" target="10" label="Claudio --- Benedick" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="103" source="9" target="11" label="Claudio --- Margaret">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="104" source="9" target="12" label="Claudio --- Friar Francis" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="105" source="9" target="13" label="Claudio --- Antonio" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="106" source="9" target="15" label="Claudio --- Verges">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="107" source="9" target="16" label="Claudio --- Hero" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="108" source="9" target="18" label="Claudio --- Don Pedro" weight="8.0">
+        <attvalues>
+          <attvalue for="scenes" value="8"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="109" source="9" target="20" label="Claudio --- Ursula">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="110" source="9" target="22" label="Claudio --- Balthasar" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="111" source="9" target="23" label="Claudio --- Messengers" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="112" source="10" target="0" label="Benedick --- Dogberry">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="113" source="10" target="1" label="Benedick --- Leonato" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="114" source="10" target="3" label="Benedick --- Borachio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="115" source="10" target="6" label="Benedick --- Don John" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="116" source="10" target="7" label="Benedick --- Beatrice" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="117" source="10" target="8" label="Benedick --- A Boy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="118" source="10" target="9" label="Benedick --- Claudio" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="119" source="10" target="11" label="Benedick --- Margaret" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="120" source="10" target="12" label="Benedick --- Friar Francis" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="121" source="10" target="13" label="Benedick --- Antonio" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="122" source="10" target="15" label="Benedick --- Verges">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="123" source="10" target="16" label="Benedick --- Hero" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="124" source="10" target="18" label="Benedick --- Don Pedro" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="125" source="10" target="20" label="Benedick --- Ursula" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="126" source="10" target="22" label="Benedick --- Balthasar" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="127" source="10" target="23" label="Benedick --- Messengers" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="128" source="11" target="1" label="Margaret --- Leonato">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="129" source="11" target="3" label="Margaret --- Borachio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="130" source="11" target="6" label="Margaret --- Don John">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="131" source="11" target="7" label="Margaret --- Beatrice" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="132" source="11" target="9" label="Margaret --- Claudio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="133" source="11" target="10" label="Margaret --- Benedick" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="134" source="11" target="13" label="Margaret --- Antonio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="135" source="11" target="16" label="Margaret --- Hero" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="136" source="11" target="18" label="Margaret --- Don Pedro">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="137" source="11" target="20" label="Margaret --- Ursula" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="138" source="11" target="22" label="Margaret --- Balthasar">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="139" source="12" target="1" label="Friar Francis --- Leonato" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="140" source="12" target="6" label="Friar Francis --- Don John">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="141" source="12" target="7" label="Friar Francis --- Beatrice" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="142" source="12" target="9" label="Friar Francis --- Claudio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="143" source="12" target="10" label="Friar Francis --- Benedick" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="144" source="12" target="13" label="Friar Francis --- Antonio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="145" source="12" target="16" label="Friar Francis --- Hero" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="146" source="12" target="18" label="Friar Francis --- Don Pedro" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="147" source="12" target="23" label="Friar Francis --- Messengers">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="148" source="13" target="0" label="Antonio --- Dogberry">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="149" source="13" target="1" label="Antonio --- Leonato" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="150" source="13" target="3" label="Antonio --- Borachio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="151" source="13" target="6" label="Antonio --- Don John">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="152" source="13" target="7" label="Antonio --- Beatrice" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="153" source="13" target="9" label="Antonio --- Claudio" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="154" source="13" target="10" label="Antonio --- Benedick" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="155" source="13" target="11" label="Antonio --- Margaret">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="156" source="13" target="12" label="Antonio --- Friar Francis">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="157" source="13" target="15" label="Antonio --- Verges">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="158" source="13" target="16" label="Antonio --- Hero" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="159" source="13" target="18" label="Antonio --- Don Pedro" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="160" source="13" target="20" label="Antonio --- Ursula">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="161" source="13" target="22" label="Antonio --- Balthasar">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="162" source="13" target="23" label="Antonio --- Messengers">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="163" source="14" target="0" label="First Watch --- Dogberry" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="164" source="14" target="3" label="First Watch --- Borachio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="165" source="14" target="4" label="First Watch --- Second Watch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="166" source="14" target="15" label="First Watch --- Verges" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="167" source="14" target="17" label="First Watch --- Watch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="168" source="14" target="19" label="First Watch --- A Sexton">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="169" source="14" target="21" label="First Watch --- Conrade" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="170" source="15" target="0" label="Verges --- Dogberry" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="171" source="15" target="1" label="Verges --- Leonato" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="172" source="15" target="3" label="Verges --- Borachio" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="173" source="15" target="4" label="Verges --- Second Watch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="174" source="15" target="9" label="Verges --- Claudio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="175" source="15" target="10" label="Verges --- Benedick">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="176" source="15" target="13" label="Verges --- Antonio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="177" source="15" target="14" label="Verges --- First Watch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="178" source="15" target="17" label="Verges --- Watch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="179" source="15" target="18" label="Verges --- Don Pedro">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="180" source="15" target="19" label="Verges --- A Sexton">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="181" source="15" target="21" label="Verges --- Conrade" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="182" source="15" target="23" label="Verges --- Messengers">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="183" source="16" target="1" label="Hero --- Leonato" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="184" source="16" target="3" label="Hero --- Borachio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="185" source="16" target="6" label="Hero --- Don John" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="186" source="16" target="7" label="Hero --- Beatrice" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="187" source="16" target="9" label="Hero --- Claudio" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="188" source="16" target="10" label="Hero --- Benedick" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="189" source="16" target="11" label="Hero --- Margaret" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="190" source="16" target="12" label="Hero --- Friar Francis" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="191" source="16" target="13" label="Hero --- Antonio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="192" source="16" target="18" label="Hero --- Don Pedro" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="193" source="16" target="20" label="Hero --- Ursula" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="194" source="16" target="22" label="Hero --- Balthasar">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="195" source="16" target="23" label="Hero --- Messengers" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="196" source="17" target="0" label="Watch --- Dogberry" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="197" source="17" target="3" label="Watch --- Borachio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="198" source="17" target="4" label="Watch --- Second Watch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="199" source="17" target="14" label="Watch --- First Watch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="200" source="17" target="15" label="Watch --- Verges" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="201" source="17" target="19" label="Watch --- A Sexton">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="202" source="17" target="21" label="Watch --- Conrade" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="203" source="18" target="0" label="Don Pedro --- Dogberry">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="204" source="18" target="1" label="Don Pedro --- Leonato" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="205" source="18" target="2" label="Don Pedro --- A Lord">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="206" source="18" target="3" label="Don Pedro --- Borachio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="207" source="18" target="5" label="Don Pedro --- Singer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="208" source="18" target="6" label="Don Pedro --- Don John" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="209" source="18" target="7" label="Don Pedro --- Beatrice" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="210" source="18" target="8" label="Don Pedro --- A Boy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="211" source="18" target="9" label="Don Pedro --- Claudio" weight="8.0">
+        <attvalues>
+          <attvalue for="scenes" value="8"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="212" source="18" target="10" label="Don Pedro --- Benedick" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="213" source="18" target="11" label="Don Pedro --- Margaret">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="214" source="18" target="12" label="Don Pedro --- Friar Francis" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="215" source="18" target="13" label="Don Pedro --- Antonio" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="216" source="18" target="15" label="Don Pedro --- Verges">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="217" source="18" target="16" label="Don Pedro --- Hero" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="218" source="18" target="20" label="Don Pedro --- Ursula">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="219" source="18" target="22" label="Don Pedro --- Balthasar" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="220" source="18" target="23" label="Don Pedro --- Messengers" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="221" source="19" target="0" label="A Sexton --- Dogberry">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="222" source="19" target="3" label="A Sexton --- Borachio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="223" source="19" target="4" label="A Sexton --- Second Watch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="224" source="19" target="14" label="A Sexton --- First Watch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="225" source="19" target="15" label="A Sexton --- Verges">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="226" source="19" target="17" label="A Sexton --- Watch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="227" source="19" target="21" label="A Sexton --- Conrade">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="228" source="20" target="1" label="Ursula --- Leonato">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="229" source="20" target="3" label="Ursula --- Borachio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="230" source="20" target="6" label="Ursula --- Don John">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="231" source="20" target="7" label="Ursula --- Beatrice" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="232" source="20" target="9" label="Ursula --- Claudio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="233" source="20" target="10" label="Ursula --- Benedick" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="234" source="20" target="11" label="Ursula --- Margaret" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="235" source="20" target="13" label="Ursula --- Antonio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="236" source="20" target="16" label="Ursula --- Hero" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="237" source="20" target="18" label="Ursula --- Don Pedro">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="238" source="20" target="22" label="Ursula --- Balthasar">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="239" source="21" target="0" label="Conrade --- Dogberry" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="240" source="21" target="3" label="Conrade --- Borachio" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="241" source="21" target="4" label="Conrade --- Second Watch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="242" source="21" target="6" label="Conrade --- Don John">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="243" source="21" target="14" label="Conrade --- First Watch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="244" source="21" target="15" label="Conrade --- Verges" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="245" source="21" target="17" label="Conrade --- Watch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="246" source="21" target="19" label="Conrade --- A Sexton">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="247" source="22" target="1" label="Balthasar --- Leonato" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="248" source="22" target="3" label="Balthasar --- Borachio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="249" source="22" target="6" label="Balthasar --- Don John">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="250" source="22" target="7" label="Balthasar --- Beatrice" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="251" source="22" target="8" label="Balthasar --- A Boy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="252" source="22" target="9" label="Balthasar --- Claudio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="253" source="22" target="10" label="Balthasar --- Benedick" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="254" source="22" target="11" label="Balthasar --- Margaret">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="255" source="22" target="13" label="Balthasar --- Antonio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="256" source="22" target="16" label="Balthasar --- Hero">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="257" source="22" target="18" label="Balthasar --- Don Pedro" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="258" source="22" target="20" label="Balthasar --- Ursula">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="259" source="23" target="0" label="Messengers --- Dogberry">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="260" source="23" target="1" label="Messengers --- Leonato" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="261" source="23" target="6" label="Messengers --- Don John">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="262" source="23" target="7" label="Messengers --- Beatrice" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="263" source="23" target="9" label="Messengers --- Claudio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="264" source="23" target="10" label="Messengers --- Benedick" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="265" source="23" target="12" label="Messengers --- Friar Francis">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="266" source="23" target="13" label="Messengers --- Antonio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="267" source="23" target="15" label="Messengers --- Verges">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="268" source="23" target="16" label="Messengers --- Hero" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="269" source="23" target="18" label="Messengers --- Don Pedro" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,2343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-02-03">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="criticality" title="criticality" type="double"></attribute>
+      <attribute id="key" title="key" type="string"></attribute>
+      <attribute id="lines" title="lines" type="integer"></attribute>
+      <attribute id="words" title="words" type="integer"></attribute>
+      <attribute id="eigencentrality" title="Eigenvector Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="triangles" title="Number of triangles" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="scenes" title="scenes" type="integer"></attribute>
+    </attributes>
+    <nodes>
+      <node id="0" label="Third Servant">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="tam-third-serv."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="1" label="Third Huntsman">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="tam-third-hun."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="2" label="Servant">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="tam-serv."></attvalue>
+          <attvalue for="lines" value="3"></attvalue>
+          <attvalue for="words" value="25"></attvalue>
+          <attvalue for="eigencentrality" value="0.16807937146745763"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.46296296296296297"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5133333333333333"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="3" label="Huntsmen">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="sha-tam-role6"></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="3"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="4" label="Curtis">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Curtis"></attvalue>
+          <attvalue for="lines" value="26"></attvalue>
+          <attvalue for="words" value="199"></attvalue>
+          <attvalue for="eigencentrality" value="0.47830259299438804"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6097560975609756"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6933333333333332"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="5" label="Second Player">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="tam-player2"></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="4"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="6" label="Gremio">
+        <attvalues>
+          <attvalue for="criticality" value="0.13283068783068783"></attvalue>
+          <attvalue for="key" value="Gremio"></attvalue>
+          <attvalue for="lines" value="169"></attvalue>
+          <attvalue for="words" value="1518"></attvalue>
+          <attvalue for="eigencentrality" value="0.7551606150072454"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7142857142857143"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.984920634920635"></attvalue>
+          <attvalue for="clustering" value="0.7523809523809524"></attvalue>
+          <attvalue for="triangles" value="79"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="30"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="7" label="Petruchio">
+        <attvalues>
+          <attvalue for="criticality" value="0.8797979797979795"></attvalue>
+          <attvalue for="key" value="Petruchio1"></attvalue>
+          <attvalue for="lines" value="585"></attvalue>
+          <attvalue for="words" value="5294"></attvalue>
+          <attvalue for="eigencentrality" value="0.9563169243402624"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8928571428571429"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.94"></attvalue>
+          <attvalue for="betweenesscentrality" value="38.711111111111094"></attvalue>
+          <attvalue for="clustering" value="0.48917748917748916"></attvalue>
+          <attvalue for="triangles" value="113"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="44"></attvalue>
+          <attvalue for="modularity_class" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="8" label="Hostess">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="tam-host."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="5"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="9" label="Philip">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Philip"></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="4"></attvalue>
+          <attvalue for="eigencentrality" value="0.47830259299438804"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6097560975609756"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6933333333333332"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="10" label="Second Huntsman">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="tam-sec.-hun."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="6"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="11" label="Hortensio">
+        <attvalues>
+          <attvalue for="criticality" value="0.5690255731922398"></attvalue>
+          <attvalue for="key" value="Hortensio"></attvalue>
+          <attvalue for="lines" value="207"></attvalue>
+          <attvalue for="words" value="1797"></attvalue>
+          <attvalue for="eigencentrality" value="0.8060547887135372"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.78125"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.86"></attvalue>
+          <attvalue for="betweenesscentrality" value="20.484920634920634"></attvalue>
+          <attvalue for="clustering" value="0.5751633986928104"></attvalue>
+          <attvalue for="triangles" value="88"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="36"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="12" label="All">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="tam-all"></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="7"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="13" label="A Player">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="tam-a-player."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="8"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="14" label="Messenger">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="tam-mess."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="9"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="15" label="Peter">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="tam-peter."></attvalue>
+          <attvalue for="lines" value="2"></attvalue>
+          <attvalue for="words" value="10"></attvalue>
+          <attvalue for="eigencentrality" value="0.47830259299438804"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6097560975609756"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6933333333333332"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="16" label="Widow">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="tam-wid."></attvalue>
+          <attvalue for="lines" value="11"></attvalue>
+          <attvalue for="words" value="87"></attvalue>
+          <attvalue for="eigencentrality" value="0.5124813462016264"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6097560975609756"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.68"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="17" label="Christopher Sly">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="SlyChr"></attvalue>
+          <attvalue for="lines" value="4"></attvalue>
+          <attvalue for="words" value="32"></attvalue>
+          <attvalue for="eigencentrality" value="0.5016641383124814"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6097560975609756"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.68"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="18" label="A Lord">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="tam-lord."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="10"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="19" label="Nicholas">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Nicholas"></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="3"></attvalue>
+          <attvalue for="eigencentrality" value="0.47830259299438804"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6097560975609756"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6933333333333332"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="20" label="Tailor">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="tam-tai."></attvalue>
+          <attvalue for="lines" value="16"></attvalue>
+          <attvalue for="words" value="128"></attvalue>
+          <attvalue for="eigencentrality" value="0.28425794422466466"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5555555555555556"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="10"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="modularity_class" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="21" label="Grumio">
+        <attvalues>
+          <attvalue for="criticality" value="0.6513157894736838"></attvalue>
+          <attvalue for="key" value="Grumio"></attvalue>
+          <attvalue for="lines" value="177"></attvalue>
+          <attvalue for="words" value="1645"></attvalue>
+          <attvalue for="eigencentrality" value="0.8499749418422194"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8064516129032258"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.88"></attvalue>
+          <attvalue for="betweenesscentrality" value="24.749999999999986"></attvalue>
+          <attvalue for="clustering" value="0.5263157894736842"></attvalue>
+          <attvalue for="triangles" value="90"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+          <attvalue for="modularity_class" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="22" label="All Servants">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="tam-all-serv."></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="6"></attvalue>
+          <attvalue for="eigencentrality" value="0.47830259299438804"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6097560975609756"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6933333333333332"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="23" label="Page">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="tam-page."></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="6"></attvalue>
+          <attvalue for="eigencentrality" value="0.5016641383124814"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6097560975609756"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.68"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="24" label="Second Servant">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="tam-sec.-serv."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="11"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="25" label="Vincentio">
+        <attvalues>
+          <attvalue for="criticality" value="0.005555555555555555"></attvalue>
+          <attvalue for="key" value="Vincentio"></attvalue>
+          <attvalue for="lines" value="47"></attvalue>
+          <attvalue for="words" value="403"></attvalue>
+          <attvalue for="eigencentrality" value="0.547148932661846"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.625"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.1111111111111111"></attvalue>
+          <attvalue for="clustering" value="0.9777777777777777"></attvalue>
+          <attvalue for="triangles" value="44"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="26" label="Biondello">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Biondello"></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="8"></attvalue>
+          <attvalue for="eigencentrality" value="0.3553254766367424"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5681818181818182"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.62"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="15"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="modularity_class" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="27" label="Nathaniel">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Nathaniel1"></attvalue>
+          <attvalue for="lines" value="4"></attvalue>
+          <attvalue for="words" value="26"></attvalue>
+          <attvalue for="eigencentrality" value="0.47830259299438804"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6097560975609756"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6933333333333332"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="28" label="Baptista">
+        <attvalues>
+          <attvalue for="criticality" value="0.07922335600907028"></attvalue>
+          <attvalue for="key" value="MinolaBpt"></attvalue>
+          <attvalue for="lines" value="173"></attvalue>
+          <attvalue for="words" value="1519"></attvalue>
+          <attvalue for="eigencentrality" value="0.7309502488799331"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6944444444444444"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.78"></attvalue>
+          <attvalue for="betweenesscentrality" value="2.218253968253968"></attvalue>
+          <attvalue for="clustering" value="0.8131868131868132"></attvalue>
+          <attvalue for="triangles" value="74"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="29" label="Bianca">
+        <attvalues>
+          <attvalue for="criticality" value="0.28505291005291006"></attvalue>
+          <attvalue for="key" value="MinolaBi"></attvalue>
+          <attvalue for="lines" value="70"></attvalue>
+          <attvalue for="words" value="625"></attvalue>
+          <attvalue for="eigencentrality" value="0.7426820890101281"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7142857142857143"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.551587301587302"></attvalue>
+          <attvalue for="clustering" value="0.7238095238095238"></attvalue>
+          <attvalue for="triangles" value="76"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="30"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="30" label="First Huntsman">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="tam-first-hun."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="12"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="11"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="31" label="First Servant">
+        <attvalues>
+          <attvalue for="criticality" value="0.5486111111111112"></attvalue>
+          <attvalue for="key" value="tam-first-serv."></attvalue>
+          <attvalue for="lines" value="2"></attvalue>
+          <attvalue for="words" value="13"></attvalue>
+          <attvalue for="eigencentrality" value="0.8544956839258573"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.78125"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.86"></attvalue>
+          <attvalue for="betweenesscentrality" value="19.75"></attvalue>
+          <attvalue for="clustering" value="0.6078431372549019"></attvalue>
+          <attvalue for="triangles" value="93"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="36"></attvalue>
+          <attvalue for="modularity_class" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="32" label="Joseph">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Joseph"></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="3"></attvalue>
+          <attvalue for="eigencentrality" value="0.47830259299438804"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6097560975609756"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6933333333333332"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="33" label="Katharina">
+        <attvalues>
+          <attvalue for="criticality" value="0.9485852311939267"></attvalue>
+          <attvalue for="key" value="MinolaK"></attvalue>
+          <attvalue for="lines" value="219"></attvalue>
+          <attvalue for="words" value="2006"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.9259259259259259"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.96"></attvalue>
+          <attvalue for="betweenesscentrality" value="43.634920634920626"></attvalue>
+          <attvalue for="clustering" value="0.48616600790513836"></attvalue>
+          <attvalue for="triangles" value="123"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="46"></attvalue>
+          <attvalue for="modularity_class" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="34" label="Tranio">
+        <attvalues>
+          <attvalue for="criticality" value="0.13283068783068783"></attvalue>
+          <attvalue for="key" value="Tranio"></attvalue>
+          <attvalue for="lines" value="397"></attvalue>
+          <attvalue for="words" value="3512"></attvalue>
+          <attvalue for="eigencentrality" value="0.7551606150072454"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7142857142857143"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.984920634920635"></attvalue>
+          <attvalue for="clustering" value="0.7523809523809524"></attvalue>
+          <attvalue for="triangles" value="79"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="30"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="35" label="Lucentio">
+        <attvalues>
+          <attvalue for="criticality" value="0.3380704365079365"></attvalue>
+          <attvalue for="key" value="Lucentio1"></attvalue>
+          <attvalue for="lines" value="188"></attvalue>
+          <attvalue for="words" value="1575"></attvalue>
+          <attvalue for="eigencentrality" value="0.7668924551374395"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7352941176470589"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.82"></attvalue>
+          <attvalue for="betweenesscentrality" value="10.818253968253968"></attvalue>
+          <attvalue for="clustering" value="0.675"></attvalue>
+          <attvalue for="triangles" value="81"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="36" label="Haberdasher">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="tam-hab."></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="9"></attvalue>
+          <attvalue for="eigencentrality" value="0.28425794422466466"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5555555555555556"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="10"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="modularity_class" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="37" label="Players">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="tam-players."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="13"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="38" label="A Pedant">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="tam-ped."></attvalue>
+          <attvalue for="lines" value="51"></attvalue>
+          <attvalue for="words" value="430"></attvalue>
+          <attvalue for="eigencentrality" value="0.5124813462016264"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6097560975609756"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.68"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="2" target="11" label="Servant --- Hortensio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1" source="2" target="29" label="Servant --- Bianca">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="2" source="2" target="35" label="Servant --- Lucentio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="3" source="4" target="7" label="Curtis --- Petruchio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="4" source="4" target="9" label="Curtis --- Philip">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="5" source="4" target="15" label="Curtis --- Peter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="6" source="4" target="19" label="Curtis --- Nicholas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="7" source="4" target="21" label="Curtis --- Grumio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="8" source="4" target="22" label="Curtis --- All Servants">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="9" source="4" target="27" label="Curtis --- Nathaniel">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="10" source="4" target="31" label="Curtis --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="11" source="4" target="32" label="Curtis --- Joseph">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="12" source="4" target="33" label="Curtis --- Katharina">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="13" source="6" target="7" label="Gremio --- Petruchio" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="14" source="6" target="11" label="Gremio --- Hortensio" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="15" source="6" target="16" label="Gremio --- Widow">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="16" source="6" target="17" label="Gremio --- Christopher Sly">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="17" source="6" target="21" label="Gremio --- Grumio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="18" source="6" target="23" label="Gremio --- Page">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="19" source="6" target="25" label="Gremio --- Vincentio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="20" source="6" target="26" label="Gremio --- Biondello">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="21" source="6" target="28" label="Gremio --- Baptista" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="22" source="6" target="29" label="Gremio --- Bianca" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="23" source="6" target="31" label="Gremio --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="24" source="6" target="33" label="Gremio --- Katharina" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="25" source="6" target="34" label="Gremio --- Tranio" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="26" source="6" target="35" label="Gremio --- Lucentio" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="27" source="6" target="38" label="Gremio --- A Pedant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="28" source="7" target="4" label="Petruchio --- Curtis">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="29" source="7" target="6" label="Petruchio --- Gremio" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="30" source="7" target="9" label="Petruchio --- Philip">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="31" source="7" target="11" label="Petruchio --- Hortensio" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="32" source="7" target="15" label="Petruchio --- Peter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="33" source="7" target="16" label="Petruchio --- Widow">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="34" source="7" target="19" label="Petruchio --- Nicholas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="35" source="7" target="20" label="Petruchio --- Tailor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="36" source="7" target="21" label="Petruchio --- Grumio" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="37" source="7" target="22" label="Petruchio --- All Servants">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="38" source="7" target="25" label="Petruchio --- Vincentio" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="39" source="7" target="26" label="Petruchio --- Biondello">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="40" source="7" target="27" label="Petruchio --- Nathaniel">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="41" source="7" target="28" label="Petruchio --- Baptista" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="42" source="7" target="29" label="Petruchio --- Bianca" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="43" source="7" target="31" label="Petruchio --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="44" source="7" target="32" label="Petruchio --- Joseph">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="45" source="7" target="33" label="Petruchio --- Katharina" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="46" source="7" target="34" label="Petruchio --- Tranio" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="47" source="7" target="35" label="Petruchio --- Lucentio" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="48" source="7" target="36" label="Petruchio --- Haberdasher">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="49" source="7" target="38" label="Petruchio --- A Pedant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="50" source="9" target="4" label="Philip --- Curtis">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="51" source="9" target="7" label="Philip --- Petruchio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="52" source="9" target="15" label="Philip --- Peter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="53" source="9" target="19" label="Philip --- Nicholas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="54" source="9" target="21" label="Philip --- Grumio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="55" source="9" target="22" label="Philip --- All Servants">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="56" source="9" target="27" label="Philip --- Nathaniel">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="57" source="9" target="31" label="Philip --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="58" source="9" target="32" label="Philip --- Joseph">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="59" source="9" target="33" label="Philip --- Katharina">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="60" source="11" target="2" label="Hortensio --- Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="61" source="11" target="6" label="Hortensio --- Gremio" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="62" source="11" target="7" label="Hortensio --- Petruchio" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="63" source="11" target="16" label="Hortensio --- Widow">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="64" source="11" target="17" label="Hortensio --- Christopher Sly">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="65" source="11" target="20" label="Hortensio --- Tailor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="66" source="11" target="21" label="Hortensio --- Grumio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="67" source="11" target="23" label="Hortensio --- Page">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="68" source="11" target="25" label="Hortensio --- Vincentio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="69" source="11" target="26" label="Hortensio --- Biondello">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="70" source="11" target="28" label="Hortensio --- Baptista" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="71" source="11" target="29" label="Hortensio --- Bianca" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="72" source="11" target="31" label="Hortensio --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="73" source="11" target="33" label="Hortensio --- Katharina" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="74" source="11" target="34" label="Hortensio --- Tranio" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="75" source="11" target="35" label="Hortensio --- Lucentio" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="76" source="11" target="36" label="Hortensio --- Haberdasher">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="77" source="11" target="38" label="Hortensio --- A Pedant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="78" source="15" target="4" label="Peter --- Curtis">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="79" source="15" target="7" label="Peter --- Petruchio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="80" source="15" target="9" label="Peter --- Philip">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="81" source="15" target="19" label="Peter --- Nicholas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="82" source="15" target="21" label="Peter --- Grumio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="83" source="15" target="22" label="Peter --- All Servants">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="84" source="15" target="27" label="Peter --- Nathaniel">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="85" source="15" target="31" label="Peter --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="86" source="15" target="32" label="Peter --- Joseph">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="87" source="15" target="33" label="Peter --- Katharina">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="88" source="16" target="6" label="Widow --- Gremio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="89" source="16" target="7" label="Widow --- Petruchio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="90" source="16" target="11" label="Widow --- Hortensio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="91" source="16" target="25" label="Widow --- Vincentio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="92" source="16" target="28" label="Widow --- Baptista">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="93" source="16" target="29" label="Widow --- Bianca">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="94" source="16" target="33" label="Widow --- Katharina">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="95" source="16" target="34" label="Widow --- Tranio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="96" source="16" target="35" label="Widow --- Lucentio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="97" source="17" target="6" label="Christopher Sly --- Gremio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="98" source="17" target="11" label="Christopher Sly --- Hortensio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="99" source="17" target="23" label="Christopher Sly --- Page">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="100" source="17" target="28" label="Christopher Sly --- Baptista">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="101" source="17" target="29" label="Christopher Sly --- Bianca">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="102" source="17" target="31" label="Christopher Sly --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="103" source="17" target="33" label="Christopher Sly --- Katharina">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="104" source="17" target="34" label="Christopher Sly --- Tranio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="105" source="17" target="35" label="Christopher Sly --- Lucentio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="106" source="19" target="4" label="Nicholas --- Curtis">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="107" source="19" target="7" label="Nicholas --- Petruchio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="108" source="19" target="9" label="Nicholas --- Philip">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="109" source="19" target="15" label="Nicholas --- Peter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="110" source="19" target="21" label="Nicholas --- Grumio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="111" source="19" target="22" label="Nicholas --- All Servants">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="112" source="19" target="27" label="Nicholas --- Nathaniel">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="113" source="19" target="31" label="Nicholas --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="114" source="19" target="32" label="Nicholas --- Joseph">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="115" source="19" target="33" label="Nicholas --- Katharina">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="116" source="20" target="7" label="Tailor --- Petruchio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="117" source="20" target="11" label="Tailor --- Hortensio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="118" source="20" target="21" label="Tailor --- Grumio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="119" source="20" target="33" label="Tailor --- Katharina">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="120" source="20" target="36" label="Tailor --- Haberdasher">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="121" source="21" target="4" label="Grumio --- Curtis">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="122" source="21" target="6" label="Grumio --- Gremio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="123" source="21" target="7" label="Grumio --- Petruchio" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="124" source="21" target="9" label="Grumio --- Philip">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="125" source="21" target="11" label="Grumio --- Hortensio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="126" source="21" target="15" label="Grumio --- Peter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="127" source="21" target="19" label="Grumio --- Nicholas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="128" source="21" target="20" label="Grumio --- Tailor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="129" source="21" target="22" label="Grumio --- All Servants">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="130" source="21" target="26" label="Grumio --- Biondello">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="131" source="21" target="27" label="Grumio --- Nathaniel">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="132" source="21" target="28" label="Grumio --- Baptista">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="133" source="21" target="29" label="Grumio --- Bianca">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="134" source="21" target="31" label="Grumio --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="135" source="21" target="32" label="Grumio --- Joseph">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="136" source="21" target="33" label="Grumio --- Katharina" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="137" source="21" target="34" label="Grumio --- Tranio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="138" source="21" target="35" label="Grumio --- Lucentio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="139" source="21" target="36" label="Grumio --- Haberdasher">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="140" source="22" target="4" label="All Servants --- Curtis">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="141" source="22" target="7" label="All Servants --- Petruchio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="142" source="22" target="9" label="All Servants --- Philip">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="143" source="22" target="15" label="All Servants --- Peter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="144" source="22" target="19" label="All Servants --- Nicholas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="145" source="22" target="21" label="All Servants --- Grumio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="146" source="22" target="27" label="All Servants --- Nathaniel">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="147" source="22" target="31" label="All Servants --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="148" source="22" target="32" label="All Servants --- Joseph">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="149" source="22" target="33" label="All Servants --- Katharina">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="150" source="23" target="6" label="Page --- Gremio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="151" source="23" target="11" label="Page --- Hortensio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="152" source="23" target="17" label="Page --- Christopher Sly">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="153" source="23" target="28" label="Page --- Baptista">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="154" source="23" target="29" label="Page --- Bianca">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="155" source="23" target="31" label="Page --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="156" source="23" target="33" label="Page --- Katharina">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="157" source="23" target="34" label="Page --- Tranio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="158" source="23" target="35" label="Page --- Lucentio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="159" source="25" target="6" label="Vincentio --- Gremio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="160" source="25" target="7" label="Vincentio --- Petruchio" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="161" source="25" target="11" label="Vincentio --- Hortensio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="162" source="25" target="16" label="Vincentio --- Widow">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="163" source="25" target="28" label="Vincentio --- Baptista" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="164" source="25" target="29" label="Vincentio --- Bianca" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="165" source="25" target="33" label="Vincentio --- Katharina" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="166" source="25" target="34" label="Vincentio --- Tranio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="167" source="25" target="35" label="Vincentio --- Lucentio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="168" source="25" target="38" label="Vincentio --- A Pedant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="169" source="26" target="6" label="Biondello --- Gremio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="170" source="26" target="7" label="Biondello --- Petruchio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="171" source="26" target="11" label="Biondello --- Hortensio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="172" source="26" target="21" label="Biondello --- Grumio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="173" source="26" target="34" label="Biondello --- Tranio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="174" source="26" target="35" label="Biondello --- Lucentio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="175" source="27" target="4" label="Nathaniel --- Curtis">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="176" source="27" target="7" label="Nathaniel --- Petruchio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="177" source="27" target="9" label="Nathaniel --- Philip">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="178" source="27" target="15" label="Nathaniel --- Peter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="179" source="27" target="19" label="Nathaniel --- Nicholas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="180" source="27" target="21" label="Nathaniel --- Grumio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="181" source="27" target="22" label="Nathaniel --- All Servants">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="182" source="27" target="31" label="Nathaniel --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="183" source="27" target="32" label="Nathaniel --- Joseph">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="184" source="27" target="33" label="Nathaniel --- Katharina">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="185" source="28" target="6" label="Baptista --- Gremio" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="186" source="28" target="7" label="Baptista --- Petruchio" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="187" source="28" target="11" label="Baptista --- Hortensio" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="188" source="28" target="16" label="Baptista --- Widow">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="189" source="28" target="17" label="Baptista --- Christopher Sly">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="190" source="28" target="21" label="Baptista --- Grumio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="191" source="28" target="23" label="Baptista --- Page">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="192" source="28" target="25" label="Baptista --- Vincentio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="193" source="28" target="29" label="Baptista --- Bianca" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="194" source="28" target="31" label="Baptista --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="195" source="28" target="33" label="Baptista --- Katharina" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="196" source="28" target="34" label="Baptista --- Tranio" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="197" source="28" target="35" label="Baptista --- Lucentio" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="198" source="28" target="38" label="Baptista --- A Pedant" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="199" source="29" target="2" label="Bianca --- Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="200" source="29" target="6" label="Bianca --- Gremio" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="201" source="29" target="7" label="Bianca --- Petruchio" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="202" source="29" target="11" label="Bianca --- Hortensio" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="203" source="29" target="16" label="Bianca --- Widow">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="204" source="29" target="17" label="Bianca --- Christopher Sly">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="205" source="29" target="21" label="Bianca --- Grumio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="206" source="29" target="23" label="Bianca --- Page">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="207" source="29" target="25" label="Bianca --- Vincentio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="208" source="29" target="28" label="Bianca --- Baptista" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="209" source="29" target="31" label="Bianca --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="210" source="29" target="33" label="Bianca --- Katharina" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="211" source="29" target="34" label="Bianca --- Tranio" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="212" source="29" target="35" label="Bianca --- Lucentio" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="213" source="29" target="38" label="Bianca --- A Pedant" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="214" source="31" target="4" label="First Servant --- Curtis">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="215" source="31" target="6" label="First Servant --- Gremio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="216" source="31" target="7" label="First Servant --- Petruchio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="217" source="31" target="9" label="First Servant --- Philip">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="218" source="31" target="11" label="First Servant --- Hortensio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="219" source="31" target="15" label="First Servant --- Peter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="220" source="31" target="17" label="First Servant --- Christopher Sly">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="221" source="31" target="19" label="First Servant --- Nicholas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="222" source="31" target="21" label="First Servant --- Grumio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="223" source="31" target="22" label="First Servant --- All Servants">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="224" source="31" target="23" label="First Servant --- Page">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="225" source="31" target="27" label="First Servant --- Nathaniel">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="226" source="31" target="28" label="First Servant --- Baptista">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="227" source="31" target="29" label="First Servant --- Bianca">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="228" source="31" target="32" label="First Servant --- Joseph">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="229" source="31" target="33" label="First Servant --- Katharina" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="230" source="31" target="34" label="First Servant --- Tranio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="231" source="31" target="35" label="First Servant --- Lucentio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="232" source="32" target="4" label="Joseph --- Curtis">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="233" source="32" target="7" label="Joseph --- Petruchio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="234" source="32" target="9" label="Joseph --- Philip">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="235" source="32" target="15" label="Joseph --- Peter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="236" source="32" target="19" label="Joseph --- Nicholas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="237" source="32" target="21" label="Joseph --- Grumio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="238" source="32" target="22" label="Joseph --- All Servants">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="239" source="32" target="27" label="Joseph --- Nathaniel">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="240" source="32" target="31" label="Joseph --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="241" source="32" target="33" label="Joseph --- Katharina">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="242" source="33" target="4" label="Katharina --- Curtis">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="243" source="33" target="6" label="Katharina --- Gremio" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="244" source="33" target="7" label="Katharina --- Petruchio" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="245" source="33" target="9" label="Katharina --- Philip">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="246" source="33" target="11" label="Katharina --- Hortensio" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="247" source="33" target="15" label="Katharina --- Peter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="248" source="33" target="16" label="Katharina --- Widow">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="249" source="33" target="17" label="Katharina --- Christopher Sly">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="250" source="33" target="19" label="Katharina --- Nicholas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="251" source="33" target="20" label="Katharina --- Tailor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="252" source="33" target="21" label="Katharina --- Grumio" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="253" source="33" target="22" label="Katharina --- All Servants">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="254" source="33" target="23" label="Katharina --- Page">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="255" source="33" target="25" label="Katharina --- Vincentio" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="256" source="33" target="27" label="Katharina --- Nathaniel">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="257" source="33" target="28" label="Katharina --- Baptista" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="258" source="33" target="29" label="Katharina --- Bianca" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="259" source="33" target="31" label="Katharina --- First Servant" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="260" source="33" target="32" label="Katharina --- Joseph">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="261" source="33" target="34" label="Katharina --- Tranio" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="262" source="33" target="35" label="Katharina --- Lucentio" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="263" source="33" target="36" label="Katharina --- Haberdasher">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="264" source="33" target="38" label="Katharina --- A Pedant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="265" source="34" target="6" label="Tranio --- Gremio" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="266" source="34" target="7" label="Tranio --- Petruchio" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="267" source="34" target="11" label="Tranio --- Hortensio" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="268" source="34" target="16" label="Tranio --- Widow">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="269" source="34" target="17" label="Tranio --- Christopher Sly">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="270" source="34" target="21" label="Tranio --- Grumio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="271" source="34" target="23" label="Tranio --- Page">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="272" source="34" target="25" label="Tranio --- Vincentio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="273" source="34" target="26" label="Tranio --- Biondello">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="274" source="34" target="28" label="Tranio --- Baptista" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="275" source="34" target="29" label="Tranio --- Bianca" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="276" source="34" target="31" label="Tranio --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="277" source="34" target="33" label="Tranio --- Katharina" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="278" source="34" target="35" label="Tranio --- Lucentio" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="279" source="34" target="38" label="Tranio --- A Pedant" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="280" source="35" target="2" label="Lucentio --- Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="281" source="35" target="6" label="Lucentio --- Gremio" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="282" source="35" target="7" label="Lucentio --- Petruchio" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="283" source="35" target="11" label="Lucentio --- Hortensio" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="284" source="35" target="16" label="Lucentio --- Widow">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="285" source="35" target="17" label="Lucentio --- Christopher Sly">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="286" source="35" target="21" label="Lucentio --- Grumio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="287" source="35" target="23" label="Lucentio --- Page">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="288" source="35" target="25" label="Lucentio --- Vincentio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="289" source="35" target="26" label="Lucentio --- Biondello">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="290" source="35" target="28" label="Lucentio --- Baptista" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="291" source="35" target="29" label="Lucentio --- Bianca" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="292" source="35" target="31" label="Lucentio --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="293" source="35" target="33" label="Lucentio --- Katharina" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="294" source="35" target="34" label="Lucentio --- Tranio" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="295" source="35" target="38" label="Lucentio --- A Pedant" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="296" source="36" target="7" label="Haberdasher --- Petruchio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="297" source="36" target="11" label="Haberdasher --- Hortensio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="298" source="36" target="20" label="Haberdasher --- Tailor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="299" source="36" target="21" label="Haberdasher --- Grumio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="300" source="36" target="33" label="Haberdasher --- Katharina">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="301" source="38" target="6" label="A Pedant --- Gremio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="302" source="38" target="7" label="A Pedant --- Petruchio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="303" source="38" target="11" label="A Pedant --- Hortensio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="304" source="38" target="25" label="A Pedant --- Vincentio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="305" source="38" target="28" label="A Pedant --- Baptista" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="306" source="38" target="29" label="A Pedant --- Bianca" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="307" source="38" target="33" label="A Pedant --- Katharina">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="308" source="38" target="34" label="A Pedant --- Tranio" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="309" source="38" target="35" label="A Pedant --- Lucentio" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

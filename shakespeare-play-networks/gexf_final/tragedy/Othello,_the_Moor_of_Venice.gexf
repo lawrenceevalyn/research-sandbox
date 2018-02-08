@@ -1,0 +1,1794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-02-03">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="criticality" title="criticality" type="double"></attribute>
+      <attribute id="key" title="key" type="string"></attribute>
+      <attribute id="lines" title="lines" type="integer"></attribute>
+      <attribute id="words" title="words" type="integer"></attribute>
+      <attribute id="eigencentrality" title="Eigenvector Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="triangles" title="Number of triangles" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="scenes" title="scenes" type="integer"></attribute>
+    </attributes>
+    <nodes>
+      <node id="0" label="Gentlemen">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="oth-gent."></attvalue>
+          <attvalue for="lines" value="37"></attvalue>
+          <attvalue for="words" value="285"></attvalue>
+          <attvalue for="eigencentrality" value="0.4702627847016108"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6060606060606061"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.675"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="1" label="Iago">
+        <attvalues>
+          <attvalue for="criticality" value="0.6311309523809525"></attvalue>
+          <attvalue for="key" value="Iago"></attvalue>
+          <attvalue for="lines" value="1104"></attvalue>
+          <attvalue for="words" value="9727"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="25.2452380952381"></attvalue>
+          <attvalue for="clustering" value="0.531578947368421"></attvalue>
+          <attvalue for="triangles" value="101"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="40"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="2" label="First Senator">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="oth-sen1."></attvalue>
+          <attvalue for="lines" value="5"></attvalue>
+          <attvalue for="words" value="36"></attvalue>
+          <attvalue for="eigencentrality" value="0.597747599961975"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="3" label="Emilia">
+        <attvalues>
+          <attvalue for="criticality" value="0.18058608058608058"></attvalue>
+          <attvalue for="key" value="Emilia1"></attvalue>
+          <attvalue for="lines" value="246"></attvalue>
+          <attvalue for="words" value="2084"></attvalue>
+          <attvalue for="eigencentrality" value="0.6871097874365502"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7407407407407407"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.825"></attvalue>
+          <attvalue for="betweenesscentrality" value="4.695238095238095"></attvalue>
+          <attvalue for="clustering" value="0.7307692307692307"></attvalue>
+          <attvalue for="triangles" value="57"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="26"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="4" label="Othello">
+        <attvalues>
+          <attvalue for="criticality" value="0.4340852130325815"></attvalue>
+          <attvalue for="key" value="Othello"></attvalue>
+          <attvalue for="lines" value="881"></attvalue>
+          <attvalue for="words" value="7293"></attvalue>
+          <attvalue for="eigencentrality" value="0.9830256619784495"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.9523809523809523"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.975"></attvalue>
+          <attvalue for="betweenesscentrality" value="16.495238095238097"></attvalue>
+          <attvalue for="clustering" value="0.5730994152046783"></attvalue>
+          <attvalue for="triangles" value="98"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="5" label="Officers">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="sha-oth-role19"></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="6" label="First Officer">
+        <attvalues>
+          <attvalue for="criticality" value="0.03787878787878789"></attvalue>
+          <attvalue for="key" value="oth-officer"></attvalue>
+          <attvalue for="lines" value="5"></attvalue>
+          <attvalue for="words" value="39"></attvalue>
+          <attvalue for="eigencentrality" value="0.6548785308280586"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6896551724137931"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.775"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.8333333333333335"></attvalue>
+          <attvalue for="clustering" value="0.9090909090909091"></attvalue>
+          <attvalue for="triangles" value="50"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="22"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="7" label="Second Gentleman">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="oth-gent2."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="8" label="Fourth Gentleman">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="oth-gent4."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="3"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="9" label="Gratiano">
+        <attvalues>
+          <attvalue for="criticality" value="0.0125"></attvalue>
+          <attvalue for="key" value="Gratiano2"></attvalue>
+          <attvalue for="lines" value="26"></attvalue>
+          <attvalue for="words" value="188"></attvalue>
+          <attvalue for="eigencentrality" value="0.605634104075808"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.25"></attvalue>
+          <attvalue for="clustering" value="0.9555555555555556"></attvalue>
+          <attvalue for="triangles" value="43"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="10" label="Desdemona">
+        <attvalues>
+          <attvalue for="criticality" value="0.4340852130325815"></attvalue>
+          <attvalue for="key" value="Desdemona"></attvalue>
+          <attvalue for="lines" value="389"></attvalue>
+          <attvalue for="words" value="3192"></attvalue>
+          <attvalue for="eigencentrality" value="0.9830256619784495"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.9523809523809523"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.975"></attvalue>
+          <attvalue for="betweenesscentrality" value="16.495238095238097"></attvalue>
+          <attvalue for="clustering" value="0.5730994152046783"></attvalue>
+          <attvalue for="triangles" value="98"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="11" label="Roderigo">
+        <attvalues>
+          <attvalue for="criticality" value="0.3674603174603175"></attvalue>
+          <attvalue for="key" value="Roderigo"></attvalue>
+          <attvalue for="lines" value="118"></attvalue>
+          <attvalue for="words" value="996"></attvalue>
+          <attvalue for="eigencentrality" value="0.9528421558742263"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.9090909090909091"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.95"></attvalue>
+          <attvalue for="betweenesscentrality" value="13.22857142857143"></attvalue>
+          <attvalue for="clustering" value="0.6078431372549019"></attvalue>
+          <attvalue for="triangles" value="93"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="36"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="12" label="Other Senators">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="oth-sen."></attvalue>
+          <attvalue for="lines" value="28"></attvalue>
+          <attvalue for="words" value="230"></attvalue>
+          <attvalue for="eigencentrality" value="0.597747599961975"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="13" label="All">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="oth-all"></attvalue>
+          <attvalue for="lines" value="2"></attvalue>
+          <attvalue for="words" value="7"></attvalue>
+          <attvalue for="eigencentrality" value="0.5654159933624332"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6451612903225806"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.725"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="14" label="Clown">
+        <attvalues>
+          <attvalue for="criticality" value="0.05357142857142857"></attvalue>
+          <attvalue for="key" value="oth-clo."></attvalue>
+          <attvalue for="lines" value="28"></attvalue>
+          <attvalue for="words" value="255"></attvalue>
+          <attvalue for="eigencentrality" value="0.4102791828347439"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6060606060606061"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.675"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.75"></attvalue>
+          <attvalue for="clustering" value="0.8571428571428571"></attvalue>
+          <attvalue for="triangles" value="18"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="15" label="Cassio">
+        <attvalues>
+          <attvalue for="criticality" value="0.29984126984126985"></attvalue>
+          <attvalue for="key" value="Cassio"></attvalue>
+          <attvalue for="lines" value="278"></attvalue>
+          <attvalue for="words" value="2314"></attvalue>
+          <attvalue for="eigencentrality" value="0.7824155728358984"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.875"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.995238095238095"></attvalue>
+          <attvalue for="clustering" value="0.6285714285714286"></attvalue>
+          <attvalue for="triangles" value="66"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="30"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="16" label="Musicians">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="sha-oth-role26"></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="4"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="17" label="Bianca">
+        <attvalues>
+          <attvalue for="criticality" value="0.027777777777777776"></attvalue>
+          <attvalue for="key" value="Bianca"></attvalue>
+          <attvalue for="lines" value="35"></attvalue>
+          <attvalue for="words" value="301"></attvalue>
+          <attvalue for="eigencentrality" value="0.5509005975053638"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6451612903225806"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.725"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.49999999999999994"></attvalue>
+          <attvalue for="clustering" value="0.9166666666666666"></attvalue>
+          <attvalue for="triangles" value="33"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="18" label="Duke of Venice">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="VeniceD"></attvalue>
+          <attvalue for="lines" value="73"></attvalue>
+          <attvalue for="words" value="562"></attvalue>
+          <attvalue for="eigencentrality" value="0.597747599961975"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="19" label="Lodovico">
+        <attvalues>
+          <attvalue for="criticality" value="0.0125"></attvalue>
+          <attvalue for="key" value="Lodovico"></attvalue>
+          <attvalue for="lines" value="76"></attvalue>
+          <attvalue for="words" value="614"></attvalue>
+          <attvalue for="eigencentrality" value="0.605634104075808"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.25"></attvalue>
+          <attvalue for="clustering" value="0.9555555555555556"></attvalue>
+          <attvalue for="triangles" value="43"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="20" label="Sailor">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="oth-sailor"></attvalue>
+          <attvalue for="lines" value="4"></attvalue>
+          <attvalue for="words" value="29"></attvalue>
+          <attvalue for="eigencentrality" value="0.597747599961975"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="21" label="Brabantio">
+        <attvalues>
+          <attvalue for="criticality" value="0.03787878787878789"></attvalue>
+          <attvalue for="key" value="Brabantio"></attvalue>
+          <attvalue for="lines" value="139"></attvalue>
+          <attvalue for="words" value="1198"></attvalue>
+          <attvalue for="eigencentrality" value="0.6548785308280586"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6896551724137931"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.775"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.8333333333333335"></attvalue>
+          <attvalue for="clustering" value="0.9090909090909091"></attvalue>
+          <attvalue for="triangles" value="50"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="22"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="22" label="Montano">
+        <attvalues>
+          <attvalue for="criticality" value="0.021428571428571425"></attvalue>
+          <attvalue for="key" value="Montano"></attvalue>
+          <attvalue for="lines" value="60"></attvalue>
+          <attvalue for="words" value="492"></attvalue>
+          <attvalue for="eigencentrality" value="0.5997338325974042"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.4285714285714285"></attvalue>
+          <attvalue for="clustering" value="0.9333333333333333"></attvalue>
+          <attvalue for="triangles" value="42"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="23" label="First Musician">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="oth-mus."></attvalue>
+          <attvalue for="lines" value="5"></attvalue>
+          <attvalue for="words" value="28"></attvalue>
+          <attvalue for="eigencentrality" value="0.22690500535631988"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5555555555555556"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="6"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="24" label="First Gentleman">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="oth-gent1."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="5"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="25" label="Messenger">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="oth-mess."></attvalue>
+          <attvalue for="lines" value="9"></attvalue>
+          <attvalue for="words" value="71"></attvalue>
+          <attvalue for="eigencentrality" value="0.597747599961975"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="26" label="Third Gentleman">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="oth-gent3."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="6"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="27" label="Herald">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="oth-her."></attvalue>
+          <attvalue for="lines" value="13"></attvalue>
+          <attvalue for="words" value="114"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="7"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="0" target="1" label="Gentlemen --- Iago" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1" source="0" target="3" label="Gentlemen --- Emilia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="2" source="0" target="4" label="Gentlemen --- Othello" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="3" source="0" target="10" label="Gentlemen --- Desdemona">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="4" source="0" target="11" label="Gentlemen --- Roderigo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="5" source="0" target="15" label="Gentlemen --- Cassio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="6" source="0" target="22" label="Gentlemen --- Montano">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="7" source="1" target="0" label="Iago --- Gentlemen" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="8" source="1" target="2" label="Iago --- First Senator">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="9" source="1" target="3" label="Iago --- Emilia" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="10" source="1" target="4" label="Iago --- Othello" weight="11.0">
+        <attvalues>
+          <attvalue for="scenes" value="11"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="11" source="1" target="6" label="Iago --- First Officer" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="12" source="1" target="9" label="Iago --- Gratiano" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="13" source="1" target="10" label="Iago --- Desdemona" weight="8.0">
+        <attvalues>
+          <attvalue for="scenes" value="8"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="14" source="1" target="11" label="Iago --- Roderigo" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="15" source="1" target="12" label="Iago --- Other Senators">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="16" source="1" target="13" label="Iago --- All" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="17" source="1" target="14" label="Iago --- Clown" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="18" source="1" target="15" label="Iago --- Cassio" weight="9.0">
+        <attvalues>
+          <attvalue for="scenes" value="9"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="19" source="1" target="17" label="Iago --- Bianca" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="20" source="1" target="18" label="Iago --- Duke of Venice">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="21" source="1" target="19" label="Iago --- Lodovico" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="22" source="1" target="20" label="Iago --- Sailor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="23" source="1" target="21" label="Iago --- Brabantio" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="24" source="1" target="22" label="Iago --- Montano" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="25" source="1" target="23" label="Iago --- First Musician">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="26" source="1" target="25" label="Iago --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="27" source="2" target="1" label="First Senator --- Iago">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="28" source="2" target="4" label="First Senator --- Othello">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="29" source="2" target="6" label="First Senator --- First Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="30" source="2" target="10" label="First Senator --- Desdemona">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="31" source="2" target="11" label="First Senator --- Roderigo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="32" source="2" target="12" label="First Senator --- Other Senators">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="33" source="2" target="18" label="First Senator --- Duke of Venice">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="34" source="2" target="20" label="First Senator --- Sailor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="35" source="2" target="21" label="First Senator --- Brabantio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="36" source="2" target="25" label="First Senator --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="37" source="3" target="0" label="Emilia --- Gentlemen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="38" source="3" target="1" label="Emilia --- Iago" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="39" source="3" target="4" label="Emilia --- Othello" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="40" source="3" target="9" label="Emilia --- Gratiano" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="41" source="3" target="10" label="Emilia --- Desdemona" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="42" source="3" target="11" label="Emilia --- Roderigo" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="43" source="3" target="13" label="Emilia --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="44" source="3" target="14" label="Emilia --- Clown" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="45" source="3" target="15" label="Emilia --- Cassio" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="46" source="3" target="17" label="Emilia --- Bianca" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="47" source="3" target="19" label="Emilia --- Lodovico" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="48" source="3" target="22" label="Emilia --- Montano" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="49" source="3" target="23" label="Emilia --- First Musician">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="50" source="4" target="0" label="Othello --- Gentlemen" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="51" source="4" target="1" label="Othello --- Iago" weight="11.0">
+        <attvalues>
+          <attvalue for="scenes" value="11"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="52" source="4" target="2" label="Othello --- First Senator">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="53" source="4" target="3" label="Othello --- Emilia" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="54" source="4" target="6" label="Othello --- First Officer" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="55" source="4" target="9" label="Othello --- Gratiano" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="56" source="4" target="10" label="Othello --- Desdemona" weight="9.0">
+        <attvalues>
+          <attvalue for="scenes" value="9"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="57" source="4" target="11" label="Othello --- Roderigo" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="58" source="4" target="12" label="Othello --- Other Senators">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="59" source="4" target="13" label="Othello --- All" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="60" source="4" target="14" label="Othello --- Clown">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="61" source="4" target="15" label="Othello --- Cassio" weight="8.0">
+        <attvalues>
+          <attvalue for="scenes" value="8"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="62" source="4" target="17" label="Othello --- Bianca" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="63" source="4" target="18" label="Othello --- Duke of Venice">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="64" source="4" target="19" label="Othello --- Lodovico" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="65" source="4" target="20" label="Othello --- Sailor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="66" source="4" target="21" label="Othello --- Brabantio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="67" source="4" target="22" label="Othello --- Montano" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="68" source="4" target="25" label="Othello --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="69" source="6" target="1" label="First Officer --- Iago" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="70" source="6" target="2" label="First Officer --- First Senator">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="71" source="6" target="4" label="First Officer --- Othello" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="72" source="6" target="10" label="First Officer --- Desdemona">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="73" source="6" target="11" label="First Officer --- Roderigo" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="74" source="6" target="12" label="First Officer --- Other Senators">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="75" source="6" target="15" label="First Officer --- Cassio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="76" source="6" target="18" label="First Officer --- Duke of Venice">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="77" source="6" target="20" label="First Officer --- Sailor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="78" source="6" target="21" label="First Officer --- Brabantio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="79" source="6" target="25" label="First Officer --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="80" source="9" target="1" label="Gratiano --- Iago" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="81" source="9" target="3" label="Gratiano --- Emilia" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="82" source="9" target="4" label="Gratiano --- Othello" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="83" source="9" target="10" label="Gratiano --- Desdemona">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="84" source="9" target="11" label="Gratiano --- Roderigo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="85" source="9" target="13" label="Gratiano --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="86" source="9" target="15" label="Gratiano --- Cassio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="87" source="9" target="17" label="Gratiano --- Bianca">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="88" source="9" target="19" label="Gratiano --- Lodovico" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="89" source="9" target="22" label="Gratiano --- Montano">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="90" source="10" target="0" label="Desdemona --- Gentlemen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="91" source="10" target="1" label="Desdemona --- Iago" weight="8.0">
+        <attvalues>
+          <attvalue for="scenes" value="8"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="92" source="10" target="2" label="Desdemona --- First Senator">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="93" source="10" target="3" label="Desdemona --- Emilia" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="94" source="10" target="4" label="Desdemona --- Othello" weight="9.0">
+        <attvalues>
+          <attvalue for="scenes" value="9"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="95" source="10" target="6" label="Desdemona --- First Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="96" source="10" target="9" label="Desdemona --- Gratiano">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="97" source="10" target="11" label="Desdemona --- Roderigo" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="98" source="10" target="12" label="Desdemona --- Other Senators">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="99" source="10" target="13" label="Desdemona --- All" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="100" source="10" target="14" label="Desdemona --- Clown">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="101" source="10" target="15" label="Desdemona --- Cassio" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="102" source="10" target="17" label="Desdemona --- Bianca" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="103" source="10" target="18" label="Desdemona --- Duke of Venice">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="104" source="10" target="19" label="Desdemona --- Lodovico" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="105" source="10" target="20" label="Desdemona --- Sailor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="106" source="10" target="21" label="Desdemona --- Brabantio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="107" source="10" target="22" label="Desdemona --- Montano" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="108" source="10" target="25" label="Desdemona --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="109" source="11" target="0" label="Roderigo --- Gentlemen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="110" source="11" target="1" label="Roderigo --- Iago" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="111" source="11" target="2" label="Roderigo --- First Senator">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="112" source="11" target="3" label="Roderigo --- Emilia" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="113" source="11" target="4" label="Roderigo --- Othello" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="114" source="11" target="6" label="Roderigo --- First Officer" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="115" source="11" target="9" label="Roderigo --- Gratiano">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="116" source="11" target="10" label="Roderigo --- Desdemona" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="117" source="11" target="12" label="Roderigo --- Other Senators">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="118" source="11" target="13" label="Roderigo --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="119" source="11" target="15" label="Roderigo --- Cassio" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="120" source="11" target="17" label="Roderigo --- Bianca">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="121" source="11" target="18" label="Roderigo --- Duke of Venice">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="122" source="11" target="19" label="Roderigo --- Lodovico">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="123" source="11" target="20" label="Roderigo --- Sailor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="124" source="11" target="21" label="Roderigo --- Brabantio" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="125" source="11" target="22" label="Roderigo --- Montano" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="126" source="11" target="25" label="Roderigo --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="127" source="12" target="1" label="Other Senators --- Iago">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="128" source="12" target="2" label="Other Senators --- First Senator">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="129" source="12" target="4" label="Other Senators --- Othello">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="130" source="12" target="6" label="Other Senators --- First Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="131" source="12" target="10" label="Other Senators --- Desdemona">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="132" source="12" target="11" label="Other Senators --- Roderigo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="133" source="12" target="18" label="Other Senators --- Duke of Venice">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="134" source="12" target="20" label="Other Senators --- Sailor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="135" source="12" target="21" label="Other Senators --- Brabantio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="136" source="12" target="25" label="Other Senators --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="137" source="13" target="1" label="All --- Iago" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="138" source="13" target="3" label="All --- Emilia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="139" source="13" target="4" label="All --- Othello" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="140" source="13" target="9" label="All --- Gratiano">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="141" source="13" target="10" label="All --- Desdemona" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="142" source="13" target="11" label="All --- Roderigo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="143" source="13" target="15" label="All --- Cassio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="144" source="13" target="19" label="All --- Lodovico">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="145" source="13" target="22" label="All --- Montano" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="146" source="14" target="1" label="Clown --- Iago" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="147" source="14" target="3" label="Clown --- Emilia" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="148" source="14" target="4" label="Clown --- Othello">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="149" source="14" target="10" label="Clown --- Desdemona">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="150" source="14" target="15" label="Clown --- Cassio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="151" source="14" target="17" label="Clown --- Bianca">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="152" source="14" target="23" label="Clown --- First Musician">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="153" source="15" target="0" label="Cassio --- Gentlemen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="154" source="15" target="1" label="Cassio --- Iago" weight="9.0">
+        <attvalues>
+          <attvalue for="scenes" value="9"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="155" source="15" target="3" label="Cassio --- Emilia" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="156" source="15" target="4" label="Cassio --- Othello" weight="8.0">
+        <attvalues>
+          <attvalue for="scenes" value="8"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="157" source="15" target="6" label="Cassio --- First Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="158" source="15" target="9" label="Cassio --- Gratiano" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="159" source="15" target="10" label="Cassio --- Desdemona" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="160" source="15" target="11" label="Cassio --- Roderigo" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="161" source="15" target="13" label="Cassio --- All" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="162" source="15" target="14" label="Cassio --- Clown" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="163" source="15" target="17" label="Cassio --- Bianca" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="164" source="15" target="19" label="Cassio --- Lodovico" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="165" source="15" target="21" label="Cassio --- Brabantio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="166" source="15" target="22" label="Cassio --- Montano" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="167" source="15" target="23" label="Cassio --- First Musician">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="168" source="17" target="1" label="Bianca --- Iago" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="169" source="17" target="3" label="Bianca --- Emilia" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="170" source="17" target="4" label="Bianca --- Othello" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="171" source="17" target="9" label="Bianca --- Gratiano">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="172" source="17" target="10" label="Bianca --- Desdemona" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="173" source="17" target="11" label="Bianca --- Roderigo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="174" source="17" target="14" label="Bianca --- Clown">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="175" source="17" target="15" label="Bianca --- Cassio" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="176" source="17" target="19" label="Bianca --- Lodovico" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="177" source="18" target="1" label="Duke of Venice --- Iago">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="178" source="18" target="2" label="Duke of Venice --- First Senator">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="179" source="18" target="4" label="Duke of Venice --- Othello">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="180" source="18" target="6" label="Duke of Venice --- First Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="181" source="18" target="10" label="Duke of Venice --- Desdemona">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="182" source="18" target="11" label="Duke of Venice --- Roderigo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="183" source="18" target="12" label="Duke of Venice --- Other Senators">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="184" source="18" target="20" label="Duke of Venice --- Sailor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="185" source="18" target="21" label="Duke of Venice --- Brabantio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="186" source="18" target="25" label="Duke of Venice --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="187" source="19" target="1" label="Lodovico --- Iago" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="188" source="19" target="3" label="Lodovico --- Emilia" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="189" source="19" target="4" label="Lodovico --- Othello" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="190" source="19" target="9" label="Lodovico --- Gratiano" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="191" source="19" target="10" label="Lodovico --- Desdemona" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="192" source="19" target="11" label="Lodovico --- Roderigo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="193" source="19" target="13" label="Lodovico --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="194" source="19" target="15" label="Lodovico --- Cassio" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="195" source="19" target="17" label="Lodovico --- Bianca" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="196" source="19" target="22" label="Lodovico --- Montano">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="197" source="20" target="1" label="Sailor --- Iago">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="198" source="20" target="2" label="Sailor --- First Senator">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="199" source="20" target="4" label="Sailor --- Othello">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="200" source="20" target="6" label="Sailor --- First Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="201" source="20" target="10" label="Sailor --- Desdemona">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="202" source="20" target="11" label="Sailor --- Roderigo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="203" source="20" target="12" label="Sailor --- Other Senators">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="204" source="20" target="18" label="Sailor --- Duke of Venice">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="205" source="20" target="21" label="Sailor --- Brabantio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="206" source="20" target="25" label="Sailor --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="207" source="21" target="1" label="Brabantio --- Iago" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="208" source="21" target="2" label="Brabantio --- First Senator">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="209" source="21" target="4" label="Brabantio --- Othello" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="210" source="21" target="6" label="Brabantio --- First Officer" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="211" source="21" target="10" label="Brabantio --- Desdemona">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="212" source="21" target="11" label="Brabantio --- Roderigo" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="213" source="21" target="12" label="Brabantio --- Other Senators">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="214" source="21" target="15" label="Brabantio --- Cassio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="215" source="21" target="18" label="Brabantio --- Duke of Venice">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="216" source="21" target="20" label="Brabantio --- Sailor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="217" source="21" target="25" label="Brabantio --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="218" source="22" target="0" label="Montano --- Gentlemen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="219" source="22" target="1" label="Montano --- Iago" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="220" source="22" target="3" label="Montano --- Emilia" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="221" source="22" target="4" label="Montano --- Othello" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="222" source="22" target="9" label="Montano --- Gratiano">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="223" source="22" target="10" label="Montano --- Desdemona" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="224" source="22" target="11" label="Montano --- Roderigo" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="225" source="22" target="13" label="Montano --- All" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="226" source="22" target="15" label="Montano --- Cassio" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="227" source="22" target="19" label="Montano --- Lodovico">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="228" source="23" target="1" label="First Musician --- Iago">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="229" source="23" target="3" label="First Musician --- Emilia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="230" source="23" target="14" label="First Musician --- Clown">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="231" source="23" target="15" label="First Musician --- Cassio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="232" source="25" target="1" label="Messenger --- Iago">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="233" source="25" target="2" label="Messenger --- First Senator">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="234" source="25" target="4" label="Messenger --- Othello">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="235" source="25" target="6" label="Messenger --- First Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="236" source="25" target="10" label="Messenger --- Desdemona">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="237" source="25" target="11" label="Messenger --- Roderigo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="238" source="25" target="12" label="Messenger --- Other Senators">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="239" source="25" target="18" label="Messenger --- Duke of Venice">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="240" source="25" target="20" label="Messenger --- Sailor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="241" source="25" target="21" label="Messenger --- Brabantio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

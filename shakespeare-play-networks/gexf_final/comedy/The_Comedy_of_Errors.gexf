@@ -1,0 +1,1523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-02-03">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="criticality" title="criticality" type="double"></attribute>
+      <attribute id="key" title="key" type="string"></attribute>
+      <attribute id="lines" title="lines" type="integer"></attribute>
+      <attribute id="words" title="words" type="integer"></attribute>
+      <attribute id="eigencentrality" title="Eigenvector Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="triangles" title="Number of triangles" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="scenes" title="scenes" type="integer"></attribute>
+    </attributes>
+    <nodes>
+      <node id="0" label="Antipholus of Syracuse">
+        <attvalues>
+          <attvalue for="criticality" value="0.19510582010582006"></attvalue>
+          <attvalue for="key" value="AntipholusS"></attvalue>
+          <attvalue for="lines" value="272"></attvalue>
+          <attvalue for="words" value="2398"></attvalue>
+          <attvalue for="eigencentrality" value="0.9429951572601251"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8571428571428571"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9166666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="5.853174603174602"></attvalue>
+          <attvalue for="clustering" value="0.7904761904761904"></attvalue>
+          <attvalue for="triangles" value="83"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="30"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="1" label="Angelo">
+        <attvalues>
+          <attvalue for="criticality" value="0.15185185185185188"></attvalue>
+          <attvalue for="key" value="Angelo3"></attvalue>
+          <attvalue for="lines" value="77"></attvalue>
+          <attvalue for="words" value="732"></attvalue>
+          <attvalue for="eigencentrality" value="0.94449026718955"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8571428571428571"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9166666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="4.555555555555556"></attvalue>
+          <attvalue for="clustering" value="0.7904761904761904"></attvalue>
+          <attvalue for="triangles" value="83"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="30"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="2" label="Solinus">
+        <attvalues>
+          <attvalue for="criticality" value="0.3076923076923077"></attvalue>
+          <attvalue for="key" value="Solinus"></attvalue>
+          <attvalue for="lines" value="91"></attvalue>
+          <attvalue for="words" value="816"></attvalue>
+          <attvalue for="eigencentrality" value="0.848428911638864"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.782608695652174"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8611111111111112"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.0"></attvalue>
+          <attvalue for="clustering" value="0.8589743589743589"></attvalue>
+          <attvalue for="triangles" value="67"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="26"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="3" label="Luciana">
+        <attvalues>
+          <attvalue for="criticality" value="0.05428004535147392"></attvalue>
+          <attvalue for="key" value="Luciana"></attvalue>
+          <attvalue for="lines" value="95"></attvalue>
+          <attvalue for="words" value="877"></attvalue>
+          <attvalue for="eigencentrality" value="0.9270354727447606"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8181818181818182"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8888888888888888"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.5198412698412698"></attvalue>
+          <attvalue for="clustering" value="0.8901098901098901"></attvalue>
+          <attvalue for="triangles" value="81"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="4" label="Pinch">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Pinch"></attvalue>
+          <attvalue for="lines" value="12"></attvalue>
+          <attvalue for="words" value="121"></attvalue>
+          <attvalue for="eigencentrality" value="0.5621893862142745"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6206896551724138"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7129629629629629"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="28"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="5" label="A Servant">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="com-serv."></attvalue>
+          <attvalue for="lines" value="15"></attvalue>
+          <attvalue for="words" value="148"></attvalue>
+          <attvalue for="eigencentrality" value="0.8390163955702182"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.75"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8333333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="66"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="6" label="Luce">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Luce1"></attvalue>
+          <attvalue for="lines" value="8"></attvalue>
+          <attvalue for="words" value="72"></attvalue>
+          <attvalue for="eigencentrality" value="0.4014619064939648"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5806451612903226"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6574074074074074"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="15"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="7" label="A Gaoler">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="com-gaol."></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="5"></attvalue>
+          <attvalue for="eigencentrality" value="0.12791543258671378"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.46153846153846156"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5092592592592592"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="8" label="Adriana">
+        <attvalues>
+          <attvalue for="criticality" value="0.1881200396825397"></attvalue>
+          <attvalue for="key" value="Adriana"></attvalue>
+          <attvalue for="lines" value="263"></attvalue>
+          <attvalue for="words" value="2395"></attvalue>
+          <attvalue for="eigencentrality" value="0.9840403154846348"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.9"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9444444444444444"></attvalue>
+          <attvalue for="betweenesscentrality" value="6.019841269841271"></attvalue>
+          <attvalue for="clustering" value="0.75"></attvalue>
+          <attvalue for="triangles" value="90"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="9" label="A Courtezan">
+        <attvalues>
+          <attvalue for="criticality" value="0.05428004535147392"></attvalue>
+          <attvalue for="key" value="com-cour."></attvalue>
+          <attvalue for="lines" value="35"></attvalue>
+          <attvalue for="words" value="332"></attvalue>
+          <attvalue for="eigencentrality" value="0.9270354727447606"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8181818181818182"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8888888888888888"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.5198412698412698"></attvalue>
+          <attvalue for="clustering" value="0.8901098901098901"></attvalue>
+          <attvalue for="triangles" value="81"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="10" label="Dromio of Ephesus">
+        <attvalues>
+          <attvalue for="criticality" value="0.3339169000933707"></attvalue>
+          <attvalue for="key" value="DromioE"></attvalue>
+          <attvalue for="lines" value="155"></attvalue>
+          <attvalue for="words" value="1516"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.9473684210526315"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9722222222222222"></attvalue>
+          <attvalue for="betweenesscentrality" value="11.353174603174605"></attvalue>
+          <attvalue for="clustering" value="0.6764705882352942"></attvalue>
+          <attvalue for="triangles" value="92"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="34"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="11" label="Antipholus of Ephesus">
+        <attvalues>
+          <attvalue for="criticality" value="0.1881200396825397"></attvalue>
+          <attvalue for="key" value="AntipholusE"></attvalue>
+          <attvalue for="lines" value="213"></attvalue>
+          <attvalue for="words" value="2006"></attvalue>
+          <attvalue for="eigencentrality" value="0.9840403154846348"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.9"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9444444444444444"></attvalue>
+          <attvalue for="betweenesscentrality" value="6.019841269841271"></attvalue>
+          <attvalue for="clustering" value="0.75"></attvalue>
+          <attvalue for="triangles" value="90"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="12" label="First Merchant">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="com-first-mer."></attvalue>
+          <attvalue for="lines" value="15"></attvalue>
+          <attvalue for="words" value="130"></attvalue>
+          <attvalue for="eigencentrality" value="0.22216421432687022"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5294117647058824"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.574074074074074"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="13" label="Balthazar">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Balthazar1"></attvalue>
+          <attvalue for="lines" value="26"></attvalue>
+          <attvalue for="words" value="230"></attvalue>
+          <attvalue for="eigencentrality" value="0.4014619064939648"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5806451612903226"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6574074074074073"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="15"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="14" label="Aemilia">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Aemilia"></attvalue>
+          <attvalue for="lines" value="73"></attvalue>
+          <attvalue for="words" value="631"></attvalue>
+          <attvalue for="eigencentrality" value="0.8390163955702185"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.75"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8333333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="66"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="15" label="Second Merchant">
+        <attvalues>
+          <attvalue for="criticality" value="0.021367521367521368"></attvalue>
+          <attvalue for="key" value="com-sec.-mer."></attvalue>
+          <attvalue for="lines" value="34"></attvalue>
+          <attvalue for="words" value="319"></attvalue>
+          <attvalue for="eigencentrality" value="0.8874854244496753"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.782608695652174"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8611111111111112"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.5555555555555556"></attvalue>
+          <attvalue for="clustering" value="0.9487179487179487"></attvalue>
+          <attvalue for="triangles" value="74"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="26"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="16" label="An Officer">
+        <attvalues>
+          <attvalue for="criticality" value="0.0125"></attvalue>
+          <attvalue for="key" value="com-off."></attvalue>
+          <attvalue for="lines" value="13"></attvalue>
+          <attvalue for="words" value="116"></attvalue>
+          <attvalue for="eigencentrality" value="0.6905719841883311"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7685185185185185"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.25"></attvalue>
+          <attvalue for="clustering" value="0.9555555555555556"></attvalue>
+          <attvalue for="triangles" value="43"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="17" label="Aegeon">
+        <attvalues>
+          <attvalue for="criticality" value="0.3076923076923077"></attvalue>
+          <attvalue for="key" value="Egeon"></attvalue>
+          <attvalue for="lines" value="143"></attvalue>
+          <attvalue for="words" value="1248"></attvalue>
+          <attvalue for="eigencentrality" value="0.848428911638864"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.782608695652174"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8611111111111112"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.0"></attvalue>
+          <attvalue for="clustering" value="0.8589743589743589"></attvalue>
+          <attvalue for="triangles" value="67"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="26"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="18" label="Dromio of Syracuse">
+        <attvalues>
+          <attvalue for="criticality" value="0.3339169000933707"></attvalue>
+          <attvalue for="key" value="DromioS"></attvalue>
+          <attvalue for="lines" value="239"></attvalue>
+          <attvalue for="words" value="2339"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.9473684210526315"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9722222222222222"></attvalue>
+          <attvalue for="betweenesscentrality" value="11.353174603174605"></attvalue>
+          <attvalue for="clustering" value="0.6764705882352942"></attvalue>
+          <attvalue for="triangles" value="92"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="34"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="0" target="1" label="Antipholus of Syracuse --- Angelo" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1" source="0" target="2" label="Antipholus of Syracuse --- Solinus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="2" source="0" target="3" label="Antipholus of Syracuse --- Luciana" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="3" source="0" target="4" label="Antipholus of Syracuse --- Pinch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="4" source="0" target="5" label="Antipholus of Syracuse --- A Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="5" source="0" target="8" label="Antipholus of Syracuse --- Adriana" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="6" source="0" target="9" label="Antipholus of Syracuse --- A Courtezan" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="7" source="0" target="10" label="Antipholus of Syracuse --- Dromio of Ephesus" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="8" source="0" target="11" label="Antipholus of Syracuse --- Antipholus of Ephesus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="9" source="0" target="12" label="Antipholus of Syracuse --- First Merchant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="10" source="0" target="14" label="Antipholus of Syracuse --- Aemilia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="11" source="0" target="15" label="Antipholus of Syracuse --- Second Merchant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="12" source="0" target="16" label="Antipholus of Syracuse --- An Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="13" source="0" target="17" label="Antipholus of Syracuse --- Aegeon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="14" source="0" target="18" label="Antipholus of Syracuse --- Dromio of Syracuse" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="15" source="1" target="0" label="Angelo --- Antipholus of Syracuse" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="16" source="1" target="2" label="Angelo --- Solinus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="17" source="1" target="3" label="Angelo --- Luciana" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="18" source="1" target="5" label="Angelo --- A Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="19" source="1" target="6" label="Angelo --- Luce">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="20" source="1" target="8" label="Angelo --- Adriana" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="21" source="1" target="9" label="Angelo --- A Courtezan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="22" source="1" target="10" label="Angelo --- Dromio of Ephesus" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="23" source="1" target="11" label="Angelo --- Antipholus of Ephesus" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="24" source="1" target="13" label="Angelo --- Balthazar">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="25" source="1" target="14" label="Angelo --- Aemilia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="26" source="1" target="15" label="Angelo --- Second Merchant" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="27" source="1" target="16" label="Angelo --- An Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="28" source="1" target="17" label="Angelo --- Aegeon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="29" source="1" target="18" label="Angelo --- Dromio of Syracuse" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="30" source="2" target="0" label="Solinus --- Antipholus of Syracuse">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="31" source="2" target="1" label="Solinus --- Angelo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="32" source="2" target="3" label="Solinus --- Luciana">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="33" source="2" target="5" label="Solinus --- A Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="34" source="2" target="7" label="Solinus --- A Gaoler">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="35" source="2" target="8" label="Solinus --- Adriana">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="36" source="2" target="9" label="Solinus --- A Courtezan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="37" source="2" target="10" label="Solinus --- Dromio of Ephesus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="38" source="2" target="11" label="Solinus --- Antipholus of Ephesus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="39" source="2" target="14" label="Solinus --- Aemilia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="40" source="2" target="15" label="Solinus --- Second Merchant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="41" source="2" target="17" label="Solinus --- Aegeon" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="42" source="2" target="18" label="Solinus --- Dromio of Syracuse">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="43" source="3" target="0" label="Luciana --- Antipholus of Syracuse" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="44" source="3" target="1" label="Luciana --- Angelo" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="45" source="3" target="2" label="Luciana --- Solinus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="46" source="3" target="4" label="Luciana --- Pinch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="47" source="3" target="5" label="Luciana --- A Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="48" source="3" target="8" label="Luciana --- Adriana" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="49" source="3" target="9" label="Luciana --- A Courtezan" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="50" source="3" target="10" label="Luciana --- Dromio of Ephesus" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="51" source="3" target="11" label="Luciana --- Antipholus of Ephesus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="52" source="3" target="14" label="Luciana --- Aemilia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="53" source="3" target="15" label="Luciana --- Second Merchant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="54" source="3" target="16" label="Luciana --- An Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="55" source="3" target="17" label="Luciana --- Aegeon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="56" source="3" target="18" label="Luciana --- Dromio of Syracuse" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="57" source="4" target="0" label="Pinch --- Antipholus of Syracuse">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="58" source="4" target="3" label="Pinch --- Luciana">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="59" source="4" target="8" label="Pinch --- Adriana">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="60" source="4" target="9" label="Pinch --- A Courtezan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="61" source="4" target="10" label="Pinch --- Dromio of Ephesus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="62" source="4" target="11" label="Pinch --- Antipholus of Ephesus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="63" source="4" target="16" label="Pinch --- An Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="64" source="4" target="18" label="Pinch --- Dromio of Syracuse">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="65" source="5" target="0" label="A Servant --- Antipholus of Syracuse">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="66" source="5" target="1" label="A Servant --- Angelo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="67" source="5" target="2" label="A Servant --- Solinus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="68" source="5" target="3" label="A Servant --- Luciana">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="69" source="5" target="8" label="A Servant --- Adriana">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="70" source="5" target="9" label="A Servant --- A Courtezan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="71" source="5" target="10" label="A Servant --- Dromio of Ephesus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="72" source="5" target="11" label="A Servant --- Antipholus of Ephesus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="73" source="5" target="14" label="A Servant --- Aemilia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="74" source="5" target="15" label="A Servant --- Second Merchant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="75" source="5" target="17" label="A Servant --- Aegeon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="76" source="5" target="18" label="A Servant --- Dromio of Syracuse">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="77" source="6" target="1" label="Luce --- Angelo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="78" source="6" target="8" label="Luce --- Adriana">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="79" source="6" target="10" label="Luce --- Dromio of Ephesus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="80" source="6" target="11" label="Luce --- Antipholus of Ephesus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="81" source="6" target="13" label="Luce --- Balthazar">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="82" source="6" target="18" label="Luce --- Dromio of Syracuse">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="83" source="7" target="2" label="A Gaoler --- Solinus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="84" source="7" target="17" label="A Gaoler --- Aegeon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="85" source="8" target="0" label="Adriana --- Antipholus of Syracuse" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="86" source="8" target="1" label="Adriana --- Angelo" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="87" source="8" target="2" label="Adriana --- Solinus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="88" source="8" target="3" label="Adriana --- Luciana" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="89" source="8" target="4" label="Adriana --- Pinch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="90" source="8" target="5" label="Adriana --- A Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="91" source="8" target="6" label="Adriana --- Luce">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="92" source="8" target="9" label="Adriana --- A Courtezan" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="93" source="8" target="10" label="Adriana --- Dromio of Ephesus" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="94" source="8" target="11" label="Adriana --- Antipholus of Ephesus" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="95" source="8" target="13" label="Adriana --- Balthazar">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="96" source="8" target="14" label="Adriana --- Aemilia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="97" source="8" target="15" label="Adriana --- Second Merchant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="98" source="8" target="16" label="Adriana --- An Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="99" source="8" target="17" label="Adriana --- Aegeon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="100" source="8" target="18" label="Adriana --- Dromio of Syracuse" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="101" source="9" target="0" label="A Courtezan --- Antipholus of Syracuse" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="102" source="9" target="1" label="A Courtezan --- Angelo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="103" source="9" target="2" label="A Courtezan --- Solinus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="104" source="9" target="3" label="A Courtezan --- Luciana" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="105" source="9" target="4" label="A Courtezan --- Pinch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="106" source="9" target="5" label="A Courtezan --- A Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="107" source="9" target="8" label="A Courtezan --- Adriana" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="108" source="9" target="10" label="A Courtezan --- Dromio of Ephesus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="109" source="9" target="11" label="A Courtezan --- Antipholus of Ephesus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="110" source="9" target="14" label="A Courtezan --- Aemilia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="111" source="9" target="15" label="A Courtezan --- Second Merchant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="112" source="9" target="16" label="A Courtezan --- An Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="113" source="9" target="17" label="A Courtezan --- Aegeon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="114" source="9" target="18" label="A Courtezan --- Dromio of Syracuse" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="115" source="10" target="0" label="Dromio of Ephesus --- Antipholus of Syracuse" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="116" source="10" target="1" label="Dromio of Ephesus --- Angelo" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="117" source="10" target="2" label="Dromio of Ephesus --- Solinus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="118" source="10" target="3" label="Dromio of Ephesus --- Luciana" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="119" source="10" target="4" label="Dromio of Ephesus --- Pinch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="120" source="10" target="5" label="Dromio of Ephesus --- A Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="121" source="10" target="6" label="Dromio of Ephesus --- Luce">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="122" source="10" target="8" label="Dromio of Ephesus --- Adriana" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="123" source="10" target="9" label="Dromio of Ephesus --- A Courtezan" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="124" source="10" target="11" label="Dromio of Ephesus --- Antipholus of Ephesus" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="125" source="10" target="12" label="Dromio of Ephesus --- First Merchant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="126" source="10" target="13" label="Dromio of Ephesus --- Balthazar">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="127" source="10" target="14" label="Dromio of Ephesus --- Aemilia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="128" source="10" target="15" label="Dromio of Ephesus --- Second Merchant" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="129" source="10" target="16" label="Dromio of Ephesus --- An Officer" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="130" source="10" target="17" label="Dromio of Ephesus --- Aegeon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="131" source="10" target="18" label="Dromio of Ephesus --- Dromio of Syracuse" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="132" source="11" target="0" label="Antipholus of Ephesus --- Antipholus of Syracuse" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="133" source="11" target="1" label="Antipholus of Ephesus --- Angelo" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="134" source="11" target="2" label="Antipholus of Ephesus --- Solinus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="135" source="11" target="3" label="Antipholus of Ephesus --- Luciana" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="136" source="11" target="4" label="Antipholus of Ephesus --- Pinch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="137" source="11" target="5" label="Antipholus of Ephesus --- A Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="138" source="11" target="6" label="Antipholus of Ephesus --- Luce">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="139" source="11" target="8" label="Antipholus of Ephesus --- Adriana" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="140" source="11" target="9" label="Antipholus of Ephesus --- A Courtezan" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="141" source="11" target="10" label="Antipholus of Ephesus --- Dromio of Ephesus" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="142" source="11" target="13" label="Antipholus of Ephesus --- Balthazar">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="143" source="11" target="14" label="Antipholus of Ephesus --- Aemilia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="144" source="11" target="15" label="Antipholus of Ephesus --- Second Merchant" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="145" source="11" target="16" label="Antipholus of Ephesus --- An Officer" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="146" source="11" target="17" label="Antipholus of Ephesus --- Aegeon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="147" source="11" target="18" label="Antipholus of Ephesus --- Dromio of Syracuse" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="148" source="12" target="0" label="First Merchant --- Antipholus of Syracuse">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="149" source="12" target="10" label="First Merchant --- Dromio of Ephesus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="150" source="12" target="18" label="First Merchant --- Dromio of Syracuse">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="151" source="13" target="1" label="Balthazar --- Angelo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="152" source="13" target="6" label="Balthazar --- Luce">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="153" source="13" target="8" label="Balthazar --- Adriana">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="154" source="13" target="10" label="Balthazar --- Dromio of Ephesus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="155" source="13" target="11" label="Balthazar --- Antipholus of Ephesus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="156" source="13" target="18" label="Balthazar --- Dromio of Syracuse">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="157" source="14" target="0" label="Aemilia --- Antipholus of Syracuse">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="158" source="14" target="1" label="Aemilia --- Angelo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="159" source="14" target="2" label="Aemilia --- Solinus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="160" source="14" target="3" label="Aemilia --- Luciana">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="161" source="14" target="5" label="Aemilia --- A Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="162" source="14" target="8" label="Aemilia --- Adriana">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="163" source="14" target="9" label="Aemilia --- A Courtezan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="164" source="14" target="10" label="Aemilia --- Dromio of Ephesus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="165" source="14" target="11" label="Aemilia --- Antipholus of Ephesus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="166" source="14" target="15" label="Aemilia --- Second Merchant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="167" source="14" target="17" label="Aemilia --- Aegeon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="168" source="14" target="18" label="Aemilia --- Dromio of Syracuse">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="169" source="15" target="0" label="Second Merchant --- Antipholus of Syracuse">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="170" source="15" target="1" label="Second Merchant --- Angelo" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="171" source="15" target="2" label="Second Merchant --- Solinus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="172" source="15" target="3" label="Second Merchant --- Luciana">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="173" source="15" target="5" label="Second Merchant --- A Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="174" source="15" target="8" label="Second Merchant --- Adriana">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="175" source="15" target="9" label="Second Merchant --- A Courtezan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="176" source="15" target="10" label="Second Merchant --- Dromio of Ephesus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="177" source="15" target="11" label="Second Merchant --- Antipholus of Ephesus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="178" source="15" target="14" label="Second Merchant --- Aemilia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="179" source="15" target="16" label="Second Merchant --- An Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="180" source="15" target="17" label="Second Merchant --- Aegeon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="181" source="15" target="18" label="Second Merchant --- Dromio of Syracuse" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="182" source="16" target="0" label="An Officer --- Antipholus of Syracuse">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="183" source="16" target="1" label="An Officer --- Angelo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="184" source="16" target="3" label="An Officer --- Luciana">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="185" source="16" target="4" label="An Officer --- Pinch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="186" source="16" target="8" label="An Officer --- Adriana">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="187" source="16" target="9" label="An Officer --- A Courtezan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="188" source="16" target="10" label="An Officer --- Dromio of Ephesus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="189" source="16" target="11" label="An Officer --- Antipholus of Ephesus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="190" source="16" target="15" label="An Officer --- Second Merchant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="191" source="16" target="18" label="An Officer --- Dromio of Syracuse" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="192" source="17" target="0" label="Aegeon --- Antipholus of Syracuse">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="193" source="17" target="1" label="Aegeon --- Angelo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="194" source="17" target="2" label="Aegeon --- Solinus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="195" source="17" target="3" label="Aegeon --- Luciana">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="196" source="17" target="5" label="Aegeon --- A Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="197" source="17" target="7" label="Aegeon --- A Gaoler">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="198" source="17" target="8" label="Aegeon --- Adriana">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="199" source="17" target="9" label="Aegeon --- A Courtezan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="200" source="17" target="10" label="Aegeon --- Dromio of Ephesus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="201" source="17" target="11" label="Aegeon --- Antipholus of Ephesus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="202" source="17" target="14" label="Aegeon --- Aemilia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="203" source="17" target="15" label="Aegeon --- Second Merchant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="204" source="17" target="18" label="Aegeon --- Dromio of Syracuse">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="205" source="18" target="0" label="Dromio of Syracuse --- Antipholus of Syracuse" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="206" source="18" target="1" label="Dromio of Syracuse --- Angelo" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="207" source="18" target="2" label="Dromio of Syracuse --- Solinus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="208" source="18" target="3" label="Dromio of Syracuse --- Luciana" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="209" source="18" target="4" label="Dromio of Syracuse --- Pinch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="210" source="18" target="5" label="Dromio of Syracuse --- A Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="211" source="18" target="6" label="Dromio of Syracuse --- Luce">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="212" source="18" target="8" label="Dromio of Syracuse --- Adriana" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="213" source="18" target="9" label="Dromio of Syracuse --- A Courtezan" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="214" source="18" target="10" label="Dromio of Syracuse --- Dromio of Ephesus" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="215" source="18" target="11" label="Dromio of Syracuse --- Antipholus of Ephesus" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="216" source="18" target="12" label="Dromio of Syracuse --- First Merchant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="217" source="18" target="13" label="Dromio of Syracuse --- Balthazar">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="218" source="18" target="14" label="Dromio of Syracuse --- Aemilia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="219" source="18" target="15" label="Dromio of Syracuse --- Second Merchant" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="220" source="18" target="16" label="Dromio of Syracuse --- An Officer" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="221" source="18" target="17" label="Dromio of Syracuse --- Aegeon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

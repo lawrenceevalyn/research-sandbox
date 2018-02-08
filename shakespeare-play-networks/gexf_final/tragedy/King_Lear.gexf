@@ -1,0 +1,2105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-02-03">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="criticality" title="criticality" type="double"></attribute>
+      <attribute id="key" title="key" type="string"></attribute>
+      <attribute id="lines" title="lines" type="integer"></attribute>
+      <attribute id="words" title="words" type="integer"></attribute>
+      <attribute id="eigencentrality" title="Eigenvector Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="triangles" title="Number of triangles" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="scenes" title="scenes" type="integer"></attribute>
+    </attributes>
+    <nodes>
+      <node id="0" label="Duke of Cornwall">
+        <attvalues>
+          <attvalue for="criticality" value="0.3291938957168842"></attvalue>
+          <attvalue for="key" value="Cornwall"></attvalue>
+          <attvalue for="lines" value="107"></attvalue>
+          <attvalue for="words" value="892"></attvalue>
+          <attvalue for="eigencentrality" value="0.8993104566291302"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.875"></attvalue>
+          <attvalue for="betweenesscentrality" value="11.85098024580783"></attvalue>
+          <attvalue for="clustering" value="0.6470588235294118"></attvalue>
+          <attvalue for="triangles" value="99"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="36"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="1" label="Edgar">
+        <attvalues>
+          <attvalue for="criticality" value="0.4217568231576852"></attvalue>
+          <attvalue for="key" value="Edgar"></attvalue>
+          <attvalue for="lines" value="401"></attvalue>
+          <attvalue for="words" value="3333"></attvalue>
+          <attvalue for="eigencentrality" value="0.8343350160080903"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.75"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8333333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="13.496218341045926"></attvalue>
+          <attvalue for="clustering" value="0.7083333333333334"></attvalue>
+          <attvalue for="triangles" value="85"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="2" label="Cordelia">
+        <attvalues>
+          <attvalue for="criticality" value="0.24332837301587296"></attvalue>
+          <attvalue for="key" value="Cordelia"></attvalue>
+          <attvalue for="lines" value="115"></attvalue>
+          <attvalue for="words" value="952"></attvalue>
+          <attvalue for="eigencentrality" value="0.8301496620199595"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.75"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8333333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="7.786507936507935"></attvalue>
+          <attvalue for="clustering" value="0.7166666666666667"></attvalue>
+          <attvalue for="triangles" value="86"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="3" label="A Captain employed by Edmund">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="sha-kil-role15"></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="4" label="Captain">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="kil-capt."></attvalue>
+          <attvalue for="lines" value="6"></attvalue>
+          <attvalue for="words" value="52"></attvalue>
+          <attvalue for="eigencentrality" value="0.5976015644229323"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.631578947368421"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7083333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="5" label="Second Servant">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="kil-serv2."></attvalue>
+          <attvalue for="lines" value="5"></attvalue>
+          <attvalue for="words" value="41"></attvalue>
+          <attvalue for="eigencentrality" value="0.3654455703242012"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5714285714285714"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.638888888888889"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="6" label="Gentleman attendant on Cordelia">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="sha-kil-role17"></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="7" label="Regan">
+        <attvalues>
+          <attvalue for="criticality" value="0.42673085535154504"></attvalue>
+          <attvalue for="key" value="Regan"></attvalue>
+          <attvalue for="lines" value="188"></attvalue>
+          <attvalue for="words" value="1587"></attvalue>
+          <attvalue for="eigencentrality" value="0.9759018320804286"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8571428571428571"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9166666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="17.0692342140618"></attvalue>
+          <attvalue for="clustering" value="0.6105263157894737"></attvalue>
+          <attvalue for="triangles" value="116"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="40"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="8" label="Knight">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="kil-knight."></attvalue>
+          <attvalue for="lines" value="14"></attvalue>
+          <attvalue for="words" value="119"></attvalue>
+          <attvalue for="eigencentrality" value="0.35739776408765034"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5454545454545454"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6111111111111112"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="15"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="9" label="Duke of Burgundy">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="BurgundyD"></attvalue>
+          <attvalue for="lines" value="12"></attvalue>
+          <attvalue for="words" value="80"></attvalue>
+          <attvalue for="eigencentrality" value="0.6090156481806176"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.631578947368421"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7083333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="10" label="Earl of Kent">
+        <attvalues>
+          <attvalue for="criticality" value="0.291904471645851"></attvalue>
+          <attvalue for="key" value="KentE"></attvalue>
+          <attvalue for="lines" value="366"></attvalue>
+          <attvalue for="words" value="3004"></attvalue>
+          <attvalue for="eigencentrality" value="0.9245670308784878"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.875"></attvalue>
+          <attvalue for="betweenesscentrality" value="10.508560979250635"></attvalue>
+          <attvalue for="clustering" value="0.6862745098039216"></attvalue>
+          <attvalue for="triangles" value="105"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="36"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="11" label="Earl of Gloucester">
+        <attvalues>
+          <attvalue for="criticality" value="0.6408152696265219"></attvalue>
+          <attvalue for="key" value="Gloucester"></attvalue>
+          <attvalue for="lines" value="340"></attvalue>
+          <attvalue for="words" value="2918"></attvalue>
+          <attvalue for="eigencentrality" value="0.9073965368466649"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8275862068965517"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8958333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="24.350980245807833"></attvalue>
+          <attvalue for="clustering" value="0.5847953216374269"></attvalue>
+          <attvalue for="triangles" value="100"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="12" label="A Herald">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="kil-her."></attvalue>
+          <attvalue for="lines" value="10"></attvalue>
+          <attvalue for="words" value="88"></attvalue>
+          <attvalue for="eigencentrality" value="0.5976015644229323"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.631578947368421"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7083333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="13" label="Oswald">
+        <attvalues>
+          <attvalue for="criticality" value="0.356578407224959"></attvalue>
+          <attvalue for="key" value="Oswald"></attvalue>
+          <attvalue for="lines" value="78"></attvalue>
+          <attvalue for="words" value="588"></attvalue>
+          <attvalue for="eigencentrality" value="0.7920476134724483"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.75"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8333333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="11.410509031198687"></attvalue>
+          <attvalue for="clustering" value="0.6416666666666667"></attvalue>
+          <attvalue for="triangles" value="77"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="14" label="Duke of Albany">
+        <attvalues>
+          <attvalue for="criticality" value="0.2395235192648986"></attvalue>
+          <attvalue for="key" value="Albany"></attvalue>
+          <attvalue for="lines" value="153"></attvalue>
+          <attvalue for="words" value="1240"></attvalue>
+          <attvalue for="eigencentrality" value="0.9284293008982243"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.875"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.62284669353635"></attvalue>
+          <attvalue for="clustering" value="0.6928104575163399"></attvalue>
+          <attvalue for="triangles" value="106"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="36"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="15" label="Doctor">
+        <attvalues>
+          <attvalue for="criticality" value="0.049999999999999996"></attvalue>
+          <attvalue for="key" value="kil-doct."></attvalue>
+          <attvalue for="lines" value="18"></attvalue>
+          <attvalue for="words" value="141"></attvalue>
+          <attvalue for="eigencentrality" value="0.262350108505498"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5694444444444445"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.49999999999999994"></attvalue>
+          <attvalue for="clustering" value="0.7"></attvalue>
+          <attvalue for="triangles" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="16" label="Messenger">
+        <attvalues>
+          <attvalue for="criticality" value="0.10618686868686872"></attvalue>
+          <attvalue for="key" value="kil-mess."></attvalue>
+          <attvalue for="lines" value="19"></attvalue>
+          <attvalue for="words" value="144"></attvalue>
+          <attvalue for="eigencentrality" value="0.3226018326433564"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5581395348837209"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6180555555555556"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.2742424242424246"></attvalue>
+          <attvalue for="clustering" value="0.6666666666666666"></attvalue>
+          <attvalue for="triangles" value="10"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="17" label="Curan">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Curan"></attvalue>
+          <attvalue for="lines" value="9"></attvalue>
+          <attvalue for="words" value="86"></attvalue>
+          <attvalue for="eigencentrality" value="0.3088343870155857"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5333333333333333"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5902777777777778"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="10"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="18" label="Third Servant">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="kil-serv3."></attvalue>
+          <attvalue for="lines" value="5"></attvalue>
+          <attvalue for="words" value="46"></attvalue>
+          <attvalue for="eigencentrality" value="0.36544557032420116"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5714285714285714"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.638888888888889"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="19" label="Lear">
+        <attvalues>
+          <attvalue for="criticality" value="0.291904471645851"></attvalue>
+          <attvalue for="key" value="Lear"></attvalue>
+          <attvalue for="lines" value="751"></attvalue>
+          <attvalue for="words" value="6463"></attvalue>
+          <attvalue for="eigencentrality" value="0.9245670308784878"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.875"></attvalue>
+          <attvalue for="betweenesscentrality" value="10.508560979250635"></attvalue>
+          <attvalue for="clustering" value="0.6862745098039216"></attvalue>
+          <attvalue for="triangles" value="105"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="36"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="20" label="Edmund">
+        <attvalues>
+          <attvalue for="criticality" value="0.2508353602674089"></attvalue>
+          <attvalue for="key" value="Edmund"></attvalue>
+          <attvalue for="lines" value="316"></attvalue>
+          <attvalue for="words" value="2751"></attvalue>
+          <attvalue for="eigencentrality" value="0.8841002699461689"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7741935483870968"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8541666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.528402249091902"></attvalue>
+          <attvalue for="clustering" value="0.7058823529411765"></attvalue>
+          <attvalue for="triangles" value="96"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="34"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="21" label="First Servant">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="kil-serv1."></attvalue>
+          <attvalue for="lines" value="9"></attvalue>
+          <attvalue for="words" value="86"></attvalue>
+          <attvalue for="eigencentrality" value="0.36544557032420116"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5714285714285714"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.638888888888889"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="22" label="Gentleman">
+        <attvalues>
+          <attvalue for="criticality" value="0.17226310726310723"></attvalue>
+          <attvalue for="key" value="kil-gent."></attvalue>
+          <attvalue for="lines" value="85"></attvalue>
+          <attvalue for="words" value="660"></attvalue>
+          <attvalue for="eigencentrality" value="0.8233562977619382"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7272727272727273"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8125"></attvalue>
+          <attvalue for="betweenesscentrality" value="5.167893217893217"></attvalue>
+          <attvalue for="clustering" value="0.7904761904761904"></attvalue>
+          <attvalue for="triangles" value="83"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="30"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="23" label="Goneril">
+        <attvalues>
+          <attvalue for="criticality" value="0.5187412478052873"></attvalue>
+          <attvalue for="key" value="Goneril"></attvalue>
+          <attvalue for="lines" value="198"></attvalue>
+          <attvalue for="words" value="1714"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8888888888888888"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9375"></attvalue>
+          <attvalue for="betweenesscentrality" value="21.787132407822067"></attvalue>
+          <attvalue for="clustering" value="0.5761904761904761"></attvalue>
+          <attvalue for="triangles" value="121"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="42"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="24" label="King of France">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="FranceK"></attvalue>
+          <attvalue for="lines" value="32"></attvalue>
+          <attvalue for="words" value="277"></attvalue>
+          <attvalue for="eigencentrality" value="0.6090156481806174"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.631578947368421"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7083333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="25" label="Fool">
+        <attvalues>
+          <attvalue for="criticality" value="0.051724137931034475"></attvalue>
+          <attvalue for="key" value="kil-fool."></attvalue>
+          <attvalue for="lines" value="232"></attvalue>
+          <attvalue for="words" value="1961"></attvalue>
+          <attvalue for="eigencentrality" value="0.6427370696138871"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6486486486486487"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7291666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.1379310344827585"></attvalue>
+          <attvalue for="clustering" value="0.9090909090909091"></attvalue>
+          <attvalue for="triangles" value="50"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="22"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="26" label="Old Man">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="kil-old-man."></attvalue>
+          <attvalue for="lines" value="12"></attvalue>
+          <attvalue for="words" value="70"></attvalue>
+          <attvalue for="eigencentrality" value="0.11960722330172835"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4897959183673469"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5208333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="0" target="1" label="Duke of Cornwall --- Edgar">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1" source="0" target="2" label="Duke of Cornwall --- Cordelia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="2" source="0" target="5" label="Duke of Cornwall --- Second Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="3" source="0" target="7" label="Duke of Cornwall --- Regan" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="4" source="0" target="9" label="Duke of Cornwall --- Duke of Burgundy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="5" source="0" target="10" label="Duke of Cornwall --- Earl of Kent" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="6" source="0" target="11" label="Duke of Cornwall --- Earl of Gloucester" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="7" source="0" target="13" label="Duke of Cornwall --- Oswald" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="8" source="0" target="14" label="Duke of Cornwall --- Duke of Albany">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="9" source="0" target="17" label="Duke of Cornwall --- Curan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="10" source="0" target="18" label="Duke of Cornwall --- Third Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="11" source="0" target="19" label="Duke of Cornwall --- Lear" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="12" source="0" target="20" label="Duke of Cornwall --- Edmund" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="13" source="0" target="21" label="Duke of Cornwall --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="14" source="0" target="22" label="Duke of Cornwall --- Gentleman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="15" source="0" target="23" label="Duke of Cornwall --- Goneril" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="16" source="0" target="24" label="Duke of Cornwall --- King of France">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="17" source="0" target="25" label="Duke of Cornwall --- Fool">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="18" source="1" target="0" label="Edgar --- Duke of Cornwall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="19" source="1" target="2" label="Edgar --- Cordelia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="20" source="1" target="4" label="Edgar --- Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="21" source="1" target="7" label="Edgar --- Regan" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="22" source="1" target="10" label="Edgar --- Earl of Kent" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="23" source="1" target="11" label="Edgar --- Earl of Gloucester" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="24" source="1" target="12" label="Edgar --- A Herald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="25" source="1" target="13" label="Edgar --- Oswald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="26" source="1" target="14" label="Edgar --- Duke of Albany" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="27" source="1" target="17" label="Edgar --- Curan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="28" source="1" target="19" label="Edgar --- Lear" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="29" source="1" target="20" label="Edgar --- Edmund" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="30" source="1" target="22" label="Edgar --- Gentleman" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="31" source="1" target="23" label="Edgar --- Goneril" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="32" source="1" target="25" label="Edgar --- Fool" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="33" source="1" target="26" label="Edgar --- Old Man">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="34" source="2" target="0" label="Cordelia --- Duke of Cornwall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="35" source="2" target="1" label="Cordelia --- Edgar">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="36" source="2" target="4" label="Cordelia --- Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="37" source="2" target="7" label="Cordelia --- Regan" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="38" source="2" target="9" label="Cordelia --- Duke of Burgundy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="39" source="2" target="10" label="Cordelia --- Earl of Kent" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="40" source="2" target="11" label="Cordelia --- Earl of Gloucester">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="41" source="2" target="12" label="Cordelia --- A Herald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="42" source="2" target="14" label="Cordelia --- Duke of Albany" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="43" source="2" target="15" label="Cordelia --- Doctor" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="44" source="2" target="16" label="Cordelia --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="45" source="2" target="19" label="Cordelia --- Lear" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="46" source="2" target="20" label="Cordelia --- Edmund" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="47" source="2" target="22" label="Cordelia --- Gentleman" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="48" source="2" target="23" label="Cordelia --- Goneril" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="49" source="2" target="24" label="Cordelia --- King of France">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="50" source="4" target="1" label="Captain --- Edgar">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="51" source="4" target="2" label="Captain --- Cordelia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="52" source="4" target="7" label="Captain --- Regan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="53" source="4" target="10" label="Captain --- Earl of Kent">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="54" source="4" target="12" label="Captain --- A Herald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="55" source="4" target="14" label="Captain --- Duke of Albany">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="56" source="4" target="19" label="Captain --- Lear">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="57" source="4" target="20" label="Captain --- Edmund">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="58" source="4" target="22" label="Captain --- Gentleman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="59" source="4" target="23" label="Captain --- Goneril">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="60" source="5" target="0" label="Second Servant --- Duke of Cornwall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="61" source="5" target="7" label="Second Servant --- Regan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="62" source="5" target="11" label="Second Servant --- Earl of Gloucester">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="63" source="5" target="13" label="Second Servant --- Oswald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="64" source="5" target="18" label="Second Servant --- Third Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="65" source="5" target="21" label="Second Servant --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="66" source="5" target="23" label="Second Servant --- Goneril">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="67" source="7" target="0" label="Regan --- Duke of Cornwall" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="68" source="7" target="1" label="Regan --- Edgar" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="69" source="7" target="2" label="Regan --- Cordelia" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="70" source="7" target="4" label="Regan --- Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="71" source="7" target="5" label="Regan --- Second Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="72" source="7" target="9" label="Regan --- Duke of Burgundy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="73" source="7" target="10" label="Regan --- Earl of Kent" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="74" source="7" target="11" label="Regan --- Earl of Gloucester" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="75" source="7" target="12" label="Regan --- A Herald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="76" source="7" target="13" label="Regan --- Oswald" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="77" source="7" target="14" label="Regan --- Duke of Albany" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="78" source="7" target="17" label="Regan --- Curan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="79" source="7" target="18" label="Regan --- Third Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="80" source="7" target="19" label="Regan --- Lear" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="81" source="7" target="20" label="Regan --- Edmund" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="82" source="7" target="21" label="Regan --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="83" source="7" target="22" label="Regan --- Gentleman" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="84" source="7" target="23" label="Regan --- Goneril" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="85" source="7" target="24" label="Regan --- King of France">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="86" source="7" target="25" label="Regan --- Fool">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="87" source="8" target="10" label="Knight --- Earl of Kent">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="88" source="8" target="13" label="Knight --- Oswald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="89" source="8" target="14" label="Knight --- Duke of Albany">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="90" source="8" target="19" label="Knight --- Lear">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="91" source="8" target="23" label="Knight --- Goneril">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="92" source="8" target="25" label="Knight --- Fool">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="93" source="9" target="0" label="Duke of Burgundy --- Duke of Cornwall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="94" source="9" target="2" label="Duke of Burgundy --- Cordelia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="95" source="9" target="7" label="Duke of Burgundy --- Regan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="96" source="9" target="10" label="Duke of Burgundy --- Earl of Kent">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="97" source="9" target="11" label="Duke of Burgundy --- Earl of Gloucester">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="98" source="9" target="14" label="Duke of Burgundy --- Duke of Albany">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="99" source="9" target="19" label="Duke of Burgundy --- Lear">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="100" source="9" target="20" label="Duke of Burgundy --- Edmund">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="101" source="9" target="23" label="Duke of Burgundy --- Goneril">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="102" source="9" target="24" label="Duke of Burgundy --- King of France">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="103" source="10" target="0" label="Earl of Kent --- Duke of Cornwall" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="104" source="10" target="1" label="Earl of Kent --- Edgar" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="105" source="10" target="2" label="Earl of Kent --- Cordelia" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="106" source="10" target="4" label="Earl of Kent --- Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="107" source="10" target="7" label="Earl of Kent --- Regan" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="108" source="10" target="8" label="Earl of Kent --- Knight">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="109" source="10" target="9" label="Earl of Kent --- Duke of Burgundy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="110" source="10" target="11" label="Earl of Kent --- Earl of Gloucester" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="111" source="10" target="12" label="Earl of Kent --- A Herald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="112" source="10" target="13" label="Earl of Kent --- Oswald" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="113" source="10" target="14" label="Earl of Kent --- Duke of Albany" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="114" source="10" target="15" label="Earl of Kent --- Doctor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="115" source="10" target="19" label="Earl of Kent --- Lear" weight="9.0">
+        <attvalues>
+          <attvalue for="scenes" value="9"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="116" source="10" target="20" label="Earl of Kent --- Edmund" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="117" source="10" target="22" label="Earl of Kent --- Gentleman" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="118" source="10" target="23" label="Earl of Kent --- Goneril" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="119" source="10" target="24" label="Earl of Kent --- King of France">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="120" source="10" target="25" label="Earl of Kent --- Fool" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="121" source="11" target="0" label="Earl of Gloucester --- Duke of Cornwall" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="122" source="11" target="1" label="Earl of Gloucester --- Edgar" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="123" source="11" target="2" label="Earl of Gloucester --- Cordelia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="124" source="11" target="5" label="Earl of Gloucester --- Second Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="125" source="11" target="7" label="Earl of Gloucester --- Regan" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="126" source="11" target="9" label="Earl of Gloucester --- Duke of Burgundy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="127" source="11" target="10" label="Earl of Gloucester --- Earl of Kent" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="128" source="11" target="13" label="Earl of Gloucester --- Oswald" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="129" source="11" target="14" label="Earl of Gloucester --- Duke of Albany">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="130" source="11" target="17" label="Earl of Gloucester --- Curan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="131" source="11" target="18" label="Earl of Gloucester --- Third Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="132" source="11" target="19" label="Earl of Gloucester --- Lear" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="133" source="11" target="20" label="Earl of Gloucester --- Edmund" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="134" source="11" target="21" label="Earl of Gloucester --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="135" source="11" target="22" label="Earl of Gloucester --- Gentleman" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="136" source="11" target="23" label="Earl of Gloucester --- Goneril" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="137" source="11" target="24" label="Earl of Gloucester --- King of France">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="138" source="11" target="25" label="Earl of Gloucester --- Fool" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="139" source="11" target="26" label="Earl of Gloucester --- Old Man">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="140" source="12" target="1" label="A Herald --- Edgar">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="141" source="12" target="2" label="A Herald --- Cordelia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="142" source="12" target="4" label="A Herald --- Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="143" source="12" target="7" label="A Herald --- Regan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="144" source="12" target="10" label="A Herald --- Earl of Kent">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="145" source="12" target="14" label="A Herald --- Duke of Albany">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="146" source="12" target="19" label="A Herald --- Lear">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="147" source="12" target="20" label="A Herald --- Edmund">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="148" source="12" target="22" label="A Herald --- Gentleman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="149" source="12" target="23" label="A Herald --- Goneril">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="150" source="13" target="0" label="Oswald --- Duke of Cornwall" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="151" source="13" target="1" label="Oswald --- Edgar">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="152" source="13" target="5" label="Oswald --- Second Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="153" source="13" target="7" label="Oswald --- Regan" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="154" source="13" target="8" label="Oswald --- Knight">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="155" source="13" target="10" label="Oswald --- Earl of Kent" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="156" source="13" target="11" label="Oswald --- Earl of Gloucester" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="157" source="13" target="14" label="Oswald --- Duke of Albany" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="158" source="13" target="16" label="Oswald --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="159" source="13" target="18" label="Oswald --- Third Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="160" source="13" target="19" label="Oswald --- Lear" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="161" source="13" target="20" label="Oswald --- Edmund" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="162" source="13" target="21" label="Oswald --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="163" source="13" target="22" label="Oswald --- Gentleman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="164" source="13" target="23" label="Oswald --- Goneril" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="165" source="13" target="25" label="Oswald --- Fool">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="166" source="14" target="0" label="Duke of Albany --- Duke of Cornwall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="167" source="14" target="1" label="Duke of Albany --- Edgar" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="168" source="14" target="2" label="Duke of Albany --- Cordelia" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="169" source="14" target="4" label="Duke of Albany --- Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="170" source="14" target="7" label="Duke of Albany --- Regan" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="171" source="14" target="8" label="Duke of Albany --- Knight">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="172" source="14" target="9" label="Duke of Albany --- Duke of Burgundy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="173" source="14" target="10" label="Duke of Albany --- Earl of Kent" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="174" source="14" target="11" label="Duke of Albany --- Earl of Gloucester">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="175" source="14" target="12" label="Duke of Albany --- A Herald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="176" source="14" target="13" label="Duke of Albany --- Oswald" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="177" source="14" target="16" label="Duke of Albany --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="178" source="14" target="19" label="Duke of Albany --- Lear" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="179" source="14" target="20" label="Duke of Albany --- Edmund" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="180" source="14" target="22" label="Duke of Albany --- Gentleman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="181" source="14" target="23" label="Duke of Albany --- Goneril" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="182" source="14" target="24" label="Duke of Albany --- King of France">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="183" source="14" target="25" label="Duke of Albany --- Fool">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="184" source="15" target="2" label="Doctor --- Cordelia" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="185" source="15" target="10" label="Doctor --- Earl of Kent">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="186" source="15" target="16" label="Doctor --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="187" source="15" target="19" label="Doctor --- Lear">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="188" source="15" target="22" label="Doctor --- Gentleman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="189" source="16" target="2" label="Messenger --- Cordelia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="190" source="16" target="13" label="Messenger --- Oswald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="191" source="16" target="14" label="Messenger --- Duke of Albany">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="192" source="16" target="15" label="Messenger --- Doctor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="193" source="16" target="20" label="Messenger --- Edmund">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="194" source="16" target="23" label="Messenger --- Goneril">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="195" source="17" target="0" label="Curan --- Duke of Cornwall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="196" source="17" target="1" label="Curan --- Edgar">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="197" source="17" target="7" label="Curan --- Regan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="198" source="17" target="11" label="Curan --- Earl of Gloucester">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="199" source="17" target="20" label="Curan --- Edmund">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="200" source="18" target="0" label="Third Servant --- Duke of Cornwall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="201" source="18" target="5" label="Third Servant --- Second Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="202" source="18" target="7" label="Third Servant --- Regan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="203" source="18" target="11" label="Third Servant --- Earl of Gloucester">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="204" source="18" target="13" label="Third Servant --- Oswald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="205" source="18" target="21" label="Third Servant --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="206" source="18" target="23" label="Third Servant --- Goneril">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="207" source="19" target="0" label="Lear --- Duke of Cornwall" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="208" source="19" target="1" label="Lear --- Edgar" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="209" source="19" target="2" label="Lear --- Cordelia" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="210" source="19" target="4" label="Lear --- Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="211" source="19" target="7" label="Lear --- Regan" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="212" source="19" target="8" label="Lear --- Knight">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="213" source="19" target="9" label="Lear --- Duke of Burgundy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="214" source="19" target="10" label="Lear --- Earl of Kent" weight="9.0">
+        <attvalues>
+          <attvalue for="scenes" value="9"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="215" source="19" target="11" label="Lear --- Earl of Gloucester" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="216" source="19" target="12" label="Lear --- A Herald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="217" source="19" target="13" label="Lear --- Oswald" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="218" source="19" target="14" label="Lear --- Duke of Albany" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="219" source="19" target="15" label="Lear --- Doctor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="220" source="19" target="20" label="Lear --- Edmund" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="221" source="19" target="22" label="Lear --- Gentleman" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="222" source="19" target="23" label="Lear --- Goneril" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="223" source="19" target="24" label="Lear --- King of France">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="224" source="19" target="25" label="Lear --- Fool" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="225" source="20" target="0" label="Edmund --- Duke of Cornwall" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="226" source="20" target="1" label="Edmund --- Edgar" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="227" source="20" target="2" label="Edmund --- Cordelia" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="228" source="20" target="4" label="Edmund --- Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="229" source="20" target="7" label="Edmund --- Regan" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="230" source="20" target="9" label="Edmund --- Duke of Burgundy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="231" source="20" target="10" label="Edmund --- Earl of Kent" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="232" source="20" target="11" label="Edmund --- Earl of Gloucester" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="233" source="20" target="12" label="Edmund --- A Herald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="234" source="20" target="13" label="Edmund --- Oswald" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="235" source="20" target="14" label="Edmund --- Duke of Albany" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="236" source="20" target="16" label="Edmund --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="237" source="20" target="17" label="Edmund --- Curan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="238" source="20" target="19" label="Edmund --- Lear" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="239" source="20" target="22" label="Edmund --- Gentleman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="240" source="20" target="23" label="Edmund --- Goneril" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="241" source="20" target="24" label="Edmund --- King of France">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="242" source="21" target="0" label="First Servant --- Duke of Cornwall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="243" source="21" target="5" label="First Servant --- Second Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="244" source="21" target="7" label="First Servant --- Regan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="245" source="21" target="11" label="First Servant --- Earl of Gloucester">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="246" source="21" target="13" label="First Servant --- Oswald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="247" source="21" target="18" label="First Servant --- Third Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="248" source="21" target="23" label="First Servant --- Goneril">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="249" source="22" target="0" label="Gentleman --- Duke of Cornwall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="250" source="22" target="1" label="Gentleman --- Edgar" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="251" source="22" target="2" label="Gentleman --- Cordelia" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="252" source="22" target="4" label="Gentleman --- Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="253" source="22" target="7" label="Gentleman --- Regan" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="254" source="22" target="10" label="Gentleman --- Earl of Kent" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="255" source="22" target="11" label="Gentleman --- Earl of Gloucester" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="256" source="22" target="12" label="Gentleman --- A Herald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="257" source="22" target="13" label="Gentleman --- Oswald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="258" source="22" target="14" label="Gentleman --- Duke of Albany">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="259" source="22" target="15" label="Gentleman --- Doctor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="260" source="22" target="19" label="Gentleman --- Lear" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="261" source="22" target="20" label="Gentleman --- Edmund">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="262" source="22" target="23" label="Gentleman --- Goneril" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="263" source="22" target="25" label="Gentleman --- Fool" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="264" source="23" target="0" label="Goneril --- Duke of Cornwall" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="265" source="23" target="1" label="Goneril --- Edgar" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="266" source="23" target="2" label="Goneril --- Cordelia" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="267" source="23" target="4" label="Goneril --- Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="268" source="23" target="5" label="Goneril --- Second Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="269" source="23" target="7" label="Goneril --- Regan" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="270" source="23" target="8" label="Goneril --- Knight">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="271" source="23" target="9" label="Goneril --- Duke of Burgundy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="272" source="23" target="10" label="Goneril --- Earl of Kent" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="273" source="23" target="11" label="Goneril --- Earl of Gloucester" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="274" source="23" target="12" label="Goneril --- A Herald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="275" source="23" target="13" label="Goneril --- Oswald" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="276" source="23" target="14" label="Goneril --- Duke of Albany" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="277" source="23" target="16" label="Goneril --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="278" source="23" target="18" label="Goneril --- Third Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="279" source="23" target="19" label="Goneril --- Lear" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="280" source="23" target="20" label="Goneril --- Edmund" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="281" source="23" target="21" label="Goneril --- First Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="282" source="23" target="22" label="Goneril --- Gentleman" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="283" source="23" target="24" label="Goneril --- King of France">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="284" source="23" target="25" label="Goneril --- Fool" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="285" source="24" target="0" label="King of France --- Duke of Cornwall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="286" source="24" target="2" label="King of France --- Cordelia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="287" source="24" target="7" label="King of France --- Regan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="288" source="24" target="9" label="King of France --- Duke of Burgundy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="289" source="24" target="10" label="King of France --- Earl of Kent">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="290" source="24" target="11" label="King of France --- Earl of Gloucester">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="291" source="24" target="14" label="King of France --- Duke of Albany">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="292" source="24" target="19" label="King of France --- Lear">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="293" source="24" target="20" label="King of France --- Edmund">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="294" source="24" target="23" label="King of France --- Goneril">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="295" source="25" target="0" label="Fool --- Duke of Cornwall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="296" source="25" target="1" label="Fool --- Edgar" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="297" source="25" target="7" label="Fool --- Regan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="298" source="25" target="8" label="Fool --- Knight">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="299" source="25" target="10" label="Fool --- Earl of Kent" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="300" source="25" target="11" label="Fool --- Earl of Gloucester" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="301" source="25" target="13" label="Fool --- Oswald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="302" source="25" target="14" label="Fool --- Duke of Albany">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="303" source="25" target="19" label="Fool --- Lear" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="304" source="25" target="22" label="Fool --- Gentleman" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="305" source="25" target="23" label="Fool --- Goneril" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="306" source="26" target="1" label="Old Man --- Edgar">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="307" source="26" target="11" label="Old Man --- Earl of Gloucester">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

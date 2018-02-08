@@ -1,0 +1,2869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-02-03">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="criticality" title="criticality" type="double"></attribute>
+      <attribute id="key" title="key" type="string"></attribute>
+      <attribute id="lines" title="lines" type="integer"></attribute>
+      <attribute id="words" title="words" type="integer"></attribute>
+      <attribute id="eigencentrality" title="Eigenvector Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="triangles" title="Number of triangles" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="scenes" title="scenes" type="integer"></attribute>
+    </attributes>
+    <nodes>
+      <node id="0" label="Second Gaoler">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="cym-sec.-gaol."></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="7"></attvalue>
+          <attvalue for="eigencentrality" value="0.27560051847141176"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5373134328358209"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6064814814814814"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="1" label="Imogen">
+        <attvalues>
+          <attvalue for="criticality" value="1.3187590187590192"></attvalue>
+          <attvalue for="key" value="Imogen"></attvalue>
+          <attvalue for="lines" value="594"></attvalue>
+          <attvalue for="words" value="5083"></attvalue>
+          <attvalue for="eigencentrality" value="0.9989459317126616"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.72"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8055555555555556"></attvalue>
+          <attvalue for="betweenesscentrality" value="58.02539682539685"></attvalue>
+          <attvalue for="clustering" value="0.49783549783549785"></attvalue>
+          <attvalue for="triangles" value="115"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="44"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="2" label="His wife">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="LeonatusMoth"></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="3" label="First Captain">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="cym-first-cap."></attvalue>
+          <attvalue for="lines" value="4"></attvalue>
+          <attvalue for="words" value="34"></attvalue>
+          <attvalue for="eigencentrality" value="0.08832984647390778"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4675324675324675"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5046296296296295"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="4" label="Helen">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Helen2"></attvalue>
+          <attvalue for="lines" value="2"></attvalue>
+          <attvalue for="words" value="8"></attvalue>
+          <attvalue for="eigencentrality" value="0.12001570516960268"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.43902439024390244"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4722222222222223"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="5" label="Both together">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="sha-cym-role41"></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="6" label="First Tribune">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="cym-first-tri."></attvalue>
+          <attvalue for="lines" value="3"></attvalue>
+          <attvalue for="words" value="19"></attvalue>
+          <attvalue for="eigencentrality" value="0.0027698310094399054"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="componentnumber" value="3"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="7" label="Messenger">
+        <attvalues>
+          <attvalue for="criticality" value="1.8331699346405228"></attvalue>
+          <attvalue for="key" value="cym-mess."></attvalue>
+          <attvalue for="lines" value="4"></attvalue>
+          <attvalue for="words" value="26"></attvalue>
+          <attvalue for="eigencentrality" value="0.6513618175550551"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6545454545454545"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7361111111111112"></attvalue>
+          <attvalue for="betweenesscentrality" value="62.327777777777776"></attvalue>
+          <attvalue for="clustering" value="0.5"></attvalue>
+          <attvalue for="triangles" value="68"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="34"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="8" label="Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="criticality" value="4.72672902494331"></attvalue>
+          <attvalue for="key" value="Posthumus"></attvalue>
+          <attvalue for="lines" value="444"></attvalue>
+          <attvalue for="words" value="3942"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8181818181818182"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8888888888888888"></attvalue>
+          <attvalue for="betweenesscentrality" value="264.6968253968254"></attvalue>
+          <attvalue for="clustering" value="0.30687830687830686"></attvalue>
+          <attvalue for="triangles" value="116"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="56"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="9" label="Guiderius">
+        <attvalues>
+          <attvalue for="criticality" value="0.23360260770975058"></attvalue>
+          <attvalue for="key" value="Guiderius"></attvalue>
+          <attvalue for="lines" value="165"></attvalue>
+          <attvalue for="words" value="1272"></attvalue>
+          <attvalue for="eigencentrality" value="0.7652595675412941"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6206896551724138"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6944444444444444"></attvalue>
+          <attvalue for="betweenesscentrality" value="6.540873015873016"></attvalue>
+          <attvalue for="clustering" value="0.8241758241758241"></attvalue>
+          <attvalue for="triangles" value="75"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="10" label="Attendant">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="cym-atten."></attvalue>
+          <attvalue for="lines" value="3"></attvalue>
+          <attvalue for="words" value="26"></attvalue>
+          <attvalue for="eigencentrality" value="0.2989995737217049"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4444444444444444"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5046296296296298"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="10"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="11" label="Second Gentleman">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="cym-sec.-gent."></attvalue>
+          <attvalue for="lines" value="13"></attvalue>
+          <attvalue for="words" value="84"></attvalue>
+          <attvalue for="eigencentrality" value="0.3566540840285325"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5454545454545454"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5833333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="15"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="12" label="Lords">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="cym-lords."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="4"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="13" label="All">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="cym-all"></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="3"></attvalue>
+          <attvalue for="eigencentrality" value="0.2756005184714118"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5373134328358209"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6064814814814814"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="14" label="Queen">
+        <attvalues>
+          <attvalue for="criticality" value="0.5309126984126985"></attvalue>
+          <attvalue for="key" value="CymbelineQ"></attvalue>
+          <attvalue for="lines" value="166"></attvalue>
+          <attvalue for="words" value="1413"></attvalue>
+          <attvalue for="eigencentrality" value="0.7052957578835359"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.631578947368421"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7083333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="15.927380952380954"></attvalue>
+          <attvalue for="clustering" value="0.580952380952381"></attvalue>
+          <attvalue for="triangles" value="61"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="30"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="15" label="Arviragus">
+        <attvalues>
+          <attvalue for="criticality" value="0.23360260770975058"></attvalue>
+          <attvalue for="key" value="Arviragus"></attvalue>
+          <attvalue for="lines" value="139"></attvalue>
+          <attvalue for="words" value="1088"></attvalue>
+          <attvalue for="eigencentrality" value="0.7652595675412941"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6206896551724138"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6944444444444444"></attvalue>
+          <attvalue for="betweenesscentrality" value="6.540873015873016"></attvalue>
+          <attvalue for="clustering" value="0.8241758241758241"></attvalue>
+          <attvalue for="triangles" value="75"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="16" label="Mother of Leonatus">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="LeonatusMother"></attvalue>
+          <attvalue for="lines" value="12"></attvalue>
+          <attvalue for="words" value="72"></attvalue>
+          <attvalue for="eigencentrality" value="0.2756005184714118"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5373134328358209"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6064814814814814"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="17" label="Cymbeline">
+        <attvalues>
+          <attvalue for="criticality" value="0.6712599206349206"></attvalue>
+          <attvalue for="key" value="Cymbeline"></attvalue>
+          <attvalue for="lines" value="291"></attvalue>
+          <attvalue for="words" value="2331"></attvalue>
+          <attvalue for="eigencentrality" value="0.9533578633767807"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6923076923076923"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7777777777777778"></attvalue>
+          <attvalue for="betweenesscentrality" value="26.85039682539682"></attvalue>
+          <attvalue for="clustering" value="0.5526315789473685"></attvalue>
+          <attvalue for="triangles" value="105"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="40"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="18" label="First Senator">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="cym-first-sen."></attvalue>
+          <attvalue for="lines" value="15"></attvalue>
+          <attvalue for="words" value="116"></attvalue>
+          <attvalue for="eigencentrality" value="0.0027698310094399054"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="componentnumber" value="3"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="19" label="Belarius">
+        <attvalues>
+          <attvalue for="criticality" value="0.23360260770975058"></attvalue>
+          <attvalue for="key" value="Belarius"></attvalue>
+          <attvalue for="lines" value="338"></attvalue>
+          <attvalue for="words" value="2890"></attvalue>
+          <attvalue for="eigencentrality" value="0.7652595675412941"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6206896551724138"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6944444444444444"></attvalue>
+          <attvalue for="betweenesscentrality" value="6.540873015873016"></attvalue>
+          <attvalue for="clustering" value="0.8241758241758241"></attvalue>
+          <attvalue for="triangles" value="75"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="20" label="A Frenchman">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="cym-french."></attvalue>
+          <attvalue for="lines" value="22"></attvalue>
+          <attvalue for="words" value="204"></attvalue>
+          <attvalue for="eigencentrality" value="0.13259943773409003"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.47368421052631576"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5092592592592592"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="21" label="A Lady">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="cym-lady."></attvalue>
+          <attvalue for="lines" value="11"></attvalue>
+          <attvalue for="words" value="68"></attvalue>
+          <attvalue for="eigencentrality" value="0.4203699187462933"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5217391304347826"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.587962962962963"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="28"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="22" label="First Gentleman">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="cym-first-gent."></attvalue>
+          <attvalue for="lines" value="66"></attvalue>
+          <attvalue for="words" value="583"></attvalue>
+          <attvalue for="eigencentrality" value="0.3566540840285325"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5454545454545454"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5833333333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="15"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="23" label="A British Lord">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="cym-lord."></attvalue>
+          <attvalue for="lines" value="7"></attvalue>
+          <attvalue for="words" value="42"></attvalue>
+          <attvalue for="eigencentrality" value="0.08832984647390778"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4675324675324675"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5046296296296297"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="24" label="Philario">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Philario"></attvalue>
+          <attvalue for="lines" value="43"></attvalue>
+          <attvalue for="words" value="335"></attvalue>
+          <attvalue for="eigencentrality" value="0.13259943773409003"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.47368421052631576"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5092592592592592"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="25" label="First Gaoler">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="cym-first-gaol."></attvalue>
+          <attvalue for="lines" value="46"></attvalue>
+          <attvalue for="words" value="455"></attvalue>
+          <attvalue for="eigencentrality" value="0.2756005184714118"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5373134328358209"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6064814814814814"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="26" label="Sicilius Leonatus">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="LeonatusSic"></attvalue>
+          <attvalue for="lines" value="40"></attvalue>
+          <attvalue for="words" value="271"></attvalue>
+          <attvalue for="eigencentrality" value="0.2756005184714118"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5373134328358209"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6064814814814814"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="27" label="Second Captain">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="cym-sec.-cap."></attvalue>
+          <attvalue for="lines" value="6"></attvalue>
+          <attvalue for="words" value="84"></attvalue>
+          <attvalue for="eigencentrality" value="0.08832984647390778"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4675324675324675"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5046296296296297"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="28" label="Second of the Leonati">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="LeonatusBro2"></attvalue>
+          <attvalue for="lines" value="8"></attvalue>
+          <attvalue for="words" value="70"></attvalue>
+          <attvalue for="eigencentrality" value="0.2756005184714118"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5373134328358209"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6064814814814814"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="29" label="Pisanio">
+        <attvalues>
+          <attvalue for="criticality" value="0.6712599206349206"></attvalue>
+          <attvalue for="key" value="Pisanio"></attvalue>
+          <attvalue for="lines" value="217"></attvalue>
+          <attvalue for="words" value="1738"></attvalue>
+          <attvalue for="eigencentrality" value="0.9533578633767807"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6923076923076923"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7777777777777778"></attvalue>
+          <attvalue for="betweenesscentrality" value="26.85039682539682"></attvalue>
+          <attvalue for="clustering" value="0.5526315789473685"></attvalue>
+          <attvalue for="triangles" value="105"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="40"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="30" label="First of the Leonati">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="LeonatusBro1"></attvalue>
+          <attvalue for="lines" value="14"></attvalue>
+          <attvalue for="words" value="105"></attvalue>
+          <attvalue for="eigencentrality" value="0.2756005184714118"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5373134328358209"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6064814814814814"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="31" label="Cloten">
+        <attvalues>
+          <attvalue for="criticality" value="0.5196800595238095"></attvalue>
+          <attvalue for="key" value="Cloten"></attvalue>
+          <attvalue for="lines" value="277"></attvalue>
+          <attvalue for="words" value="2344"></attvalue>
+          <attvalue for="eigencentrality" value="0.7552387362349677"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5901639344262295"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6990740740740741"></attvalue>
+          <attvalue for="betweenesscentrality" value="16.629761904761903"></attvalue>
+          <attvalue for="clustering" value="0.5916666666666667"></attvalue>
+          <attvalue for="triangles" value="71"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="32" label="Cornelius">
+        <attvalues>
+          <attvalue for="criticality" value="0.026785714285714284"></attvalue>
+          <attvalue for="key" value="Cornelius2"></attvalue>
+          <attvalue for="lines" value="73"></attvalue>
+          <attvalue for="words" value="603"></attvalue>
+          <attvalue for="eigencentrality" value="0.7049558662448321"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.6428571428571428"></attvalue>
+          <attvalue for="clustering" value="0.9242424242424242"></attvalue>
+          <attvalue for="triangles" value="61"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="33" label="First Lord">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="cym-first-lord."></attvalue>
+          <attvalue for="lines" value="41"></attvalue>
+          <attvalue for="words" value="333"></attvalue>
+          <attvalue for="eigencentrality" value="0.4203699187462933"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5217391304347826"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.587962962962963"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="28"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="34" label="Jupiter">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Jupiter"></attvalue>
+          <attvalue for="lines" value="21"></attvalue>
+          <attvalue for="words" value="176"></attvalue>
+          <attvalue for="eigencentrality" value="0.2756005184714118"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5373134328358209"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6064814814814814"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="35" label="Caius Lucius">
+        <attvalues>
+          <attvalue for="criticality" value="0.42828621031746034"></attvalue>
+          <attvalue for="key" value="CaiusLu"></attvalue>
+          <attvalue for="lines" value="104"></attvalue>
+          <attvalue for="words" value="826"></attvalue>
+          <attvalue for="eigencentrality" value="0.8325450277433645"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6428571428571429"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7222222222222222"></attvalue>
+          <attvalue for="betweenesscentrality" value="13.70515873015873"></attvalue>
+          <attvalue for="clustering" value="0.7166666666666667"></attvalue>
+          <attvalue for="triangles" value="86"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="36" label="Second Senator">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="cym-sec.-sen."></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="2"></attvalue>
+          <attvalue for="eigencentrality" value="0.0027698310094399054"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="componentnumber" value="3"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="37" label="Second Lord">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="cym-sec.-lord."></attvalue>
+          <attvalue for="lines" value="43"></attvalue>
+          <attvalue for="words" value="357"></attvalue>
+          <attvalue for="eigencentrality" value="0.4203699187462933"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5217391304347826"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.587962962962963"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="28"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="38" label="Iachimo">
+        <attvalues>
+          <attvalue for="criticality" value="0.9834892290249434"></attvalue>
+          <attvalue for="key" value="Jachimo"></attvalue>
+          <attvalue for="lines" value="433"></attvalue>
+          <attvalue for="words" value="3698"></attvalue>
+          <attvalue for="eigencentrality" value="0.6851052794181803"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6206896551724138"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6944444444444444"></attvalue>
+          <attvalue for="betweenesscentrality" value="27.537698412698415"></attvalue>
+          <attvalue for="clustering" value="0.6483516483516484"></attvalue>
+          <attvalue for="triangles" value="59"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="39" label="Soothsayer">
+        <attvalues>
+          <attvalue for="criticality" value="0.23360260770975058"></attvalue>
+          <attvalue for="key" value="cym-sooth."></attvalue>
+          <attvalue for="lines" value="43"></attvalue>
+          <attvalue for="words" value="360"></attvalue>
+          <attvalue for="eigencentrality" value="0.7652595675412941"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6206896551724138"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6944444444444444"></attvalue>
+          <attvalue for="betweenesscentrality" value="6.540873015873016"></attvalue>
+          <attvalue for="clustering" value="0.8241758241758241"></attvalue>
+          <attvalue for="triangles" value="75"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="40" label="Both">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="cym-both."></attvalue>
+          <attvalue for="lines" value="4"></attvalue>
+          <attvalue for="words" value="25"></attvalue>
+          <attvalue for="eigencentrality" value="0.43110165845039766"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4675324675324675"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.550925925925926"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="28"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="41" label="First Lady">
+        <attvalues>
+          <attvalue for="criticality" value="0.026785714285714284"></attvalue>
+          <attvalue for="key" value="cym-first-lady."></attvalue>
+          <attvalue for="lines" value="2"></attvalue>
+          <attvalue for="words" value="10"></attvalue>
+          <attvalue for="eigencentrality" value="0.7049558662448321"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.6428571428571428"></attvalue>
+          <attvalue for="clustering" value="0.9242424242424242"></attvalue>
+          <attvalue for="triangles" value="61"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="42" label="A Roman Captain">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="cym-cap."></attvalue>
+          <attvalue for="lines" value="11"></attvalue>
+          <attvalue for="words" value="78"></attvalue>
+          <attvalue for="eigencentrality" value="0.43110165845039766"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4675324675324675"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.550925925925926"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="28"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="0" target="7" label="Second Gaoler --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1" source="0" target="8" label="Second Gaoler --- Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="2" source="0" target="13" label="Second Gaoler --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="3" source="0" target="16" label="Second Gaoler --- Mother of Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="4" source="0" target="25" label="Second Gaoler --- First Gaoler">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="5" source="0" target="26" label="Second Gaoler --- Sicilius Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="6" source="0" target="28" label="Second Gaoler --- Second of the Leonati">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="7" source="0" target="30" label="Second Gaoler --- First of the Leonati">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="8" source="0" target="34" label="Second Gaoler --- Jupiter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="9" source="1" target="4" label="Imogen --- Helen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="10" source="1" target="7" label="Imogen --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="11" source="1" target="8" label="Imogen --- Posthumus Leonatus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="12" source="1" target="9" label="Imogen --- Guiderius" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="13" source="1" target="11" label="Imogen --- Second Gentleman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="14" source="1" target="14" label="Imogen --- Queen" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="15" source="1" target="15" label="Imogen --- Arviragus" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="16" source="1" target="17" label="Imogen --- Cymbeline" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="17" source="1" target="19" label="Imogen --- Belarius" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="18" source="1" target="21" label="Imogen --- A Lady" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="19" source="1" target="22" label="Imogen --- First Gentleman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="20" source="1" target="29" label="Imogen --- Pisanio" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="21" source="1" target="31" label="Imogen --- Cloten" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="22" source="1" target="32" label="Imogen --- Cornelius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="23" source="1" target="33" label="Imogen --- First Lord">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="24" source="1" target="35" label="Imogen --- Caius Lucius" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="25" source="1" target="37" label="Imogen --- Second Lord">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="26" source="1" target="38" label="Imogen --- Iachimo" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="27" source="1" target="39" label="Imogen --- Soothsayer" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="28" source="1" target="40" label="Imogen --- Both">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="29" source="1" target="41" label="Imogen --- First Lady">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="30" source="1" target="42" label="Imogen --- A Roman Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="31" source="3" target="8" label="First Captain --- Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="32" source="3" target="23" label="First Captain --- A British Lord">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="33" source="3" target="27" label="First Captain --- Second Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="34" source="4" target="1" label="Helen --- Imogen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="35" source="4" target="38" label="Helen --- Iachimo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="36" source="6" target="18" label="First Tribune --- First Senator">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="37" source="6" target="36" label="First Tribune --- Second Senator">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="38" source="7" target="0" label="Messenger --- Second Gaoler">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="39" source="7" target="1" label="Messenger --- Imogen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="40" source="7" target="8" label="Messenger --- Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="41" source="7" target="13" label="Messenger --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="42" source="7" target="14" label="Messenger --- Queen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="43" source="7" target="16" label="Messenger --- Mother of Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="44" source="7" target="17" label="Messenger --- Cymbeline">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="45" source="7" target="21" label="Messenger --- A Lady">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="46" source="7" target="25" label="Messenger --- First Gaoler">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="47" source="7" target="26" label="Messenger --- Sicilius Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="48" source="7" target="28" label="Messenger --- Second of the Leonati">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="49" source="7" target="29" label="Messenger --- Pisanio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="50" source="7" target="30" label="Messenger --- First of the Leonati">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="51" source="7" target="31" label="Messenger --- Cloten">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="52" source="7" target="33" label="Messenger --- First Lord">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="53" source="7" target="34" label="Messenger --- Jupiter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="54" source="7" target="37" label="Messenger --- Second Lord">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="55" source="8" target="0" label="Posthumus Leonatus --- Second Gaoler">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="56" source="8" target="1" label="Posthumus Leonatus --- Imogen" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="57" source="8" target="3" label="Posthumus Leonatus --- First Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="58" source="8" target="7" label="Posthumus Leonatus --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="59" source="8" target="9" label="Posthumus Leonatus --- Guiderius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="60" source="8" target="11" label="Posthumus Leonatus --- Second Gentleman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="61" source="8" target="13" label="Posthumus Leonatus --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="62" source="8" target="14" label="Posthumus Leonatus --- Queen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="63" source="8" target="15" label="Posthumus Leonatus --- Arviragus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="64" source="8" target="16" label="Posthumus Leonatus --- Mother of Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="65" source="8" target="17" label="Posthumus Leonatus --- Cymbeline" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="66" source="8" target="19" label="Posthumus Leonatus --- Belarius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="67" source="8" target="20" label="Posthumus Leonatus --- A Frenchman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="68" source="8" target="22" label="Posthumus Leonatus --- First Gentleman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="69" source="8" target="23" label="Posthumus Leonatus --- A British Lord">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="70" source="8" target="24" label="Posthumus Leonatus --- Philario" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="71" source="8" target="25" label="Posthumus Leonatus --- First Gaoler">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="72" source="8" target="26" label="Posthumus Leonatus --- Sicilius Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="73" source="8" target="27" label="Posthumus Leonatus --- Second Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="74" source="8" target="28" label="Posthumus Leonatus --- Second of the Leonati">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="75" source="8" target="29" label="Posthumus Leonatus --- Pisanio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="76" source="8" target="30" label="Posthumus Leonatus --- First of the Leonati">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="77" source="8" target="32" label="Posthumus Leonatus --- Cornelius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="78" source="8" target="34" label="Posthumus Leonatus --- Jupiter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="79" source="8" target="35" label="Posthumus Leonatus --- Caius Lucius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="80" source="8" target="38" label="Posthumus Leonatus --- Iachimo" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="81" source="8" target="39" label="Posthumus Leonatus --- Soothsayer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="82" source="8" target="41" label="Posthumus Leonatus --- First Lady">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="83" source="9" target="1" label="Guiderius --- Imogen" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="84" source="9" target="8" label="Guiderius --- Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="85" source="9" target="15" label="Guiderius --- Arviragus" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="86" source="9" target="17" label="Guiderius --- Cymbeline">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="87" source="9" target="19" label="Guiderius --- Belarius" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="88" source="9" target="29" label="Guiderius --- Pisanio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="89" source="9" target="31" label="Guiderius --- Cloten">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="90" source="9" target="32" label="Guiderius --- Cornelius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="91" source="9" target="35" label="Guiderius --- Caius Lucius" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="92" source="9" target="38" label="Guiderius --- Iachimo" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="93" source="9" target="39" label="Guiderius --- Soothsayer" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="94" source="9" target="40" label="Guiderius --- Both">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="95" source="9" target="41" label="Guiderius --- First Lady">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="96" source="9" target="42" label="Guiderius --- A Roman Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="97" source="10" target="14" label="Attendant --- Queen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="98" source="10" target="17" label="Attendant --- Cymbeline">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="99" source="10" target="29" label="Attendant --- Pisanio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="100" source="10" target="31" label="Attendant --- Cloten">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="101" source="10" target="35" label="Attendant --- Caius Lucius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="102" source="11" target="1" label="Second Gentleman --- Imogen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="103" source="11" target="8" label="Second Gentleman --- Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="104" source="11" target="14" label="Second Gentleman --- Queen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="105" source="11" target="17" label="Second Gentleman --- Cymbeline">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="106" source="11" target="22" label="Second Gentleman --- First Gentleman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="107" source="11" target="29" label="Second Gentleman --- Pisanio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="108" source="13" target="0" label="All --- Second Gaoler">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="109" source="13" target="7" label="All --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="110" source="13" target="8" label="All --- Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="111" source="13" target="16" label="All --- Mother of Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="112" source="13" target="25" label="All --- First Gaoler">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="113" source="13" target="26" label="All --- Sicilius Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="114" source="13" target="28" label="All --- Second of the Leonati">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="115" source="13" target="30" label="All --- First of the Leonati">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="116" source="13" target="34" label="All --- Jupiter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="117" source="14" target="1" label="Queen --- Imogen" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="118" source="14" target="7" label="Queen --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="119" source="14" target="8" label="Queen --- Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="120" source="14" target="10" label="Queen --- Attendant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="121" source="14" target="11" label="Queen --- Second Gentleman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="122" source="14" target="17" label="Queen --- Cymbeline" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="123" source="14" target="21" label="Queen --- A Lady">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="124" source="14" target="22" label="Queen --- First Gentleman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="125" source="14" target="29" label="Queen --- Pisanio" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="126" source="14" target="31" label="Queen --- Cloten" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="127" source="14" target="32" label="Queen --- Cornelius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="128" source="14" target="33" label="Queen --- First Lord">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="129" source="14" target="35" label="Queen --- Caius Lucius" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="130" source="14" target="37" label="Queen --- Second Lord">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="131" source="14" target="41" label="Queen --- First Lady">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="132" source="15" target="1" label="Arviragus --- Imogen" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="133" source="15" target="8" label="Arviragus --- Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="134" source="15" target="9" label="Arviragus --- Guiderius" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="135" source="15" target="17" label="Arviragus --- Cymbeline">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="136" source="15" target="19" label="Arviragus --- Belarius" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="137" source="15" target="29" label="Arviragus --- Pisanio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="138" source="15" target="31" label="Arviragus --- Cloten">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="139" source="15" target="32" label="Arviragus --- Cornelius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="140" source="15" target="35" label="Arviragus --- Caius Lucius" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="141" source="15" target="38" label="Arviragus --- Iachimo" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="142" source="15" target="39" label="Arviragus --- Soothsayer" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="143" source="15" target="40" label="Arviragus --- Both">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="144" source="15" target="41" label="Arviragus --- First Lady">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="145" source="15" target="42" label="Arviragus --- A Roman Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="146" source="16" target="0" label="Mother of Leonatus --- Second Gaoler">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="147" source="16" target="7" label="Mother of Leonatus --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="148" source="16" target="8" label="Mother of Leonatus --- Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="149" source="16" target="13" label="Mother of Leonatus --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="150" source="16" target="25" label="Mother of Leonatus --- First Gaoler">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="151" source="16" target="26" label="Mother of Leonatus --- Sicilius Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="152" source="16" target="28" label="Mother of Leonatus --- Second of the Leonati">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="153" source="16" target="30" label="Mother of Leonatus --- First of the Leonati">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="154" source="16" target="34" label="Mother of Leonatus --- Jupiter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="155" source="17" target="1" label="Cymbeline --- Imogen" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="156" source="17" target="7" label="Cymbeline --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="157" source="17" target="8" label="Cymbeline --- Posthumus Leonatus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="158" source="17" target="9" label="Cymbeline --- Guiderius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="159" source="17" target="10" label="Cymbeline --- Attendant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="160" source="17" target="11" label="Cymbeline --- Second Gentleman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="161" source="17" target="14" label="Cymbeline --- Queen" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="162" source="17" target="15" label="Cymbeline --- Arviragus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="163" source="17" target="19" label="Cymbeline --- Belarius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="164" source="17" target="21" label="Cymbeline --- A Lady">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="165" source="17" target="22" label="Cymbeline --- First Gentleman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="166" source="17" target="29" label="Cymbeline --- Pisanio" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="167" source="17" target="31" label="Cymbeline --- Cloten" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="168" source="17" target="32" label="Cymbeline --- Cornelius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="169" source="17" target="33" label="Cymbeline --- First Lord" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="170" source="17" target="35" label="Cymbeline --- Caius Lucius" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="171" source="17" target="37" label="Cymbeline --- Second Lord">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="172" source="17" target="38" label="Cymbeline --- Iachimo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="173" source="17" target="39" label="Cymbeline --- Soothsayer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="174" source="17" target="41" label="Cymbeline --- First Lady">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="175" source="18" target="6" label="First Senator --- First Tribune">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="176" source="18" target="36" label="First Senator --- Second Senator">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="177" source="19" target="1" label="Belarius --- Imogen" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="178" source="19" target="8" label="Belarius --- Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="179" source="19" target="9" label="Belarius --- Guiderius" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="180" source="19" target="15" label="Belarius --- Arviragus" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="181" source="19" target="17" label="Belarius --- Cymbeline">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="182" source="19" target="29" label="Belarius --- Pisanio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="183" source="19" target="31" label="Belarius --- Cloten">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="184" source="19" target="32" label="Belarius --- Cornelius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="185" source="19" target="35" label="Belarius --- Caius Lucius" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="186" source="19" target="38" label="Belarius --- Iachimo" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="187" source="19" target="39" label="Belarius --- Soothsayer" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="188" source="19" target="40" label="Belarius --- Both">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="189" source="19" target="41" label="Belarius --- First Lady">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="190" source="19" target="42" label="Belarius --- A Roman Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="191" source="20" target="8" label="A Frenchman --- Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="192" source="20" target="24" label="A Frenchman --- Philario">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="193" source="20" target="38" label="A Frenchman --- Iachimo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="194" source="21" target="1" label="A Lady --- Imogen" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="195" source="21" target="7" label="A Lady --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="196" source="21" target="14" label="A Lady --- Queen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="197" source="21" target="17" label="A Lady --- Cymbeline">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="198" source="21" target="29" label="A Lady --- Pisanio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="199" source="21" target="31" label="A Lady --- Cloten">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="200" source="21" target="33" label="A Lady --- First Lord">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="201" source="21" target="37" label="A Lady --- Second Lord">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="202" source="22" target="1" label="First Gentleman --- Imogen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="203" source="22" target="8" label="First Gentleman --- Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="204" source="22" target="11" label="First Gentleman --- Second Gentleman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="205" source="22" target="14" label="First Gentleman --- Queen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="206" source="22" target="17" label="First Gentleman --- Cymbeline">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="207" source="22" target="29" label="First Gentleman --- Pisanio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="208" source="23" target="3" label="A British Lord --- First Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="209" source="23" target="8" label="A British Lord --- Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="210" source="23" target="27" label="A British Lord --- Second Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="211" source="24" target="8" label="Philario --- Posthumus Leonatus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="212" source="24" target="20" label="Philario --- A Frenchman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="213" source="24" target="38" label="Philario --- Iachimo" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="214" source="25" target="0" label="First Gaoler --- Second Gaoler">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="215" source="25" target="7" label="First Gaoler --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="216" source="25" target="8" label="First Gaoler --- Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="217" source="25" target="13" label="First Gaoler --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="218" source="25" target="16" label="First Gaoler --- Mother of Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="219" source="25" target="26" label="First Gaoler --- Sicilius Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="220" source="25" target="28" label="First Gaoler --- Second of the Leonati">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="221" source="25" target="30" label="First Gaoler --- First of the Leonati">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="222" source="25" target="34" label="First Gaoler --- Jupiter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="223" source="26" target="0" label="Sicilius Leonatus --- Second Gaoler">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="224" source="26" target="7" label="Sicilius Leonatus --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="225" source="26" target="8" label="Sicilius Leonatus --- Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="226" source="26" target="13" label="Sicilius Leonatus --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="227" source="26" target="16" label="Sicilius Leonatus --- Mother of Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="228" source="26" target="25" label="Sicilius Leonatus --- First Gaoler">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="229" source="26" target="28" label="Sicilius Leonatus --- Second of the Leonati">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="230" source="26" target="30" label="Sicilius Leonatus --- First of the Leonati">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="231" source="26" target="34" label="Sicilius Leonatus --- Jupiter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="232" source="27" target="3" label="Second Captain --- First Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="233" source="27" target="8" label="Second Captain --- Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="234" source="27" target="23" label="Second Captain --- A British Lord">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="235" source="28" target="0" label="Second of the Leonati --- Second Gaoler">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="236" source="28" target="7" label="Second of the Leonati --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="237" source="28" target="8" label="Second of the Leonati --- Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="238" source="28" target="13" label="Second of the Leonati --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="239" source="28" target="16" label="Second of the Leonati --- Mother of Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="240" source="28" target="25" label="Second of the Leonati --- First Gaoler">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="241" source="28" target="26" label="Second of the Leonati --- Sicilius Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="242" source="28" target="30" label="Second of the Leonati --- First of the Leonati">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="243" source="28" target="34" label="Second of the Leonati --- Jupiter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="244" source="29" target="1" label="Pisanio --- Imogen" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="245" source="29" target="7" label="Pisanio --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="246" source="29" target="8" label="Pisanio --- Posthumus Leonatus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="247" source="29" target="9" label="Pisanio --- Guiderius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="248" source="29" target="10" label="Pisanio --- Attendant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="249" source="29" target="11" label="Pisanio --- Second Gentleman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="250" source="29" target="14" label="Pisanio --- Queen" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="251" source="29" target="15" label="Pisanio --- Arviragus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="252" source="29" target="17" label="Pisanio --- Cymbeline" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="253" source="29" target="19" label="Pisanio --- Belarius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="254" source="29" target="21" label="Pisanio --- A Lady" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="255" source="29" target="22" label="Pisanio --- First Gentleman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="256" source="29" target="31" label="Pisanio --- Cloten" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="257" source="29" target="32" label="Pisanio --- Cornelius" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="258" source="29" target="33" label="Pisanio --- First Lord" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="259" source="29" target="35" label="Pisanio --- Caius Lucius" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="260" source="29" target="37" label="Pisanio --- Second Lord">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="261" source="29" target="38" label="Pisanio --- Iachimo" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="262" source="29" target="39" label="Pisanio --- Soothsayer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="263" source="29" target="41" label="Pisanio --- First Lady" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="264" source="30" target="0" label="First of the Leonati --- Second Gaoler">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="265" source="30" target="7" label="First of the Leonati --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="266" source="30" target="8" label="First of the Leonati --- Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="267" source="30" target="13" label="First of the Leonati --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="268" source="30" target="16" label="First of the Leonati --- Mother of Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="269" source="30" target="25" label="First of the Leonati --- First Gaoler">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="270" source="30" target="26" label="First of the Leonati --- Sicilius Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="271" source="30" target="28" label="First of the Leonati --- Second of the Leonati">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="272" source="30" target="34" label="First of the Leonati --- Jupiter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="273" source="31" target="1" label="Cloten --- Imogen" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="274" source="31" target="7" label="Cloten --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="275" source="31" target="9" label="Cloten --- Guiderius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="276" source="31" target="10" label="Cloten --- Attendant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="277" source="31" target="14" label="Cloten --- Queen" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="278" source="31" target="15" label="Cloten --- Arviragus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="279" source="31" target="17" label="Cloten --- Cymbeline" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="280" source="31" target="19" label="Cloten --- Belarius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="281" source="31" target="21" label="Cloten --- A Lady">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="282" source="31" target="29" label="Cloten --- Pisanio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="283" source="31" target="33" label="Cloten --- First Lord" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="284" source="31" target="35" label="Cloten --- Caius Lucius" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="285" source="31" target="37" label="Cloten --- Second Lord" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="286" source="31" target="39" label="Cloten --- Soothsayer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="287" source="31" target="40" label="Cloten --- Both">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="288" source="31" target="42" label="Cloten --- A Roman Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="289" source="32" target="1" label="Cornelius --- Imogen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="290" source="32" target="8" label="Cornelius --- Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="291" source="32" target="9" label="Cornelius --- Guiderius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="292" source="32" target="14" label="Cornelius --- Queen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="293" source="32" target="15" label="Cornelius --- Arviragus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="294" source="32" target="17" label="Cornelius --- Cymbeline">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="295" source="32" target="19" label="Cornelius --- Belarius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="296" source="32" target="29" label="Cornelius --- Pisanio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="297" source="32" target="35" label="Cornelius --- Caius Lucius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="298" source="32" target="38" label="Cornelius --- Iachimo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="299" source="32" target="39" label="Cornelius --- Soothsayer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="300" source="32" target="41" label="Cornelius --- First Lady" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="301" source="33" target="1" label="First Lord --- Imogen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="302" source="33" target="7" label="First Lord --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="303" source="33" target="14" label="First Lord --- Queen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="304" source="33" target="17" label="First Lord --- Cymbeline" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="305" source="33" target="21" label="First Lord --- A Lady">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="306" source="33" target="29" label="First Lord --- Pisanio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="307" source="33" target="31" label="First Lord --- Cloten" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="308" source="33" target="37" label="First Lord --- Second Lord" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="309" source="34" target="0" label="Jupiter --- Second Gaoler">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="310" source="34" target="7" label="Jupiter --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="311" source="34" target="8" label="Jupiter --- Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="312" source="34" target="13" label="Jupiter --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="313" source="34" target="16" label="Jupiter --- Mother of Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="314" source="34" target="25" label="Jupiter --- First Gaoler">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="315" source="34" target="26" label="Jupiter --- Sicilius Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="316" source="34" target="28" label="Jupiter --- Second of the Leonati">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="317" source="34" target="30" label="Jupiter --- First of the Leonati">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="318" source="35" target="1" label="Caius Lucius --- Imogen" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="319" source="35" target="8" label="Caius Lucius --- Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="320" source="35" target="9" label="Caius Lucius --- Guiderius" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="321" source="35" target="10" label="Caius Lucius --- Attendant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="322" source="35" target="14" label="Caius Lucius --- Queen" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="323" source="35" target="15" label="Caius Lucius --- Arviragus" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="324" source="35" target="17" label="Caius Lucius --- Cymbeline" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="325" source="35" target="19" label="Caius Lucius --- Belarius" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="326" source="35" target="29" label="Caius Lucius --- Pisanio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="327" source="35" target="31" label="Caius Lucius --- Cloten" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="328" source="35" target="32" label="Caius Lucius --- Cornelius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="329" source="35" target="38" label="Caius Lucius --- Iachimo" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="330" source="35" target="39" label="Caius Lucius --- Soothsayer" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="331" source="35" target="40" label="Caius Lucius --- Both">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="332" source="35" target="41" label="Caius Lucius --- First Lady">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="333" source="35" target="42" label="Caius Lucius --- A Roman Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="334" source="36" target="6" label="Second Senator --- First Tribune">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="335" source="36" target="18" label="Second Senator --- First Senator">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="336" source="37" target="1" label="Second Lord --- Imogen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="337" source="37" target="7" label="Second Lord --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="338" source="37" target="14" label="Second Lord --- Queen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="339" source="37" target="17" label="Second Lord --- Cymbeline">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="340" source="37" target="21" label="Second Lord --- A Lady">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="341" source="37" target="29" label="Second Lord --- Pisanio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="342" source="37" target="31" label="Second Lord --- Cloten" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="343" source="37" target="33" label="Second Lord --- First Lord" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="344" source="38" target="1" label="Iachimo --- Imogen" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="345" source="38" target="4" label="Iachimo --- Helen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="346" source="38" target="8" label="Iachimo --- Posthumus Leonatus" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="347" source="38" target="9" label="Iachimo --- Guiderius" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="348" source="38" target="15" label="Iachimo --- Arviragus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="349" source="38" target="17" label="Iachimo --- Cymbeline">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="350" source="38" target="19" label="Iachimo --- Belarius" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="351" source="38" target="20" label="Iachimo --- A Frenchman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="352" source="38" target="24" label="Iachimo --- Philario" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="353" source="38" target="29" label="Iachimo --- Pisanio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="354" source="38" target="32" label="Iachimo --- Cornelius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="355" source="38" target="35" label="Iachimo --- Caius Lucius" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="356" source="38" target="39" label="Iachimo --- Soothsayer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="357" source="38" target="41" label="Iachimo --- First Lady">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="358" source="39" target="1" label="Soothsayer --- Imogen" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="359" source="39" target="8" label="Soothsayer --- Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="360" source="39" target="9" label="Soothsayer --- Guiderius" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="361" source="39" target="15" label="Soothsayer --- Arviragus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="362" source="39" target="17" label="Soothsayer --- Cymbeline">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="363" source="39" target="19" label="Soothsayer --- Belarius" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="364" source="39" target="29" label="Soothsayer --- Pisanio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="365" source="39" target="31" label="Soothsayer --- Cloten">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="366" source="39" target="32" label="Soothsayer --- Cornelius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="367" source="39" target="35" label="Soothsayer --- Caius Lucius" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="368" source="39" target="38" label="Soothsayer --- Iachimo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="369" source="39" target="40" label="Soothsayer --- Both">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="370" source="39" target="41" label="Soothsayer --- First Lady">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="371" source="39" target="42" label="Soothsayer --- A Roman Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="372" source="40" target="1" label="Both --- Imogen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="373" source="40" target="9" label="Both --- Guiderius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="374" source="40" target="15" label="Both --- Arviragus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="375" source="40" target="19" label="Both --- Belarius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="376" source="40" target="31" label="Both --- Cloten">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="377" source="40" target="35" label="Both --- Caius Lucius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="378" source="40" target="39" label="Both --- Soothsayer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="379" source="40" target="42" label="Both --- A Roman Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="380" source="41" target="1" label="First Lady --- Imogen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="381" source="41" target="8" label="First Lady --- Posthumus Leonatus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="382" source="41" target="9" label="First Lady --- Guiderius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="383" source="41" target="14" label="First Lady --- Queen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="384" source="41" target="15" label="First Lady --- Arviragus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="385" source="41" target="17" label="First Lady --- Cymbeline">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="386" source="41" target="19" label="First Lady --- Belarius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="387" source="41" target="29" label="First Lady --- Pisanio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="388" source="41" target="32" label="First Lady --- Cornelius" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="389" source="41" target="35" label="First Lady --- Caius Lucius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="390" source="41" target="38" label="First Lady --- Iachimo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="391" source="41" target="39" label="First Lady --- Soothsayer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="392" source="42" target="1" label="A Roman Captain --- Imogen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="393" source="42" target="9" label="A Roman Captain --- Guiderius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="394" source="42" target="15" label="A Roman Captain --- Arviragus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="395" source="42" target="19" label="A Roman Captain --- Belarius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="396" source="42" target="31" label="A Roman Captain --- Cloten">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="397" source="42" target="35" label="A Roman Captain --- Caius Lucius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="398" source="42" target="39" label="A Roman Captain --- Soothsayer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="399" source="42" target="40" label="A Roman Captain --- Both">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,2947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-02-03">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="criticality" title="criticality" type="double"></attribute>
+      <attribute id="key" title="key" type="string"></attribute>
+      <attribute id="lines" title="lines" type="integer"></attribute>
+      <attribute id="words" title="words" type="integer"></attribute>
+      <attribute id="eigencentrality" title="Eigenvector Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="triangles" title="Number of triangles" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="scenes" title="scenes" type="integer"></attribute>
+    </attributes>
+    <nodes>
+      <node id="0" label="Attendant">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mac-aten."></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="9"></attvalue>
+          <attvalue for="eigencentrality" value="0.24423090251287752"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5465116279069767"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="15"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="1" label="Macbeth">
+        <attvalues>
+          <attvalue for="criticality" value="3.8666733197481853"></attvalue>
+          <attvalue for="key" value="Macbeth"></attvalue>
+          <attvalue for="lines" value="708"></attvalue>
+          <attvalue for="words" value="6136"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8113207547169812"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8837209302325582"></attvalue>
+          <attvalue for="betweenesscentrality" value="255.20043910338023"></attvalue>
+          <attvalue for="clustering" value="0.26515151515151514"></attvalue>
+          <attvalue for="triangles" value="140"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="66"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="2" label="Menteith">
+        <attvalues>
+          <attvalue for="criticality" value="0.536456400742115"></attvalue>
+          <attvalue for="key" value="Menteith"></attvalue>
+          <attvalue for="lines" value="12"></attvalue>
+          <attvalue for="words" value="83"></attvalue>
+          <attvalue for="eigencentrality" value="0.22692813851652596"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4673913043478261"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5310077519379844"></attvalue>
+          <attvalue for="betweenesscentrality" value="7.51038961038961"></attvalue>
+          <attvalue for="clustering" value="0.5238095238095238"></attvalue>
+          <attvalue for="triangles" value="11"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="3" label="Malcolm">
+        <attvalues>
+          <attvalue for="criticality" value="1.215334060403265"></attvalue>
+          <attvalue for="key" value="Malcolm"></attvalue>
+          <attvalue for="lines" value="210"></attvalue>
+          <attvalue for="words" value="1720"></attvalue>
+          <attvalue for="eigencentrality" value="0.6252542829872766"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6231884057971014"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6976744186046512"></attvalue>
+          <attvalue for="betweenesscentrality" value="41.32135805371101"></attvalue>
+          <attvalue for="clustering" value="0.49264705882352944"></attvalue>
+          <attvalue for="triangles" value="67"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="34"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="4" label="Seyton">
+        <attvalues>
+          <attvalue for="criticality" value="0.17333333333333334"></attvalue>
+          <attvalue for="key" value="Seyton"></attvalue>
+          <attvalue for="lines" value="5"></attvalue>
+          <attvalue for="words" value="37"></attvalue>
+          <attvalue for="eigencentrality" value="0.13852455739518213"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.48863636363636365"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5310077519379844"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.7333333333333334"></attvalue>
+          <attvalue for="clustering" value="0.7"></attvalue>
+          <attvalue for="triangles" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="5" label="Second Apparition">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mac-sec.-app."></attvalue>
+          <attvalue for="lines" value="4"></attvalue>
+          <attvalue for="words" value="28"></attvalue>
+          <attvalue for="eigencentrality" value="0.39229277326951867"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5180722891566265"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5813953488372093"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="6" label="Doctor">
+        <attvalues>
+          <attvalue for="criticality" value="1.0627865961199294"></attvalue>
+          <attvalue for="key" value="mac-doct."></attvalue>
+          <attvalue for="lines" value="46"></attvalue>
+          <attvalue for="words" value="375"></attvalue>
+          <attvalue for="eigencentrality" value="0.30963517903126353"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5375"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5930232558139534"></attvalue>
+          <attvalue for="betweenesscentrality" value="19.13015873015873"></attvalue>
+          <attvalue for="clustering" value="0.5"></attvalue>
+          <attvalue for="triangles" value="18"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="7" label="Third Murderer">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mac-third-mur."></attvalue>
+          <attvalue for="lines" value="8"></attvalue>
+          <attvalue for="words" value="50"></attvalue>
+          <attvalue for="eigencentrality" value="0.10033873197394831"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4215686274509804"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.46124031007751926"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="8" label="Second Murderer">
+        <attvalues>
+          <attvalue for="criticality" value="0.28948412698412695"></attvalue>
+          <attvalue for="key" value="mac-sec.-mur."></attvalue>
+          <attvalue for="lines" value="15"></attvalue>
+          <attvalue for="words" value="108"></attvalue>
+          <attvalue for="eigencentrality" value="0.25167300965710476"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5058823529411764"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5581395348837208"></attvalue>
+          <attvalue for="betweenesscentrality" value="4.052777777777777"></attvalue>
+          <attvalue for="clustering" value="0.8095238095238095"></attvalue>
+          <attvalue for="triangles" value="17"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="9" label="Messenger">
+        <attvalues>
+          <attvalue for="criticality" value="0.6994897959183672"></attvalue>
+          <attvalue for="key" value="mac-mess."></attvalue>
+          <attvalue for="lines" value="23"></attvalue>
+          <attvalue for="words" value="199"></attvalue>
+          <attvalue for="eigencentrality" value="0.2337448806638852"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5180722891566265"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.565891472868217"></attvalue>
+          <attvalue for="betweenesscentrality" value="9.792857142857141"></attvalue>
+          <attvalue for="clustering" value="0.5714285714285714"></attvalue>
+          <attvalue for="triangles" value="12"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="10" label="Old Man">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mac-old-m."></attvalue>
+          <attvalue for="lines" value="11"></attvalue>
+          <attvalue for="words" value="93"></attvalue>
+          <attvalue for="eigencentrality" value="0.09773779399881367"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.43434343434343436"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.46511627906976727"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="11" label="Soldier">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mac-soldiers."></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="5"></attvalue>
+          <attvalue for="eigencentrality" value="0.13052701307255518"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4095238095238095"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.45736434108527124"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="6"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="12" label="Donalbain">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Donalbain"></attvalue>
+          <attvalue for="lines" value="9"></attvalue>
+          <attvalue for="words" value="64"></attvalue>
+          <attvalue for="eigencentrality" value="0.45485533868931155"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5443037974683544"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5968992248062016"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="13" label="Lords">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mac-lords."></attvalue>
+          <attvalue for="lines" value="3"></attvalue>
+          <attvalue for="words" value="18"></attvalue>
+          <attvalue for="eigencentrality" value="0.2610426706407085"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5180722891566265"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5503875968992248"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="10"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="14" label="Lady Macbeth">
+        <attvalues>
+          <attvalue for="criticality" value="1.951329949229108"></attvalue>
+          <attvalue for="key" value="MacbethLdy"></attvalue>
+          <attvalue for="lines" value="259"></attvalue>
+          <attvalue for="words" value="2202"></attvalue>
+          <attvalue for="eigencentrality" value="0.6983228478902221"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6615384615384615"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7441860465116279"></attvalue>
+          <attvalue for="betweenesscentrality" value="81.95585786762254"></attvalue>
+          <attvalue for="clustering" value="0.3761904761904762"></attvalue>
+          <attvalue for="triangles" value="79"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="42"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="15" label="Siward">
+        <attvalues>
+          <attvalue for="criticality" value="0.5501122651857944"></attvalue>
+          <attvalue for="key" value="Siward"></attvalue>
+          <attvalue for="lines" value="30"></attvalue>
+          <attvalue for="words" value="241"></attvalue>
+          <attvalue for="eigencentrality" value="0.3150900786983799"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5308641975308642"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5813953488372092"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.80179624297271"></attvalue>
+          <attvalue for="clustering" value="0.6428571428571429"></attvalue>
+          <attvalue for="triangles" value="18"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="16" label="Banquo">
+        <attvalues>
+          <attvalue for="criticality" value="1.7845247073188257"></attvalue>
+          <attvalue for="key" value="Banquo"></attvalue>
+          <attvalue for="lines" value="113"></attvalue>
+          <attvalue for="words" value="936"></attvalue>
+          <attvalue for="eigencentrality" value="0.7592355165134728"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6615384615384615"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7441860465116279"></attvalue>
+          <attvalue for="betweenesscentrality" value="74.95003770739068"></attvalue>
+          <attvalue for="clustering" value="0.4142857142857143"></attvalue>
+          <attvalue for="triangles" value="87"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="42"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="17" label="Servant">
+        <attvalues>
+          <attvalue for="criticality" value="0.05833333333333333"></attvalue>
+          <attvalue for="key" value="mac-serv."></attvalue>
+          <attvalue for="lines" value="4"></attvalue>
+          <attvalue for="words" value="25"></attvalue>
+          <attvalue for="eigencentrality" value="0.16991465947948"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4777777777777778"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5232558139534883"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.5833333333333333"></attvalue>
+          <attvalue for="clustering" value="0.8"></attvalue>
+          <attvalue for="triangles" value="8"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="18" label="Young Siward">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="SiwardJr"></attvalue>
+          <attvalue for="lines" value="7"></attvalue>
+          <attvalue for="words" value="57"></attvalue>
+          <attvalue for="eigencentrality" value="0.18699996831135132"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.48863636363636365"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5232558139534883"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="6"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="19" label="Soldier">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mac-soldier."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="20" label="Murderer">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mac-mur."></attvalue>
+          <attvalue for="lines" value="7"></attvalue>
+          <attvalue for="words" value="50"></attvalue>
+          <attvalue for="eigencentrality" value="0.2610426706407085"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5180722891566265"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5503875968992248"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="10"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="21" label="Ross">
+        <attvalues>
+          <attvalue for="criticality" value="2.7121041354664346"></attvalue>
+          <attvalue for="key" value="Ross"></attvalue>
+          <attvalue for="lines" value="134"></attvalue>
+          <attvalue for="words" value="1045"></attvalue>
+          <attvalue for="eigencentrality" value="0.7309540775038594"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.671875"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7558139534883721"></attvalue>
+          <attvalue for="betweenesscentrality" value="119.33258196052311"></attvalue>
+          <attvalue for="clustering" value="0.33766233766233766"></attvalue>
+          <attvalue for="triangles" value="78"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="44"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="22" label="Second Witch">
+        <attvalues>
+          <attvalue for="criticality" value="0.16435185185185183"></attvalue>
+          <attvalue for="key" value="mac-sec.-witch."></attvalue>
+          <attvalue for="lines" value="27"></attvalue>
+          <attvalue for="words" value="161"></attvalue>
+          <attvalue for="eigencentrality" value="0.5247139394447838"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5657894736842105"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.631782945736434"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.944444444444444"></attvalue>
+          <attvalue for="clustering" value="0.8181818181818182"></attvalue>
+          <attvalue for="triangles" value="54"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="23" label="Lady Macduff">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="MacduffLdy"></attvalue>
+          <attvalue for="lines" value="41"></attvalue>
+          <attvalue for="words" value="334"></attvalue>
+          <attvalue for="eigencentrality" value="0.10647196335453016"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4387755102040816"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.48449612403100767"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="6"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="24" label="First Witch">
+        <attvalues>
+          <attvalue for="criticality" value="0.16435185185185183"></attvalue>
+          <attvalue for="key" value="mac-first-witch."></attvalue>
+          <attvalue for="lines" value="61"></attvalue>
+          <attvalue for="words" value="430"></attvalue>
+          <attvalue for="eigencentrality" value="0.5247139394447838"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5657894736842105"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.631782945736434"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.944444444444444"></attvalue>
+          <attvalue for="clustering" value="0.8181818181818182"></attvalue>
+          <attvalue for="triangles" value="54"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="25" label="Porter">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mac-porter."></attvalue>
+          <attvalue for="lines" value="22"></attvalue>
+          <attvalue for="words" value="191"></attvalue>
+          <attvalue for="eigencentrality" value="0.4548553386893115"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5443037974683544"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5968992248062016"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="26" label="Third Witch">
+        <attvalues>
+          <attvalue for="criticality" value="0.16435185185185183"></attvalue>
+          <attvalue for="key" value="mac-third-witch."></attvalue>
+          <attvalue for="lines" value="27"></attvalue>
+          <attvalue for="words" value="156"></attvalue>
+          <attvalue for="eigencentrality" value="0.5247139394447838"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5657894736842105"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.631782945736434"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.944444444444444"></attvalue>
+          <attvalue for="clustering" value="0.8181818181818182"></attvalue>
+          <attvalue for="triangles" value="54"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="27" label="Son to Macduff">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mac-son."></attvalue>
+          <attvalue for="lines" value="20"></attvalue>
+          <attvalue for="words" value="173"></attvalue>
+          <attvalue for="eigencentrality" value="0.10647196335453016"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4387755102040816"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.48449612403100767"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="6"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="28" label="Macduff">
+        <attvalues>
+          <attvalue for="criticality" value="1.4170536571271868"></attvalue>
+          <attvalue for="key" value="Macduff"></attvalue>
+          <attvalue for="lines" value="177"></attvalue>
+          <attvalue for="words" value="1357"></attvalue>
+          <attvalue for="eigencentrality" value="0.5946969172414713"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6142857142857143"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.686046511627907"></attvalue>
+          <attvalue for="betweenesscentrality" value="45.34571702806998"></attvalue>
+          <attvalue for="clustering" value="0.5"></attvalue>
+          <attvalue for="triangles" value="60"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="29" label="Porter">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mac-port."></attvalue>
+          <attvalue for="lines" value="17"></attvalue>
+          <attvalue for="words" value="154"></attvalue>
+          <attvalue for="eigencentrality" value="0.4548553386893115"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5443037974683544"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5968992248062016"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="30" label="Third Apparition">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mac-third-app."></attvalue>
+          <attvalue for="lines" value="5"></attvalue>
+          <attvalue for="words" value="38"></attvalue>
+          <attvalue for="eigencentrality" value="0.39229277326951867"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5180722891566265"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5813953488372093"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="31" label="Gentlewoman">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mac-gent."></attvalue>
+          <attvalue for="lines" value="25"></attvalue>
+          <attvalue for="words" value="207"></attvalue>
+          <attvalue for="eigencentrality" value="0.07512362677073336"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.41346153846153844"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.44573643410852715"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="32" label="Sergeant">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mac-ser."></attvalue>
+          <attvalue for="lines" value="35"></attvalue>
+          <attvalue for="words" value="275"></attvalue>
+          <attvalue for="eigencentrality" value="0.1884596258246505"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4725274725274725"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5116279069767441"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="6"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="33" label="Lennox">
+        <attvalues>
+          <attvalue for="criticality" value="2.61675905140611"></attvalue>
+          <attvalue for="key" value="Lennox"></attvalue>
+          <attvalue for="lines" value="72"></attvalue>
+          <attvalue for="words" value="591"></attvalue>
+          <attvalue for="eigencentrality" value="0.851659753092404"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7049180327868853"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7906976744186046"></attvalue>
+          <attvalue for="betweenesscentrality" value="130.8379525703055"></attvalue>
+          <attvalue for="clustering" value="0.36666666666666664"></attvalue>
+          <attvalue for="triangles" value="110"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="50"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="34" label="Both Murderers">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mac-both-mur."></attvalue>
+          <attvalue for="lines" value="2"></attvalue>
+          <attvalue for="words" value="10"></attvalue>
+          <attvalue for="eigencentrality" value="0.24423090251287757"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5465116279069767"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="15"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="35" label="Fleance">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Fleance"></attvalue>
+          <attvalue for="lines" value="2"></attvalue>
+          <attvalue for="words" value="17"></attvalue>
+          <attvalue for="eigencentrality" value="0.1293391228402851"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.46236559139784944"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4883720930232558"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="36" label="Angus">
+        <attvalues>
+          <attvalue for="criticality" value="0.7057618688501041"></attvalue>
+          <attvalue for="key" value="Angus2"></attvalue>
+          <attvalue for="lines" value="21"></attvalue>
+          <attvalue for="words" value="158"></attvalue>
+          <attvalue for="eigencentrality" value="0.44202678124267725"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5584415584415584"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6124031007751938"></attvalue>
+          <attvalue for="betweenesscentrality" value="14.115237377002082"></attvalue>
+          <attvalue for="clustering" value="0.6888888888888889"></attvalue>
+          <attvalue for="triangles" value="31"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="37" label="First Apparition">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mac-first-app."></attvalue>
+          <attvalue for="lines" value="2"></attvalue>
+          <attvalue for="words" value="16"></attvalue>
+          <attvalue for="eigencentrality" value="0.39229277326951867"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5180722891566265"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5813953488372093"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="38" label="All">
+        <attvalues>
+          <attvalue for="criticality" value="0.7138157894736842"></attvalue>
+          <attvalue for="key" value="mac-all"></attvalue>
+          <attvalue for="lines" value="24"></attvalue>
+          <attvalue for="words" value="182"></attvalue>
+          <attvalue for="eigencentrality" value="0.770961143683022"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6417910447761194"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7209302325581395"></attvalue>
+          <attvalue for="betweenesscentrality" value="27.125"></attvalue>
+          <attvalue for="clustering" value="0.5497076023391813"></attvalue>
+          <attvalue for="triangles" value="94"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="39" label="Lord">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mac-lord."></attvalue>
+          <attvalue for="lines" value="21"></attvalue>
+          <attvalue for="words" value="182"></attvalue>
+          <attvalue for="eigencentrality" value="0.06223579614204539"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4174757281553398"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4418604651162791"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="40" label="Hecate">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Hecate"></attvalue>
+          <attvalue for="lines" value="39"></attvalue>
+          <attvalue for="words" value="324"></attvalue>
+          <attvalue for="eigencentrality" value="0.39229277326951867"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5180722891566265"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5813953488372093"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="41" label="Caithness">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Caithness"></attvalue>
+          <attvalue for="lines" value="11"></attvalue>
+          <attvalue for="words" value="84"></attvalue>
+          <attvalue for="eigencentrality" value="0.11189343189582211"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.43434343434343436"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4728682170542635"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="42" label="Duncan">
+        <attvalues>
+          <attvalue for="criticality" value="0.18346415489272633"></attvalue>
+          <attvalue for="key" value="Duncan"></attvalue>
+          <attvalue for="lines" value="69"></attvalue>
+          <attvalue for="words" value="556"></attvalue>
+          <attvalue for="eigencentrality" value="0.35732648194373773"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5443037974683544"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5813953488372093"></attvalue>
+          <attvalue for="betweenesscentrality" value="2.5684981684981687"></attvalue>
+          <attvalue for="clustering" value="0.8571428571428571"></attvalue>
+          <attvalue for="triangles" value="18"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="43" label="First Murderer">
+        <attvalues>
+          <attvalue for="criticality" value="1.1276973026973023"></attvalue>
+          <attvalue for="key" value="mac-first-mur."></attvalue>
+          <attvalue for="lines" value="23"></attvalue>
+          <attvalue for="words" value="154"></attvalue>
+          <attvalue for="eigencentrality" value="0.33491487164990097"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5443037974683544"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6124031007751938"></attvalue>
+          <attvalue for="betweenesscentrality" value="24.809340659340652"></attvalue>
+          <attvalue for="clustering" value="0.509090909090909"></attvalue>
+          <attvalue for="triangles" value="28"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="22"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="44" label="Servant">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mac-serve."></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="3"></attvalue>
+          <attvalue for="eigencentrality" value="0.12176786945376587"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4725274725274725"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5116279069767441"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="6"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="0" target="1" label="Attendant --- Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1" source="0" target="8" label="Attendant --- Second Murderer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="2" source="0" target="14" label="Attendant --- Lady Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="3" source="0" target="16" label="Attendant --- Banquo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="4" source="0" target="34" label="Attendant --- Both Murderers">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="5" source="0" target="43" label="Attendant --- First Murderer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="6" source="1" target="0" label="Macbeth --- Attendant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="7" source="1" target="3" label="Macbeth --- Malcolm" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="8" source="1" target="4" label="Macbeth --- Seyton" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="9" source="1" target="5" label="Macbeth --- Second Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="10" source="1" target="6" label="Macbeth --- Doctor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="11" source="1" target="8" label="Macbeth --- Second Murderer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="12" source="1" target="9" label="Macbeth --- Messenger" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="13" source="1" target="12" label="Macbeth --- Donalbain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="14" source="1" target="13" label="Macbeth --- Lords">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="15" source="1" target="14" label="Macbeth --- Lady Macbeth" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="16" source="1" target="15" label="Macbeth --- Siward" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="17" source="1" target="16" label="Macbeth --- Banquo" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="18" source="1" target="17" label="Macbeth --- Servant" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="19" source="1" target="18" label="Macbeth --- Young Siward">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="20" source="1" target="20" label="Macbeth --- Murderer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="21" source="1" target="21" label="Macbeth --- Ross" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="22" source="1" target="22" label="Macbeth --- Second Witch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="23" source="1" target="24" label="Macbeth --- First Witch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="24" source="1" target="25" label="Macbeth --- Porter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="25" source="1" target="26" label="Macbeth --- Third Witch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="26" source="1" target="28" label="Macbeth --- Macduff" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="27" source="1" target="29" label="Macbeth --- Porter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="28" source="1" target="30" label="Macbeth --- Third Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="29" source="1" target="33" label="Macbeth --- Lennox" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="30" source="1" target="34" label="Macbeth --- Both Murderers">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="31" source="1" target="35" label="Macbeth --- Fleance">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="32" source="1" target="36" label="Macbeth --- Angus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="33" source="1" target="37" label="Macbeth --- First Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="34" source="1" target="38" label="Macbeth --- All" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="35" source="1" target="40" label="Macbeth --- Hecate">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="36" source="1" target="42" label="Macbeth --- Duncan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="37" source="1" target="43" label="Macbeth --- First Murderer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="38" source="1" target="44" label="Macbeth --- Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="39" source="2" target="3" label="Menteith --- Malcolm">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="40" source="2" target="11" label="Menteith --- Soldier">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="41" source="2" target="15" label="Menteith --- Siward">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="42" source="2" target="28" label="Menteith --- Macduff">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="43" source="2" target="33" label="Menteith --- Lennox">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="44" source="2" target="36" label="Menteith --- Angus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="45" source="2" target="41" label="Menteith --- Caithness">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="46" source="3" target="1" label="Malcolm --- Macbeth" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="47" source="3" target="2" label="Malcolm --- Menteith">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="48" source="3" target="6" label="Malcolm --- Doctor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="49" source="3" target="11" label="Malcolm --- Soldier">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="50" source="3" target="12" label="Malcolm --- Donalbain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="51" source="3" target="14" label="Malcolm --- Lady Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="52" source="3" target="15" label="Malcolm --- Siward" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="53" source="3" target="16" label="Malcolm --- Banquo" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="54" source="3" target="18" label="Malcolm --- Young Siward">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="55" source="3" target="21" label="Malcolm --- Ross" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="56" source="3" target="25" label="Malcolm --- Porter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="57" source="3" target="28" label="Malcolm --- Macduff" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="58" source="3" target="29" label="Malcolm --- Porter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="59" source="3" target="32" label="Malcolm --- Sergeant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="60" source="3" target="33" label="Malcolm --- Lennox" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="61" source="3" target="38" label="Malcolm --- All" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="62" source="3" target="42" label="Malcolm --- Duncan" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="63" source="4" target="1" label="Seyton --- Macbeth" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="64" source="4" target="6" label="Seyton --- Doctor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="65" source="4" target="9" label="Seyton --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="66" source="4" target="17" label="Seyton --- Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="67" source="4" target="44" label="Seyton --- Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="68" source="5" target="1" label="Second Apparition --- Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="69" source="5" target="22" label="Second Apparition --- Second Witch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="70" source="5" target="24" label="Second Apparition --- First Witch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="71" source="5" target="26" label="Second Apparition --- Third Witch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="72" source="5" target="30" label="Second Apparition --- Third Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="73" source="5" target="33" label="Second Apparition --- Lennox">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="74" source="5" target="37" label="Second Apparition --- First Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="75" source="5" target="38" label="Second Apparition --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="76" source="5" target="40" label="Second Apparition --- Hecate">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="77" source="6" target="1" label="Doctor --- Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="78" source="6" target="3" label="Doctor --- Malcolm">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="79" source="6" target="4" label="Doctor --- Seyton">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="80" source="6" target="14" label="Doctor --- Lady Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="81" source="6" target="17" label="Doctor --- Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="82" source="6" target="21" label="Doctor --- Ross">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="83" source="6" target="28" label="Doctor --- Macduff">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="84" source="6" target="31" label="Doctor --- Gentlewoman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="85" source="6" target="44" label="Doctor --- Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="86" source="7" target="8" label="Third Murderer --- Second Murderer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="87" source="7" target="16" label="Third Murderer --- Banquo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="88" source="7" target="43" label="Third Murderer --- First Murderer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="89" source="8" target="0" label="Second Murderer --- Attendant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="90" source="8" target="1" label="Second Murderer --- Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="91" source="8" target="7" label="Second Murderer --- Third Murderer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="92" source="8" target="14" label="Second Murderer --- Lady Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="93" source="8" target="16" label="Second Murderer --- Banquo" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="94" source="8" target="34" label="Second Murderer --- Both Murderers">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="95" source="8" target="43" label="Second Murderer --- First Murderer" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="96" source="9" target="1" label="Messenger --- Macbeth" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="97" source="9" target="4" label="Messenger --- Seyton">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="98" source="9" target="14" label="Messenger --- Lady Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="99" source="9" target="21" label="Messenger --- Ross">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="100" source="9" target="23" label="Messenger --- Lady Macduff">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="101" source="9" target="27" label="Messenger --- Son to Macduff">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="102" source="9" target="43" label="Messenger --- First Murderer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="103" source="10" target="21" label="Old Man --- Ross">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="104" source="10" target="28" label="Old Man --- Macduff">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="105" source="11" target="2" label="Soldier --- Menteith">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="106" source="11" target="3" label="Soldier --- Malcolm">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="107" source="11" target="15" label="Soldier --- Siward">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="108" source="11" target="28" label="Soldier --- Macduff">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="109" source="12" target="1" label="Donalbain --- Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="110" source="12" target="3" label="Donalbain --- Malcolm">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="111" source="12" target="14" label="Donalbain --- Lady Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="112" source="12" target="16" label="Donalbain --- Banquo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="113" source="12" target="25" label="Donalbain --- Porter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="114" source="12" target="28" label="Donalbain --- Macduff">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="115" source="12" target="29" label="Donalbain --- Porter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="116" source="12" target="33" label="Donalbain --- Lennox">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="117" source="12" target="38" label="Donalbain --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="118" source="13" target="1" label="Lords --- Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="119" source="13" target="14" label="Lords --- Lady Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="120" source="13" target="20" label="Lords --- Murderer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="121" source="13" target="21" label="Lords --- Ross">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="122" source="13" target="33" label="Lords --- Lennox">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="123" source="14" target="0" label="Lady Macbeth --- Attendant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="124" source="14" target="1" label="Lady Macbeth --- Macbeth" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="125" source="14" target="3" label="Lady Macbeth --- Malcolm">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="126" source="14" target="6" label="Lady Macbeth --- Doctor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="127" source="14" target="8" label="Lady Macbeth --- Second Murderer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="128" source="14" target="9" label="Lady Macbeth --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="129" source="14" target="12" label="Lady Macbeth --- Donalbain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="130" source="14" target="13" label="Lady Macbeth --- Lords">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="131" source="14" target="16" label="Lady Macbeth --- Banquo" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="132" source="14" target="17" label="Lady Macbeth --- Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="133" source="14" target="20" label="Lady Macbeth --- Murderer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="134" source="14" target="21" label="Lady Macbeth --- Ross">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="135" source="14" target="25" label="Lady Macbeth --- Porter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="136" source="14" target="28" label="Lady Macbeth --- Macduff">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="137" source="14" target="29" label="Lady Macbeth --- Porter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="138" source="14" target="31" label="Lady Macbeth --- Gentlewoman">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="139" source="14" target="33" label="Lady Macbeth --- Lennox" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="140" source="14" target="34" label="Lady Macbeth --- Both Murderers">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="141" source="14" target="38" label="Lady Macbeth --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="142" source="14" target="42" label="Lady Macbeth --- Duncan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="143" source="14" target="43" label="Lady Macbeth --- First Murderer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="144" source="15" target="1" label="Siward --- Macbeth" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="145" source="15" target="2" label="Siward --- Menteith">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="146" source="15" target="3" label="Siward --- Malcolm" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="147" source="15" target="11" label="Siward --- Soldier">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="148" source="15" target="18" label="Siward --- Young Siward">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="149" source="15" target="21" label="Siward --- Ross">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="150" source="15" target="28" label="Siward --- Macduff" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="151" source="15" target="38" label="Siward --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="152" source="16" target="0" label="Banquo --- Attendant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="153" source="16" target="1" label="Banquo --- Macbeth" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="154" source="16" target="3" label="Banquo --- Malcolm" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="155" source="16" target="7" label="Banquo --- Third Murderer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="156" source="16" target="8" label="Banquo --- Second Murderer" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="157" source="16" target="12" label="Banquo --- Donalbain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="158" source="16" target="14" label="Banquo --- Lady Macbeth" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="159" source="16" target="21" label="Banquo --- Ross">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="160" source="16" target="22" label="Banquo --- Second Witch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="161" source="16" target="24" label="Banquo --- First Witch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="162" source="16" target="25" label="Banquo --- Porter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="163" source="16" target="26" label="Banquo --- Third Witch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="164" source="16" target="28" label="Banquo --- Macduff">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="165" source="16" target="29" label="Banquo --- Porter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="166" source="16" target="33" label="Banquo --- Lennox">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="167" source="16" target="34" label="Banquo --- Both Murderers">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="168" source="16" target="35" label="Banquo --- Fleance">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="169" source="16" target="36" label="Banquo --- Angus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="170" source="16" target="38" label="Banquo --- All" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="171" source="16" target="42" label="Banquo --- Duncan" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="172" source="16" target="43" label="Banquo --- First Murderer" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="173" source="17" target="1" label="Servant --- Macbeth" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="174" source="17" target="4" label="Servant --- Seyton">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="175" source="17" target="6" label="Servant --- Doctor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="176" source="17" target="14" label="Servant --- Lady Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="177" source="17" target="44" label="Servant --- Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="178" source="18" target="1" label="Young Siward --- Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="179" source="18" target="3" label="Young Siward --- Malcolm">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="180" source="18" target="15" label="Young Siward --- Siward">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="181" source="18" target="28" label="Young Siward --- Macduff">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="182" source="20" target="1" label="Murderer --- Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="183" source="20" target="13" label="Murderer --- Lords">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="184" source="20" target="14" label="Murderer --- Lady Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="185" source="20" target="21" label="Murderer --- Ross">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="186" source="20" target="33" label="Murderer --- Lennox">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="187" source="21" target="1" label="Ross --- Macbeth" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="188" source="21" target="3" label="Ross --- Malcolm" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="189" source="21" target="6" label="Ross --- Doctor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="190" source="21" target="9" label="Ross --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="191" source="21" target="10" label="Ross --- Old Man">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="192" source="21" target="13" label="Ross --- Lords">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="193" source="21" target="14" label="Ross --- Lady Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="194" source="21" target="15" label="Ross --- Siward">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="195" source="21" target="16" label="Ross --- Banquo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="196" source="21" target="20" label="Ross --- Murderer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="197" source="21" target="22" label="Ross --- Second Witch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="198" source="21" target="23" label="Ross --- Lady Macduff">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="199" source="21" target="24" label="Ross --- First Witch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="200" source="21" target="26" label="Ross --- Third Witch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="201" source="21" target="27" label="Ross --- Son to Macduff">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="202" source="21" target="28" label="Ross --- Macduff" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="203" source="21" target="32" label="Ross --- Sergeant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="204" source="21" target="33" label="Ross --- Lennox" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="205" source="21" target="36" label="Ross --- Angus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="206" source="21" target="38" label="Ross --- All" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="207" source="21" target="42" label="Ross --- Duncan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="208" source="21" target="43" label="Ross --- First Murderer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="209" source="22" target="1" label="Second Witch --- Macbeth" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="210" source="22" target="5" label="Second Witch --- Second Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="211" source="22" target="16" label="Second Witch --- Banquo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="212" source="22" target="21" label="Second Witch --- Ross">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="213" source="22" target="24" label="Second Witch --- First Witch" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="214" source="22" target="26" label="Second Witch --- Third Witch" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="215" source="22" target="30" label="Second Witch --- Third Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="216" source="22" target="33" label="Second Witch --- Lennox">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="217" source="22" target="36" label="Second Witch --- Angus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="218" source="22" target="37" label="Second Witch --- First Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="219" source="22" target="38" label="Second Witch --- All" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="220" source="22" target="40" label="Second Witch --- Hecate">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="221" source="23" target="9" label="Lady Macduff --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="222" source="23" target="21" label="Lady Macduff --- Ross">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="223" source="23" target="27" label="Lady Macduff --- Son to Macduff">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="224" source="23" target="43" label="Lady Macduff --- First Murderer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="225" source="24" target="1" label="First Witch --- Macbeth" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="226" source="24" target="5" label="First Witch --- Second Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="227" source="24" target="16" label="First Witch --- Banquo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="228" source="24" target="21" label="First Witch --- Ross">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="229" source="24" target="22" label="First Witch --- Second Witch" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="230" source="24" target="26" label="First Witch --- Third Witch" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="231" source="24" target="30" label="First Witch --- Third Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="232" source="24" target="33" label="First Witch --- Lennox">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="233" source="24" target="36" label="First Witch --- Angus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="234" source="24" target="37" label="First Witch --- First Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="235" source="24" target="38" label="First Witch --- All" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="236" source="24" target="40" label="First Witch --- Hecate" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="237" source="25" target="1" label="Porter --- Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="238" source="25" target="3" label="Porter --- Malcolm">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="239" source="25" target="12" label="Porter --- Donalbain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="240" source="25" target="14" label="Porter --- Lady Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="241" source="25" target="16" label="Porter --- Banquo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="242" source="25" target="28" label="Porter --- Macduff">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="243" source="25" target="29" label="Porter --- Porter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="244" source="25" target="33" label="Porter --- Lennox">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="245" source="25" target="38" label="Porter --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="246" source="26" target="1" label="Third Witch --- Macbeth" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="247" source="26" target="5" label="Third Witch --- Second Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="248" source="26" target="16" label="Third Witch --- Banquo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="249" source="26" target="21" label="Third Witch --- Ross">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="250" source="26" target="22" label="Third Witch --- Second Witch" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="251" source="26" target="24" label="Third Witch --- First Witch" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="252" source="26" target="30" label="Third Witch --- Third Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="253" source="26" target="33" label="Third Witch --- Lennox">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="254" source="26" target="36" label="Third Witch --- Angus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="255" source="26" target="37" label="Third Witch --- First Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="256" source="26" target="38" label="Third Witch --- All" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="257" source="26" target="40" label="Third Witch --- Hecate">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="258" source="27" target="9" label="Son to Macduff --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="259" source="27" target="21" label="Son to Macduff --- Ross">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="260" source="27" target="23" label="Son to Macduff --- Lady Macduff">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="261" source="27" target="43" label="Son to Macduff --- First Murderer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="262" source="28" target="1" label="Macduff --- Macbeth" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="263" source="28" target="2" label="Macduff --- Menteith">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="264" source="28" target="3" label="Macduff --- Malcolm" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="265" source="28" target="6" label="Macduff --- Doctor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="266" source="28" target="10" label="Macduff --- Old Man">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="267" source="28" target="11" label="Macduff --- Soldier">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="268" source="28" target="12" label="Macduff --- Donalbain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="269" source="28" target="14" label="Macduff --- Lady Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="270" source="28" target="15" label="Macduff --- Siward" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="271" source="28" target="16" label="Macduff --- Banquo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="272" source="28" target="18" label="Macduff --- Young Siward">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="273" source="28" target="21" label="Macduff --- Ross" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="274" source="28" target="25" label="Macduff --- Porter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="275" source="28" target="29" label="Macduff --- Porter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="276" source="28" target="33" label="Macduff --- Lennox">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="277" source="28" target="38" label="Macduff --- All" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="278" source="29" target="1" label="Porter --- Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="279" source="29" target="3" label="Porter --- Malcolm">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="280" source="29" target="12" label="Porter --- Donalbain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="281" source="29" target="14" label="Porter --- Lady Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="282" source="29" target="16" label="Porter --- Banquo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="283" source="29" target="25" label="Porter --- Porter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="284" source="29" target="28" label="Porter --- Macduff">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="285" source="29" target="33" label="Porter --- Lennox">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="286" source="29" target="38" label="Porter --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="287" source="30" target="1" label="Third Apparition --- Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="288" source="30" target="5" label="Third Apparition --- Second Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="289" source="30" target="22" label="Third Apparition --- Second Witch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="290" source="30" target="24" label="Third Apparition --- First Witch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="291" source="30" target="26" label="Third Apparition --- Third Witch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="292" source="30" target="33" label="Third Apparition --- Lennox">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="293" source="30" target="37" label="Third Apparition --- First Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="294" source="30" target="38" label="Third Apparition --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="295" source="30" target="40" label="Third Apparition --- Hecate">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="296" source="31" target="6" label="Gentlewoman --- Doctor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="297" source="31" target="14" label="Gentlewoman --- Lady Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="298" source="32" target="3" label="Sergeant --- Malcolm">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="299" source="32" target="21" label="Sergeant --- Ross">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="300" source="32" target="33" label="Sergeant --- Lennox">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="301" source="32" target="42" label="Sergeant --- Duncan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="302" source="33" target="1" label="Lennox --- Macbeth" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="303" source="33" target="2" label="Lennox --- Menteith">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="304" source="33" target="3" label="Lennox --- Malcolm" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="305" source="33" target="5" label="Lennox --- Second Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="306" source="33" target="12" label="Lennox --- Donalbain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="307" source="33" target="13" label="Lennox --- Lords">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="308" source="33" target="14" label="Lennox --- Lady Macbeth" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="309" source="33" target="16" label="Lennox --- Banquo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="310" source="33" target="20" label="Lennox --- Murderer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="311" source="33" target="21" label="Lennox --- Ross" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="312" source="33" target="22" label="Lennox --- Second Witch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="313" source="33" target="24" label="Lennox --- First Witch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="314" source="33" target="25" label="Lennox --- Porter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="315" source="33" target="26" label="Lennox --- Third Witch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="316" source="33" target="28" label="Lennox --- Macduff">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="317" source="33" target="29" label="Lennox --- Porter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="318" source="33" target="30" label="Lennox --- Third Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="319" source="33" target="32" label="Lennox --- Sergeant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="320" source="33" target="36" label="Lennox --- Angus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="321" source="33" target="37" label="Lennox --- First Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="322" source="33" target="38" label="Lennox --- All" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="323" source="33" target="39" label="Lennox --- Lord">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="324" source="33" target="40" label="Lennox --- Hecate">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="325" source="33" target="41" label="Lennox --- Caithness">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="326" source="33" target="42" label="Lennox --- Duncan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="327" source="34" target="0" label="Both Murderers --- Attendant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="328" source="34" target="1" label="Both Murderers --- Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="329" source="34" target="8" label="Both Murderers --- Second Murderer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="330" source="34" target="14" label="Both Murderers --- Lady Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="331" source="34" target="16" label="Both Murderers --- Banquo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="332" source="34" target="43" label="Both Murderers --- First Murderer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="333" source="35" target="1" label="Fleance --- Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="334" source="35" target="16" label="Fleance --- Banquo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="335" source="36" target="1" label="Angus --- Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="336" source="36" target="2" label="Angus --- Menteith">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="337" source="36" target="16" label="Angus --- Banquo">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="338" source="36" target="21" label="Angus --- Ross">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="339" source="36" target="22" label="Angus --- Second Witch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="340" source="36" target="24" label="Angus --- First Witch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="341" source="36" target="26" label="Angus --- Third Witch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="342" source="36" target="33" label="Angus --- Lennox">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="343" source="36" target="38" label="Angus --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="344" source="36" target="41" label="Angus --- Caithness">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="345" source="37" target="1" label="First Apparition --- Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="346" source="37" target="5" label="First Apparition --- Second Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="347" source="37" target="22" label="First Apparition --- Second Witch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="348" source="37" target="24" label="First Apparition --- First Witch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="349" source="37" target="26" label="First Apparition --- Third Witch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="350" source="37" target="30" label="First Apparition --- Third Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="351" source="37" target="33" label="First Apparition --- Lennox">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="352" source="37" target="38" label="First Apparition --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="353" source="37" target="40" label="First Apparition --- Hecate">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="354" source="38" target="1" label="All --- Macbeth" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="355" source="38" target="3" label="All --- Malcolm" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="356" source="38" target="5" label="All --- Second Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="357" source="38" target="12" label="All --- Donalbain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="358" source="38" target="14" label="All --- Lady Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="359" source="38" target="15" label="All --- Siward">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="360" source="38" target="16" label="All --- Banquo" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="361" source="38" target="21" label="All --- Ross" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="362" source="38" target="22" label="All --- Second Witch" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="363" source="38" target="24" label="All --- First Witch" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="364" source="38" target="25" label="All --- Porter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="365" source="38" target="26" label="All --- Third Witch" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="366" source="38" target="28" label="All --- Macduff" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="367" source="38" target="29" label="All --- Porter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="368" source="38" target="30" label="All --- Third Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="369" source="38" target="33" label="All --- Lennox" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="370" source="38" target="36" label="All --- Angus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="371" source="38" target="37" label="All --- First Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="372" source="38" target="40" label="All --- Hecate">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="373" source="39" target="33" label="Lord --- Lennox">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="374" source="40" target="1" label="Hecate --- Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="375" source="40" target="5" label="Hecate --- Second Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="376" source="40" target="22" label="Hecate --- Second Witch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="377" source="40" target="24" label="Hecate --- First Witch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="378" source="40" target="26" label="Hecate --- Third Witch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="379" source="40" target="30" label="Hecate --- Third Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="380" source="40" target="33" label="Hecate --- Lennox">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="381" source="40" target="37" label="Hecate --- First Apparition">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="382" source="40" target="38" label="Hecate --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="383" source="41" target="2" label="Caithness --- Menteith">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="384" source="41" target="33" label="Caithness --- Lennox">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="385" source="41" target="36" label="Caithness --- Angus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="386" source="42" target="1" label="Duncan --- Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="387" source="42" target="3" label="Duncan --- Malcolm" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="388" source="42" target="14" label="Duncan --- Lady Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="389" source="42" target="16" label="Duncan --- Banquo" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="390" source="42" target="21" label="Duncan --- Ross">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="391" source="42" target="32" label="Duncan --- Sergeant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="392" source="42" target="33" label="Duncan --- Lennox">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="393" source="43" target="0" label="First Murderer --- Attendant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="394" source="43" target="1" label="First Murderer --- Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="395" source="43" target="7" label="First Murderer --- Third Murderer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="396" source="43" target="8" label="First Murderer --- Second Murderer" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="397" source="43" target="9" label="First Murderer --- Messenger">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="398" source="43" target="14" label="First Murderer --- Lady Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="399" source="43" target="16" label="First Murderer --- Banquo" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="400" source="43" target="21" label="First Murderer --- Ross">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="401" source="43" target="23" label="First Murderer --- Lady Macduff">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="402" source="43" target="27" label="First Murderer --- Son to Macduff">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="403" source="43" target="34" label="First Murderer --- Both Murderers">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="404" source="44" target="1" label="Servant --- Macbeth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="405" source="44" target="4" label="Servant --- Seyton">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="406" source="44" target="6" label="Servant --- Doctor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="407" source="44" target="17" label="Servant --- Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

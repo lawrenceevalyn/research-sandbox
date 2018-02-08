@@ -1,0 +1,3200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-02-03">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="criticality" title="criticality" type="double"></attribute>
+      <attribute id="key" title="key" type="string"></attribute>
+      <attribute id="lines" title="lines" type="integer"></attribute>
+      <attribute id="words" title="words" type="integer"></attribute>
+      <attribute id="eigencentrality" title="Eigenvector Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="triangles" title="Number of triangles" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="scenes" title="scenes" type="integer"></attribute>
+    </attributes>
+    <nodes>
+      <node id="0" label="Peaseblossom">
+        <attvalues>
+          <attvalue for="criticality" value="0.21052631578947364"></attvalue>
+          <attvalue for="key" value="Peaseblossom"></attvalue>
+          <attvalue for="lines" value="4"></attvalue>
+          <attvalue for="words" value="9"></attvalue>
+          <attvalue for="eigencentrality" value="0.7142282415776106"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7209302325581395"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8064516129032258"></attvalue>
+          <attvalue for="betweenesscentrality" value="7.999999999999998"></attvalue>
+          <attvalue for="clustering" value="0.7192982456140351"></attvalue>
+          <attvalue for="triangles" value="123"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="1" label="Theseus">
+        <attvalues>
+          <attvalue for="criticality" value="0.13125"></attvalue>
+          <attvalue for="key" value="Theseus"></attvalue>
+          <attvalue for="lines" value="232"></attvalue>
+          <attvalue for="words" value="2017"></attvalue>
+          <attvalue for="eigencentrality" value="0.7987838410947036"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7380952380952381"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8225806451612904"></attvalue>
+          <attvalue for="betweenesscentrality" value="5.25"></attvalue>
+          <attvalue for="clustering" value="0.7789473684210526"></attvalue>
+          <attvalue for="triangles" value="148"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="40"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="2" label="Titania">
+        <attvalues>
+          <attvalue for="criticality" value="0.867647058823529"></attvalue>
+          <attvalue for="key" value="Titania"></attvalue>
+          <attvalue for="lines" value="141"></attvalue>
+          <attvalue for="words" value="1263"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.96875"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9838709677419355"></attvalue>
+          <attvalue for="betweenesscentrality" value="52.05882352941174"></attvalue>
+          <attvalue for="clustering" value="0.5011494252873563"></attvalue>
+          <attvalue for="triangles" value="218"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="60"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="3" label="Flute">
+        <attvalues>
+          <attvalue for="criticality" value="0.0619281045751634"></attvalue>
+          <attvalue for="key" value="Flute"></attvalue>
+          <attvalue for="lines" value="23"></attvalue>
+          <attvalue for="words" value="202"></attvalue>
+          <attvalue for="eigencentrality" value="0.4061201044413707"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.62"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6935483870967742"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.4862745098039216"></attvalue>
+          <attvalue for="clustering" value="0.9090909090909091"></attvalue>
+          <attvalue for="triangles" value="60"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="4" label="Quince">
+        <attvalues>
+          <attvalue for="criticality" value="0.0619281045751634"></attvalue>
+          <attvalue for="key" value="Quince"></attvalue>
+          <attvalue for="lines" value="86"></attvalue>
+          <attvalue for="words" value="760"></attvalue>
+          <attvalue for="eigencentrality" value="0.4061201044413707"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.62"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6935483870967742"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.4862745098039216"></attvalue>
+          <attvalue for="clustering" value="0.9090909090909091"></attvalue>
+          <attvalue for="triangles" value="60"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="5" label="Hermia">
+        <attvalues>
+          <attvalue for="criticality" value="0.09926470588235294"></attvalue>
+          <attvalue for="key" value="Hermia"></attvalue>
+          <attvalue for="lines" value="165"></attvalue>
+          <attvalue for="words" value="1464"></attvalue>
+          <attvalue for="eigencentrality" value="0.6422517172893344"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6739130434782609"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7580645161290323"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.176470588235294"></attvalue>
+          <attvalue for="clustering" value="0.825"></attvalue>
+          <attvalue for="triangles" value="99"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="6" label="Philostrate">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Philostrate"></attvalue>
+          <attvalue for="lines" value="24"></attvalue>
+          <attvalue for="words" value="210"></attvalue>
+          <attvalue for="eigencentrality" value="0.5875979716440843"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6458333333333334"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7258064516129032"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="91"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="7" label="Moth">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Moth"></attvalue>
+          <attvalue for="lines" value="2"></attvalue>
+          <attvalue for="words" value="5"></attvalue>
+          <attvalue for="eigencentrality" value="0.39676941442127356"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6078431372549019"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6774193548387096"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="55"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="22"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="8" label="Pyramus">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Pyramus"></attvalue>
+          <attvalue for="lines" value="56"></attvalue>
+          <attvalue for="words" value="442"></attvalue>
+          <attvalue for="eigencentrality" value="0.5875979716440843"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6458333333333334"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7258064516129032"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="91"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="9" label="Second Fairy">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mnd-fairy2"></attvalue>
+          <attvalue for="lines" value="2"></attvalue>
+          <attvalue for="words" value="25"></attvalue>
+          <attvalue for="eigencentrality" value="0.36651336025320025"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5740740740740741"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6397849462365592"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="10" label="Other fairies attending their King and Queen">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mnd-fai."></attvalue>
+          <attvalue for="lines" value="28"></attvalue>
+          <attvalue for="words" value="229"></attvalue>
+          <attvalue for="eigencentrality" value="0.24290043939310346"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5344827586206896"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5752688172043011"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="10"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="11" label="First Fairy">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mnd-fairy1"></attvalue>
+          <attvalue for="lines" value="8"></attvalue>
+          <attvalue for="words" value="52"></attvalue>
+          <attvalue for="eigencentrality" value="0.36651336025320025"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5740740740740741"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6397849462365592"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="12" label="Thisbe">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Thisby"></attvalue>
+          <attvalue for="lines" value="34"></attvalue>
+          <attvalue for="words" value="220"></attvalue>
+          <attvalue for="eigencentrality" value="0.5875979716440843"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6458333333333334"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7258064516129032"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="91"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="13" label="Lion">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Lion"></attvalue>
+          <attvalue for="lines" value="9"></attvalue>
+          <attvalue for="words" value="77"></attvalue>
+          <attvalue for="eigencentrality" value="0.5875979716440843"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6458333333333334"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7258064516129032"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="91"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="14" label="Oberon">
+        <attvalues>
+          <attvalue for="criticality" value="0.3508986928104576"></attvalue>
+          <attvalue for="key" value="Oberon"></attvalue>
+          <attvalue for="lines" value="224"></attvalue>
+          <attvalue for="words" value="1853"></attvalue>
+          <attvalue for="eigencentrality" value="0.8698691850513959"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8157894736842105"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8870967741935484"></attvalue>
+          <attvalue for="betweenesscentrality" value="16.843137254901965"></attvalue>
+          <attvalue for="clustering" value="0.6268115942028986"></attvalue>
+          <attvalue for="triangles" value="173"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="48"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="15" label="Cobweb">
+        <attvalues>
+          <attvalue for="criticality" value="0.21052631578947364"></attvalue>
+          <attvalue for="key" value="Cobweb"></attvalue>
+          <attvalue for="lines" value="4"></attvalue>
+          <attvalue for="words" value="9"></attvalue>
+          <attvalue for="eigencentrality" value="0.7142282415776106"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7209302325581395"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8064516129032258"></attvalue>
+          <attvalue for="betweenesscentrality" value="7.999999999999998"></attvalue>
+          <attvalue for="clustering" value="0.7192982456140351"></attvalue>
+          <attvalue for="triangles" value="123"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="16" label="Wall">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mnd-wall."></attvalue>
+          <attvalue for="lines" value="12"></attvalue>
+          <attvalue for="words" value="111"></attvalue>
+          <attvalue for="eigencentrality" value="0.5875979716440843"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6458333333333334"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7258064516129032"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="91"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="17" label="Demetrius">
+        <attvalues>
+          <attvalue for="criticality" value="0.3508986928104576"></attvalue>
+          <attvalue for="key" value="Demetrius2"></attvalue>
+          <attvalue for="lines" value="136"></attvalue>
+          <attvalue for="words" value="1223"></attvalue>
+          <attvalue for="eigencentrality" value="0.8698691850513959"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8157894736842105"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8870967741935484"></attvalue>
+          <attvalue for="betweenesscentrality" value="16.843137254901965"></attvalue>
+          <attvalue for="clustering" value="0.6268115942028986"></attvalue>
+          <attvalue for="triangles" value="173"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="48"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="18" label="All">
+        <attvalues>
+          <attvalue for="criticality" value="0.0619281045751634"></attvalue>
+          <attvalue for="key" value="mnd-all"></attvalue>
+          <attvalue for="lines" value="2"></attvalue>
+          <attvalue for="words" value="13"></attvalue>
+          <attvalue for="eigencentrality" value="0.4061201044413707"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.62"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6935483870967742"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.4862745098039216"></attvalue>
+          <attvalue for="clustering" value="0.9090909090909091"></attvalue>
+          <attvalue for="triangles" value="60"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="19" label="Starveling">
+        <attvalues>
+          <attvalue for="criticality" value="0.0619281045751634"></attvalue>
+          <attvalue for="key" value="StarvelingR"></attvalue>
+          <attvalue for="lines" value="5"></attvalue>
+          <attvalue for="words" value="37"></attvalue>
+          <attvalue for="eigencentrality" value="0.4061201044413707"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.62"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6935483870967742"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.4862745098039216"></attvalue>
+          <attvalue for="clustering" value="0.9090909090909091"></attvalue>
+          <attvalue for="triangles" value="60"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="20" label="Mustardseed">
+        <attvalues>
+          <attvalue for="criticality" value="0.21052631578947364"></attvalue>
+          <attvalue for="key" value="Mustardseed"></attvalue>
+          <attvalue for="lines" value="5"></attvalue>
+          <attvalue for="words" value="13"></attvalue>
+          <attvalue for="eigencentrality" value="0.7142282415776106"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7209302325581395"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8064516129032258"></attvalue>
+          <attvalue for="betweenesscentrality" value="7.999999999999998"></attvalue>
+          <attvalue for="clustering" value="0.7192982456140351"></attvalue>
+          <attvalue for="triangles" value="123"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="21" label="Chorus">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mnd-chorus"></attvalue>
+          <attvalue for="lines" value="8"></attvalue>
+          <attvalue for="words" value="42"></attvalue>
+          <attvalue for="eigencentrality" value="0.36651336025320025"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5740740740740741"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6397849462365592"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="22" label="Snug">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Snug"></attvalue>
+          <attvalue for="lines" value="6"></attvalue>
+          <attvalue for="words" value="57"></attvalue>
+          <attvalue for="eigencentrality" value="0.1671045778606543"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5166666666666667"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5752688172043011"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="15"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="23" label="Hippolyta">
+        <attvalues>
+          <attvalue for="criticality" value="0.13125"></attvalue>
+          <attvalue for="key" value="Hippolyta"></attvalue>
+          <attvalue for="lines" value="33"></attvalue>
+          <attvalue for="words" value="284"></attvalue>
+          <attvalue for="eigencentrality" value="0.7987838410947036"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7380952380952381"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8225806451612904"></attvalue>
+          <attvalue for="betweenesscentrality" value="5.25"></attvalue>
+          <attvalue for="clustering" value="0.7789473684210526"></attvalue>
+          <attvalue for="triangles" value="148"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="40"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="24" label="Puck">
+        <attvalues>
+          <attvalue for="criticality" value="0.867647058823529"></attvalue>
+          <attvalue for="key" value="Puck"></attvalue>
+          <attvalue for="lines" value="206"></attvalue>
+          <attvalue for="words" value="1627"></attvalue>
+          <attvalue for="eigencentrality" value="0.9999999999999999"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.96875"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9838709677419355"></attvalue>
+          <attvalue for="betweenesscentrality" value="52.05882352941174"></attvalue>
+          <attvalue for="clustering" value="0.5011494252873563"></attvalue>
+          <attvalue for="triangles" value="218"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="60"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="25" label="Prologue">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mnd-pro."></attvalue>
+          <attvalue for="lines" value="35"></attvalue>
+          <attvalue for="words" value="325"></attvalue>
+          <attvalue for="eigencentrality" value="0.5875979716440843"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6458333333333334"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7258064516129032"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="91"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="26" label="Lysander">
+        <attvalues>
+          <attvalue for="criticality" value="0.2744884910485933"></attvalue>
+          <attvalue for="key" value="Lysander"></attvalue>
+          <attvalue for="lines" value="177"></attvalue>
+          <attvalue for="words" value="1591"></attvalue>
+          <attvalue for="eigencentrality" value="0.8569381317550292"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7948717948717948"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8709677419354839"></attvalue>
+          <attvalue for="betweenesscentrality" value="12.626470588235293"></attvalue>
+          <attvalue for="clustering" value="0.6679841897233202"></attvalue>
+          <attvalue for="triangles" value="169"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="46"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="27" label="Moon">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="mnd-moon."></attvalue>
+          <attvalue for="lines" value="6"></attvalue>
+          <attvalue for="words" value="62"></attvalue>
+          <attvalue for="eigencentrality" value="0.5875979716440843"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6458333333333334"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7258064516129032"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="91"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="28" label="Helena">
+        <attvalues>
+          <attvalue for="criticality" value="0.16597462514417527"></attvalue>
+          <attvalue for="key" value="Helena1"></attvalue>
+          <attvalue for="lines" value="229"></attvalue>
+          <attvalue for="words" value="2056"></attvalue>
+          <attvalue for="eigencentrality" value="0.6551827705857007"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6888888888888889"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7741935483870968"></attvalue>
+          <attvalue for="betweenesscentrality" value="5.643137254901959"></attvalue>
+          <attvalue for="clustering" value="0.7573529411764706"></attvalue>
+          <attvalue for="triangles" value="103"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="34"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="29" label="Snout">
+        <attvalues>
+          <attvalue for="criticality" value="0.0619281045751634"></attvalue>
+          <attvalue for="key" value="Snout"></attvalue>
+          <attvalue for="lines" value="7"></attvalue>
+          <attvalue for="words" value="66"></attvalue>
+          <attvalue for="eigencentrality" value="0.4061201044413707"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.62"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6935483870967742"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.4862745098039216"></attvalue>
+          <attvalue for="clustering" value="0.9090909090909091"></attvalue>
+          <attvalue for="triangles" value="60"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="30" label="Bottom">
+        <attvalues>
+          <attvalue for="criticality" value="0.8299745824255629"></attvalue>
+          <attvalue for="key" value="Bottom"></attvalue>
+          <attvalue for="lines" value="210"></attvalue>
+          <attvalue for="words" value="1885"></attvalue>
+          <attvalue for="eigencentrality" value="0.9382653460634051"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8857142857142857"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9354838709677419"></attvalue>
+          <attvalue for="betweenesscentrality" value="44.818627450980394"></attvalue>
+          <attvalue for="clustering" value="0.5641025641025641"></attvalue>
+          <attvalue for="triangles" value="198"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="54"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="31" label="Egeus">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Egeus"></attvalue>
+          <attvalue for="lines" value="41"></attvalue>
+          <attvalue for="words" value="342"></attvalue>
+          <attvalue for="eigencentrality" value="0.58409742662901"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6326530612244898"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7096774193548387"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="78"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="26"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="0" target="1" label="Peaseblossom --- Theseus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1" source="0" target="2" label="Peaseblossom --- Titania" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="2" source="0" target="3" label="Peaseblossom --- Flute">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="3" source="0" target="4" label="Peaseblossom --- Quince">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="4" source="0" target="5" label="Peaseblossom --- Hermia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="5" source="0" target="7" label="Peaseblossom --- Moth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="6" source="0" target="14" label="Peaseblossom --- Oberon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="7" source="0" target="15" label="Peaseblossom --- Cobweb" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="8" source="0" target="17" label="Peaseblossom --- Demetrius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="9" source="0" target="18" label="Peaseblossom --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="10" source="0" target="19" label="Peaseblossom --- Starveling">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="11" source="0" target="20" label="Peaseblossom --- Mustardseed" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="12" source="0" target="23" label="Peaseblossom --- Hippolyta">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="13" source="0" target="24" label="Peaseblossom --- Puck" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="14" source="0" target="26" label="Peaseblossom --- Lysander">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="15" source="0" target="28" label="Peaseblossom --- Helena">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="16" source="0" target="29" label="Peaseblossom --- Snout">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="17" source="0" target="30" label="Peaseblossom --- Bottom" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="18" source="0" target="31" label="Peaseblossom --- Egeus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="19" source="1" target="0" label="Theseus --- Peaseblossom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="20" source="1" target="2" label="Theseus --- Titania" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="21" source="1" target="5" label="Theseus --- Hermia" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="22" source="1" target="6" label="Theseus --- Philostrate">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="23" source="1" target="8" label="Theseus --- Pyramus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="24" source="1" target="12" label="Theseus --- Thisbe">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="25" source="1" target="13" label="Theseus --- Lion">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="26" source="1" target="14" label="Theseus --- Oberon" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="27" source="1" target="15" label="Theseus --- Cobweb">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="28" source="1" target="16" label="Theseus --- Wall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="29" source="1" target="17" label="Theseus --- Demetrius" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="30" source="1" target="20" label="Theseus --- Mustardseed">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="31" source="1" target="23" label="Theseus --- Hippolyta" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="32" source="1" target="24" label="Theseus --- Puck" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="33" source="1" target="25" label="Theseus --- Prologue">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="34" source="1" target="26" label="Theseus --- Lysander" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="35" source="1" target="27" label="Theseus --- Moon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="36" source="1" target="28" label="Theseus --- Helena" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="37" source="1" target="30" label="Theseus --- Bottom" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="38" source="1" target="31" label="Theseus --- Egeus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="39" source="2" target="0" label="Titania --- Peaseblossom" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="40" source="2" target="1" label="Titania --- Theseus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="41" source="2" target="3" label="Titania --- Flute">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="42" source="2" target="4" label="Titania --- Quince">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="43" source="2" target="5" label="Titania --- Hermia" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="44" source="2" target="6" label="Titania --- Philostrate">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="45" source="2" target="7" label="Titania --- Moth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="46" source="2" target="8" label="Titania --- Pyramus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="47" source="2" target="9" label="Titania --- Second Fairy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="48" source="2" target="10" label="Titania --- Other fairies attending their King and Queen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="49" source="2" target="11" label="Titania --- First Fairy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="50" source="2" target="12" label="Titania --- Thisbe">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="51" source="2" target="13" label="Titania --- Lion">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="52" source="2" target="14" label="Titania --- Oberon" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="53" source="2" target="15" label="Titania --- Cobweb" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="54" source="2" target="16" label="Titania --- Wall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="55" source="2" target="17" label="Titania --- Demetrius" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="56" source="2" target="18" label="Titania --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="57" source="2" target="19" label="Titania --- Starveling">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="58" source="2" target="20" label="Titania --- Mustardseed" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="59" source="2" target="21" label="Titania --- Chorus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="60" source="2" target="23" label="Titania --- Hippolyta" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="61" source="2" target="24" label="Titania --- Puck" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="62" source="2" target="25" label="Titania --- Prologue">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="63" source="2" target="26" label="Titania --- Lysander" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="64" source="2" target="27" label="Titania --- Moon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="65" source="2" target="28" label="Titania --- Helena" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="66" source="2" target="29" label="Titania --- Snout">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="67" source="2" target="30" label="Titania --- Bottom" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="68" source="2" target="31" label="Titania --- Egeus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="69" source="3" target="0" label="Flute --- Peaseblossom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="70" source="3" target="2" label="Flute --- Titania">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="71" source="3" target="4" label="Flute --- Quince" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="72" source="3" target="7" label="Flute --- Moth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="73" source="3" target="15" label="Flute --- Cobweb">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="74" source="3" target="18" label="Flute --- All" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="75" source="3" target="19" label="Flute --- Starveling" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="76" source="3" target="20" label="Flute --- Mustardseed">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="77" source="3" target="22" label="Flute --- Snug" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="78" source="3" target="24" label="Flute --- Puck">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="79" source="3" target="29" label="Flute --- Snout" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="80" source="3" target="30" label="Flute --- Bottom" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="81" source="4" target="0" label="Quince --- Peaseblossom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="82" source="4" target="2" label="Quince --- Titania">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="83" source="4" target="3" label="Quince --- Flute" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="84" source="4" target="7" label="Quince --- Moth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="85" source="4" target="15" label="Quince --- Cobweb">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="86" source="4" target="18" label="Quince --- All" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="87" source="4" target="19" label="Quince --- Starveling" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="88" source="4" target="20" label="Quince --- Mustardseed">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="89" source="4" target="22" label="Quince --- Snug" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="90" source="4" target="24" label="Quince --- Puck">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="91" source="4" target="29" label="Quince --- Snout" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="92" source="4" target="30" label="Quince --- Bottom" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="93" source="5" target="0" label="Hermia --- Peaseblossom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="94" source="5" target="1" label="Hermia --- Theseus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="95" source="5" target="2" label="Hermia --- Titania" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="96" source="5" target="9" label="Hermia --- Second Fairy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="97" source="5" target="11" label="Hermia --- First Fairy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="98" source="5" target="14" label="Hermia --- Oberon" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="99" source="5" target="15" label="Hermia --- Cobweb">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="100" source="5" target="17" label="Hermia --- Demetrius" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="101" source="5" target="20" label="Hermia --- Mustardseed">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="102" source="5" target="21" label="Hermia --- Chorus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="103" source="5" target="23" label="Hermia --- Hippolyta" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="104" source="5" target="24" label="Hermia --- Puck" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="105" source="5" target="26" label="Hermia --- Lysander" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="106" source="5" target="28" label="Hermia --- Helena" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="107" source="5" target="30" label="Hermia --- Bottom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="108" source="5" target="31" label="Hermia --- Egeus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="109" source="6" target="1" label="Philostrate --- Theseus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="110" source="6" target="2" label="Philostrate --- Titania">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="111" source="6" target="8" label="Philostrate --- Pyramus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="112" source="6" target="12" label="Philostrate --- Thisbe">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="113" source="6" target="13" label="Philostrate --- Lion">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="114" source="6" target="14" label="Philostrate --- Oberon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="115" source="6" target="16" label="Philostrate --- Wall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="116" source="6" target="17" label="Philostrate --- Demetrius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="117" source="6" target="23" label="Philostrate --- Hippolyta">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="118" source="6" target="24" label="Philostrate --- Puck">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="119" source="6" target="25" label="Philostrate --- Prologue">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="120" source="6" target="26" label="Philostrate --- Lysander">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="121" source="6" target="27" label="Philostrate --- Moon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="122" source="6" target="30" label="Philostrate --- Bottom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="123" source="7" target="0" label="Moth --- Peaseblossom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="124" source="7" target="2" label="Moth --- Titania">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="125" source="7" target="3" label="Moth --- Flute">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="126" source="7" target="4" label="Moth --- Quince">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="127" source="7" target="15" label="Moth --- Cobweb">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="128" source="7" target="18" label="Moth --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="129" source="7" target="19" label="Moth --- Starveling">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="130" source="7" target="20" label="Moth --- Mustardseed">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="131" source="7" target="24" label="Moth --- Puck">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="132" source="7" target="29" label="Moth --- Snout">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="133" source="7" target="30" label="Moth --- Bottom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="134" source="8" target="1" label="Pyramus --- Theseus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="135" source="8" target="2" label="Pyramus --- Titania">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="136" source="8" target="6" label="Pyramus --- Philostrate">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="137" source="8" target="12" label="Pyramus --- Thisbe">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="138" source="8" target="13" label="Pyramus --- Lion">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="139" source="8" target="14" label="Pyramus --- Oberon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="140" source="8" target="16" label="Pyramus --- Wall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="141" source="8" target="17" label="Pyramus --- Demetrius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="142" source="8" target="23" label="Pyramus --- Hippolyta">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="143" source="8" target="24" label="Pyramus --- Puck">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="144" source="8" target="25" label="Pyramus --- Prologue">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="145" source="8" target="26" label="Pyramus --- Lysander">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="146" source="8" target="27" label="Pyramus --- Moon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="147" source="8" target="30" label="Pyramus --- Bottom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="148" source="9" target="2" label="Second Fairy --- Titania">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="149" source="9" target="5" label="Second Fairy --- Hermia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="150" source="9" target="11" label="Second Fairy --- First Fairy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="151" source="9" target="14" label="Second Fairy --- Oberon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="152" source="9" target="17" label="Second Fairy --- Demetrius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="153" source="9" target="21" label="Second Fairy --- Chorus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="154" source="9" target="24" label="Second Fairy --- Puck">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="155" source="9" target="26" label="Second Fairy --- Lysander">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="156" source="9" target="28" label="Second Fairy --- Helena">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="157" source="10" target="2" label="Other fairies attending their King and Queen --- Titania">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="158" source="10" target="14" label="Other fairies attending their King and Queen --- Oberon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="159" source="10" target="17" label="Other fairies attending their King and Queen --- Demetrius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="160" source="10" target="24" label="Other fairies attending their King and Queen --- Puck">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="161" source="10" target="28" label="Other fairies attending their King and Queen --- Helena">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="162" source="11" target="2" label="First Fairy --- Titania">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="163" source="11" target="5" label="First Fairy --- Hermia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="164" source="11" target="9" label="First Fairy --- Second Fairy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="165" source="11" target="14" label="First Fairy --- Oberon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="166" source="11" target="17" label="First Fairy --- Demetrius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="167" source="11" target="21" label="First Fairy --- Chorus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="168" source="11" target="24" label="First Fairy --- Puck">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="169" source="11" target="26" label="First Fairy --- Lysander">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="170" source="11" target="28" label="First Fairy --- Helena">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="171" source="12" target="1" label="Thisbe --- Theseus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="172" source="12" target="2" label="Thisbe --- Titania">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="173" source="12" target="6" label="Thisbe --- Philostrate">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="174" source="12" target="8" label="Thisbe --- Pyramus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="175" source="12" target="13" label="Thisbe --- Lion">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="176" source="12" target="14" label="Thisbe --- Oberon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="177" source="12" target="16" label="Thisbe --- Wall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="178" source="12" target="17" label="Thisbe --- Demetrius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="179" source="12" target="23" label="Thisbe --- Hippolyta">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="180" source="12" target="24" label="Thisbe --- Puck">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="181" source="12" target="25" label="Thisbe --- Prologue">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="182" source="12" target="26" label="Thisbe --- Lysander">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="183" source="12" target="27" label="Thisbe --- Moon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="184" source="12" target="30" label="Thisbe --- Bottom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="185" source="13" target="1" label="Lion --- Theseus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="186" source="13" target="2" label="Lion --- Titania">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="187" source="13" target="6" label="Lion --- Philostrate">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="188" source="13" target="8" label="Lion --- Pyramus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="189" source="13" target="12" label="Lion --- Thisbe">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="190" source="13" target="14" label="Lion --- Oberon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="191" source="13" target="16" label="Lion --- Wall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="192" source="13" target="17" label="Lion --- Demetrius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="193" source="13" target="23" label="Lion --- Hippolyta">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="194" source="13" target="24" label="Lion --- Puck">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="195" source="13" target="25" label="Lion --- Prologue">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="196" source="13" target="26" label="Lion --- Lysander">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="197" source="13" target="27" label="Lion --- Moon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="198" source="13" target="30" label="Lion --- Bottom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="199" source="14" target="0" label="Oberon --- Peaseblossom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="200" source="14" target="1" label="Oberon --- Theseus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="201" source="14" target="2" label="Oberon --- Titania" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="202" source="14" target="5" label="Oberon --- Hermia" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="203" source="14" target="6" label="Oberon --- Philostrate">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="204" source="14" target="8" label="Oberon --- Pyramus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="205" source="14" target="9" label="Oberon --- Second Fairy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="206" source="14" target="10" label="Oberon --- Other fairies attending their King and Queen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="207" source="14" target="11" label="Oberon --- First Fairy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="208" source="14" target="12" label="Oberon --- Thisbe">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="209" source="14" target="13" label="Oberon --- Lion">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="210" source="14" target="15" label="Oberon --- Cobweb">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="211" source="14" target="16" label="Oberon --- Wall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="212" source="14" target="17" label="Oberon --- Demetrius" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="213" source="14" target="20" label="Oberon --- Mustardseed">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="214" source="14" target="21" label="Oberon --- Chorus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="215" source="14" target="23" label="Oberon --- Hippolyta" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="216" source="14" target="24" label="Oberon --- Puck" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="217" source="14" target="25" label="Oberon --- Prologue">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="218" source="14" target="26" label="Oberon --- Lysander" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="219" source="14" target="27" label="Oberon --- Moon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="220" source="14" target="28" label="Oberon --- Helena" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="221" source="14" target="30" label="Oberon --- Bottom" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="222" source="14" target="31" label="Oberon --- Egeus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="223" source="15" target="0" label="Cobweb --- Peaseblossom" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="224" source="15" target="1" label="Cobweb --- Theseus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="225" source="15" target="2" label="Cobweb --- Titania" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="226" source="15" target="3" label="Cobweb --- Flute">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="227" source="15" target="4" label="Cobweb --- Quince">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="228" source="15" target="5" label="Cobweb --- Hermia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="229" source="15" target="7" label="Cobweb --- Moth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="230" source="15" target="14" label="Cobweb --- Oberon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="231" source="15" target="17" label="Cobweb --- Demetrius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="232" source="15" target="18" label="Cobweb --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="233" source="15" target="19" label="Cobweb --- Starveling">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="234" source="15" target="20" label="Cobweb --- Mustardseed" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="235" source="15" target="23" label="Cobweb --- Hippolyta">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="236" source="15" target="24" label="Cobweb --- Puck" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="237" source="15" target="26" label="Cobweb --- Lysander">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="238" source="15" target="28" label="Cobweb --- Helena">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="239" source="15" target="29" label="Cobweb --- Snout">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="240" source="15" target="30" label="Cobweb --- Bottom" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="241" source="15" target="31" label="Cobweb --- Egeus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="242" source="16" target="1" label="Wall --- Theseus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="243" source="16" target="2" label="Wall --- Titania">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="244" source="16" target="6" label="Wall --- Philostrate">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="245" source="16" target="8" label="Wall --- Pyramus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="246" source="16" target="12" label="Wall --- Thisbe">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="247" source="16" target="13" label="Wall --- Lion">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="248" source="16" target="14" label="Wall --- Oberon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="249" source="16" target="17" label="Wall --- Demetrius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="250" source="16" target="23" label="Wall --- Hippolyta">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="251" source="16" target="24" label="Wall --- Puck">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="252" source="16" target="25" label="Wall --- Prologue">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="253" source="16" target="26" label="Wall --- Lysander">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="254" source="16" target="27" label="Wall --- Moon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="255" source="16" target="30" label="Wall --- Bottom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="256" source="17" target="0" label="Demetrius --- Peaseblossom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="257" source="17" target="1" label="Demetrius --- Theseus" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="258" source="17" target="2" label="Demetrius --- Titania" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="259" source="17" target="5" label="Demetrius --- Hermia" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="260" source="17" target="6" label="Demetrius --- Philostrate">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="261" source="17" target="8" label="Demetrius --- Pyramus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="262" source="17" target="9" label="Demetrius --- Second Fairy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="263" source="17" target="10" label="Demetrius --- Other fairies attending their King and Queen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="264" source="17" target="11" label="Demetrius --- First Fairy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="265" source="17" target="12" label="Demetrius --- Thisbe">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="266" source="17" target="13" label="Demetrius --- Lion">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="267" source="17" target="14" label="Demetrius --- Oberon" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="268" source="17" target="15" label="Demetrius --- Cobweb">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="269" source="17" target="16" label="Demetrius --- Wall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="270" source="17" target="20" label="Demetrius --- Mustardseed">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="271" source="17" target="21" label="Demetrius --- Chorus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="272" source="17" target="23" label="Demetrius --- Hippolyta" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="273" source="17" target="24" label="Demetrius --- Puck" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="274" source="17" target="25" label="Demetrius --- Prologue">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="275" source="17" target="26" label="Demetrius --- Lysander" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="276" source="17" target="27" label="Demetrius --- Moon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="277" source="17" target="28" label="Demetrius --- Helena" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="278" source="17" target="30" label="Demetrius --- Bottom" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="279" source="17" target="31" label="Demetrius --- Egeus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="280" source="18" target="0" label="All --- Peaseblossom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="281" source="18" target="2" label="All --- Titania">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="282" source="18" target="3" label="All --- Flute" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="283" source="18" target="4" label="All --- Quince" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="284" source="18" target="7" label="All --- Moth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="285" source="18" target="15" label="All --- Cobweb">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="286" source="18" target="19" label="All --- Starveling" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="287" source="18" target="20" label="All --- Mustardseed">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="288" source="18" target="22" label="All --- Snug">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="289" source="18" target="24" label="All --- Puck">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="290" source="18" target="29" label="All --- Snout" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="291" source="18" target="30" label="All --- Bottom" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="292" source="19" target="0" label="Starveling --- Peaseblossom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="293" source="19" target="2" label="Starveling --- Titania">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="294" source="19" target="3" label="Starveling --- Flute" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="295" source="19" target="4" label="Starveling --- Quince" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="296" source="19" target="7" label="Starveling --- Moth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="297" source="19" target="15" label="Starveling --- Cobweb">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="298" source="19" target="18" label="Starveling --- All" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="299" source="19" target="20" label="Starveling --- Mustardseed">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="300" source="19" target="22" label="Starveling --- Snug" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="301" source="19" target="24" label="Starveling --- Puck">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="302" source="19" target="29" label="Starveling --- Snout" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="303" source="19" target="30" label="Starveling --- Bottom" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="304" source="20" target="0" label="Mustardseed --- Peaseblossom" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="305" source="20" target="1" label="Mustardseed --- Theseus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="306" source="20" target="2" label="Mustardseed --- Titania" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="307" source="20" target="3" label="Mustardseed --- Flute">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="308" source="20" target="4" label="Mustardseed --- Quince">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="309" source="20" target="5" label="Mustardseed --- Hermia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="310" source="20" target="7" label="Mustardseed --- Moth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="311" source="20" target="14" label="Mustardseed --- Oberon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="312" source="20" target="15" label="Mustardseed --- Cobweb" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="313" source="20" target="17" label="Mustardseed --- Demetrius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="314" source="20" target="18" label="Mustardseed --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="315" source="20" target="19" label="Mustardseed --- Starveling">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="316" source="20" target="23" label="Mustardseed --- Hippolyta">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="317" source="20" target="24" label="Mustardseed --- Puck" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="318" source="20" target="26" label="Mustardseed --- Lysander">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="319" source="20" target="28" label="Mustardseed --- Helena">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="320" source="20" target="29" label="Mustardseed --- Snout">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="321" source="20" target="30" label="Mustardseed --- Bottom" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="322" source="20" target="31" label="Mustardseed --- Egeus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="323" source="21" target="2" label="Chorus --- Titania">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="324" source="21" target="5" label="Chorus --- Hermia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="325" source="21" target="9" label="Chorus --- Second Fairy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="326" source="21" target="11" label="Chorus --- First Fairy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="327" source="21" target="14" label="Chorus --- Oberon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="328" source="21" target="17" label="Chorus --- Demetrius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="329" source="21" target="24" label="Chorus --- Puck">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="330" source="21" target="26" label="Chorus --- Lysander">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="331" source="21" target="28" label="Chorus --- Helena">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="332" source="22" target="3" label="Snug --- Flute" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="333" source="22" target="4" label="Snug --- Quince" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="334" source="22" target="18" label="Snug --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="335" source="22" target="19" label="Snug --- Starveling" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="336" source="22" target="29" label="Snug --- Snout">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="337" source="22" target="30" label="Snug --- Bottom" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="338" source="23" target="0" label="Hippolyta --- Peaseblossom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="339" source="23" target="1" label="Hippolyta --- Theseus" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="340" source="23" target="2" label="Hippolyta --- Titania" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="341" source="23" target="5" label="Hippolyta --- Hermia" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="342" source="23" target="6" label="Hippolyta --- Philostrate">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="343" source="23" target="8" label="Hippolyta --- Pyramus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="344" source="23" target="12" label="Hippolyta --- Thisbe">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="345" source="23" target="13" label="Hippolyta --- Lion">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="346" source="23" target="14" label="Hippolyta --- Oberon" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="347" source="23" target="15" label="Hippolyta --- Cobweb">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="348" source="23" target="16" label="Hippolyta --- Wall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="349" source="23" target="17" label="Hippolyta --- Demetrius" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="350" source="23" target="20" label="Hippolyta --- Mustardseed">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="351" source="23" target="24" label="Hippolyta --- Puck" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="352" source="23" target="25" label="Hippolyta --- Prologue">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="353" source="23" target="26" label="Hippolyta --- Lysander" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="354" source="23" target="27" label="Hippolyta --- Moon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="355" source="23" target="28" label="Hippolyta --- Helena" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="356" source="23" target="30" label="Hippolyta --- Bottom" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="357" source="23" target="31" label="Hippolyta --- Egeus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="358" source="24" target="0" label="Puck --- Peaseblossom" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="359" source="24" target="1" label="Puck --- Theseus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="360" source="24" target="2" label="Puck --- Titania" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="361" source="24" target="3" label="Puck --- Flute">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="362" source="24" target="4" label="Puck --- Quince">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="363" source="24" target="5" label="Puck --- Hermia" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="364" source="24" target="6" label="Puck --- Philostrate">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="365" source="24" target="7" label="Puck --- Moth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="366" source="24" target="8" label="Puck --- Pyramus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="367" source="24" target="9" label="Puck --- Second Fairy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="368" source="24" target="10" label="Puck --- Other fairies attending their King and Queen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="369" source="24" target="11" label="Puck --- First Fairy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="370" source="24" target="12" label="Puck --- Thisbe">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="371" source="24" target="13" label="Puck --- Lion">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="372" source="24" target="14" label="Puck --- Oberon" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="373" source="24" target="15" label="Puck --- Cobweb" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="374" source="24" target="16" label="Puck --- Wall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="375" source="24" target="17" label="Puck --- Demetrius" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="376" source="24" target="18" label="Puck --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="377" source="24" target="19" label="Puck --- Starveling">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="378" source="24" target="20" label="Puck --- Mustardseed" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="379" source="24" target="21" label="Puck --- Chorus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="380" source="24" target="23" label="Puck --- Hippolyta" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="381" source="24" target="25" label="Puck --- Prologue">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="382" source="24" target="26" label="Puck --- Lysander" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="383" source="24" target="27" label="Puck --- Moon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="384" source="24" target="28" label="Puck --- Helena" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="385" source="24" target="29" label="Puck --- Snout">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="386" source="24" target="30" label="Puck --- Bottom" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="387" source="24" target="31" label="Puck --- Egeus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="388" source="25" target="1" label="Prologue --- Theseus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="389" source="25" target="2" label="Prologue --- Titania">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="390" source="25" target="6" label="Prologue --- Philostrate">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="391" source="25" target="8" label="Prologue --- Pyramus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="392" source="25" target="12" label="Prologue --- Thisbe">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="393" source="25" target="13" label="Prologue --- Lion">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="394" source="25" target="14" label="Prologue --- Oberon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="395" source="25" target="16" label="Prologue --- Wall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="396" source="25" target="17" label="Prologue --- Demetrius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="397" source="25" target="23" label="Prologue --- Hippolyta">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="398" source="25" target="24" label="Prologue --- Puck">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="399" source="25" target="26" label="Prologue --- Lysander">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="400" source="25" target="27" label="Prologue --- Moon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="401" source="25" target="30" label="Prologue --- Bottom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="402" source="26" target="0" label="Lysander --- Peaseblossom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="403" source="26" target="1" label="Lysander --- Theseus" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="404" source="26" target="2" label="Lysander --- Titania" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="405" source="26" target="5" label="Lysander --- Hermia" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="406" source="26" target="6" label="Lysander --- Philostrate">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="407" source="26" target="8" label="Lysander --- Pyramus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="408" source="26" target="9" label="Lysander --- Second Fairy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="409" source="26" target="11" label="Lysander --- First Fairy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="410" source="26" target="12" label="Lysander --- Thisbe">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="411" source="26" target="13" label="Lysander --- Lion">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="412" source="26" target="14" label="Lysander --- Oberon" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="413" source="26" target="15" label="Lysander --- Cobweb">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="414" source="26" target="16" label="Lysander --- Wall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="415" source="26" target="17" label="Lysander --- Demetrius" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="416" source="26" target="20" label="Lysander --- Mustardseed">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="417" source="26" target="21" label="Lysander --- Chorus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="418" source="26" target="23" label="Lysander --- Hippolyta" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="419" source="26" target="24" label="Lysander --- Puck" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="420" source="26" target="25" label="Lysander --- Prologue">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="421" source="26" target="27" label="Lysander --- Moon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="422" source="26" target="28" label="Lysander --- Helena" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="423" source="26" target="30" label="Lysander --- Bottom" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="424" source="26" target="31" label="Lysander --- Egeus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="425" source="27" target="1" label="Moon --- Theseus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="426" source="27" target="2" label="Moon --- Titania">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="427" source="27" target="6" label="Moon --- Philostrate">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="428" source="27" target="8" label="Moon --- Pyramus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="429" source="27" target="12" label="Moon --- Thisbe">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="430" source="27" target="13" label="Moon --- Lion">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="431" source="27" target="14" label="Moon --- Oberon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="432" source="27" target="16" label="Moon --- Wall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="433" source="27" target="17" label="Moon --- Demetrius">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="434" source="27" target="23" label="Moon --- Hippolyta">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="435" source="27" target="24" label="Moon --- Puck">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="436" source="27" target="25" label="Moon --- Prologue">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="437" source="27" target="26" label="Moon --- Lysander">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="438" source="27" target="30" label="Moon --- Bottom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="439" source="28" target="0" label="Helena --- Peaseblossom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="440" source="28" target="1" label="Helena --- Theseus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="441" source="28" target="2" label="Helena --- Titania" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="442" source="28" target="5" label="Helena --- Hermia" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="443" source="28" target="9" label="Helena --- Second Fairy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="444" source="28" target="10" label="Helena --- Other fairies attending their King and Queen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="445" source="28" target="11" label="Helena --- First Fairy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="446" source="28" target="14" label="Helena --- Oberon" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="447" source="28" target="15" label="Helena --- Cobweb">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="448" source="28" target="17" label="Helena --- Demetrius" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="449" source="28" target="20" label="Helena --- Mustardseed">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="450" source="28" target="21" label="Helena --- Chorus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="451" source="28" target="23" label="Helena --- Hippolyta" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="452" source="28" target="24" label="Helena --- Puck" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="453" source="28" target="26" label="Helena --- Lysander" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="454" source="28" target="30" label="Helena --- Bottom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="455" source="28" target="31" label="Helena --- Egeus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="456" source="29" target="0" label="Snout --- Peaseblossom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="457" source="29" target="2" label="Snout --- Titania">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="458" source="29" target="3" label="Snout --- Flute" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="459" source="29" target="4" label="Snout --- Quince" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="460" source="29" target="7" label="Snout --- Moth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="461" source="29" target="15" label="Snout --- Cobweb">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="462" source="29" target="18" label="Snout --- All" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="463" source="29" target="19" label="Snout --- Starveling" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="464" source="29" target="20" label="Snout --- Mustardseed">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="465" source="29" target="22" label="Snout --- Snug">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="466" source="29" target="24" label="Snout --- Puck">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="467" source="29" target="30" label="Snout --- Bottom" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="468" source="30" target="0" label="Bottom --- Peaseblossom" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="469" source="30" target="1" label="Bottom --- Theseus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="470" source="30" target="2" label="Bottom --- Titania" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="471" source="30" target="3" label="Bottom --- Flute" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="472" source="30" target="4" label="Bottom --- Quince" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="473" source="30" target="5" label="Bottom --- Hermia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="474" source="30" target="6" label="Bottom --- Philostrate">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="475" source="30" target="7" label="Bottom --- Moth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="476" source="30" target="8" label="Bottom --- Pyramus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="477" source="30" target="12" label="Bottom --- Thisbe">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="478" source="30" target="13" label="Bottom --- Lion">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="479" source="30" target="14" label="Bottom --- Oberon" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="480" source="30" target="15" label="Bottom --- Cobweb" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="481" source="30" target="16" label="Bottom --- Wall">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="482" source="30" target="17" label="Bottom --- Demetrius" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="483" source="30" target="18" label="Bottom --- All" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="484" source="30" target="19" label="Bottom --- Starveling" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="485" source="30" target="20" label="Bottom --- Mustardseed" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="486" source="30" target="22" label="Bottom --- Snug" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="487" source="30" target="23" label="Bottom --- Hippolyta" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="488" source="30" target="24" label="Bottom --- Puck" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="489" source="30" target="25" label="Bottom --- Prologue">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="490" source="30" target="26" label="Bottom --- Lysander" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="491" source="30" target="27" label="Bottom --- Moon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="492" source="30" target="28" label="Bottom --- Helena">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="493" source="30" target="29" label="Bottom --- Snout" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="494" source="30" target="31" label="Bottom --- Egeus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="495" source="31" target="0" label="Egeus --- Peaseblossom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="496" source="31" target="1" label="Egeus --- Theseus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="497" source="31" target="2" label="Egeus --- Titania">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="498" source="31" target="5" label="Egeus --- Hermia" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="499" source="31" target="14" label="Egeus --- Oberon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="500" source="31" target="15" label="Egeus --- Cobweb">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="501" source="31" target="17" label="Egeus --- Demetrius" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="502" source="31" target="20" label="Egeus --- Mustardseed">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="503" source="31" target="23" label="Egeus --- Hippolyta" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="504" source="31" target="24" label="Egeus --- Puck">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="505" source="31" target="26" label="Egeus --- Lysander" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="506" source="31" target="28" label="Egeus --- Helena" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="507" source="31" target="30" label="Egeus --- Bottom">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-02-03">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="criticality" title="criticality" type="double"></attribute>
+      <attribute id="key" title="key" type="string"></attribute>
+      <attribute id="lines" title="lines" type="integer"></attribute>
+      <attribute id="words" title="words" type="integer"></attribute>
+      <attribute id="eigencentrality" title="Eigenvector Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="triangles" title="Number of triangles" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="scenes" title="scenes" type="integer"></attribute>
+    </attributes>
+    <nodes>
+      <node id="0" label="Curio">
+        <attvalues>
+          <attvalue for="criticality" value="0.041666666666666664"></attvalue>
+          <attvalue for="key" value="Curio"></attvalue>
+          <attvalue for="lines" value="7"></attvalue>
+          <attvalue for="words" value="48"></attvalue>
+          <attvalue for="eigencentrality" value="0.22621955142869013"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5666666666666667"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6176470588235294"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.3333333333333333"></attvalue>
+          <attvalue for="clustering" value="0.8333333333333334"></attvalue>
+          <attvalue for="triangles" value="5"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="1" label="Servant">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="twn-ser."></attvalue>
+          <attvalue for="lines" value="3"></attvalue>
+          <attvalue for="words" value="24"></attvalue>
+          <attvalue for="eigencentrality" value="0.7236411443547697"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7083333333333334"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7941176470588235"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="2" label="Second Officer">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="twn-sec.-off."></attvalue>
+          <attvalue for="lines" value="3"></attvalue>
+          <attvalue for="words" value="22"></attvalue>
+          <attvalue for="eigencentrality" value="0.7236411443547697"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7083333333333334"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7941176470588235"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="3" label="First Officer">
+        <attvalues>
+          <attvalue for="criticality" value="0.04662698412698413"></attvalue>
+          <attvalue for="key" value="twn-first-off."></attvalue>
+          <attvalue for="lines" value="12"></attvalue>
+          <attvalue for="words" value="112"></attvalue>
+          <attvalue for="eigencentrality" value="0.9642245622018489"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.85"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9117647058823529"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.3055555555555556"></attvalue>
+          <attvalue for="clustering" value="0.8791208791208791"></attvalue>
+          <attvalue for="triangles" value="80"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="4" label="Maria">
+        <attvalues>
+          <attvalue for="criticality" value="0.0101010101010101"></attvalue>
+          <attvalue for="key" value="Maria2"></attvalue>
+          <attvalue for="lines" value="156"></attvalue>
+          <attvalue for="words" value="1369"></attvalue>
+          <attvalue for="eigencentrality" value="0.7873055671214609"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7391304347826086"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8235294117647058"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.2222222222222222"></attvalue>
+          <attvalue for="clustering" value="0.9636363636363636"></attvalue>
+          <attvalue for="triangles" value="53"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="22"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="5" label="Feste">
+        <attvalues>
+          <attvalue for="criticality" value="0.14743589743589738"></attvalue>
+          <attvalue for="key" value="Feste"></attvalue>
+          <attvalue for="lines" value="318"></attvalue>
+          <attvalue for="words" value="2738"></attvalue>
+          <attvalue for="eigencentrality" value="0.876322512014701"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8095238095238095"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8823529411764706"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.833333333333332"></attvalue>
+          <attvalue for="clustering" value="0.8333333333333334"></attvalue>
+          <attvalue for="triangles" value="65"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="26"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="6" label="Olivia">
+        <attvalues>
+          <attvalue for="criticality" value="0.04662698412698413"></attvalue>
+          <attvalue for="key" value="Olivia"></attvalue>
+          <attvalue for="lines" value="311"></attvalue>
+          <attvalue for="words" value="2674"></attvalue>
+          <attvalue for="eigencentrality" value="0.9642245622018489"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.85"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9117647058823529"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.3055555555555556"></attvalue>
+          <attvalue for="clustering" value="0.8791208791208791"></attvalue>
+          <attvalue for="triangles" value="80"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="7" label="Musicians">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="sha-twn-role20"></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="8" label="Orsino">
+        <attvalues>
+          <attvalue for="criticality" value="0.3012820512820512"></attvalue>
+          <attvalue for="key" value="Orsino"></attvalue>
+          <attvalue for="lines" value="216"></attvalue>
+          <attvalue for="words" value="1850"></attvalue>
+          <attvalue for="eigencentrality" value="0.8317093235298197"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8095238095238095"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8823529411764706"></attvalue>
+          <attvalue for="betweenesscentrality" value="7.833333333333332"></attvalue>
+          <attvalue for="clustering" value="0.7564102564102564"></attvalue>
+          <attvalue for="triangles" value="59"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="26"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="9" label="Antonio">
+        <attvalues>
+          <attvalue for="criticality" value="0.04662698412698413"></attvalue>
+          <attvalue for="key" value="Antonio5"></attvalue>
+          <attvalue for="lines" value="106"></attvalue>
+          <attvalue for="words" value="917"></attvalue>
+          <attvalue for="eigencentrality" value="0.9642245622018489"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.85"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9117647058823529"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.3055555555555556"></attvalue>
+          <attvalue for="clustering" value="0.8791208791208791"></attvalue>
+          <attvalue for="triangles" value="80"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="10" label="Malvolio">
+        <attvalues>
+          <attvalue for="criticality" value="0.04662698412698413"></attvalue>
+          <attvalue for="key" value="Malvolio"></attvalue>
+          <attvalue for="lines" value="284"></attvalue>
+          <attvalue for="words" value="2519"></attvalue>
+          <attvalue for="eigencentrality" value="0.9642245622018489"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.85"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9117647058823529"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.3055555555555556"></attvalue>
+          <attvalue for="clustering" value="0.8791208791208791"></attvalue>
+          <attvalue for="triangles" value="80"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="11" label="A Sea Captain">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="twn-cap."></attvalue>
+          <attvalue for="lines" value="32"></attvalue>
+          <attvalue for="words" value="271"></attvalue>
+          <attvalue for="eigencentrality" value="0.07862719046962499"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5151515151515151"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5294117647058824"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="12" label="Sir Toby Belch">
+        <attvalues>
+          <attvalue for="criticality" value="0.04662698412698413"></attvalue>
+          <attvalue for="key" value="Toby"></attvalue>
+          <attvalue for="lines" value="350"></attvalue>
+          <attvalue for="words" value="3022"></attvalue>
+          <attvalue for="eigencentrality" value="0.9642245622018489"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.85"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9117647058823529"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.3055555555555556"></attvalue>
+          <attvalue for="clustering" value="0.8791208791208791"></attvalue>
+          <attvalue for="triangles" value="80"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="13" label="Fabian">
+        <attvalues>
+          <attvalue for="criticality" value="0.04662698412698413"></attvalue>
+          <attvalue for="key" value="Fabian"></attvalue>
+          <attvalue for="lines" value="112"></attvalue>
+          <attvalue for="words" value="971"></attvalue>
+          <attvalue for="eigencentrality" value="0.9642245622018489"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.85"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9117647058823529"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.3055555555555556"></attvalue>
+          <attvalue for="clustering" value="0.8791208791208791"></attvalue>
+          <attvalue for="triangles" value="80"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="14" label="Priests">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="twn-priest."></attvalue>
+          <attvalue for="lines" value="8"></attvalue>
+          <attvalue for="words" value="65"></attvalue>
+          <attvalue for="eigencentrality" value="0.8021600291968675"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7391304347826086"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8235294117647058"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="55"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="22"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="15" label="Sailors">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="sha-twn-role17"></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="16" label="Lords">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="sha-twn-role15"></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="3"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="17" label="Valentine">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="twn-val."></attvalue>
+          <attvalue for="lines" value="14"></attvalue>
+          <attvalue for="words" value="116"></attvalue>
+          <attvalue for="eigencentrality" value="0.1625551286619962"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5483870967741935"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5882352941176471"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="18" label="Viola">
+        <attvalues>
+          <attvalue for="criticality" value="0.9011437908496732"></attvalue>
+          <attvalue for="key" value="Viola"></attvalue>
+          <attvalue for="lines" value="338"></attvalue>
+          <attvalue for="words" value="2930"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="30.63888888888889"></attvalue>
+          <attvalue for="clustering" value="0.6176470588235294"></attvalue>
+          <attvalue for="triangles" value="84"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="34"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="19" label="Sebastian">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Sebastian1"></attvalue>
+          <attvalue for="lines" value="127"></attvalue>
+          <attvalue for="words" value="1133"></attvalue>
+          <attvalue for="eigencentrality" value="0.8021600291968675"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7391304347826086"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8235294117647058"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="55"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="22"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="20" label="Sir Andrew Aguecheek">
+        <attvalues>
+          <attvalue for="criticality" value="0.04662698412698413"></attvalue>
+          <attvalue for="key" value="Aguecheek"></attvalue>
+          <attvalue for="lines" value="151"></attvalue>
+          <attvalue for="words" value="1311"></attvalue>
+          <attvalue for="eigencentrality" value="0.9642245622018487"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.85"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9117647058823529"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.3055555555555556"></attvalue>
+          <attvalue for="clustering" value="0.8791208791208791"></attvalue>
+          <attvalue for="triangles" value="80"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="0" target="5" label="Curio --- Feste">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1" source="0" target="8" label="Curio --- Orsino" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="2" source="0" target="17" label="Curio --- Valentine">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="3" source="0" target="18" label="Curio --- Viola">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="4" source="1" target="2" label="Servant --- Second Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="5" source="1" target="3" label="Servant --- First Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="6" source="1" target="4" label="Servant --- Maria">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="7" source="1" target="6" label="Servant --- Olivia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="8" source="1" target="9" label="Servant --- Antonio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="9" source="1" target="10" label="Servant --- Malvolio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="10" source="1" target="12" label="Servant --- Sir Toby Belch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="11" source="1" target="13" label="Servant --- Fabian">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="12" source="1" target="18" label="Servant --- Viola">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="13" source="1" target="20" label="Servant --- Sir Andrew Aguecheek">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="14" source="2" target="1" label="Second Officer --- Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="15" source="2" target="3" label="Second Officer --- First Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="16" source="2" target="4" label="Second Officer --- Maria">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="17" source="2" target="6" label="Second Officer --- Olivia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="18" source="2" target="9" label="Second Officer --- Antonio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="19" source="2" target="10" label="Second Officer --- Malvolio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="20" source="2" target="12" label="Second Officer --- Sir Toby Belch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="21" source="2" target="13" label="Second Officer --- Fabian">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="22" source="2" target="18" label="Second Officer --- Viola">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="23" source="2" target="20" label="Second Officer --- Sir Andrew Aguecheek">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="24" source="3" target="1" label="First Officer --- Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="25" source="3" target="2" label="First Officer --- Second Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="26" source="3" target="4" label="First Officer --- Maria">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="27" source="3" target="5" label="First Officer --- Feste">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="28" source="3" target="6" label="First Officer --- Olivia" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="29" source="3" target="8" label="First Officer --- Orsino">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="30" source="3" target="9" label="First Officer --- Antonio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="31" source="3" target="10" label="First Officer --- Malvolio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="32" source="3" target="12" label="First Officer --- Sir Toby Belch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="33" source="3" target="13" label="First Officer --- Fabian" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="34" source="3" target="14" label="First Officer --- Priests">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="35" source="3" target="18" label="First Officer --- Viola" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="36" source="3" target="19" label="First Officer --- Sebastian">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="37" source="3" target="20" label="First Officer --- Sir Andrew Aguecheek" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="38" source="4" target="1" label="Maria --- Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="39" source="4" target="2" label="Maria --- Second Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="40" source="4" target="3" label="Maria --- First Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="41" source="4" target="5" label="Maria --- Feste" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="42" source="4" target="6" label="Maria --- Olivia" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="43" source="4" target="9" label="Maria --- Antonio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="44" source="4" target="10" label="Maria --- Malvolio" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="45" source="4" target="12" label="Maria --- Sir Toby Belch" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="46" source="4" target="13" label="Maria --- Fabian" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="47" source="4" target="18" label="Maria --- Viola" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="48" source="4" target="20" label="Maria --- Sir Andrew Aguecheek" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="49" source="5" target="0" label="Feste --- Curio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="50" source="5" target="3" label="Feste --- First Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="51" source="5" target="4" label="Feste --- Maria" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="52" source="5" target="6" label="Feste --- Olivia" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="53" source="5" target="8" label="Feste --- Orsino" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="54" source="5" target="9" label="Feste --- Antonio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="55" source="5" target="10" label="Feste --- Malvolio" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="56" source="5" target="12" label="Feste --- Sir Toby Belch" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="57" source="5" target="13" label="Feste --- Fabian">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="58" source="5" target="14" label="Feste --- Priests">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="59" source="5" target="18" label="Feste --- Viola" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="60" source="5" target="19" label="Feste --- Sebastian" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="61" source="5" target="20" label="Feste --- Sir Andrew Aguecheek" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="62" source="6" target="1" label="Olivia --- Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="63" source="6" target="2" label="Olivia --- Second Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="64" source="6" target="3" label="Olivia --- First Officer" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="65" source="6" target="4" label="Olivia --- Maria" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="66" source="6" target="5" label="Olivia --- Feste" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="67" source="6" target="8" label="Olivia --- Orsino">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="68" source="6" target="9" label="Olivia --- Antonio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="69" source="6" target="10" label="Olivia --- Malvolio" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="70" source="6" target="12" label="Olivia --- Sir Toby Belch" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="71" source="6" target="13" label="Olivia --- Fabian" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="72" source="6" target="14" label="Olivia --- Priests">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="73" source="6" target="18" label="Olivia --- Viola" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="74" source="6" target="19" label="Olivia --- Sebastian" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="75" source="6" target="20" label="Olivia --- Sir Andrew Aguecheek" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="76" source="8" target="0" label="Orsino --- Curio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="77" source="8" target="3" label="Orsino --- First Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="78" source="8" target="5" label="Orsino --- Feste" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="79" source="8" target="6" label="Orsino --- Olivia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="80" source="8" target="9" label="Orsino --- Antonio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="81" source="8" target="10" label="Orsino --- Malvolio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="82" source="8" target="12" label="Orsino --- Sir Toby Belch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="83" source="8" target="13" label="Orsino --- Fabian">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="84" source="8" target="14" label="Orsino --- Priests">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="85" source="8" target="17" label="Orsino --- Valentine" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="86" source="8" target="18" label="Orsino --- Viola" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="87" source="8" target="19" label="Orsino --- Sebastian">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="88" source="8" target="20" label="Orsino --- Sir Andrew Aguecheek">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="89" source="9" target="1" label="Antonio --- Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="90" source="9" target="2" label="Antonio --- Second Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="91" source="9" target="3" label="Antonio --- First Officer" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="92" source="9" target="4" label="Antonio --- Maria">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="93" source="9" target="5" label="Antonio --- Feste">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="94" source="9" target="6" label="Antonio --- Olivia" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="95" source="9" target="8" label="Antonio --- Orsino">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="96" source="9" target="10" label="Antonio --- Malvolio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="97" source="9" target="12" label="Antonio --- Sir Toby Belch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="98" source="9" target="13" label="Antonio --- Fabian" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="99" source="9" target="14" label="Antonio --- Priests">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="100" source="9" target="18" label="Antonio --- Viola" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="101" source="9" target="19" label="Antonio --- Sebastian" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="102" source="9" target="20" label="Antonio --- Sir Andrew Aguecheek" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="103" source="10" target="1" label="Malvolio --- Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="104" source="10" target="2" label="Malvolio --- Second Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="105" source="10" target="3" label="Malvolio --- First Officer" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="106" source="10" target="4" label="Malvolio --- Maria" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="107" source="10" target="5" label="Malvolio --- Feste" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="108" source="10" target="6" label="Malvolio --- Olivia" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="109" source="10" target="8" label="Malvolio --- Orsino">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="110" source="10" target="9" label="Malvolio --- Antonio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="111" source="10" target="12" label="Malvolio --- Sir Toby Belch" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="112" source="10" target="13" label="Malvolio --- Fabian" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="113" source="10" target="14" label="Malvolio --- Priests">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="114" source="10" target="18" label="Malvolio --- Viola" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="115" source="10" target="19" label="Malvolio --- Sebastian">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="116" source="10" target="20" label="Malvolio --- Sir Andrew Aguecheek" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="117" source="11" target="18" label="A Sea Captain --- Viola">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="118" source="12" target="1" label="Sir Toby Belch --- Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="119" source="12" target="2" label="Sir Toby Belch --- Second Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="120" source="12" target="3" label="Sir Toby Belch --- First Officer" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="121" source="12" target="4" label="Sir Toby Belch --- Maria" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="122" source="12" target="5" label="Sir Toby Belch --- Feste" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="123" source="12" target="6" label="Sir Toby Belch --- Olivia" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="124" source="12" target="8" label="Sir Toby Belch --- Orsino">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="125" source="12" target="9" label="Sir Toby Belch --- Antonio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="126" source="12" target="10" label="Sir Toby Belch --- Malvolio" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="127" source="12" target="13" label="Sir Toby Belch --- Fabian" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="128" source="12" target="14" label="Sir Toby Belch --- Priests">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="129" source="12" target="18" label="Sir Toby Belch --- Viola" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="130" source="12" target="19" label="Sir Toby Belch --- Sebastian" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="131" source="12" target="20" label="Sir Toby Belch --- Sir Andrew Aguecheek" weight="8.0">
+        <attvalues>
+          <attvalue for="scenes" value="8"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="132" source="13" target="1" label="Fabian --- Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="133" source="13" target="2" label="Fabian --- Second Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="134" source="13" target="3" label="Fabian --- First Officer" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="135" source="13" target="4" label="Fabian --- Maria" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="136" source="13" target="5" label="Fabian --- Feste">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="137" source="13" target="6" label="Fabian --- Olivia" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="138" source="13" target="8" label="Fabian --- Orsino">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="139" source="13" target="9" label="Fabian --- Antonio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="140" source="13" target="10" label="Fabian --- Malvolio" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="141" source="13" target="12" label="Fabian --- Sir Toby Belch" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="142" source="13" target="14" label="Fabian --- Priests">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="143" source="13" target="18" label="Fabian --- Viola" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="144" source="13" target="19" label="Fabian --- Sebastian">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="145" source="13" target="20" label="Fabian --- Sir Andrew Aguecheek" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="146" source="14" target="3" label="Priests --- First Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="147" source="14" target="5" label="Priests --- Feste">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="148" source="14" target="6" label="Priests --- Olivia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="149" source="14" target="8" label="Priests --- Orsino">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="150" source="14" target="9" label="Priests --- Antonio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="151" source="14" target="10" label="Priests --- Malvolio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="152" source="14" target="12" label="Priests --- Sir Toby Belch">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="153" source="14" target="13" label="Priests --- Fabian">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="154" source="14" target="18" label="Priests --- Viola">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="155" source="14" target="19" label="Priests --- Sebastian">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="156" source="14" target="20" label="Priests --- Sir Andrew Aguecheek">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="157" source="17" target="0" label="Valentine --- Curio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="158" source="17" target="8" label="Valentine --- Orsino" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="159" source="17" target="18" label="Valentine --- Viola">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="160" source="18" target="0" label="Viola --- Curio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="161" source="18" target="1" label="Viola --- Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="162" source="18" target="2" label="Viola --- Second Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="163" source="18" target="3" label="Viola --- First Officer" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="164" source="18" target="4" label="Viola --- Maria" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="165" source="18" target="5" label="Viola --- Feste" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="166" source="18" target="6" label="Viola --- Olivia" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="167" source="18" target="8" label="Viola --- Orsino" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="168" source="18" target="9" label="Viola --- Antonio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="169" source="18" target="10" label="Viola --- Malvolio" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="170" source="18" target="11" label="Viola --- A Sea Captain">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="171" source="18" target="12" label="Viola --- Sir Toby Belch" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="172" source="18" target="13" label="Viola --- Fabian" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="173" source="18" target="14" label="Viola --- Priests">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="174" source="18" target="17" label="Viola --- Valentine">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="175" source="18" target="19" label="Viola --- Sebastian">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="176" source="18" target="20" label="Viola --- Sir Andrew Aguecheek" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="177" source="19" target="3" label="Sebastian --- First Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="178" source="19" target="5" label="Sebastian --- Feste" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="179" source="19" target="6" label="Sebastian --- Olivia" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="180" source="19" target="8" label="Sebastian --- Orsino">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="181" source="19" target="9" label="Sebastian --- Antonio" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="182" source="19" target="10" label="Sebastian --- Malvolio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="183" source="19" target="12" label="Sebastian --- Sir Toby Belch" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="184" source="19" target="13" label="Sebastian --- Fabian">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="185" source="19" target="14" label="Sebastian --- Priests">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="186" source="19" target="18" label="Sebastian --- Viola">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="187" source="19" target="20" label="Sebastian --- Sir Andrew Aguecheek" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="188" source="20" target="1" label="Sir Andrew Aguecheek --- Servant">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="189" source="20" target="2" label="Sir Andrew Aguecheek --- Second Officer">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="190" source="20" target="3" label="Sir Andrew Aguecheek --- First Officer" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="191" source="20" target="4" label="Sir Andrew Aguecheek --- Maria" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="192" source="20" target="5" label="Sir Andrew Aguecheek --- Feste" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="193" source="20" target="6" label="Sir Andrew Aguecheek --- Olivia" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="194" source="20" target="8" label="Sir Andrew Aguecheek --- Orsino">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="195" source="20" target="9" label="Sir Andrew Aguecheek --- Antonio" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="196" source="20" target="10" label="Sir Andrew Aguecheek --- Malvolio" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="197" source="20" target="12" label="Sir Andrew Aguecheek --- Sir Toby Belch" weight="8.0">
+        <attvalues>
+          <attvalue for="scenes" value="8"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="198" source="20" target="13" label="Sir Andrew Aguecheek --- Fabian" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="199" source="20" target="14" label="Sir Andrew Aguecheek --- Priests">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="200" source="20" target="18" label="Sir Andrew Aguecheek --- Viola" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="201" source="20" target="19" label="Sir Andrew Aguecheek --- Sebastian" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,2906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-02-03">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="criticality" title="criticality" type="double"></attribute>
+      <attribute id="key" title="key" type="string"></attribute>
+      <attribute id="lines" title="lines" type="integer"></attribute>
+      <attribute id="words" title="words" type="integer"></attribute>
+      <attribute id="eigencentrality" title="Eigenvector Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="triangles" title="Number of triangles" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="scenes" title="scenes" type="integer"></attribute>
+    </attributes>
+    <nodes>
+      <node id="0" label="King Henry the Fifth">
+        <attvalues>
+          <attvalue for="criticality" value="4.5092569610264714"></attvalue>
+          <attvalue for="key" value="HenryV"></attvalue>
+          <attvalue for="lines" value="1044"></attvalue>
+          <attvalue for="words" value="9477"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7166666666666667"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8255813953488372"></attvalue>
+          <attvalue for="betweenesscentrality" value="261.5369037395353"></attvalue>
+          <attvalue for="clustering" value="0.27832512315270935"></attvalue>
+          <attvalue for="triangles" value="113"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="58"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="1" label="Fluellen">
+        <attvalues>
+          <attvalue for="criticality" value="2.4245041594112795"></attvalue>
+          <attvalue for="key" value="Fluellen"></attvalue>
+          <attvalue for="lines" value="298"></attvalue>
+          <attvalue for="words" value="2800"></attvalue>
+          <attvalue for="eigencentrality" value="0.6535609814678908"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.589041095890411"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6821705426356589"></attvalue>
+          <attvalue for="betweenesscentrality" value="82.4331414199835"></attvalue>
+          <attvalue for="clustering" value="0.49264705882352944"></attvalue>
+          <attvalue for="triangles" value="67"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="34"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="2" label="Messenger(s)">
+        <attvalues>
+          <attvalue for="criticality" value="2.603406649741235"></attvalue>
+          <attvalue for="key" value="he5-mess."></attvalue>
+          <attvalue for="lines" value="6"></attvalue>
+          <attvalue for="words" value="42"></attvalue>
+          <attvalue for="eigencentrality" value="0.16485689819682509"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.46236559139784944"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5310077519379846"></attvalue>
+          <attvalue for="betweenesscentrality" value="36.44769309637729"></attvalue>
+          <attvalue for="clustering" value="0.7142857142857143"></attvalue>
+          <attvalue for="triangles" value="15"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="3" label="Grandpré">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Grandpre"></attvalue>
+          <attvalue for="lines" value="18"></attvalue>
+          <attvalue for="words" value="152"></attvalue>
+          <attvalue for="eigencentrality" value="0.0634296663675354"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.33076923076923076"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3968992248062016"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="10"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="4" label="Chorus">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="he5-chor."></attvalue>
+          <attvalue for="lines" value="223"></attvalue>
+          <attvalue for="words" value="1908"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="5" label="All">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="he5-all"></attvalue>
+          <attvalue for="lines" value="2"></attvalue>
+          <attvalue for="words" value="4"></attvalue>
+          <attvalue for="eigencentrality" value="0.36657288619739087"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.48863636363636365"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5542635658914729"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="28"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="6" label="Duke of Bourbon">
+        <attvalues>
+          <attvalue for="criticality" value="0.20711508885850985"></attvalue>
+          <attvalue for="key" value="BourbonJ"></attvalue>
+          <attvalue for="lines" value="18"></attvalue>
+          <attvalue for="words" value="157"></attvalue>
+          <attvalue for="eigencentrality" value="0.07587594391896522"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.36752136752136755"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.42441860465116293"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.6569207108680788"></attvalue>
+          <attvalue for="clustering" value="0.8333333333333334"></attvalue>
+          <attvalue for="triangles" value="5"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="7" label="Duke of Gloucester">
+        <attvalues>
+          <attvalue for="criticality" value="0.8884354576083903"></attvalue>
+          <attvalue for="key" value="GloucesterHu"></attvalue>
+          <attvalue for="lines" value="5"></attvalue>
+          <attvalue for="words" value="33"></attvalue>
+          <attvalue for="eigencentrality" value="0.6457040032231373"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5657894736842105"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6472868217054263"></attvalue>
+          <attvalue for="betweenesscentrality" value="24.876192813034926"></attvalue>
+          <attvalue for="clustering" value="0.6153846153846154"></attvalue>
+          <attvalue for="triangles" value="56"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="8" label="Archbishop of Canterbury">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Chichele"></attvalue>
+          <attvalue for="lines" value="223"></attvalue>
+          <attvalue for="words" value="1874"></attvalue>
+          <attvalue for="eigencentrality" value="0.2525531534396062"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4673913043478261"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5155038759689923"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="10"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="9" label="Bishop of Ely">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Ely"></attvalue>
+          <attvalue for="lines" value="27"></attvalue>
+          <attvalue for="words" value="209"></attvalue>
+          <attvalue for="eigencentrality" value="0.2525531534396062"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4673913043478261"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5155038759689923"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="10"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="10" label="Williams">
+        <attvalues>
+          <attvalue for="criticality" value="0.40645752882594993"></attvalue>
+          <attvalue for="key" value="Williams"></attvalue>
+          <attvalue for="lines" value="72"></attvalue>
+          <attvalue for="words" value="691"></attvalue>
+          <attvalue for="eigencentrality" value="0.5561218776326333"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5512820512820513"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.624031007751938"></attvalue>
+          <attvalue for="betweenesscentrality" value="9.754980691822798"></attvalue>
+          <attvalue for="clustering" value="0.7121212121212122"></attvalue>
+          <attvalue for="triangles" value="47"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="11" label="Ambassadors to the King of England">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="sha-he5-role37"></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="12" label="Sir Thomas Grey">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="GreyTh1"></attvalue>
+          <attvalue for="lines" value="13"></attvalue>
+          <attvalue for="words" value="99"></attvalue>
+          <attvalue for="eigencentrality" value="0.29514758621740944"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4725274725274725"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5271317829457365"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="15"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="13" label="Pistol">
+        <attvalues>
+          <attvalue for="criticality" value="3.051364954489955"></attvalue>
+          <attvalue for="key" value="Pistol"></attvalue>
+          <attvalue for="lines" value="162"></attvalue>
+          <attvalue for="words" value="1289"></attvalue>
+          <attvalue for="eigencentrality" value="0.5492754315892924"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5375"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6531007751937984"></attvalue>
+          <attvalue for="betweenesscentrality" value="97.64367854367856"></attvalue>
+          <attvalue for="clustering" value="0.475"></attvalue>
+          <attvalue for="triangles" value="57"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="14" label="Rambures">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Rambures"></attvalue>
+          <attvalue for="lines" value="8"></attvalue>
+          <attvalue for="words" value="76"></attvalue>
+          <attvalue for="eigencentrality" value="0.0634296663675354"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.33076923076923076"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3968992248062016"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="10"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="15" label="Earl of Warwick">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="BeauchampR"></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="8"></attvalue>
+          <attvalue for="eigencentrality" value="0.33504884681332103"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5465116279069767"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="15"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="16" label="Earl of Westmoreland">
+        <attvalues>
+          <attvalue for="criticality" value="0.9263157894736839"></attvalue>
+          <attvalue for="key" value="NevilRph1"></attvalue>
+          <attvalue for="lines" value="27"></attvalue>
+          <attvalue for="words" value="229"></attvalue>
+          <attvalue for="eigencentrality" value="0.6710471300006904"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5584415584415584"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6821705426356589"></attvalue>
+          <attvalue for="betweenesscentrality" value="35.19999999999999"></attvalue>
+          <attvalue for="clustering" value="0.40350877192982454"></attvalue>
+          <attvalue for="triangles" value="69"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="17" label="Alice">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Alice2"></attvalue>
+          <attvalue for="lines" value="27"></attvalue>
+          <attvalue for="words" value="191"></attvalue>
+          <attvalue for="eigencentrality" value="0.36657288619739087"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.48863636363636365"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5542635658914729"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="28"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="18" label="Charles the Sixth">
+        <attvalues>
+          <attvalue for="criticality" value="2.343468775376669"></attvalue>
+          <attvalue for="key" value="CharlesVI"></attvalue>
+          <attvalue for="lines" value="94"></attvalue>
+          <attvalue for="words" value="806"></attvalue>
+          <attvalue for="eigencentrality" value="0.4174163913502107"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5308641975308642"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6124031007751938"></attvalue>
+          <attvalue for="betweenesscentrality" value="56.24325060904006"></attvalue>
+          <attvalue for="clustering" value="0.5454545454545454"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="19" label="Governor of Harfleur">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="he5-gov."></attvalue>
+          <attvalue for="lines" value="7"></attvalue>
+          <attvalue for="words" value="63"></attvalue>
+          <attvalue for="eigencentrality" value="0.08139485468093616"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4215686274509804"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.45155038759689925"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="20" label="Boy">
+        <attvalues>
+          <attvalue for="criticality" value="0.45710894044227374"></attvalue>
+          <attvalue for="key" value="he5-boy."></attvalue>
+          <attvalue for="lines" value="75"></attvalue>
+          <attvalue for="words" value="701"></attvalue>
+          <attvalue for="eigencentrality" value="0.25321619013286717"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4095238095238095"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.503875968992248"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.227960927960927"></attvalue>
+          <attvalue for="clustering" value="0.6944444444444444"></attvalue>
+          <attvalue for="triangles" value="25"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="21" label="Jamy">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Jamy"></attvalue>
+          <attvalue for="lines" value="11"></attvalue>
+          <attvalue for="words" value="109"></attvalue>
+          <attvalue for="eigencentrality" value="0.23810815886219763"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.40186915887850466"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.48062015503875966"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="22" label="Earl of Salisbury">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Montacute"></attvalue>
+          <attvalue for="lines" value="9"></attvalue>
+          <attvalue for="words" value="83"></attvalue>
+          <attvalue for="eigencentrality" value="0.3737517456072738"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4777777777777778"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5387596899224807"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="23" label="Bardolph">
+        <attvalues>
+          <attvalue for="criticality" value="0.15536858974358977"></attvalue>
+          <attvalue for="key" value="Bardolph"></attvalue>
+          <attvalue for="lines" value="30"></attvalue>
+          <attvalue for="words" value="253"></attvalue>
+          <attvalue for="eigencentrality" value="0.2474039782311206"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4056603773584906"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4922480620155038"></attvalue>
+          <attvalue for="betweenesscentrality" value="2.4858974358974364"></attvalue>
+          <attvalue for="clustering" value="0.8571428571428571"></attvalue>
+          <attvalue for="triangles" value="24"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="24" label="Montjoy">
+        <attvalues>
+          <attvalue for="criticality" value="0.6728413001140271"></attvalue>
+          <attvalue for="key" value="Montjoy"></attvalue>
+          <attvalue for="lines" value="54"></attvalue>
+          <attvalue for="words" value="458"></attvalue>
+          <attvalue for="eigencentrality" value="0.5566372525584119"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5443037974683544"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6124031007751938"></attvalue>
+          <attvalue for="betweenesscentrality" value="14.802508602508597"></attvalue>
+          <attvalue for="clustering" value="0.6909090909090909"></attvalue>
+          <attvalue for="triangles" value="38"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="22"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="25" label="Nym">
+        <attvalues>
+          <attvalue for="criticality" value="0.15536858974358977"></attvalue>
+          <attvalue for="key" value="Nym"></attvalue>
+          <attvalue for="lines" value="47"></attvalue>
+          <attvalue for="words" value="444"></attvalue>
+          <attvalue for="eigencentrality" value="0.2474039782311206"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4056603773584906"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4922480620155038"></attvalue>
+          <attvalue for="betweenesscentrality" value="2.4858974358974364"></attvalue>
+          <attvalue for="clustering" value="0.8571428571428571"></attvalue>
+          <attvalue for="triangles" value="24"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="26" label="Duke of Burgundy">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="BurgFear"></attvalue>
+          <attvalue for="lines" value="68"></attvalue>
+          <attvalue for="words" value="582"></attvalue>
+          <attvalue for="eigencentrality" value="0.36657288619739087"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.48863636363636365"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5542635658914729"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="28"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="27" label="Earl of Cambridge">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="CambridgeE"></attvalue>
+          <attvalue for="lines" value="15"></attvalue>
+          <attvalue for="words" value="122"></attvalue>
+          <attvalue for="eigencentrality" value="0.29514758621740944"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4725274725274725"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5271317829457365"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="15"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="28" label="A Herald">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="he5-her."></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="9"></attvalue>
+          <attvalue for="eigencentrality" value="0.33504884681332103"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5465116279069767"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="15"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="29" label="Sir Thomas Erpingham">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Erpingham"></attvalue>
+          <attvalue for="lines" value="7"></attvalue>
+          <attvalue for="words" value="64"></attvalue>
+          <attvalue for="eigencentrality" value="0.3951006866471493"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.48863636363636365"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.560077519379845"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="28"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="30" label="Bates">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Bates"></attvalue>
+          <attvalue for="lines" value="20"></attvalue>
+          <attvalue for="words" value="187"></attvalue>
+          <attvalue for="eigencentrality" value="0.3951006866471493"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.48863636363636365"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.560077519379845"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="28"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="31" label="Hostess of a tavern in Eastcheap">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Quickly"></attvalue>
+          <attvalue for="lines" value="44"></attvalue>
+          <attvalue for="words" value="404"></attvalue>
+          <attvalue for="eigencentrality" value="0.11053984594225612"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.36134453781512604"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4248062015503877"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="6"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="32" label="First Ambassador">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="he5-first-amb."></attvalue>
+          <attvalue for="lines" value="17"></attvalue>
+          <attvalue for="words" value="148"></attvalue>
+          <attvalue for="eigencentrality" value="0.2525531534396062"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4673913043478261"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5155038759689923"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="10"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="33" label="Isabel">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="ElizabethBav"></attvalue>
+          <attvalue for="lines" value="24"></attvalue>
+          <attvalue for="words" value="219"></attvalue>
+          <attvalue for="eigencentrality" value="0.36657288619739087"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.48863636363636365"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5542635658914729"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="28"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="34" label="Gower">
+        <attvalues>
+          <attvalue for="criticality" value="2.4245041594112795"></attvalue>
+          <attvalue for="key" value="GowerCpt"></attvalue>
+          <attvalue for="lines" value="67"></attvalue>
+          <attvalue for="words" value="574"></attvalue>
+          <attvalue for="eigencentrality" value="0.6535609814678908"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.589041095890411"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6821705426356589"></attvalue>
+          <attvalue for="betweenesscentrality" value="82.4331414199835"></attvalue>
+          <attvalue for="clustering" value="0.49264705882352944"></attvalue>
+          <attvalue for="triangles" value="67"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="34"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="35" label="French Soldier">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="he5-fr.-sol."></attvalue>
+          <attvalue for="lines" value="16"></attvalue>
+          <attvalue for="words" value="115"></attvalue>
+          <attvalue for="eigencentrality" value="0.06763085271656201"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.35537190082644626"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.40155038759689926"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="36" label="Katherine">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="ValoisKath"></attvalue>
+          <attvalue for="lines" value="63"></attvalue>
+          <attvalue for="words" value="504"></attvalue>
+          <attvalue for="eigencentrality" value="0.36657288619739087"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.48863636363636365"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5542635658914729"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="28"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="37" label="Duke of York">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Aumerle"></attvalue>
+          <attvalue for="lines" value="2"></attvalue>
+          <attvalue for="words" value="16"></attvalue>
+          <attvalue for="eigencentrality" value="0.3737517456072738"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4777777777777778"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5387596899224806"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="38" label="Lord Scroop">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="ScroopH"></attvalue>
+          <attvalue for="lines" value="13"></attvalue>
+          <attvalue for="words" value="106"></attvalue>
+          <attvalue for="eigencentrality" value="0.29514758621740944"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4725274725274725"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5271317829457365"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="15"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="39" label="The Constable of France">
+        <attvalues>
+          <attvalue for="criticality" value="2.641175262968026"></attvalue>
+          <attvalue for="key" value="Delabreth"></attvalue>
+          <attvalue for="lines" value="120"></attvalue>
+          <attvalue for="words" value="1041"></attvalue>
+          <attvalue for="eigencentrality" value="0.1719039068701827"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4673913043478261"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5426356589147288"></attvalue>
+          <attvalue for="betweenesscentrality" value="42.25880420748842"></attvalue>
+          <attvalue for="clustering" value="0.6428571428571429"></attvalue>
+          <attvalue for="triangles" value="18"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="40" label="Court">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="he5-court."></attvalue>
+          <attvalue for="lines" value="2"></attvalue>
+          <attvalue for="words" value="13"></attvalue>
+          <attvalue for="eigencentrality" value="0.3951006866471493"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.48863636363636365"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.560077519379845"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="28"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="41" label="Duke of Bedford">
+        <attvalues>
+          <attvalue for="criticality" value="0.15"></attvalue>
+          <attvalue for="key" value="Bedford"></attvalue>
+          <attvalue for="lines" value="7"></attvalue>
+          <attvalue for="words" value="66"></attvalue>
+          <attvalue for="eigencentrality" value="0.44110719508800506"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4942528735632184"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5736434108527131"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.0"></attvalue>
+          <attvalue for="clustering" value="0.7333333333333333"></attvalue>
+          <attvalue for="triangles" value="33"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="42" label="MacMorris">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Macmorris"></attvalue>
+          <attvalue for="lines" value="22"></attvalue>
+          <attvalue for="words" value="228"></attvalue>
+          <attvalue for="eigencentrality" value="0.23810815886219763"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.40186915887850466"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.48062015503875966"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="43" label="Duke of Orleans">
+        <attvalues>
+          <attvalue for="criticality" value="0.07638888888888888"></attvalue>
+          <attvalue for="key" value="OrleansD1"></attvalue>
+          <attvalue for="lines" value="43"></attvalue>
+          <attvalue for="words" value="356"></attvalue>
+          <attvalue for="eigencentrality" value="0.07047667504089267"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3333333333333333"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4085271317829458"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.9166666666666665"></attvalue>
+          <attvalue for="clustering" value="0.8"></attvalue>
+          <attvalue for="triangles" value="12"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="44" label="Duke of Exeter">
+        <attvalues>
+          <attvalue for="criticality" value="5.413658471699408"></attvalue>
+          <attvalue for="key" value="BeaufordTh"></attvalue>
+          <attvalue for="lines" value="129"></attvalue>
+          <attvalue for="words" value="1125"></attvalue>
+          <attvalue for="eigencentrality" value="0.9061046498467097"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7049180327868853"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8062015503875969"></attvalue>
+          <attvalue for="betweenesscentrality" value="292.33755747176804"></attvalue>
+          <attvalue for="clustering" value="0.27350427350427353"></attvalue>
+          <attvalue for="triangles" value="96"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="54"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="45" label="Lewis">
+        <attvalues>
+          <attvalue for="criticality" value="2.641175262968026"></attvalue>
+          <attvalue for="key" value="LouisX"></attvalue>
+          <attvalue for="lines" value="117"></attvalue>
+          <attvalue for="words" value="1034"></attvalue>
+          <attvalue for="eigencentrality" value="0.1719039068701827"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4673913043478261"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5426356589147288"></attvalue>
+          <attvalue for="betweenesscentrality" value="42.25880420748842"></attvalue>
+          <attvalue for="clustering" value="0.6428571428571429"></attvalue>
+          <attvalue for="triangles" value="18"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="0" target="1" label="King Henry the Fifth --- Fluellen" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1" source="0" target="5" label="King Henry the Fifth --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="2" source="0" target="7" label="King Henry the Fifth --- Duke of Gloucester" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="3" source="0" target="8" label="King Henry the Fifth --- Archbishop of Canterbury">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="4" source="0" target="9" label="King Henry the Fifth --- Bishop of Ely">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="5" source="0" target="10" label="King Henry the Fifth --- Williams" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="6" source="0" target="12" label="King Henry the Fifth --- Sir Thomas Grey">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="7" source="0" target="13" label="King Henry the Fifth --- Pistol" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="8" source="0" target="15" label="King Henry the Fifth --- Earl of Warwick">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="9" source="0" target="16" label="King Henry the Fifth --- Earl of Westmoreland" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="10" source="0" target="17" label="King Henry the Fifth --- Alice">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="11" source="0" target="18" label="King Henry the Fifth --- Charles the Sixth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="12" source="0" target="19" label="King Henry the Fifth --- Governor of Harfleur">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="13" source="0" target="22" label="King Henry the Fifth --- Earl of Salisbury">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="14" source="0" target="24" label="King Henry the Fifth --- Montjoy" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="15" source="0" target="26" label="King Henry the Fifth --- Duke of Burgundy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="16" source="0" target="27" label="King Henry the Fifth --- Earl of Cambridge">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="17" source="0" target="28" label="King Henry the Fifth --- A Herald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="18" source="0" target="29" label="King Henry the Fifth --- Sir Thomas Erpingham">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="19" source="0" target="30" label="King Henry the Fifth --- Bates">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="20" source="0" target="32" label="King Henry the Fifth --- First Ambassador">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="21" source="0" target="33" label="King Henry the Fifth --- Isabel">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="22" source="0" target="34" label="King Henry the Fifth --- Gower" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="23" source="0" target="36" label="King Henry the Fifth --- Katherine">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="24" source="0" target="37" label="King Henry the Fifth --- Duke of York">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="25" source="0" target="38" label="King Henry the Fifth --- Lord Scroop">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="26" source="0" target="40" label="King Henry the Fifth --- Court">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="27" source="0" target="41" label="King Henry the Fifth --- Duke of Bedford" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="28" source="0" target="44" label="King Henry the Fifth --- Duke of Exeter" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="29" source="1" target="0" label="Fluellen --- King Henry the Fifth" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="30" source="1" target="7" label="Fluellen --- Duke of Gloucester" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="31" source="1" target="10" label="Fluellen --- Williams" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="32" source="1" target="13" label="Fluellen --- Pistol" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="33" source="1" target="15" label="Fluellen --- Earl of Warwick">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="34" source="1" target="20" label="Fluellen --- Boy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="35" source="1" target="21" label="Fluellen --- Jamy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="36" source="1" target="23" label="Fluellen --- Bardolph">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="37" source="1" target="24" label="Fluellen --- Montjoy" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="38" source="1" target="25" label="Fluellen --- Nym">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="39" source="1" target="28" label="Fluellen --- A Herald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="40" source="1" target="29" label="Fluellen --- Sir Thomas Erpingham">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="41" source="1" target="30" label="Fluellen --- Bates">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="42" source="1" target="34" label="Fluellen --- Gower" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="43" source="1" target="40" label="Fluellen --- Court">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="44" source="1" target="42" label="Fluellen --- MacMorris">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="45" source="1" target="44" label="Fluellen --- Duke of Exeter" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="46" source="2" target="3" label="Messenger(s) --- Grandpré">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="47" source="2" target="14" label="Messenger(s) --- Rambures" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="48" source="2" target="18" label="Messenger(s) --- Charles the Sixth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="49" source="2" target="39" label="Messenger(s) --- The Constable of France" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="50" source="2" target="43" label="Messenger(s) --- Duke of Orleans" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="51" source="2" target="44" label="Messenger(s) --- Duke of Exeter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="52" source="2" target="45" label="Messenger(s) --- Lewis" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="53" source="3" target="2" label="Grandpré --- Messenger(s)">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="54" source="3" target="14" label="Grandpré --- Rambures">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="55" source="3" target="39" label="Grandpré --- The Constable of France">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="56" source="3" target="43" label="Grandpré --- Duke of Orleans">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="57" source="3" target="45" label="Grandpré --- Lewis">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="58" source="5" target="0" label="All --- King Henry the Fifth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="59" source="5" target="16" label="All --- Earl of Westmoreland">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="60" source="5" target="17" label="All --- Alice">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="61" source="5" target="18" label="All --- Charles the Sixth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="62" source="5" target="26" label="All --- Duke of Burgundy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="63" source="5" target="33" label="All --- Isabel">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="64" source="5" target="36" label="All --- Katherine">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="65" source="5" target="44" label="All --- Duke of Exeter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="66" source="6" target="18" label="Duke of Bourbon --- Charles the Sixth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="67" source="6" target="39" label="Duke of Bourbon --- The Constable of France" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="68" source="6" target="43" label="Duke of Bourbon --- Duke of Orleans">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="69" source="6" target="45" label="Duke of Bourbon --- Lewis" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="70" source="7" target="0" label="Duke of Gloucester --- King Henry the Fifth" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="71" source="7" target="1" label="Duke of Gloucester --- Fluellen" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="72" source="7" target="10" label="Duke of Gloucester --- Williams" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="73" source="7" target="13" label="Duke of Gloucester --- Pistol" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="74" source="7" target="16" label="Duke of Gloucester --- Earl of Westmoreland">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="75" source="7" target="22" label="Duke of Gloucester --- Earl of Salisbury">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="76" source="7" target="24" label="Duke of Gloucester --- Montjoy" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="77" source="7" target="29" label="Duke of Gloucester --- Sir Thomas Erpingham">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="78" source="7" target="30" label="Duke of Gloucester --- Bates">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="79" source="7" target="34" label="Duke of Gloucester --- Gower" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="80" source="7" target="37" label="Duke of Gloucester --- Duke of York">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="81" source="7" target="40" label="Duke of Gloucester --- Court">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="82" source="7" target="41" label="Duke of Gloucester --- Duke of Bedford">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="83" source="7" target="44" label="Duke of Gloucester --- Duke of Exeter" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="84" source="8" target="0" label="Archbishop of Canterbury --- King Henry the Fifth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="85" source="8" target="9" label="Archbishop of Canterbury --- Bishop of Ely" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="86" source="8" target="16" label="Archbishop of Canterbury --- Earl of Westmoreland">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="87" source="8" target="32" label="Archbishop of Canterbury --- First Ambassador">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="88" source="8" target="44" label="Archbishop of Canterbury --- Duke of Exeter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="89" source="9" target="0" label="Bishop of Ely --- King Henry the Fifth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="90" source="9" target="8" label="Bishop of Ely --- Archbishop of Canterbury" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="91" source="9" target="16" label="Bishop of Ely --- Earl of Westmoreland">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="92" source="9" target="32" label="Bishop of Ely --- First Ambassador">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="93" source="9" target="44" label="Bishop of Ely --- Duke of Exeter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="94" source="10" target="0" label="Williams --- King Henry the Fifth" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="95" source="10" target="1" label="Williams --- Fluellen" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="96" source="10" target="7" label="Williams --- Duke of Gloucester" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="97" source="10" target="13" label="Williams --- Pistol">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="98" source="10" target="15" label="Williams --- Earl of Warwick">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="99" source="10" target="24" label="Williams --- Montjoy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="100" source="10" target="28" label="Williams --- A Herald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="101" source="10" target="29" label="Williams --- Sir Thomas Erpingham">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="102" source="10" target="30" label="Williams --- Bates">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="103" source="10" target="34" label="Williams --- Gower" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="104" source="10" target="40" label="Williams --- Court">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="105" source="10" target="44" label="Williams --- Duke of Exeter" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="106" source="12" target="0" label="Sir Thomas Grey --- King Henry the Fifth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="107" source="12" target="16" label="Sir Thomas Grey --- Earl of Westmoreland">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="108" source="12" target="27" label="Sir Thomas Grey --- Earl of Cambridge">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="109" source="12" target="38" label="Sir Thomas Grey --- Lord Scroop">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="110" source="12" target="41" label="Sir Thomas Grey --- Duke of Bedford">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="111" source="12" target="44" label="Sir Thomas Grey --- Duke of Exeter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="112" source="13" target="0" label="Pistol --- King Henry the Fifth" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="113" source="13" target="1" label="Pistol --- Fluellen" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="114" source="13" target="7" label="Pistol --- Duke of Gloucester" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="115" source="13" target="10" label="Pistol --- Williams">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="116" source="13" target="20" label="Pistol --- Boy" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="117" source="13" target="21" label="Pistol --- Jamy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="118" source="13" target="23" label="Pistol --- Bardolph" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="119" source="13" target="24" label="Pistol --- Montjoy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="120" source="13" target="25" label="Pistol --- Nym" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="121" source="13" target="29" label="Pistol --- Sir Thomas Erpingham">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="122" source="13" target="30" label="Pistol --- Bates">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="123" source="13" target="31" label="Pistol --- Hostess of a tavern in Eastcheap" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="124" source="13" target="34" label="Pistol --- Gower" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="125" source="13" target="35" label="Pistol --- French Soldier">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="126" source="13" target="40" label="Pistol --- Court">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="127" source="13" target="42" label="Pistol --- MacMorris">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="128" source="14" target="2" label="Rambures --- Messenger(s)" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="129" source="14" target="3" label="Rambures --- Grandpré">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="130" source="14" target="39" label="Rambures --- The Constable of France" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="131" source="14" target="43" label="Rambures --- Duke of Orleans" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="132" source="14" target="45" label="Rambures --- Lewis" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="133" source="15" target="0" label="Earl of Warwick --- King Henry the Fifth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="134" source="15" target="1" label="Earl of Warwick --- Fluellen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="135" source="15" target="10" label="Earl of Warwick --- Williams">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="136" source="15" target="28" label="Earl of Warwick --- A Herald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="137" source="15" target="34" label="Earl of Warwick --- Gower">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="138" source="15" target="44" label="Earl of Warwick --- Duke of Exeter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="139" source="16" target="0" label="Earl of Westmoreland --- King Henry the Fifth" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="140" source="16" target="5" label="Earl of Westmoreland --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="141" source="16" target="7" label="Earl of Westmoreland --- Duke of Gloucester">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="142" source="16" target="8" label="Earl of Westmoreland --- Archbishop of Canterbury">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="143" source="16" target="9" label="Earl of Westmoreland --- Bishop of Ely">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="144" source="16" target="12" label="Earl of Westmoreland --- Sir Thomas Grey">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="145" source="16" target="17" label="Earl of Westmoreland --- Alice">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="146" source="16" target="18" label="Earl of Westmoreland --- Charles the Sixth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="147" source="16" target="22" label="Earl of Westmoreland --- Earl of Salisbury">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="148" source="16" target="24" label="Earl of Westmoreland --- Montjoy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="149" source="16" target="26" label="Earl of Westmoreland --- Duke of Burgundy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="150" source="16" target="27" label="Earl of Westmoreland --- Earl of Cambridge">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="151" source="16" target="32" label="Earl of Westmoreland --- First Ambassador">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="152" source="16" target="33" label="Earl of Westmoreland --- Isabel">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="153" source="16" target="36" label="Earl of Westmoreland --- Katherine">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="154" source="16" target="37" label="Earl of Westmoreland --- Duke of York">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="155" source="16" target="38" label="Earl of Westmoreland --- Lord Scroop">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="156" source="16" target="41" label="Earl of Westmoreland --- Duke of Bedford" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="157" source="16" target="44" label="Earl of Westmoreland --- Duke of Exeter" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="158" source="17" target="0" label="Alice --- King Henry the Fifth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="159" source="17" target="5" label="Alice --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="160" source="17" target="16" label="Alice --- Earl of Westmoreland">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="161" source="17" target="18" label="Alice --- Charles the Sixth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="162" source="17" target="26" label="Alice --- Duke of Burgundy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="163" source="17" target="33" label="Alice --- Isabel">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="164" source="17" target="36" label="Alice --- Katherine" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="165" source="17" target="44" label="Alice --- Duke of Exeter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="166" source="18" target="0" label="Charles the Sixth --- King Henry the Fifth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="167" source="18" target="2" label="Charles the Sixth --- Messenger(s)">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="168" source="18" target="5" label="Charles the Sixth --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="169" source="18" target="6" label="Charles the Sixth --- Duke of Bourbon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="170" source="18" target="16" label="Charles the Sixth --- Earl of Westmoreland">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="171" source="18" target="17" label="Charles the Sixth --- Alice">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="172" source="18" target="26" label="Charles the Sixth --- Duke of Burgundy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="173" source="18" target="33" label="Charles the Sixth --- Isabel">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="174" source="18" target="36" label="Charles the Sixth --- Katherine">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="175" source="18" target="39" label="Charles the Sixth --- The Constable of France" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="176" source="18" target="44" label="Charles the Sixth --- Duke of Exeter" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="177" source="18" target="45" label="Charles the Sixth --- Lewis" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="178" source="19" target="0" label="Governor of Harfleur --- King Henry the Fifth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="179" source="20" target="1" label="Boy --- Fluellen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="180" source="20" target="13" label="Boy --- Pistol" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="181" source="20" target="21" label="Boy --- Jamy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="182" source="20" target="23" label="Boy --- Bardolph" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="183" source="20" target="25" label="Boy --- Nym" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="184" source="20" target="31" label="Boy --- Hostess of a tavern in Eastcheap" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="185" source="20" target="34" label="Boy --- Gower">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="186" source="20" target="35" label="Boy --- French Soldier">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="187" source="20" target="42" label="Boy --- MacMorris">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="188" source="21" target="1" label="Jamy --- Fluellen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="189" source="21" target="13" label="Jamy --- Pistol">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="190" source="21" target="20" label="Jamy --- Boy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="191" source="21" target="23" label="Jamy --- Bardolph">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="192" source="21" target="25" label="Jamy --- Nym">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="193" source="21" target="34" label="Jamy --- Gower">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="194" source="21" target="42" label="Jamy --- MacMorris">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="195" source="22" target="0" label="Earl of Salisbury --- King Henry the Fifth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="196" source="22" target="7" label="Earl of Salisbury --- Duke of Gloucester">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="197" source="22" target="16" label="Earl of Salisbury --- Earl of Westmoreland">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="198" source="22" target="24" label="Earl of Salisbury --- Montjoy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="199" source="22" target="37" label="Earl of Salisbury --- Duke of York">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="200" source="22" target="41" label="Earl of Salisbury --- Duke of Bedford">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="201" source="22" target="44" label="Earl of Salisbury --- Duke of Exeter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="202" source="23" target="1" label="Bardolph --- Fluellen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="203" source="23" target="13" label="Bardolph --- Pistol" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="204" source="23" target="20" label="Bardolph --- Boy" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="205" source="23" target="21" label="Bardolph --- Jamy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="206" source="23" target="25" label="Bardolph --- Nym" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="207" source="23" target="31" label="Bardolph --- Hostess of a tavern in Eastcheap" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="208" source="23" target="34" label="Bardolph --- Gower">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="209" source="23" target="42" label="Bardolph --- MacMorris">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="210" source="24" target="0" label="Montjoy --- King Henry the Fifth" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="211" source="24" target="1" label="Montjoy --- Fluellen" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="212" source="24" target="7" label="Montjoy --- Duke of Gloucester" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="213" source="24" target="10" label="Montjoy --- Williams">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="214" source="24" target="13" label="Montjoy --- Pistol">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="215" source="24" target="16" label="Montjoy --- Earl of Westmoreland">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="216" source="24" target="22" label="Montjoy --- Earl of Salisbury">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="217" source="24" target="34" label="Montjoy --- Gower" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="218" source="24" target="37" label="Montjoy --- Duke of York">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="219" source="24" target="41" label="Montjoy --- Duke of Bedford">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="220" source="24" target="44" label="Montjoy --- Duke of Exeter" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="221" source="25" target="1" label="Nym --- Fluellen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="222" source="25" target="13" label="Nym --- Pistol" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="223" source="25" target="20" label="Nym --- Boy" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="224" source="25" target="21" label="Nym --- Jamy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="225" source="25" target="23" label="Nym --- Bardolph" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="226" source="25" target="31" label="Nym --- Hostess of a tavern in Eastcheap" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="227" source="25" target="34" label="Nym --- Gower">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="228" source="25" target="42" label="Nym --- MacMorris">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="229" source="26" target="0" label="Duke of Burgundy --- King Henry the Fifth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="230" source="26" target="5" label="Duke of Burgundy --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="231" source="26" target="16" label="Duke of Burgundy --- Earl of Westmoreland">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="232" source="26" target="17" label="Duke of Burgundy --- Alice">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="233" source="26" target="18" label="Duke of Burgundy --- Charles the Sixth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="234" source="26" target="33" label="Duke of Burgundy --- Isabel">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="235" source="26" target="36" label="Duke of Burgundy --- Katherine">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="236" source="26" target="44" label="Duke of Burgundy --- Duke of Exeter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="237" source="27" target="0" label="Earl of Cambridge --- King Henry the Fifth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="238" source="27" target="12" label="Earl of Cambridge --- Sir Thomas Grey">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="239" source="27" target="16" label="Earl of Cambridge --- Earl of Westmoreland">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="240" source="27" target="38" label="Earl of Cambridge --- Lord Scroop">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="241" source="27" target="41" label="Earl of Cambridge --- Duke of Bedford">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="242" source="27" target="44" label="Earl of Cambridge --- Duke of Exeter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="243" source="28" target="0" label="A Herald --- King Henry the Fifth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="244" source="28" target="1" label="A Herald --- Fluellen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="245" source="28" target="10" label="A Herald --- Williams">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="246" source="28" target="15" label="A Herald --- Earl of Warwick">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="247" source="28" target="34" label="A Herald --- Gower">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="248" source="28" target="44" label="A Herald --- Duke of Exeter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="249" source="29" target="0" label="Sir Thomas Erpingham --- King Henry the Fifth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="250" source="29" target="1" label="Sir Thomas Erpingham --- Fluellen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="251" source="29" target="7" label="Sir Thomas Erpingham --- Duke of Gloucester">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="252" source="29" target="10" label="Sir Thomas Erpingham --- Williams">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="253" source="29" target="13" label="Sir Thomas Erpingham --- Pistol">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="254" source="29" target="30" label="Sir Thomas Erpingham --- Bates">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="255" source="29" target="34" label="Sir Thomas Erpingham --- Gower">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="256" source="29" target="40" label="Sir Thomas Erpingham --- Court">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="257" source="30" target="0" label="Bates --- King Henry the Fifth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="258" source="30" target="1" label="Bates --- Fluellen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="259" source="30" target="7" label="Bates --- Duke of Gloucester">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="260" source="30" target="10" label="Bates --- Williams">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="261" source="30" target="13" label="Bates --- Pistol">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="262" source="30" target="29" label="Bates --- Sir Thomas Erpingham">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="263" source="30" target="34" label="Bates --- Gower">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="264" source="30" target="40" label="Bates --- Court">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="265" source="31" target="13" label="Hostess of a tavern in Eastcheap --- Pistol" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="266" source="31" target="20" label="Hostess of a tavern in Eastcheap --- Boy" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="267" source="31" target="23" label="Hostess of a tavern in Eastcheap --- Bardolph" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="268" source="31" target="25" label="Hostess of a tavern in Eastcheap --- Nym" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="269" source="32" target="0" label="First Ambassador --- King Henry the Fifth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="270" source="32" target="8" label="First Ambassador --- Archbishop of Canterbury">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="271" source="32" target="9" label="First Ambassador --- Bishop of Ely">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="272" source="32" target="16" label="First Ambassador --- Earl of Westmoreland">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="273" source="32" target="44" label="First Ambassador --- Duke of Exeter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="274" source="33" target="0" label="Isabel --- King Henry the Fifth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="275" source="33" target="5" label="Isabel --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="276" source="33" target="16" label="Isabel --- Earl of Westmoreland">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="277" source="33" target="17" label="Isabel --- Alice">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="278" source="33" target="18" label="Isabel --- Charles the Sixth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="279" source="33" target="26" label="Isabel --- Duke of Burgundy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="280" source="33" target="36" label="Isabel --- Katherine">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="281" source="33" target="44" label="Isabel --- Duke of Exeter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="282" source="34" target="0" label="Gower --- King Henry the Fifth" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="283" source="34" target="1" label="Gower --- Fluellen" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="284" source="34" target="7" label="Gower --- Duke of Gloucester" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="285" source="34" target="10" label="Gower --- Williams" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="286" source="34" target="13" label="Gower --- Pistol" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="287" source="34" target="15" label="Gower --- Earl of Warwick">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="288" source="34" target="20" label="Gower --- Boy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="289" source="34" target="21" label="Gower --- Jamy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="290" source="34" target="23" label="Gower --- Bardolph">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="291" source="34" target="24" label="Gower --- Montjoy" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="292" source="34" target="25" label="Gower --- Nym">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="293" source="34" target="28" label="Gower --- A Herald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="294" source="34" target="29" label="Gower --- Sir Thomas Erpingham">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="295" source="34" target="30" label="Gower --- Bates">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="296" source="34" target="40" label="Gower --- Court">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="297" source="34" target="42" label="Gower --- MacMorris">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="298" source="34" target="44" label="Gower --- Duke of Exeter" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="299" source="35" target="13" label="French Soldier --- Pistol">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="300" source="35" target="20" label="French Soldier --- Boy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="301" source="36" target="0" label="Katherine --- King Henry the Fifth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="302" source="36" target="5" label="Katherine --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="303" source="36" target="16" label="Katherine --- Earl of Westmoreland">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="304" source="36" target="17" label="Katherine --- Alice" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="305" source="36" target="18" label="Katherine --- Charles the Sixth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="306" source="36" target="26" label="Katherine --- Duke of Burgundy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="307" source="36" target="33" label="Katherine --- Isabel">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="308" source="36" target="44" label="Katherine --- Duke of Exeter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="309" source="37" target="0" label="Duke of York --- King Henry the Fifth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="310" source="37" target="7" label="Duke of York --- Duke of Gloucester">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="311" source="37" target="16" label="Duke of York --- Earl of Westmoreland">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="312" source="37" target="22" label="Duke of York --- Earl of Salisbury">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="313" source="37" target="24" label="Duke of York --- Montjoy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="314" source="37" target="41" label="Duke of York --- Duke of Bedford">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="315" source="37" target="44" label="Duke of York --- Duke of Exeter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="316" source="38" target="0" label="Lord Scroop --- King Henry the Fifth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="317" source="38" target="12" label="Lord Scroop --- Sir Thomas Grey">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="318" source="38" target="16" label="Lord Scroop --- Earl of Westmoreland">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="319" source="38" target="27" label="Lord Scroop --- Earl of Cambridge">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="320" source="38" target="41" label="Lord Scroop --- Duke of Bedford">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="321" source="38" target="44" label="Lord Scroop --- Duke of Exeter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="322" source="39" target="2" label="The Constable of France --- Messenger(s)" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="323" source="39" target="3" label="The Constable of France --- Grandpré">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="324" source="39" target="6" label="The Constable of France --- Duke of Bourbon" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="325" source="39" target="14" label="The Constable of France --- Rambures" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="326" source="39" target="18" label="The Constable of France --- Charles the Sixth" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="327" source="39" target="43" label="The Constable of France --- Duke of Orleans" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="328" source="39" target="44" label="The Constable of France --- Duke of Exeter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="329" source="39" target="45" label="The Constable of France --- Lewis" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="330" source="40" target="0" label="Court --- King Henry the Fifth">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="331" source="40" target="1" label="Court --- Fluellen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="332" source="40" target="7" label="Court --- Duke of Gloucester">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="333" source="40" target="10" label="Court --- Williams">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="334" source="40" target="13" label="Court --- Pistol">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="335" source="40" target="29" label="Court --- Sir Thomas Erpingham">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="336" source="40" target="30" label="Court --- Bates">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="337" source="40" target="34" label="Court --- Gower">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="338" source="41" target="0" label="Duke of Bedford --- King Henry the Fifth" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="339" source="41" target="7" label="Duke of Bedford --- Duke of Gloucester">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="340" source="41" target="12" label="Duke of Bedford --- Sir Thomas Grey">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="341" source="41" target="16" label="Duke of Bedford --- Earl of Westmoreland" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="342" source="41" target="22" label="Duke of Bedford --- Earl of Salisbury">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="343" source="41" target="24" label="Duke of Bedford --- Montjoy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="344" source="41" target="27" label="Duke of Bedford --- Earl of Cambridge">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="345" source="41" target="37" label="Duke of Bedford --- Duke of York">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="346" source="41" target="38" label="Duke of Bedford --- Lord Scroop">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="347" source="41" target="44" label="Duke of Bedford --- Duke of Exeter" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="348" source="42" target="1" label="MacMorris --- Fluellen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="349" source="42" target="13" label="MacMorris --- Pistol">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="350" source="42" target="20" label="MacMorris --- Boy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="351" source="42" target="21" label="MacMorris --- Jamy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="352" source="42" target="23" label="MacMorris --- Bardolph">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="353" source="42" target="25" label="MacMorris --- Nym">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="354" source="42" target="34" label="MacMorris --- Gower">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="355" source="43" target="2" label="Duke of Orleans --- Messenger(s)" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="356" source="43" target="3" label="Duke of Orleans --- Grandpré">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="357" source="43" target="6" label="Duke of Orleans --- Duke of Bourbon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="358" source="43" target="14" label="Duke of Orleans --- Rambures" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="359" source="43" target="39" label="Duke of Orleans --- The Constable of France" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="360" source="43" target="45" label="Duke of Orleans --- Lewis" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="361" source="44" target="0" label="Duke of Exeter --- King Henry the Fifth" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="362" source="44" target="1" label="Duke of Exeter --- Fluellen" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="363" source="44" target="2" label="Duke of Exeter --- Messenger(s)">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="364" source="44" target="5" label="Duke of Exeter --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="365" source="44" target="7" label="Duke of Exeter --- Duke of Gloucester" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="366" source="44" target="8" label="Duke of Exeter --- Archbishop of Canterbury">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="367" source="44" target="9" label="Duke of Exeter --- Bishop of Ely">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="368" source="44" target="10" label="Duke of Exeter --- Williams" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="369" source="44" target="12" label="Duke of Exeter --- Sir Thomas Grey">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="370" source="44" target="15" label="Duke of Exeter --- Earl of Warwick">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="371" source="44" target="16" label="Duke of Exeter --- Earl of Westmoreland" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="372" source="44" target="17" label="Duke of Exeter --- Alice">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="373" source="44" target="18" label="Duke of Exeter --- Charles the Sixth" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="374" source="44" target="22" label="Duke of Exeter --- Earl of Salisbury">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="375" source="44" target="24" label="Duke of Exeter --- Montjoy" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="376" source="44" target="26" label="Duke of Exeter --- Duke of Burgundy">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="377" source="44" target="27" label="Duke of Exeter --- Earl of Cambridge">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="378" source="44" target="28" label="Duke of Exeter --- A Herald">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="379" source="44" target="32" label="Duke of Exeter --- First Ambassador">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="380" source="44" target="33" label="Duke of Exeter --- Isabel">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="381" source="44" target="34" label="Duke of Exeter --- Gower" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="382" source="44" target="36" label="Duke of Exeter --- Katherine">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="383" source="44" target="37" label="Duke of Exeter --- Duke of York">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="384" source="44" target="38" label="Duke of Exeter --- Lord Scroop">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="385" source="44" target="39" label="Duke of Exeter --- The Constable of France">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="386" source="44" target="41" label="Duke of Exeter --- Duke of Bedford" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="387" source="44" target="45" label="Duke of Exeter --- Lewis">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="388" source="45" target="2" label="Lewis --- Messenger(s)" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="389" source="45" target="3" label="Lewis --- Grandpré">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="390" source="45" target="6" label="Lewis --- Duke of Bourbon" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="391" source="45" target="14" label="Lewis --- Rambures" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="392" source="45" target="18" label="Lewis --- Charles the Sixth" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="393" source="45" target="39" label="Lewis --- The Constable of France" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="394" source="45" target="43" label="Lewis --- Duke of Orleans" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="395" source="45" target="44" label="Lewis --- Duke of Exeter">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,2281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-02-03">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="criticality" title="criticality" type="double"></attribute>
+      <attribute id="key" title="key" type="string"></attribute>
+      <attribute id="lines" title="lines" type="integer"></attribute>
+      <attribute id="words" title="words" type="integer"></attribute>
+      <attribute id="eigencentrality" title="Eigenvector Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="triangles" title="Number of triangles" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="scenes" title="scenes" type="integer"></attribute>
+    </attributes>
+    <nodes>
+      <node id="0" label="Aeneas">
+        <attvalues>
+          <attvalue for="criticality" value="0.22127934061325064"></attvalue>
+          <attvalue for="key" value="Aeneas"></attvalue>
+          <attvalue for="lines" value="142"></attvalue>
+          <attvalue for="words" value="1199"></attvalue>
+          <attvalue for="eigencentrality" value="0.9250620607627732"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.717948717948718"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8035714285714286"></attvalue>
+          <attvalue for="betweenesscentrality" value="7.523497580850521"></attvalue>
+          <attvalue for="clustering" value="0.7573529411764706"></attvalue>
+          <attvalue for="triangles" value="103"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="34"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="1" label="Menelaus">
+        <attvalues>
+          <attvalue for="criticality" value="0.009199134199134198"></attvalue>
+          <attvalue for="key" value="Menelaus"></attvalue>
+          <attvalue for="lines" value="12"></attvalue>
+          <attvalue for="words" value="93"></attvalue>
+          <attvalue for="eigencentrality" value="0.8351105583229091"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6511627906976745"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.744047619047619"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.25757575757575757"></attvalue>
+          <attvalue for="clustering" value="0.967032967032967"></attvalue>
+          <attvalue for="triangles" value="88"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="2" label="Nestor">
+        <attvalues>
+          <attvalue for="criticality" value="0.21100026658390625"></attvalue>
+          <attvalue for="key" value="Nestor"></attvalue>
+          <attvalue for="lines" value="156"></attvalue>
+          <attvalue for="words" value="1302"></attvalue>
+          <attvalue for="eigencentrality" value="0.8797279608492856"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7857142857142857"></attvalue>
+          <attvalue for="betweenesscentrality" value="6.752008530685"></attvalue>
+          <attvalue for="clustering" value="0.8"></attvalue>
+          <attvalue for="triangles" value="96"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="3" label="Cassandra">
+        <attvalues>
+          <attvalue for="criticality" value="0.05436507936507936"></attvalue>
+          <attvalue for="key" value="Cassandra"></attvalue>
+          <attvalue for="lines" value="37"></attvalue>
+          <attvalue for="words" value="300"></attvalue>
+          <attvalue for="eigencentrality" value="0.25438464790604376"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5490196078431373"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6130952380952381"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.7611111111111111"></attvalue>
+          <attvalue for="clustering" value="0.8571428571428571"></attvalue>
+          <attvalue for="triangles" value="18"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="4" label="Myrmidon">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Myrmidon"></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="9"></attvalue>
+          <attvalue for="eigencentrality" value="0.12360110007551885"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4745762711864407"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.505952380952381"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="5" label="Servant to Diomedes">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Diomedes1-serv."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="6" label="All">
+        <attvalues>
+          <attvalue for="criticality" value="0.048023055375996555"></attvalue>
+          <attvalue for="key" value="tro-all"></attvalue>
+          <attvalue for="lines" value="2"></attvalue>
+          <attvalue for="words" value="9"></attvalue>
+          <attvalue for="eigencentrality" value="0.7750438414805251"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6511627906976745"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7321428571428571"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.2485994397759104"></attvalue>
+          <attvalue for="clustering" value="0.9102564102564102"></attvalue>
+          <attvalue for="triangles" value="71"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="26"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="7" label="Margarelon">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Margarelon"></attvalue>
+          <attvalue for="lines" value="3"></attvalue>
+          <attvalue for="words" value="17"></attvalue>
+          <attvalue for="eigencentrality" value="0.11358169964449928"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4307692307692308"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4702380952380953"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="8" label="Cressida">
+        <attvalues>
+          <attvalue for="criticality" value="0.8026651410165343"></attvalue>
+          <attvalue for="key" value="Cressida"></attvalue>
+          <attvalue for="lines" value="296"></attvalue>
+          <attvalue for="words" value="2445"></attvalue>
+          <attvalue for="eigencentrality" value="0.9454340988053612"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7567567567567568"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8392857142857143"></attvalue>
+          <attvalue for="betweenesscentrality" value="30.501275358628302"></attvalue>
+          <attvalue for="clustering" value="0.6257309941520468"></attvalue>
+          <attvalue for="triangles" value="107"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="9" label="Soldiers">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="soldiers"></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="7"></attvalue>
+          <attvalue for="eigencentrality" value="0.24495157363537862"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.45901639344262296"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5178571428571429"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="6"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="10" label="Agamemnon">
+        <attvalues>
+          <attvalue for="criticality" value="0.21100026658390625"></attvalue>
+          <attvalue for="key" value="Agamemnon"></attvalue>
+          <attvalue for="lines" value="194"></attvalue>
+          <attvalue for="words" value="1630"></attvalue>
+          <attvalue for="eigencentrality" value="0.8797279608492856"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7857142857142857"></attvalue>
+          <attvalue for="betweenesscentrality" value="6.752008530685"></attvalue>
+          <attvalue for="clustering" value="0.8"></attvalue>
+          <attvalue for="triangles" value="96"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="11" label="Helenus">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Helenus"></attvalue>
+          <attvalue for="lines" value="4"></attvalue>
+          <attvalue for="words" value="41"></attvalue>
+          <attvalue for="eigencentrality" value="0.20383478017884363"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5185185185185185"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5714285714285714"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="10"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="12" label="Achilles">
+        <attvalues>
+          <attvalue for="criticality" value="0.7915920512590064"></attvalue>
+          <attvalue for="key" value="Achilles"></attvalue>
+          <attvalue for="lines" value="190"></attvalue>
+          <attvalue for="words" value="1529"></attvalue>
+          <attvalue for="eigencentrality" value="0.8798267568674214"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.717948717948718"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8035714285714286"></attvalue>
+          <attvalue for="betweenesscentrality" value="26.91412974280622"></attvalue>
+          <attvalue for="clustering" value="0.6985294117647058"></attvalue>
+          <attvalue for="triangles" value="95"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="34"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="13" label="Servant to Paris">
+        <attvalues>
+          <attvalue for="criticality" value="0.586924921483745"></attvalue>
+          <attvalue for="key" value="tro-serv."></attvalue>
+          <attvalue for="lines" value="19"></attvalue>
+          <attvalue for="words" value="142"></attvalue>
+          <attvalue for="eigencentrality" value="0.4442166806731019"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5957446808510638"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6607142857142857"></attvalue>
+          <attvalue for="betweenesscentrality" value="10.56464858670741"></attvalue>
+          <attvalue for="clustering" value="0.5555555555555556"></attvalue>
+          <attvalue for="triangles" value="20"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="14" label="Patroclus">
+        <attvalues>
+          <attvalue for="criticality" value="0.009199134199134198"></attvalue>
+          <attvalue for="key" value="Patroclus"></attvalue>
+          <attvalue for="lines" value="68"></attvalue>
+          <attvalue for="words" value="480"></attvalue>
+          <attvalue for="eigencentrality" value="0.8351105583229094"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6511627906976745"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.744047619047619"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.25757575757575757"></attvalue>
+          <attvalue for="clustering" value="0.967032967032967"></attvalue>
+          <attvalue for="triangles" value="88"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="15" label="Ajax">
+        <attvalues>
+          <attvalue for="criticality" value="0.21100026658390625"></attvalue>
+          <attvalue for="key" value="Ajax"></attvalue>
+          <attvalue for="lines" value="86"></attvalue>
+          <attvalue for="words" value="634"></attvalue>
+          <attvalue for="eigencentrality" value="0.8797279608492856"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7857142857142857"></attvalue>
+          <attvalue for="betweenesscentrality" value="6.752008530685"></attvalue>
+          <attvalue for="clustering" value="0.8"></attvalue>
+          <attvalue for="triangles" value="96"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="16" label="Servant to Troilus">
+        <attvalues>
+          <attvalue for="criticality" value="0.05555555555555555"></attvalue>
+          <attvalue for="key" value="tro-boy."></attvalue>
+          <attvalue for="lines" value="3"></attvalue>
+          <attvalue for="words" value="29"></attvalue>
+          <attvalue for="eigencentrality" value="0.1811001261261121"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.509090909090909"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5535714285714286"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.4444444444444444"></attvalue>
+          <attvalue for="clustering" value="0.8333333333333334"></attvalue>
+          <attvalue for="triangles" value="5"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="17" label="Alexander">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Alexander2"></attvalue>
+          <attvalue for="lines" value="34"></attvalue>
+          <attvalue for="words" value="295"></attvalue>
+          <attvalue for="eigencentrality" value="0.1167301256222484"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.49122807017543857"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5297619047619048"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="18" label="Pandarus">
+        <attvalues>
+          <attvalue for="criticality" value="1.0552688297541237"></attvalue>
+          <attvalue for="key" value="Pandarus"></attvalue>
+          <attvalue for="lines" value="416"></attvalue>
+          <attvalue for="words" value="3573"></attvalue>
+          <attvalue for="eigencentrality" value="0.5496509046112139"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7619047619047619"></attvalue>
+          <attvalue for="betweenesscentrality" value="31.658064892623713"></attvalue>
+          <attvalue for="clustering" value="0.41904761904761906"></attvalue>
+          <attvalue for="triangles" value="44"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="30"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="19" label="Hector">
+        <attvalues>
+          <attvalue for="criticality" value="1.1058543947882185"></attvalue>
+          <attvalue for="key" value="Hector"></attvalue>
+          <attvalue for="lines" value="212"></attvalue>
+          <attvalue for="words" value="1779"></attvalue>
+          <attvalue for="eigencentrality" value="0.9281654025193362"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7777777777777778"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8571428571428571"></attvalue>
+          <attvalue for="betweenesscentrality" value="44.234175791528735"></attvalue>
+          <attvalue for="clustering" value="0.5421052631578948"></attvalue>
+          <attvalue for="triangles" value="103"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="40"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="20" label="Ulysses">
+        <attvalues>
+          <attvalue for="criticality" value="0.06062250657838894"></attvalue>
+          <attvalue for="key" value="Ulysses"></attvalue>
+          <attvalue for="lines" value="485"></attvalue>
+          <attvalue for="words" value="4050"></attvalue>
+          <attvalue for="eigencentrality" value="0.8638937300677343"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6829268292682927"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7678571428571429"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.8186751973516682"></attvalue>
+          <attvalue for="clustering" value="0.8857142857142857"></attvalue>
+          <attvalue for="triangles" value="93"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="30"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="21" label="Calchas">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Calchas"></attvalue>
+          <attvalue for="lines" value="31"></attvalue>
+          <attvalue for="words" value="261"></attvalue>
+          <attvalue for="eigencentrality" value="0.726060381617833"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6222222222222222"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7083333333333333"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="66"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="22" label="Priam">
+        <attvalues>
+          <attvalue for="criticality" value="0.05436507936507936"></attvalue>
+          <attvalue for="key" value="Priam"></attvalue>
+          <attvalue for="lines" value="20"></attvalue>
+          <attvalue for="words" value="166"></attvalue>
+          <attvalue for="eigencentrality" value="0.2543846479060437"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5490196078431373"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6130952380952381"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.7611111111111111"></attvalue>
+          <attvalue for="clustering" value="0.8571428571428571"></attvalue>
+          <attvalue for="triangles" value="18"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="23" label="Deiphobus">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Deiphobus"></attvalue>
+          <attvalue for="lines" value="2"></attvalue>
+          <attvalue for="words" value="12"></attvalue>
+          <attvalue for="eigencentrality" value="0.3352012463723608"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5384615384615384"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5952380952380952"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="15"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="24" label="Troilus">
+        <attvalues>
+          <attvalue for="criticality" value="1.1183370662314511"></attvalue>
+          <attvalue for="key" value="Troilus"></attvalue>
+          <attvalue for="lines" value="538"></attvalue>
+          <attvalue for="words" value="4585"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8235294117647058"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8928571428571429"></attvalue>
+          <attvalue for="betweenesscentrality" value="49.20683091418385"></attvalue>
+          <attvalue for="clustering" value="0.5194805194805194"></attvalue>
+          <attvalue for="triangles" value="120"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="44"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="25" label="Paris">
+        <attvalues>
+          <attvalue for="criticality" value="0.584157621381886"></attvalue>
+          <attvalue for="key" value="Paris1"></attvalue>
+          <attvalue for="lines" value="99"></attvalue>
+          <attvalue for="words" value="829"></attvalue>
+          <attvalue for="eigencentrality" value="0.4796500459376676"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6222222222222222"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7083333333333333"></attvalue>
+          <attvalue for="betweenesscentrality" value="14.019782913165264"></attvalue>
+          <attvalue for="clustering" value="0.5303030303030303"></attvalue>
+          <attvalue for="triangles" value="35"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="26" label="Andromache">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Andromache"></attvalue>
+          <attvalue for="lines" value="15"></attvalue>
+          <attvalue for="words" value="130"></attvalue>
+          <attvalue for="eigencentrality" value="0.20882538316881502"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5283018867924528"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5773809523809524"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="10"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="27" label="Thersites">
+        <attvalues>
+          <attvalue for="criticality" value="0.39123376623376627"></attvalue>
+          <attvalue for="key" value="Thersites"></attvalue>
+          <attvalue for="lines" value="298"></attvalue>
+          <attvalue for="words" value="2602"></attvalue>
+          <attvalue for="eigencentrality" value="0.7934367713267949"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6511627906976745"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.744047619047619"></attvalue>
+          <attvalue for="betweenesscentrality" value="10.954545454545455"></attvalue>
+          <attvalue for="clustering" value="0.8571428571428571"></attvalue>
+          <attvalue for="triangles" value="78"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="28" label="Diomedes">
+        <attvalues>
+          <attvalue for="criticality" value="0.4899455356305201"></attvalue>
+          <attvalue for="key" value="Diomedes1"></attvalue>
+          <attvalue for="lines" value="103"></attvalue>
+          <attvalue for="words" value="818"></attvalue>
+          <attvalue for="eigencentrality" value="0.9696794632891481"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7567567567567568"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8392857142857143"></attvalue>
+          <attvalue for="betweenesscentrality" value="18.617930353959764"></attvalue>
+          <attvalue for="clustering" value="0.6608187134502924"></attvalue>
+          <attvalue for="triangles" value="113"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="29" label="Antenor">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="sha-tro-role9"></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+      <node id="30" label="Helen">
+        <attvalues>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="key" value="Helen"></attvalue>
+          <attvalue for="lines" value="27"></attvalue>
+          <attvalue for="words" value="213"></attvalue>
+          <attvalue for="eigencentrality" value="0.10374628846998067"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4666666666666667"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.511904761904762"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="0" target="1" label="Aeneas --- Menelaus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1" source="0" target="2" label="Aeneas --- Nestor" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="2" source="0" target="6" label="Aeneas --- All" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="3" source="0" target="8" label="Aeneas --- Cressida" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="4" source="0" target="10" label="Aeneas --- Agamemnon" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="5" source="0" target="12" label="Aeneas --- Achilles">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="6" source="0" target="14" label="Aeneas --- Patroclus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="7" source="0" target="15" label="Aeneas --- Ajax">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="8" source="0" target="18" label="Aeneas --- Pandarus" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="9" source="0" target="19" label="Aeneas --- Hector">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="10" source="0" target="20" label="Aeneas --- Ulysses" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="11" source="0" target="21" label="Aeneas --- Calchas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="12" source="0" target="23" label="Aeneas --- Deiphobus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="13" source="0" target="24" label="Aeneas --- Troilus" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="14" source="0" target="25" label="Aeneas --- Paris" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="15" source="0" target="27" label="Aeneas --- Thersites">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="16" source="0" target="28" label="Aeneas --- Diomedes" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="17" source="1" target="0" label="Menelaus --- Aeneas" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="18" source="1" target="2" label="Menelaus --- Nestor" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="19" source="1" target="6" label="Menelaus --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="20" source="1" target="8" label="Menelaus --- Cressida">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="21" source="1" target="10" label="Menelaus --- Agamemnon" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="22" source="1" target="12" label="Menelaus --- Achilles" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="23" source="1" target="14" label="Menelaus --- Patroclus" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="24" source="1" target="15" label="Menelaus --- Ajax" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="25" source="1" target="19" label="Menelaus --- Hector" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="26" source="1" target="20" label="Menelaus --- Ulysses" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="27" source="1" target="21" label="Menelaus --- Calchas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="28" source="1" target="24" label="Menelaus --- Troilus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="29" source="1" target="27" label="Menelaus --- Thersites" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="30" source="1" target="28" label="Menelaus --- Diomedes" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="31" source="2" target="0" label="Nestor --- Aeneas" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="32" source="2" target="1" label="Nestor --- Menelaus" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="33" source="2" target="6" label="Nestor --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="34" source="2" target="8" label="Nestor --- Cressida">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="35" source="2" target="9" label="Nestor --- Soldiers">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="36" source="2" target="10" label="Nestor --- Agamemnon" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="37" source="2" target="12" label="Nestor --- Achilles" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="38" source="2" target="13" label="Nestor --- Servant to Paris">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="39" source="2" target="14" label="Nestor --- Patroclus" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="40" source="2" target="15" label="Nestor --- Ajax" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="41" source="2" target="19" label="Nestor --- Hector">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="42" source="2" target="20" label="Nestor --- Ulysses" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="43" source="2" target="21" label="Nestor --- Calchas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="44" source="2" target="24" label="Nestor --- Troilus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="45" source="2" target="27" label="Nestor --- Thersites" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="46" source="2" target="28" label="Nestor --- Diomedes" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="47" source="3" target="11" label="Cassandra --- Helenus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="48" source="3" target="18" label="Cassandra --- Pandarus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="49" source="3" target="19" label="Cassandra --- Hector" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="50" source="3" target="22" label="Cassandra --- Priam" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="51" source="3" target="24" label="Cassandra --- Troilus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="52" source="3" target="25" label="Cassandra --- Paris">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="53" source="3" target="26" label="Cassandra --- Andromache">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="54" source="4" target="12" label="Myrmidon --- Achilles">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="55" source="4" target="19" label="Myrmidon --- Hector">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="56" source="6" target="0" label="All --- Aeneas" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="57" source="6" target="1" label="All --- Menelaus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="58" source="6" target="2" label="All --- Nestor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="59" source="6" target="8" label="All --- Cressida">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="60" source="6" target="10" label="All --- Agamemnon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="61" source="6" target="12" label="All --- Achilles">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="62" source="6" target="14" label="All --- Patroclus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="63" source="6" target="15" label="All --- Ajax">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="64" source="6" target="18" label="All --- Pandarus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="65" source="6" target="19" label="All --- Hector">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="66" source="6" target="20" label="All --- Ulysses">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="67" source="6" target="24" label="All --- Troilus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="68" source="6" target="28" label="All --- Diomedes">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="69" source="7" target="12" label="Margarelon --- Achilles">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="70" source="7" target="27" label="Margarelon --- Thersites">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="71" source="8" target="0" label="Cressida --- Aeneas" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="72" source="8" target="1" label="Cressida --- Menelaus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="73" source="8" target="2" label="Cressida --- Nestor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="74" source="8" target="6" label="Cressida --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="75" source="8" target="10" label="Cressida --- Agamemnon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="76" source="8" target="12" label="Cressida --- Achilles">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="77" source="8" target="14" label="Cressida --- Patroclus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="78" source="8" target="15" label="Cressida --- Ajax">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="79" source="8" target="16" label="Cressida --- Servant to Troilus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="80" source="8" target="17" label="Cressida --- Alexander">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="81" source="8" target="18" label="Cressida --- Pandarus" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="82" source="8" target="19" label="Cressida --- Hector">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="83" source="8" target="20" label="Cressida --- Ulysses" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="84" source="8" target="21" label="Cressida --- Calchas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="85" source="8" target="23" label="Cressida --- Deiphobus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="86" source="8" target="24" label="Cressida --- Troilus" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="87" source="8" target="25" label="Cressida --- Paris">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="88" source="8" target="27" label="Cressida --- Thersites">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="89" source="8" target="28" label="Cressida --- Diomedes" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="90" source="9" target="2" label="Soldiers --- Nestor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="91" source="9" target="10" label="Soldiers --- Agamemnon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="92" source="9" target="15" label="Soldiers --- Ajax">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="93" source="9" target="28" label="Soldiers --- Diomedes">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="94" source="10" target="0" label="Agamemnon --- Aeneas" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="95" source="10" target="1" label="Agamemnon --- Menelaus" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="96" source="10" target="2" label="Agamemnon --- Nestor" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="97" source="10" target="6" label="Agamemnon --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="98" source="10" target="8" label="Agamemnon --- Cressida">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="99" source="10" target="9" label="Agamemnon --- Soldiers">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="100" source="10" target="12" label="Agamemnon --- Achilles" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="101" source="10" target="13" label="Agamemnon --- Servant to Paris">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="102" source="10" target="14" label="Agamemnon --- Patroclus" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="103" source="10" target="15" label="Agamemnon --- Ajax" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="104" source="10" target="19" label="Agamemnon --- Hector" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="105" source="10" target="20" label="Agamemnon --- Ulysses" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="106" source="10" target="21" label="Agamemnon --- Calchas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="107" source="10" target="24" label="Agamemnon --- Troilus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="108" source="10" target="27" label="Agamemnon --- Thersites" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="109" source="10" target="28" label="Agamemnon --- Diomedes" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="110" source="11" target="3" label="Helenus --- Cassandra">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="111" source="11" target="19" label="Helenus --- Hector">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="112" source="11" target="22" label="Helenus --- Priam">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="113" source="11" target="24" label="Helenus --- Troilus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="114" source="11" target="25" label="Helenus --- Paris">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="115" source="12" target="0" label="Achilles --- Aeneas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="116" source="12" target="1" label="Achilles --- Menelaus" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="117" source="12" target="2" label="Achilles --- Nestor" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="118" source="12" target="4" label="Achilles --- Myrmidon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="119" source="12" target="6" label="Achilles --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="120" source="12" target="7" label="Achilles --- Margarelon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="121" source="12" target="8" label="Achilles --- Cressida">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="122" source="12" target="10" label="Achilles --- Agamemnon" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="123" source="12" target="13" label="Achilles --- Servant to Paris">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="124" source="12" target="14" label="Achilles --- Patroclus" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="125" source="12" target="15" label="Achilles --- Ajax" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="126" source="12" target="19" label="Achilles --- Hector" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="127" source="12" target="20" label="Achilles --- Ulysses" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="128" source="12" target="21" label="Achilles --- Calchas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="129" source="12" target="24" label="Achilles --- Troilus" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="130" source="12" target="27" label="Achilles --- Thersites" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="131" source="12" target="28" label="Achilles --- Diomedes" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="132" source="13" target="2" label="Servant to Paris --- Nestor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="133" source="13" target="10" label="Servant to Paris --- Agamemnon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="134" source="13" target="12" label="Servant to Paris --- Achilles">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="135" source="13" target="15" label="Servant to Paris --- Ajax">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="136" source="13" target="18" label="Servant to Paris --- Pandarus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="137" source="13" target="20" label="Servant to Paris --- Ulysses">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="138" source="13" target="25" label="Servant to Paris --- Paris">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="139" source="13" target="28" label="Servant to Paris --- Diomedes">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="140" source="13" target="30" label="Servant to Paris --- Helen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="141" source="14" target="0" label="Patroclus --- Aeneas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="142" source="14" target="1" label="Patroclus --- Menelaus" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="143" source="14" target="2" label="Patroclus --- Nestor" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="144" source="14" target="6" label="Patroclus --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="145" source="14" target="8" label="Patroclus --- Cressida">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="146" source="14" target="10" label="Patroclus --- Agamemnon" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="147" source="14" target="12" label="Patroclus --- Achilles" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="148" source="14" target="15" label="Patroclus --- Ajax" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="149" source="14" target="19" label="Patroclus --- Hector" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="150" source="14" target="20" label="Patroclus --- Ulysses" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="151" source="14" target="21" label="Patroclus --- Calchas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="152" source="14" target="24" label="Patroclus --- Troilus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="153" source="14" target="27" label="Patroclus --- Thersites" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="154" source="14" target="28" label="Patroclus --- Diomedes" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="155" source="15" target="0" label="Ajax --- Aeneas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="156" source="15" target="1" label="Ajax --- Menelaus" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="157" source="15" target="2" label="Ajax --- Nestor" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="158" source="15" target="6" label="Ajax --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="159" source="15" target="8" label="Ajax --- Cressida">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="160" source="15" target="9" label="Ajax --- Soldiers">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="161" source="15" target="10" label="Ajax --- Agamemnon" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="162" source="15" target="12" label="Ajax --- Achilles" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="163" source="15" target="13" label="Ajax --- Servant to Paris">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="164" source="15" target="14" label="Ajax --- Patroclus" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="165" source="15" target="19" label="Ajax --- Hector" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="166" source="15" target="20" label="Ajax --- Ulysses" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="167" source="15" target="21" label="Ajax --- Calchas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="168" source="15" target="24" label="Ajax --- Troilus" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="169" source="15" target="27" label="Ajax --- Thersites" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="170" source="15" target="28" label="Ajax --- Diomedes" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="171" source="16" target="8" label="Servant to Troilus --- Cressida" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="172" source="16" target="17" label="Servant to Troilus --- Alexander">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="173" source="16" target="18" label="Servant to Troilus --- Pandarus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="174" source="16" target="24" label="Servant to Troilus --- Troilus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="175" source="17" target="8" label="Alexander --- Cressida">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="176" source="17" target="16" label="Alexander --- Servant to Troilus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="177" source="17" target="18" label="Alexander --- Pandarus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="178" source="18" target="0" label="Pandarus --- Aeneas" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="179" source="18" target="3" label="Pandarus --- Cassandra">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="180" source="18" target="6" label="Pandarus --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="181" source="18" target="8" label="Pandarus --- Cressida" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="182" source="18" target="13" label="Pandarus --- Servant to Paris">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="183" source="18" target="16" label="Pandarus --- Servant to Troilus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="184" source="18" target="17" label="Pandarus --- Alexander">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="185" source="18" target="19" label="Pandarus --- Hector">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="186" source="18" target="22" label="Pandarus --- Priam">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="187" source="18" target="23" label="Pandarus --- Deiphobus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="188" source="18" target="24" label="Pandarus --- Troilus" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="189" source="18" target="25" label="Pandarus --- Paris" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="190" source="18" target="26" label="Pandarus --- Andromache">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="191" source="18" target="28" label="Pandarus --- Diomedes">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="192" source="18" target="30" label="Pandarus --- Helen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="193" source="19" target="0" label="Hector --- Aeneas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="194" source="19" target="1" label="Hector --- Menelaus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="195" source="19" target="2" label="Hector --- Nestor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="196" source="19" target="3" label="Hector --- Cassandra" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="197" source="19" target="4" label="Hector --- Myrmidon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="198" source="19" target="6" label="Hector --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="199" source="19" target="8" label="Hector --- Cressida">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="200" source="19" target="10" label="Hector --- Agamemnon" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="201" source="19" target="11" label="Hector --- Helenus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="202" source="19" target="12" label="Hector --- Achilles" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="203" source="19" target="14" label="Hector --- Patroclus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="204" source="19" target="15" label="Hector --- Ajax" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="205" source="19" target="18" label="Hector --- Pandarus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="206" source="19" target="20" label="Hector --- Ulysses" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="207" source="19" target="22" label="Hector --- Priam" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="208" source="19" target="24" label="Hector --- Troilus" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="209" source="19" target="25" label="Hector --- Paris">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="210" source="19" target="26" label="Hector --- Andromache">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="211" source="19" target="27" label="Hector --- Thersites" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="212" source="19" target="28" label="Hector --- Diomedes" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="213" source="20" target="0" label="Ulysses --- Aeneas" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="214" source="20" target="1" label="Ulysses --- Menelaus" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="215" source="20" target="2" label="Ulysses --- Nestor" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="216" source="20" target="6" label="Ulysses --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="217" source="20" target="8" label="Ulysses --- Cressida" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="218" source="20" target="10" label="Ulysses --- Agamemnon" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="219" source="20" target="12" label="Ulysses --- Achilles" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="220" source="20" target="13" label="Ulysses --- Servant to Paris">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="221" source="20" target="14" label="Ulysses --- Patroclus" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="222" source="20" target="15" label="Ulysses --- Ajax" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="223" source="20" target="19" label="Ulysses --- Hector" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="224" source="20" target="21" label="Ulysses --- Calchas" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="225" source="20" target="24" label="Ulysses --- Troilus" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="226" source="20" target="27" label="Ulysses --- Thersites" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="227" source="20" target="28" label="Ulysses --- Diomedes" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="228" source="21" target="0" label="Calchas --- Aeneas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="229" source="21" target="1" label="Calchas --- Menelaus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="230" source="21" target="2" label="Calchas --- Nestor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="231" source="21" target="8" label="Calchas --- Cressida">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="232" source="21" target="10" label="Calchas --- Agamemnon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="233" source="21" target="12" label="Calchas --- Achilles">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="234" source="21" target="14" label="Calchas --- Patroclus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="235" source="21" target="15" label="Calchas --- Ajax">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="236" source="21" target="20" label="Calchas --- Ulysses" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="237" source="21" target="24" label="Calchas --- Troilus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="238" source="21" target="27" label="Calchas --- Thersites" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="239" source="21" target="28" label="Calchas --- Diomedes" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="240" source="22" target="3" label="Priam --- Cassandra" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="241" source="22" target="11" label="Priam --- Helenus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="242" source="22" target="18" label="Priam --- Pandarus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="243" source="22" target="19" label="Priam --- Hector" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="244" source="22" target="24" label="Priam --- Troilus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="245" source="22" target="25" label="Priam --- Paris">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="246" source="22" target="26" label="Priam --- Andromache">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="247" source="23" target="0" label="Deiphobus --- Aeneas" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="248" source="23" target="8" label="Deiphobus --- Cressida">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="249" source="23" target="18" label="Deiphobus --- Pandarus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="250" source="23" target="24" label="Deiphobus --- Troilus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="251" source="23" target="25" label="Deiphobus --- Paris" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="252" source="23" target="28" label="Deiphobus --- Diomedes" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="253" source="24" target="0" label="Troilus --- Aeneas" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="254" source="24" target="1" label="Troilus --- Menelaus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="255" source="24" target="2" label="Troilus --- Nestor">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="256" source="24" target="3" label="Troilus --- Cassandra" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="257" source="24" target="6" label="Troilus --- All" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="258" source="24" target="8" label="Troilus --- Cressida" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="259" source="24" target="10" label="Troilus --- Agamemnon" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="260" source="24" target="11" label="Troilus --- Helenus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="261" source="24" target="12" label="Troilus --- Achilles" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="262" source="24" target="14" label="Troilus --- Patroclus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="263" source="24" target="15" label="Troilus --- Ajax" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="264" source="24" target="16" label="Troilus --- Servant to Troilus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="265" source="24" target="18" label="Troilus --- Pandarus" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="266" source="24" target="19" label="Troilus --- Hector" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="267" source="24" target="20" label="Troilus --- Ulysses" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="268" source="24" target="21" label="Troilus --- Calchas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="269" source="24" target="22" label="Troilus --- Priam" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="270" source="24" target="23" label="Troilus --- Deiphobus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="271" source="24" target="25" label="Troilus --- Paris" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="272" source="24" target="26" label="Troilus --- Andromache">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="273" source="24" target="27" label="Troilus --- Thersites" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="274" source="24" target="28" label="Troilus --- Diomedes" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="275" source="25" target="0" label="Paris --- Aeneas" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="276" source="25" target="3" label="Paris --- Cassandra">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="277" source="25" target="8" label="Paris --- Cressida">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="278" source="25" target="11" label="Paris --- Helenus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="279" source="25" target="13" label="Paris --- Servant to Paris">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="280" source="25" target="18" label="Paris --- Pandarus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="281" source="25" target="19" label="Paris --- Hector">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="282" source="25" target="22" label="Paris --- Priam">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="283" source="25" target="23" label="Paris --- Deiphobus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="284" source="25" target="24" label="Paris --- Troilus" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="285" source="25" target="28" label="Paris --- Diomedes" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="286" source="25" target="30" label="Paris --- Helen">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="287" source="26" target="3" label="Andromache --- Cassandra">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="288" source="26" target="18" label="Andromache --- Pandarus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="289" source="26" target="19" label="Andromache --- Hector">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="290" source="26" target="22" label="Andromache --- Priam">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="291" source="26" target="24" label="Andromache --- Troilus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="292" source="27" target="0" label="Thersites --- Aeneas">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="293" source="27" target="1" label="Thersites --- Menelaus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="294" source="27" target="2" label="Thersites --- Nestor" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="295" source="27" target="7" label="Thersites --- Margarelon">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="296" source="27" target="8" label="Thersites --- Cressida">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="297" source="27" target="10" label="Thersites --- Agamemnon" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="298" source="27" target="12" label="Thersites --- Achilles" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="299" source="27" target="14" label="Thersites --- Patroclus" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="300" source="27" target="15" label="Thersites --- Ajax" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="301" source="27" target="19" label="Thersites --- Hector" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="302" source="27" target="20" label="Thersites --- Ulysses" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="303" source="27" target="21" label="Thersites --- Calchas" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="304" source="27" target="24" label="Thersites --- Troilus" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="305" source="27" target="28" label="Thersites --- Diomedes" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="306" source="28" target="0" label="Diomedes --- Aeneas" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="307" source="28" target="1" label="Diomedes --- Menelaus" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="308" source="28" target="2" label="Diomedes --- Nestor" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="309" source="28" target="6" label="Diomedes --- All">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="310" source="28" target="8" label="Diomedes --- Cressida" weight="3.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="311" source="28" target="9" label="Diomedes --- Soldiers">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="312" source="28" target="10" label="Diomedes --- Agamemnon" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="313" source="28" target="12" label="Diomedes --- Achilles" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="314" source="28" target="13" label="Diomedes --- Servant to Paris">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="315" source="28" target="14" label="Diomedes --- Patroclus" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="316" source="28" target="15" label="Diomedes --- Ajax" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="317" source="28" target="18" label="Diomedes --- Pandarus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="318" source="28" target="19" label="Diomedes --- Hector" weight="4.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="319" source="28" target="20" label="Diomedes --- Ulysses" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="320" source="28" target="21" label="Diomedes --- Calchas" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="321" source="28" target="23" label="Diomedes --- Deiphobus" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="322" source="28" target="24" label="Diomedes --- Troilus" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="323" source="28" target="25" label="Diomedes --- Paris" weight="2.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="324" source="28" target="27" label="Diomedes --- Thersites" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="325" source="30" target="13" label="Helen --- Servant to Paris">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="326" source="30" target="18" label="Helen --- Pandarus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="327" source="30" target="25" label="Helen --- Paris">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
