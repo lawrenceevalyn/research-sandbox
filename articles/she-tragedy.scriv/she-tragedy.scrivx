@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Version="1.5" Creator="SCRMAC-2.8.1.2-26324" Device="The-Enterprise" Modified="2018-01-25 01:23:56 -0500" ModID="2FD16834-0F5A-471B-BD00-B1CF884C135C">
+<ScrivenerProject Version="1.5" Creator="SCRMAC-2.8.1.2-26324" Device="The-Enterprise" Modified="2018-02-20 18:10:50 -0500" ModID="799E957B-07E0-47CA-BC89-5182243939D0">
     <Binder>
         <BinderItem ID="0" UUID="1DC4C385-56CE-47AC-99C7-40383678D5B8" Type="DraftFolder" Created="2016-02-25 20:03:41 -0500" Modified="2016-02-25 20:03:41 -0500">
             <Title>Draft</Title>
@@ -44,7 +44,7 @@
                         <NotesTextSelection>0,0</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>39,0</TextSelection>
+                        <TextSelection>280,0</TextSelection>
                     </TextSettings>
                     <Children>
                         <BinderItem ID="151" UUID="B55408AC-D61B-432D-86DB-4E72623D719F" Type="Text" Created="2018-01-23 14:44:18 -0500" Modified="2018-01-23 14:46:22 -0500">
@@ -84,7 +84,7 @@
                                 <NotesTextSelection>0,0</NotesTextSelection>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>694,0</TextSelection>
+                                <TextSelection>652,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                     </Children>
@@ -96,7 +96,7 @@
                         <NotesTextSelection>0,0</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>3163,0</TextSelection>
+                        <TextSelection>1846,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem ID="155" UUID="DC4963CE-AC3A-4768-AA38-58E72F3233A7" Type="Text" Created="2018-01-23 15:14:15 -0500" Modified="2018-01-23 15:14:16 -0500">
@@ -120,6 +120,16 @@
                             </TextSettings>
                         </BinderItem>
                     </Children>
+                </BinderItem>
+                <BinderItem ID="157" UUID="EF452BF6-4681-4B78-B066-2BCEB6FEFDF6" Type="Text" Created="2018-02-11 21:57:31 -0500" Modified="2018-02-20 18:10:19 -0500">
+                    <Title>MLA abstract</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>395,0</TextSelection>
+                    </TextSettings>
                 </BinderItem>
             </Children>
         </BinderItem>
@@ -1759,7 +1769,7 @@
     <ProjectTargets Notify="Yes">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2016-04-17 03:21:51 -0400" IgnoreDeadline="No">5389</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">250</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2018-01-25 01:23:53 -0500"></PreviousSession>
+        <PreviousSession Words="134" Characters="812" Date="2018-02-20 17:55:34 -0500"></PreviousSession>
     </ProjectTargets>
     <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>
