@@ -111,3 +111,31 @@ Gap in literature: A distinction between social agency and plot agency
 My project filling the gap: Social network graphs let us see whether she-tragedy heroines are socially marginalized, seperately from the question of their agency within the plot of the play
 Specific material: Thomas Otway’s Venice Preserv’d (1682) [or The Orphan (1680) ??] and Arthur Murphy’s The Grecian Daughter (1772) [do I need a better late she-tragedy?]; also social network graphs of ~50 plays. I will begin with a brief discussion of how to ‘read’ a social network of a play, and then move into my particular question of the role of the heroine.
 Concluding sentence: [something about heroine’s key relationship being with the audience]
+
+## Theatre as communication ##
+
+Theatre as communication
+
+Forum: LSL Linguistics and Literature
+This session explores how theatrical texts and performances of them create meanings and who is responsible for the creation of those meanings. Abstracts of up to 500 words by 15 March 2018; Billy Clark (billy.clark@northumbria.ac.uk) and Anja Mueller-Wood (wood@uni-mainz.de).
+
+## Ways of Reading Scotland ##
+
+Ways of Reading Scotland
+
+Forum: LLC Scottish
+How might new technologies and modes of reading (digital, surface, distant, etc.) shape our understandings of Scottish texts, genres, or canons? 250-word abstracts for 10 minute papers by 16 March 2018; Juliet Shields (js37@u.washington.edu).
+
+## The Politics of Consent ##
+
+The Politics of Consent
+
+Forum: LLC 18th-Century French
+Panel on the varied articulations of consent in the 18th century. Send title and 200-word abstract to ffalaky@tulane by 15 March 2018; Fayçal Falaky (ffalaky@tulane.edu).
+
+## Do the Digital Humanities Have Politics ##
+
+Do the Digital Humanities Have Politics?
+
+Special Session
+This session explores political dimensions of computational thinking as intersected with Humanities knowledge practices, particularly from critical race, feminist, queer, and SSK lenses. 500 word abstracts by 15 March 2018; James Malazita (malazj@rpi.edu).

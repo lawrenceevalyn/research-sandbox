@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Version="1.5" Creator="SCRMAC-2.8.1.2-26324" Device="The-Enterprise" Modified="2018-02-20 18:10:50 -0500" ModID="799E957B-07E0-47CA-BC89-5182243939D0">
+<ScrivenerProject Version="1.5" Creator="SCRMAC-2.8.1.2-26324" Device="The-Enterprise" Modified="2018-03-03 17:06:32 -0500" ModID="4C14B081-95A9-454A-B719-218037D82CFF">
     <Binder>
         <BinderItem ID="0" UUID="1DC4C385-56CE-47AC-99C7-40383678D5B8" Type="DraftFolder" Created="2016-02-25 20:03:41 -0500" Modified="2016-02-25 20:03:41 -0500">
             <Title>Draft</Title>
@@ -44,7 +44,7 @@
                         <NotesTextSelection>0,0</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>280,0</TextSelection>
+                        <TextSelection>243,0</TextSelection>
                     </TextSettings>
                     <Children>
                         <BinderItem ID="151" UUID="B55408AC-D61B-432D-86DB-4E72623D719F" Type="Text" Created="2018-01-23 14:44:18 -0500" Modified="2018-01-23 14:46:22 -0500">
@@ -128,8 +128,50 @@
                         <NotesTextSelection>0,0</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>395,0</TextSelection>
+                        <TextSelection>811,0</TextSelection>
                     </TextSettings>
+                    <Children>
+                        <BinderItem ID="159" UUID="A505DC83-6EA4-4AE8-B119-C2D6AD4F599B" Type="Text" Created="2018-02-26 15:14:19 -0500" Modified="2018-02-26 15:14:31 -0500">
+                            <Title>Theatre as communication</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>340,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="158" UUID="1E11F8EC-CE90-4870-ABC1-DAD248BD3BD0" Type="Text" Created="2018-02-26 15:14:00 -0500" Modified="2018-02-26 15:14:12 -0500">
+                            <Title>Ways of Reading Scotland</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>288,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="161" UUID="A9949216-B2F5-49D7-9A1D-855115C85871" Type="Text" Created="2018-02-26 15:14:36 -0500" Modified="2018-02-26 15:14:46 -0500">
+                            <Title>The Politics of Consent</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>226,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem ID="160" UUID="5AC4B2F7-3615-4F9D-B537-5E23D2EE20C5" Type="Text" Created="2018-02-26 15:14:28 -0500" Modified="2018-02-26 15:14:31 -0500">
+                            <Title>Do the Digital Humanities Have Politics</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <NotesTextSelection>0,0</NotesTextSelection>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>314,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
                 </BinderItem>
             </Children>
         </BinderItem>
@@ -1769,7 +1811,7 @@
     <ProjectTargets Notify="Yes">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2016-04-17 03:21:51 -0400" IgnoreDeadline="No">5389</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">250</SessionTarget>
-        <PreviousSession Words="134" Characters="812" Date="2018-02-20 17:55:34 -0500"></PreviousSession>
+        <PreviousSession Words="0" Characters="0" Date="2018-03-03 17:06:15 -0500"></PreviousSession>
     </ProjectTargets>
     <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>
