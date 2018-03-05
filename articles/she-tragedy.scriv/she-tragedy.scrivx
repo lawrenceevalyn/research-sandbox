@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Version="1.5" Creator="SCRMAC-2.8.1.2-26324" Device="The-Enterprise" Modified="2018-03-03 17:06:32 -0500" ModID="4C14B081-95A9-454A-B719-218037D82CFF">
+<ScrivenerProject Version="1.5" Creator="SCRMAC-2.8.1.2-26324" Device="The-Enterprise" Modified="2018-03-04 23:06:39 -0500" ModID="254B90C4-3B74-494A-ADDA-C85E4E59A4D6">
     <Binder>
         <BinderItem ID="0" UUID="1DC4C385-56CE-47AC-99C7-40383678D5B8" Type="DraftFolder" Created="2016-02-25 20:03:41 -0500" Modified="2016-02-25 20:03:41 -0500">
             <Title>Draft</Title>
@@ -140,6 +140,18 @@
                             <TextSettings>
                                 <TextSelection>340,0</TextSelection>
                             </TextSettings>
+                            <Children>
+                                <BinderItem ID="162" UUID="21CD3F4D-91F6-448B-9ECC-56AE2D5BDE6B" Type="Text" Created="2018-03-04 22:55:13 -0500" Modified="2018-03-04 23:05:33 -0500">
+                                    <Title>Dear Billy Clark and Anja Mueller-Wood</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <NotesTextSelection>0,0</NotesTextSelection>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>855,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
                         </BinderItem>
                         <BinderItem ID="158" UUID="1E11F8EC-CE90-4870-ABC1-DAD248BD3BD0" Type="Text" Created="2018-02-26 15:14:00 -0500" Modified="2018-02-26 15:14:12 -0500">
                             <Title>Ways of Reading Scotland</Title>
@@ -1811,7 +1823,7 @@
     <ProjectTargets Notify="Yes">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2016-04-17 03:21:51 -0400" IgnoreDeadline="No">5389</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">250</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2018-03-03 17:06:15 -0500"></PreviousSession>
+        <PreviousSession Words="137" Characters="855" Date="2018-03-04 22:54:53 -0500"></PreviousSession>
     </ProjectTargets>
     <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>

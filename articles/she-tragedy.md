@@ -119,6 +119,16 @@ Theatre as communication
 Forum: LSL Linguistics and Literature
 This session explores how theatrical texts and performances of them create meanings and who is responsible for the creation of those meanings. Abstracts of up to 500 words by 15 March 2018; Billy Clark (billy.clark@northumbria.ac.uk) and Anja Mueller-Wood (wood@uni-mainz.de).
 
+### Dear Billy Clark and Anja Mueller-Wood ###
+
+Dear Billy Clark and Anja Mueller-Wood,
+I write to suggest a paper for your consideration, for your panel “Theatre as communication” at MLA. I have been undertaking a digital project examining the social networks implicit within play scripts, focusing on [the role of the speech act between characters and [structures/patterns of address]] [make it clear here that I am interested in the act of communicating rather than the content of any given communication]. I am presenting on the technical underpinnings of the project at the annual Digital Humanities conference this summer, and [think MLA would be interested in the literary part] 
+The abstract is as follows:
+[]
+Although the project is deeply rooted in the eighteenth century, I believe the approach will be of interest [to scholars of theatre].
+Many thanks for your consideration,
+Lawrence Evalyn
+
 ## Ways of Reading Scotland ##
 
 Ways of Reading Scotland
