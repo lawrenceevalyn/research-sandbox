@@ -1,17 +1,29 @@
-Title: dh2018-shakespeare
+Title: dh2018-shakespeare  
 Author: Lawrence Evalyn
 
-# brief summary #
+# final abstract (1200 wds) #
 
-Our inquiry considers the speech interactions of characters within plays as a proxy for narrative structure. We generated social networks from XML marked up editions of all of Shakespeare’s plays. The networks capture character speech as a directional connection between the speaker and all characters present to hear their speech, weighted by the number of words spoken. We explore correlations between the mathematical properties of the networks and dramatic genre. We have also made these networks available and manipulable online. These networks may be of interest to scholars of Shakespeare, and allow another approach to discussions of generic hybridity in early modern drama. The project as a whole may also provide a way to make comparisons within large corpora of plays.
+## intro & context ##
+
+## shakey's social networks ##
+
+### methods ###
+
+### findings ###
+
+## summary & future work ##
 
 # abstract (1000 wds) #
+
+## brief summary ##
+
+Our inquiry considers the speech interactions of characters within plays as a proxy for narrative structure. We generated social networks from XML marked up editions of all of Shakespeare’s plays. The networks capture character speech as a directional connection between the speaker and all characters present to hear their speech, weighted by the number of words spoken. We explore correlations between the mathematical properties of the networks and dramatic genre. We have also made these networks available and manipulable online. These networks may be of interest to scholars of Shakespeare, and allow another approach to discussions of generic hybridity in early modern drama. The project as a whole may also provide a way to make comparisons within large corpora of plays.
 
 ## intro & context ##
 
 Our inquiry considers the speech interactions of characters within plays as a proxy for broad narrative structures. We analyze computationally-generated social networks of 37 plays by Shakespeare to explore metrics for nuanced comparison within large corpora of comparable plays.
 
-Because dramatic performances enact social encounters, social network analysis translates surprisingly well to fictional societies. Stiller et al. have shown that social networks in Shakespeare’s play mirror those of real human interactions, particularly in size, clustering, and maximum degrees of seperation (2003). These similarities lend validity to discussions of individual characters filling specific roles in their social networks, particularly in terms of connectedness and cliques.
+Because dramatic performances enact social encounters, social network analysis translates surprisingly well to fictional societies. Stiller et al. have shown that social networks in Shakespeare’s play mirror those of real human interactions, particularly in size, clustering, and maximum degrees of separation (2003). These similarities lend validity to discussions of individual characters filling specific roles in their social networks, particularly in terms of connectedness and cliques.
 
 However, as fictions, these networks are shaped not only by sociological principles, but also by narrative structures. Moretti uses social networks to examine the plots of three Shakespearean tragedies, and to contrast the structure of chapters in English and Chinese novels (2011). Alberich et al. (2002) and Sparavigna (2013) also discuss the interplay between social and narrative constraints on networks. We emphasize this distinction to look for specifically literary features of our networks.
 
@@ -45,6 +57,21 @@ Our first 37 networks are available online in an interactive format to allow oth
 However, since the parser is highly extensible and can be used with any plays available in TEI encoding, future work need not be restricted to the Early Modern period. It need not even be restricted to works written in English. We are implementing features to translate between different XML tag sets to further extend its applicability.
 
 Narrative structures and the social position of characters within their fictional worlds can both be difficult to concretely articulate and compare. Our networks of the well-studied works of Shakespeare can provide a baseline against which to contextualize analysis of these elements in works for which there is far less critical consensus.
+
+# response to reviewers #
+
+
+To briefly address questions about the parser: although our parser has not solved the problem of guessing the specific addressees of a character’s speech, and instead tracks characters present on stage during speech, its simplifications allow it to be remarkably extensible. It could be used to parse any play that follows TEI P5 guidelines for performance texts, using <speaker> tags with standardized character names and marking act and scene divisions with <div> tags. The parser also examines scene descriptions to see if there are characters present who do not speak, but would function reasonably robustly if scene descriptions were absent. We intend to use the parser on a body of eighteenth century plays for the next phase of the project, demonstrating its versatility.
+
+The majority of reviewers requested more detail on our literary arguments. Our assessment is likely to be further refined as we return to the literary criticism on the topic, but we have found several metrics useful for identifying comedies and histories. Interestingly, the networks of tragedies seem to represent a middle ground between histories and comedies, and are difficult to discuss directly.
+
+We find histories more strongly distinguished from comedies and tragedies than comedies and tragedies are from each other, a distinction largely driven by the substantially higher numbers of peripheral characters in history plays. Histories also feature highly dispersed networks (high criticality, modularity, and eccentricity, and low betweenness centrality) in which paired connections form chains of acquaintance, but even the monarchs have low eigenvector centrality. We use these metrics, particularly as they apply to Antony and Cleopatra, to consider classing the “Roman plays” with the histories, but ultimately affirm their placement with tragedies.
+
+Comedies, in contrast, are distinguished by densely interconnected networks. Although comedies often have multiple subplots, these separate stories do not result in highly-separated networks. We theorize that comedic networks are strongly shaped by the plays’ final “resolution” scenes, which bring together the full cast, and contrast these with the rhythms of character entrances and exits in tragic endings. Relatedly, the average eigenvector centrality of the characters in comedies is much higher than in tragedies or histories; this suggests that many more of the characters in a comedy are “important,” reflecting a focus on ensemble stories.
+
+The observations above exclude Shakespeare’s “problem plays” and “romances”. We find that the three “problem plays” fall among the comedies for nearly every measure we consider. We don’t claim that this “solves” the question of genre for these plays, but rather propose it as support for literary arguments that the “problem” lies in a mismatch between a comedic structure and un-comedic subject matter. The networks of the three “romances” are more structurally ambiguous, supporting literary arguments that Shakespeare’s writing had grown more experimental at the end of his career.
+
+We look forward to presenting the graphs of all 37 plays (which unfortunately cannot be attached to this response) to show visually the mathematical differences we have observed.
 
 # paper #
 
@@ -87,3 +114,16 @@ However, since the parser is highly extensible and can be used with any plays av
 Narrative structures and the social position of characters within their fictional worlds can both be difficult to concretely articulate and compare. Our networks of the well-studied works of Shakespeare can provide a baseline against which to contextualize analysis of these elements in works for which there is far less critical consensus.
 
 # Works Cited #
+
+## Works Referenced ##
+
+https://www.sci.unich.it/~francesc/teaching/network/components.html
+
+# writing timeline #
+
+
+March 5 - find out whether we’re accepted to DH2018
+March 31 - finalize Shakespeare networks. Start exploring other networks?
+April 30 - first draft of paper?
+May 31 - second draft of paper?
+June 26 - DH2018
