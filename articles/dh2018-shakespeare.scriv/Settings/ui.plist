@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CompileFolder</key>
+	<string>/Users/lawrence/Desktop/research-sandbox/articles</string>
+	<key>NotesScaleFactor</key>
+	<real>1.5</real>
 	<key>SCRSelectedCompileOptionsInfoSaveName</key>
 	<dict>
 		<key>Tag</key>
@@ -17,8 +21,8 @@
 	<true/>
 	<key>binderSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {236.5, 728}}</string>
-		<string>{{237.5, 0}, {1003.5, 728}}</string>
+		<string>{{0, 0}, {237, 728}}</string>
+		<string>{{238, 0}, {952, 728}}</string>
 	</array>
 	<key>binderState</key>
 	<array>
@@ -47,13 +51,17 @@
 	<true/>
 	<key>editorSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {1003, 365}}</string>
-		<string>{{0, 375}, {1003, 325}}</string>
+		<string>{{0, 0}, {952, 596.5}}</string>
+		<string>{{0, 597.5}, {952, 100.5}}</string>
 	</array>
 	<key>editorSplitType</key>
 	<integer>1</integer>
 	<key>inspectorIsCollapsed</key>
 	<true/>
+	<key>inspectorSplitFrames</key>
+	<array>
+		<string>{{0, 0}, {288, 718}}</string>
+	</array>
 	<key>inspectorWidth</key>
 	<real>227</real>
 	<key>lastDocumentSplitType</key>
@@ -481,9 +489,11 @@
 		</dict>
 	</dict>
 	<key>mainDocumentEditor.scrollRect</key>
-	<string>{{0, 0}, {802.40002, 219.2}}</string>
+	<string>{{0, 53}, {620, 29.333333333333329}}</string>
 	<key>mainDocumentEditor.selectedRanges</key>
 	<string>{375, 0}</string>
+	<key>mainDocumentEditor.selectedTextRanges</key>
+	<string>375,0</string>
 	<key>mainDocumentEditor.textEditorState</key>
 	<dict>
 		<key>hasMultiplePages</key>
@@ -494,7 +504,7 @@
 		<false/>
 	</dict>
 	<key>mainWindowFrame</key>
-	<string>72 127 1241 750 0 0 1440 877 </string>
+	<string>51 127 1190 750 0 0 1440 877 </string>
 	<key>supportingDocumentEditor.binderDocuments</key>
 	<array>
 		<string>A9567FC6-8182-42CF-89BB-2C58CE534BE7</string>
@@ -525,7 +535,7 @@
 	<key>supportingDocumentEditor.navigationHistory</key>
 	<dict>
 		<key>CurrentIndex</key>
-		<integer>18</integer>
+		<integer>49</integer>
 		<key>NavigationHistoryArray</key>
 		<array>
 			<dict>
@@ -684,12 +694,279 @@
 				<key>ViewMode</key>
 				<integer>0</integer>
 			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>DDF8AC31-4A85-4C8C-AE97-38C38E121C00</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>2</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>EBA30614-7B26-4421-9C29-DC57023512A8</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>47756D3D-3235-4B59-9AD3-FB09C78CA10C</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>DDF8AC31-4A85-4C8C-AE97-38C38E121C00</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>2</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>EBA30614-7B26-4421-9C29-DC57023512A8</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{586, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>47756D3D-3235-4B59-9AD3-FB09C78CA10C</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>CE761137-6988-447D-B0A3-59F159E3970D</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>3459DF35-B75F-43AE-A0F6-8017AC3FF1DA</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>47756D3D-3235-4B59-9AD3-FB09C78CA10C</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>DDF8AC31-4A85-4C8C-AE97-38C38E121C00</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>2</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>47756D3D-3235-4B59-9AD3-FB09C78CA10C</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>CE761137-6988-447D-B0A3-59F159E3970D</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>8F78AFE0-51A4-473F-9F62-7476C7A09638</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>EBA30614-7B26-4421-9C29-DC57023512A8</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>CE761137-6988-447D-B0A3-59F159E3970D</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>EBA30614-7B26-4421-9C29-DC57023512A8</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>EBA30614-7B26-4421-9C29-DC57023512A8</string>
+					<string>5054D016-B8B3-46A8-B333-FB33CE49A3FD</string>
+					<string>DA58E28A-80BC-4CE6-8E69-0137C8BD8EF2</string>
+					<string>1F0B7B02-6656-4A4F-B0D9-AE2AEF29A9D6</string>
+					<string>CE761137-6988-447D-B0A3-59F159E3970D</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>2</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>3459DF35-B75F-43AE-A0F6-8017AC3FF1DA</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>DDF8AC31-4A85-4C8C-AE97-38C38E121C00</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>2</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>F84533BF-7528-4B09-8F17-72999A9545D7</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>52ECA539-1DE1-4C9C-B96D-EB46A715373F</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>382F302D-C63A-4DAE-B09A-C70DFA6B994C</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>F02EED7E-473C-4565-92E3-3B90B658356E</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>5C8D55F3-4373-41E1-A3A3-240E378DEA10</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>67A8C296-C3E2-490B-8D2D-2BAA9157E92A</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>F02EED7E-473C-4565-92E3-3B90B658356E</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>67A8C296-C3E2-490B-8D2D-2BAA9157E92A</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>47756D3D-3235-4B59-9AD3-FB09C78CA10C</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{387, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>DDF8AC31-4A85-4C8C-AE97-38C38E121C00</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>F84533BF-7528-4B09-8F17-72999A9545D7</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>F84533BF-7528-4B09-8F17-72999A9545D7</string>
+					<string>52ECA539-1DE1-4C9C-B96D-EB46A715373F</string>
+					<string>382F302D-C63A-4DAE-B09A-C70DFA6B994C</string>
+					<string>F02EED7E-473C-4565-92E3-3B90B658356E</string>
+					<string>5C8D55F3-4373-41E1-A3A3-240E378DEA10</string>
+					<string>67A8C296-C3E2-490B-8D2D-2BAA9157E92A</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
 		</array>
 	</dict>
 	<key>supportingDocumentEditor.scrollRect</key>
-	<string>{{0, 0}, {802.40002, 251.2}}</string>
+	<string>{{0, 0}, {620, 360}}</string>
 	<key>supportingDocumentEditor.selectedRanges</key>
 	<string>{67, 0}</string>
+	<key>supportingDocumentEditor.selectedTextRanges</key>
+	<string>10,0</string>
 	<key>supportingDocumentEditor.textEditorState</key>
 	<dict>
 		<key>hasMultiplePages</key>

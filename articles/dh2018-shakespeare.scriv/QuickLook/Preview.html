@@ -88,6 +88,40 @@
 
 <ul>
 <li>
+<p class="topLevelItemTitle">paper (10 min)</p>
+</li>
+<hr class="afterTitle"/>
+<ul>
+<li>
+<p class="itemTitle">opening</p>
+</li>
+<li>
+<p class="itemTitle">principle of play = network</p>
+</li>
+<hr class="afterTitle"/>
+<ul>
+<li>
+<p class="itemTitle">shakespeare hypotheses</p>
+</li>
+</ul>
+<hr class="afterTitle"/>
+
+<li>
+<p class="itemTitle">how our networks work</p>
+</li>
+<li>
+<p class="itemTitle">shakespeare results</p>
+</li>
+<li>
+<p class="itemTitle">closing</p>
+<p class="itemText">The most exciting part about all of this, for me, is that the program ought to be able to run on any TEI-encoded play. I’m personally hoping to use it on a corpus I’m building of eighteenth century plays in English and French, but we would love to hear from scholars who have their own corpora of TEI-encoded plays which they’d like to explore as social networks.</p>
+<p class="itemText"></p>
+<p class="itemText">[Slide: all our contact info]</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
 <p class="topLevelItemTitle">final abstract (1200 wds)</p>
 </li>
 <hr class="afterTitle"/>
@@ -114,94 +148,6 @@
 </li>
 </ul>
 <hr class="afterTitle"/>
-
-<li>
-<p class="topLevelItemTitle">abstract (1000 wds)</p>
-</li>
-<hr class="afterTitle"/>
-<ul>
-<li>
-<p class="itemTitle">brief summary</p>
-<p class="itemText">Our inquiry considers the speech interactions of characters within plays as a proxy for narrative structure. We generated social networks from XML marked up editions of all of Shakespeare’s plays. The networks capture character speech as a directional connection between the speaker and all characters present to hear their speech, weighted by the number of words spoken. We explore correlations between the mathematical properties of the networks and dramatic genre. We have also made these networks...</p>
-</li>
-<li>
-<p class="itemTitle">intro & context</p>
-<p class="itemText">Our inquiry considers the speech interactions of characters within plays as a proxy for broad narrative structures. We analyze computationally-generated social networks of 37 plays by Shakespeare to explore metrics for nuanced comparison within large corpora of comparable plays.</p>
-<p class="itemText"></p>
-<p class="itemText">Because dramatic performances enact social encounters, social network analysis translates surprisingly well to fictional societies. Stiller et al. have shown that social networks in Shakespeare’s play mirror those of re...</p>
-</li>
-<li>
-<p class="itemTitle">shakey's social networks</p>
-</li>
-<hr class="afterTitle"/>
-<ul>
-<li>
-<p class="itemTitle">methods</p>
-<p class="itemText">We generated social networks from XML files of Shakespeare’s 37 plays, with characters as nodes and directional speech as edges. Previous scholars’ work regularizing character names through TEI markup allows the parser to use the tagged character names and stage directions to track who is present on stage as each scene proceeds. This fine-grained approach breaks each scene into many smaller ‘blocks’ based on the configuration of characters on stage, reducing false positives caused by characters ...</p>
-</li>
-<li>
-<p class="itemTitle">findings</p>
-<p class="itemText">To verify that our tool is accurate, we compare our generated network of Hamlet to Moretti’s well-known handmade model of that play (2011). Despite some minor differences in how we handle the most peripheral characters like “Servant”, the two networks are highly similar. In both, Hamlet has the highest node centrality (the measure of connectedness which Moretti uses as a proxy for his status as protagonist) and highest node degree (the number of times he speaks or is spoken to), with Claudius, G...</p>
-</li>
-</ul>
-<hr class="afterText"/>
-
-<li>
-<p class="itemTitle">summary & future work</p>
-<p class="itemText">Our parser successfully and rapidly produces sophisticated social network graphs of marked up plays. We have used these networks as a supplement to close-reading Shakespeare’s oeuvre, and as a tool to explore complex relationships between Early Modern theatrical genres.</p>
-<p class="itemText"></p>
-<p class="itemText">Our first 37 networks are available online in an interactive format to allow others to pose their own questions for future work on Shakespeare’s networks.</p>
-<p class="itemText"></p>
-<p class="itemText">However, since the parser is highly extensible and can be used with any ...</p>
-</li>
-</ul>
-<hr class="afterText"/>
-
-<li>
-<p class="topLevelItemTitle">response to reviewers</p>
-<p class="itemText"></p>
-<p class="itemText">To briefly address questions about the parser: although our parser has not solved the problem of guessing the specific addressees of a character’s speech, and instead tracks characters present on stage during speech, its simplifications allow it to be remarkably extensible. It could be used to parse any play that follows TEI P5 guidelines for performance texts, using <speaker> tags with standardized character names and marking act and scene divisions with <div> tags. The parser also examines sc...</p>
-</li>
-<li>
-<p class="topLevelItemTitle">paper</p>
-</li>
-<hr class="afterTitle"/>
-<ul>
-<li>
-<p class="itemTitle">speech as proxy for narrative structure</p>
-<p class="itemText">Our inquiry considers the speech interactions of characters within plays as a proxy for narrative structure.</p>
-<p class="itemText">Because dramatic performances enact social encounters, social network analysis translates surprisingly well to fictional societies. Stiller et al. have shown that social networks in Shakespeare’s play mirror those of real human interactions, particularly in size, clustering, and maximum degrees of seperation (2003). These similarities lend validity to discussions of individual characters ...</p>
-</li>
-<li>
-<p class="itemTitle">social networks from XML</p>
-<p class="itemText">We generated social networks from XML marked up editions of all of Shakespeare’s plays. The networks capture character speech as a directional connection between the speaker and all characters present to hear their speech, weighted by the number of words spoken.</p>
-<p class="itemText">We generated social networks from XML files of Shakespeare’s 37 plays, with characters as nodes and directional speech as edges. Previous scholars’ work regularizing character names through TEI markup allows the parser to use the tagged ...</p>
-</li>
-<hr class="afterText"/>
-<ul>
-<li>
-<p class="itemTitle">verified against Moretti</p>
-<p class="itemText">To verify that our tool is accurate, we compare our generated network of Hamlet to Moretti’s well-known handmade model of that play (2011). Despite some minor differences in how we handle the most peripheral characters like “Servant”, the two networks are highly similar. In both, Hamlet has the highest node centrality (the measure of connectedness which Moretti uses as a proxy for his status as protagonist) and highest node degree (the number of times he speaks or is spoken to), with Claudius, G...</p>
-</li>
-</ul>
-<hr class="afterText"/>
-
-<li>
-<p class="itemTitle">interpretation</p>
-<p class="itemText">We explore correlations between the mathematical properties of the networks and dramatic genre.</p>
-<p class="itemText"></p>
-<p class="itemText">Our tool improves on Moretti’s model by adding direction and weight to each connection. It becomes possible to identify characters with strongly varying in-degree and out-degree measures (either speaking to others substantially more than they are spoken to, or the reverse), which we explore as a metric of the character’s social rank. These added details reinforce Moretti’s literary arguments about Sh...</p>
-</li>
-<li>
-<p class="itemTitle">future work</p>
-<p class="itemText">We have also made these networks available and manipulable online. These networks may be of interest to scholars of Shakespeare, and allow another approach to discussions of generic hybridity in early modern drama. The project as a whole may also provide a way to make comparisons within large corpora of plays.</p>
-<p class="itemText"></p>
-<p class="itemText">Our first 37 networks are available online in an interactive format to allow others to pose their own questions for future work on Shakespeare’s networks.</p>
-<p class="itemText"></p>
-<p class="itemText">However, since the parser is hi...</p>
-</li>
-</ul>
-<hr class="afterText"/>
 
 <li>
 <p class="topLevelItemTitle">Works Cited</p>
