@@ -88,66 +88,60 @@
 
 <ul>
 <li>
-<p class="topLevelItemTitle">paper (10 min)</p>
-</li>
-<hr class="afterTitle"/>
-<ul>
-<li>
-<p class="itemTitle">opening</p>
-</li>
-<li>
-<p class="itemTitle">principle of play = network</p>
-</li>
-<hr class="afterTitle"/>
-<ul>
-<li>
-<p class="itemTitle">shakespeare hypotheses</p>
-</li>
-</ul>
-<hr class="afterTitle"/>
-
-<li>
-<p class="itemTitle">how our networks work</p>
-</li>
-<li>
-<p class="itemTitle">shakespeare results</p>
-</li>
-<li>
-<p class="itemTitle">closing</p>
-<p class="itemText">The most exciting part about all of this, for me, is that the program ought to be able to run on any TEI-encoded play. I’m personally hoping to use it on a corpus I’m building of eighteenth century plays in English and French, but we would love to hear from scholars who have their own corpora of TEI-encoded plays which they’d like to explore as social networks.</p>
-<p class="itemText"></p>
-<p class="itemText">[Slide: all our contact info]</p>
-</li>
-</ul>
-<hr class="afterText"/>
-
-<li>
 <p class="topLevelItemTitle">final abstract (1200 wds)</p>
 </li>
 <hr class="afterTitle"/>
 <ul>
 <li>
-<p class="itemTitle">intro & context</p>
+<p class="itemTitle">intro: network = plot</p>
+<p class="itemText"># Introduction</p>
+<p class="itemText"></p>
+<p class="itemText">Our inquiry considers the speech interactions of characters within plays as a proxy for broad narrative structures. We analyze computationally-generated social networks of 37 plays by Shakespeare to see whether, and how, they can be used to distinguish between Shakespeare’s comedies, tragedies, and histories.</p>
+<p class="itemText"></p>
+<p class="itemText">Because dramatic performances enact social encounters, social network analysis translates surprisingly well to fictional societies. Stiller et al. have shown that social ne...</p>
 </li>
 <li>
-<p class="itemTitle">shakey's social networks</p>
+<p class="itemTitle">parser</p>
+<p class="itemText"># Methods</p>
+<p class="itemText"></p>
+<p class="itemText">## Creating the Social Network Graphs</p>
+<p class="itemText"></p>
+<p class="itemText">We built a parser that turns TEI-encoded plays into social network graphs.</p>
+<p class="itemText"></p>
+<p class="itemText">We generated social networks from XML files of Shakespeare’s 37 plays, with characters as nodes and directional speech as edges. Previous scholars’ work regularizing character names through TEI markup allows the parser to use the tagged character names and stage directions to track who is present on stage as each scene proceeds. This fine-grained approach breaks each scen...</p>
+</li>
+<li>
+<p class="itemTitle">validated on shakey</p>
+<p class="itemText">We started with Shakespeare because there’s a lot of work on Shakespeare. Our Hamlet graph matches Moretti’s, and ditto his other tragedy graphs.</p>
+</li>
+<li>
+<p class="itemTitle">networks can ID genre</p>
+<p class="itemText">Using fivefold validation, we were able to show that social networks can be used to identify whether plays are labelled as tragedy, history, comedy. We considered 17 different mathematical features of the networks; no one feature was sufficient to identify the genre, though “graph density” came closest (83% accuracy). One combination which does achieve 100% accuracy is “edges, words, and degree”. (Other combos might also be able to do it, including maybe a pair, but one combo is sufficient to pr...</p>
+</li>
+<li>
+<p class="itemTitle">IDs illuminate problem plays</p>
+<p class="itemText">With this preliminary validation we can step back and look at Shakespeare’s various contested genres. The “problem plays” look unproblematically like comedies, suggesting that it’s their content rather than their form which makes them problematic. Similarly, the “Roman plays” are unquestionably tragedies, not histories, with the possible exception of Antony and Cleopatra. However, the hybrid form of the “romances” or “tragicomedies” is more structural: the edges and degree are what dominate and ...</p>
+</li>
+<li>
+<p class="itemTitle">conclusion: extensibility</p>
+<p class="itemText">The networks thus provide a framework for discussion of the plays’ structure separately from their content. 37 plays is a small scale for this approach: future work will expand beyond a single author.</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="topLevelItemTitle">paper (10min)</p>
 </li>
 <hr class="afterTitle"/>
 <ul>
 <li>
-<p class="itemTitle">methods</p>
-</li>
-<li>
-<p class="itemTitle">findings</p>
-</li>
-</ul>
-<hr class="afterTitle"/>
-
-<li>
-<p class="itemTitle">summary & future work</p>
+<p class="itemTitle">closing</p>
+<p class="itemText"></p>
+<p class="itemText"></p>
+<p class="itemText">The most exciting part about all of this, for me, is that the program ought to be able to run on any TEI-encoded play. I’m personally hoping to use it on a corpus I’m building of eighteenth century plays in English and French, but we would love to hear from scholars who have their own corpora of TEI-encoded plays which they’d like to explore as social networks.</p>
 </li>
 </ul>
-<hr class="afterTitle"/>
+<hr class="afterText"/>
 
 <li>
 <p class="topLevelItemTitle">Works Cited</p>
@@ -162,13 +156,7 @@
 <hr class="afterText"/>
 
 <li>
-<p class="topLevelItemTitle">writing timeline</p>
-<p class="itemText"></p>
-<p class="itemText">March 5 - find out whether we’re accepted to DH2018</p>
-<p class="itemText">March 31 - finalize Shakespeare networks. Start exploring other networks?</p>
-<p class="itemText">April 30 - first draft of paper?</p>
-<p class="itemText">May 31 - second draft of paper?</p>
-<p class="itemText">June 26 - DH2018</p>
+<p class="topLevelItemTitle">Acknowledgements</p>
 </li>
 </ul>
 

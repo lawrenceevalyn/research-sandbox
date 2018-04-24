@@ -4,9 +4,6 @@
         <Document ID="33B4B91A-323E-41EA-86B2-7DA0B72D97B3">
             <Title>Thought</Title>
         </Document>
-        <Document ID="B7A345B7-DF64-4E0B-8047-68209EBFF871">
-            <Title>paper</Title>
-        </Document>
         <Document ID="F6A88C62-2FF2-49F5-AE86-5D5626073CDC">
             <Title>Text 4</Title>
         </Document>
@@ -19,6 +16,9 @@
         <Document ID="3459DF35-B75F-43AE-A0F6-8017AC3FF1DA">
             <Title>brief summary</Title>
             <Text>Our inquiry considers the speech interactions of characters within plays as a proxy for narrative structure. We generated social networks from XML marked up editions of all of Shakespeare’s plays. The networks capture character speech as a directional connection between the speaker and all characters present to hear their speech, weighted by the number of words spoken. We explore correlations between the mathematical properties of the networks and dramatic genre. We have also made these networks available and manipulable online. These networks may be of interest to scholars of Shakespeare, and allow another approach to discussions of generic hybridity in early modern drama. The project as a whole may also provide a way to make comparisons within large corpora of plays.</Text>
+        </Document>
+        <Document ID="E178C43A-001E-4C14-8C4B-1F41E853FF49">
+            <Title>Secondary Texts</Title>
         </Document>
         <Document ID="46DC9C7F-C12F-4039-AECE-3F50E817499A">
             <Title>social networks from XML</Title>
@@ -54,9 +54,6 @@ However, as fictions, these networks are shaped not only by sociological princip
 Recent papers presented at DH2017 sought ways to richly quantify the details of one or two plays (Fischer et al. 2017, Tonra et al. 2017). At another scale, Algee-Hewitt examined 3,439 plays by looking only at the Gini Coefficient of each play’s eigenvector centrality (2017). With our three dozen plays, we attempt to strike a fruitful middle ground in the inevitable balancing act between detail and scale. Each play is considered individually, but at a level of abstraction which allows rapid and direct comparisons.
 </Text>
         </Document>
-        <Document ID="E178C43A-001E-4C14-8C4B-1F41E853FF49">
-            <Title>Secondary Texts</Title>
-        </Document>
         <Document ID="AD1BA0E3-0A24-440D-8869-AF66460A5641">
             <Title>writing timeline</Title>
             <Text>
@@ -68,6 +65,12 @@ June 26 - DH2018</Text>
         </Document>
         <Document ID="82671909-9DA8-4F11-BAFE-F323D922EC73">
             <Title>Text 3</Title>
+        </Document>
+        <Document ID="E66EFAB6-E367-463C-AC2B-A573A8BF13EA">
+            <Title>closing</Title>
+            <Text>The most exciting part about all of this, for me, is that the program ought to be able to run on any TEI-encoded play. I’m personally hoping to use it on a corpus I’m building of eighteenth century plays in English and French, but we would love to hear from scholars who have their own corpora of TEI-encoded plays which they’d like to explore as social networks.
+
+[Slide: all our contact info]</Text>
         </Document>
         <Document ID="8F78AFE0-51A4-473F-9F62-7476C7A09638">
             <Title>response to reviewers</Title>
@@ -149,7 +152,7 @@ In addition to close-reading the network visualizations of individual plays, we 
         <Document ID="A9BE20F0-3B04-40F7-9F25-B8182EE15BC0">
             <Title>speech as proxy for narrative structure</Title>
             <Text>Our inquiry considers the speech interactions of characters within plays as a proxy for narrative structure.
-Because dramatic performances enact social encounters, social network analysis translates surprisingly well to fictional societies. Stiller et al. have shown that social networks in Shakespeare’s play mirror those of real human interactions, particularly in size, clustering, and maximum degrees of seperation (2003). These similarities lend validity to discussions of individual characters filling specific roles in their social networks, particularly in terms of connectedness and cliques.
+Because dramatic performances enact social encounters, social network analysis translates surprisingly well to fictional societies. Stiller et al. have shown that social networks in Shakespeare’s play mirror those of real human interactions, particularly in size, clustering, and maximum degrees of separation (2003). These similarities lend validity to discussions of individual characters filling specific roles in their social networks, particularly in terms of connectedness and cliques.
 
 However, as fictions, these networks are shaped not only by sociological principles, but also by narrative structures. Moretti uses social networks to examine the plots of three Shakespearean tragedies, and to contrast the structure of chapters in English and Chinese novels (2011). Alberich et al. (2002) and Sparavigna (2013) also discuss the interplay between social and narrative constraints on networks. We emphasize this distinction to look for specifically literary features of our networks.</Text>
         </Document>

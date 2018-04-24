@@ -1,0 +1,435 @@
+Source,Target,Type,Id,Label,timeset,Weight,scenes
+0,2,Directed,0,Hamlet --- Osric,,1,1
+0,3,Directed,1,Hamlet --- Second Clown,,1,1
+0,4,Directed,2,Hamlet --- All,,4,4
+0,5,Directed,3,Hamlet --- Fortinbras,,2,2
+0,7,Directed,4,Hamlet --- Ophelia,,2,2
+0,8,Directed,5,Hamlet --- Claudius,,8,8
+0,9,Directed,6,Hamlet --- Ghost of Hamlet's Father,,2,2
+0,11,Directed,7,Hamlet --- Bernardo,,1,1
+0,12,Directed,8,Hamlet --- Horatio,,6,6
+0,14,Directed,9,Hamlet --- Player Queen,,1,1
+0,16,Directed,10,Hamlet --- A Priest,,1,1
+0,17,Directed,11,Hamlet --- Voltimand,,2,2
+0,18,Directed,12,Hamlet --- Prologue,,1,1
+0,19,Directed,13,Hamlet --- Player King,,1,1
+0,20,Directed,14,Hamlet --- Marcellus,,3,3
+0,23,Directed,15,Hamlet --- First Clown,,1,1
+0,24,Directed,16,Hamlet --- A Captain,,1,1
+0,26,Directed,17,Hamlet --- Cornelius,,1,1
+0,27,Directed,18,Hamlet --- First Player,,2,2
+0,28,Directed,19,Hamlet --- Gertrude,,7,7
+0,29,Directed,20,Hamlet --- Lucianus,,1,1
+0,31,Directed,21,Hamlet --- Lord,,1,1
+0,32,Directed,22,Hamlet --- Polonius,,6,6
+0,33,Directed,23,Hamlet --- Guildenstern,,5,5
+0,34,Directed,24,Hamlet --- Laertes,,3,3
+0,35,Directed,25,Hamlet --- First Ambassador,,1,1
+0,36,Directed,26,Hamlet --- Rosencrantz,,7,7
+2,0,Directed,27,Osric --- Hamlet,,1,1
+2,4,Directed,28,Osric --- All,,1,1
+2,5,Directed,29,Osric --- Fortinbras,,1,1
+2,8,Directed,30,Osric --- Claudius,,1,1
+2,12,Directed,31,Osric --- Horatio,,1,1
+2,28,Directed,32,Osric --- Gertrude,,1,1
+2,31,Directed,33,Osric --- Lord,,1,1
+2,34,Directed,34,Osric --- Laertes,,1,1
+2,35,Directed,35,Osric --- First Ambassador,,1,1
+3,0,Directed,36,Second Clown --- Hamlet,,1,1
+3,4,Directed,37,Second Clown --- All,,1,1
+3,8,Directed,38,Second Clown --- Claudius,,1,1
+3,12,Directed,39,Second Clown --- Horatio,,1,1
+3,16,Directed,40,Second Clown --- A Priest,,1,1
+3,23,Directed,41,Second Clown --- First Clown,,1,1
+3,28,Directed,42,Second Clown --- Gertrude,,1,1
+3,34,Directed,43,Second Clown --- Laertes,,1,1
+4,0,Directed,44,All --- Hamlet,,4,4
+4,2,Directed,45,All --- Osric,,1,1
+4,3,Directed,46,All --- Second Clown,,1,1
+4,5,Directed,47,All --- Fortinbras,,1,1
+4,7,Directed,48,All --- Ophelia,,1,1
+4,8,Directed,49,All --- Claudius,,4,4
+4,11,Directed,50,All --- Bernardo,,1,1
+4,12,Directed,51,All --- Horatio,,4,4
+4,14,Directed,52,All --- Player Queen,,1,1
+4,16,Directed,53,All --- A Priest,,1,1
+4,17,Directed,54,All --- Voltimand,,1,1
+4,18,Directed,55,All --- Prologue,,1,1
+4,19,Directed,56,All --- Player King,,1,1
+4,20,Directed,57,All --- Marcellus,,1,1
+4,23,Directed,58,All --- First Clown,,1,1
+4,26,Directed,59,All --- Cornelius,,1,1
+4,27,Directed,60,All --- First Player,,1,1
+4,28,Directed,61,All --- Gertrude,,4,4
+4,29,Directed,62,All --- Lucianus,,1,1
+4,31,Directed,63,All --- Lord,,1,1
+4,32,Directed,64,All --- Polonius,,2,2
+4,33,Directed,65,All --- Guildenstern,,1,1
+4,34,Directed,66,All --- Laertes,,3,3
+4,35,Directed,67,All --- First Ambassador,,1,1
+4,36,Directed,68,All --- Rosencrantz,,1,1
+5,0,Directed,69,Fortinbras --- Hamlet,,2,2
+5,2,Directed,70,Fortinbras --- Osric,,1,1
+5,4,Directed,71,Fortinbras --- All,,1,1
+5,8,Directed,72,Fortinbras --- Claudius,,1,1
+5,12,Directed,73,Fortinbras --- Horatio,,1,1
+5,24,Directed,74,Fortinbras --- A Captain,,1,1
+5,28,Directed,75,Fortinbras --- Gertrude,,1,1
+5,31,Directed,76,Fortinbras --- Lord,,1,1
+5,34,Directed,77,Fortinbras --- Laertes,,1,1
+5,35,Directed,78,Fortinbras --- First Ambassador,,1,1
+5,36,Directed,79,Fortinbras --- Rosencrantz,,1,1
+6,11,Directed,80,Francisco --- Bernardo,,1,1
+6,12,Directed,81,Francisco --- Horatio,,1,1
+6,20,Directed,82,Francisco --- Marcellus,,1,1
+7,0,Directed,83,Ophelia --- Hamlet,,2,2
+7,4,Directed,84,Ophelia --- All,,1,1
+7,8,Directed,85,Ophelia --- Claudius,,3,3
+7,12,Directed,86,Ophelia --- Horatio,,2,2
+7,13,Directed,87,Ophelia --- A Gentleman,,1,1
+7,14,Directed,88,Ophelia --- Player Queen,,1,1
+7,18,Directed,89,Ophelia --- Prologue,,1,1
+7,19,Directed,90,Ophelia --- Player King,,1,1
+7,21,Directed,91,Ophelia --- Danes,,1,1
+7,27,Directed,92,Ophelia --- First Player,,1,1
+7,28,Directed,93,Ophelia --- Gertrude,,3,3
+7,29,Directed,94,Ophelia --- Lucianus,,1,1
+7,30,Directed,95,Ophelia --- Reynaldo,,1,1
+7,32,Directed,96,Ophelia --- Polonius,,4,4
+7,33,Directed,97,Ophelia --- Guildenstern,,2,2
+7,34,Directed,98,Ophelia --- Laertes,,2,2
+7,36,Directed,99,Ophelia --- Rosencrantz,,2,2
+8,0,Directed,100,Claudius --- Hamlet,,8,8
+8,2,Directed,101,Claudius --- Osric,,1,1
+8,3,Directed,102,Claudius --- Second Clown,,1,1
+8,4,Directed,103,Claudius --- All,,4,4
+8,5,Directed,104,Claudius --- Fortinbras,,1,1
+8,7,Directed,105,Claudius --- Ophelia,,3,3
+8,11,Directed,106,Claudius --- Bernardo,,1,1
+8,12,Directed,107,Claudius --- Horatio,,5,5
+8,13,Directed,108,Claudius --- A Gentleman,,1,1
+8,14,Directed,109,Claudius --- Player Queen,,1,1
+8,15,Directed,110,Claudius --- Mess,,1,1
+8,16,Directed,111,Claudius --- A Priest,,1,1
+8,17,Directed,112,Claudius --- Voltimand,,2,2
+8,18,Directed,113,Claudius --- Prologue,,1,1
+8,19,Directed,114,Claudius --- Player King,,1,1
+8,20,Directed,115,Claudius --- Marcellus,,1,1
+8,21,Directed,116,Claudius --- Danes,,1,1
+8,23,Directed,117,Claudius --- First Clown,,1,1
+8,26,Directed,118,Claudius --- Cornelius,,1,1
+8,27,Directed,119,Claudius --- First Player,,2,2
+8,28,Directed,120,Claudius --- Gertrude,,9,9
+8,29,Directed,121,Claudius --- Lucianus,,1,1
+8,31,Directed,122,Claudius --- Lord,,1,1
+8,32,Directed,123,Claudius --- Polonius,,5,5
+8,33,Directed,124,Claudius --- Guildenstern,,4,4
+8,34,Directed,125,Claudius --- Laertes,,5,5
+8,35,Directed,126,Claudius --- First Ambassador,,1,1
+8,36,Directed,127,Claudius --- Rosencrantz,,5,5
+9,0,Directed,128,Ghost of Hamlet's Father --- Hamlet,,2,2
+9,12,Directed,129,Ghost of Hamlet's Father --- Horatio,,1,1
+9,20,Directed,130,Ghost of Hamlet's Father --- Marcellus,,1,1
+9,28,Directed,131,Ghost of Hamlet's Father --- Gertrude,,1,1
+9,32,Directed,132,Ghost of Hamlet's Father --- Polonius,,1,1
+10,12,Directed,133,Sailor --- Horatio,,1,1
+10,25,Directed,134,Sailor --- Servant,,1,1
+11,0,Directed,135,Bernardo --- Hamlet,,1,1
+11,4,Directed,136,Bernardo --- All,,1,1
+11,6,Directed,137,Bernardo --- Francisco,,1,1
+11,8,Directed,138,Bernardo --- Claudius,,1,1
+11,12,Directed,139,Bernardo --- Horatio,,2,2
+11,17,Directed,140,Bernardo --- Voltimand,,1,1
+11,20,Directed,141,Bernardo --- Marcellus,,2,2
+11,26,Directed,142,Bernardo --- Cornelius,,1,1
+11,28,Directed,143,Bernardo --- Gertrude,,1,1
+11,32,Directed,144,Bernardo --- Polonius,,1,1
+11,34,Directed,145,Bernardo --- Laertes,,1,1
+12,0,Directed,146,Horatio --- Hamlet,,6,6
+12,2,Directed,147,Horatio --- Osric,,1,1
+12,3,Directed,148,Horatio --- Second Clown,,1,1
+12,4,Directed,149,Horatio --- All,,4,4
+12,5,Directed,150,Horatio --- Fortinbras,,1,1
+12,6,Directed,151,Horatio --- Francisco,,1,1
+12,7,Directed,152,Horatio --- Ophelia,,2,2
+12,8,Directed,153,Horatio --- Claudius,,5,5
+12,9,Directed,154,Horatio --- Ghost of Hamlet's Father,,1,1
+12,10,Directed,155,Horatio --- Sailor,,1,1
+12,11,Directed,156,Horatio --- Bernardo,,2,2
+12,13,Directed,157,Horatio --- A Gentleman,,1,1
+12,14,Directed,158,Horatio --- Player Queen,,1,1
+12,16,Directed,159,Horatio --- A Priest,,1,1
+12,17,Directed,160,Horatio --- Voltimand,,1,1
+12,18,Directed,161,Horatio --- Prologue,,1,1
+12,19,Directed,162,Horatio --- Player King,,1,1
+12,20,Directed,163,Horatio --- Marcellus,,4,4
+12,21,Directed,164,Horatio --- Danes,,1,1
+12,23,Directed,165,Horatio --- First Clown,,1,1
+12,25,Directed,166,Horatio --- Servant,,1,1
+12,26,Directed,167,Horatio --- Cornelius,,1,1
+12,27,Directed,168,Horatio --- First Player,,1,1
+12,28,Directed,169,Horatio --- Gertrude,,5,5
+12,29,Directed,170,Horatio --- Lucianus,,1,1
+12,31,Directed,171,Horatio --- Lord,,1,1
+12,32,Directed,172,Horatio --- Polonius,,2,2
+12,33,Directed,173,Horatio --- Guildenstern,,1,1
+12,34,Directed,174,Horatio --- Laertes,,4,4
+12,35,Directed,175,Horatio --- First Ambassador,,1,1
+12,36,Directed,176,Horatio --- Rosencrantz,,1,1
+13,7,Directed,177,A Gentleman --- Ophelia,,1,1
+13,8,Directed,178,A Gentleman --- Claudius,,1,1
+13,12,Directed,179,A Gentleman --- Horatio,,1,1
+13,21,Directed,180,A Gentleman --- Danes,,1,1
+13,28,Directed,181,A Gentleman --- Gertrude,,1,1
+13,34,Directed,182,A Gentleman --- Laertes,,1,1
+14,0,Directed,183,Player Queen --- Hamlet,,1,1
+14,4,Directed,184,Player Queen --- All,,1,1
+14,7,Directed,185,Player Queen --- Ophelia,,1,1
+14,8,Directed,186,Player Queen --- Claudius,,1,1
+14,12,Directed,187,Player Queen --- Horatio,,1,1
+14,18,Directed,188,Player Queen --- Prologue,,1,1
+14,19,Directed,189,Player Queen --- Player King,,1,1
+14,27,Directed,190,Player Queen --- First Player,,1,1
+14,28,Directed,191,Player Queen --- Gertrude,,1,1
+14,29,Directed,192,Player Queen --- Lucianus,,1,1
+14,32,Directed,193,Player Queen --- Polonius,,1,1
+14,33,Directed,194,Player Queen --- Guildenstern,,1,1
+14,36,Directed,195,Player Queen --- Rosencrantz,,1,1
+15,8,Directed,196,Mess --- Claudius,,1,1
+15,28,Directed,197,Mess --- Gertrude,,1,1
+15,34,Directed,198,Mess --- Laertes,,1,1
+16,0,Directed,199,A Priest --- Hamlet,,1,1
+16,3,Directed,200,A Priest --- Second Clown,,1,1
+16,4,Directed,201,A Priest --- All,,1,1
+16,8,Directed,202,A Priest --- Claudius,,1,1
+16,12,Directed,203,A Priest --- Horatio,,1,1
+16,23,Directed,204,A Priest --- First Clown,,1,1
+16,28,Directed,205,A Priest --- Gertrude,,1,1
+16,34,Directed,206,A Priest --- Laertes,,1,1
+17,0,Directed,207,Voltimand --- Hamlet,,2,2
+17,4,Directed,208,Voltimand --- All,,1,1
+17,8,Directed,209,Voltimand --- Claudius,,2,2
+17,11,Directed,210,Voltimand --- Bernardo,,1,1
+17,12,Directed,211,Voltimand --- Horatio,,1,1
+17,20,Directed,212,Voltimand --- Marcellus,,1,1
+17,26,Directed,213,Voltimand --- Cornelius,,1,1
+17,27,Directed,214,Voltimand --- First Player,,1,1
+17,28,Directed,215,Voltimand --- Gertrude,,2,2
+17,32,Directed,216,Voltimand --- Polonius,,2,2
+17,33,Directed,217,Voltimand --- Guildenstern,,1,1
+17,34,Directed,218,Voltimand --- Laertes,,1,1
+17,36,Directed,219,Voltimand --- Rosencrantz,,1,1
+18,0,Directed,220,Prologue --- Hamlet,,1,1
+18,4,Directed,221,Prologue --- All,,1,1
+18,7,Directed,222,Prologue --- Ophelia,,1,1
+18,8,Directed,223,Prologue --- Claudius,,1,1
+18,12,Directed,224,Prologue --- Horatio,,1,1
+18,14,Directed,225,Prologue --- Player Queen,,1,1
+18,19,Directed,226,Prologue --- Player King,,1,1
+18,27,Directed,227,Prologue --- First Player,,1,1
+18,28,Directed,228,Prologue --- Gertrude,,1,1
+18,29,Directed,229,Prologue --- Lucianus,,1,1
+18,32,Directed,230,Prologue --- Polonius,,1,1
+18,33,Directed,231,Prologue --- Guildenstern,,1,1
+18,36,Directed,232,Prologue --- Rosencrantz,,1,1
+19,0,Directed,233,Player King --- Hamlet,,1,1
+19,4,Directed,234,Player King --- All,,1,1
+19,7,Directed,235,Player King --- Ophelia,,1,1
+19,8,Directed,236,Player King --- Claudius,,1,1
+19,12,Directed,237,Player King --- Horatio,,1,1
+19,14,Directed,238,Player King --- Player Queen,,1,1
+19,18,Directed,239,Player King --- Prologue,,1,1
+19,27,Directed,240,Player King --- First Player,,1,1
+19,28,Directed,241,Player King --- Gertrude,,1,1
+19,29,Directed,242,Player King --- Lucianus,,1,1
+19,32,Directed,243,Player King --- Polonius,,1,1
+19,33,Directed,244,Player King --- Guildenstern,,1,1
+19,36,Directed,245,Player King --- Rosencrantz,,1,1
+20,0,Directed,246,Marcellus --- Hamlet,,3,3
+20,4,Directed,247,Marcellus --- All,,1,1
+20,6,Directed,248,Marcellus --- Francisco,,1,1
+20,8,Directed,249,Marcellus --- Claudius,,1,1
+20,9,Directed,250,Marcellus --- Ghost of Hamlet's Father,,1,1
+20,11,Directed,251,Marcellus --- Bernardo,,2,2
+20,12,Directed,252,Marcellus --- Horatio,,4,4
+20,17,Directed,253,Marcellus --- Voltimand,,1,1
+20,26,Directed,254,Marcellus --- Cornelius,,1,1
+20,28,Directed,255,Marcellus --- Gertrude,,1,1
+20,32,Directed,256,Marcellus --- Polonius,,1,1
+20,34,Directed,257,Marcellus --- Laertes,,1,1
+21,7,Directed,258,Danes --- Ophelia,,1,1
+21,8,Directed,259,Danes --- Claudius,,1,1
+21,12,Directed,260,Danes --- Horatio,,1,1
+21,13,Directed,261,Danes --- A Gentleman,,1,1
+21,28,Directed,262,Danes --- Gertrude,,1,1
+21,34,Directed,263,Danes --- Laertes,,1,1
+23,0,Directed,264,First Clown --- Hamlet,,1,1
+23,3,Directed,265,First Clown --- Second Clown,,1,1
+23,4,Directed,266,First Clown --- All,,1,1
+23,8,Directed,267,First Clown --- Claudius,,1,1
+23,12,Directed,268,First Clown --- Horatio,,1,1
+23,16,Directed,269,First Clown --- A Priest,,1,1
+23,28,Directed,270,First Clown --- Gertrude,,1,1
+23,34,Directed,271,First Clown --- Laertes,,1,1
+24,0,Directed,272,A Captain --- Hamlet,,1,1
+24,5,Directed,273,A Captain --- Fortinbras,,1,1
+24,36,Directed,274,A Captain --- Rosencrantz,,1,1
+25,10,Directed,275,Servant --- Sailor,,1,1
+25,12,Directed,276,Servant --- Horatio,,1,1
+26,0,Directed,277,Cornelius --- Hamlet,,1,1
+26,4,Directed,278,Cornelius --- All,,1,1
+26,8,Directed,279,Cornelius --- Claudius,,1,1
+26,11,Directed,280,Cornelius --- Bernardo,,1,1
+26,12,Directed,281,Cornelius --- Horatio,,1,1
+26,17,Directed,282,Cornelius --- Voltimand,,1,1
+26,20,Directed,283,Cornelius --- Marcellus,,1,1
+26,28,Directed,284,Cornelius --- Gertrude,,1,1
+26,32,Directed,285,Cornelius --- Polonius,,1,1
+26,34,Directed,286,Cornelius --- Laertes,,1,1
+27,0,Directed,287,First Player --- Hamlet,,2,2
+27,4,Directed,288,First Player --- All,,1,1
+27,7,Directed,289,First Player --- Ophelia,,1,1
+27,8,Directed,290,First Player --- Claudius,,2,2
+27,12,Directed,291,First Player --- Horatio,,1,1
+27,14,Directed,292,First Player --- Player Queen,,1,1
+27,17,Directed,293,First Player --- Voltimand,,1,1
+27,18,Directed,294,First Player --- Prologue,,1,1
+27,19,Directed,295,First Player --- Player King,,1,1
+27,28,Directed,296,First Player --- Gertrude,,2,2
+27,29,Directed,297,First Player --- Lucianus,,1,1
+27,32,Directed,298,First Player --- Polonius,,2,2
+27,33,Directed,299,First Player --- Guildenstern,,2,2
+27,36,Directed,300,First Player --- Rosencrantz,,2,2
+28,0,Directed,301,Gertrude --- Hamlet,,7,7
+28,2,Directed,302,Gertrude --- Osric,,1,1
+28,3,Directed,303,Gertrude --- Second Clown,,1,1
+28,4,Directed,304,Gertrude --- All,,4,4
+28,5,Directed,305,Gertrude --- Fortinbras,,1,1
+28,7,Directed,306,Gertrude --- Ophelia,,3,3
+28,8,Directed,307,Gertrude --- Claudius,,9,9
+28,9,Directed,308,Gertrude --- Ghost of Hamlet's Father,,1,1
+28,11,Directed,309,Gertrude --- Bernardo,,1,1
+28,12,Directed,310,Gertrude --- Horatio,,5,5
+28,13,Directed,311,Gertrude --- A Gentleman,,1,1
+28,14,Directed,312,Gertrude --- Player Queen,,1,1
+28,15,Directed,313,Gertrude --- Mess,,1,1
+28,16,Directed,314,Gertrude --- A Priest,,1,1
+28,17,Directed,315,Gertrude --- Voltimand,,2,2
+28,18,Directed,316,Gertrude --- Prologue,,1,1
+28,19,Directed,317,Gertrude --- Player King,,1,1
+28,20,Directed,318,Gertrude --- Marcellus,,1,1
+28,21,Directed,319,Gertrude --- Danes,,1,1
+28,23,Directed,320,Gertrude --- First Clown,,1,1
+28,26,Directed,321,Gertrude --- Cornelius,,1,1
+28,27,Directed,322,Gertrude --- First Player,,2,2
+28,29,Directed,323,Gertrude --- Lucianus,,1,1
+28,31,Directed,324,Gertrude --- Lord,,1,1
+28,32,Directed,325,Gertrude --- Polonius,,5,5
+28,33,Directed,326,Gertrude --- Guildenstern,,3,3
+28,34,Directed,327,Gertrude --- Laertes,,5,5
+28,35,Directed,328,Gertrude --- First Ambassador,,1,1
+28,36,Directed,329,Gertrude --- Rosencrantz,,3,3
+29,0,Directed,330,Lucianus --- Hamlet,,1,1
+29,4,Directed,331,Lucianus --- All,,1,1
+29,7,Directed,332,Lucianus --- Ophelia,,1,1
+29,8,Directed,333,Lucianus --- Claudius,,1,1
+29,12,Directed,334,Lucianus --- Horatio,,1,1
+29,14,Directed,335,Lucianus --- Player Queen,,1,1
+29,18,Directed,336,Lucianus --- Prologue,,1,1
+29,19,Directed,337,Lucianus --- Player King,,1,1
+29,27,Directed,338,Lucianus --- First Player,,1,1
+29,28,Directed,339,Lucianus --- Gertrude,,1,1
+29,32,Directed,340,Lucianus --- Polonius,,1,1
+29,33,Directed,341,Lucianus --- Guildenstern,,1,1
+29,36,Directed,342,Lucianus --- Rosencrantz,,1,1
+30,7,Directed,343,Reynaldo --- Ophelia,,1,1
+30,32,Directed,344,Reynaldo --- Polonius,,1,1
+31,0,Directed,345,Lord --- Hamlet,,1,1
+31,2,Directed,346,Lord --- Osric,,1,1
+31,4,Directed,347,Lord --- All,,1,1
+31,5,Directed,348,Lord --- Fortinbras,,1,1
+31,8,Directed,349,Lord --- Claudius,,1,1
+31,12,Directed,350,Lord --- Horatio,,1,1
+31,28,Directed,351,Lord --- Gertrude,,1,1
+31,34,Directed,352,Lord --- Laertes,,1,1
+31,35,Directed,353,Lord --- First Ambassador,,1,1
+32,0,Directed,354,Polonius --- Hamlet,,6,6
+32,4,Directed,355,Polonius --- All,,2,2
+32,7,Directed,356,Polonius --- Ophelia,,4,4
+32,8,Directed,357,Polonius --- Claudius,,5,5
+32,9,Directed,358,Polonius --- Ghost of Hamlet's Father,,1,1
+32,11,Directed,359,Polonius --- Bernardo,,1,1
+32,12,Directed,360,Polonius --- Horatio,,2,2
+32,14,Directed,361,Polonius --- Player Queen,,1,1
+32,17,Directed,362,Polonius --- Voltimand,,2,2
+32,18,Directed,363,Polonius --- Prologue,,1,1
+32,19,Directed,364,Polonius --- Player King,,1,1
+32,20,Directed,365,Polonius --- Marcellus,,1,1
+32,26,Directed,366,Polonius --- Cornelius,,1,1
+32,27,Directed,367,Polonius --- First Player,,2,2
+32,28,Directed,368,Polonius --- Gertrude,,5,5
+32,29,Directed,369,Polonius --- Lucianus,,1,1
+32,30,Directed,370,Polonius --- Reynaldo,,1,1
+32,33,Directed,371,Polonius --- Guildenstern,,4,4
+32,34,Directed,372,Polonius --- Laertes,,2,2
+32,36,Directed,373,Polonius --- Rosencrantz,,4,4
+33,0,Directed,374,Guildenstern --- Hamlet,,5,5
+33,4,Directed,375,Guildenstern --- All,,1,1
+33,7,Directed,376,Guildenstern --- Ophelia,,2,2
+33,8,Directed,377,Guildenstern --- Claudius,,4,4
+33,12,Directed,378,Guildenstern --- Horatio,,1,1
+33,14,Directed,379,Guildenstern --- Player Queen,,1,1
+33,17,Directed,380,Guildenstern --- Voltimand,,1,1
+33,18,Directed,381,Guildenstern --- Prologue,,1,1
+33,19,Directed,382,Guildenstern --- Player King,,1,1
+33,27,Directed,383,Guildenstern --- First Player,,2,2
+33,28,Directed,384,Guildenstern --- Gertrude,,3,3
+33,29,Directed,385,Guildenstern --- Lucianus,,1,1
+33,32,Directed,386,Guildenstern --- Polonius,,4,4
+33,36,Directed,387,Guildenstern --- Rosencrantz,,5,5
+34,0,Directed,388,Laertes --- Hamlet,,3,3
+34,2,Directed,389,Laertes --- Osric,,1,1
+34,3,Directed,390,Laertes --- Second Clown,,1,1
+34,4,Directed,391,Laertes --- All,,3,3
+34,5,Directed,392,Laertes --- Fortinbras,,1,1
+34,7,Directed,393,Laertes --- Ophelia,,2,2
+34,8,Directed,394,Laertes --- Claudius,,5,5
+34,11,Directed,395,Laertes --- Bernardo,,1,1
+34,12,Directed,396,Laertes --- Horatio,,4,4
+34,13,Directed,397,Laertes --- A Gentleman,,1,1
+34,15,Directed,398,Laertes --- Mess,,1,1
+34,16,Directed,399,Laertes --- A Priest,,1,1
+34,17,Directed,400,Laertes --- Voltimand,,1,1
+34,20,Directed,401,Laertes --- Marcellus,,1,1
+34,21,Directed,402,Laertes --- Danes,,1,1
+34,23,Directed,403,Laertes --- First Clown,,1,1
+34,26,Directed,404,Laertes --- Cornelius,,1,1
+34,28,Directed,405,Laertes --- Gertrude,,5,5
+34,31,Directed,406,Laertes --- Lord,,1,1
+34,32,Directed,407,Laertes --- Polonius,,2,2
+34,35,Directed,408,Laertes --- First Ambassador,,1,1
+35,0,Directed,409,First Ambassador --- Hamlet,,1,1
+35,2,Directed,410,First Ambassador --- Osric,,1,1
+35,4,Directed,411,First Ambassador --- All,,1,1
+35,5,Directed,412,First Ambassador --- Fortinbras,,1,1
+35,8,Directed,413,First Ambassador --- Claudius,,1,1
+35,12,Directed,414,First Ambassador --- Horatio,,1,1
+35,28,Directed,415,First Ambassador --- Gertrude,,1,1
+35,31,Directed,416,First Ambassador --- Lord,,1,1
+35,34,Directed,417,First Ambassador --- Laertes,,1,1
+36,0,Directed,418,Rosencrantz --- Hamlet,,7,7
+36,4,Directed,419,Rosencrantz --- All,,1,1
+36,5,Directed,420,Rosencrantz --- Fortinbras,,1,1
+36,7,Directed,421,Rosencrantz --- Ophelia,,2,2
+36,8,Directed,422,Rosencrantz --- Claudius,,5,5
+36,12,Directed,423,Rosencrantz --- Horatio,,1,1
+36,14,Directed,424,Rosencrantz --- Player Queen,,1,1
+36,17,Directed,425,Rosencrantz --- Voltimand,,1,1
+36,18,Directed,426,Rosencrantz --- Prologue,,1,1
+36,19,Directed,427,Rosencrantz --- Player King,,1,1
+36,24,Directed,428,Rosencrantz --- A Captain,,1,1
+36,27,Directed,429,Rosencrantz --- First Player,,2,2
+36,28,Directed,430,Rosencrantz --- Gertrude,,3,3
+36,29,Directed,431,Rosencrantz --- Lucianus,,1,1
+36,32,Directed,432,Rosencrantz --- Polonius,,4,4
+36,33,Directed,433,Rosencrantz --- Guildenstern,,5,5
