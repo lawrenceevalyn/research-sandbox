@@ -1,0 +1,3037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-04-26">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="key" title="key" type="string"></attribute>
+      <attribute id="lines" title="lines" type="integer"></attribute>
+      <attribute id="words" title="words" type="integer"></attribute>
+      <attribute id="criticality" title="criticality" type="double"></attribute>
+      <attribute id="eigencentrality" title="Eigenvector Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="triangles" title="Number of triangles" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="scenes" title="scenes" type="integer"></attribute>
+      <attribute id="character1" title="character1" type="string"></attribute>
+      <attribute id="character2" title="character2" type="string"></attribute>
+      <attribute id="character1_words" title="character1_words" type="integer"></attribute>
+      <attribute id="character2_words" title="character2_words" type="integer"></attribute>
+      <attribute id="sharedlines" title="sharedLines" type="integer"></attribute>
+    </attributes>
+    <nodes>
+      <node id="0" label="Gentlemen">
+        <attvalues>
+          <attvalue for="key" value="oth-gent."></attvalue>
+          <attvalue for="lines" value="37"></attvalue>
+          <attvalue for="words" value="285"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.4702627847016108"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6060606060606061"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.675"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-441.95438" y="497.1619"></viz:position>
+      </node>
+      <node id="1" label="Iago">
+        <attvalues>
+          <attvalue for="key" value="Iago"></attvalue>
+          <attvalue for="lines" value="1104"></attvalue>
+          <attvalue for="words" value="9727"></attvalue>
+          <attvalue for="criticality" value="0.6311309523809525"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="25.2452380952381"></attvalue>
+          <attvalue for="clustering" value="0.531578947368421"></attvalue>
+          <attvalue for="triangles" value="101"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="40"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="292.92538" y="-413.12057"></viz:position>
+      </node>
+      <node id="2" label="First Senator">
+        <attvalues>
+          <attvalue for="key" value="oth-sen1."></attvalue>
+          <attvalue for="lines" value="5"></attvalue>
+          <attvalue for="words" value="36"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.597747599961975"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-45.215015" y="333.4373"></viz:position>
+      </node>
+      <node id="3" label="Emilia">
+        <attvalues>
+          <attvalue for="key" value="Emilia1"></attvalue>
+          <attvalue for="lines" value="246"></attvalue>
+          <attvalue for="words" value="2084"></attvalue>
+          <attvalue for="criticality" value="0.18058608058608058"></attvalue>
+          <attvalue for="eigencentrality" value="0.6871097874365502"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7407407407407407"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.825"></attvalue>
+          <attvalue for="betweenesscentrality" value="4.695238095238095"></attvalue>
+          <attvalue for="clustering" value="0.7307692307692307"></attvalue>
+          <attvalue for="triangles" value="57"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="26"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="65.348045" y="167.93285"></viz:position>
+      </node>
+      <node id="4" label="Othello">
+        <attvalues>
+          <attvalue for="key" value="Othello"></attvalue>
+          <attvalue for="lines" value="881"></attvalue>
+          <attvalue for="words" value="7293"></attvalue>
+          <attvalue for="criticality" value="0.4340852130325815"></attvalue>
+          <attvalue for="eigencentrality" value="0.9830256619784495"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.9523809523809523"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.975"></attvalue>
+          <attvalue for="betweenesscentrality" value="16.495238095238097"></attvalue>
+          <attvalue for="clustering" value="0.5730994152046783"></attvalue>
+          <attvalue for="triangles" value="98"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="1.9960785" y="-388.6188"></viz:position>
+      </node>
+      <node id="5" label="Officers">
+        <attvalues>
+          <attvalue for="key" value="sha-oth-role19"></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="427.84952" y="-342.42545"></viz:position>
+      </node>
+      <node id="6" label="First Officer">
+        <attvalues>
+          <attvalue for="key" value="oth-officer"></attvalue>
+          <attvalue for="lines" value="5"></attvalue>
+          <attvalue for="words" value="39"></attvalue>
+          <attvalue for="criticality" value="0.03787878787878789"></attvalue>
+          <attvalue for="eigencentrality" value="0.6548785308280586"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6896551724137931"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.775"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.8333333333333335"></attvalue>
+          <attvalue for="clustering" value="0.9090909090909091"></attvalue>
+          <attvalue for="triangles" value="50"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="22"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="375.79663" y="-104.77774"></viz:position>
+      </node>
+      <node id="7" label="Second Gentleman">
+        <attvalues>
+          <attvalue for="key" value="oth-gent2."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="234.22023" y="124.50924"></viz:position>
+      </node>
+      <node id="8" label="Fourth Gentleman">
+        <attvalues>
+          <attvalue for="key" value="oth-gent4."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="3"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-423.65463" y="191.33867"></viz:position>
+      </node>
+      <node id="9" label="Gratiano">
+        <attvalues>
+          <attvalue for="key" value="Gratiano2"></attvalue>
+          <attvalue for="lines" value="26"></attvalue>
+          <attvalue for="words" value="188"></attvalue>
+          <attvalue for="criticality" value="0.0125"></attvalue>
+          <attvalue for="eigencentrality" value="0.605634104075808"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.25"></attvalue>
+          <attvalue for="clustering" value="0.9555555555555556"></attvalue>
+          <attvalue for="triangles" value="43"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-163.20555" y="98.633835"></viz:position>
+      </node>
+      <node id="10" label="Desdemona">
+        <attvalues>
+          <attvalue for="key" value="Desdemona"></attvalue>
+          <attvalue for="lines" value="389"></attvalue>
+          <attvalue for="words" value="3192"></attvalue>
+          <attvalue for="criticality" value="0.4340852130325815"></attvalue>
+          <attvalue for="eigencentrality" value="0.9830256619784495"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.9523809523809523"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.975"></attvalue>
+          <attvalue for="betweenesscentrality" value="16.495238095238097"></attvalue>
+          <attvalue for="clustering" value="0.5730994152046783"></attvalue>
+          <attvalue for="triangles" value="98"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-430.14792" y="342.73477"></viz:position>
+      </node>
+      <node id="11" label="Roderigo">
+        <attvalues>
+          <attvalue for="key" value="Roderigo"></attvalue>
+          <attvalue for="lines" value="118"></attvalue>
+          <attvalue for="words" value="996"></attvalue>
+          <attvalue for="criticality" value="0.3674603174603175"></attvalue>
+          <attvalue for="eigencentrality" value="0.9528421558742263"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.9090909090909091"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.95"></attvalue>
+          <attvalue for="betweenesscentrality" value="13.22857142857143"></attvalue>
+          <attvalue for="clustering" value="0.6078431372549019"></attvalue>
+          <attvalue for="triangles" value="93"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="36"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="303.99005" y="-248.16771"></viz:position>
+      </node>
+      <node id="12" label="Other Senators">
+        <attvalues>
+          <attvalue for="key" value="oth-sen."></attvalue>
+          <attvalue for="lines" value="28"></attvalue>
+          <attvalue for="words" value="230"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.597747599961975"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-455.6075" y="-286.6446"></viz:position>
+      </node>
+      <node id="13" label="All">
+        <attvalues>
+          <attvalue for="key" value="oth-all"></attvalue>
+          <attvalue for="lines" value="2"></attvalue>
+          <attvalue for="words" value="7"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.5654159933624332"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6451612903225806"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.725"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="55.6843" y="-387.78488"></viz:position>
+      </node>
+      <node id="14" label="Clown">
+        <attvalues>
+          <attvalue for="key" value="oth-clo."></attvalue>
+          <attvalue for="lines" value="28"></attvalue>
+          <attvalue for="words" value="255"></attvalue>
+          <attvalue for="criticality" value="0.05357142857142857"></attvalue>
+          <attvalue for="eigencentrality" value="0.4102791828347439"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6060606060606061"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.675"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.75"></attvalue>
+          <attvalue for="clustering" value="0.8571428571428571"></attvalue>
+          <attvalue for="triangles" value="18"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="295.06158" y="58.87526"></viz:position>
+      </node>
+      <node id="15" label="Cassio">
+        <attvalues>
+          <attvalue for="key" value="Cassio"></attvalue>
+          <attvalue for="lines" value="278"></attvalue>
+          <attvalue for="words" value="2314"></attvalue>
+          <attvalue for="criticality" value="0.29984126984126985"></attvalue>
+          <attvalue for="eigencentrality" value="0.7824155728358984"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.875"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.995238095238095"></attvalue>
+          <attvalue for="clustering" value="0.6285714285714286"></attvalue>
+          <attvalue for="triangles" value="66"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="30"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="453.93213" y="265.56863"></viz:position>
+      </node>
+      <node id="16" label="Musicians">
+        <attvalues>
+          <attvalue for="key" value="sha-oth-role26"></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="4"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-475.49374" y="-116.08009"></viz:position>
+      </node>
+      <node id="17" label="Bianca">
+        <attvalues>
+          <attvalue for="key" value="Bianca"></attvalue>
+          <attvalue for="lines" value="35"></attvalue>
+          <attvalue for="words" value="301"></attvalue>
+          <attvalue for="criticality" value="0.027777777777777776"></attvalue>
+          <attvalue for="eigencentrality" value="0.5509005975053638"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6451612903225806"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.725"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.49999999999999994"></attvalue>
+          <attvalue for="clustering" value="0.9166666666666666"></attvalue>
+          <attvalue for="triangles" value="33"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-264.8345" y="104.2262"></viz:position>
+      </node>
+      <node id="18" label="Duke of Venice">
+        <attvalues>
+          <attvalue for="key" value="VeniceD"></attvalue>
+          <attvalue for="lines" value="73"></attvalue>
+          <attvalue for="words" value="562"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.597747599961975"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-478.36328" y="-354.75302"></viz:position>
+      </node>
+      <node id="19" label="Lodovico">
+        <attvalues>
+          <attvalue for="key" value="Lodovico"></attvalue>
+          <attvalue for="lines" value="76"></attvalue>
+          <attvalue for="words" value="614"></attvalue>
+          <attvalue for="criticality" value="0.0125"></attvalue>
+          <attvalue for="eigencentrality" value="0.605634104075808"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.25"></attvalue>
+          <attvalue for="clustering" value="0.9555555555555556"></attvalue>
+          <attvalue for="triangles" value="43"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="424.8957" y="-53.733067"></viz:position>
+      </node>
+      <node id="20" label="Sailor">
+        <attvalues>
+          <attvalue for="key" value="oth-sailor"></attvalue>
+          <attvalue for="lines" value="4"></attvalue>
+          <attvalue for="words" value="29"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.597747599961975"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="264.32315" y="-123.765526"></viz:position>
+      </node>
+      <node id="21" label="Brabantio">
+        <attvalues>
+          <attvalue for="key" value="Brabantio"></attvalue>
+          <attvalue for="lines" value="139"></attvalue>
+          <attvalue for="words" value="1198"></attvalue>
+          <attvalue for="criticality" value="0.03787878787878789"></attvalue>
+          <attvalue for="eigencentrality" value="0.6548785308280586"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6896551724137931"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.775"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.8333333333333335"></attvalue>
+          <attvalue for="clustering" value="0.9090909090909091"></attvalue>
+          <attvalue for="triangles" value="50"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="22"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="37.073116" y="266.8947"></viz:position>
+      </node>
+      <node id="22" label="Montano">
+        <attvalues>
+          <attvalue for="key" value="Montano"></attvalue>
+          <attvalue for="lines" value="60"></attvalue>
+          <attvalue for="words" value="492"></attvalue>
+          <attvalue for="criticality" value="0.021428571428571425"></attvalue>
+          <attvalue for="eigencentrality" value="0.5997338325974042"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.4285714285714285"></attvalue>
+          <attvalue for="clustering" value="0.9333333333333333"></attvalue>
+          <attvalue for="triangles" value="42"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-18.857138" y="-319.90482"></viz:position>
+      </node>
+      <node id="23" label="First Musician">
+        <attvalues>
+          <attvalue for="key" value="oth-mus."></attvalue>
+          <attvalue for="lines" value="5"></attvalue>
+          <attvalue for="words" value="28"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.22690500535631988"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5555555555555556"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="6"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="427.64203" y="-140.9566"></viz:position>
+      </node>
+      <node id="24" label="First Gentleman">
+        <attvalues>
+          <attvalue for="key" value="oth-gent1."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="5"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-397.25015" y="67.55525"></viz:position>
+      </node>
+      <node id="25" label="Messenger">
+        <attvalues>
+          <attvalue for="key" value="oth-mess."></attvalue>
+          <attvalue for="lines" value="9"></attvalue>
+          <attvalue for="words" value="71"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.597747599961975"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-354.54" y="-28.297894"></viz:position>
+      </node>
+      <node id="26" label="Third Gentleman">
+        <attvalues>
+          <attvalue for="key" value="oth-gent3."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="6"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="335.19748" y="299.3058"></viz:position>
+      </node>
+      <node id="27" label="Herald">
+        <attvalues>
+          <attvalue for="key" value="oth-her."></attvalue>
+          <attvalue for="lines" value="13"></attvalue>
+          <attvalue for="words" value="114"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="7"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="503.63574" y="362.14676"></viz:position>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="0" target="1" label="Gentlemen --- Iago" weight="1711.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Gentlemen"></attvalue>
+          <attvalue for="character2" value="Iago"></attvalue>
+          <attvalue for="character1_words" value="285"></attvalue>
+          <attvalue for="character2_words" value="1426"></attvalue>
+          <attvalue for="sharedlines" value="192"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1" source="0" target="3" label="Gentlemen --- Emilia" weight="299.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gentlemen"></attvalue>
+          <attvalue for="character2" value="Emilia"></attvalue>
+          <attvalue for="character1_words" value="278"></attvalue>
+          <attvalue for="character2_words" value="21"></attvalue>
+          <attvalue for="sharedlines" value="39"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="2" source="0" target="4" label="Gentlemen --- Othello" weight="580.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Gentlemen"></attvalue>
+          <attvalue for="character2" value="Othello"></attvalue>
+          <attvalue for="character1_words" value="285"></attvalue>
+          <attvalue for="character2_words" value="295"></attvalue>
+          <attvalue for="sharedlines" value="71"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="3" source="0" target="10" label="Gentlemen --- Desdemona" weight="512.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gentlemen"></attvalue>
+          <attvalue for="character2" value="Desdemona"></attvalue>
+          <attvalue for="character1_words" value="278"></attvalue>
+          <attvalue for="character2_words" value="234"></attvalue>
+          <attvalue for="sharedlines" value="66"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="4" source="0" target="11" label="Gentlemen --- Roderigo" weight="327.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gentlemen"></attvalue>
+          <attvalue for="character2" value="Roderigo"></attvalue>
+          <attvalue for="character1_words" value="278"></attvalue>
+          <attvalue for="character2_words" value="49"></attvalue>
+          <attvalue for="sharedlines" value="44"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="5" source="0" target="15" label="Gentlemen --- Cassio" weight="733.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gentlemen"></attvalue>
+          <attvalue for="character2" value="Cassio"></attvalue>
+          <attvalue for="character1_words" value="278"></attvalue>
+          <attvalue for="character2_words" value="455"></attvalue>
+          <attvalue for="sharedlines" value="88"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="6" source="0" target="22" label="Gentlemen --- Montano" weight="453.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gentlemen"></attvalue>
+          <attvalue for="character2" value="Montano"></attvalue>
+          <attvalue for="character1_words" value="278"></attvalue>
+          <attvalue for="character2_words" value="175"></attvalue>
+          <attvalue for="sharedlines" value="57"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="7" source="1" target="0" label="Iago --- Gentlemen" weight="1711.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Iago"></attvalue>
+          <attvalue for="character2" value="Gentlemen"></attvalue>
+          <attvalue for="character1_words" value="1426"></attvalue>
+          <attvalue for="character2_words" value="285"></attvalue>
+          <attvalue for="sharedlines" value="192"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="8" source="1" target="2" label="Iago --- First Senator" weight="912.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Iago"></attvalue>
+          <attvalue for="character2" value="First Senator"></attvalue>
+          <attvalue for="character1_words" value="876"></attvalue>
+          <attvalue for="character2_words" value="36"></attvalue>
+          <attvalue for="sharedlines" value="96"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="9" source="1" target="3" label="Iago --- Emilia" weight="6319.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+          <attvalue for="character1" value="Iago"></attvalue>
+          <attvalue for="character2" value="Emilia"></attvalue>
+          <attvalue for="character1_words" value="4665"></attvalue>
+          <attvalue for="character2_words" value="1654"></attvalue>
+          <attvalue for="sharedlines" value="732"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="10" source="1" target="4" label="Iago --- Othello" weight="15988.0">
+        <attvalues>
+          <attvalue for="scenes" value="11"></attvalue>
+          <attvalue for="character1" value="Iago"></attvalue>
+          <attvalue for="character2" value="Othello"></attvalue>
+          <attvalue for="character1_words" value="8737"></attvalue>
+          <attvalue for="character2_words" value="7251"></attvalue>
+          <attvalue for="sharedlines" value="1867"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="11" source="1" target="6" label="Iago --- First Officer" weight="1155.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Iago"></attvalue>
+          <attvalue for="character2" value="First Officer"></attvalue>
+          <attvalue for="character1_words" value="1116"></attvalue>
+          <attvalue for="character2_words" value="39"></attvalue>
+          <attvalue for="sharedlines" value="123"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="12" source="1" target="9" label="Iago --- Gratiano" weight="967.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Iago"></attvalue>
+          <attvalue for="character2" value="Gratiano"></attvalue>
+          <attvalue for="character1_words" value="779"></attvalue>
+          <attvalue for="character2_words" value="188"></attvalue>
+          <attvalue for="sharedlines" value="117"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="13" source="1" target="10" label="Iago --- Desdemona" weight="10502.0">
+        <attvalues>
+          <attvalue for="scenes" value="8"></attvalue>
+          <attvalue for="character1" value="Iago"></attvalue>
+          <attvalue for="character2" value="Desdemona"></attvalue>
+          <attvalue for="character1_words" value="7800"></attvalue>
+          <attvalue for="character2_words" value="2702"></attvalue>
+          <attvalue for="sharedlines" value="1216"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="14" source="1" target="11" label="Iago --- Roderigo" weight="7580.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+          <attvalue for="character1" value="Iago"></attvalue>
+          <attvalue for="character2" value="Roderigo"></attvalue>
+          <attvalue for="character1_words" value="6584"></attvalue>
+          <attvalue for="character2_words" value="996"></attvalue>
+          <attvalue for="sharedlines" value="846"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="15" source="1" target="12" label="Iago --- Other Senators" weight="1106.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Iago"></attvalue>
+          <attvalue for="character2" value="Other Senators"></attvalue>
+          <attvalue for="character1_words" value="876"></attvalue>
+          <attvalue for="character2_words" value="230"></attvalue>
+          <attvalue for="sharedlines" value="119"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="16" source="1" target="13" label="Iago --- All" weight="2001.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Iago"></attvalue>
+          <attvalue for="character2" value="All"></attvalue>
+          <attvalue for="character1_words" value="1994"></attvalue>
+          <attvalue for="character2_words" value="7"></attvalue>
+          <attvalue for="sharedlines" value="225"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="17" source="1" target="14" label="Iago --- Clown" weight="376.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Iago"></attvalue>
+          <attvalue for="character2" value="Clown"></attvalue>
+          <attvalue for="character1_words" value="121"></attvalue>
+          <attvalue for="character2_words" value="255"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="18" source="1" target="15" label="Iago --- Cassio" weight="9704.0">
+        <attvalues>
+          <attvalue for="scenes" value="9"></attvalue>
+          <attvalue for="character1" value="Iago"></attvalue>
+          <attvalue for="character2" value="Cassio"></attvalue>
+          <attvalue for="character1_words" value="7390"></attvalue>
+          <attvalue for="character2_words" value="2314"></attvalue>
+          <attvalue for="sharedlines" value="1124"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="19" source="1" target="17" label="Iago --- Bianca" weight="2156.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Iago"></attvalue>
+          <attvalue for="character2" value="Bianca"></attvalue>
+          <attvalue for="character1_words" value="1855"></attvalue>
+          <attvalue for="character2_words" value="301"></attvalue>
+          <attvalue for="sharedlines" value="255"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="20" source="1" target="18" label="Iago --- Duke of Venice" weight="1438.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Iago"></attvalue>
+          <attvalue for="character2" value="Duke of Venice"></attvalue>
+          <attvalue for="character1_words" value="876"></attvalue>
+          <attvalue for="character2_words" value="562"></attvalue>
+          <attvalue for="sharedlines" value="164"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="21" source="1" target="19" label="Iago --- Lodovico" weight="2457.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Iago"></attvalue>
+          <attvalue for="character2" value="Lodovico"></attvalue>
+          <attvalue for="character1_words" value="1862"></attvalue>
+          <attvalue for="character2_words" value="595"></attvalue>
+          <attvalue for="sharedlines" value="297"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="22" source="1" target="20" label="Iago --- Sailor" weight="905.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Iago"></attvalue>
+          <attvalue for="character2" value="Sailor"></attvalue>
+          <attvalue for="character1_words" value="876"></attvalue>
+          <attvalue for="character2_words" value="29"></attvalue>
+          <attvalue for="sharedlines" value="95"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="23" source="1" target="21" label="Iago --- Brabantio" weight="3265.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Iago"></attvalue>
+          <attvalue for="character2" value="Brabantio"></attvalue>
+          <attvalue for="character1_words" value="2067"></attvalue>
+          <attvalue for="character2_words" value="1198"></attvalue>
+          <attvalue for="sharedlines" value="364"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="24" source="1" target="22" label="Iago --- Montano" weight="3905.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Iago"></attvalue>
+          <attvalue for="character2" value="Montano"></attvalue>
+          <attvalue for="character1_words" value="3413"></attvalue>
+          <attvalue for="character2_words" value="492"></attvalue>
+          <attvalue for="sharedlines" value="437"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="25" source="1" target="23" label="Iago --- First Musician" weight="67.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Iago"></attvalue>
+          <attvalue for="character2" value="First Musician"></attvalue>
+          <attvalue for="character1_words" value="39"></attvalue>
+          <attvalue for="character2_words" value="28"></attvalue>
+          <attvalue for="sharedlines" value="10"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="26" source="1" target="25" label="Iago --- Messenger" weight="947.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Iago"></attvalue>
+          <attvalue for="character2" value="Messenger"></attvalue>
+          <attvalue for="character1_words" value="876"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="100"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="27" source="2" target="1" label="First Senator --- Iago" weight="912.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Senator"></attvalue>
+          <attvalue for="character2" value="Iago"></attvalue>
+          <attvalue for="character1_words" value="36"></attvalue>
+          <attvalue for="character2_words" value="876"></attvalue>
+          <attvalue for="sharedlines" value="96"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="28" source="2" target="4" label="First Senator --- Othello" weight="1038.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Senator"></attvalue>
+          <attvalue for="character2" value="Othello"></attvalue>
+          <attvalue for="character1_words" value="36"></attvalue>
+          <attvalue for="character2_words" value="1002"></attvalue>
+          <attvalue for="sharedlines" value="120"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="29" source="2" target="6" label="First Senator --- First Officer" weight="53.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Senator"></attvalue>
+          <attvalue for="character2" value="First Officer"></attvalue>
+          <attvalue for="character1_words" value="36"></attvalue>
+          <attvalue for="character2_words" value="17"></attvalue>
+          <attvalue for="sharedlines" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="30" source="2" target="10" label="First Senator --- Desdemona" weight="285.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Senator"></attvalue>
+          <attvalue for="character2" value="Desdemona"></attvalue>
+          <attvalue for="character1_words" value="36"></attvalue>
+          <attvalue for="character2_words" value="249"></attvalue>
+          <attvalue for="sharedlines" value="34"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="31" source="2" target="11" label="First Senator --- Roderigo" weight="151.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Senator"></attvalue>
+          <attvalue for="character2" value="Roderigo"></attvalue>
+          <attvalue for="character1_words" value="36"></attvalue>
+          <attvalue for="character2_words" value="115"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="32" source="2" target="12" label="First Senator --- Other Senators" weight="266.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Senator"></attvalue>
+          <attvalue for="character2" value="Other Senators"></attvalue>
+          <attvalue for="character1_words" value="36"></attvalue>
+          <attvalue for="character2_words" value="230"></attvalue>
+          <attvalue for="sharedlines" value="33"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="33" source="2" target="18" label="First Senator --- Duke of Venice" weight="598.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Senator"></attvalue>
+          <attvalue for="character2" value="Duke of Venice"></attvalue>
+          <attvalue for="character1_words" value="36"></attvalue>
+          <attvalue for="character2_words" value="562"></attvalue>
+          <attvalue for="sharedlines" value="78"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="34" source="2" target="20" label="First Senator --- Sailor" weight="65.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Senator"></attvalue>
+          <attvalue for="character2" value="Sailor"></attvalue>
+          <attvalue for="character1_words" value="36"></attvalue>
+          <attvalue for="character2_words" value="29"></attvalue>
+          <attvalue for="sharedlines" value="9"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="35" source="2" target="21" label="First Senator --- Brabantio" weight="576.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Senator"></attvalue>
+          <attvalue for="character2" value="Brabantio"></attvalue>
+          <attvalue for="character1_words" value="36"></attvalue>
+          <attvalue for="character2_words" value="540"></attvalue>
+          <attvalue for="sharedlines" value="67"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="36" source="2" target="25" label="First Senator --- Messenger" weight="107.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Senator"></attvalue>
+          <attvalue for="character2" value="Messenger"></attvalue>
+          <attvalue for="character1_words" value="36"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="14"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="37" source="3" target="0" label="Emilia --- Gentlemen" weight="299.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Emilia"></attvalue>
+          <attvalue for="character2" value="Gentlemen"></attvalue>
+          <attvalue for="character1_words" value="21"></attvalue>
+          <attvalue for="character2_words" value="278"></attvalue>
+          <attvalue for="sharedlines" value="39"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="38" source="3" target="1" label="Emilia --- Iago" weight="6319.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+          <attvalue for="character1" value="Emilia"></attvalue>
+          <attvalue for="character2" value="Iago"></attvalue>
+          <attvalue for="character1_words" value="1654"></attvalue>
+          <attvalue for="character2_words" value="4665"></attvalue>
+          <attvalue for="sharedlines" value="732"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="39" source="3" target="4" label="Emilia --- Othello" weight="6613.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+          <attvalue for="character1" value="Emilia"></attvalue>
+          <attvalue for="character2" value="Othello"></attvalue>
+          <attvalue for="character1_words" value="1968"></attvalue>
+          <attvalue for="character2_words" value="4645"></attvalue>
+          <attvalue for="sharedlines" value="797"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="40" source="3" target="9" label="Emilia --- Gratiano" weight="958.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Emilia"></attvalue>
+          <attvalue for="character2" value="Gratiano"></attvalue>
+          <attvalue for="character1_words" value="770"></attvalue>
+          <attvalue for="character2_words" value="188"></attvalue>
+          <attvalue for="sharedlines" value="117"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="41" source="3" target="10" label="Emilia --- Desdemona" weight="4782.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+          <attvalue for="character1" value="Emilia"></attvalue>
+          <attvalue for="character2" value="Desdemona"></attvalue>
+          <attvalue for="character1_words" value="1937"></attvalue>
+          <attvalue for="character2_words" value="2845"></attvalue>
+          <attvalue for="sharedlines" value="574"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="42" source="3" target="11" label="Emilia --- Roderigo" weight="869.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Emilia"></attvalue>
+          <attvalue for="character2" value="Roderigo"></attvalue>
+          <attvalue for="character1_words" value="428"></attvalue>
+          <attvalue for="character2_words" value="441"></attvalue>
+          <attvalue for="sharedlines" value="102"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="43" source="3" target="13" label="Emilia --- All" weight="743.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Emilia"></attvalue>
+          <attvalue for="character2" value="All"></attvalue>
+          <attvalue for="character1_words" value="739"></attvalue>
+          <attvalue for="character2_words" value="4"></attvalue>
+          <attvalue for="sharedlines" value="88"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="44" source="3" target="14" label="Emilia --- Clown" weight="509.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Emilia"></attvalue>
+          <attvalue for="character2" value="Clown"></attvalue>
+          <attvalue for="character1_words" value="254"></attvalue>
+          <attvalue for="character2_words" value="255"></attvalue>
+          <attvalue for="sharedlines" value="59"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="45" source="3" target="15" label="Emilia --- Cassio" weight="2561.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+          <attvalue for="character1" value="Emilia"></attvalue>
+          <attvalue for="character2" value="Cassio"></attvalue>
+          <attvalue for="character1_words" value="1278"></attvalue>
+          <attvalue for="character2_words" value="1283"></attvalue>
+          <attvalue for="sharedlines" value="305"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="46" source="3" target="17" label="Emilia --- Bianca" weight="357.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Emilia"></attvalue>
+          <attvalue for="character2" value="Bianca"></attvalue>
+          <attvalue for="character1_words" value="169"></attvalue>
+          <attvalue for="character2_words" value="188"></attvalue>
+          <attvalue for="sharedlines" value="46"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="47" source="3" target="19" label="Emilia --- Lodovico" weight="1609.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Emilia"></attvalue>
+          <attvalue for="character2" value="Lodovico"></attvalue>
+          <attvalue for="character1_words" value="1200"></attvalue>
+          <attvalue for="character2_words" value="409"></attvalue>
+          <attvalue for="sharedlines" value="191"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="48" source="3" target="22" label="Emilia --- Montano" weight="995.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Emilia"></attvalue>
+          <attvalue for="character2" value="Montano"></attvalue>
+          <attvalue for="character1_words" value="760"></attvalue>
+          <attvalue for="character2_words" value="235"></attvalue>
+          <attvalue for="sharedlines" value="118"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="49" source="3" target="23" label="Emilia --- First Musician" weight="144.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Emilia"></attvalue>
+          <attvalue for="character2" value="First Musician"></attvalue>
+          <attvalue for="character1_words" value="116"></attvalue>
+          <attvalue for="character2_words" value="28"></attvalue>
+          <attvalue for="sharedlines" value="18"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="50" source="4" target="0" label="Othello --- Gentlemen" weight="580.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Othello"></attvalue>
+          <attvalue for="character2" value="Gentlemen"></attvalue>
+          <attvalue for="character1_words" value="295"></attvalue>
+          <attvalue for="character2_words" value="285"></attvalue>
+          <attvalue for="sharedlines" value="71"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="51" source="4" target="1" label="Othello --- Iago" weight="15988.0">
+        <attvalues>
+          <attvalue for="scenes" value="11"></attvalue>
+          <attvalue for="character1" value="Othello"></attvalue>
+          <attvalue for="character2" value="Iago"></attvalue>
+          <attvalue for="character1_words" value="7251"></attvalue>
+          <attvalue for="character2_words" value="8737"></attvalue>
+          <attvalue for="sharedlines" value="1867"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="52" source="4" target="2" label="Othello --- First Senator" weight="1038.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Othello"></attvalue>
+          <attvalue for="character2" value="First Senator"></attvalue>
+          <attvalue for="character1_words" value="1002"></attvalue>
+          <attvalue for="character2_words" value="36"></attvalue>
+          <attvalue for="sharedlines" value="120"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="53" source="4" target="3" label="Othello --- Emilia" weight="6613.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+          <attvalue for="character1" value="Othello"></attvalue>
+          <attvalue for="character2" value="Emilia"></attvalue>
+          <attvalue for="character1_words" value="4645"></attvalue>
+          <attvalue for="character2_words" value="1968"></attvalue>
+          <attvalue for="sharedlines" value="797"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="54" source="4" target="6" label="Othello --- First Officer" weight="1344.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Othello"></attvalue>
+          <attvalue for="character2" value="First Officer"></attvalue>
+          <attvalue for="character1_words" value="1305"></attvalue>
+          <attvalue for="character2_words" value="39"></attvalue>
+          <attvalue for="sharedlines" value="158"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="55" source="4" target="9" label="Othello --- Gratiano" weight="1927.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Othello"></attvalue>
+          <attvalue for="character2" value="Gratiano"></attvalue>
+          <attvalue for="character1_words" value="1739"></attvalue>
+          <attvalue for="character2_words" value="188"></attvalue>
+          <attvalue for="sharedlines" value="236"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="56" source="4" target="10" label="Othello --- Desdemona" weight="10064.0">
+        <attvalues>
+          <attvalue for="scenes" value="9"></attvalue>
+          <attvalue for="character1" value="Othello"></attvalue>
+          <attvalue for="character2" value="Desdemona"></attvalue>
+          <attvalue for="character1_words" value="6872"></attvalue>
+          <attvalue for="character2_words" value="3192"></attvalue>
+          <attvalue for="sharedlines" value="1219"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="57" source="4" target="11" label="Othello --- Roderigo" weight="3344.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+          <attvalue for="character1" value="Othello"></attvalue>
+          <attvalue for="character2" value="Roderigo"></attvalue>
+          <attvalue for="character1_words" value="2708"></attvalue>
+          <attvalue for="character2_words" value="636"></attvalue>
+          <attvalue for="sharedlines" value="392"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="58" source="4" target="12" label="Othello --- Other Senators" weight="1232.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Othello"></attvalue>
+          <attvalue for="character2" value="Other Senators"></attvalue>
+          <attvalue for="character1_words" value="1002"></attvalue>
+          <attvalue for="character2_words" value="230"></attvalue>
+          <attvalue for="sharedlines" value="143"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="59" source="4" target="13" label="Othello --- All" weight="2162.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Othello"></attvalue>
+          <attvalue for="character2" value="All"></attvalue>
+          <attvalue for="character1_words" value="2155"></attvalue>
+          <attvalue for="character2_words" value="7"></attvalue>
+          <attvalue for="sharedlines" value="261"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="60" source="4" target="14" label="Othello --- Clown" weight="474.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Othello"></attvalue>
+          <attvalue for="character2" value="Clown"></attvalue>
+          <attvalue for="character1_words" value="366"></attvalue>
+          <attvalue for="character2_words" value="108"></attvalue>
+          <attvalue for="sharedlines" value="62"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="61" source="4" target="15" label="Othello --- Cassio" weight="7766.0">
+        <attvalues>
+          <attvalue for="scenes" value="8"></attvalue>
+          <attvalue for="character1" value="Othello"></attvalue>
+          <attvalue for="character2" value="Cassio"></attvalue>
+          <attvalue for="character1_words" value="5633"></attvalue>
+          <attvalue for="character2_words" value="2133"></attvalue>
+          <attvalue for="sharedlines" value="943"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="62" source="4" target="17" label="Othello --- Bianca" weight="1554.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Othello"></attvalue>
+          <attvalue for="character2" value="Bianca"></attvalue>
+          <attvalue for="character1_words" value="1253"></attvalue>
+          <attvalue for="character2_words" value="301"></attvalue>
+          <attvalue for="sharedlines" value="195"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="63" source="4" target="18" label="Othello --- Duke of Venice" weight="1564.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Othello"></attvalue>
+          <attvalue for="character2" value="Duke of Venice"></attvalue>
+          <attvalue for="character1_words" value="1002"></attvalue>
+          <attvalue for="character2_words" value="562"></attvalue>
+          <attvalue for="sharedlines" value="188"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="64" source="4" target="19" label="Othello --- Lodovico" weight="3204.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Othello"></attvalue>
+          <attvalue for="character2" value="Lodovico"></attvalue>
+          <attvalue for="character1_words" value="2590"></attvalue>
+          <attvalue for="character2_words" value="614"></attvalue>
+          <attvalue for="sharedlines" value="394"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="65" source="4" target="20" label="Othello --- Sailor" weight="1031.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Othello"></attvalue>
+          <attvalue for="character2" value="Sailor"></attvalue>
+          <attvalue for="character1_words" value="1002"></attvalue>
+          <attvalue for="character2_words" value="29"></attvalue>
+          <attvalue for="sharedlines" value="119"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="66" source="4" target="21" label="Othello --- Brabantio" weight="2116.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Othello"></attvalue>
+          <attvalue for="character2" value="Brabantio"></attvalue>
+          <attvalue for="character1_words" value="1305"></attvalue>
+          <attvalue for="character2_words" value="811"></attvalue>
+          <attvalue for="sharedlines" value="246"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="67" source="4" target="22" label="Othello --- Montano" weight="2902.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Othello"></attvalue>
+          <attvalue for="character2" value="Montano"></attvalue>
+          <attvalue for="character1_words" value="2410"></attvalue>
+          <attvalue for="character2_words" value="492"></attvalue>
+          <attvalue for="sharedlines" value="348"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="68" source="4" target="25" label="Othello --- Messenger" weight="1073.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Othello"></attvalue>
+          <attvalue for="character2" value="Messenger"></attvalue>
+          <attvalue for="character1_words" value="1002"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="124"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="69" source="6" target="1" label="First Officer --- Iago" weight="1155.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="First Officer"></attvalue>
+          <attvalue for="character2" value="Iago"></attvalue>
+          <attvalue for="character1_words" value="39"></attvalue>
+          <attvalue for="character2_words" value="1116"></attvalue>
+          <attvalue for="sharedlines" value="123"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="70" source="6" target="2" label="First Officer --- First Senator" weight="53.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Officer"></attvalue>
+          <attvalue for="character2" value="First Senator"></attvalue>
+          <attvalue for="character1_words" value="17"></attvalue>
+          <attvalue for="character2_words" value="36"></attvalue>
+          <attvalue for="sharedlines" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="71" source="6" target="4" label="First Officer --- Othello" weight="1344.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="First Officer"></attvalue>
+          <attvalue for="character2" value="Othello"></attvalue>
+          <attvalue for="character1_words" value="39"></attvalue>
+          <attvalue for="character2_words" value="1305"></attvalue>
+          <attvalue for="sharedlines" value="158"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="72" source="6" target="10" label="First Officer --- Desdemona" weight="266.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Officer"></attvalue>
+          <attvalue for="character2" value="Desdemona"></attvalue>
+          <attvalue for="character1_words" value="17"></attvalue>
+          <attvalue for="character2_words" value="249"></attvalue>
+          <attvalue for="sharedlines" value="31"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="73" source="6" target="11" label="First Officer --- Roderigo" weight="160.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="First Officer"></attvalue>
+          <attvalue for="character2" value="Roderigo"></attvalue>
+          <attvalue for="character1_words" value="39"></attvalue>
+          <attvalue for="character2_words" value="121"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="74" source="6" target="12" label="First Officer --- Other Senators" weight="247.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Officer"></attvalue>
+          <attvalue for="character2" value="Other Senators"></attvalue>
+          <attvalue for="character1_words" value="17"></attvalue>
+          <attvalue for="character2_words" value="230"></attvalue>
+          <attvalue for="sharedlines" value="30"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="75" source="6" target="15" label="First Officer --- Cassio" weight="144.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Officer"></attvalue>
+          <attvalue for="character2" value="Cassio"></attvalue>
+          <attvalue for="character1_words" value="22"></attvalue>
+          <attvalue for="character2_words" value="122"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="76" source="6" target="18" label="First Officer --- Duke of Venice" weight="579.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Officer"></attvalue>
+          <attvalue for="character2" value="Duke of Venice"></attvalue>
+          <attvalue for="character1_words" value="17"></attvalue>
+          <attvalue for="character2_words" value="562"></attvalue>
+          <attvalue for="sharedlines" value="75"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="77" source="6" target="20" label="First Officer --- Sailor" weight="46.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Officer"></attvalue>
+          <attvalue for="character2" value="Sailor"></attvalue>
+          <attvalue for="character1_words" value="17"></attvalue>
+          <attvalue for="character2_words" value="29"></attvalue>
+          <attvalue for="sharedlines" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="78" source="6" target="21" label="First Officer --- Brabantio" weight="850.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="First Officer"></attvalue>
+          <attvalue for="character2" value="Brabantio"></attvalue>
+          <attvalue for="character1_words" value="39"></attvalue>
+          <attvalue for="character2_words" value="811"></attvalue>
+          <attvalue for="sharedlines" value="98"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="79" source="6" target="25" label="First Officer --- Messenger" weight="88.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Officer"></attvalue>
+          <attvalue for="character2" value="Messenger"></attvalue>
+          <attvalue for="character1_words" value="17"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="11"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="80" source="9" target="1" label="Gratiano --- Iago" weight="967.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Gratiano"></attvalue>
+          <attvalue for="character2" value="Iago"></attvalue>
+          <attvalue for="character1_words" value="188"></attvalue>
+          <attvalue for="character2_words" value="779"></attvalue>
+          <attvalue for="sharedlines" value="117"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="81" source="9" target="3" label="Gratiano --- Emilia" weight="958.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Gratiano"></attvalue>
+          <attvalue for="character2" value="Emilia"></attvalue>
+          <attvalue for="character1_words" value="188"></attvalue>
+          <attvalue for="character2_words" value="770"></attvalue>
+          <attvalue for="sharedlines" value="117"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="82" source="9" target="4" label="Gratiano --- Othello" weight="1927.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Gratiano"></attvalue>
+          <attvalue for="character2" value="Othello"></attvalue>
+          <attvalue for="character1_words" value="188"></attvalue>
+          <attvalue for="character2_words" value="1739"></attvalue>
+          <attvalue for="sharedlines" value="236"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="83" source="9" target="10" label="Gratiano --- Desdemona" weight="446.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gratiano"></attvalue>
+          <attvalue for="character2" value="Desdemona"></attvalue>
+          <attvalue for="character1_words" value="126"></attvalue>
+          <attvalue for="character2_words" value="320"></attvalue>
+          <attvalue for="sharedlines" value="60"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="84" source="9" target="11" label="Gratiano --- Roderigo" weight="162.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gratiano"></attvalue>
+          <attvalue for="character2" value="Roderigo"></attvalue>
+          <attvalue for="character1_words" value="62"></attvalue>
+          <attvalue for="character2_words" value="100"></attvalue>
+          <attvalue for="sharedlines" value="20"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="85" source="9" target="13" label="Gratiano --- All" weight="130.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gratiano"></attvalue>
+          <attvalue for="character2" value="All"></attvalue>
+          <attvalue for="character1_words" value="126"></attvalue>
+          <attvalue for="character2_words" value="4"></attvalue>
+          <attvalue for="sharedlines" value="18"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="86" source="9" target="15" label="Gratiano --- Cassio" weight="423.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Gratiano"></attvalue>
+          <attvalue for="character2" value="Cassio"></attvalue>
+          <attvalue for="character1_words" value="188"></attvalue>
+          <attvalue for="character2_words" value="235"></attvalue>
+          <attvalue for="sharedlines" value="56"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="87" source="9" target="17" label="Gratiano --- Bianca" weight="121.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gratiano"></attvalue>
+          <attvalue for="character2" value="Bianca"></attvalue>
+          <attvalue for="character1_words" value="62"></attvalue>
+          <attvalue for="character2_words" value="59"></attvalue>
+          <attvalue for="sharedlines" value="16"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="88" source="9" target="19" label="Gratiano --- Lodovico" weight="578.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Gratiano"></attvalue>
+          <attvalue for="character2" value="Lodovico"></attvalue>
+          <attvalue for="character1_words" value="188"></attvalue>
+          <attvalue for="character2_words" value="390"></attvalue>
+          <attvalue for="sharedlines" value="75"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="89" source="9" target="22" label="Gratiano --- Montano" weight="186.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gratiano"></attvalue>
+          <attvalue for="character2" value="Montano"></attvalue>
+          <attvalue for="character1_words" value="126"></attvalue>
+          <attvalue for="character2_words" value="60"></attvalue>
+          <attvalue for="sharedlines" value="24"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="90" source="10" target="0" label="Desdemona --- Gentlemen" weight="512.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Desdemona"></attvalue>
+          <attvalue for="character2" value="Gentlemen"></attvalue>
+          <attvalue for="character1_words" value="234"></attvalue>
+          <attvalue for="character2_words" value="278"></attvalue>
+          <attvalue for="sharedlines" value="66"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="91" source="10" target="1" label="Desdemona --- Iago" weight="10502.0">
+        <attvalues>
+          <attvalue for="scenes" value="8"></attvalue>
+          <attvalue for="character1" value="Desdemona"></attvalue>
+          <attvalue for="character2" value="Iago"></attvalue>
+          <attvalue for="character1_words" value="2702"></attvalue>
+          <attvalue for="character2_words" value="7800"></attvalue>
+          <attvalue for="sharedlines" value="1216"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="92" source="10" target="2" label="Desdemona --- First Senator" weight="285.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Desdemona"></attvalue>
+          <attvalue for="character2" value="First Senator"></attvalue>
+          <attvalue for="character1_words" value="249"></attvalue>
+          <attvalue for="character2_words" value="36"></attvalue>
+          <attvalue for="sharedlines" value="34"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="93" source="10" target="3" label="Desdemona --- Emilia" weight="4782.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+          <attvalue for="character1" value="Desdemona"></attvalue>
+          <attvalue for="character2" value="Emilia"></attvalue>
+          <attvalue for="character1_words" value="2845"></attvalue>
+          <attvalue for="character2_words" value="1937"></attvalue>
+          <attvalue for="sharedlines" value="574"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="94" source="10" target="4" label="Desdemona --- Othello" weight="10064.0">
+        <attvalues>
+          <attvalue for="scenes" value="9"></attvalue>
+          <attvalue for="character1" value="Desdemona"></attvalue>
+          <attvalue for="character2" value="Othello"></attvalue>
+          <attvalue for="character1_words" value="3192"></attvalue>
+          <attvalue for="character2_words" value="6872"></attvalue>
+          <attvalue for="sharedlines" value="1219"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="95" source="10" target="6" label="Desdemona --- First Officer" weight="266.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Desdemona"></attvalue>
+          <attvalue for="character2" value="First Officer"></attvalue>
+          <attvalue for="character1_words" value="249"></attvalue>
+          <attvalue for="character2_words" value="17"></attvalue>
+          <attvalue for="sharedlines" value="31"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="96" source="10" target="9" label="Desdemona --- Gratiano" weight="446.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Desdemona"></attvalue>
+          <attvalue for="character2" value="Gratiano"></attvalue>
+          <attvalue for="character1_words" value="320"></attvalue>
+          <attvalue for="character2_words" value="126"></attvalue>
+          <attvalue for="sharedlines" value="60"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="97" source="10" target="11" label="Desdemona --- Roderigo" weight="1544.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Desdemona"></attvalue>
+          <attvalue for="character2" value="Roderigo"></attvalue>
+          <attvalue for="character1_words" value="1014"></attvalue>
+          <attvalue for="character2_words" value="530"></attvalue>
+          <attvalue for="sharedlines" value="188"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="98" source="10" target="12" label="Desdemona --- Other Senators" weight="479.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Desdemona"></attvalue>
+          <attvalue for="character2" value="Other Senators"></attvalue>
+          <attvalue for="character1_words" value="249"></attvalue>
+          <attvalue for="character2_words" value="230"></attvalue>
+          <attvalue for="sharedlines" value="57"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="99" source="10" target="13" label="Desdemona --- All" weight="333.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Desdemona"></attvalue>
+          <attvalue for="character2" value="All"></attvalue>
+          <attvalue for="character1_words" value="326"></attvalue>
+          <attvalue for="character2_words" value="7"></attvalue>
+          <attvalue for="sharedlines" value="46"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="100" source="10" target="14" label="Desdemona --- Clown" weight="758.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Desdemona"></attvalue>
+          <attvalue for="character2" value="Clown"></attvalue>
+          <attvalue for="character1_words" value="650"></attvalue>
+          <attvalue for="character2_words" value="108"></attvalue>
+          <attvalue for="sharedlines" value="90"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="101" source="10" target="15" label="Desdemona --- Cassio" weight="3817.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+          <attvalue for="character1" value="Desdemona"></attvalue>
+          <attvalue for="character2" value="Cassio"></attvalue>
+          <attvalue for="character1_words" value="1928"></attvalue>
+          <attvalue for="character2_words" value="1889"></attvalue>
+          <attvalue for="sharedlines" value="463"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="102" source="10" target="17" label="Desdemona --- Bianca" weight="984.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Desdemona"></attvalue>
+          <attvalue for="character2" value="Bianca"></attvalue>
+          <attvalue for="character1_words" value="742"></attvalue>
+          <attvalue for="character2_words" value="242"></attvalue>
+          <attvalue for="sharedlines" value="120"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="103" source="10" target="18" label="Desdemona --- Duke of Venice" weight="811.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Desdemona"></attvalue>
+          <attvalue for="character2" value="Duke of Venice"></attvalue>
+          <attvalue for="character1_words" value="249"></attvalue>
+          <attvalue for="character2_words" value="562"></attvalue>
+          <attvalue for="sharedlines" value="102"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="104" source="10" target="19" label="Desdemona --- Lodovico" weight="1457.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Desdemona"></attvalue>
+          <attvalue for="character2" value="Lodovico"></attvalue>
+          <attvalue for="character1_words" value="902"></attvalue>
+          <attvalue for="character2_words" value="555"></attvalue>
+          <attvalue for="sharedlines" value="182"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="105" source="10" target="20" label="Desdemona --- Sailor" weight="278.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Desdemona"></attvalue>
+          <attvalue for="character2" value="Sailor"></attvalue>
+          <attvalue for="character1_words" value="249"></attvalue>
+          <attvalue for="character2_words" value="29"></attvalue>
+          <attvalue for="sharedlines" value="33"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="106" source="10" target="21" label="Desdemona --- Brabantio" weight="789.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Desdemona"></attvalue>
+          <attvalue for="character2" value="Brabantio"></attvalue>
+          <attvalue for="character1_words" value="249"></attvalue>
+          <attvalue for="character2_words" value="540"></attvalue>
+          <attvalue for="sharedlines" value="91"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="107" source="10" target="22" label="Desdemona --- Montano" weight="1052.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Desdemona"></attvalue>
+          <attvalue for="character2" value="Montano"></attvalue>
+          <attvalue for="character1_words" value="560"></attvalue>
+          <attvalue for="character2_words" value="492"></attvalue>
+          <attvalue for="sharedlines" value="134"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="108" source="10" target="25" label="Desdemona --- Messenger" weight="320.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Desdemona"></attvalue>
+          <attvalue for="character2" value="Messenger"></attvalue>
+          <attvalue for="character1_words" value="249"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="38"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="109" source="11" target="0" label="Roderigo --- Gentlemen" weight="327.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Roderigo"></attvalue>
+          <attvalue for="character2" value="Gentlemen"></attvalue>
+          <attvalue for="character1_words" value="49"></attvalue>
+          <attvalue for="character2_words" value="278"></attvalue>
+          <attvalue for="sharedlines" value="44"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="110" source="11" target="1" label="Roderigo --- Iago" weight="7580.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+          <attvalue for="character1" value="Roderigo"></attvalue>
+          <attvalue for="character2" value="Iago"></attvalue>
+          <attvalue for="character1_words" value="996"></attvalue>
+          <attvalue for="character2_words" value="6584"></attvalue>
+          <attvalue for="sharedlines" value="846"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="111" source="11" target="2" label="Roderigo --- First Senator" weight="151.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Roderigo"></attvalue>
+          <attvalue for="character2" value="First Senator"></attvalue>
+          <attvalue for="character1_words" value="115"></attvalue>
+          <attvalue for="character2_words" value="36"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="112" source="11" target="3" label="Roderigo --- Emilia" weight="869.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Roderigo"></attvalue>
+          <attvalue for="character2" value="Emilia"></attvalue>
+          <attvalue for="character1_words" value="441"></attvalue>
+          <attvalue for="character2_words" value="428"></attvalue>
+          <attvalue for="sharedlines" value="102"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="113" source="11" target="4" label="Roderigo --- Othello" weight="3344.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+          <attvalue for="character1" value="Roderigo"></attvalue>
+          <attvalue for="character2" value="Othello"></attvalue>
+          <attvalue for="character1_words" value="636"></attvalue>
+          <attvalue for="character2_words" value="2708"></attvalue>
+          <attvalue for="sharedlines" value="392"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="114" source="11" target="6" label="Roderigo --- First Officer" weight="160.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Roderigo"></attvalue>
+          <attvalue for="character2" value="First Officer"></attvalue>
+          <attvalue for="character1_words" value="121"></attvalue>
+          <attvalue for="character2_words" value="39"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="115" source="11" target="9" label="Roderigo --- Gratiano" weight="162.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Roderigo"></attvalue>
+          <attvalue for="character2" value="Gratiano"></attvalue>
+          <attvalue for="character1_words" value="100"></attvalue>
+          <attvalue for="character2_words" value="62"></attvalue>
+          <attvalue for="sharedlines" value="20"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="116" source="11" target="10" label="Roderigo --- Desdemona" weight="1544.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Roderigo"></attvalue>
+          <attvalue for="character2" value="Desdemona"></attvalue>
+          <attvalue for="character1_words" value="530"></attvalue>
+          <attvalue for="character2_words" value="1014"></attvalue>
+          <attvalue for="sharedlines" value="188"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="117" source="11" target="12" label="Roderigo --- Other Senators" weight="345.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Roderigo"></attvalue>
+          <attvalue for="character2" value="Other Senators"></attvalue>
+          <attvalue for="character1_words" value="115"></attvalue>
+          <attvalue for="character2_words" value="230"></attvalue>
+          <attvalue for="sharedlines" value="44"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="118" source="11" target="13" label="Roderigo --- All" weight="77.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Roderigo"></attvalue>
+          <attvalue for="character2" value="All"></attvalue>
+          <attvalue for="character1_words" value="74"></attvalue>
+          <attvalue for="character2_words" value="3"></attvalue>
+          <attvalue for="sharedlines" value="9"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="119" source="11" target="15" label="Roderigo --- Cassio" weight="1617.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Roderigo"></attvalue>
+          <attvalue for="character2" value="Cassio"></attvalue>
+          <attvalue for="character1_words" value="229"></attvalue>
+          <attvalue for="character2_words" value="1388"></attvalue>
+          <attvalue for="sharedlines" value="194"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="120" source="11" target="17" label="Roderigo --- Bianca" weight="159.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Roderigo"></attvalue>
+          <attvalue for="character2" value="Bianca"></attvalue>
+          <attvalue for="character1_words" value="100"></attvalue>
+          <attvalue for="character2_words" value="59"></attvalue>
+          <attvalue for="sharedlines" value="18"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="121" source="11" target="18" label="Roderigo --- Duke of Venice" weight="677.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Roderigo"></attvalue>
+          <attvalue for="character2" value="Duke of Venice"></attvalue>
+          <attvalue for="character1_words" value="115"></attvalue>
+          <attvalue for="character2_words" value="562"></attvalue>
+          <attvalue for="sharedlines" value="89"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="122" source="11" target="19" label="Roderigo --- Lodovico" weight="159.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Roderigo"></attvalue>
+          <attvalue for="character2" value="Lodovico"></attvalue>
+          <attvalue for="character1_words" value="100"></attvalue>
+          <attvalue for="character2_words" value="59"></attvalue>
+          <attvalue for="sharedlines" value="20"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="123" source="11" target="20" label="Roderigo --- Sailor" weight="144.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Roderigo"></attvalue>
+          <attvalue for="character2" value="Sailor"></attvalue>
+          <attvalue for="character1_words" value="115"></attvalue>
+          <attvalue for="character2_words" value="29"></attvalue>
+          <attvalue for="sharedlines" value="20"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="124" source="11" target="21" label="Roderigo --- Brabantio" weight="1679.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Roderigo"></attvalue>
+          <attvalue for="character2" value="Brabantio"></attvalue>
+          <attvalue for="character1_words" value="481"></attvalue>
+          <attvalue for="character2_words" value="1198"></attvalue>
+          <attvalue for="sharedlines" value="198"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="125" source="11" target="22" label="Roderigo --- Montano" weight="555.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Roderigo"></attvalue>
+          <attvalue for="character2" value="Montano"></attvalue>
+          <attvalue for="character1_words" value="123"></attvalue>
+          <attvalue for="character2_words" value="432"></attvalue>
+          <attvalue for="sharedlines" value="69"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="126" source="11" target="25" label="Roderigo --- Messenger" weight="186.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Roderigo"></attvalue>
+          <attvalue for="character2" value="Messenger"></attvalue>
+          <attvalue for="character1_words" value="115"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="25"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="127" source="12" target="1" label="Other Senators --- Iago" weight="1106.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Other Senators"></attvalue>
+          <attvalue for="character2" value="Iago"></attvalue>
+          <attvalue for="character1_words" value="230"></attvalue>
+          <attvalue for="character2_words" value="876"></attvalue>
+          <attvalue for="sharedlines" value="119"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="128" source="12" target="2" label="Other Senators --- First Senator" weight="266.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Other Senators"></attvalue>
+          <attvalue for="character2" value="First Senator"></attvalue>
+          <attvalue for="character1_words" value="230"></attvalue>
+          <attvalue for="character2_words" value="36"></attvalue>
+          <attvalue for="sharedlines" value="33"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="129" source="12" target="4" label="Other Senators --- Othello" weight="1232.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Other Senators"></attvalue>
+          <attvalue for="character2" value="Othello"></attvalue>
+          <attvalue for="character1_words" value="230"></attvalue>
+          <attvalue for="character2_words" value="1002"></attvalue>
+          <attvalue for="sharedlines" value="143"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="130" source="12" target="6" label="Other Senators --- First Officer" weight="247.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Other Senators"></attvalue>
+          <attvalue for="character2" value="First Officer"></attvalue>
+          <attvalue for="character1_words" value="230"></attvalue>
+          <attvalue for="character2_words" value="17"></attvalue>
+          <attvalue for="sharedlines" value="30"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="131" source="12" target="10" label="Other Senators --- Desdemona" weight="479.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Other Senators"></attvalue>
+          <attvalue for="character2" value="Desdemona"></attvalue>
+          <attvalue for="character1_words" value="230"></attvalue>
+          <attvalue for="character2_words" value="249"></attvalue>
+          <attvalue for="sharedlines" value="57"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="132" source="12" target="11" label="Other Senators --- Roderigo" weight="345.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Other Senators"></attvalue>
+          <attvalue for="character2" value="Roderigo"></attvalue>
+          <attvalue for="character1_words" value="230"></attvalue>
+          <attvalue for="character2_words" value="115"></attvalue>
+          <attvalue for="sharedlines" value="44"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="133" source="12" target="18" label="Other Senators --- Duke of Venice" weight="792.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Other Senators"></attvalue>
+          <attvalue for="character2" value="Duke of Venice"></attvalue>
+          <attvalue for="character1_words" value="230"></attvalue>
+          <attvalue for="character2_words" value="562"></attvalue>
+          <attvalue for="sharedlines" value="101"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="134" source="12" target="20" label="Other Senators --- Sailor" weight="259.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Other Senators"></attvalue>
+          <attvalue for="character2" value="Sailor"></attvalue>
+          <attvalue for="character1_words" value="230"></attvalue>
+          <attvalue for="character2_words" value="29"></attvalue>
+          <attvalue for="sharedlines" value="32"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="135" source="12" target="21" label="Other Senators --- Brabantio" weight="770.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Other Senators"></attvalue>
+          <attvalue for="character2" value="Brabantio"></attvalue>
+          <attvalue for="character1_words" value="230"></attvalue>
+          <attvalue for="character2_words" value="540"></attvalue>
+          <attvalue for="sharedlines" value="90"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="136" source="12" target="25" label="Other Senators --- Messenger" weight="301.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Other Senators"></attvalue>
+          <attvalue for="character2" value="Messenger"></attvalue>
+          <attvalue for="character1_words" value="230"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="37"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="137" source="13" target="1" label="All --- Iago" weight="2001.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="All"></attvalue>
+          <attvalue for="character2" value="Iago"></attvalue>
+          <attvalue for="character1_words" value="7"></attvalue>
+          <attvalue for="character2_words" value="1994"></attvalue>
+          <attvalue for="sharedlines" value="225"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="138" source="13" target="3" label="All --- Emilia" weight="743.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="All"></attvalue>
+          <attvalue for="character2" value="Emilia"></attvalue>
+          <attvalue for="character1_words" value="4"></attvalue>
+          <attvalue for="character2_words" value="739"></attvalue>
+          <attvalue for="sharedlines" value="88"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="139" source="13" target="4" label="All --- Othello" weight="2162.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="All"></attvalue>
+          <attvalue for="character2" value="Othello"></attvalue>
+          <attvalue for="character1_words" value="7"></attvalue>
+          <attvalue for="character2_words" value="2155"></attvalue>
+          <attvalue for="sharedlines" value="261"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="140" source="13" target="9" label="All --- Gratiano" weight="130.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="All"></attvalue>
+          <attvalue for="character2" value="Gratiano"></attvalue>
+          <attvalue for="character1_words" value="4"></attvalue>
+          <attvalue for="character2_words" value="126"></attvalue>
+          <attvalue for="sharedlines" value="18"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="141" source="13" target="10" label="All --- Desdemona" weight="333.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="All"></attvalue>
+          <attvalue for="character2" value="Desdemona"></attvalue>
+          <attvalue for="character1_words" value="7"></attvalue>
+          <attvalue for="character2_words" value="326"></attvalue>
+          <attvalue for="sharedlines" value="46"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="142" source="13" target="11" label="All --- Roderigo" weight="77.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="All"></attvalue>
+          <attvalue for="character2" value="Roderigo"></attvalue>
+          <attvalue for="character1_words" value="3"></attvalue>
+          <attvalue for="character2_words" value="74"></attvalue>
+          <attvalue for="sharedlines" value="9"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="143" source="13" target="15" label="All --- Cassio" weight="809.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="All"></attvalue>
+          <attvalue for="character2" value="Cassio"></attvalue>
+          <attvalue for="character1_words" value="7"></attvalue>
+          <attvalue for="character2_words" value="802"></attvalue>
+          <attvalue for="sharedlines" value="98"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="144" source="13" target="19" label="All --- Lodovico" weight="335.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="All"></attvalue>
+          <attvalue for="character2" value="Lodovico"></attvalue>
+          <attvalue for="character1_words" value="4"></attvalue>
+          <attvalue for="character2_words" value="331"></attvalue>
+          <attvalue for="sharedlines" value="41"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="145" source="13" target="22" label="All --- Montano" weight="324.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="All"></attvalue>
+          <attvalue for="character2" value="Montano"></attvalue>
+          <attvalue for="character1_words" value="7"></attvalue>
+          <attvalue for="character2_words" value="317"></attvalue>
+          <attvalue for="sharedlines" value="41"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="146" source="14" target="1" label="Clown --- Iago" weight="376.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Clown"></attvalue>
+          <attvalue for="character2" value="Iago"></attvalue>
+          <attvalue for="character1_words" value="255"></attvalue>
+          <attvalue for="character2_words" value="121"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="147" source="14" target="3" label="Clown --- Emilia" weight="509.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Clown"></attvalue>
+          <attvalue for="character2" value="Emilia"></attvalue>
+          <attvalue for="character1_words" value="255"></attvalue>
+          <attvalue for="character2_words" value="254"></attvalue>
+          <attvalue for="sharedlines" value="59"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="148" source="14" target="4" label="Clown --- Othello" weight="474.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Clown"></attvalue>
+          <attvalue for="character2" value="Othello"></attvalue>
+          <attvalue for="character1_words" value="108"></attvalue>
+          <attvalue for="character2_words" value="366"></attvalue>
+          <attvalue for="sharedlines" value="62"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="149" source="14" target="10" label="Clown --- Desdemona" weight="758.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Clown"></attvalue>
+          <attvalue for="character2" value="Desdemona"></attvalue>
+          <attvalue for="character1_words" value="108"></attvalue>
+          <attvalue for="character2_words" value="650"></attvalue>
+          <attvalue for="sharedlines" value="90"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="150" source="14" target="15" label="Clown --- Cassio" weight="759.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Clown"></attvalue>
+          <attvalue for="character2" value="Cassio"></attvalue>
+          <attvalue for="character1_words" value="255"></attvalue>
+          <attvalue for="character2_words" value="504"></attvalue>
+          <attvalue for="sharedlines" value="86"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="151" source="14" target="17" label="Clown --- Bianca" weight="237.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Clown"></attvalue>
+          <attvalue for="character2" value="Bianca"></attvalue>
+          <attvalue for="character1_words" value="108"></attvalue>
+          <attvalue for="character2_words" value="129"></attvalue>
+          <attvalue for="sharedlines" value="29"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="152" source="14" target="23" label="Clown --- First Musician" weight="175.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Clown"></attvalue>
+          <attvalue for="character2" value="First Musician"></attvalue>
+          <attvalue for="character1_words" value="147"></attvalue>
+          <attvalue for="character2_words" value="28"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="153" source="15" target="0" label="Cassio --- Gentlemen" weight="733.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Cassio"></attvalue>
+          <attvalue for="character2" value="Gentlemen"></attvalue>
+          <attvalue for="character1_words" value="455"></attvalue>
+          <attvalue for="character2_words" value="278"></attvalue>
+          <attvalue for="sharedlines" value="88"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="154" source="15" target="1" label="Cassio --- Iago" weight="9704.0">
+        <attvalues>
+          <attvalue for="scenes" value="9"></attvalue>
+          <attvalue for="character1" value="Cassio"></attvalue>
+          <attvalue for="character2" value="Iago"></attvalue>
+          <attvalue for="character1_words" value="2314"></attvalue>
+          <attvalue for="character2_words" value="7390"></attvalue>
+          <attvalue for="sharedlines" value="1124"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="155" source="15" target="3" label="Cassio --- Emilia" weight="2561.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+          <attvalue for="character1" value="Cassio"></attvalue>
+          <attvalue for="character2" value="Emilia"></attvalue>
+          <attvalue for="character1_words" value="1283"></attvalue>
+          <attvalue for="character2_words" value="1278"></attvalue>
+          <attvalue for="sharedlines" value="305"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="156" source="15" target="4" label="Cassio --- Othello" weight="7766.0">
+        <attvalues>
+          <attvalue for="scenes" value="8"></attvalue>
+          <attvalue for="character1" value="Cassio"></attvalue>
+          <attvalue for="character2" value="Othello"></attvalue>
+          <attvalue for="character1_words" value="2133"></attvalue>
+          <attvalue for="character2_words" value="5633"></attvalue>
+          <attvalue for="sharedlines" value="943"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="157" source="15" target="6" label="Cassio --- First Officer" weight="144.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Cassio"></attvalue>
+          <attvalue for="character2" value="First Officer"></attvalue>
+          <attvalue for="character1_words" value="122"></attvalue>
+          <attvalue for="character2_words" value="22"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="158" source="15" target="9" label="Cassio --- Gratiano" weight="423.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Cassio"></attvalue>
+          <attvalue for="character2" value="Gratiano"></attvalue>
+          <attvalue for="character1_words" value="235"></attvalue>
+          <attvalue for="character2_words" value="188"></attvalue>
+          <attvalue for="sharedlines" value="56"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="159" source="15" target="10" label="Cassio --- Desdemona" weight="3817.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+          <attvalue for="character1" value="Cassio"></attvalue>
+          <attvalue for="character2" value="Desdemona"></attvalue>
+          <attvalue for="character1_words" value="1889"></attvalue>
+          <attvalue for="character2_words" value="1928"></attvalue>
+          <attvalue for="sharedlines" value="463"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="160" source="15" target="11" label="Cassio --- Roderigo" weight="1617.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Cassio"></attvalue>
+          <attvalue for="character2" value="Roderigo"></attvalue>
+          <attvalue for="character1_words" value="1388"></attvalue>
+          <attvalue for="character2_words" value="229"></attvalue>
+          <attvalue for="sharedlines" value="194"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="161" source="15" target="13" label="Cassio --- All" weight="809.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Cassio"></attvalue>
+          <attvalue for="character2" value="All"></attvalue>
+          <attvalue for="character1_words" value="802"></attvalue>
+          <attvalue for="character2_words" value="7"></attvalue>
+          <attvalue for="sharedlines" value="98"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="162" source="15" target="14" label="Cassio --- Clown" weight="759.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Cassio"></attvalue>
+          <attvalue for="character2" value="Clown"></attvalue>
+          <attvalue for="character1_words" value="504"></attvalue>
+          <attvalue for="character2_words" value="255"></attvalue>
+          <attvalue for="sharedlines" value="86"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="163" source="15" target="17" label="Cassio --- Bianca" weight="966.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Cassio"></attvalue>
+          <attvalue for="character2" value="Bianca"></attvalue>
+          <attvalue for="character1_words" value="665"></attvalue>
+          <attvalue for="character2_words" value="301"></attvalue>
+          <attvalue for="sharedlines" value="116"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="164" source="15" target="19" label="Cassio --- Lodovico" weight="1050.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Cassio"></attvalue>
+          <attvalue for="character2" value="Lodovico"></attvalue>
+          <attvalue for="character1_words" value="455"></attvalue>
+          <attvalue for="character2_words" value="595"></attvalue>
+          <attvalue for="sharedlines" value="132"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="165" source="15" target="21" label="Cassio --- Brabantio" weight="393.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Cassio"></attvalue>
+          <attvalue for="character2" value="Brabantio"></attvalue>
+          <attvalue for="character1_words" value="122"></attvalue>
+          <attvalue for="character2_words" value="271"></attvalue>
+          <attvalue for="sharedlines" value="47"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="166" source="15" target="22" label="Cassio --- Montano" weight="1749.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Cassio"></attvalue>
+          <attvalue for="character2" value="Montano"></attvalue>
+          <attvalue for="character1_words" value="1257"></attvalue>
+          <attvalue for="character2_words" value="492"></attvalue>
+          <attvalue for="sharedlines" value="208"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="167" source="15" target="23" label="Cassio --- First Musician" weight="209.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Cassio"></attvalue>
+          <attvalue for="character2" value="First Musician"></attvalue>
+          <attvalue for="character1_words" value="181"></attvalue>
+          <attvalue for="character2_words" value="28"></attvalue>
+          <attvalue for="sharedlines" value="26"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="168" source="17" target="1" label="Bianca --- Iago" weight="2156.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Bianca"></attvalue>
+          <attvalue for="character2" value="Iago"></attvalue>
+          <attvalue for="character1_words" value="301"></attvalue>
+          <attvalue for="character2_words" value="1855"></attvalue>
+          <attvalue for="sharedlines" value="255"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="169" source="17" target="3" label="Bianca --- Emilia" weight="357.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Bianca"></attvalue>
+          <attvalue for="character2" value="Emilia"></attvalue>
+          <attvalue for="character1_words" value="188"></attvalue>
+          <attvalue for="character2_words" value="169"></attvalue>
+          <attvalue for="sharedlines" value="46"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="170" source="17" target="4" label="Bianca --- Othello" weight="1554.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Bianca"></attvalue>
+          <attvalue for="character2" value="Othello"></attvalue>
+          <attvalue for="character1_words" value="301"></attvalue>
+          <attvalue for="character2_words" value="1253"></attvalue>
+          <attvalue for="sharedlines" value="195"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="171" source="17" target="9" label="Bianca --- Gratiano" weight="121.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Bianca"></attvalue>
+          <attvalue for="character2" value="Gratiano"></attvalue>
+          <attvalue for="character1_words" value="59"></attvalue>
+          <attvalue for="character2_words" value="62"></attvalue>
+          <attvalue for="sharedlines" value="16"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="172" source="17" target="10" label="Bianca --- Desdemona" weight="984.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Bianca"></attvalue>
+          <attvalue for="character2" value="Desdemona"></attvalue>
+          <attvalue for="character1_words" value="242"></attvalue>
+          <attvalue for="character2_words" value="742"></attvalue>
+          <attvalue for="sharedlines" value="120"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="173" source="17" target="11" label="Bianca --- Roderigo" weight="159.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Bianca"></attvalue>
+          <attvalue for="character2" value="Roderigo"></attvalue>
+          <attvalue for="character1_words" value="59"></attvalue>
+          <attvalue for="character2_words" value="100"></attvalue>
+          <attvalue for="sharedlines" value="18"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="174" source="17" target="14" label="Bianca --- Clown" weight="237.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Bianca"></attvalue>
+          <attvalue for="character2" value="Clown"></attvalue>
+          <attvalue for="character1_words" value="129"></attvalue>
+          <attvalue for="character2_words" value="108"></attvalue>
+          <attvalue for="sharedlines" value="29"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="175" source="17" target="15" label="Bianca --- Cassio" weight="966.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Bianca"></attvalue>
+          <attvalue for="character2" value="Cassio"></attvalue>
+          <attvalue for="character1_words" value="301"></attvalue>
+          <attvalue for="character2_words" value="665"></attvalue>
+          <attvalue for="sharedlines" value="116"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="176" source="17" target="19" label="Bianca --- Lodovico" weight="436.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Bianca"></attvalue>
+          <attvalue for="character2" value="Lodovico"></attvalue>
+          <attvalue for="character1_words" value="172"></attvalue>
+          <attvalue for="character2_words" value="264"></attvalue>
+          <attvalue for="sharedlines" value="52"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="177" source="18" target="1" label="Duke of Venice --- Iago" weight="1438.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Duke of Venice"></attvalue>
+          <attvalue for="character2" value="Iago"></attvalue>
+          <attvalue for="character1_words" value="562"></attvalue>
+          <attvalue for="character2_words" value="876"></attvalue>
+          <attvalue for="sharedlines" value="164"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="178" source="18" target="2" label="Duke of Venice --- First Senator" weight="598.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Duke of Venice"></attvalue>
+          <attvalue for="character2" value="First Senator"></attvalue>
+          <attvalue for="character1_words" value="562"></attvalue>
+          <attvalue for="character2_words" value="36"></attvalue>
+          <attvalue for="sharedlines" value="78"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="179" source="18" target="4" label="Duke of Venice --- Othello" weight="1564.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Duke of Venice"></attvalue>
+          <attvalue for="character2" value="Othello"></attvalue>
+          <attvalue for="character1_words" value="562"></attvalue>
+          <attvalue for="character2_words" value="1002"></attvalue>
+          <attvalue for="sharedlines" value="188"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="180" source="18" target="6" label="Duke of Venice --- First Officer" weight="579.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Duke of Venice"></attvalue>
+          <attvalue for="character2" value="First Officer"></attvalue>
+          <attvalue for="character1_words" value="562"></attvalue>
+          <attvalue for="character2_words" value="17"></attvalue>
+          <attvalue for="sharedlines" value="75"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="181" source="18" target="10" label="Duke of Venice --- Desdemona" weight="811.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Duke of Venice"></attvalue>
+          <attvalue for="character2" value="Desdemona"></attvalue>
+          <attvalue for="character1_words" value="562"></attvalue>
+          <attvalue for="character2_words" value="249"></attvalue>
+          <attvalue for="sharedlines" value="102"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="182" source="18" target="11" label="Duke of Venice --- Roderigo" weight="677.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Duke of Venice"></attvalue>
+          <attvalue for="character2" value="Roderigo"></attvalue>
+          <attvalue for="character1_words" value="562"></attvalue>
+          <attvalue for="character2_words" value="115"></attvalue>
+          <attvalue for="sharedlines" value="89"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="183" source="18" target="12" label="Duke of Venice --- Other Senators" weight="792.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Duke of Venice"></attvalue>
+          <attvalue for="character2" value="Other Senators"></attvalue>
+          <attvalue for="character1_words" value="562"></attvalue>
+          <attvalue for="character2_words" value="230"></attvalue>
+          <attvalue for="sharedlines" value="101"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="184" source="18" target="20" label="Duke of Venice --- Sailor" weight="591.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Duke of Venice"></attvalue>
+          <attvalue for="character2" value="Sailor"></attvalue>
+          <attvalue for="character1_words" value="562"></attvalue>
+          <attvalue for="character2_words" value="29"></attvalue>
+          <attvalue for="sharedlines" value="77"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="185" source="18" target="21" label="Duke of Venice --- Brabantio" weight="1102.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Duke of Venice"></attvalue>
+          <attvalue for="character2" value="Brabantio"></attvalue>
+          <attvalue for="character1_words" value="562"></attvalue>
+          <attvalue for="character2_words" value="540"></attvalue>
+          <attvalue for="sharedlines" value="135"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="186" source="18" target="25" label="Duke of Venice --- Messenger" weight="633.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Duke of Venice"></attvalue>
+          <attvalue for="character2" value="Messenger"></attvalue>
+          <attvalue for="character1_words" value="562"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="82"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="187" source="19" target="1" label="Lodovico --- Iago" weight="2457.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Lodovico"></attvalue>
+          <attvalue for="character2" value="Iago"></attvalue>
+          <attvalue for="character1_words" value="595"></attvalue>
+          <attvalue for="character2_words" value="1862"></attvalue>
+          <attvalue for="sharedlines" value="297"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="188" source="19" target="3" label="Lodovico --- Emilia" weight="1609.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Lodovico"></attvalue>
+          <attvalue for="character2" value="Emilia"></attvalue>
+          <attvalue for="character1_words" value="409"></attvalue>
+          <attvalue for="character2_words" value="1200"></attvalue>
+          <attvalue for="sharedlines" value="191"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="189" source="19" target="4" label="Lodovico --- Othello" weight="3204.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Lodovico"></attvalue>
+          <attvalue for="character2" value="Othello"></attvalue>
+          <attvalue for="character1_words" value="614"></attvalue>
+          <attvalue for="character2_words" value="2590"></attvalue>
+          <attvalue for="sharedlines" value="394"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="190" source="19" target="9" label="Lodovico --- Gratiano" weight="578.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Lodovico"></attvalue>
+          <attvalue for="character2" value="Gratiano"></attvalue>
+          <attvalue for="character1_words" value="390"></attvalue>
+          <attvalue for="character2_words" value="188"></attvalue>
+          <attvalue for="sharedlines" value="75"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="191" source="19" target="10" label="Lodovico --- Desdemona" weight="1457.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Lodovico"></attvalue>
+          <attvalue for="character2" value="Desdemona"></attvalue>
+          <attvalue for="character1_words" value="555"></attvalue>
+          <attvalue for="character2_words" value="902"></attvalue>
+          <attvalue for="sharedlines" value="182"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="192" source="19" target="11" label="Lodovico --- Roderigo" weight="159.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Lodovico"></attvalue>
+          <attvalue for="character2" value="Roderigo"></attvalue>
+          <attvalue for="character1_words" value="59"></attvalue>
+          <attvalue for="character2_words" value="100"></attvalue>
+          <attvalue for="sharedlines" value="20"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="193" source="19" target="13" label="Lodovico --- All" weight="335.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Lodovico"></attvalue>
+          <attvalue for="character2" value="All"></attvalue>
+          <attvalue for="character1_words" value="331"></attvalue>
+          <attvalue for="character2_words" value="4"></attvalue>
+          <attvalue for="sharedlines" value="41"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="194" source="19" target="15" label="Lodovico --- Cassio" weight="1050.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Lodovico"></attvalue>
+          <attvalue for="character2" value="Cassio"></attvalue>
+          <attvalue for="character1_words" value="595"></attvalue>
+          <attvalue for="character2_words" value="455"></attvalue>
+          <attvalue for="sharedlines" value="132"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="195" source="19" target="17" label="Lodovico --- Bianca" weight="436.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Lodovico"></attvalue>
+          <attvalue for="character2" value="Bianca"></attvalue>
+          <attvalue for="character1_words" value="264"></attvalue>
+          <attvalue for="character2_words" value="172"></attvalue>
+          <attvalue for="sharedlines" value="52"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="196" source="19" target="22" label="Lodovico --- Montano" weight="391.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Lodovico"></attvalue>
+          <attvalue for="character2" value="Montano"></attvalue>
+          <attvalue for="character1_words" value="331"></attvalue>
+          <attvalue for="character2_words" value="60"></attvalue>
+          <attvalue for="sharedlines" value="47"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="197" source="20" target="1" label="Sailor --- Iago" weight="905.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sailor"></attvalue>
+          <attvalue for="character2" value="Iago"></attvalue>
+          <attvalue for="character1_words" value="29"></attvalue>
+          <attvalue for="character2_words" value="876"></attvalue>
+          <attvalue for="sharedlines" value="95"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="198" source="20" target="2" label="Sailor --- First Senator" weight="65.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sailor"></attvalue>
+          <attvalue for="character2" value="First Senator"></attvalue>
+          <attvalue for="character1_words" value="29"></attvalue>
+          <attvalue for="character2_words" value="36"></attvalue>
+          <attvalue for="sharedlines" value="9"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="199" source="20" target="4" label="Sailor --- Othello" weight="1031.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sailor"></attvalue>
+          <attvalue for="character2" value="Othello"></attvalue>
+          <attvalue for="character1_words" value="29"></attvalue>
+          <attvalue for="character2_words" value="1002"></attvalue>
+          <attvalue for="sharedlines" value="119"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="200" source="20" target="6" label="Sailor --- First Officer" weight="46.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sailor"></attvalue>
+          <attvalue for="character2" value="First Officer"></attvalue>
+          <attvalue for="character1_words" value="29"></attvalue>
+          <attvalue for="character2_words" value="17"></attvalue>
+          <attvalue for="sharedlines" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="201" source="20" target="10" label="Sailor --- Desdemona" weight="278.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sailor"></attvalue>
+          <attvalue for="character2" value="Desdemona"></attvalue>
+          <attvalue for="character1_words" value="29"></attvalue>
+          <attvalue for="character2_words" value="249"></attvalue>
+          <attvalue for="sharedlines" value="33"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="202" source="20" target="11" label="Sailor --- Roderigo" weight="144.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sailor"></attvalue>
+          <attvalue for="character2" value="Roderigo"></attvalue>
+          <attvalue for="character1_words" value="29"></attvalue>
+          <attvalue for="character2_words" value="115"></attvalue>
+          <attvalue for="sharedlines" value="20"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="203" source="20" target="12" label="Sailor --- Other Senators" weight="259.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sailor"></attvalue>
+          <attvalue for="character2" value="Other Senators"></attvalue>
+          <attvalue for="character1_words" value="29"></attvalue>
+          <attvalue for="character2_words" value="230"></attvalue>
+          <attvalue for="sharedlines" value="32"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="204" source="20" target="18" label="Sailor --- Duke of Venice" weight="591.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sailor"></attvalue>
+          <attvalue for="character2" value="Duke of Venice"></attvalue>
+          <attvalue for="character1_words" value="29"></attvalue>
+          <attvalue for="character2_words" value="562"></attvalue>
+          <attvalue for="sharedlines" value="77"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="205" source="20" target="21" label="Sailor --- Brabantio" weight="569.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sailor"></attvalue>
+          <attvalue for="character2" value="Brabantio"></attvalue>
+          <attvalue for="character1_words" value="29"></attvalue>
+          <attvalue for="character2_words" value="540"></attvalue>
+          <attvalue for="sharedlines" value="66"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="206" source="20" target="25" label="Sailor --- Messenger" weight="100.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sailor"></attvalue>
+          <attvalue for="character2" value="Messenger"></attvalue>
+          <attvalue for="character1_words" value="29"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="13"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="207" source="21" target="1" label="Brabantio --- Iago" weight="3265.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Brabantio"></attvalue>
+          <attvalue for="character2" value="Iago"></attvalue>
+          <attvalue for="character1_words" value="1198"></attvalue>
+          <attvalue for="character2_words" value="2067"></attvalue>
+          <attvalue for="sharedlines" value="364"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="208" source="21" target="2" label="Brabantio --- First Senator" weight="576.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Brabantio"></attvalue>
+          <attvalue for="character2" value="First Senator"></attvalue>
+          <attvalue for="character1_words" value="540"></attvalue>
+          <attvalue for="character2_words" value="36"></attvalue>
+          <attvalue for="sharedlines" value="67"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="209" source="21" target="4" label="Brabantio --- Othello" weight="2116.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Brabantio"></attvalue>
+          <attvalue for="character2" value="Othello"></attvalue>
+          <attvalue for="character1_words" value="811"></attvalue>
+          <attvalue for="character2_words" value="1305"></attvalue>
+          <attvalue for="sharedlines" value="246"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="210" source="21" target="6" label="Brabantio --- First Officer" weight="850.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Brabantio"></attvalue>
+          <attvalue for="character2" value="First Officer"></attvalue>
+          <attvalue for="character1_words" value="811"></attvalue>
+          <attvalue for="character2_words" value="39"></attvalue>
+          <attvalue for="sharedlines" value="98"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="211" source="21" target="10" label="Brabantio --- Desdemona" weight="789.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Brabantio"></attvalue>
+          <attvalue for="character2" value="Desdemona"></attvalue>
+          <attvalue for="character1_words" value="540"></attvalue>
+          <attvalue for="character2_words" value="249"></attvalue>
+          <attvalue for="sharedlines" value="91"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="212" source="21" target="11" label="Brabantio --- Roderigo" weight="1679.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Brabantio"></attvalue>
+          <attvalue for="character2" value="Roderigo"></attvalue>
+          <attvalue for="character1_words" value="1198"></attvalue>
+          <attvalue for="character2_words" value="481"></attvalue>
+          <attvalue for="sharedlines" value="198"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="213" source="21" target="12" label="Brabantio --- Other Senators" weight="770.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Brabantio"></attvalue>
+          <attvalue for="character2" value="Other Senators"></attvalue>
+          <attvalue for="character1_words" value="540"></attvalue>
+          <attvalue for="character2_words" value="230"></attvalue>
+          <attvalue for="sharedlines" value="90"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="214" source="21" target="15" label="Brabantio --- Cassio" weight="393.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Brabantio"></attvalue>
+          <attvalue for="character2" value="Cassio"></attvalue>
+          <attvalue for="character1_words" value="271"></attvalue>
+          <attvalue for="character2_words" value="122"></attvalue>
+          <attvalue for="sharedlines" value="47"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="215" source="21" target="18" label="Brabantio --- Duke of Venice" weight="1102.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Brabantio"></attvalue>
+          <attvalue for="character2" value="Duke of Venice"></attvalue>
+          <attvalue for="character1_words" value="540"></attvalue>
+          <attvalue for="character2_words" value="562"></attvalue>
+          <attvalue for="sharedlines" value="135"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="216" source="21" target="20" label="Brabantio --- Sailor" weight="569.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Brabantio"></attvalue>
+          <attvalue for="character2" value="Sailor"></attvalue>
+          <attvalue for="character1_words" value="540"></attvalue>
+          <attvalue for="character2_words" value="29"></attvalue>
+          <attvalue for="sharedlines" value="66"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="217" source="21" target="25" label="Brabantio --- Messenger" weight="611.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Brabantio"></attvalue>
+          <attvalue for="character2" value="Messenger"></attvalue>
+          <attvalue for="character1_words" value="540"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="71"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="218" source="22" target="0" label="Montano --- Gentlemen" weight="453.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Montano"></attvalue>
+          <attvalue for="character2" value="Gentlemen"></attvalue>
+          <attvalue for="character1_words" value="175"></attvalue>
+          <attvalue for="character2_words" value="278"></attvalue>
+          <attvalue for="sharedlines" value="57"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="219" source="22" target="1" label="Montano --- Iago" weight="3905.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Montano"></attvalue>
+          <attvalue for="character2" value="Iago"></attvalue>
+          <attvalue for="character1_words" value="492"></attvalue>
+          <attvalue for="character2_words" value="3413"></attvalue>
+          <attvalue for="sharedlines" value="437"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="220" source="22" target="3" label="Montano --- Emilia" weight="995.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Montano"></attvalue>
+          <attvalue for="character2" value="Emilia"></attvalue>
+          <attvalue for="character1_words" value="235"></attvalue>
+          <attvalue for="character2_words" value="760"></attvalue>
+          <attvalue for="sharedlines" value="118"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="221" source="22" target="4" label="Montano --- Othello" weight="2902.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Montano"></attvalue>
+          <attvalue for="character2" value="Othello"></attvalue>
+          <attvalue for="character1_words" value="492"></attvalue>
+          <attvalue for="character2_words" value="2410"></attvalue>
+          <attvalue for="sharedlines" value="348"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="222" source="22" target="9" label="Montano --- Gratiano" weight="186.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Montano"></attvalue>
+          <attvalue for="character2" value="Gratiano"></attvalue>
+          <attvalue for="character1_words" value="60"></attvalue>
+          <attvalue for="character2_words" value="126"></attvalue>
+          <attvalue for="sharedlines" value="24"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="223" source="22" target="10" label="Montano --- Desdemona" weight="1052.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Montano"></attvalue>
+          <attvalue for="character2" value="Desdemona"></attvalue>
+          <attvalue for="character1_words" value="492"></attvalue>
+          <attvalue for="character2_words" value="560"></attvalue>
+          <attvalue for="sharedlines" value="134"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="224" source="22" target="11" label="Montano --- Roderigo" weight="555.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Montano"></attvalue>
+          <attvalue for="character2" value="Roderigo"></attvalue>
+          <attvalue for="character1_words" value="432"></attvalue>
+          <attvalue for="character2_words" value="123"></attvalue>
+          <attvalue for="sharedlines" value="69"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="225" source="22" target="13" label="Montano --- All" weight="324.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Montano"></attvalue>
+          <attvalue for="character2" value="All"></attvalue>
+          <attvalue for="character1_words" value="317"></attvalue>
+          <attvalue for="character2_words" value="7"></attvalue>
+          <attvalue for="sharedlines" value="41"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="226" source="22" target="15" label="Montano --- Cassio" weight="1749.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Montano"></attvalue>
+          <attvalue for="character2" value="Cassio"></attvalue>
+          <attvalue for="character1_words" value="492"></attvalue>
+          <attvalue for="character2_words" value="1257"></attvalue>
+          <attvalue for="sharedlines" value="208"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="227" source="22" target="19" label="Montano --- Lodovico" weight="391.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Montano"></attvalue>
+          <attvalue for="character2" value="Lodovico"></attvalue>
+          <attvalue for="character1_words" value="60"></attvalue>
+          <attvalue for="character2_words" value="331"></attvalue>
+          <attvalue for="sharedlines" value="47"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="228" source="23" target="1" label="First Musician --- Iago" weight="67.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Musician"></attvalue>
+          <attvalue for="character2" value="Iago"></attvalue>
+          <attvalue for="character1_words" value="28"></attvalue>
+          <attvalue for="character2_words" value="39"></attvalue>
+          <attvalue for="sharedlines" value="10"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="229" source="23" target="3" label="First Musician --- Emilia" weight="144.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Musician"></attvalue>
+          <attvalue for="character2" value="Emilia"></attvalue>
+          <attvalue for="character1_words" value="28"></attvalue>
+          <attvalue for="character2_words" value="116"></attvalue>
+          <attvalue for="sharedlines" value="18"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="230" source="23" target="14" label="First Musician --- Clown" weight="175.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Musician"></attvalue>
+          <attvalue for="character2" value="Clown"></attvalue>
+          <attvalue for="character1_words" value="28"></attvalue>
+          <attvalue for="character2_words" value="147"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="231" source="23" target="15" label="First Musician --- Cassio" weight="209.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Musician"></attvalue>
+          <attvalue for="character2" value="Cassio"></attvalue>
+          <attvalue for="character1_words" value="28"></attvalue>
+          <attvalue for="character2_words" value="181"></attvalue>
+          <attvalue for="sharedlines" value="26"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="232" source="25" target="1" label="Messenger --- Iago" weight="947.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Messenger"></attvalue>
+          <attvalue for="character2" value="Iago"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="876"></attvalue>
+          <attvalue for="sharedlines" value="100"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="233" source="25" target="2" label="Messenger --- First Senator" weight="107.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Messenger"></attvalue>
+          <attvalue for="character2" value="First Senator"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="36"></attvalue>
+          <attvalue for="sharedlines" value="14"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="234" source="25" target="4" label="Messenger --- Othello" weight="1073.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Messenger"></attvalue>
+          <attvalue for="character2" value="Othello"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="1002"></attvalue>
+          <attvalue for="sharedlines" value="124"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="235" source="25" target="6" label="Messenger --- First Officer" weight="88.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Messenger"></attvalue>
+          <attvalue for="character2" value="First Officer"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="17"></attvalue>
+          <attvalue for="sharedlines" value="11"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="236" source="25" target="10" label="Messenger --- Desdemona" weight="320.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Messenger"></attvalue>
+          <attvalue for="character2" value="Desdemona"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="249"></attvalue>
+          <attvalue for="sharedlines" value="38"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="237" source="25" target="11" label="Messenger --- Roderigo" weight="186.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Messenger"></attvalue>
+          <attvalue for="character2" value="Roderigo"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="115"></attvalue>
+          <attvalue for="sharedlines" value="25"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="238" source="25" target="12" label="Messenger --- Other Senators" weight="301.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Messenger"></attvalue>
+          <attvalue for="character2" value="Other Senators"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="230"></attvalue>
+          <attvalue for="sharedlines" value="37"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="239" source="25" target="18" label="Messenger --- Duke of Venice" weight="633.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Messenger"></attvalue>
+          <attvalue for="character2" value="Duke of Venice"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="562"></attvalue>
+          <attvalue for="sharedlines" value="82"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="240" source="25" target="20" label="Messenger --- Sailor" weight="100.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Messenger"></attvalue>
+          <attvalue for="character2" value="Sailor"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="29"></attvalue>
+          <attvalue for="sharedlines" value="13"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="241" source="25" target="21" label="Messenger --- Brabantio" weight="611.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Messenger"></attvalue>
+          <attvalue for="character2" value="Brabantio"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="540"></attvalue>
+          <attvalue for="sharedlines" value="71"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

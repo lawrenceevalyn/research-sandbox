@@ -1,0 +1,2437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-04-26">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="key" title="key" type="string"></attribute>
+      <attribute id="lines" title="lines" type="integer"></attribute>
+      <attribute id="words" title="words" type="integer"></attribute>
+      <attribute id="criticality" title="criticality" type="double"></attribute>
+      <attribute id="eigencentrality" title="Eigenvector Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="triangles" title="Number of triangles" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="scenes" title="scenes" type="integer"></attribute>
+      <attribute id="character1" title="character1" type="string"></attribute>
+      <attribute id="character2" title="character2" type="string"></attribute>
+      <attribute id="character1_words" title="character1_words" type="integer"></attribute>
+      <attribute id="character2_words" title="character2_words" type="integer"></attribute>
+      <attribute id="sharedlines" title="sharedLines" type="integer"></attribute>
+    </attributes>
+    <nodes>
+      <node id="0" label="First Gentleman">
+        <attvalues>
+          <attvalue for="key" value="aww-gent1."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="344.74503" y="-272.6037"></viz:position>
+      </node>
+      <node id="1" label="Second Gentleman">
+        <attvalues>
+          <attvalue for="key" value="aww-gent2."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="492.7394" y="-439.19388"></viz:position>
+      </node>
+      <node id="2" label="Servant">
+        <attvalues>
+          <attvalue for="key" value="aww-serv."></attvalue>
+          <attvalue for="lines" value="4"></attvalue>
+          <attvalue for="words" value="38"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.35646303712225275"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5588235294117647"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6228070175438597"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="10"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-73.232864" y="201.42532"></viz:position>
+      </node>
+      <node id="3" label="Duke of Florence">
+        <attvalues>
+          <attvalue for="key" value="FlorenceD"></attvalue>
+          <attvalue for="lines" value="19"></attvalue>
+          <attvalue for="words" value="145"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.23010125678360993"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5135135135135135"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5614035087719299"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-352.17752" y="43.868233"></viz:position>
+      </node>
+      <node id="4" label="Diana">
+        <attvalues>
+          <attvalue for="key" value="CapiletD"></attvalue>
+          <attvalue for="lines" value="137"></attvalue>
+          <attvalue for="words" value="1159"></attvalue>
+          <attvalue for="criticality" value="0.0763888888888889"></attvalue>
+          <attvalue for="eigencentrality" value="0.6246479745416665"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6551724137931034"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7368421052631579"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.375"></attvalue>
+          <attvalue for="clustering" value="0.8611111111111112"></attvalue>
+          <attvalue for="triangles" value="31"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="369.41547" y="381.99115"></viz:position>
+      </node>
+      <node id="5" label="Clown">
+        <attvalues>
+          <attvalue for="key" value="aww-clo."></attvalue>
+          <attvalue for="lines" value="202"></attvalue>
+          <attvalue for="words" value="1867"></attvalue>
+          <attvalue for="criticality" value="0.15043290043290042"></attvalue>
+          <attvalue for="eigencentrality" value="0.49314525349478905"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6129032258064516"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6842105263157895"></attvalue>
+          <attvalue for="betweenesscentrality" value="2.106060606060606"></attvalue>
+          <attvalue for="clustering" value="0.8095238095238095"></attvalue>
+          <attvalue for="triangles" value="17"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-323.58524" y="-26.702929"></viz:position>
+      </node>
+      <node id="6" label="All">
+        <attvalues>
+          <attvalue for="key" value="aww-all"></attvalue>
+          <attvalue for="lines" value="2"></attvalue>
+          <attvalue for="words" value="17"></attvalue>
+          <attvalue for="criticality" value="0.04907407407407407"></attvalue>
+          <attvalue for="eigencentrality" value="0.6524329092122371"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6551724137931034"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7368421052631579"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.8833333333333332"></attvalue>
+          <attvalue for="clustering" value="0.8888888888888888"></attvalue>
+          <attvalue for="triangles" value="32"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="208.55693" y="-191.99654"></viz:position>
+      </node>
+      <node id="7" label="Bertram">
+        <attvalues>
+          <attvalue for="key" value="Bertram"></attvalue>
+          <attvalue for="lines" value="277"></attvalue>
+          <attvalue for="words" value="2328"></attvalue>
+          <attvalue for="criticality" value="0.5870062229437233"></attvalue>
+          <attvalue for="eigencentrality" value="0.9547862169358619"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8636363636363636"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9210526315789473"></attvalue>
+          <attvalue for="betweenesscentrality" value="18.784199134199145"></attvalue>
+          <attvalue for="clustering" value="0.55"></attvalue>
+          <attvalue for="triangles" value="66"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="489.58368" y="444.97763"></viz:position>
+      </node>
+      <node id="8" label="Countess of Rousillon">
+        <attvalues>
+          <attvalue for="key" value="Rossillion"></attvalue>
+          <attvalue for="lines" value="283"></attvalue>
+          <attvalue for="words" value="2468"></attvalue>
+          <attvalue for="criticality" value="0.3437937062937063"></attvalue>
+          <attvalue for="eigencentrality" value="0.8257971751534514"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.76"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8421052631578947"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.938636363636364"></attvalue>
+          <attvalue for="clustering" value="0.6410256410256411"></attvalue>
+          <attvalue for="triangles" value="50"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="26"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="177.77228" y="-169.98277"></viz:position>
+      </node>
+      <node id="9" label="Parolles">
+        <attvalues>
+          <attvalue for="key" value="Parolles"></attvalue>
+          <attvalue for="lines" value="389"></attvalue>
+          <attvalue for="words" value="3399"></attvalue>
+          <attvalue for="criticality" value="0.5951012223071047"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.9047619047619048"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9473684210526315"></attvalue>
+          <attvalue for="betweenesscentrality" value="20.23344155844156"></attvalue>
+          <attvalue for="clustering" value="0.5294117647058824"></attvalue>
+          <attvalue for="triangles" value="72"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="34"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-15.8355665" y="498.6351"></viz:position>
+      </node>
+      <node id="10" label="First Soldier">
+        <attvalues>
+          <attvalue for="key" value="aww-sold1."></attvalue>
+          <attvalue for="lines" value="81"></attvalue>
+          <attvalue for="words" value="702"></attvalue>
+          <attvalue for="criticality" value="0.016666666666666666"></attvalue>
+          <attvalue for="eigencentrality" value="0.40990908533193154"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5757575757575758"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6491228070175439"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.2"></attvalue>
+          <attvalue for="clustering" value="0.9333333333333333"></attvalue>
+          <attvalue for="triangles" value="14"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="14.704792" y="-32.95189"></viz:position>
+      </node>
+      <node id="11" label="Second Soldier">
+        <attvalues>
+          <attvalue for="key" value="aww-sold2."></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="3"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-106.46696" y="-133.967"></viz:position>
+      </node>
+      <node id="12" label="Helena">
+        <attvalues>
+          <attvalue for="key" value="Helena3"></attvalue>
+          <attvalue for="lines" value="475"></attvalue>
+          <attvalue for="words" value="4074"></attvalue>
+          <attvalue for="criticality" value="0.5947713744588746"></attvalue>
+          <attvalue for="eigencentrality" value="0.9536316129276537"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8636363636363636"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9210526315789473"></attvalue>
+          <attvalue for="betweenesscentrality" value="19.032683982683988"></attvalue>
+          <attvalue for="clustering" value="0.55"></attvalue>
+          <attvalue for="triangles" value="66"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="346.71375" y="-389.59943"></viz:position>
+      </node>
+      <node id="13" label="A Page">
+        <attvalues>
+          <attvalue for="key" value="aww-page."></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="9"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.4147885380422223"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5757575757575758"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.631578947368421"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="10"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="426.74506" y="-287.13324"></viz:position>
+      </node>
+      <node id="14" label="An old Widow of Florence">
+        <attvalues>
+          <attvalue for="key" value="aww-wid."></attvalue>
+          <attvalue for="lines" value="66"></attvalue>
+          <attvalue for="words" value="514"></attvalue>
+          <attvalue for="criticality" value="0.0763888888888889"></attvalue>
+          <attvalue for="eigencentrality" value="0.6246479745416665"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6551724137931034"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7368421052631579"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.375"></attvalue>
+          <attvalue for="clustering" value="0.8611111111111112"></attvalue>
+          <attvalue for="triangles" value="31"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-225.60684" y="39.016304"></viz:position>
+      </node>
+      <node id="15" label="King of France">
+        <attvalues>
+          <attvalue for="key" value="FranceK"></attvalue>
+          <attvalue for="lines" value="383"></attvalue>
+          <attvalue for="words" value="3311"></attvalue>
+          <attvalue for="criticality" value="0.10357142857142858"></attvalue>
+          <attvalue for="eigencentrality" value="0.8379595913156143"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7307692307692307"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8157894736842105"></attvalue>
+          <attvalue for="betweenesscentrality" value="2.4857142857142858"></attvalue>
+          <attvalue for="clustering" value="0.7878787878787878"></attvalue>
+          <attvalue for="triangles" value="52"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="110.010506" y="-393.07333"></viz:position>
+      </node>
+      <node id="16" label="Second Lord">
+        <attvalues>
+          <attvalue for="key" value="aww-lord2."></attvalue>
+          <attvalue for="lines" value="125"></attvalue>
+          <attvalue for="words" value="1081"></attvalue>
+          <attvalue for="criticality" value="0.3397477522477522"></attvalue>
+          <attvalue for="eigencentrality" value="0.8096759353058856"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.76"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8421052631578947"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.833441558441558"></attvalue>
+          <attvalue for="clustering" value="0.6282051282051282"></attvalue>
+          <attvalue for="triangles" value="49"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="26"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-36.10004" y="-88.952995"></viz:position>
+      </node>
+      <node id="17" label="Gentleman">
+        <attvalues>
+          <attvalue for="key" value="aww-gent."></attvalue>
+          <attvalue for="lines" value="22"></attvalue>
+          <attvalue for="words" value="152"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.6008546136955034"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6333333333333333"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7105263157894737"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="28"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-235.01628" y="98.42584"></viz:position>
+      </node>
+      <node id="18" label="First Lord">
+        <attvalues>
+          <attvalue for="key" value="aww-lord1."></attvalue>
+          <attvalue for="lines" value="166"></attvalue>
+          <attvalue for="words" value="1349"></attvalue>
+          <attvalue for="criticality" value="0.3397477522477522"></attvalue>
+          <attvalue for="eigencentrality" value="0.8096759353058856"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.76"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8421052631578947"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.833441558441558"></attvalue>
+          <attvalue for="clustering" value="0.6282051282051282"></attvalue>
+          <attvalue for="triangles" value="49"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="26"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="157.66733" y="-247.20076"></viz:position>
+      </node>
+      <node id="19" label="Steward">
+        <attvalues>
+          <attvalue for="key" value="aww-stew."></attvalue>
+          <attvalue for="lines" value="42"></attvalue>
+          <attvalue for="words" value="387"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.20326364238518432"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5526315789473685"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="485.10516" y="107.95711"></viz:position>
+      </node>
+      <node id="20" label="Violenta">
+        <attvalues>
+          <attvalue for="key" value="sha-aww-role13"></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="4"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="17.962988" y="478.89648"></viz:position>
+      </node>
+      <node id="21" label="Mariana">
+        <attvalues>
+          <attvalue for="key" value="Mariana2"></attvalue>
+          <attvalue for="lines" value="23"></attvalue>
+          <attvalue for="words" value="201"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.28610021937434443"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5428571428571428"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5964912280701754"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="6"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-195.76099" y="-216.63445"></viz:position>
+      </node>
+      <node id="22" label="Lafeu">
+        <attvalues>
+          <attvalue for="key" value="Lafew"></attvalue>
+          <attvalue for="lines" value="280"></attvalue>
+          <attvalue for="words" value="2500"></attvalue>
+          <attvalue for="criticality" value="0.21139455782312927"></attvalue>
+          <attvalue for="eigencentrality" value="0.91272038394049"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7916666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.868421052631579"></attvalue>
+          <attvalue for="betweenesscentrality" value="5.919047619047619"></attvalue>
+          <attvalue for="clustering" value="0.6703296703296703"></attvalue>
+          <attvalue for="triangles" value="61"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="128.8842" y="-353.55338"></viz:position>
+      </node>
+      <node id="23" label="Fourth Lord">
+        <attvalues>
+          <attvalue for="key" value="aww-lord4."></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="7"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.618513864216544"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6333333333333333"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7105263157894737"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="28"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-8.890947" y="-391.10876"></viz:position>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="2" target="7" label="Servant --- Bertram" weight="327.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Servant"></attvalue>
+          <attvalue for="character2" value="Bertram"></attvalue>
+          <attvalue for="character1_words" value="38"></attvalue>
+          <attvalue for="character2_words" value="289"></attvalue>
+          <attvalue for="sharedlines" value="38"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1" source="2" target="9" label="Servant --- Parolles" weight="1022.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Servant"></attvalue>
+          <attvalue for="character2" value="Parolles"></attvalue>
+          <attvalue for="character1_words" value="38"></attvalue>
+          <attvalue for="character2_words" value="984"></attvalue>
+          <attvalue for="sharedlines" value="109"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="2" source="2" target="10" label="Servant --- First Soldier" weight="614.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Servant"></attvalue>
+          <attvalue for="character2" value="First Soldier"></attvalue>
+          <attvalue for="character1_words" value="38"></attvalue>
+          <attvalue for="character2_words" value="576"></attvalue>
+          <attvalue for="sharedlines" value="69"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="3" source="2" target="16" label="Servant --- Second Lord" weight="574.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Servant"></attvalue>
+          <attvalue for="character2" value="Second Lord"></attvalue>
+          <attvalue for="character1_words" value="38"></attvalue>
+          <attvalue for="character2_words" value="536"></attvalue>
+          <attvalue for="sharedlines" value="64"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="4" source="2" target="18" label="Servant --- First Lord" weight="576.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Servant"></attvalue>
+          <attvalue for="character2" value="First Lord"></attvalue>
+          <attvalue for="character1_words" value="38"></attvalue>
+          <attvalue for="character2_words" value="538"></attvalue>
+          <attvalue for="sharedlines" value="67"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="5" source="3" target="7" label="Duke of Florence --- Bertram" weight="109.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Duke of Florence"></attvalue>
+          <attvalue for="character2" value="Bertram"></attvalue>
+          <attvalue for="character1_words" value="44"></attvalue>
+          <attvalue for="character2_words" value="65"></attvalue>
+          <attvalue for="sharedlines" value="14"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="6" source="3" target="16" label="Duke of Florence --- Second Lord" weight="164.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Duke of Florence"></attvalue>
+          <attvalue for="character2" value="Second Lord"></attvalue>
+          <attvalue for="character1_words" value="101"></attvalue>
+          <attvalue for="character2_words" value="63"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="7" source="3" target="18" label="Duke of Florence --- First Lord" weight="143.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Duke of Florence"></attvalue>
+          <attvalue for="character2" value="First Lord"></attvalue>
+          <attvalue for="character1_words" value="101"></attvalue>
+          <attvalue for="character2_words" value="42"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="8" source="4" target="7" label="Diana --- Bertram" weight="1768.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Diana"></attvalue>
+          <attvalue for="character2" value="Bertram"></attvalue>
+          <attvalue for="character1_words" value="972"></attvalue>
+          <attvalue for="character2_words" value="796"></attvalue>
+          <attvalue for="sharedlines" value="209"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="9" source="4" target="8" label="Diana --- Countess of Rousillon" weight="639.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Diana"></attvalue>
+          <attvalue for="character2" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character1_words" value="512"></attvalue>
+          <attvalue for="character2_words" value="127"></attvalue>
+          <attvalue for="sharedlines" value="76"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="10" source="4" target="9" label="Diana --- Parolles" weight="854.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Diana"></attvalue>
+          <attvalue for="character2" value="Parolles"></attvalue>
+          <attvalue for="character1_words" value="680"></attvalue>
+          <attvalue for="character2_words" value="174"></attvalue>
+          <attvalue for="sharedlines" value="100"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="11" source="4" target="12" label="Diana --- Helena" weight="1320.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Diana"></attvalue>
+          <attvalue for="character2" value="Helena"></attvalue>
+          <attvalue for="character1_words" value="699"></attvalue>
+          <attvalue for="character2_words" value="621"></attvalue>
+          <attvalue for="sharedlines" value="161"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="12" source="4" target="14" label="Diana --- An old Widow of Florence" weight="1082.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Diana"></attvalue>
+          <attvalue for="character2" value="An old Widow of Florence"></attvalue>
+          <attvalue for="character1_words" value="699"></attvalue>
+          <attvalue for="character2_words" value="383"></attvalue>
+          <attvalue for="sharedlines" value="133"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="13" source="4" target="15" label="Diana --- King of France" weight="1841.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Diana"></attvalue>
+          <attvalue for="character2" value="King of France"></attvalue>
+          <attvalue for="character1_words" value="512"></attvalue>
+          <attvalue for="character2_words" value="1329"></attvalue>
+          <attvalue for="sharedlines" value="212"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="14" source="4" target="17" label="Diana --- Gentleman" weight="609.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Diana"></attvalue>
+          <attvalue for="character2" value="Gentleman"></attvalue>
+          <attvalue for="character1_words" value="512"></attvalue>
+          <attvalue for="character2_words" value="97"></attvalue>
+          <attvalue for="sharedlines" value="72"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="15" source="4" target="21" label="Diana --- Mariana" weight="369.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Diana"></attvalue>
+          <attvalue for="character2" value="Mariana"></attvalue>
+          <attvalue for="character1_words" value="168"></attvalue>
+          <attvalue for="character2_words" value="201"></attvalue>
+          <attvalue for="sharedlines" value="45"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="16" source="4" target="22" label="Diana --- Lafeu" weight="799.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Diana"></attvalue>
+          <attvalue for="character2" value="Lafeu"></attvalue>
+          <attvalue for="character1_words" value="512"></attvalue>
+          <attvalue for="character2_words" value="287"></attvalue>
+          <attvalue for="sharedlines" value="92"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="17" source="5" target="8" label="Clown --- Countess of Rousillon" weight="3227.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Clown"></attvalue>
+          <attvalue for="character2" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character1_words" value="1496"></attvalue>
+          <attvalue for="character2_words" value="1731"></attvalue>
+          <attvalue for="sharedlines" value="362"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="18" source="5" target="9" label="Clown --- Parolles" weight="710.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Clown"></attvalue>
+          <attvalue for="character2" value="Parolles"></attvalue>
+          <attvalue for="character1_words" value="371"></attvalue>
+          <attvalue for="character2_words" value="339"></attvalue>
+          <attvalue for="sharedlines" value="81"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="19" source="5" target="12" label="Clown --- Helena" weight="2061.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Clown"></attvalue>
+          <attvalue for="character2" value="Helena"></attvalue>
+          <attvalue for="character1_words" value="1026"></attvalue>
+          <attvalue for="character2_words" value="1035"></attvalue>
+          <attvalue for="sharedlines" value="232"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="20" source="5" target="16" label="Clown --- Second Lord" weight="298.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Clown"></attvalue>
+          <attvalue for="character2" value="Second Lord"></attvalue>
+          <attvalue for="character1_words" value="221"></attvalue>
+          <attvalue for="character2_words" value="77"></attvalue>
+          <attvalue for="sharedlines" value="34"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="21" source="5" target="18" label="Clown --- First Lord" weight="306.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Clown"></attvalue>
+          <attvalue for="character2" value="First Lord"></attvalue>
+          <attvalue for="character1_words" value="221"></attvalue>
+          <attvalue for="character2_words" value="85"></attvalue>
+          <attvalue for="sharedlines" value="35"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="22" source="5" target="19" label="Clown --- Steward" weight="821.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Clown"></attvalue>
+          <attvalue for="character2" value="Steward"></attvalue>
+          <attvalue for="character1_words" value="589"></attvalue>
+          <attvalue for="character2_words" value="232"></attvalue>
+          <attvalue for="sharedlines" value="89"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="23" source="5" target="22" label="Clown --- Lafeu" weight="1127.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Clown"></attvalue>
+          <attvalue for="character2" value="Lafeu"></attvalue>
+          <attvalue for="character1_words" value="501"></attvalue>
+          <attvalue for="character2_words" value="626"></attvalue>
+          <attvalue for="sharedlines" value="125"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="24" source="6" target="7" label="All --- Bertram" weight="325.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="All"></attvalue>
+          <attvalue for="character2" value="Bertram"></attvalue>
+          <attvalue for="character1_words" value="9"></attvalue>
+          <attvalue for="character2_words" value="316"></attvalue>
+          <attvalue for="sharedlines" value="38"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="25" source="6" target="9" label="All --- Parolles" weight="969.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="All"></attvalue>
+          <attvalue for="character2" value="Parolles"></attvalue>
+          <attvalue for="character1_words" value="17"></attvalue>
+          <attvalue for="character2_words" value="952"></attvalue>
+          <attvalue for="sharedlines" value="110"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="26" source="6" target="10" label="All --- First Soldier" weight="134.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="All"></attvalue>
+          <attvalue for="character2" value="First Soldier"></attvalue>
+          <attvalue for="character1_words" value="8"></attvalue>
+          <attvalue for="character2_words" value="126"></attvalue>
+          <attvalue for="sharedlines" value="17"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="27" source="6" target="12" label="All --- Helena" weight="291.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="All"></attvalue>
+          <attvalue for="character2" value="Helena"></attvalue>
+          <attvalue for="character1_words" value="9"></attvalue>
+          <attvalue for="character2_words" value="282"></attvalue>
+          <attvalue for="sharedlines" value="33"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="28" source="6" target="15" label="All --- King of France" weight="687.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="All"></attvalue>
+          <attvalue for="character2" value="King of France"></attvalue>
+          <attvalue for="character1_words" value="9"></attvalue>
+          <attvalue for="character2_words" value="678"></attvalue>
+          <attvalue for="sharedlines" value="78"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="29" source="6" target="16" label="All --- Second Lord" weight="15.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="All"></attvalue>
+          <attvalue for="character2" value="Second Lord"></attvalue>
+          <attvalue for="character1_words" value="9"></attvalue>
+          <attvalue for="character2_words" value="6"></attvalue>
+          <attvalue for="sharedlines" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="30" source="6" target="18" label="All --- First Lord" weight="324.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="All"></attvalue>
+          <attvalue for="character2" value="First Lord"></attvalue>
+          <attvalue for="character1_words" value="17"></attvalue>
+          <attvalue for="character2_words" value="307"></attvalue>
+          <attvalue for="sharedlines" value="41"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="31" source="6" target="22" label="All --- Lafeu" weight="812.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="All"></attvalue>
+          <attvalue for="character2" value="Lafeu"></attvalue>
+          <attvalue for="character1_words" value="9"></attvalue>
+          <attvalue for="character2_words" value="803"></attvalue>
+          <attvalue for="sharedlines" value="90"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="32" source="6" target="23" label="All --- Fourth Lord" weight="16.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="All"></attvalue>
+          <attvalue for="character2" value="Fourth Lord"></attvalue>
+          <attvalue for="character1_words" value="9"></attvalue>
+          <attvalue for="character2_words" value="7"></attvalue>
+          <attvalue for="sharedlines" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="33" source="7" target="2" label="Bertram --- Servant" weight="327.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Bertram"></attvalue>
+          <attvalue for="character2" value="Servant"></attvalue>
+          <attvalue for="character1_words" value="289"></attvalue>
+          <attvalue for="character2_words" value="38"></attvalue>
+          <attvalue for="sharedlines" value="38"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="34" source="7" target="3" label="Bertram --- Duke of Florence" weight="109.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Bertram"></attvalue>
+          <attvalue for="character2" value="Duke of Florence"></attvalue>
+          <attvalue for="character1_words" value="65"></attvalue>
+          <attvalue for="character2_words" value="44"></attvalue>
+          <attvalue for="sharedlines" value="14"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="35" source="7" target="4" label="Bertram --- Diana" weight="1768.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Bertram"></attvalue>
+          <attvalue for="character2" value="Diana"></attvalue>
+          <attvalue for="character1_words" value="796"></attvalue>
+          <attvalue for="character2_words" value="972"></attvalue>
+          <attvalue for="sharedlines" value="209"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="36" source="7" target="6" label="Bertram --- All" weight="325.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Bertram"></attvalue>
+          <attvalue for="character2" value="All"></attvalue>
+          <attvalue for="character1_words" value="316"></attvalue>
+          <attvalue for="character2_words" value="9"></attvalue>
+          <attvalue for="sharedlines" value="38"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="37" source="7" target="8" label="Bertram --- Countess of Rousillon" weight="1108.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Bertram"></attvalue>
+          <attvalue for="character2" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character1_words" value="605"></attvalue>
+          <attvalue for="character2_words" value="503"></attvalue>
+          <attvalue for="sharedlines" value="131"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="38" source="7" target="9" label="Bertram --- Parolles" weight="4621.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+          <attvalue for="character1" value="Bertram"></attvalue>
+          <attvalue for="character2" value="Parolles"></attvalue>
+          <attvalue for="character1_words" value="1935"></attvalue>
+          <attvalue for="character2_words" value="2686"></attvalue>
+          <attvalue for="sharedlines" value="534"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="39" source="7" target="10" label="Bertram --- First Soldier" weight="865.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Bertram"></attvalue>
+          <attvalue for="character2" value="First Soldier"></attvalue>
+          <attvalue for="character1_words" value="289"></attvalue>
+          <attvalue for="character2_words" value="576"></attvalue>
+          <attvalue for="sharedlines" value="99"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="40" source="7" target="12" label="Bertram --- Helena" weight="3254.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="character1" value="Bertram"></attvalue>
+          <attvalue for="character2" value="Helena"></attvalue>
+          <attvalue for="character1_words" value="1342"></attvalue>
+          <attvalue for="character2_words" value="1912"></attvalue>
+          <attvalue for="sharedlines" value="380"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="41" source="7" target="13" label="Bertram --- A Page" weight="96.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Bertram"></attvalue>
+          <attvalue for="character2" value="A Page"></attvalue>
+          <attvalue for="character1_words" value="87"></attvalue>
+          <attvalue for="character2_words" value="9"></attvalue>
+          <attvalue for="sharedlines" value="12"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="42" source="7" target="14" label="Bertram --- An old Widow of Florence" weight="544.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Bertram"></attvalue>
+          <attvalue for="character2" value="An old Widow of Florence"></attvalue>
+          <attvalue for="character1_words" value="518"></attvalue>
+          <attvalue for="character2_words" value="26"></attvalue>
+          <attvalue for="sharedlines" value="66"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="43" source="7" target="15" label="Bertram --- King of France" weight="4218.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Bertram"></attvalue>
+          <attvalue for="character2" value="King of France"></attvalue>
+          <attvalue for="character1_words" value="966"></attvalue>
+          <attvalue for="character2_words" value="3252"></attvalue>
+          <attvalue for="sharedlines" value="493"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="44" source="7" target="16" label="Bertram --- Second Lord" weight="1982.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="character1" value="Bertram"></attvalue>
+          <attvalue for="character2" value="Second Lord"></attvalue>
+          <attvalue for="character1_words" value="1041"></attvalue>
+          <attvalue for="character2_words" value="941"></attvalue>
+          <attvalue for="sharedlines" value="226"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="45" source="7" target="17" label="Bertram --- Gentleman" weight="615.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Bertram"></attvalue>
+          <attvalue for="character2" value="Gentleman"></attvalue>
+          <attvalue for="character1_words" value="518"></attvalue>
+          <attvalue for="character2_words" value="97"></attvalue>
+          <attvalue for="sharedlines" value="75"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="46" source="7" target="18" label="Bertram --- First Lord" weight="1960.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="character1" value="Bertram"></attvalue>
+          <attvalue for="character2" value="First Lord"></attvalue>
+          <attvalue for="character1_words" value="1041"></attvalue>
+          <attvalue for="character2_words" value="919"></attvalue>
+          <attvalue for="sharedlines" value="230"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="47" source="7" target="22" label="Bertram --- Lafeu" weight="3216.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="character1" value="Bertram"></attvalue>
+          <attvalue for="character2" value="Lafeu"></attvalue>
+          <attvalue for="character1_words" value="1342"></attvalue>
+          <attvalue for="character2_words" value="1874"></attvalue>
+          <attvalue for="sharedlines" value="372"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="48" source="7" target="23" label="Bertram --- Fourth Lord" weight="323.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Bertram"></attvalue>
+          <attvalue for="character2" value="Fourth Lord"></attvalue>
+          <attvalue for="character1_words" value="316"></attvalue>
+          <attvalue for="character2_words" value="7"></attvalue>
+          <attvalue for="sharedlines" value="38"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="49" source="8" target="4" label="Countess of Rousillon --- Diana" weight="639.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character2" value="Diana"></attvalue>
+          <attvalue for="character1_words" value="127"></attvalue>
+          <attvalue for="character2_words" value="512"></attvalue>
+          <attvalue for="sharedlines" value="76"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="50" source="8" target="5" label="Countess of Rousillon --- Clown" weight="3227.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character2" value="Clown"></attvalue>
+          <attvalue for="character1_words" value="1731"></attvalue>
+          <attvalue for="character2_words" value="1496"></attvalue>
+          <attvalue for="sharedlines" value="362"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="51" source="8" target="7" label="Countess of Rousillon --- Bertram" weight="1108.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character2" value="Bertram"></attvalue>
+          <attvalue for="character1_words" value="503"></attvalue>
+          <attvalue for="character2_words" value="605"></attvalue>
+          <attvalue for="sharedlines" value="131"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="52" source="8" target="9" label="Countess of Rousillon --- Parolles" weight="1227.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character2" value="Parolles"></attvalue>
+          <attvalue for="character1_words" value="503"></attvalue>
+          <attvalue for="character2_words" value="724"></attvalue>
+          <attvalue for="sharedlines" value="142"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="53" source="8" target="12" label="Countess of Rousillon --- Helena" weight="3649.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character2" value="Helena"></attvalue>
+          <attvalue for="character1_words" value="1812"></attvalue>
+          <attvalue for="character2_words" value="1837"></attvalue>
+          <attvalue for="sharedlines" value="422"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="54" source="8" target="13" label="Countess of Rousillon --- A Page" weight="385.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character2" value="A Page"></attvalue>
+          <attvalue for="character1_words" value="376"></attvalue>
+          <attvalue for="character2_words" value="9"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="55" source="8" target="14" label="Countess of Rousillon --- An old Widow of Florence" weight="153.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character2" value="An old Widow of Florence"></attvalue>
+          <attvalue for="character1_words" value="127"></attvalue>
+          <attvalue for="character2_words" value="26"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="56" source="8" target="15" label="Countess of Rousillon --- King of France" weight="1456.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character2" value="King of France"></attvalue>
+          <attvalue for="character1_words" value="127"></attvalue>
+          <attvalue for="character2_words" value="1329"></attvalue>
+          <attvalue for="sharedlines" value="168"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="57" source="8" target="16" label="Countess of Rousillon --- Second Lord" weight="488.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character2" value="Second Lord"></attvalue>
+          <attvalue for="character1_words" value="411"></attvalue>
+          <attvalue for="character2_words" value="77"></attvalue>
+          <attvalue for="sharedlines" value="59"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="58" source="8" target="17" label="Countess of Rousillon --- Gentleman" weight="224.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character2" value="Gentleman"></attvalue>
+          <attvalue for="character1_words" value="127"></attvalue>
+          <attvalue for="character2_words" value="97"></attvalue>
+          <attvalue for="sharedlines" value="28"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="59" source="8" target="18" label="Countess of Rousillon --- First Lord" weight="496.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character2" value="First Lord"></attvalue>
+          <attvalue for="character1_words" value="411"></attvalue>
+          <attvalue for="character2_words" value="85"></attvalue>
+          <attvalue for="sharedlines" value="60"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="60" source="8" target="19" label="Countess of Rousillon --- Steward" weight="1519.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character2" value="Steward"></attvalue>
+          <attvalue for="character1_words" value="1132"></attvalue>
+          <attvalue for="character2_words" value="387"></attvalue>
+          <attvalue for="sharedlines" value="174"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="61" source="8" target="22" label="Countess of Rousillon --- Lafeu" weight="1598.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character2" value="Lafeu"></attvalue>
+          <attvalue for="character1_words" value="663"></attvalue>
+          <attvalue for="character2_words" value="935"></attvalue>
+          <attvalue for="sharedlines" value="180"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="62" source="9" target="2" label="Parolles --- Servant" weight="1022.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Parolles"></attvalue>
+          <attvalue for="character2" value="Servant"></attvalue>
+          <attvalue for="character1_words" value="984"></attvalue>
+          <attvalue for="character2_words" value="38"></attvalue>
+          <attvalue for="sharedlines" value="109"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="63" source="9" target="4" label="Parolles --- Diana" weight="854.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Parolles"></attvalue>
+          <attvalue for="character2" value="Diana"></attvalue>
+          <attvalue for="character1_words" value="174"></attvalue>
+          <attvalue for="character2_words" value="680"></attvalue>
+          <attvalue for="sharedlines" value="100"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="64" source="9" target="5" label="Parolles --- Clown" weight="710.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Parolles"></attvalue>
+          <attvalue for="character2" value="Clown"></attvalue>
+          <attvalue for="character1_words" value="339"></attvalue>
+          <attvalue for="character2_words" value="371"></attvalue>
+          <attvalue for="sharedlines" value="81"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="65" source="9" target="6" label="Parolles --- All" weight="969.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Parolles"></attvalue>
+          <attvalue for="character2" value="All"></attvalue>
+          <attvalue for="character1_words" value="952"></attvalue>
+          <attvalue for="character2_words" value="17"></attvalue>
+          <attvalue for="sharedlines" value="110"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="66" source="9" target="7" label="Parolles --- Bertram" weight="4621.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+          <attvalue for="character1" value="Parolles"></attvalue>
+          <attvalue for="character2" value="Bertram"></attvalue>
+          <attvalue for="character1_words" value="2686"></attvalue>
+          <attvalue for="character2_words" value="1935"></attvalue>
+          <attvalue for="sharedlines" value="534"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="67" source="9" target="8" label="Parolles --- Countess of Rousillon" weight="1227.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Parolles"></attvalue>
+          <attvalue for="character2" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character1_words" value="724"></attvalue>
+          <attvalue for="character2_words" value="503"></attvalue>
+          <attvalue for="sharedlines" value="142"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="68" source="9" target="10" label="Parolles --- First Soldier" weight="2055.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Parolles"></attvalue>
+          <attvalue for="character2" value="First Soldier"></attvalue>
+          <attvalue for="character1_words" value="1353"></attvalue>
+          <attvalue for="character2_words" value="702"></attvalue>
+          <attvalue for="sharedlines" value="227"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="69" source="9" target="12" label="Parolles --- Helena" weight="3948.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+          <attvalue for="character1" value="Parolles"></attvalue>
+          <attvalue for="character2" value="Helena"></attvalue>
+          <attvalue for="character1_words" value="1754"></attvalue>
+          <attvalue for="character2_words" value="2194"></attvalue>
+          <attvalue for="sharedlines" value="468"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="70" source="9" target="13" label="Parolles --- A Page" weight="564.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Parolles"></attvalue>
+          <attvalue for="character2" value="A Page"></attvalue>
+          <attvalue for="character1_words" value="555"></attvalue>
+          <attvalue for="character2_words" value="9"></attvalue>
+          <attvalue for="sharedlines" value="69"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="71" source="9" target="14" label="Parolles --- An old Widow of Florence" weight="539.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Parolles"></attvalue>
+          <attvalue for="character2" value="An old Widow of Florence"></attvalue>
+          <attvalue for="character1_words" value="174"></attvalue>
+          <attvalue for="character2_words" value="365"></attvalue>
+          <attvalue for="sharedlines" value="63"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="72" source="9" target="15" label="Parolles --- King of France" weight="3623.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Parolles"></attvalue>
+          <attvalue for="character2" value="King of France"></attvalue>
+          <attvalue for="character1_words" value="951"></attvalue>
+          <attvalue for="character2_words" value="2672"></attvalue>
+          <attvalue for="sharedlines" value="416"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="73" source="9" target="16" label="Parolles --- Second Lord" weight="2820.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Parolles"></attvalue>
+          <attvalue for="character2" value="Second Lord"></attvalue>
+          <attvalue for="character1_words" value="1913"></attvalue>
+          <attvalue for="character2_words" value="907"></attvalue>
+          <attvalue for="sharedlines" value="313"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="74" source="9" target="17" label="Parolles --- Gentleman" weight="266.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Parolles"></attvalue>
+          <attvalue for="character2" value="Gentleman"></attvalue>
+          <attvalue for="character1_words" value="169"></attvalue>
+          <attvalue for="character2_words" value="97"></attvalue>
+          <attvalue for="sharedlines" value="29"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="75" source="9" target="18" label="Parolles --- First Lord" weight="3470.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="character1" value="Parolles"></attvalue>
+          <attvalue for="character2" value="First Lord"></attvalue>
+          <attvalue for="character1_words" value="2282"></attvalue>
+          <attvalue for="character2_words" value="1188"></attvalue>
+          <attvalue for="sharedlines" value="395"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="76" source="9" target="21" label="Parolles --- Mariana" weight="206.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Parolles"></attvalue>
+          <attvalue for="character2" value="Mariana"></attvalue>
+          <attvalue for="character1_words" value="5"></attvalue>
+          <attvalue for="character2_words" value="201"></attvalue>
+          <attvalue for="sharedlines" value="24"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="77" source="9" target="22" label="Parolles --- Lafeu" weight="3763.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+          <attvalue for="character1" value="Parolles"></attvalue>
+          <attvalue for="character2" value="Lafeu"></attvalue>
+          <attvalue for="character1_words" value="1700"></attvalue>
+          <attvalue for="character2_words" value="2063"></attvalue>
+          <attvalue for="sharedlines" value="432"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="78" source="9" target="23" label="Parolles --- Fourth Lord" weight="590.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Parolles"></attvalue>
+          <attvalue for="character2" value="Fourth Lord"></attvalue>
+          <attvalue for="character1_words" value="583"></attvalue>
+          <attvalue for="character2_words" value="7"></attvalue>
+          <attvalue for="sharedlines" value="68"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="79" source="10" target="2" label="First Soldier --- Servant" weight="614.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Soldier"></attvalue>
+          <attvalue for="character2" value="Servant"></attvalue>
+          <attvalue for="character1_words" value="576"></attvalue>
+          <attvalue for="character2_words" value="38"></attvalue>
+          <attvalue for="sharedlines" value="69"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="80" source="10" target="6" label="First Soldier --- All" weight="134.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Soldier"></attvalue>
+          <attvalue for="character2" value="All"></attvalue>
+          <attvalue for="character1_words" value="126"></attvalue>
+          <attvalue for="character2_words" value="8"></attvalue>
+          <attvalue for="sharedlines" value="17"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="81" source="10" target="7" label="First Soldier --- Bertram" weight="865.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Soldier"></attvalue>
+          <attvalue for="character2" value="Bertram"></attvalue>
+          <attvalue for="character1_words" value="576"></attvalue>
+          <attvalue for="character2_words" value="289"></attvalue>
+          <attvalue for="sharedlines" value="99"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="82" source="10" target="9" label="First Soldier --- Parolles" weight="2055.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="First Soldier"></attvalue>
+          <attvalue for="character2" value="Parolles"></attvalue>
+          <attvalue for="character1_words" value="702"></attvalue>
+          <attvalue for="character2_words" value="1353"></attvalue>
+          <attvalue for="sharedlines" value="227"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="83" source="10" target="16" label="First Soldier --- Second Lord" weight="1112.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Soldier"></attvalue>
+          <attvalue for="character2" value="Second Lord"></attvalue>
+          <attvalue for="character1_words" value="576"></attvalue>
+          <attvalue for="character2_words" value="536"></attvalue>
+          <attvalue for="sharedlines" value="125"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="84" source="10" target="18" label="First Soldier --- First Lord" weight="1543.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="First Soldier"></attvalue>
+          <attvalue for="character2" value="First Lord"></attvalue>
+          <attvalue for="character1_words" value="702"></attvalue>
+          <attvalue for="character2_words" value="841"></attvalue>
+          <attvalue for="sharedlines" value="182"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="85" source="12" target="4" label="Helena --- Diana" weight="1320.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Helena"></attvalue>
+          <attvalue for="character2" value="Diana"></attvalue>
+          <attvalue for="character1_words" value="621"></attvalue>
+          <attvalue for="character2_words" value="699"></attvalue>
+          <attvalue for="sharedlines" value="161"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="86" source="12" target="5" label="Helena --- Clown" weight="2061.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Helena"></attvalue>
+          <attvalue for="character2" value="Clown"></attvalue>
+          <attvalue for="character1_words" value="1035"></attvalue>
+          <attvalue for="character2_words" value="1026"></attvalue>
+          <attvalue for="sharedlines" value="232"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="87" source="12" target="6" label="Helena --- All" weight="291.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Helena"></attvalue>
+          <attvalue for="character2" value="All"></attvalue>
+          <attvalue for="character1_words" value="282"></attvalue>
+          <attvalue for="character2_words" value="9"></attvalue>
+          <attvalue for="sharedlines" value="33"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="88" source="12" target="7" label="Helena --- Bertram" weight="3254.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="character1" value="Helena"></attvalue>
+          <attvalue for="character2" value="Bertram"></attvalue>
+          <attvalue for="character1_words" value="1912"></attvalue>
+          <attvalue for="character2_words" value="1342"></attvalue>
+          <attvalue for="sharedlines" value="380"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="89" source="12" target="8" label="Helena --- Countess of Rousillon" weight="3649.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Helena"></attvalue>
+          <attvalue for="character2" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character1_words" value="1837"></attvalue>
+          <attvalue for="character2_words" value="1812"></attvalue>
+          <attvalue for="sharedlines" value="422"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="90" source="12" target="9" label="Helena --- Parolles" weight="3948.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+          <attvalue for="character1" value="Helena"></attvalue>
+          <attvalue for="character2" value="Parolles"></attvalue>
+          <attvalue for="character1_words" value="2194"></attvalue>
+          <attvalue for="character2_words" value="1754"></attvalue>
+          <attvalue for="sharedlines" value="468"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="91" source="12" target="13" label="Helena --- A Page" weight="773.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Helena"></attvalue>
+          <attvalue for="character2" value="A Page"></attvalue>
+          <attvalue for="character1_words" value="764"></attvalue>
+          <attvalue for="character2_words" value="9"></attvalue>
+          <attvalue for="sharedlines" value="88"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="92" source="12" target="14" label="Helena --- An old Widow of Florence" weight="1752.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="character1" value="Helena"></attvalue>
+          <attvalue for="character2" value="An old Widow of Florence"></attvalue>
+          <attvalue for="character1_words" value="1238"></attvalue>
+          <attvalue for="character2_words" value="514"></attvalue>
+          <attvalue for="sharedlines" value="212"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="93" source="12" target="15" label="Helena --- King of France" weight="3660.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Helena"></attvalue>
+          <attvalue for="character2" value="King of France"></attvalue>
+          <attvalue for="character1_words" value="988"></attvalue>
+          <attvalue for="character2_words" value="2672"></attvalue>
+          <attvalue for="sharedlines" value="421"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="94" source="12" target="16" label="Helena --- Second Lord" weight="1365.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Helena"></attvalue>
+          <attvalue for="character2" value="Second Lord"></attvalue>
+          <attvalue for="character1_words" value="1251"></attvalue>
+          <attvalue for="character2_words" value="114"></attvalue>
+          <attvalue for="sharedlines" value="158"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="95" source="12" target="17" label="Helena --- Gentleman" weight="555.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Helena"></attvalue>
+          <attvalue for="character2" value="Gentleman"></attvalue>
+          <attvalue for="character1_words" value="403"></attvalue>
+          <attvalue for="character2_words" value="152"></attvalue>
+          <attvalue for="sharedlines" value="67"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="96" source="12" target="18" label="Helena --- First Lord" weight="1389.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Helena"></attvalue>
+          <attvalue for="character2" value="First Lord"></attvalue>
+          <attvalue for="character1_words" value="1251"></attvalue>
+          <attvalue for="character2_words" value="138"></attvalue>
+          <attvalue for="sharedlines" value="162"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="97" source="12" target="19" label="Helena --- Steward" weight="820.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Helena"></attvalue>
+          <attvalue for="character2" value="Steward"></attvalue>
+          <attvalue for="character1_words" value="588"></attvalue>
+          <attvalue for="character2_words" value="232"></attvalue>
+          <attvalue for="sharedlines" value="95"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="98" source="12" target="21" label="Helena --- Mariana" weight="410.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Helena"></attvalue>
+          <attvalue for="character2" value="Mariana"></attvalue>
+          <attvalue for="character1_words" value="209"></attvalue>
+          <attvalue for="character2_words" value="201"></attvalue>
+          <attvalue for="sharedlines" value="53"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="99" source="12" target="22" label="Helena --- Lafeu" weight="3786.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="character1" value="Helena"></attvalue>
+          <attvalue for="character2" value="Lafeu"></attvalue>
+          <attvalue for="character1_words" value="1912"></attvalue>
+          <attvalue for="character2_words" value="1874"></attvalue>
+          <attvalue for="sharedlines" value="430"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="100" source="12" target="23" label="Helena --- Fourth Lord" weight="289.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Helena"></attvalue>
+          <attvalue for="character2" value="Fourth Lord"></attvalue>
+          <attvalue for="character1_words" value="282"></attvalue>
+          <attvalue for="character2_words" value="7"></attvalue>
+          <attvalue for="sharedlines" value="33"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="101" source="13" target="7" label="A Page --- Bertram" weight="96.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="A Page"></attvalue>
+          <attvalue for="character2" value="Bertram"></attvalue>
+          <attvalue for="character1_words" value="9"></attvalue>
+          <attvalue for="character2_words" value="87"></attvalue>
+          <attvalue for="sharedlines" value="12"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="102" source="13" target="8" label="A Page --- Countess of Rousillon" weight="385.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="A Page"></attvalue>
+          <attvalue for="character2" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character1_words" value="9"></attvalue>
+          <attvalue for="character2_words" value="376"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="103" source="13" target="9" label="A Page --- Parolles" weight="564.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="A Page"></attvalue>
+          <attvalue for="character2" value="Parolles"></attvalue>
+          <attvalue for="character1_words" value="9"></attvalue>
+          <attvalue for="character2_words" value="555"></attvalue>
+          <attvalue for="sharedlines" value="69"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="104" source="13" target="12" label="A Page --- Helena" weight="773.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="A Page"></attvalue>
+          <attvalue for="character2" value="Helena"></attvalue>
+          <attvalue for="character1_words" value="9"></attvalue>
+          <attvalue for="character2_words" value="764"></attvalue>
+          <attvalue for="sharedlines" value="88"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="105" source="13" target="22" label="A Page --- Lafeu" weight="220.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="A Page"></attvalue>
+          <attvalue for="character2" value="Lafeu"></attvalue>
+          <attvalue for="character1_words" value="9"></attvalue>
+          <attvalue for="character2_words" value="211"></attvalue>
+          <attvalue for="sharedlines" value="27"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="106" source="14" target="4" label="An old Widow of Florence --- Diana" weight="1082.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="An old Widow of Florence"></attvalue>
+          <attvalue for="character2" value="Diana"></attvalue>
+          <attvalue for="character1_words" value="383"></attvalue>
+          <attvalue for="character2_words" value="699"></attvalue>
+          <attvalue for="sharedlines" value="133"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="107" source="14" target="7" label="An old Widow of Florence --- Bertram" weight="544.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="An old Widow of Florence"></attvalue>
+          <attvalue for="character2" value="Bertram"></attvalue>
+          <attvalue for="character1_words" value="26"></attvalue>
+          <attvalue for="character2_words" value="518"></attvalue>
+          <attvalue for="sharedlines" value="66"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="108" source="14" target="8" label="An old Widow of Florence --- Countess of Rousillon" weight="153.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="An old Widow of Florence"></attvalue>
+          <attvalue for="character2" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character1_words" value="26"></attvalue>
+          <attvalue for="character2_words" value="127"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="109" source="14" target="9" label="An old Widow of Florence --- Parolles" weight="539.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="An old Widow of Florence"></attvalue>
+          <attvalue for="character2" value="Parolles"></attvalue>
+          <attvalue for="character1_words" value="365"></attvalue>
+          <attvalue for="character2_words" value="174"></attvalue>
+          <attvalue for="sharedlines" value="63"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="110" source="14" target="12" label="An old Widow of Florence --- Helena" weight="1752.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="character1" value="An old Widow of Florence"></attvalue>
+          <attvalue for="character2" value="Helena"></attvalue>
+          <attvalue for="character1_words" value="514"></attvalue>
+          <attvalue for="character2_words" value="1238"></attvalue>
+          <attvalue for="sharedlines" value="212"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="111" source="14" target="15" label="An old Widow of Florence --- King of France" weight="1355.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="An old Widow of Florence"></attvalue>
+          <attvalue for="character2" value="King of France"></attvalue>
+          <attvalue for="character1_words" value="26"></attvalue>
+          <attvalue for="character2_words" value="1329"></attvalue>
+          <attvalue for="sharedlines" value="155"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="112" source="14" target="17" label="An old Widow of Florence --- Gentleman" weight="185.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="An old Widow of Florence"></attvalue>
+          <attvalue for="character2" value="Gentleman"></attvalue>
+          <attvalue for="character1_words" value="33"></attvalue>
+          <attvalue for="character2_words" value="152"></attvalue>
+          <attvalue for="sharedlines" value="26"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="113" source="14" target="21" label="An old Widow of Florence --- Mariana" weight="540.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="An old Widow of Florence"></attvalue>
+          <attvalue for="character2" value="Mariana"></attvalue>
+          <attvalue for="character1_words" value="339"></attvalue>
+          <attvalue for="character2_words" value="201"></attvalue>
+          <attvalue for="sharedlines" value="65"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="114" source="14" target="22" label="An old Widow of Florence --- Lafeu" weight="313.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="An old Widow of Florence"></attvalue>
+          <attvalue for="character2" value="Lafeu"></attvalue>
+          <attvalue for="character1_words" value="26"></attvalue>
+          <attvalue for="character2_words" value="287"></attvalue>
+          <attvalue for="sharedlines" value="35"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="115" source="15" target="4" label="King of France --- Diana" weight="1841.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="King of France"></attvalue>
+          <attvalue for="character2" value="Diana"></attvalue>
+          <attvalue for="character1_words" value="1329"></attvalue>
+          <attvalue for="character2_words" value="512"></attvalue>
+          <attvalue for="sharedlines" value="212"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="116" source="15" target="6" label="King of France --- All" weight="687.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="King of France"></attvalue>
+          <attvalue for="character2" value="All"></attvalue>
+          <attvalue for="character1_words" value="678"></attvalue>
+          <attvalue for="character2_words" value="9"></attvalue>
+          <attvalue for="sharedlines" value="78"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="117" source="15" target="7" label="King of France --- Bertram" weight="4218.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="King of France"></attvalue>
+          <attvalue for="character2" value="Bertram"></attvalue>
+          <attvalue for="character1_words" value="3252"></attvalue>
+          <attvalue for="character2_words" value="966"></attvalue>
+          <attvalue for="sharedlines" value="493"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="118" source="15" target="8" label="King of France --- Countess of Rousillon" weight="1456.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="King of France"></attvalue>
+          <attvalue for="character2" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character1_words" value="1329"></attvalue>
+          <attvalue for="character2_words" value="127"></attvalue>
+          <attvalue for="sharedlines" value="168"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="119" source="15" target="9" label="King of France --- Parolles" weight="3623.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="King of France"></attvalue>
+          <attvalue for="character2" value="Parolles"></attvalue>
+          <attvalue for="character1_words" value="2672"></attvalue>
+          <attvalue for="character2_words" value="951"></attvalue>
+          <attvalue for="sharedlines" value="416"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="120" source="15" target="12" label="King of France --- Helena" weight="3660.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="King of France"></attvalue>
+          <attvalue for="character2" value="Helena"></attvalue>
+          <attvalue for="character1_words" value="2672"></attvalue>
+          <attvalue for="character2_words" value="988"></attvalue>
+          <attvalue for="sharedlines" value="421"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="121" source="15" target="14" label="King of France --- An old Widow of Florence" weight="1355.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="King of France"></attvalue>
+          <attvalue for="character2" value="An old Widow of Florence"></attvalue>
+          <attvalue for="character1_words" value="1329"></attvalue>
+          <attvalue for="character2_words" value="26"></attvalue>
+          <attvalue for="sharedlines" value="155"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="122" source="15" target="16" label="King of France --- Second Lord" weight="1994.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="King of France"></attvalue>
+          <attvalue for="character2" value="Second Lord"></attvalue>
+          <attvalue for="character1_words" value="1923"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="236"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="123" source="15" target="17" label="King of France --- Gentleman" weight="1426.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="King of France"></attvalue>
+          <attvalue for="character2" value="Gentleman"></attvalue>
+          <attvalue for="character1_words" value="1329"></attvalue>
+          <attvalue for="character2_words" value="97"></attvalue>
+          <attvalue for="sharedlines" value="164"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="124" source="15" target="18" label="King of France --- First Lord" weight="2010.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="King of France"></attvalue>
+          <attvalue for="character2" value="First Lord"></attvalue>
+          <attvalue for="character1_words" value="1923"></attvalue>
+          <attvalue for="character2_words" value="87"></attvalue>
+          <attvalue for="sharedlines" value="240"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="125" source="15" target="22" label="King of France --- Lafeu" weight="4055.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="King of France"></attvalue>
+          <attvalue for="character2" value="Lafeu"></attvalue>
+          <attvalue for="character1_words" value="2672"></attvalue>
+          <attvalue for="character2_words" value="1383"></attvalue>
+          <attvalue for="sharedlines" value="464"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="126" source="15" target="23" label="King of France --- Fourth Lord" weight="685.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="King of France"></attvalue>
+          <attvalue for="character2" value="Fourth Lord"></attvalue>
+          <attvalue for="character1_words" value="678"></attvalue>
+          <attvalue for="character2_words" value="7"></attvalue>
+          <attvalue for="sharedlines" value="78"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="127" source="16" target="2" label="Second Lord --- Servant" weight="574.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Second Lord"></attvalue>
+          <attvalue for="character2" value="Servant"></attvalue>
+          <attvalue for="character1_words" value="536"></attvalue>
+          <attvalue for="character2_words" value="38"></attvalue>
+          <attvalue for="sharedlines" value="64"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="128" source="16" target="3" label="Second Lord --- Duke of Florence" weight="164.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Second Lord"></attvalue>
+          <attvalue for="character2" value="Duke of Florence"></attvalue>
+          <attvalue for="character1_words" value="63"></attvalue>
+          <attvalue for="character2_words" value="101"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="129" source="16" target="5" label="Second Lord --- Clown" weight="298.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Second Lord"></attvalue>
+          <attvalue for="character2" value="Clown"></attvalue>
+          <attvalue for="character1_words" value="77"></attvalue>
+          <attvalue for="character2_words" value="221"></attvalue>
+          <attvalue for="sharedlines" value="34"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="130" source="16" target="6" label="Second Lord --- All" weight="15.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Second Lord"></attvalue>
+          <attvalue for="character2" value="All"></attvalue>
+          <attvalue for="character1_words" value="6"></attvalue>
+          <attvalue for="character2_words" value="9"></attvalue>
+          <attvalue for="sharedlines" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="131" source="16" target="7" label="Second Lord --- Bertram" weight="1982.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="character1" value="Second Lord"></attvalue>
+          <attvalue for="character2" value="Bertram"></attvalue>
+          <attvalue for="character1_words" value="941"></attvalue>
+          <attvalue for="character2_words" value="1041"></attvalue>
+          <attvalue for="sharedlines" value="226"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="132" source="16" target="8" label="Second Lord --- Countess of Rousillon" weight="488.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Second Lord"></attvalue>
+          <attvalue for="character2" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character1_words" value="77"></attvalue>
+          <attvalue for="character2_words" value="411"></attvalue>
+          <attvalue for="sharedlines" value="59"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="133" source="16" target="9" label="Second Lord --- Parolles" weight="2820.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Second Lord"></attvalue>
+          <attvalue for="character2" value="Parolles"></attvalue>
+          <attvalue for="character1_words" value="907"></attvalue>
+          <attvalue for="character2_words" value="1913"></attvalue>
+          <attvalue for="sharedlines" value="313"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="134" source="16" target="10" label="Second Lord --- First Soldier" weight="1112.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Second Lord"></attvalue>
+          <attvalue for="character2" value="First Soldier"></attvalue>
+          <attvalue for="character1_words" value="536"></attvalue>
+          <attvalue for="character2_words" value="576"></attvalue>
+          <attvalue for="sharedlines" value="125"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="135" source="16" target="12" label="Second Lord --- Helena" weight="1365.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Second Lord"></attvalue>
+          <attvalue for="character2" value="Helena"></attvalue>
+          <attvalue for="character1_words" value="114"></attvalue>
+          <attvalue for="character2_words" value="1251"></attvalue>
+          <attvalue for="sharedlines" value="158"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="136" source="16" target="15" label="Second Lord --- King of France" weight="1994.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Second Lord"></attvalue>
+          <attvalue for="character2" value="King of France"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="1923"></attvalue>
+          <attvalue for="sharedlines" value="236"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="137" source="16" target="18" label="Second Lord --- First Lord" weight="2127.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+          <attvalue for="character1" value="Second Lord"></attvalue>
+          <attvalue for="character2" value="First Lord"></attvalue>
+          <attvalue for="character1_words" value="1081"></attvalue>
+          <attvalue for="character2_words" value="1046"></attvalue>
+          <attvalue for="sharedlines" value="253"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="138" source="16" target="22" label="Second Lord --- Lafeu" weight="1133.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Second Lord"></attvalue>
+          <attvalue for="character2" value="Lafeu"></attvalue>
+          <attvalue for="character1_words" value="37"></attvalue>
+          <attvalue for="character2_words" value="1096"></attvalue>
+          <attvalue for="sharedlines" value="129"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="139" source="16" target="23" label="Second Lord --- Fourth Lord" weight="13.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Second Lord"></attvalue>
+          <attvalue for="character2" value="Fourth Lord"></attvalue>
+          <attvalue for="character1_words" value="6"></attvalue>
+          <attvalue for="character2_words" value="7"></attvalue>
+          <attvalue for="sharedlines" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="140" source="17" target="4" label="Gentleman --- Diana" weight="609.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gentleman"></attvalue>
+          <attvalue for="character2" value="Diana"></attvalue>
+          <attvalue for="character1_words" value="97"></attvalue>
+          <attvalue for="character2_words" value="512"></attvalue>
+          <attvalue for="sharedlines" value="72"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="141" source="17" target="7" label="Gentleman --- Bertram" weight="615.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gentleman"></attvalue>
+          <attvalue for="character2" value="Bertram"></attvalue>
+          <attvalue for="character1_words" value="97"></attvalue>
+          <attvalue for="character2_words" value="518"></attvalue>
+          <attvalue for="sharedlines" value="75"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="142" source="17" target="8" label="Gentleman --- Countess of Rousillon" weight="224.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gentleman"></attvalue>
+          <attvalue for="character2" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character1_words" value="97"></attvalue>
+          <attvalue for="character2_words" value="127"></attvalue>
+          <attvalue for="sharedlines" value="28"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="143" source="17" target="9" label="Gentleman --- Parolles" weight="266.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gentleman"></attvalue>
+          <attvalue for="character2" value="Parolles"></attvalue>
+          <attvalue for="character1_words" value="97"></attvalue>
+          <attvalue for="character2_words" value="169"></attvalue>
+          <attvalue for="sharedlines" value="29"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="144" source="17" target="12" label="Gentleman --- Helena" weight="555.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Gentleman"></attvalue>
+          <attvalue for="character2" value="Helena"></attvalue>
+          <attvalue for="character1_words" value="152"></attvalue>
+          <attvalue for="character2_words" value="403"></attvalue>
+          <attvalue for="sharedlines" value="67"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="145" source="17" target="14" label="Gentleman --- An old Widow of Florence" weight="185.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Gentleman"></attvalue>
+          <attvalue for="character2" value="An old Widow of Florence"></attvalue>
+          <attvalue for="character1_words" value="152"></attvalue>
+          <attvalue for="character2_words" value="33"></attvalue>
+          <attvalue for="sharedlines" value="26"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="146" source="17" target="15" label="Gentleman --- King of France" weight="1426.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gentleman"></attvalue>
+          <attvalue for="character2" value="King of France"></attvalue>
+          <attvalue for="character1_words" value="97"></attvalue>
+          <attvalue for="character2_words" value="1329"></attvalue>
+          <attvalue for="sharedlines" value="164"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="147" source="17" target="22" label="Gentleman --- Lafeu" weight="384.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gentleman"></attvalue>
+          <attvalue for="character2" value="Lafeu"></attvalue>
+          <attvalue for="character1_words" value="97"></attvalue>
+          <attvalue for="character2_words" value="287"></attvalue>
+          <attvalue for="sharedlines" value="44"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="148" source="18" target="2" label="First Lord --- Servant" weight="576.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Lord"></attvalue>
+          <attvalue for="character2" value="Servant"></attvalue>
+          <attvalue for="character1_words" value="538"></attvalue>
+          <attvalue for="character2_words" value="38"></attvalue>
+          <attvalue for="sharedlines" value="67"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="149" source="18" target="3" label="First Lord --- Duke of Florence" weight="143.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Lord"></attvalue>
+          <attvalue for="character2" value="Duke of Florence"></attvalue>
+          <attvalue for="character1_words" value="42"></attvalue>
+          <attvalue for="character2_words" value="101"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="150" source="18" target="5" label="First Lord --- Clown" weight="306.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Lord"></attvalue>
+          <attvalue for="character2" value="Clown"></attvalue>
+          <attvalue for="character1_words" value="85"></attvalue>
+          <attvalue for="character2_words" value="221"></attvalue>
+          <attvalue for="sharedlines" value="35"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="151" source="18" target="6" label="First Lord --- All" weight="324.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="First Lord"></attvalue>
+          <attvalue for="character2" value="All"></attvalue>
+          <attvalue for="character1_words" value="307"></attvalue>
+          <attvalue for="character2_words" value="17"></attvalue>
+          <attvalue for="sharedlines" value="41"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="152" source="18" target="7" label="First Lord --- Bertram" weight="1960.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="character1" value="First Lord"></attvalue>
+          <attvalue for="character2" value="Bertram"></attvalue>
+          <attvalue for="character1_words" value="919"></attvalue>
+          <attvalue for="character2_words" value="1041"></attvalue>
+          <attvalue for="sharedlines" value="230"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="153" source="18" target="8" label="First Lord --- Countess of Rousillon" weight="496.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Lord"></attvalue>
+          <attvalue for="character2" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character1_words" value="85"></attvalue>
+          <attvalue for="character2_words" value="411"></attvalue>
+          <attvalue for="sharedlines" value="60"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="154" source="18" target="9" label="First Lord --- Parolles" weight="3470.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="character1" value="First Lord"></attvalue>
+          <attvalue for="character2" value="Parolles"></attvalue>
+          <attvalue for="character1_words" value="1188"></attvalue>
+          <attvalue for="character2_words" value="2282"></attvalue>
+          <attvalue for="sharedlines" value="395"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="155" source="18" target="10" label="First Lord --- First Soldier" weight="1543.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="First Lord"></attvalue>
+          <attvalue for="character2" value="First Soldier"></attvalue>
+          <attvalue for="character1_words" value="841"></attvalue>
+          <attvalue for="character2_words" value="702"></attvalue>
+          <attvalue for="sharedlines" value="182"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="156" source="18" target="12" label="First Lord --- Helena" weight="1389.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="First Lord"></attvalue>
+          <attvalue for="character2" value="Helena"></attvalue>
+          <attvalue for="character1_words" value="138"></attvalue>
+          <attvalue for="character2_words" value="1251"></attvalue>
+          <attvalue for="sharedlines" value="162"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="157" source="18" target="15" label="First Lord --- King of France" weight="2010.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="First Lord"></attvalue>
+          <attvalue for="character2" value="King of France"></attvalue>
+          <attvalue for="character1_words" value="87"></attvalue>
+          <attvalue for="character2_words" value="1923"></attvalue>
+          <attvalue for="sharedlines" value="240"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="158" source="18" target="16" label="First Lord --- Second Lord" weight="2127.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+          <attvalue for="character1" value="First Lord"></attvalue>
+          <attvalue for="character2" value="Second Lord"></attvalue>
+          <attvalue for="character1_words" value="1046"></attvalue>
+          <attvalue for="character2_words" value="1081"></attvalue>
+          <attvalue for="sharedlines" value="253"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="159" source="18" target="22" label="First Lord --- Lafeu" weight="1149.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="First Lord"></attvalue>
+          <attvalue for="character2" value="Lafeu"></attvalue>
+          <attvalue for="character1_words" value="53"></attvalue>
+          <attvalue for="character2_words" value="1096"></attvalue>
+          <attvalue for="sharedlines" value="132"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="160" source="18" target="23" label="First Lord --- Fourth Lord" weight="11.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Lord"></attvalue>
+          <attvalue for="character2" value="Fourth Lord"></attvalue>
+          <attvalue for="character1_words" value="4"></attvalue>
+          <attvalue for="character2_words" value="7"></attvalue>
+          <attvalue for="sharedlines" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="161" source="19" target="5" label="Steward --- Clown" weight="821.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Steward"></attvalue>
+          <attvalue for="character2" value="Clown"></attvalue>
+          <attvalue for="character1_words" value="232"></attvalue>
+          <attvalue for="character2_words" value="589"></attvalue>
+          <attvalue for="sharedlines" value="89"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="162" source="19" target="8" label="Steward --- Countess of Rousillon" weight="1519.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Steward"></attvalue>
+          <attvalue for="character2" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character1_words" value="387"></attvalue>
+          <attvalue for="character2_words" value="1132"></attvalue>
+          <attvalue for="sharedlines" value="174"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="163" source="19" target="12" label="Steward --- Helena" weight="820.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Steward"></attvalue>
+          <attvalue for="character2" value="Helena"></attvalue>
+          <attvalue for="character1_words" value="232"></attvalue>
+          <attvalue for="character2_words" value="588"></attvalue>
+          <attvalue for="sharedlines" value="95"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="164" source="21" target="4" label="Mariana --- Diana" weight="369.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Mariana"></attvalue>
+          <attvalue for="character2" value="Diana"></attvalue>
+          <attvalue for="character1_words" value="201"></attvalue>
+          <attvalue for="character2_words" value="168"></attvalue>
+          <attvalue for="sharedlines" value="45"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="165" source="21" target="9" label="Mariana --- Parolles" weight="206.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Mariana"></attvalue>
+          <attvalue for="character2" value="Parolles"></attvalue>
+          <attvalue for="character1_words" value="201"></attvalue>
+          <attvalue for="character2_words" value="5"></attvalue>
+          <attvalue for="sharedlines" value="24"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="166" source="21" target="12" label="Mariana --- Helena" weight="410.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Mariana"></attvalue>
+          <attvalue for="character2" value="Helena"></attvalue>
+          <attvalue for="character1_words" value="201"></attvalue>
+          <attvalue for="character2_words" value="209"></attvalue>
+          <attvalue for="sharedlines" value="53"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="167" source="21" target="14" label="Mariana --- An old Widow of Florence" weight="540.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Mariana"></attvalue>
+          <attvalue for="character2" value="An old Widow of Florence"></attvalue>
+          <attvalue for="character1_words" value="201"></attvalue>
+          <attvalue for="character2_words" value="339"></attvalue>
+          <attvalue for="sharedlines" value="65"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="168" source="22" target="4" label="Lafeu --- Diana" weight="799.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Lafeu"></attvalue>
+          <attvalue for="character2" value="Diana"></attvalue>
+          <attvalue for="character1_words" value="287"></attvalue>
+          <attvalue for="character2_words" value="512"></attvalue>
+          <attvalue for="sharedlines" value="92"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="169" source="22" target="5" label="Lafeu --- Clown" weight="1127.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Lafeu"></attvalue>
+          <attvalue for="character2" value="Clown"></attvalue>
+          <attvalue for="character1_words" value="626"></attvalue>
+          <attvalue for="character2_words" value="501"></attvalue>
+          <attvalue for="sharedlines" value="125"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="170" source="22" target="6" label="Lafeu --- All" weight="812.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Lafeu"></attvalue>
+          <attvalue for="character2" value="All"></attvalue>
+          <attvalue for="character1_words" value="803"></attvalue>
+          <attvalue for="character2_words" value="9"></attvalue>
+          <attvalue for="sharedlines" value="90"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="171" source="22" target="7" label="Lafeu --- Bertram" weight="3216.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="character1" value="Lafeu"></attvalue>
+          <attvalue for="character2" value="Bertram"></attvalue>
+          <attvalue for="character1_words" value="1874"></attvalue>
+          <attvalue for="character2_words" value="1342"></attvalue>
+          <attvalue for="sharedlines" value="372"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="172" source="22" target="8" label="Lafeu --- Countess of Rousillon" weight="1598.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Lafeu"></attvalue>
+          <attvalue for="character2" value="Countess of Rousillon"></attvalue>
+          <attvalue for="character1_words" value="935"></attvalue>
+          <attvalue for="character2_words" value="663"></attvalue>
+          <attvalue for="sharedlines" value="180"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="173" source="22" target="9" label="Lafeu --- Parolles" weight="3763.0">
+        <attvalues>
+          <attvalue for="scenes" value="6"></attvalue>
+          <attvalue for="character1" value="Lafeu"></attvalue>
+          <attvalue for="character2" value="Parolles"></attvalue>
+          <attvalue for="character1_words" value="2063"></attvalue>
+          <attvalue for="character2_words" value="1700"></attvalue>
+          <attvalue for="sharedlines" value="432"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="174" source="22" target="12" label="Lafeu --- Helena" weight="3786.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="character1" value="Lafeu"></attvalue>
+          <attvalue for="character2" value="Helena"></attvalue>
+          <attvalue for="character1_words" value="1874"></attvalue>
+          <attvalue for="character2_words" value="1912"></attvalue>
+          <attvalue for="sharedlines" value="430"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="175" source="22" target="13" label="Lafeu --- A Page" weight="220.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Lafeu"></attvalue>
+          <attvalue for="character2" value="A Page"></attvalue>
+          <attvalue for="character1_words" value="211"></attvalue>
+          <attvalue for="character2_words" value="9"></attvalue>
+          <attvalue for="sharedlines" value="27"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="176" source="22" target="14" label="Lafeu --- An old Widow of Florence" weight="313.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Lafeu"></attvalue>
+          <attvalue for="character2" value="An old Widow of Florence"></attvalue>
+          <attvalue for="character1_words" value="287"></attvalue>
+          <attvalue for="character2_words" value="26"></attvalue>
+          <attvalue for="sharedlines" value="35"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="177" source="22" target="15" label="Lafeu --- King of France" weight="4055.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Lafeu"></attvalue>
+          <attvalue for="character2" value="King of France"></attvalue>
+          <attvalue for="character1_words" value="1383"></attvalue>
+          <attvalue for="character2_words" value="2672"></attvalue>
+          <attvalue for="sharedlines" value="464"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="178" source="22" target="16" label="Lafeu --- Second Lord" weight="1133.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Lafeu"></attvalue>
+          <attvalue for="character2" value="Second Lord"></attvalue>
+          <attvalue for="character1_words" value="1096"></attvalue>
+          <attvalue for="character2_words" value="37"></attvalue>
+          <attvalue for="sharedlines" value="129"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="179" source="22" target="17" label="Lafeu --- Gentleman" weight="384.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Lafeu"></attvalue>
+          <attvalue for="character2" value="Gentleman"></attvalue>
+          <attvalue for="character1_words" value="287"></attvalue>
+          <attvalue for="character2_words" value="97"></attvalue>
+          <attvalue for="sharedlines" value="44"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="180" source="22" target="18" label="Lafeu --- First Lord" weight="1149.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Lafeu"></attvalue>
+          <attvalue for="character2" value="First Lord"></attvalue>
+          <attvalue for="character1_words" value="1096"></attvalue>
+          <attvalue for="character2_words" value="53"></attvalue>
+          <attvalue for="sharedlines" value="132"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="181" source="22" target="23" label="Lafeu --- Fourth Lord" weight="810.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Lafeu"></attvalue>
+          <attvalue for="character2" value="Fourth Lord"></attvalue>
+          <attvalue for="character1_words" value="803"></attvalue>
+          <attvalue for="character2_words" value="7"></attvalue>
+          <attvalue for="sharedlines" value="90"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="182" source="23" target="6" label="Fourth Lord --- All" weight="16.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Fourth Lord"></attvalue>
+          <attvalue for="character2" value="All"></attvalue>
+          <attvalue for="character1_words" value="7"></attvalue>
+          <attvalue for="character2_words" value="9"></attvalue>
+          <attvalue for="sharedlines" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="183" source="23" target="7" label="Fourth Lord --- Bertram" weight="323.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Fourth Lord"></attvalue>
+          <attvalue for="character2" value="Bertram"></attvalue>
+          <attvalue for="character1_words" value="7"></attvalue>
+          <attvalue for="character2_words" value="316"></attvalue>
+          <attvalue for="sharedlines" value="38"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="184" source="23" target="9" label="Fourth Lord --- Parolles" weight="590.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Fourth Lord"></attvalue>
+          <attvalue for="character2" value="Parolles"></attvalue>
+          <attvalue for="character1_words" value="7"></attvalue>
+          <attvalue for="character2_words" value="583"></attvalue>
+          <attvalue for="sharedlines" value="68"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="185" source="23" target="12" label="Fourth Lord --- Helena" weight="289.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Fourth Lord"></attvalue>
+          <attvalue for="character2" value="Helena"></attvalue>
+          <attvalue for="character1_words" value="7"></attvalue>
+          <attvalue for="character2_words" value="282"></attvalue>
+          <attvalue for="sharedlines" value="33"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="186" source="23" target="15" label="Fourth Lord --- King of France" weight="685.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Fourth Lord"></attvalue>
+          <attvalue for="character2" value="King of France"></attvalue>
+          <attvalue for="character1_words" value="7"></attvalue>
+          <attvalue for="character2_words" value="678"></attvalue>
+          <attvalue for="sharedlines" value="78"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="187" source="23" target="16" label="Fourth Lord --- Second Lord" weight="13.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Fourth Lord"></attvalue>
+          <attvalue for="character2" value="Second Lord"></attvalue>
+          <attvalue for="character1_words" value="7"></attvalue>
+          <attvalue for="character2_words" value="6"></attvalue>
+          <attvalue for="sharedlines" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="188" source="23" target="18" label="Fourth Lord --- First Lord" weight="11.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Fourth Lord"></attvalue>
+          <attvalue for="character2" value="First Lord"></attvalue>
+          <attvalue for="character1_words" value="7"></attvalue>
+          <attvalue for="character2_words" value="4"></attvalue>
+          <attvalue for="sharedlines" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="189" source="23" target="22" label="Fourth Lord --- Lafeu" weight="810.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Fourth Lord"></attvalue>
+          <attvalue for="character2" value="Lafeu"></attvalue>
+          <attvalue for="character1_words" value="7"></attvalue>
+          <attvalue for="character2_words" value="803"></attvalue>
+          <attvalue for="sharedlines" value="90"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

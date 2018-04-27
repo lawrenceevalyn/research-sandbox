@@ -1,0 +1,2717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-04-26">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="key" title="key" type="string"></attribute>
+      <attribute id="lines" title="lines" type="integer"></attribute>
+      <attribute id="words" title="words" type="integer"></attribute>
+      <attribute id="criticality" title="criticality" type="double"></attribute>
+      <attribute id="eigencentrality" title="Eigenvector Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="triangles" title="Number of triangles" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="scenes" title="scenes" type="integer"></attribute>
+      <attribute id="character1" title="character1" type="string"></attribute>
+      <attribute id="character2" title="character2" type="string"></attribute>
+      <attribute id="character1_words" title="character1_words" type="integer"></attribute>
+      <attribute id="character2_words" title="character2_words" type="integer"></attribute>
+      <attribute id="sharedlines" title="sharedLines" type="integer"></attribute>
+    </attributes>
+    <nodes>
+      <node id="0" label="Sebastian">
+        <attvalues>
+          <attvalue for="key" value="Sebastian4"></attvalue>
+          <attvalue for="lines" value="119"></attvalue>
+          <attvalue for="words" value="830"></attvalue>
+          <attvalue for="criticality" value="0.23333333333333334"></attvalue>
+          <attvalue for="eigencentrality" value="0.9254745351867356"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8571428571428571"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9166666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="7.0"></attvalue>
+          <attvalue for="clustering" value="0.7142857142857143"></attvalue>
+          <attvalue for="triangles" value="75"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="30"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="496.08478" y="-385.929"></viz:position>
+      </node>
+      <node id="1" label="Miranda">
+        <attvalues>
+          <attvalue for="key" value="Miranda"></attvalue>
+          <attvalue for="lines" value="154"></attvalue>
+          <attvalue for="words" value="1161"></attvalue>
+          <attvalue for="criticality" value="0.10714285714285714"></attvalue>
+          <attvalue for="eigencentrality" value="0.931342493807957"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8181818181818182"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8888888888888888"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.0"></attvalue>
+          <attvalue for="clustering" value="0.8351648351648352"></attvalue>
+          <attvalue for="triangles" value="76"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-290.9739" y="-265.23438"></viz:position>
+      </node>
+      <node id="2" label="Ceres">
+        <attvalues>
+          <attvalue for="key" value="Ceres"></attvalue>
+          <attvalue for="lines" value="24"></attvalue>
+          <attvalue for="words" value="180"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.6048202297863347"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6206896551724138"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7314814814814814"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-388.65115" y="147.0651"></viz:position>
+      </node>
+      <node id="3" label="Boatswain">
+        <attvalues>
+          <attvalue for="key" value="tem-boats."></attvalue>
+          <attvalue for="lines" value="44"></attvalue>
+          <attvalue for="words" value="399"></attvalue>
+          <attvalue for="criticality" value="0.15384615384615385"></attvalue>
+          <attvalue for="eigencentrality" value="0.8568170289946935"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.782608695652174"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8611111111111112"></attvalue>
+          <attvalue for="betweenesscentrality" value="4.0"></attvalue>
+          <attvalue for="clustering" value="0.8205128205128205"></attvalue>
+          <attvalue for="triangles" value="64"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="26"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-154.4157" y="303.21628"></viz:position>
+      </node>
+      <node id="4" label="Trinculo">
+        <attvalues>
+          <attvalue for="key" value="Trinculo"></attvalue>
+          <attvalue for="lines" value="106"></attvalue>
+          <attvalue for="words" value="926"></attvalue>
+          <attvalue for="criticality" value="0.10714285714285714"></attvalue>
+          <attvalue for="eigencentrality" value="0.931342493807957"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8181818181818182"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8888888888888888"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.0"></attvalue>
+          <attvalue for="clustering" value="0.8351648351648352"></attvalue>
+          <attvalue for="triangles" value="76"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-19.390583" y="-336.69482"></viz:position>
+      </node>
+      <node id="5" label="Prospero">
+        <attvalues>
+          <attvalue for="key" value="Prospero"></attvalue>
+          <attvalue for="lines" value="655"></attvalue>
+          <attvalue for="words" value="5525"></attvalue>
+          <attvalue for="criticality" value="0.2500000000000001"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.9"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9444444444444444"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.000000000000004"></attvalue>
+          <attvalue for="clustering" value="0.725"></attvalue>
+          <attvalue for="triangles" value="87"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="323.4928" y="44.28344"></viz:position>
+      </node>
+      <node id="6" label="Juno">
+        <attvalues>
+          <attvalue for="key" value="Juno"></attvalue>
+          <attvalue for="lines" value="7"></attvalue>
+          <attvalue for="words" value="50"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.6048202297863347"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6206896551724138"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7314814814814814"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-99.39032" y="39.41891"></viz:position>
+      </node>
+      <node id="7" label="Antonio">
+        <attvalues>
+          <attvalue for="key" value="Antonio7"></attvalue>
+          <attvalue for="lines" value="148"></attvalue>
+          <attvalue for="words" value="1150"></attvalue>
+          <attvalue for="criticality" value="0.23333333333333334"></attvalue>
+          <attvalue for="eigencentrality" value="0.9254745351867356"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8571428571428571"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9166666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="7.0"></attvalue>
+          <attvalue for="clustering" value="0.7142857142857143"></attvalue>
+          <attvalue for="triangles" value="75"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="30"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-161.16849" y="105.18944"></viz:position>
+      </node>
+      <node id="8" label="Master of a Ship">
+        <attvalues>
+          <attvalue for="key" value="tem-mast."></attvalue>
+          <attvalue for="lines" value="3"></attvalue>
+          <attvalue for="words" value="19"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.3813213354974903"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5454545454545454"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6388888888888888"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="15"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-298.96002" y="-108.12527"></viz:position>
+      </node>
+      <node id="9" label="Iris">
+        <attvalues>
+          <attvalue for="key" value="Iris"></attvalue>
+          <attvalue for="lines" value="41"></attvalue>
+          <attvalue for="words" value="376"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.6048202297863347"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6206896551724138"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7314814814814814"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="36"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-4.2378902" y="75.30325"></viz:position>
+      </node>
+      <node id="10" label="Ferdinand">
+        <attvalues>
+          <attvalue for="key" value="Ferdinand"></attvalue>
+          <attvalue for="lines" value="140"></attvalue>
+          <attvalue for="words" value="1157"></attvalue>
+          <attvalue for="criticality" value="0.10714285714285714"></attvalue>
+          <attvalue for="eigencentrality" value="0.931342493807957"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8181818181818182"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8888888888888888"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.0"></attvalue>
+          <attvalue for="clustering" value="0.8351648351648352"></attvalue>
+          <attvalue for="triangles" value="76"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="483.87906" y="358.69885"></viz:position>
+      </node>
+      <node id="11" label="Mariners">
+        <attvalues>
+          <attvalue for="key" value="tem-mariners"></attvalue>
+          <attvalue for="lines" value="4"></attvalue>
+          <attvalue for="words" value="36"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.3813213354974903"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5454545454545454"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6388888888888888"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="15"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-480.23996" y="-313.20987"></viz:position>
+      </node>
+      <node id="12" label="Ariel">
+        <attvalues>
+          <attvalue for="key" value="Ariel"></attvalue>
+          <attvalue for="lines" value="193"></attvalue>
+          <attvalue for="words" value="1514"></attvalue>
+          <attvalue for="criticality" value="0.2500000000000001"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.9"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9444444444444444"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.000000000000004"></attvalue>
+          <attvalue for="clustering" value="0.725"></attvalue>
+          <attvalue for="triangles" value="87"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="291.57297" y="-266.1343"></viz:position>
+      </node>
+      <node id="13" label="Alonso">
+        <attvalues>
+          <attvalue for="key" value="Alonso"></attvalue>
+          <attvalue for="lines" value="109"></attvalue>
+          <attvalue for="words" value="888"></attvalue>
+          <attvalue for="criticality" value="0.23333333333333334"></attvalue>
+          <attvalue for="eigencentrality" value="0.9254745351867356"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8571428571428571"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9166666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="7.0"></attvalue>
+          <attvalue for="clustering" value="0.7142857142857143"></attvalue>
+          <attvalue for="triangles" value="75"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="30"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-154.19476" y="-219.02553"></viz:position>
+      </node>
+      <node id="14" label="Francisco">
+        <attvalues>
+          <attvalue for="key" value="tem-fran."></attvalue>
+          <attvalue for="lines" value="11"></attvalue>
+          <attvalue for="words" value="90"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.4763880238016973"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6206896551724138"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6944444444444444"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="402.20245" y="-474.19635"></viz:position>
+      </node>
+      <node id="15" label="Adrian">
+        <attvalues>
+          <attvalue for="key" value="Adrian2"></attvalue>
+          <attvalue for="lines" value="12"></attvalue>
+          <attvalue for="words" value="80"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.4763880238016973"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6206896551724138"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6944444444444444"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-26.469328" y="-284.13757"></viz:position>
+      </node>
+      <node id="16" label="Gonzalo">
+        <attvalues>
+          <attvalue for="key" value="Gonzalo"></attvalue>
+          <attvalue for="lines" value="161"></attvalue>
+          <attvalue for="words" value="1341"></attvalue>
+          <attvalue for="criticality" value="0.23333333333333334"></attvalue>
+          <attvalue for="eigencentrality" value="0.9254745351867356"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8571428571428571"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9166666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="7.0"></attvalue>
+          <attvalue for="clustering" value="0.7142857142857143"></attvalue>
+          <attvalue for="triangles" value="75"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="30"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="314.04712" y="-241.47218"></viz:position>
+      </node>
+      <node id="17" label="Caliban">
+        <attvalues>
+          <attvalue for="key" value="Caliban"></attvalue>
+          <attvalue for="lines" value="174"></attvalue>
+          <attvalue for="words" value="1527"></attvalue>
+          <attvalue for="criticality" value="0.10714285714285714"></attvalue>
+          <attvalue for="eigencentrality" value="0.9313424938079571"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8181818181818182"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8888888888888888"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.0"></attvalue>
+          <attvalue for="clustering" value="0.8351648351648352"></attvalue>
+          <attvalue for="triangles" value="76"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-76.29136" y="340.46414"></viz:position>
+      </node>
+      <node id="18" label="Stephano">
+        <attvalues>
+          <attvalue for="key" value="Stephano2"></attvalue>
+          <attvalue for="lines" value="168"></attvalue>
+          <attvalue for="words" value="1476"></attvalue>
+          <attvalue for="criticality" value="0.10714285714285714"></attvalue>
+          <attvalue for="eigencentrality" value="0.9313424938079571"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8181818181818182"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8888888888888888"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.0"></attvalue>
+          <attvalue for="clustering" value="0.8351648351648352"></attvalue>
+          <attvalue for="triangles" value="76"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="252.46286" y="237.23236"></viz:position>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="0" target="1" label="Sebastian --- Miranda" weight="102.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sebastian"></attvalue>
+          <attvalue for="character2" value="Miranda"></attvalue>
+          <attvalue for="character1_words" value="51"></attvalue>
+          <attvalue for="character2_words" value="51"></attvalue>
+          <attvalue for="sharedlines" value="15"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1" source="0" target="3" label="Sebastian --- Boatswain" weight="474.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Sebastian"></attvalue>
+          <attvalue for="character2" value="Boatswain"></attvalue>
+          <attvalue for="character1_words" value="75"></attvalue>
+          <attvalue for="character2_words" value="399"></attvalue>
+          <attvalue for="sharedlines" value="56"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="2" source="0" target="4" label="Sebastian --- Trinculo" weight="98.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sebastian"></attvalue>
+          <attvalue for="character2" value="Trinculo"></attvalue>
+          <attvalue for="character1_words" value="51"></attvalue>
+          <attvalue for="character2_words" value="47"></attvalue>
+          <attvalue for="sharedlines" value="13"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="3" source="0" target="5" label="Sebastian --- Prospero" weight="1887.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Sebastian"></attvalue>
+          <attvalue for="character2" value="Prospero"></attvalue>
+          <attvalue for="character1_words" value="139"></attvalue>
+          <attvalue for="character2_words" value="1748"></attvalue>
+          <attvalue for="sharedlines" value="219"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="4" source="0" target="7" label="Sebastian --- Antonio" weight="1980.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Sebastian"></attvalue>
+          <attvalue for="character2" value="Antonio"></attvalue>
+          <attvalue for="character1_words" value="830"></attvalue>
+          <attvalue for="character2_words" value="1150"></attvalue>
+          <attvalue for="sharedlines" value="267"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="5" source="0" target="8" label="Sebastian --- Master of a Ship" weight="43.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sebastian"></attvalue>
+          <attvalue for="character2" value="Master of a Ship"></attvalue>
+          <attvalue for="character1_words" value="24"></attvalue>
+          <attvalue for="character2_words" value="19"></attvalue>
+          <attvalue for="sharedlines" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="6" source="0" target="10" label="Sebastian --- Ferdinand" weight="154.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sebastian"></attvalue>
+          <attvalue for="character2" value="Ferdinand"></attvalue>
+          <attvalue for="character1_words" value="51"></attvalue>
+          <attvalue for="character2_words" value="103"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="7" source="0" target="11" label="Sebastian --- Mariners" weight="60.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sebastian"></attvalue>
+          <attvalue for="character2" value="Mariners"></attvalue>
+          <attvalue for="character1_words" value="24"></attvalue>
+          <attvalue for="character2_words" value="36"></attvalue>
+          <attvalue for="sharedlines" value="8"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="8" source="0" target="12" label="Sebastian --- Ariel" weight="1419.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Sebastian"></attvalue>
+          <attvalue for="character2" value="Ariel"></attvalue>
+          <attvalue for="character1_words" value="806"></attvalue>
+          <attvalue for="character2_words" value="613"></attvalue>
+          <attvalue for="sharedlines" value="185"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="9" source="0" target="13" label="Sebastian --- Alonso" weight="1718.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Sebastian"></attvalue>
+          <attvalue for="character2" value="Alonso"></attvalue>
+          <attvalue for="character1_words" value="830"></attvalue>
+          <attvalue for="character2_words" value="888"></attvalue>
+          <attvalue for="sharedlines" value="228"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="10" source="0" target="14" label="Sebastian --- Francisco" weight="845.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Sebastian"></attvalue>
+          <attvalue for="character2" value="Francisco"></attvalue>
+          <attvalue for="character1_words" value="755"></attvalue>
+          <attvalue for="character2_words" value="90"></attvalue>
+          <attvalue for="sharedlines" value="118"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="11" source="0" target="15" label="Sebastian --- Adrian" weight="835.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Sebastian"></attvalue>
+          <attvalue for="character2" value="Adrian"></attvalue>
+          <attvalue for="character1_words" value="755"></attvalue>
+          <attvalue for="character2_words" value="80"></attvalue>
+          <attvalue for="sharedlines" value="119"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="12" source="0" target="16" label="Sebastian --- Gonzalo" weight="2171.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Sebastian"></attvalue>
+          <attvalue for="character2" value="Gonzalo"></attvalue>
+          <attvalue for="character1_words" value="830"></attvalue>
+          <attvalue for="character2_words" value="1341"></attvalue>
+          <attvalue for="sharedlines" value="280"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="13" source="0" target="17" label="Sebastian --- Caliban" weight="115.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sebastian"></attvalue>
+          <attvalue for="character2" value="Caliban"></attvalue>
+          <attvalue for="character1_words" value="51"></attvalue>
+          <attvalue for="character2_words" value="64"></attvalue>
+          <attvalue for="sharedlines" value="16"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="14" source="0" target="18" label="Sebastian --- Stephano" weight="98.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sebastian"></attvalue>
+          <attvalue for="character2" value="Stephano"></attvalue>
+          <attvalue for="character1_words" value="51"></attvalue>
+          <attvalue for="character2_words" value="47"></attvalue>
+          <attvalue for="sharedlines" value="13"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="15" source="1" target="0" label="Miranda --- Sebastian" weight="102.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Miranda"></attvalue>
+          <attvalue for="character2" value="Sebastian"></attvalue>
+          <attvalue for="character1_words" value="51"></attvalue>
+          <attvalue for="character2_words" value="51"></attvalue>
+          <attvalue for="sharedlines" value="15"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="16" source="1" target="2" label="Miranda --- Ceres" weight="200.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Miranda"></attvalue>
+          <attvalue for="character2" value="Ceres"></attvalue>
+          <attvalue for="character1_words" value="20"></attvalue>
+          <attvalue for="character2_words" value="180"></attvalue>
+          <attvalue for="sharedlines" value="27"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="17" source="1" target="3" label="Miranda --- Boatswain" weight="207.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Miranda"></attvalue>
+          <attvalue for="character2" value="Boatswain"></attvalue>
+          <attvalue for="character1_words" value="51"></attvalue>
+          <attvalue for="character2_words" value="156"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="18" source="1" target="4" label="Miranda --- Trinculo" weight="239.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Miranda"></attvalue>
+          <attvalue for="character2" value="Trinculo"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="168"></attvalue>
+          <attvalue for="sharedlines" value="31"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="19" source="1" target="5" label="Miranda --- Prospero" weight="6415.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Miranda"></attvalue>
+          <attvalue for="character2" value="Prospero"></attvalue>
+          <attvalue for="character1_words" value="1161"></attvalue>
+          <attvalue for="character2_words" value="5254"></attvalue>
+          <attvalue for="sharedlines" value="774"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="20" source="1" target="6" label="Miranda --- Juno" weight="70.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Miranda"></attvalue>
+          <attvalue for="character2" value="Juno"></attvalue>
+          <attvalue for="character1_words" value="20"></attvalue>
+          <attvalue for="character2_words" value="50"></attvalue>
+          <attvalue for="sharedlines" value="10"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="21" source="1" target="7" label="Miranda --- Antonio" weight="66.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Miranda"></attvalue>
+          <attvalue for="character2" value="Antonio"></attvalue>
+          <attvalue for="character1_words" value="51"></attvalue>
+          <attvalue for="character2_words" value="15"></attvalue>
+          <attvalue for="sharedlines" value="9"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="22" source="1" target="9" label="Miranda --- Iris" weight="396.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Miranda"></attvalue>
+          <attvalue for="character2" value="Iris"></attvalue>
+          <attvalue for="character1_words" value="20"></attvalue>
+          <attvalue for="character2_words" value="376"></attvalue>
+          <attvalue for="sharedlines" value="44"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="23" source="1" target="10" label="Miranda --- Ferdinand" weight="2318.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Miranda"></attvalue>
+          <attvalue for="character2" value="Ferdinand"></attvalue>
+          <attvalue for="character1_words" value="1161"></attvalue>
+          <attvalue for="character2_words" value="1157"></attvalue>
+          <attvalue for="sharedlines" value="294"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="24" source="1" target="12" label="Miranda --- Ariel" weight="1893.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Miranda"></attvalue>
+          <attvalue for="character2" value="Ariel"></attvalue>
+          <attvalue for="character1_words" value="789"></attvalue>
+          <attvalue for="character2_words" value="1104"></attvalue>
+          <attvalue for="sharedlines" value="257"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="25" source="1" target="13" label="Miranda --- Alonso" weight="499.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Miranda"></attvalue>
+          <attvalue for="character2" value="Alonso"></attvalue>
+          <attvalue for="character1_words" value="51"></attvalue>
+          <attvalue for="character2_words" value="448"></attvalue>
+          <attvalue for="sharedlines" value="63"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="26" source="1" target="16" label="Miranda --- Gonzalo" weight="264.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Miranda"></attvalue>
+          <attvalue for="character2" value="Gonzalo"></attvalue>
+          <attvalue for="character1_words" value="51"></attvalue>
+          <attvalue for="character2_words" value="213"></attvalue>
+          <attvalue for="sharedlines" value="32"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="27" source="1" target="17" label="Miranda --- Caliban" weight="1293.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Miranda"></attvalue>
+          <attvalue for="character2" value="Caliban"></attvalue>
+          <attvalue for="character1_words" value="789"></attvalue>
+          <attvalue for="character2_words" value="504"></attvalue>
+          <attvalue for="sharedlines" value="167"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="28" source="1" target="18" label="Miranda --- Stephano" weight="331.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Miranda"></attvalue>
+          <attvalue for="character2" value="Stephano"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="260"></attvalue>
+          <attvalue for="sharedlines" value="40"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="29" source="2" target="1" label="Ceres --- Miranda" weight="200.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ceres"></attvalue>
+          <attvalue for="character2" value="Miranda"></attvalue>
+          <attvalue for="character1_words" value="180"></attvalue>
+          <attvalue for="character2_words" value="20"></attvalue>
+          <attvalue for="sharedlines" value="27"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="30" source="2" target="4" label="Ceres --- Trinculo" weight="301.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ceres"></attvalue>
+          <attvalue for="character2" value="Trinculo"></attvalue>
+          <attvalue for="character1_words" value="180"></attvalue>
+          <attvalue for="character2_words" value="121"></attvalue>
+          <attvalue for="sharedlines" value="40"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="31" source="2" target="5" label="Ceres --- Prospero" weight="1022.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ceres"></attvalue>
+          <attvalue for="character2" value="Prospero"></attvalue>
+          <attvalue for="character1_words" value="180"></attvalue>
+          <attvalue for="character2_words" value="842"></attvalue>
+          <attvalue for="sharedlines" value="122"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="32" source="2" target="6" label="Ceres --- Juno" weight="230.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ceres"></attvalue>
+          <attvalue for="character2" value="Juno"></attvalue>
+          <attvalue for="character1_words" value="180"></attvalue>
+          <attvalue for="character2_words" value="50"></attvalue>
+          <attvalue for="sharedlines" value="31"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="33" source="2" target="9" label="Ceres --- Iris" weight="556.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ceres"></attvalue>
+          <attvalue for="character2" value="Iris"></attvalue>
+          <attvalue for="character1_words" value="180"></attvalue>
+          <attvalue for="character2_words" value="376"></attvalue>
+          <attvalue for="sharedlines" value="65"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="34" source="2" target="10" label="Ceres --- Ferdinand" weight="349.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ceres"></attvalue>
+          <attvalue for="character2" value="Ferdinand"></attvalue>
+          <attvalue for="character1_words" value="180"></attvalue>
+          <attvalue for="character2_words" value="169"></attvalue>
+          <attvalue for="sharedlines" value="47"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="35" source="2" target="12" label="Ceres --- Ariel" weight="411.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ceres"></attvalue>
+          <attvalue for="character2" value="Ariel"></attvalue>
+          <attvalue for="character1_words" value="180"></attvalue>
+          <attvalue for="character2_words" value="231"></attvalue>
+          <attvalue for="sharedlines" value="53"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="36" source="2" target="17" label="Ceres --- Caliban" weight="360.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ceres"></attvalue>
+          <attvalue for="character2" value="Caliban"></attvalue>
+          <attvalue for="character1_words" value="180"></attvalue>
+          <attvalue for="character2_words" value="180"></attvalue>
+          <attvalue for="sharedlines" value="44"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="37" source="2" target="18" label="Ceres --- Stephano" weight="393.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ceres"></attvalue>
+          <attvalue for="character2" value="Stephano"></attvalue>
+          <attvalue for="character1_words" value="180"></attvalue>
+          <attvalue for="character2_words" value="213"></attvalue>
+          <attvalue for="sharedlines" value="49"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="38" source="3" target="0" label="Boatswain --- Sebastian" weight="474.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Boatswain"></attvalue>
+          <attvalue for="character2" value="Sebastian"></attvalue>
+          <attvalue for="character1_words" value="399"></attvalue>
+          <attvalue for="character2_words" value="75"></attvalue>
+          <attvalue for="sharedlines" value="56"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="39" source="3" target="1" label="Boatswain --- Miranda" weight="207.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Boatswain"></attvalue>
+          <attvalue for="character2" value="Miranda"></attvalue>
+          <attvalue for="character1_words" value="156"></attvalue>
+          <attvalue for="character2_words" value="51"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="40" source="3" target="4" label="Boatswain --- Trinculo" weight="203.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Boatswain"></attvalue>
+          <attvalue for="character2" value="Trinculo"></attvalue>
+          <attvalue for="character1_words" value="156"></attvalue>
+          <attvalue for="character2_words" value="47"></attvalue>
+          <attvalue for="sharedlines" value="20"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="41" source="3" target="5" label="Boatswain --- Prospero" weight="1780.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Boatswain"></attvalue>
+          <attvalue for="character2" value="Prospero"></attvalue>
+          <attvalue for="character1_words" value="156"></attvalue>
+          <attvalue for="character2_words" value="1624"></attvalue>
+          <attvalue for="sharedlines" value="199"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="42" source="3" target="7" label="Boatswain --- Antonio" weight="472.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Boatswain"></attvalue>
+          <attvalue for="character2" value="Antonio"></attvalue>
+          <attvalue for="character1_words" value="399"></attvalue>
+          <attvalue for="character2_words" value="73"></attvalue>
+          <attvalue for="sharedlines" value="53"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="43" source="3" target="8" label="Boatswain --- Master of a Ship" weight="262.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Boatswain"></attvalue>
+          <attvalue for="character2" value="Master of a Ship"></attvalue>
+          <attvalue for="character1_words" value="243"></attvalue>
+          <attvalue for="character2_words" value="19"></attvalue>
+          <attvalue for="sharedlines" value="32"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="44" source="3" target="10" label="Boatswain --- Ferdinand" weight="259.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Boatswain"></attvalue>
+          <attvalue for="character2" value="Ferdinand"></attvalue>
+          <attvalue for="character1_words" value="156"></attvalue>
+          <attvalue for="character2_words" value="103"></attvalue>
+          <attvalue for="sharedlines" value="28"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="45" source="3" target="11" label="Boatswain --- Mariners" weight="279.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Boatswain"></attvalue>
+          <attvalue for="character2" value="Mariners"></attvalue>
+          <attvalue for="character1_words" value="243"></attvalue>
+          <attvalue for="character2_words" value="36"></attvalue>
+          <attvalue for="sharedlines" value="33"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="46" source="3" target="12" label="Boatswain --- Ariel" weight="378.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Boatswain"></attvalue>
+          <attvalue for="character2" value="Ariel"></attvalue>
+          <attvalue for="character1_words" value="156"></attvalue>
+          <attvalue for="character2_words" value="222"></attvalue>
+          <attvalue for="sharedlines" value="44"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="47" source="3" target="13" label="Boatswain --- Alonso" weight="859.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Boatswain"></attvalue>
+          <attvalue for="character2" value="Alonso"></attvalue>
+          <attvalue for="character1_words" value="399"></attvalue>
+          <attvalue for="character2_words" value="460"></attvalue>
+          <attvalue for="sharedlines" value="102"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="48" source="3" target="16" label="Boatswain --- Gonzalo" weight="785.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Boatswain"></attvalue>
+          <attvalue for="character2" value="Gonzalo"></attvalue>
+          <attvalue for="character1_words" value="399"></attvalue>
+          <attvalue for="character2_words" value="386"></attvalue>
+          <attvalue for="sharedlines" value="89"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="49" source="3" target="17" label="Boatswain --- Caliban" weight="220.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Boatswain"></attvalue>
+          <attvalue for="character2" value="Caliban"></attvalue>
+          <attvalue for="character1_words" value="156"></attvalue>
+          <attvalue for="character2_words" value="64"></attvalue>
+          <attvalue for="sharedlines" value="23"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="50" source="3" target="18" label="Boatswain --- Stephano" weight="203.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Boatswain"></attvalue>
+          <attvalue for="character2" value="Stephano"></attvalue>
+          <attvalue for="character1_words" value="156"></attvalue>
+          <attvalue for="character2_words" value="47"></attvalue>
+          <attvalue for="sharedlines" value="20"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="51" source="4" target="0" label="Trinculo --- Sebastian" weight="98.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Trinculo"></attvalue>
+          <attvalue for="character2" value="Sebastian"></attvalue>
+          <attvalue for="character1_words" value="47"></attvalue>
+          <attvalue for="character2_words" value="51"></attvalue>
+          <attvalue for="sharedlines" value="13"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="52" source="4" target="1" label="Trinculo --- Miranda" weight="239.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Trinculo"></attvalue>
+          <attvalue for="character2" value="Miranda"></attvalue>
+          <attvalue for="character1_words" value="168"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="31"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="53" source="4" target="2" label="Trinculo --- Ceres" weight="301.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Trinculo"></attvalue>
+          <attvalue for="character2" value="Ceres"></attvalue>
+          <attvalue for="character1_words" value="121"></attvalue>
+          <attvalue for="character2_words" value="180"></attvalue>
+          <attvalue for="sharedlines" value="40"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="54" source="4" target="3" label="Trinculo --- Boatswain" weight="203.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Trinculo"></attvalue>
+          <attvalue for="character2" value="Boatswain"></attvalue>
+          <attvalue for="character1_words" value="47"></attvalue>
+          <attvalue for="character2_words" value="156"></attvalue>
+          <attvalue for="sharedlines" value="20"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="55" source="4" target="5" label="Trinculo --- Prospero" weight="2634.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Trinculo"></attvalue>
+          <attvalue for="character2" value="Prospero"></attvalue>
+          <attvalue for="character1_words" value="168"></attvalue>
+          <attvalue for="character2_words" value="2466"></attvalue>
+          <attvalue for="sharedlines" value="303"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="56" source="4" target="6" label="Trinculo --- Juno" weight="171.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Trinculo"></attvalue>
+          <attvalue for="character2" value="Juno"></attvalue>
+          <attvalue for="character1_words" value="121"></attvalue>
+          <attvalue for="character2_words" value="50"></attvalue>
+          <attvalue for="sharedlines" value="23"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="57" source="4" target="7" label="Trinculo --- Antonio" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Trinculo"></attvalue>
+          <attvalue for="character2" value="Antonio"></attvalue>
+          <attvalue for="character1_words" value="47"></attvalue>
+          <attvalue for="character2_words" value="15"></attvalue>
+          <attvalue for="sharedlines" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="58" source="4" target="9" label="Trinculo --- Iris" weight="497.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Trinculo"></attvalue>
+          <attvalue for="character2" value="Iris"></attvalue>
+          <attvalue for="character1_words" value="121"></attvalue>
+          <attvalue for="character2_words" value="376"></attvalue>
+          <attvalue for="sharedlines" value="57"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="59" source="4" target="10" label="Trinculo --- Ferdinand" weight="440.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Trinculo"></attvalue>
+          <attvalue for="character2" value="Ferdinand"></attvalue>
+          <attvalue for="character1_words" value="168"></attvalue>
+          <attvalue for="character2_words" value="272"></attvalue>
+          <attvalue for="sharedlines" value="57"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="60" source="4" target="12" label="Trinculo --- Ariel" weight="886.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Trinculo"></attvalue>
+          <attvalue for="character2" value="Ariel"></attvalue>
+          <attvalue for="character1_words" value="414"></attvalue>
+          <attvalue for="character2_words" value="472"></attvalue>
+          <attvalue for="sharedlines" value="113"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="61" source="4" target="13" label="Trinculo --- Alonso" weight="495.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Trinculo"></attvalue>
+          <attvalue for="character2" value="Alonso"></attvalue>
+          <attvalue for="character1_words" value="47"></attvalue>
+          <attvalue for="character2_words" value="448"></attvalue>
+          <attvalue for="sharedlines" value="61"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="62" source="4" target="16" label="Trinculo --- Gonzalo" weight="260.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Trinculo"></attvalue>
+          <attvalue for="character2" value="Gonzalo"></attvalue>
+          <attvalue for="character1_words" value="47"></attvalue>
+          <attvalue for="character2_words" value="213"></attvalue>
+          <attvalue for="sharedlines" value="30"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="63" source="4" target="17" label="Trinculo --- Caliban" weight="2193.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Trinculo"></attvalue>
+          <attvalue for="character2" value="Caliban"></attvalue>
+          <attvalue for="character1_words" value="926"></attvalue>
+          <attvalue for="character2_words" value="1267"></attvalue>
+          <attvalue for="sharedlines" value="250"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="64" source="4" target="18" label="Trinculo --- Stephano" weight="2402.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Trinculo"></attvalue>
+          <attvalue for="character2" value="Stephano"></attvalue>
+          <attvalue for="character1_words" value="926"></attvalue>
+          <attvalue for="character2_words" value="1476"></attvalue>
+          <attvalue for="sharedlines" value="274"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="65" source="5" target="0" label="Prospero --- Sebastian" weight="1887.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Prospero"></attvalue>
+          <attvalue for="character2" value="Sebastian"></attvalue>
+          <attvalue for="character1_words" value="1748"></attvalue>
+          <attvalue for="character2_words" value="139"></attvalue>
+          <attvalue for="sharedlines" value="219"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="66" source="5" target="1" label="Prospero --- Miranda" weight="6415.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Prospero"></attvalue>
+          <attvalue for="character2" value="Miranda"></attvalue>
+          <attvalue for="character1_words" value="5254"></attvalue>
+          <attvalue for="character2_words" value="1161"></attvalue>
+          <attvalue for="sharedlines" value="774"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="67" source="5" target="2" label="Prospero --- Ceres" weight="1022.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Prospero"></attvalue>
+          <attvalue for="character2" value="Ceres"></attvalue>
+          <attvalue for="character1_words" value="842"></attvalue>
+          <attvalue for="character2_words" value="180"></attvalue>
+          <attvalue for="sharedlines" value="122"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="68" source="5" target="3" label="Prospero --- Boatswain" weight="1780.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Prospero"></attvalue>
+          <attvalue for="character2" value="Boatswain"></attvalue>
+          <attvalue for="character1_words" value="1624"></attvalue>
+          <attvalue for="character2_words" value="156"></attvalue>
+          <attvalue for="sharedlines" value="199"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="69" source="5" target="4" label="Prospero --- Trinculo" weight="2634.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Prospero"></attvalue>
+          <attvalue for="character2" value="Trinculo"></attvalue>
+          <attvalue for="character1_words" value="2466"></attvalue>
+          <attvalue for="character2_words" value="168"></attvalue>
+          <attvalue for="sharedlines" value="303"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="70" source="5" target="6" label="Prospero --- Juno" weight="892.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Prospero"></attvalue>
+          <attvalue for="character2" value="Juno"></attvalue>
+          <attvalue for="character1_words" value="842"></attvalue>
+          <attvalue for="character2_words" value="50"></attvalue>
+          <attvalue for="sharedlines" value="105"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="71" source="5" target="7" label="Prospero --- Antonio" weight="1858.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Prospero"></attvalue>
+          <attvalue for="character2" value="Antonio"></attvalue>
+          <attvalue for="character1_words" value="1748"></attvalue>
+          <attvalue for="character2_words" value="110"></attvalue>
+          <attvalue for="sharedlines" value="213"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="72" source="5" target="9" label="Prospero --- Iris" weight="1218.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Prospero"></attvalue>
+          <attvalue for="character2" value="Iris"></attvalue>
+          <attvalue for="character1_words" value="842"></attvalue>
+          <attvalue for="character2_words" value="376"></attvalue>
+          <attvalue for="sharedlines" value="139"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="73" source="5" target="10" label="Prospero --- Ferdinand" weight="6411.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Prospero"></attvalue>
+          <attvalue for="character2" value="Ferdinand"></attvalue>
+          <attvalue for="character1_words" value="5254"></attvalue>
+          <attvalue for="character2_words" value="1157"></attvalue>
+          <attvalue for="sharedlines" value="760"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="74" source="5" target="12" label="Prospero --- Ariel" weight="6713.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Prospero"></attvalue>
+          <attvalue for="character2" value="Ariel"></attvalue>
+          <attvalue for="character1_words" value="5307"></attvalue>
+          <attvalue for="character2_words" value="1406"></attvalue>
+          <attvalue for="sharedlines" value="803"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="75" source="5" target="13" label="Prospero --- Alonso" weight="2440.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Prospero"></attvalue>
+          <attvalue for="character2" value="Alonso"></attvalue>
+          <attvalue for="character1_words" value="1748"></attvalue>
+          <attvalue for="character2_words" value="692"></attvalue>
+          <attvalue for="sharedlines" value="281"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="76" source="5" target="14" label="Prospero --- Francisco" weight="128.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Prospero"></attvalue>
+          <attvalue for="character2" value="Francisco"></attvalue>
+          <attvalue for="character1_words" value="124"></attvalue>
+          <attvalue for="character2_words" value="4"></attvalue>
+          <attvalue for="sharedlines" value="16"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="77" source="5" target="15" label="Prospero --- Adrian" weight="130.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Prospero"></attvalue>
+          <attvalue for="character2" value="Adrian"></attvalue>
+          <attvalue for="character1_words" value="124"></attvalue>
+          <attvalue for="character2_words" value="6"></attvalue>
+          <attvalue for="sharedlines" value="16"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="78" source="5" target="16" label="Prospero --- Gonzalo" weight="2197.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Prospero"></attvalue>
+          <attvalue for="character2" value="Gonzalo"></attvalue>
+          <attvalue for="character1_words" value="1748"></attvalue>
+          <attvalue for="character2_words" value="449"></attvalue>
+          <attvalue for="sharedlines" value="252"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="79" source="5" target="17" label="Prospero --- Caliban" weight="5687.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Prospero"></attvalue>
+          <attvalue for="character2" value="Caliban"></attvalue>
+          <attvalue for="character1_words" value="5183"></attvalue>
+          <attvalue for="character2_words" value="504"></attvalue>
+          <attvalue for="sharedlines" value="668"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="80" source="5" target="18" label="Prospero --- Stephano" weight="2726.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Prospero"></attvalue>
+          <attvalue for="character2" value="Stephano"></attvalue>
+          <attvalue for="character1_words" value="2466"></attvalue>
+          <attvalue for="character2_words" value="260"></attvalue>
+          <attvalue for="sharedlines" value="312"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="81" source="6" target="1" label="Juno --- Miranda" weight="70.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Juno"></attvalue>
+          <attvalue for="character2" value="Miranda"></attvalue>
+          <attvalue for="character1_words" value="50"></attvalue>
+          <attvalue for="character2_words" value="20"></attvalue>
+          <attvalue for="sharedlines" value="10"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="82" source="6" target="2" label="Juno --- Ceres" weight="230.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Juno"></attvalue>
+          <attvalue for="character2" value="Ceres"></attvalue>
+          <attvalue for="character1_words" value="50"></attvalue>
+          <attvalue for="character2_words" value="180"></attvalue>
+          <attvalue for="sharedlines" value="31"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="83" source="6" target="4" label="Juno --- Trinculo" weight="171.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Juno"></attvalue>
+          <attvalue for="character2" value="Trinculo"></attvalue>
+          <attvalue for="character1_words" value="50"></attvalue>
+          <attvalue for="character2_words" value="121"></attvalue>
+          <attvalue for="sharedlines" value="23"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="84" source="6" target="5" label="Juno --- Prospero" weight="892.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Juno"></attvalue>
+          <attvalue for="character2" value="Prospero"></attvalue>
+          <attvalue for="character1_words" value="50"></attvalue>
+          <attvalue for="character2_words" value="842"></attvalue>
+          <attvalue for="sharedlines" value="105"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="85" source="6" target="9" label="Juno --- Iris" weight="426.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Juno"></attvalue>
+          <attvalue for="character2" value="Iris"></attvalue>
+          <attvalue for="character1_words" value="50"></attvalue>
+          <attvalue for="character2_words" value="376"></attvalue>
+          <attvalue for="sharedlines" value="48"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="86" source="6" target="10" label="Juno --- Ferdinand" weight="219.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Juno"></attvalue>
+          <attvalue for="character2" value="Ferdinand"></attvalue>
+          <attvalue for="character1_words" value="50"></attvalue>
+          <attvalue for="character2_words" value="169"></attvalue>
+          <attvalue for="sharedlines" value="30"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="87" source="6" target="12" label="Juno --- Ariel" weight="281.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Juno"></attvalue>
+          <attvalue for="character2" value="Ariel"></attvalue>
+          <attvalue for="character1_words" value="50"></attvalue>
+          <attvalue for="character2_words" value="231"></attvalue>
+          <attvalue for="sharedlines" value="36"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="88" source="6" target="17" label="Juno --- Caliban" weight="230.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Juno"></attvalue>
+          <attvalue for="character2" value="Caliban"></attvalue>
+          <attvalue for="character1_words" value="50"></attvalue>
+          <attvalue for="character2_words" value="180"></attvalue>
+          <attvalue for="sharedlines" value="27"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="89" source="6" target="18" label="Juno --- Stephano" weight="263.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Juno"></attvalue>
+          <attvalue for="character2" value="Stephano"></attvalue>
+          <attvalue for="character1_words" value="50"></attvalue>
+          <attvalue for="character2_words" value="213"></attvalue>
+          <attvalue for="sharedlines" value="32"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="90" source="7" target="0" label="Antonio --- Sebastian" weight="1980.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Antonio"></attvalue>
+          <attvalue for="character2" value="Sebastian"></attvalue>
+          <attvalue for="character1_words" value="1150"></attvalue>
+          <attvalue for="character2_words" value="830"></attvalue>
+          <attvalue for="sharedlines" value="267"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="91" source="7" target="1" label="Antonio --- Miranda" weight="66.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Antonio"></attvalue>
+          <attvalue for="character2" value="Miranda"></attvalue>
+          <attvalue for="character1_words" value="15"></attvalue>
+          <attvalue for="character2_words" value="51"></attvalue>
+          <attvalue for="sharedlines" value="9"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="92" source="7" target="3" label="Antonio --- Boatswain" weight="472.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Antonio"></attvalue>
+          <attvalue for="character2" value="Boatswain"></attvalue>
+          <attvalue for="character1_words" value="73"></attvalue>
+          <attvalue for="character2_words" value="399"></attvalue>
+          <attvalue for="sharedlines" value="53"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="93" source="7" target="4" label="Antonio --- Trinculo" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Antonio"></attvalue>
+          <attvalue for="character2" value="Trinculo"></attvalue>
+          <attvalue for="character1_words" value="15"></attvalue>
+          <attvalue for="character2_words" value="47"></attvalue>
+          <attvalue for="sharedlines" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="94" source="7" target="5" label="Antonio --- Prospero" weight="1858.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Antonio"></attvalue>
+          <attvalue for="character2" value="Prospero"></attvalue>
+          <attvalue for="character1_words" value="110"></attvalue>
+          <attvalue for="character2_words" value="1748"></attvalue>
+          <attvalue for="sharedlines" value="213"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="95" source="7" target="8" label="Antonio --- Master of a Ship" weight="77.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Antonio"></attvalue>
+          <attvalue for="character2" value="Master of a Ship"></attvalue>
+          <attvalue for="character1_words" value="58"></attvalue>
+          <attvalue for="character2_words" value="19"></attvalue>
+          <attvalue for="sharedlines" value="10"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="96" source="7" target="10" label="Antonio --- Ferdinand" weight="118.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Antonio"></attvalue>
+          <attvalue for="character2" value="Ferdinand"></attvalue>
+          <attvalue for="character1_words" value="15"></attvalue>
+          <attvalue for="character2_words" value="103"></attvalue>
+          <attvalue for="sharedlines" value="15"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="97" source="7" target="11" label="Antonio --- Mariners" weight="94.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Antonio"></attvalue>
+          <attvalue for="character2" value="Mariners"></attvalue>
+          <attvalue for="character1_words" value="58"></attvalue>
+          <attvalue for="character2_words" value="36"></attvalue>
+          <attvalue for="sharedlines" value="11"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="98" source="7" target="12" label="Antonio --- Ariel" weight="1705.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Antonio"></attvalue>
+          <attvalue for="character2" value="Ariel"></attvalue>
+          <attvalue for="character1_words" value="1092"></attvalue>
+          <attvalue for="character2_words" value="613"></attvalue>
+          <attvalue for="sharedlines" value="211"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="99" source="7" target="13" label="Antonio --- Alonso" weight="2038.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Antonio"></attvalue>
+          <attvalue for="character2" value="Alonso"></attvalue>
+          <attvalue for="character1_words" value="1150"></attvalue>
+          <attvalue for="character2_words" value="888"></attvalue>
+          <attvalue for="sharedlines" value="257"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="100" source="7" target="14" label="Antonio --- Francisco" weight="1167.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Antonio"></attvalue>
+          <attvalue for="character2" value="Francisco"></attvalue>
+          <attvalue for="character1_words" value="1077"></attvalue>
+          <attvalue for="character2_words" value="90"></attvalue>
+          <attvalue for="sharedlines" value="150"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="101" source="7" target="15" label="Antonio --- Adrian" weight="1157.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Antonio"></attvalue>
+          <attvalue for="character2" value="Adrian"></attvalue>
+          <attvalue for="character1_words" value="1077"></attvalue>
+          <attvalue for="character2_words" value="80"></attvalue>
+          <attvalue for="sharedlines" value="151"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="102" source="7" target="16" label="Antonio --- Gonzalo" weight="2491.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Antonio"></attvalue>
+          <attvalue for="character2" value="Gonzalo"></attvalue>
+          <attvalue for="character1_words" value="1150"></attvalue>
+          <attvalue for="character2_words" value="1341"></attvalue>
+          <attvalue for="sharedlines" value="309"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="103" source="7" target="17" label="Antonio --- Caliban" weight="79.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Antonio"></attvalue>
+          <attvalue for="character2" value="Caliban"></attvalue>
+          <attvalue for="character1_words" value="15"></attvalue>
+          <attvalue for="character2_words" value="64"></attvalue>
+          <attvalue for="sharedlines" value="10"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="104" source="7" target="18" label="Antonio --- Stephano" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Antonio"></attvalue>
+          <attvalue for="character2" value="Stephano"></attvalue>
+          <attvalue for="character1_words" value="15"></attvalue>
+          <attvalue for="character2_words" value="47"></attvalue>
+          <attvalue for="sharedlines" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="105" source="8" target="0" label="Master of a Ship --- Sebastian" weight="43.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Master of a Ship"></attvalue>
+          <attvalue for="character2" value="Sebastian"></attvalue>
+          <attvalue for="character1_words" value="19"></attvalue>
+          <attvalue for="character2_words" value="24"></attvalue>
+          <attvalue for="sharedlines" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="106" source="8" target="3" label="Master of a Ship --- Boatswain" weight="262.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Master of a Ship"></attvalue>
+          <attvalue for="character2" value="Boatswain"></attvalue>
+          <attvalue for="character1_words" value="19"></attvalue>
+          <attvalue for="character2_words" value="243"></attvalue>
+          <attvalue for="sharedlines" value="32"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="107" source="8" target="7" label="Master of a Ship --- Antonio" weight="77.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Master of a Ship"></attvalue>
+          <attvalue for="character2" value="Antonio"></attvalue>
+          <attvalue for="character1_words" value="19"></attvalue>
+          <attvalue for="character2_words" value="58"></attvalue>
+          <attvalue for="sharedlines" value="10"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="108" source="8" target="11" label="Master of a Ship --- Mariners" weight="55.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Master of a Ship"></attvalue>
+          <attvalue for="character2" value="Mariners"></attvalue>
+          <attvalue for="character1_words" value="19"></attvalue>
+          <attvalue for="character2_words" value="36"></attvalue>
+          <attvalue for="sharedlines" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="109" source="8" target="13" label="Master of a Ship --- Alonso" weight="31.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Master of a Ship"></attvalue>
+          <attvalue for="character2" value="Alonso"></attvalue>
+          <attvalue for="character1_words" value="19"></attvalue>
+          <attvalue for="character2_words" value="12"></attvalue>
+          <attvalue for="sharedlines" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="110" source="8" target="16" label="Master of a Ship --- Gonzalo" weight="192.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Master of a Ship"></attvalue>
+          <attvalue for="character2" value="Gonzalo"></attvalue>
+          <attvalue for="character1_words" value="19"></attvalue>
+          <attvalue for="character2_words" value="173"></attvalue>
+          <attvalue for="sharedlines" value="23"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="111" source="9" target="1" label="Iris --- Miranda" weight="396.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Iris"></attvalue>
+          <attvalue for="character2" value="Miranda"></attvalue>
+          <attvalue for="character1_words" value="376"></attvalue>
+          <attvalue for="character2_words" value="20"></attvalue>
+          <attvalue for="sharedlines" value="44"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="112" source="9" target="2" label="Iris --- Ceres" weight="556.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Iris"></attvalue>
+          <attvalue for="character2" value="Ceres"></attvalue>
+          <attvalue for="character1_words" value="376"></attvalue>
+          <attvalue for="character2_words" value="180"></attvalue>
+          <attvalue for="sharedlines" value="65"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="113" source="9" target="4" label="Iris --- Trinculo" weight="497.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Iris"></attvalue>
+          <attvalue for="character2" value="Trinculo"></attvalue>
+          <attvalue for="character1_words" value="376"></attvalue>
+          <attvalue for="character2_words" value="121"></attvalue>
+          <attvalue for="sharedlines" value="57"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="114" source="9" target="5" label="Iris --- Prospero" weight="1218.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Iris"></attvalue>
+          <attvalue for="character2" value="Prospero"></attvalue>
+          <attvalue for="character1_words" value="376"></attvalue>
+          <attvalue for="character2_words" value="842"></attvalue>
+          <attvalue for="sharedlines" value="139"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="115" source="9" target="6" label="Iris --- Juno" weight="426.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Iris"></attvalue>
+          <attvalue for="character2" value="Juno"></attvalue>
+          <attvalue for="character1_words" value="376"></attvalue>
+          <attvalue for="character2_words" value="50"></attvalue>
+          <attvalue for="sharedlines" value="48"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="116" source="9" target="10" label="Iris --- Ferdinand" weight="545.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Iris"></attvalue>
+          <attvalue for="character2" value="Ferdinand"></attvalue>
+          <attvalue for="character1_words" value="376"></attvalue>
+          <attvalue for="character2_words" value="169"></attvalue>
+          <attvalue for="sharedlines" value="64"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="117" source="9" target="12" label="Iris --- Ariel" weight="607.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Iris"></attvalue>
+          <attvalue for="character2" value="Ariel"></attvalue>
+          <attvalue for="character1_words" value="376"></attvalue>
+          <attvalue for="character2_words" value="231"></attvalue>
+          <attvalue for="sharedlines" value="70"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="118" source="9" target="17" label="Iris --- Caliban" weight="556.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Iris"></attvalue>
+          <attvalue for="character2" value="Caliban"></attvalue>
+          <attvalue for="character1_words" value="376"></attvalue>
+          <attvalue for="character2_words" value="180"></attvalue>
+          <attvalue for="sharedlines" value="61"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="119" source="9" target="18" label="Iris --- Stephano" weight="589.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Iris"></attvalue>
+          <attvalue for="character2" value="Stephano"></attvalue>
+          <attvalue for="character1_words" value="376"></attvalue>
+          <attvalue for="character2_words" value="213"></attvalue>
+          <attvalue for="sharedlines" value="66"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="120" source="10" target="0" label="Ferdinand --- Sebastian" weight="154.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ferdinand"></attvalue>
+          <attvalue for="character2" value="Sebastian"></attvalue>
+          <attvalue for="character1_words" value="103"></attvalue>
+          <attvalue for="character2_words" value="51"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="121" source="10" target="1" label="Ferdinand --- Miranda" weight="2318.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Ferdinand"></attvalue>
+          <attvalue for="character2" value="Miranda"></attvalue>
+          <attvalue for="character1_words" value="1157"></attvalue>
+          <attvalue for="character2_words" value="1161"></attvalue>
+          <attvalue for="sharedlines" value="294"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="122" source="10" target="2" label="Ferdinand --- Ceres" weight="349.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ferdinand"></attvalue>
+          <attvalue for="character2" value="Ceres"></attvalue>
+          <attvalue for="character1_words" value="169"></attvalue>
+          <attvalue for="character2_words" value="180"></attvalue>
+          <attvalue for="sharedlines" value="47"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="123" source="10" target="3" label="Ferdinand --- Boatswain" weight="259.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ferdinand"></attvalue>
+          <attvalue for="character2" value="Boatswain"></attvalue>
+          <attvalue for="character1_words" value="103"></attvalue>
+          <attvalue for="character2_words" value="156"></attvalue>
+          <attvalue for="sharedlines" value="28"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="124" source="10" target="4" label="Ferdinand --- Trinculo" weight="440.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Ferdinand"></attvalue>
+          <attvalue for="character2" value="Trinculo"></attvalue>
+          <attvalue for="character1_words" value="272"></attvalue>
+          <attvalue for="character2_words" value="168"></attvalue>
+          <attvalue for="sharedlines" value="57"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="125" source="10" target="5" label="Ferdinand --- Prospero" weight="6411.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Ferdinand"></attvalue>
+          <attvalue for="character2" value="Prospero"></attvalue>
+          <attvalue for="character1_words" value="1157"></attvalue>
+          <attvalue for="character2_words" value="5254"></attvalue>
+          <attvalue for="sharedlines" value="760"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="126" source="10" target="6" label="Ferdinand --- Juno" weight="219.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ferdinand"></attvalue>
+          <attvalue for="character2" value="Juno"></attvalue>
+          <attvalue for="character1_words" value="169"></attvalue>
+          <attvalue for="character2_words" value="50"></attvalue>
+          <attvalue for="sharedlines" value="30"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="127" source="10" target="7" label="Ferdinand --- Antonio" weight="118.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ferdinand"></attvalue>
+          <attvalue for="character2" value="Antonio"></attvalue>
+          <attvalue for="character1_words" value="103"></attvalue>
+          <attvalue for="character2_words" value="15"></attvalue>
+          <attvalue for="sharedlines" value="15"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="128" source="10" target="9" label="Ferdinand --- Iris" weight="545.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ferdinand"></attvalue>
+          <attvalue for="character2" value="Iris"></attvalue>
+          <attvalue for="character1_words" value="169"></attvalue>
+          <attvalue for="character2_words" value="376"></attvalue>
+          <attvalue for="sharedlines" value="64"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="129" source="10" target="12" label="Ferdinand --- Ariel" weight="1763.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Ferdinand"></attvalue>
+          <attvalue for="character2" value="Ariel"></attvalue>
+          <attvalue for="character1_words" value="659"></attvalue>
+          <attvalue for="character2_words" value="1104"></attvalue>
+          <attvalue for="sharedlines" value="229"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="130" source="10" target="13" label="Ferdinand --- Alonso" weight="551.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ferdinand"></attvalue>
+          <attvalue for="character2" value="Alonso"></attvalue>
+          <attvalue for="character1_words" value="103"></attvalue>
+          <attvalue for="character2_words" value="448"></attvalue>
+          <attvalue for="sharedlines" value="69"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="131" source="10" target="16" label="Ferdinand --- Gonzalo" weight="316.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ferdinand"></attvalue>
+          <attvalue for="character2" value="Gonzalo"></attvalue>
+          <attvalue for="character1_words" value="103"></attvalue>
+          <attvalue for="character2_words" value="213"></attvalue>
+          <attvalue for="sharedlines" value="38"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="132" source="10" target="17" label="Ferdinand --- Caliban" weight="1163.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Ferdinand"></attvalue>
+          <attvalue for="character2" value="Caliban"></attvalue>
+          <attvalue for="character1_words" value="659"></attvalue>
+          <attvalue for="character2_words" value="504"></attvalue>
+          <attvalue for="sharedlines" value="139"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="133" source="10" target="18" label="Ferdinand --- Stephano" weight="532.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Ferdinand"></attvalue>
+          <attvalue for="character2" value="Stephano"></attvalue>
+          <attvalue for="character1_words" value="272"></attvalue>
+          <attvalue for="character2_words" value="260"></attvalue>
+          <attvalue for="sharedlines" value="66"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="134" source="11" target="0" label="Mariners --- Sebastian" weight="60.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Mariners"></attvalue>
+          <attvalue for="character2" value="Sebastian"></attvalue>
+          <attvalue for="character1_words" value="36"></attvalue>
+          <attvalue for="character2_words" value="24"></attvalue>
+          <attvalue for="sharedlines" value="8"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="135" source="11" target="3" label="Mariners --- Boatswain" weight="279.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Mariners"></attvalue>
+          <attvalue for="character2" value="Boatswain"></attvalue>
+          <attvalue for="character1_words" value="36"></attvalue>
+          <attvalue for="character2_words" value="243"></attvalue>
+          <attvalue for="sharedlines" value="33"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="136" source="11" target="7" label="Mariners --- Antonio" weight="94.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Mariners"></attvalue>
+          <attvalue for="character2" value="Antonio"></attvalue>
+          <attvalue for="character1_words" value="36"></attvalue>
+          <attvalue for="character2_words" value="58"></attvalue>
+          <attvalue for="sharedlines" value="11"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="137" source="11" target="8" label="Mariners --- Master of a Ship" weight="55.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Mariners"></attvalue>
+          <attvalue for="character2" value="Master of a Ship"></attvalue>
+          <attvalue for="character1_words" value="36"></attvalue>
+          <attvalue for="character2_words" value="19"></attvalue>
+          <attvalue for="sharedlines" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="138" source="11" target="13" label="Mariners --- Alonso" weight="48.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Mariners"></attvalue>
+          <attvalue for="character2" value="Alonso"></attvalue>
+          <attvalue for="character1_words" value="36"></attvalue>
+          <attvalue for="character2_words" value="12"></attvalue>
+          <attvalue for="sharedlines" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="139" source="11" target="16" label="Mariners --- Gonzalo" weight="209.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Mariners"></attvalue>
+          <attvalue for="character2" value="Gonzalo"></attvalue>
+          <attvalue for="character1_words" value="36"></attvalue>
+          <attvalue for="character2_words" value="173"></attvalue>
+          <attvalue for="sharedlines" value="24"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="140" source="12" target="0" label="Ariel --- Sebastian" weight="1419.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Ariel"></attvalue>
+          <attvalue for="character2" value="Sebastian"></attvalue>
+          <attvalue for="character1_words" value="613"></attvalue>
+          <attvalue for="character2_words" value="806"></attvalue>
+          <attvalue for="sharedlines" value="185"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="141" source="12" target="1" label="Ariel --- Miranda" weight="1893.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Ariel"></attvalue>
+          <attvalue for="character2" value="Miranda"></attvalue>
+          <attvalue for="character1_words" value="1104"></attvalue>
+          <attvalue for="character2_words" value="789"></attvalue>
+          <attvalue for="sharedlines" value="257"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="142" source="12" target="2" label="Ariel --- Ceres" weight="411.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ariel"></attvalue>
+          <attvalue for="character2" value="Ceres"></attvalue>
+          <attvalue for="character1_words" value="231"></attvalue>
+          <attvalue for="character2_words" value="180"></attvalue>
+          <attvalue for="sharedlines" value="53"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="143" source="12" target="3" label="Ariel --- Boatswain" weight="378.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ariel"></attvalue>
+          <attvalue for="character2" value="Boatswain"></attvalue>
+          <attvalue for="character1_words" value="222"></attvalue>
+          <attvalue for="character2_words" value="156"></attvalue>
+          <attvalue for="sharedlines" value="44"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="144" source="12" target="4" label="Ariel --- Trinculo" weight="886.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Ariel"></attvalue>
+          <attvalue for="character2" value="Trinculo"></attvalue>
+          <attvalue for="character1_words" value="472"></attvalue>
+          <attvalue for="character2_words" value="414"></attvalue>
+          <attvalue for="sharedlines" value="113"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="145" source="12" target="5" label="Ariel --- Prospero" weight="6713.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Ariel"></attvalue>
+          <attvalue for="character2" value="Prospero"></attvalue>
+          <attvalue for="character1_words" value="1406"></attvalue>
+          <attvalue for="character2_words" value="5307"></attvalue>
+          <attvalue for="sharedlines" value="803"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="146" source="12" target="6" label="Ariel --- Juno" weight="281.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ariel"></attvalue>
+          <attvalue for="character2" value="Juno"></attvalue>
+          <attvalue for="character1_words" value="231"></attvalue>
+          <attvalue for="character2_words" value="50"></attvalue>
+          <attvalue for="sharedlines" value="36"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="147" source="12" target="7" label="Ariel --- Antonio" weight="1705.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Ariel"></attvalue>
+          <attvalue for="character2" value="Antonio"></attvalue>
+          <attvalue for="character1_words" value="613"></attvalue>
+          <attvalue for="character2_words" value="1092"></attvalue>
+          <attvalue for="sharedlines" value="211"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="148" source="12" target="9" label="Ariel --- Iris" weight="607.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ariel"></attvalue>
+          <attvalue for="character2" value="Iris"></attvalue>
+          <attvalue for="character1_words" value="231"></attvalue>
+          <attvalue for="character2_words" value="376"></attvalue>
+          <attvalue for="sharedlines" value="70"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="149" source="12" target="10" label="Ariel --- Ferdinand" weight="1763.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Ariel"></attvalue>
+          <attvalue for="character2" value="Ferdinand"></attvalue>
+          <attvalue for="character1_words" value="1104"></attvalue>
+          <attvalue for="character2_words" value="659"></attvalue>
+          <attvalue for="sharedlines" value="229"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="150" source="12" target="13" label="Ariel --- Alonso" weight="1489.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Ariel"></attvalue>
+          <attvalue for="character2" value="Alonso"></attvalue>
+          <attvalue for="character1_words" value="613"></attvalue>
+          <attvalue for="character2_words" value="876"></attvalue>
+          <attvalue for="sharedlines" value="177"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="151" source="12" target="14" label="Ariel --- Francisco" weight="481.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Ariel"></attvalue>
+          <attvalue for="character2" value="Francisco"></attvalue>
+          <attvalue for="character1_words" value="391"></attvalue>
+          <attvalue for="character2_words" value="90"></attvalue>
+          <attvalue for="sharedlines" value="52"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="152" source="12" target="15" label="Ariel --- Adrian" weight="471.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Ariel"></attvalue>
+          <attvalue for="character2" value="Adrian"></attvalue>
+          <attvalue for="character1_words" value="391"></attvalue>
+          <attvalue for="character2_words" value="80"></attvalue>
+          <attvalue for="sharedlines" value="53"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="153" source="12" target="16" label="Ariel --- Gonzalo" weight="1781.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Ariel"></attvalue>
+          <attvalue for="character2" value="Gonzalo"></attvalue>
+          <attvalue for="character1_words" value="613"></attvalue>
+          <attvalue for="character2_words" value="1168"></attvalue>
+          <attvalue for="sharedlines" value="211"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="154" source="12" target="17" label="Ariel --- Caliban" weight="2179.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Ariel"></attvalue>
+          <attvalue for="character2" value="Caliban"></attvalue>
+          <attvalue for="character1_words" value="1123"></attvalue>
+          <attvalue for="character2_words" value="1056"></attvalue>
+          <attvalue for="sharedlines" value="273"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="155" source="12" target="18" label="Ariel --- Stephano" weight="1212.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Ariel"></attvalue>
+          <attvalue for="character2" value="Stephano"></attvalue>
+          <attvalue for="character1_words" value="472"></attvalue>
+          <attvalue for="character2_words" value="740"></attvalue>
+          <attvalue for="sharedlines" value="151"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="156" source="13" target="0" label="Alonso --- Sebastian" weight="1718.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Alonso"></attvalue>
+          <attvalue for="character2" value="Sebastian"></attvalue>
+          <attvalue for="character1_words" value="888"></attvalue>
+          <attvalue for="character2_words" value="830"></attvalue>
+          <attvalue for="sharedlines" value="228"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="157" source="13" target="1" label="Alonso --- Miranda" weight="499.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Alonso"></attvalue>
+          <attvalue for="character2" value="Miranda"></attvalue>
+          <attvalue for="character1_words" value="448"></attvalue>
+          <attvalue for="character2_words" value="51"></attvalue>
+          <attvalue for="sharedlines" value="63"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="158" source="13" target="3" label="Alonso --- Boatswain" weight="859.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Alonso"></attvalue>
+          <attvalue for="character2" value="Boatswain"></attvalue>
+          <attvalue for="character1_words" value="460"></attvalue>
+          <attvalue for="character2_words" value="399"></attvalue>
+          <attvalue for="sharedlines" value="102"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="159" source="13" target="4" label="Alonso --- Trinculo" weight="495.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Alonso"></attvalue>
+          <attvalue for="character2" value="Trinculo"></attvalue>
+          <attvalue for="character1_words" value="448"></attvalue>
+          <attvalue for="character2_words" value="47"></attvalue>
+          <attvalue for="sharedlines" value="61"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="160" source="13" target="5" label="Alonso --- Prospero" weight="2440.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Alonso"></attvalue>
+          <attvalue for="character2" value="Prospero"></attvalue>
+          <attvalue for="character1_words" value="692"></attvalue>
+          <attvalue for="character2_words" value="1748"></attvalue>
+          <attvalue for="sharedlines" value="281"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="161" source="13" target="7" label="Alonso --- Antonio" weight="2038.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Alonso"></attvalue>
+          <attvalue for="character2" value="Antonio"></attvalue>
+          <attvalue for="character1_words" value="888"></attvalue>
+          <attvalue for="character2_words" value="1150"></attvalue>
+          <attvalue for="sharedlines" value="257"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="162" source="13" target="8" label="Alonso --- Master of a Ship" weight="31.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Alonso"></attvalue>
+          <attvalue for="character2" value="Master of a Ship"></attvalue>
+          <attvalue for="character1_words" value="12"></attvalue>
+          <attvalue for="character2_words" value="19"></attvalue>
+          <attvalue for="sharedlines" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="163" source="13" target="10" label="Alonso --- Ferdinand" weight="551.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Alonso"></attvalue>
+          <attvalue for="character2" value="Ferdinand"></attvalue>
+          <attvalue for="character1_words" value="448"></attvalue>
+          <attvalue for="character2_words" value="103"></attvalue>
+          <attvalue for="sharedlines" value="69"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="164" source="13" target="11" label="Alonso --- Mariners" weight="48.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Alonso"></attvalue>
+          <attvalue for="character2" value="Mariners"></attvalue>
+          <attvalue for="character1_words" value="12"></attvalue>
+          <attvalue for="character2_words" value="36"></attvalue>
+          <attvalue for="sharedlines" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="165" source="13" target="12" label="Alonso --- Ariel" weight="1489.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Alonso"></attvalue>
+          <attvalue for="character2" value="Ariel"></attvalue>
+          <attvalue for="character1_words" value="876"></attvalue>
+          <attvalue for="character2_words" value="613"></attvalue>
+          <attvalue for="sharedlines" value="177"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="166" source="13" target="14" label="Alonso --- Francisco" weight="518.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Alonso"></attvalue>
+          <attvalue for="character2" value="Francisco"></attvalue>
+          <attvalue for="character1_words" value="428"></attvalue>
+          <attvalue for="character2_words" value="90"></attvalue>
+          <attvalue for="sharedlines" value="62"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="167" source="13" target="15" label="Alonso --- Adrian" weight="508.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Alonso"></attvalue>
+          <attvalue for="character2" value="Adrian"></attvalue>
+          <attvalue for="character1_words" value="428"></attvalue>
+          <attvalue for="character2_words" value="80"></attvalue>
+          <attvalue for="sharedlines" value="63"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="168" source="13" target="16" label="Alonso --- Gonzalo" weight="2229.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Alonso"></attvalue>
+          <attvalue for="character2" value="Gonzalo"></attvalue>
+          <attvalue for="character1_words" value="888"></attvalue>
+          <attvalue for="character2_words" value="1341"></attvalue>
+          <attvalue for="sharedlines" value="270"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="169" source="13" target="17" label="Alonso --- Caliban" weight="512.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Alonso"></attvalue>
+          <attvalue for="character2" value="Caliban"></attvalue>
+          <attvalue for="character1_words" value="448"></attvalue>
+          <attvalue for="character2_words" value="64"></attvalue>
+          <attvalue for="sharedlines" value="64"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="170" source="13" target="18" label="Alonso --- Stephano" weight="495.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Alonso"></attvalue>
+          <attvalue for="character2" value="Stephano"></attvalue>
+          <attvalue for="character1_words" value="448"></attvalue>
+          <attvalue for="character2_words" value="47"></attvalue>
+          <attvalue for="sharedlines" value="61"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="171" source="14" target="0" label="Francisco --- Sebastian" weight="845.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Francisco"></attvalue>
+          <attvalue for="character2" value="Sebastian"></attvalue>
+          <attvalue for="character1_words" value="90"></attvalue>
+          <attvalue for="character2_words" value="755"></attvalue>
+          <attvalue for="sharedlines" value="118"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="172" source="14" target="5" label="Francisco --- Prospero" weight="128.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Francisco"></attvalue>
+          <attvalue for="character2" value="Prospero"></attvalue>
+          <attvalue for="character1_words" value="4"></attvalue>
+          <attvalue for="character2_words" value="124"></attvalue>
+          <attvalue for="sharedlines" value="16"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="173" source="14" target="7" label="Francisco --- Antonio" weight="1167.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Francisco"></attvalue>
+          <attvalue for="character2" value="Antonio"></attvalue>
+          <attvalue for="character1_words" value="90"></attvalue>
+          <attvalue for="character2_words" value="1077"></attvalue>
+          <attvalue for="sharedlines" value="150"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="174" source="14" target="12" label="Francisco --- Ariel" weight="481.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Francisco"></attvalue>
+          <attvalue for="character2" value="Ariel"></attvalue>
+          <attvalue for="character1_words" value="90"></attvalue>
+          <attvalue for="character2_words" value="391"></attvalue>
+          <attvalue for="sharedlines" value="52"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="175" source="14" target="13" label="Francisco --- Alonso" weight="518.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Francisco"></attvalue>
+          <attvalue for="character2" value="Alonso"></attvalue>
+          <attvalue for="character1_words" value="90"></attvalue>
+          <attvalue for="character2_words" value="428"></attvalue>
+          <attvalue for="sharedlines" value="62"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="176" source="14" target="15" label="Francisco --- Adrian" weight="170.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Francisco"></attvalue>
+          <attvalue for="character2" value="Adrian"></attvalue>
+          <attvalue for="character1_words" value="90"></attvalue>
+          <attvalue for="character2_words" value="80"></attvalue>
+          <attvalue for="sharedlines" value="23"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="177" source="14" target="16" label="Francisco --- Gonzalo" weight="1045.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Francisco"></attvalue>
+          <attvalue for="character2" value="Gonzalo"></attvalue>
+          <attvalue for="character1_words" value="90"></attvalue>
+          <attvalue for="character2_words" value="955"></attvalue>
+          <attvalue for="sharedlines" value="127"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="178" source="15" target="0" label="Adrian --- Sebastian" weight="835.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Adrian"></attvalue>
+          <attvalue for="character2" value="Sebastian"></attvalue>
+          <attvalue for="character1_words" value="80"></attvalue>
+          <attvalue for="character2_words" value="755"></attvalue>
+          <attvalue for="sharedlines" value="119"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="179" source="15" target="5" label="Adrian --- Prospero" weight="130.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Adrian"></attvalue>
+          <attvalue for="character2" value="Prospero"></attvalue>
+          <attvalue for="character1_words" value="6"></attvalue>
+          <attvalue for="character2_words" value="124"></attvalue>
+          <attvalue for="sharedlines" value="16"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="180" source="15" target="7" label="Adrian --- Antonio" weight="1157.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Adrian"></attvalue>
+          <attvalue for="character2" value="Antonio"></attvalue>
+          <attvalue for="character1_words" value="80"></attvalue>
+          <attvalue for="character2_words" value="1077"></attvalue>
+          <attvalue for="sharedlines" value="151"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="181" source="15" target="12" label="Adrian --- Ariel" weight="471.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Adrian"></attvalue>
+          <attvalue for="character2" value="Ariel"></attvalue>
+          <attvalue for="character1_words" value="80"></attvalue>
+          <attvalue for="character2_words" value="391"></attvalue>
+          <attvalue for="sharedlines" value="53"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="182" source="15" target="13" label="Adrian --- Alonso" weight="508.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Adrian"></attvalue>
+          <attvalue for="character2" value="Alonso"></attvalue>
+          <attvalue for="character1_words" value="80"></attvalue>
+          <attvalue for="character2_words" value="428"></attvalue>
+          <attvalue for="sharedlines" value="63"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="183" source="15" target="14" label="Adrian --- Francisco" weight="170.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Adrian"></attvalue>
+          <attvalue for="character2" value="Francisco"></attvalue>
+          <attvalue for="character1_words" value="80"></attvalue>
+          <attvalue for="character2_words" value="90"></attvalue>
+          <attvalue for="sharedlines" value="23"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="184" source="15" target="16" label="Adrian --- Gonzalo" weight="1035.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Adrian"></attvalue>
+          <attvalue for="character2" value="Gonzalo"></attvalue>
+          <attvalue for="character1_words" value="80"></attvalue>
+          <attvalue for="character2_words" value="955"></attvalue>
+          <attvalue for="sharedlines" value="128"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="185" source="16" target="0" label="Gonzalo --- Sebastian" weight="2171.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Gonzalo"></attvalue>
+          <attvalue for="character2" value="Sebastian"></attvalue>
+          <attvalue for="character1_words" value="1341"></attvalue>
+          <attvalue for="character2_words" value="830"></attvalue>
+          <attvalue for="sharedlines" value="280"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="186" source="16" target="1" label="Gonzalo --- Miranda" weight="264.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gonzalo"></attvalue>
+          <attvalue for="character2" value="Miranda"></attvalue>
+          <attvalue for="character1_words" value="213"></attvalue>
+          <attvalue for="character2_words" value="51"></attvalue>
+          <attvalue for="sharedlines" value="32"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="187" source="16" target="3" label="Gonzalo --- Boatswain" weight="785.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Gonzalo"></attvalue>
+          <attvalue for="character2" value="Boatswain"></attvalue>
+          <attvalue for="character1_words" value="386"></attvalue>
+          <attvalue for="character2_words" value="399"></attvalue>
+          <attvalue for="sharedlines" value="89"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="188" source="16" target="4" label="Gonzalo --- Trinculo" weight="260.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gonzalo"></attvalue>
+          <attvalue for="character2" value="Trinculo"></attvalue>
+          <attvalue for="character1_words" value="213"></attvalue>
+          <attvalue for="character2_words" value="47"></attvalue>
+          <attvalue for="sharedlines" value="30"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="189" source="16" target="5" label="Gonzalo --- Prospero" weight="2197.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Gonzalo"></attvalue>
+          <attvalue for="character2" value="Prospero"></attvalue>
+          <attvalue for="character1_words" value="449"></attvalue>
+          <attvalue for="character2_words" value="1748"></attvalue>
+          <attvalue for="sharedlines" value="252"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="190" source="16" target="7" label="Gonzalo --- Antonio" weight="2491.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Gonzalo"></attvalue>
+          <attvalue for="character2" value="Antonio"></attvalue>
+          <attvalue for="character1_words" value="1341"></attvalue>
+          <attvalue for="character2_words" value="1150"></attvalue>
+          <attvalue for="sharedlines" value="309"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="191" source="16" target="8" label="Gonzalo --- Master of a Ship" weight="192.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gonzalo"></attvalue>
+          <attvalue for="character2" value="Master of a Ship"></attvalue>
+          <attvalue for="character1_words" value="173"></attvalue>
+          <attvalue for="character2_words" value="19"></attvalue>
+          <attvalue for="sharedlines" value="23"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="192" source="16" target="10" label="Gonzalo --- Ferdinand" weight="316.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gonzalo"></attvalue>
+          <attvalue for="character2" value="Ferdinand"></attvalue>
+          <attvalue for="character1_words" value="213"></attvalue>
+          <attvalue for="character2_words" value="103"></attvalue>
+          <attvalue for="sharedlines" value="38"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="193" source="16" target="11" label="Gonzalo --- Mariners" weight="209.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gonzalo"></attvalue>
+          <attvalue for="character2" value="Mariners"></attvalue>
+          <attvalue for="character1_words" value="173"></attvalue>
+          <attvalue for="character2_words" value="36"></attvalue>
+          <attvalue for="sharedlines" value="24"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="194" source="16" target="12" label="Gonzalo --- Ariel" weight="1781.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Gonzalo"></attvalue>
+          <attvalue for="character2" value="Ariel"></attvalue>
+          <attvalue for="character1_words" value="1168"></attvalue>
+          <attvalue for="character2_words" value="613"></attvalue>
+          <attvalue for="sharedlines" value="211"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="195" source="16" target="13" label="Gonzalo --- Alonso" weight="2229.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Gonzalo"></attvalue>
+          <attvalue for="character2" value="Alonso"></attvalue>
+          <attvalue for="character1_words" value="1341"></attvalue>
+          <attvalue for="character2_words" value="888"></attvalue>
+          <attvalue for="sharedlines" value="270"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="196" source="16" target="14" label="Gonzalo --- Francisco" weight="1045.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Gonzalo"></attvalue>
+          <attvalue for="character2" value="Francisco"></attvalue>
+          <attvalue for="character1_words" value="955"></attvalue>
+          <attvalue for="character2_words" value="90"></attvalue>
+          <attvalue for="sharedlines" value="127"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="197" source="16" target="15" label="Gonzalo --- Adrian" weight="1035.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Gonzalo"></attvalue>
+          <attvalue for="character2" value="Adrian"></attvalue>
+          <attvalue for="character1_words" value="955"></attvalue>
+          <attvalue for="character2_words" value="80"></attvalue>
+          <attvalue for="sharedlines" value="128"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="198" source="16" target="17" label="Gonzalo --- Caliban" weight="277.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gonzalo"></attvalue>
+          <attvalue for="character2" value="Caliban"></attvalue>
+          <attvalue for="character1_words" value="213"></attvalue>
+          <attvalue for="character2_words" value="64"></attvalue>
+          <attvalue for="sharedlines" value="33"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="199" source="16" target="18" label="Gonzalo --- Stephano" weight="260.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gonzalo"></attvalue>
+          <attvalue for="character2" value="Stephano"></attvalue>
+          <attvalue for="character1_words" value="213"></attvalue>
+          <attvalue for="character2_words" value="47"></attvalue>
+          <attvalue for="sharedlines" value="30"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="200" source="17" target="0" label="Caliban --- Sebastian" weight="115.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Caliban"></attvalue>
+          <attvalue for="character2" value="Sebastian"></attvalue>
+          <attvalue for="character1_words" value="64"></attvalue>
+          <attvalue for="character2_words" value="51"></attvalue>
+          <attvalue for="sharedlines" value="16"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="201" source="17" target="1" label="Caliban --- Miranda" weight="1293.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Caliban"></attvalue>
+          <attvalue for="character2" value="Miranda"></attvalue>
+          <attvalue for="character1_words" value="504"></attvalue>
+          <attvalue for="character2_words" value="789"></attvalue>
+          <attvalue for="sharedlines" value="167"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="202" source="17" target="2" label="Caliban --- Ceres" weight="360.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Caliban"></attvalue>
+          <attvalue for="character2" value="Ceres"></attvalue>
+          <attvalue for="character1_words" value="180"></attvalue>
+          <attvalue for="character2_words" value="180"></attvalue>
+          <attvalue for="sharedlines" value="44"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="203" source="17" target="3" label="Caliban --- Boatswain" weight="220.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Caliban"></attvalue>
+          <attvalue for="character2" value="Boatswain"></attvalue>
+          <attvalue for="character1_words" value="64"></attvalue>
+          <attvalue for="character2_words" value="156"></attvalue>
+          <attvalue for="sharedlines" value="23"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="204" source="17" target="4" label="Caliban --- Trinculo" weight="2193.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Caliban"></attvalue>
+          <attvalue for="character2" value="Trinculo"></attvalue>
+          <attvalue for="character1_words" value="1267"></attvalue>
+          <attvalue for="character2_words" value="926"></attvalue>
+          <attvalue for="sharedlines" value="250"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="205" source="17" target="5" label="Caliban --- Prospero" weight="5687.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Caliban"></attvalue>
+          <attvalue for="character2" value="Prospero"></attvalue>
+          <attvalue for="character1_words" value="504"></attvalue>
+          <attvalue for="character2_words" value="5183"></attvalue>
+          <attvalue for="sharedlines" value="668"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="206" source="17" target="6" label="Caliban --- Juno" weight="230.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Caliban"></attvalue>
+          <attvalue for="character2" value="Juno"></attvalue>
+          <attvalue for="character1_words" value="180"></attvalue>
+          <attvalue for="character2_words" value="50"></attvalue>
+          <attvalue for="sharedlines" value="27"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="207" source="17" target="7" label="Caliban --- Antonio" weight="79.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Caliban"></attvalue>
+          <attvalue for="character2" value="Antonio"></attvalue>
+          <attvalue for="character1_words" value="64"></attvalue>
+          <attvalue for="character2_words" value="15"></attvalue>
+          <attvalue for="sharedlines" value="10"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="208" source="17" target="9" label="Caliban --- Iris" weight="556.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Caliban"></attvalue>
+          <attvalue for="character2" value="Iris"></attvalue>
+          <attvalue for="character1_words" value="180"></attvalue>
+          <attvalue for="character2_words" value="376"></attvalue>
+          <attvalue for="sharedlines" value="61"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="209" source="17" target="10" label="Caliban --- Ferdinand" weight="1163.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Caliban"></attvalue>
+          <attvalue for="character2" value="Ferdinand"></attvalue>
+          <attvalue for="character1_words" value="504"></attvalue>
+          <attvalue for="character2_words" value="659"></attvalue>
+          <attvalue for="sharedlines" value="139"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="210" source="17" target="12" label="Caliban --- Ariel" weight="2179.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Caliban"></attvalue>
+          <attvalue for="character2" value="Ariel"></attvalue>
+          <attvalue for="character1_words" value="1056"></attvalue>
+          <attvalue for="character2_words" value="1123"></attvalue>
+          <attvalue for="sharedlines" value="273"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="211" source="17" target="13" label="Caliban --- Alonso" weight="512.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Caliban"></attvalue>
+          <attvalue for="character2" value="Alonso"></attvalue>
+          <attvalue for="character1_words" value="64"></attvalue>
+          <attvalue for="character2_words" value="448"></attvalue>
+          <attvalue for="sharedlines" value="64"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="212" source="17" target="16" label="Caliban --- Gonzalo" weight="277.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Caliban"></attvalue>
+          <attvalue for="character2" value="Gonzalo"></attvalue>
+          <attvalue for="character1_words" value="64"></attvalue>
+          <attvalue for="character2_words" value="213"></attvalue>
+          <attvalue for="sharedlines" value="33"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="213" source="17" target="18" label="Caliban --- Stephano" weight="2743.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Caliban"></attvalue>
+          <attvalue for="character2" value="Stephano"></attvalue>
+          <attvalue for="character1_words" value="1267"></attvalue>
+          <attvalue for="character2_words" value="1476"></attvalue>
+          <attvalue for="sharedlines" value="312"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="214" source="18" target="0" label="Stephano --- Sebastian" weight="98.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Stephano"></attvalue>
+          <attvalue for="character2" value="Sebastian"></attvalue>
+          <attvalue for="character1_words" value="47"></attvalue>
+          <attvalue for="character2_words" value="51"></attvalue>
+          <attvalue for="sharedlines" value="13"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="215" source="18" target="1" label="Stephano --- Miranda" weight="331.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Stephano"></attvalue>
+          <attvalue for="character2" value="Miranda"></attvalue>
+          <attvalue for="character1_words" value="260"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="40"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="216" source="18" target="2" label="Stephano --- Ceres" weight="393.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Stephano"></attvalue>
+          <attvalue for="character2" value="Ceres"></attvalue>
+          <attvalue for="character1_words" value="213"></attvalue>
+          <attvalue for="character2_words" value="180"></attvalue>
+          <attvalue for="sharedlines" value="49"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="217" source="18" target="3" label="Stephano --- Boatswain" weight="203.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Stephano"></attvalue>
+          <attvalue for="character2" value="Boatswain"></attvalue>
+          <attvalue for="character1_words" value="47"></attvalue>
+          <attvalue for="character2_words" value="156"></attvalue>
+          <attvalue for="sharedlines" value="20"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="218" source="18" target="4" label="Stephano --- Trinculo" weight="2402.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Stephano"></attvalue>
+          <attvalue for="character2" value="Trinculo"></attvalue>
+          <attvalue for="character1_words" value="1476"></attvalue>
+          <attvalue for="character2_words" value="926"></attvalue>
+          <attvalue for="sharedlines" value="274"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="219" source="18" target="5" label="Stephano --- Prospero" weight="2726.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Stephano"></attvalue>
+          <attvalue for="character2" value="Prospero"></attvalue>
+          <attvalue for="character1_words" value="260"></attvalue>
+          <attvalue for="character2_words" value="2466"></attvalue>
+          <attvalue for="sharedlines" value="312"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="220" source="18" target="6" label="Stephano --- Juno" weight="263.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Stephano"></attvalue>
+          <attvalue for="character2" value="Juno"></attvalue>
+          <attvalue for="character1_words" value="213"></attvalue>
+          <attvalue for="character2_words" value="50"></attvalue>
+          <attvalue for="sharedlines" value="32"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="221" source="18" target="7" label="Stephano --- Antonio" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Stephano"></attvalue>
+          <attvalue for="character2" value="Antonio"></attvalue>
+          <attvalue for="character1_words" value="47"></attvalue>
+          <attvalue for="character2_words" value="15"></attvalue>
+          <attvalue for="sharedlines" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="222" source="18" target="9" label="Stephano --- Iris" weight="589.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Stephano"></attvalue>
+          <attvalue for="character2" value="Iris"></attvalue>
+          <attvalue for="character1_words" value="213"></attvalue>
+          <attvalue for="character2_words" value="376"></attvalue>
+          <attvalue for="sharedlines" value="66"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="223" source="18" target="10" label="Stephano --- Ferdinand" weight="532.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Stephano"></attvalue>
+          <attvalue for="character2" value="Ferdinand"></attvalue>
+          <attvalue for="character1_words" value="260"></attvalue>
+          <attvalue for="character2_words" value="272"></attvalue>
+          <attvalue for="sharedlines" value="66"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="224" source="18" target="12" label="Stephano --- Ariel" weight="1212.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Stephano"></attvalue>
+          <attvalue for="character2" value="Ariel"></attvalue>
+          <attvalue for="character1_words" value="740"></attvalue>
+          <attvalue for="character2_words" value="472"></attvalue>
+          <attvalue for="sharedlines" value="151"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="225" source="18" target="13" label="Stephano --- Alonso" weight="495.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Stephano"></attvalue>
+          <attvalue for="character2" value="Alonso"></attvalue>
+          <attvalue for="character1_words" value="47"></attvalue>
+          <attvalue for="character2_words" value="448"></attvalue>
+          <attvalue for="sharedlines" value="61"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="226" source="18" target="16" label="Stephano --- Gonzalo" weight="260.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Stephano"></attvalue>
+          <attvalue for="character2" value="Gonzalo"></attvalue>
+          <attvalue for="character1_words" value="47"></attvalue>
+          <attvalue for="character2_words" value="213"></attvalue>
+          <attvalue for="sharedlines" value="30"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="227" source="18" target="17" label="Stephano --- Caliban" weight="2743.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Stephano"></attvalue>
+          <attvalue for="character2" value="Caliban"></attvalue>
+          <attvalue for="character1_words" value="1476"></attvalue>
+          <attvalue for="character2_words" value="1267"></attvalue>
+          <attvalue for="sharedlines" value="312"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

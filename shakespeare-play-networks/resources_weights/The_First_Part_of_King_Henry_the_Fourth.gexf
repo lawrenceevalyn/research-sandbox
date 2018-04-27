@@ -1,0 +1,3417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-04-26">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="key" title="key" type="string"></attribute>
+      <attribute id="lines" title="lines" type="integer"></attribute>
+      <attribute id="words" title="words" type="integer"></attribute>
+      <attribute id="criticality" title="criticality" type="double"></attribute>
+      <attribute id="eigencentrality" title="Eigenvector Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="triangles" title="Number of triangles" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="scenes" title="scenes" type="integer"></attribute>
+      <attribute id="character1" title="character1" type="string"></attribute>
+      <attribute id="character2" title="character2" type="string"></attribute>
+      <attribute id="character1_words" title="character1_words" type="integer"></attribute>
+      <attribute id="character2_words" title="character2_words" type="integer"></attribute>
+      <attribute id="sharedlines" title="sharedLines" type="integer"></attribute>
+    </attributes>
+    <nodes>
+      <node id="0" label="Henry, Prince of Wales">
+        <attvalues>
+          <attvalue for="key" value="HenryV"></attvalue>
+          <attvalue for="lines" value="566"></attvalue>
+          <attvalue for="words" value="4969"></attvalue>
+          <attvalue for="criticality" value="2.5282894736842105"></attvalue>
+          <attvalue for="eigencentrality" value="0.9999999999999998"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7435897435897436"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8275862068965517"></attvalue>
+          <attvalue for="betweenesscentrality" value="96.075"></attvalue>
+          <attvalue for="clustering" value="0.47953216374269003"></attvalue>
+          <attvalue for="triangles" value="82"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="28.080435" y="-272.9336"></viz:position>
+      </node>
+      <node id="1" label="Lady Mortimer">
+        <attvalues>
+          <attvalue for="key" value="sha-1h4-role21"></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="384.70047" y="239.96793"></viz:position>
+      </node>
+      <node id="2" label="Sir Richard Vernon">
+        <attvalues>
+          <attvalue for="key" value="VernonR"></attvalue>
+          <attvalue for="lines" value="66"></attvalue>
+          <attvalue for="words" value="530"></attvalue>
+          <attvalue for="criticality" value="0.025"></attvalue>
+          <attvalue for="eigencentrality" value="0.1791845599528589"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4142857142857143"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4971264367816093"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.25"></attvalue>
+          <attvalue for="clustering" value="0.9"></attvalue>
+          <attvalue for="triangles" value="9"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="325.52832" y="103.04358"></viz:position>
+      </node>
+      <node id="3" label="Sir Walter Blunt">
+        <attvalues>
+          <attvalue for="key" value="Blunt"></attvalue>
+          <attvalue for="lines" value="41"></attvalue>
+          <attvalue for="words" value="348"></attvalue>
+          <attvalue for="criticality" value="0.5458333333333334"></attvalue>
+          <attvalue for="eigencentrality" value="0.37679002433328873"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5471698113207547"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6206896551724138"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.733333333333334"></attvalue>
+          <attvalue for="clustering" value="0.75"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="102.41146" y="-161.00093"></viz:position>
+      </node>
+      <node id="4" label="Thomas Percy">
+        <attvalues>
+          <attvalue for="key" value="PercyTh"></attvalue>
+          <attvalue for="lines" value="189"></attvalue>
+          <attvalue for="words" value="1623"></attvalue>
+          <attvalue for="criticality" value="1.9397435897435893"></attvalue>
+          <attvalue for="eigencentrality" value="0.4548522210743943"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6041666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7068965517241379"></attvalue>
+          <attvalue for="betweenesscentrality" value="50.43333333333332"></attvalue>
+          <attvalue for="clustering" value="0.44871794871794873"></attvalue>
+          <attvalue for="triangles" value="35"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="26"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-235.81236" y="-83.45217"></viz:position>
+      </node>
+      <node id="5" label="Second Carrier">
+        <attvalues>
+          <attvalue for="key" value="h41-sec.-car."></attvalue>
+          <attvalue for="lines" value="17"></attvalue>
+          <attvalue for="words" value="156"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.1602135711247615"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.38666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.46839080459770116"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="6"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-341.50113" y="82.443535"></viz:position>
+      </node>
+      <node id="6" label="Edmund Mortimer">
+        <attvalues>
+          <attvalue for="key" value="MortimerEd2"></attvalue>
+          <attvalue for="lines" value="60"></attvalue>
+          <attvalue for="words" value="524"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.11421814658452016"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4084507042253521"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4798850574712645"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="6"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="93.481735" y="232.92484"></viz:position>
+      </node>
+      <node id="7" label="Richard Scroop">
+        <attvalues>
+          <attvalue for="key" value="ScroopR"></attvalue>
+          <attvalue for="lines" value="34"></attvalue>
+          <attvalue for="words" value="293"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0012871451292040437"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-248.23843" y="143.83894"></viz:position>
+      </node>
+      <node id="8" label="Ostler">
+        <attvalues>
+          <attvalue for="key" value="h41-ost."></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="3"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.1602135711247615"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.38666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.46839080459770116"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="6"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="202.12685" y="-12.8414755"></viz:position>
+      </node>
+      <node id="9" label="Travellers">
+        <attvalues>
+          <attvalue for="key" value="h41-trav."></attvalue>
+          <attvalue for="lines" value="5"></attvalue>
+          <attvalue for="words" value="37"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.4798394810511833"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5804597701149425"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="368.2561" y="361.27774"></viz:position>
+      </node>
+      <node id="10" label="Sheriff">
+        <attvalues>
+          <attvalue for="key" value="Sheriff2"></attvalue>
+          <attvalue for="lines" value="8"></attvalue>
+          <attvalue for="words" value="71"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.6731038498927265"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5272727272727272"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6321839080459771"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-62.453934" y="159.81274"></viz:position>
+      </node>
+      <node id="11" label="Gadshill">
+        <attvalues>
+          <attvalue for="key" value="Gadshill"></attvalue>
+          <attvalue for="lines" value="50"></attvalue>
+          <attvalue for="words" value="415"></attvalue>
+          <attvalue for="criticality" value="1.4055555555555552"></attvalue>
+          <attvalue for="eigencentrality" value="0.7902201376515442"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.58"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7183908045977012"></attvalue>
+          <attvalue for="betweenesscentrality" value="42.16666666666666"></attvalue>
+          <attvalue for="clustering" value="0.5904761904761905"></attvalue>
+          <attvalue for="triangles" value="62"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="30"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-396.79602" y="58.210598"></viz:position>
+      </node>
+      <node id="12" label="Francis">
+        <attvalues>
+          <attvalue for="key" value="Francis"></attvalue>
+          <attvalue for="lines" value="15"></attvalue>
+          <attvalue for="words" value="98"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.6731038498927264"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5272727272727272"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6321839080459771"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="484.20227" y="471.9825"></viz:position>
+      </node>
+      <node id="13" label="Sir Michael">
+        <attvalues>
+          <attvalue for="key" value="MichaelSir"></attvalue>
+          <attvalue for="lines" value="8"></attvalue>
+          <attvalue for="words" value="61"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0012871451292040437"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-356.543" y="250.64517"></viz:position>
+      </node>
+      <node id="14" label="Servant">
+        <attvalues>
+          <attvalue for="key" value="h41-serv."></attvalue>
+          <attvalue for="lines" value="3"></attvalue>
+          <attvalue for="words" value="22"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0593681217554988"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3972602739726027"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4454022988505748"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-14.182697" y="36.41908"></viz:position>
+      </node>
+      <node id="15" label="Messenger">
+        <attvalues>
+          <attvalue for="key" value="h41-mess."></attvalue>
+          <attvalue for="lines" value="8"></attvalue>
+          <attvalue for="words" value="72"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.14742425191690667"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4084507042253521"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4798850574712644"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="6"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-46.60284" y="508.47104"></viz:position>
+      </node>
+      <node id="16" label="Earl of Westmoreland">
+        <attvalues>
+          <attvalue for="key" value="NevilRph1"></attvalue>
+          <attvalue for="lines" value="41"></attvalue>
+          <attvalue for="words" value="338"></attvalue>
+          <attvalue for="criticality" value="0.2083333333333333"></attvalue>
+          <attvalue for="eigencentrality" value="0.4019716134126582"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5370370370370371"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.603448275862069"></attvalue>
+          <attvalue for="betweenesscentrality" value="2.916666666666666"></attvalue>
+          <attvalue for="clustering" value="0.8095238095238095"></attvalue>
+          <attvalue for="triangles" value="17"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-86.17338" y="-272.81152"></viz:position>
+      </node>
+      <node id="17" label="Chamberlain">
+        <attvalues>
+          <attvalue for="key" value="h41-cham."></attvalue>
+          <attvalue for="lines" value="18"></attvalue>
+          <attvalue for="words" value="166"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.1602135711247615"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.38666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.46839080459770116"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="6"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="352.657" y="-483.03824"></viz:position>
+      </node>
+      <node id="18" label="Northumberland">
+        <attvalues>
+          <attvalue for="key" value="Northumberland1"></attvalue>
+          <attvalue for="lines" value="26"></attvalue>
+          <attvalue for="words" value="198"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.1628714003446197"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4084507042253521"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4798850574712644"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="6"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="408.0528" y="-488.3313"></viz:position>
+      </node>
+      <node id="19" label="Bardolph">
+        <attvalues>
+          <attvalue for="key" value="Bardolph"></attvalue>
+          <attvalue for="lines" value="26"></attvalue>
+          <attvalue for="words" value="204"></attvalue>
+          <attvalue for="criticality" value="0.23076923076923073"></attvalue>
+          <attvalue for="eigencentrality" value="0.7823735418160646"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5576923076923077"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6839080459770116"></attvalue>
+          <attvalue for="betweenesscentrality" value="5.999999999999999"></attvalue>
+          <attvalue for="clustering" value="0.7435897435897436"></attvalue>
+          <attvalue for="triangles" value="58"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="26"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-274.19766" y="-180.92433"></viz:position>
+      </node>
+      <node id="20" label="Hotspur">
+        <attvalues>
+          <attvalue for="key" value="Hotspur"></attvalue>
+          <attvalue for="lines" value="562"></attvalue>
+          <attvalue for="words" value="4953"></attvalue>
+          <attvalue for="criticality" value="2.7241666666666675"></attvalue>
+          <attvalue for="eigencentrality" value="0.4937874780090976"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6304347826086957"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7413793103448276"></attvalue>
+          <attvalue for="betweenesscentrality" value="81.72500000000002"></attvalue>
+          <attvalue for="clustering" value="0.3904761904761905"></attvalue>
+          <attvalue for="triangles" value="41"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="30"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="445.4628" y="-373.61453"></viz:position>
+      </node>
+      <node id="21" label="Lady Percy">
+        <attvalues>
+          <attvalue for="key" value="PercyLdy"></attvalue>
+          <attvalue for="lines" value="57"></attvalue>
+          <attvalue for="words" value="476"></attvalue>
+          <attvalue for="criticality" value="0.15"></attvalue>
+          <attvalue for="eigencentrality" value="0.1201324671092656"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4142857142857143"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4971264367816093"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.5"></attvalue>
+          <attvalue for="clustering" value="0.7"></attvalue>
+          <attvalue for="triangles" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-437.87167" y="-190.00342"></viz:position>
+      </node>
+      <node id="22" label="Mistress Quickly">
+        <attvalues>
+          <attvalue for="key" value="Quickly"></attvalue>
+          <attvalue for="lines" value="51"></attvalue>
+          <attvalue for="words" value="464"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.6731038498927264"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5272727272727272"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6321839080459771"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="229.00761" y="272.1321"></viz:position>
+      </node>
+      <node id="23" label="Carrier">
+        <attvalues>
+          <attvalue for="key" value="sha-1h4-role34"></attvalue>
+          <attvalue for="lines" value="0"></attvalue>
+          <attvalue for="words" value="0"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="componentnumber" value="3"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="387.97794" y="302.42685"></viz:position>
+      </node>
+      <node id="24" label="Owen Glendower">
+        <attvalues>
+          <attvalue for="key" value="Glendower"></attvalue>
+          <attvalue for="lines" value="78"></attvalue>
+          <attvalue for="words" value="692"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.11421814658452016"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4084507042253521"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4798850574712644"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="6"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-369.07468" y="454.0148"></viz:position>
+      </node>
+      <node id="25" label="First Carrier">
+        <attvalues>
+          <attvalue for="key" value="h41-first-car."></attvalue>
+          <attvalue for="lines" value="22"></attvalue>
+          <attvalue for="words" value="201"></attvalue>
+          <attvalue for="criticality" value="1.3269230769230766"></attvalue>
+          <attvalue for="eigencentrality" value="0.7139713821381651"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5576923076923077"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6839080459770116"></attvalue>
+          <attvalue for="betweenesscentrality" value="34.49999999999999"></attvalue>
+          <attvalue for="clustering" value="0.6538461538461539"></attvalue>
+          <attvalue for="triangles" value="51"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="26"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="424.49802" y="-115.53521"></viz:position>
+      </node>
+      <node id="26" label="Archibald">
+        <attvalues>
+          <attvalue for="key" value="Douglas"></attvalue>
+          <attvalue for="lines" value="46"></attvalue>
+          <attvalue for="words" value="405"></attvalue>
+          <attvalue for="criticality" value="0.6229166666666666"></attvalue>
+          <attvalue for="eigencentrality" value="0.4402465428639839"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5686274509803921"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6551724137931034"></attvalue>
+          <attvalue for="betweenesscentrality" value="12.45833333333333"></attvalue>
+          <attvalue for="clustering" value="0.6888888888888889"></attvalue>
+          <attvalue for="triangles" value="31"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-126.47861" y="-301.4911"></viz:position>
+      </node>
+      <node id="27" label="Sir John Falstaff">
+        <attvalues>
+          <attvalue for="key" value="Falstaff1"></attvalue>
+          <attvalue for="lines" value="647"></attvalue>
+          <attvalue for="words" value="6174"></attvalue>
+          <attvalue for="criticality" value="2.5282894736842105"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7435897435897436"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8275862068965517"></attvalue>
+          <attvalue for="betweenesscentrality" value="96.075"></attvalue>
+          <attvalue for="clustering" value="0.47953216374269003"></attvalue>
+          <attvalue for="triangles" value="82"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="38"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="480.5076" y="-148.53098"></viz:position>
+      </node>
+      <node id="28" label="Poins">
+        <attvalues>
+          <attvalue for="key" value="Poins"></attvalue>
+          <attvalue for="lines" value="80"></attvalue>
+          <attvalue for="words" value="627"></attvalue>
+          <attvalue for="criticality" value="0.06944444444444445"></attvalue>
+          <attvalue for="eigencentrality" value="0.7493526054061065"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5471698113207547"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6666666666666667"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.6666666666666667"></attvalue>
+          <attvalue for="clustering" value="0.8484848484848485"></attvalue>
+          <attvalue for="triangles" value="56"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-114.677055" y="-357.6917"></viz:position>
+      </node>
+      <node id="29" label="Peto">
+        <attvalues>
+          <attvalue for="key" value="Peto"></attvalue>
+          <attvalue for="lines" value="15"></attvalue>
+          <attvalue for="words" value="104"></attvalue>
+          <attvalue for="criticality" value="0.06944444444444445"></attvalue>
+          <attvalue for="eigencentrality" value="0.7493526054061065"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5471698113207547"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6666666666666667"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.6666666666666667"></attvalue>
+          <attvalue for="clustering" value="0.8484848484848485"></attvalue>
+          <attvalue for="triangles" value="56"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="173.16068" y="-290.8672"></viz:position>
+      </node>
+      <node id="30" label="King Henry the Fourth">
+        <attvalues>
+          <attvalue for="key" value="HenryIV"></attvalue>
+          <attvalue for="lines" value="341"></attvalue>
+          <attvalue for="words" value="2946"></attvalue>
+          <attvalue for="criticality" value="0.3148148148148148"></attvalue>
+          <attvalue for="eigencentrality" value="0.4253631977247156"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5576923076923077"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6379310344827587"></attvalue>
+          <attvalue for="betweenesscentrality" value="5.666666666666667"></attvalue>
+          <attvalue for="clustering" value="0.7777777777777778"></attvalue>
+          <attvalue for="triangles" value="28"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-68.36313" y="-93.30594"></viz:position>
+      </node>
+      <node id="31" label="Vintner">
+        <attvalues>
+          <attvalue for="key" value="h41-vint."></attvalue>
+          <attvalue for="lines" value="4"></attvalue>
+          <attvalue for="words" value="37"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.6731038498927264"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5272727272727272"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6321839080459771"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="45"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="58.342236" y="117.06154"></viz:position>
+      </node>
+      <node id="32" label="John of Lancaster">
+        <attvalues>
+          <attvalue for="key" value="Bedford"></attvalue>
+          <attvalue for="lines" value="8"></attvalue>
+          <attvalue for="words" value="77"></attvalue>
+          <attvalue for="criticality" value="0.011904761904761904"></attvalue>
+          <attvalue for="eigencentrality" value="0.37915330755630944"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5370370370370371"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.603448275862069"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.16666666666666666"></attvalue>
+          <attvalue for="clustering" value="0.9523809523809523"></attvalue>
+          <attvalue for="triangles" value="20"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="185.92351" y="246.34512"></viz:position>
+      </node>
+      <node id="33" label="Thieves">
+        <attvalues>
+          <attvalue for="key" value="h41-thieves."></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="2"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.4798394810511831"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5804597701149427"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="148.24596" y="-329.53323"></viz:position>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="0" target="3" label="Henry, Prince of Wales --- Sir Walter Blunt" weight="576.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character2" value="Sir Walter Blunt"></attvalue>
+          <attvalue for="character1_words" value="457"></attvalue>
+          <attvalue for="character2_words" value="119"></attvalue>
+          <attvalue for="sharedlines" value="66"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1" source="0" target="4" label="Henry, Prince of Wales --- Thomas Percy" weight="816.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character2" value="Thomas Percy"></attvalue>
+          <attvalue for="character1_words" value="371"></attvalue>
+          <attvalue for="character2_words" value="445"></attvalue>
+          <attvalue for="sharedlines" value="94"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="2" source="0" target="9" label="Henry, Prince of Wales --- Travellers" weight="272.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character2" value="Travellers"></attvalue>
+          <attvalue for="character1_words" value="235"></attvalue>
+          <attvalue for="character2_words" value="37"></attvalue>
+          <attvalue for="sharedlines" value="33"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="3" source="0" target="10" label="Henry, Prince of Wales --- Sheriff" weight="2072.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character2" value="Sheriff"></attvalue>
+          <attvalue for="character1_words" value="2001"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="236"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="4" source="0" target="11" label="Henry, Prince of Wales --- Gadshill" weight="2302.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character2" value="Gadshill"></attvalue>
+          <attvalue for="character1_words" value="2236"></attvalue>
+          <attvalue for="character2_words" value="66"></attvalue>
+          <attvalue for="sharedlines" value="266"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="5" source="0" target="12" label="Henry, Prince of Wales --- Francis" weight="2099.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character2" value="Francis"></attvalue>
+          <attvalue for="character1_words" value="2001"></attvalue>
+          <attvalue for="character2_words" value="98"></attvalue>
+          <attvalue for="sharedlines" value="243"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="6" source="0" target="16" label="Henry, Prince of Wales --- Earl of Westmoreland" weight="870.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character2" value="Earl of Westmoreland"></attvalue>
+          <attvalue for="character1_words" value="794"></attvalue>
+          <attvalue for="character2_words" value="76"></attvalue>
+          <attvalue for="sharedlines" value="94"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="7" source="0" target="19" label="Henry, Prince of Wales --- Bardolph" weight="2866.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character2" value="Bardolph"></attvalue>
+          <attvalue for="character1_words" value="2662"></attvalue>
+          <attvalue for="character2_words" value="204"></attvalue>
+          <attvalue for="sharedlines" value="332"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="8" source="0" target="20" label="Henry, Prince of Wales --- Hotspur" weight="1025.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character2" value="Hotspur"></attvalue>
+          <attvalue for="character1_words" value="798"></attvalue>
+          <attvalue for="character2_words" value="227"></attvalue>
+          <attvalue for="sharedlines" value="111"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="9" source="0" target="22" label="Henry, Prince of Wales --- Mistress Quickly" weight="2821.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character2" value="Mistress Quickly"></attvalue>
+          <attvalue for="character1_words" value="2357"></attvalue>
+          <attvalue for="character2_words" value="464"></attvalue>
+          <attvalue for="sharedlines" value="321"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="10" source="0" target="25" label="Henry, Prince of Wales --- First Carrier" weight="2006.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character2" value="First Carrier"></attvalue>
+          <attvalue for="character1_words" value="2001"></attvalue>
+          <attvalue for="character2_words" value="5"></attvalue>
+          <attvalue for="sharedlines" value="229"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="11" source="0" target="26" label="Henry, Prince of Wales --- Archibald" weight="1011.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character2" value="Archibald"></attvalue>
+          <attvalue for="character1_words" value="798"></attvalue>
+          <attvalue for="character2_words" value="213"></attvalue>
+          <attvalue for="sharedlines" value="109"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="12" source="0" target="27" label="Henry, Prince of Wales --- Sir John Falstaff" weight="10632.0">
+        <attvalues>
+          <attvalue for="scenes" value="8"></attvalue>
+          <attvalue for="character1" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character2" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character1_words" value="4458"></attvalue>
+          <attvalue for="character2_words" value="6174"></attvalue>
+          <attvalue for="sharedlines" value="1154"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="13" source="0" target="28" label="Henry, Prince of Wales --- Poins" weight="3618.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character2" value="Poins"></attvalue>
+          <attvalue for="character1_words" value="2991"></attvalue>
+          <attvalue for="character2_words" value="627"></attvalue>
+          <attvalue for="sharedlines" value="422"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="14" source="0" target="29" label="Henry, Prince of Wales --- Peto" weight="2340.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character2" value="Peto"></attvalue>
+          <attvalue for="character1_words" value="2236"></attvalue>
+          <attvalue for="character2_words" value="104"></attvalue>
+          <attvalue for="sharedlines" value="271"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="15" source="0" target="30" label="Henry, Prince of Wales --- King Henry the Fourth" weight="3378.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character2" value="King Henry the Fourth"></attvalue>
+          <attvalue for="character1_words" value="1478"></attvalue>
+          <attvalue for="character2_words" value="1900"></attvalue>
+          <attvalue for="sharedlines" value="387"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="16" source="0" target="31" label="Henry, Prince of Wales --- Vintner" weight="2038.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character2" value="Vintner"></attvalue>
+          <attvalue for="character1_words" value="2001"></attvalue>
+          <attvalue for="character2_words" value="37"></attvalue>
+          <attvalue for="sharedlines" value="232"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="17" source="0" target="32" label="Henry, Prince of Wales --- John of Lancaster" weight="929.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character2" value="John of Lancaster"></attvalue>
+          <attvalue for="character1_words" value="852"></attvalue>
+          <attvalue for="character2_words" value="77"></attvalue>
+          <attvalue for="sharedlines" value="101"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="18" source="0" target="33" label="Henry, Prince of Wales --- Thieves" weight="237.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character2" value="Thieves"></attvalue>
+          <attvalue for="character1_words" value="235"></attvalue>
+          <attvalue for="character2_words" value="2"></attvalue>
+          <attvalue for="sharedlines" value="29"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="19" source="2" target="3" label="Sir Richard Vernon --- Sir Walter Blunt" weight="324.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sir Richard Vernon"></attvalue>
+          <attvalue for="character2" value="Sir Walter Blunt"></attvalue>
+          <attvalue for="character1_words" value="157"></attvalue>
+          <attvalue for="character2_words" value="167"></attvalue>
+          <attvalue for="sharedlines" value="40"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="20" source="2" target="4" label="Sir Richard Vernon --- Thomas Percy" weight="1063.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Sir Richard Vernon"></attvalue>
+          <attvalue for="character2" value="Thomas Percy"></attvalue>
+          <attvalue for="character1_words" value="530"></attvalue>
+          <attvalue for="character2_words" value="533"></attvalue>
+          <attvalue for="sharedlines" value="126"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="21" source="2" target="15" label="Sir Richard Vernon --- Messenger" weight="445.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Sir Richard Vernon"></attvalue>
+          <attvalue for="character2" value="Messenger"></attvalue>
+          <attvalue for="character1_words" value="373"></attvalue>
+          <attvalue for="character2_words" value="72"></attvalue>
+          <attvalue for="sharedlines" value="54"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="22" source="2" target="20" label="Sir Richard Vernon --- Hotspur" weight="2176.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Sir Richard Vernon"></attvalue>
+          <attvalue for="character2" value="Hotspur"></attvalue>
+          <attvalue for="character1_words" value="530"></attvalue>
+          <attvalue for="character2_words" value="1646"></attvalue>
+          <attvalue for="sharedlines" value="255"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="23" source="2" target="26" label="Sir Richard Vernon --- Archibald" weight="722.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Sir Richard Vernon"></attvalue>
+          <attvalue for="character2" value="Archibald"></attvalue>
+          <attvalue for="character1_words" value="530"></attvalue>
+          <attvalue for="character2_words" value="192"></attvalue>
+          <attvalue for="sharedlines" value="89"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="24" source="3" target="0" label="Sir Walter Blunt --- Henry, Prince of Wales" weight="576.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Sir Walter Blunt"></attvalue>
+          <attvalue for="character2" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character1_words" value="119"></attvalue>
+          <attvalue for="character2_words" value="457"></attvalue>
+          <attvalue for="sharedlines" value="66"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="25" source="3" target="2" label="Sir Walter Blunt --- Sir Richard Vernon" weight="324.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sir Walter Blunt"></attvalue>
+          <attvalue for="character2" value="Sir Richard Vernon"></attvalue>
+          <attvalue for="character1_words" value="167"></attvalue>
+          <attvalue for="character2_words" value="157"></attvalue>
+          <attvalue for="sharedlines" value="40"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="26" source="3" target="4" label="Sir Walter Blunt --- Thomas Percy" weight="781.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Sir Walter Blunt"></attvalue>
+          <attvalue for="character2" value="Thomas Percy"></attvalue>
+          <attvalue for="character1_words" value="229"></attvalue>
+          <attvalue for="character2_words" value="552"></attvalue>
+          <attvalue for="sharedlines" value="94"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="27" source="3" target="18" label="Sir Walter Blunt --- Northumberland" weight="260.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sir Walter Blunt"></attvalue>
+          <attvalue for="character2" value="Northumberland"></attvalue>
+          <attvalue for="character1_words" value="62"></attvalue>
+          <attvalue for="character2_words" value="198"></attvalue>
+          <attvalue for="sharedlines" value="33"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="28" source="3" target="20" label="Sir Walter Blunt --- Hotspur" weight="2440.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Sir Walter Blunt"></attvalue>
+          <attvalue for="character2" value="Hotspur"></attvalue>
+          <attvalue for="character1_words" value="287"></attvalue>
+          <attvalue for="character2_words" value="2153"></attvalue>
+          <attvalue for="sharedlines" value="287"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="29" source="3" target="26" label="Sir Walter Blunt --- Archibald" weight="383.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Sir Walter Blunt"></attvalue>
+          <attvalue for="character2" value="Archibald"></attvalue>
+          <attvalue for="character1_words" value="225"></attvalue>
+          <attvalue for="character2_words" value="158"></attvalue>
+          <attvalue for="sharedlines" value="46"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="30" source="3" target="27" label="Sir Walter Blunt --- Sir John Falstaff" weight="303.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sir Walter Blunt"></attvalue>
+          <attvalue for="character2" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character1_words" value="58"></attvalue>
+          <attvalue for="character2_words" value="245"></attvalue>
+          <attvalue for="sharedlines" value="31"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="31" source="3" target="30" label="Sir Walter Blunt --- King Henry the Fourth" weight="1627.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Sir Walter Blunt"></attvalue>
+          <attvalue for="character2" value="King Henry the Fourth"></attvalue>
+          <attvalue for="character1_words" value="123"></attvalue>
+          <attvalue for="character2_words" value="1504"></attvalue>
+          <attvalue for="sharedlines" value="189"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="32" source="4" target="0" label="Thomas Percy --- Henry, Prince of Wales" weight="816.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Thomas Percy"></attvalue>
+          <attvalue for="character2" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character1_words" value="445"></attvalue>
+          <attvalue for="character2_words" value="371"></attvalue>
+          <attvalue for="sharedlines" value="94"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="33" source="4" target="2" label="Thomas Percy --- Sir Richard Vernon" weight="1063.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Thomas Percy"></attvalue>
+          <attvalue for="character2" value="Sir Richard Vernon"></attvalue>
+          <attvalue for="character1_words" value="533"></attvalue>
+          <attvalue for="character2_words" value="530"></attvalue>
+          <attvalue for="sharedlines" value="126"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="34" source="4" target="3" label="Thomas Percy --- Sir Walter Blunt" weight="781.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Thomas Percy"></attvalue>
+          <attvalue for="character2" value="Sir Walter Blunt"></attvalue>
+          <attvalue for="character1_words" value="552"></attvalue>
+          <attvalue for="character2_words" value="229"></attvalue>
+          <attvalue for="sharedlines" value="94"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="35" source="4" target="6" label="Thomas Percy --- Edmund Mortimer" weight="657.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Thomas Percy"></attvalue>
+          <attvalue for="character2" value="Edmund Mortimer"></attvalue>
+          <attvalue for="character1_words" value="133"></attvalue>
+          <attvalue for="character2_words" value="524"></attvalue>
+          <attvalue for="sharedlines" value="76"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="36" source="4" target="15" label="Thomas Percy --- Messenger" weight="565.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Thomas Percy"></attvalue>
+          <attvalue for="character2" value="Messenger"></attvalue>
+          <attvalue for="character1_words" value="493"></attvalue>
+          <attvalue for="character2_words" value="72"></attvalue>
+          <attvalue for="sharedlines" value="64"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="37" source="4" target="18" label="Thomas Percy --- Northumberland" weight="710.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Thomas Percy"></attvalue>
+          <attvalue for="character2" value="Northumberland"></attvalue>
+          <attvalue for="character1_words" value="512"></attvalue>
+          <attvalue for="character2_words" value="198"></attvalue>
+          <attvalue for="sharedlines" value="89"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="38" source="4" target="20" label="Thomas Percy --- Hotspur" weight="5216.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="character1" value="Thomas Percy"></attvalue>
+          <attvalue for="character2" value="Hotspur"></attvalue>
+          <attvalue for="character1_words" value="1178"></attvalue>
+          <attvalue for="character2_words" value="4038"></attvalue>
+          <attvalue for="sharedlines" value="604"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="39" source="4" target="21" label="Thomas Percy --- Lady Percy" weight="196.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Thomas Percy"></attvalue>
+          <attvalue for="character2" value="Lady Percy"></attvalue>
+          <attvalue for="character1_words" value="133"></attvalue>
+          <attvalue for="character2_words" value="63"></attvalue>
+          <attvalue for="sharedlines" value="26"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="40" source="4" target="24" label="Thomas Percy --- Owen Glendower" weight="825.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Thomas Percy"></attvalue>
+          <attvalue for="character2" value="Owen Glendower"></attvalue>
+          <attvalue for="character1_words" value="133"></attvalue>
+          <attvalue for="character2_words" value="692"></attvalue>
+          <attvalue for="sharedlines" value="94"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="41" source="4" target="26" label="Thomas Percy --- Archibald" weight="725.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Thomas Percy"></attvalue>
+          <attvalue for="character2" value="Archibald"></attvalue>
+          <attvalue for="character1_words" value="533"></attvalue>
+          <attvalue for="character2_words" value="192"></attvalue>
+          <attvalue for="sharedlines" value="83"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="42" source="4" target="27" label="Thomas Percy --- Sir John Falstaff" weight="622.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Thomas Percy"></attvalue>
+          <attvalue for="character2" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character1_words" value="418"></attvalue>
+          <attvalue for="character2_words" value="204"></attvalue>
+          <attvalue for="sharedlines" value="66"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="43" source="4" target="30" label="Thomas Percy --- King Henry the Fourth" weight="1983.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Thomas Percy"></attvalue>
+          <attvalue for="character2" value="King Henry the Fourth"></attvalue>
+          <attvalue for="character1_words" value="957"></attvalue>
+          <attvalue for="character2_words" value="1026"></attvalue>
+          <attvalue for="sharedlines" value="230"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="44" source="4" target="32" label="Thomas Percy --- John of Lancaster" weight="43.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Thomas Percy"></attvalue>
+          <attvalue for="character2" value="John of Lancaster"></attvalue>
+          <attvalue for="character1_words" value="27"></attvalue>
+          <attvalue for="character2_words" value="16"></attvalue>
+          <attvalue for="sharedlines" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="45" source="5" target="8" label="Second Carrier --- Ostler" weight="159.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Second Carrier"></attvalue>
+          <attvalue for="character2" value="Ostler"></attvalue>
+          <attvalue for="character1_words" value="156"></attvalue>
+          <attvalue for="character2_words" value="3"></attvalue>
+          <attvalue for="sharedlines" value="18"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="46" source="5" target="11" label="Second Carrier --- Gadshill" weight="505.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Second Carrier"></attvalue>
+          <attvalue for="character2" value="Gadshill"></attvalue>
+          <attvalue for="character1_words" value="156"></attvalue>
+          <attvalue for="character2_words" value="349"></attvalue>
+          <attvalue for="sharedlines" value="57"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="47" source="5" target="17" label="Second Carrier --- Chamberlain" weight="322.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Second Carrier"></attvalue>
+          <attvalue for="character2" value="Chamberlain"></attvalue>
+          <attvalue for="character1_words" value="156"></attvalue>
+          <attvalue for="character2_words" value="166"></attvalue>
+          <attvalue for="sharedlines" value="35"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="48" source="5" target="25" label="Second Carrier --- First Carrier" weight="352.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Second Carrier"></attvalue>
+          <attvalue for="character2" value="First Carrier"></attvalue>
+          <attvalue for="character1_words" value="156"></attvalue>
+          <attvalue for="character2_words" value="196"></attvalue>
+          <attvalue for="sharedlines" value="38"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="49" source="6" target="4" label="Edmund Mortimer --- Thomas Percy" weight="657.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Edmund Mortimer"></attvalue>
+          <attvalue for="character2" value="Thomas Percy"></attvalue>
+          <attvalue for="character1_words" value="524"></attvalue>
+          <attvalue for="character2_words" value="133"></attvalue>
+          <attvalue for="sharedlines" value="76"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="50" source="6" target="20" label="Edmund Mortimer --- Hotspur" weight="1451.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Edmund Mortimer"></attvalue>
+          <attvalue for="character2" value="Hotspur"></attvalue>
+          <attvalue for="character1_words" value="524"></attvalue>
+          <attvalue for="character2_words" value="927"></attvalue>
+          <attvalue for="sharedlines" value="165"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="51" source="6" target="21" label="Edmund Mortimer --- Lady Percy" weight="587.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Edmund Mortimer"></attvalue>
+          <attvalue for="character2" value="Lady Percy"></attvalue>
+          <attvalue for="character1_words" value="524"></attvalue>
+          <attvalue for="character2_words" value="63"></attvalue>
+          <attvalue for="sharedlines" value="70"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="52" source="6" target="24" label="Edmund Mortimer --- Owen Glendower" weight="1216.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Edmund Mortimer"></attvalue>
+          <attvalue for="character2" value="Owen Glendower"></attvalue>
+          <attvalue for="character1_words" value="524"></attvalue>
+          <attvalue for="character2_words" value="692"></attvalue>
+          <attvalue for="sharedlines" value="138"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="53" source="7" target="13" label="Richard Scroop --- Sir Michael" weight="354.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Richard Scroop"></attvalue>
+          <attvalue for="character2" value="Sir Michael"></attvalue>
+          <attvalue for="character1_words" value="293"></attvalue>
+          <attvalue for="character2_words" value="61"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="54" source="8" target="5" label="Ostler --- Second Carrier" weight="159.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ostler"></attvalue>
+          <attvalue for="character2" value="Second Carrier"></attvalue>
+          <attvalue for="character1_words" value="3"></attvalue>
+          <attvalue for="character2_words" value="156"></attvalue>
+          <attvalue for="sharedlines" value="18"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="55" source="8" target="11" label="Ostler --- Gadshill" weight="352.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ostler"></attvalue>
+          <attvalue for="character2" value="Gadshill"></attvalue>
+          <attvalue for="character1_words" value="3"></attvalue>
+          <attvalue for="character2_words" value="349"></attvalue>
+          <attvalue for="sharedlines" value="41"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="56" source="8" target="17" label="Ostler --- Chamberlain" weight="169.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ostler"></attvalue>
+          <attvalue for="character2" value="Chamberlain"></attvalue>
+          <attvalue for="character1_words" value="3"></attvalue>
+          <attvalue for="character2_words" value="166"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="57" source="8" target="25" label="Ostler --- First Carrier" weight="199.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Ostler"></attvalue>
+          <attvalue for="character2" value="First Carrier"></attvalue>
+          <attvalue for="character1_words" value="3"></attvalue>
+          <attvalue for="character2_words" value="196"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="58" source="9" target="0" label="Travellers --- Henry, Prince of Wales" weight="272.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Travellers"></attvalue>
+          <attvalue for="character2" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character1_words" value="37"></attvalue>
+          <attvalue for="character2_words" value="235"></attvalue>
+          <attvalue for="sharedlines" value="33"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="59" source="9" target="11" label="Travellers --- Gadshill" weight="77.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Travellers"></attvalue>
+          <attvalue for="character2" value="Gadshill"></attvalue>
+          <attvalue for="character1_words" value="37"></attvalue>
+          <attvalue for="character2_words" value="40"></attvalue>
+          <attvalue for="sharedlines" value="11"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="60" source="9" target="19" label="Travellers --- Bardolph" weight="40.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Travellers"></attvalue>
+          <attvalue for="character2" value="Bardolph"></attvalue>
+          <attvalue for="character1_words" value="37"></attvalue>
+          <attvalue for="character2_words" value="3"></attvalue>
+          <attvalue for="sharedlines" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="61" source="9" target="27" label="Travellers --- Sir John Falstaff" weight="567.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Travellers"></attvalue>
+          <attvalue for="character2" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character1_words" value="37"></attvalue>
+          <attvalue for="character2_words" value="530"></attvalue>
+          <attvalue for="sharedlines" value="61"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="62" source="9" target="28" label="Travellers --- Poins" weight="108.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Travellers"></attvalue>
+          <attvalue for="character2" value="Poins"></attvalue>
+          <attvalue for="character1_words" value="37"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="15"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="63" source="9" target="29" label="Travellers --- Peto" weight="44.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Travellers"></attvalue>
+          <attvalue for="character2" value="Peto"></attvalue>
+          <attvalue for="character1_words" value="37"></attvalue>
+          <attvalue for="character2_words" value="7"></attvalue>
+          <attvalue for="sharedlines" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="64" source="9" target="33" label="Travellers --- Thieves" weight="39.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Travellers"></attvalue>
+          <attvalue for="character2" value="Thieves"></attvalue>
+          <attvalue for="character1_words" value="37"></attvalue>
+          <attvalue for="character2_words" value="2"></attvalue>
+          <attvalue for="sharedlines" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="65" source="10" target="0" label="Sheriff --- Henry, Prince of Wales" weight="2072.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sheriff"></attvalue>
+          <attvalue for="character2" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="2001"></attvalue>
+          <attvalue for="sharedlines" value="236"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="66" source="10" target="11" label="Sheriff --- Gadshill" weight="97.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sheriff"></attvalue>
+          <attvalue for="character2" value="Gadshill"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="26"></attvalue>
+          <attvalue for="sharedlines" value="12"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="67" source="10" target="12" label="Sheriff --- Francis" weight="169.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sheriff"></attvalue>
+          <attvalue for="character2" value="Francis"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="98"></attvalue>
+          <attvalue for="sharedlines" value="23"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="68" source="10" target="19" label="Sheriff --- Bardolph" weight="176.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sheriff"></attvalue>
+          <attvalue for="character2" value="Bardolph"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="105"></attvalue>
+          <attvalue for="sharedlines" value="20"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="69" source="10" target="22" label="Sheriff --- Mistress Quickly" weight="176.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sheriff"></attvalue>
+          <attvalue for="character2" value="Mistress Quickly"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="105"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="70" source="10" target="25" label="Sheriff --- First Carrier" weight="76.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sheriff"></attvalue>
+          <attvalue for="character2" value="First Carrier"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="5"></attvalue>
+          <attvalue for="sharedlines" value="9"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="71" source="10" target="27" label="Sheriff --- Sir John Falstaff" weight="2315.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sheriff"></attvalue>
+          <attvalue for="character2" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="2244"></attvalue>
+          <attvalue for="sharedlines" value="245"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="72" source="10" target="28" label="Sheriff --- Poins" weight="186.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sheriff"></attvalue>
+          <attvalue for="character2" value="Poins"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="115"></attvalue>
+          <attvalue for="sharedlines" value="30"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="73" source="10" target="29" label="Sheriff --- Peto" weight="168.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sheriff"></attvalue>
+          <attvalue for="character2" value="Peto"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="97"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="74" source="10" target="31" label="Sheriff --- Vintner" weight="108.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sheriff"></attvalue>
+          <attvalue for="character2" value="Vintner"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="37"></attvalue>
+          <attvalue for="sharedlines" value="12"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="75" source="11" target="0" label="Gadshill --- Henry, Prince of Wales" weight="2302.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Gadshill"></attvalue>
+          <attvalue for="character2" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character1_words" value="66"></attvalue>
+          <attvalue for="character2_words" value="2236"></attvalue>
+          <attvalue for="sharedlines" value="266"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="76" source="11" target="5" label="Gadshill --- Second Carrier" weight="505.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gadshill"></attvalue>
+          <attvalue for="character2" value="Second Carrier"></attvalue>
+          <attvalue for="character1_words" value="349"></attvalue>
+          <attvalue for="character2_words" value="156"></attvalue>
+          <attvalue for="sharedlines" value="57"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="77" source="11" target="8" label="Gadshill --- Ostler" weight="352.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gadshill"></attvalue>
+          <attvalue for="character2" value="Ostler"></attvalue>
+          <attvalue for="character1_words" value="349"></attvalue>
+          <attvalue for="character2_words" value="3"></attvalue>
+          <attvalue for="sharedlines" value="41"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="78" source="11" target="9" label="Gadshill --- Travellers" weight="77.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gadshill"></attvalue>
+          <attvalue for="character2" value="Travellers"></attvalue>
+          <attvalue for="character1_words" value="40"></attvalue>
+          <attvalue for="character2_words" value="37"></attvalue>
+          <attvalue for="sharedlines" value="11"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="79" source="11" target="10" label="Gadshill --- Sheriff" weight="97.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gadshill"></attvalue>
+          <attvalue for="character2" value="Sheriff"></attvalue>
+          <attvalue for="character1_words" value="26"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="12"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="80" source="11" target="12" label="Gadshill --- Francis" weight="124.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gadshill"></attvalue>
+          <attvalue for="character2" value="Francis"></attvalue>
+          <attvalue for="character1_words" value="26"></attvalue>
+          <attvalue for="character2_words" value="98"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="81" source="11" target="17" label="Gadshill --- Chamberlain" weight="515.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gadshill"></attvalue>
+          <attvalue for="character2" value="Chamberlain"></attvalue>
+          <attvalue for="character1_words" value="349"></attvalue>
+          <attvalue for="character2_words" value="166"></attvalue>
+          <attvalue for="sharedlines" value="58"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="82" source="11" target="19" label="Gadshill --- Bardolph" weight="174.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Gadshill"></attvalue>
+          <attvalue for="character2" value="Bardolph"></attvalue>
+          <attvalue for="character1_words" value="66"></attvalue>
+          <attvalue for="character2_words" value="108"></attvalue>
+          <attvalue for="sharedlines" value="23"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="83" source="11" target="22" label="Gadshill --- Mistress Quickly" weight="131.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gadshill"></attvalue>
+          <attvalue for="character2" value="Mistress Quickly"></attvalue>
+          <attvalue for="character1_words" value="26"></attvalue>
+          <attvalue for="character2_words" value="105"></attvalue>
+          <attvalue for="sharedlines" value="17"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="84" source="11" target="25" label="Gadshill --- First Carrier" weight="576.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Gadshill"></attvalue>
+          <attvalue for="character2" value="First Carrier"></attvalue>
+          <attvalue for="character1_words" value="375"></attvalue>
+          <attvalue for="character2_words" value="201"></attvalue>
+          <attvalue for="sharedlines" value="66"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="85" source="11" target="27" label="Gadshill --- Sir John Falstaff" weight="2840.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Gadshill"></attvalue>
+          <attvalue for="character2" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character1_words" value="66"></attvalue>
+          <attvalue for="character2_words" value="2774"></attvalue>
+          <attvalue for="sharedlines" value="303"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="86" source="11" target="28" label="Gadshill --- Poins" weight="252.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Gadshill"></attvalue>
+          <attvalue for="character2" value="Poins"></attvalue>
+          <attvalue for="character1_words" value="66"></attvalue>
+          <attvalue for="character2_words" value="186"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="87" source="11" target="29" label="Gadshill --- Peto" weight="170.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Gadshill"></attvalue>
+          <attvalue for="character2" value="Peto"></attvalue>
+          <attvalue for="character1_words" value="66"></attvalue>
+          <attvalue for="character2_words" value="104"></attvalue>
+          <attvalue for="sharedlines" value="25"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="88" source="11" target="31" label="Gadshill --- Vintner" weight="63.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gadshill"></attvalue>
+          <attvalue for="character2" value="Vintner"></attvalue>
+          <attvalue for="character1_words" value="26"></attvalue>
+          <attvalue for="character2_words" value="37"></attvalue>
+          <attvalue for="sharedlines" value="8"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="89" source="11" target="33" label="Gadshill --- Thieves" weight="42.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Gadshill"></attvalue>
+          <attvalue for="character2" value="Thieves"></attvalue>
+          <attvalue for="character1_words" value="40"></attvalue>
+          <attvalue for="character2_words" value="2"></attvalue>
+          <attvalue for="sharedlines" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="90" source="12" target="0" label="Francis --- Henry, Prince of Wales" weight="2099.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Francis"></attvalue>
+          <attvalue for="character2" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character1_words" value="98"></attvalue>
+          <attvalue for="character2_words" value="2001"></attvalue>
+          <attvalue for="sharedlines" value="243"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="91" source="12" target="10" label="Francis --- Sheriff" weight="169.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Francis"></attvalue>
+          <attvalue for="character2" value="Sheriff"></attvalue>
+          <attvalue for="character1_words" value="98"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="23"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="92" source="12" target="11" label="Francis --- Gadshill" weight="124.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Francis"></attvalue>
+          <attvalue for="character2" value="Gadshill"></attvalue>
+          <attvalue for="character1_words" value="98"></attvalue>
+          <attvalue for="character2_words" value="26"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="93" source="12" target="19" label="Francis --- Bardolph" weight="203.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Francis"></attvalue>
+          <attvalue for="character2" value="Bardolph"></attvalue>
+          <attvalue for="character1_words" value="98"></attvalue>
+          <attvalue for="character2_words" value="105"></attvalue>
+          <attvalue for="sharedlines" value="27"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="94" source="12" target="22" label="Francis --- Mistress Quickly" weight="203.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Francis"></attvalue>
+          <attvalue for="character2" value="Mistress Quickly"></attvalue>
+          <attvalue for="character1_words" value="98"></attvalue>
+          <attvalue for="character2_words" value="105"></attvalue>
+          <attvalue for="sharedlines" value="28"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="95" source="12" target="25" label="Francis --- First Carrier" weight="103.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Francis"></attvalue>
+          <attvalue for="character2" value="First Carrier"></attvalue>
+          <attvalue for="character1_words" value="98"></attvalue>
+          <attvalue for="character2_words" value="5"></attvalue>
+          <attvalue for="sharedlines" value="16"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="96" source="12" target="27" label="Francis --- Sir John Falstaff" weight="2342.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Francis"></attvalue>
+          <attvalue for="character2" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character1_words" value="98"></attvalue>
+          <attvalue for="character2_words" value="2244"></attvalue>
+          <attvalue for="sharedlines" value="252"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="97" source="12" target="28" label="Francis --- Poins" weight="213.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Francis"></attvalue>
+          <attvalue for="character2" value="Poins"></attvalue>
+          <attvalue for="character1_words" value="98"></attvalue>
+          <attvalue for="character2_words" value="115"></attvalue>
+          <attvalue for="sharedlines" value="37"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="98" source="12" target="29" label="Francis --- Peto" weight="195.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Francis"></attvalue>
+          <attvalue for="character2" value="Peto"></attvalue>
+          <attvalue for="character1_words" value="98"></attvalue>
+          <attvalue for="character2_words" value="97"></attvalue>
+          <attvalue for="sharedlines" value="29"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="99" source="12" target="31" label="Francis --- Vintner" weight="135.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Francis"></attvalue>
+          <attvalue for="character2" value="Vintner"></attvalue>
+          <attvalue for="character1_words" value="98"></attvalue>
+          <attvalue for="character2_words" value="37"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="100" source="13" target="7" label="Sir Michael --- Richard Scroop" weight="354.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sir Michael"></attvalue>
+          <attvalue for="character2" value="Richard Scroop"></attvalue>
+          <attvalue for="character1_words" value="61"></attvalue>
+          <attvalue for="character2_words" value="293"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="101" source="14" target="20" label="Servant --- Hotspur" weight="710.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Servant"></attvalue>
+          <attvalue for="character2" value="Hotspur"></attvalue>
+          <attvalue for="character1_words" value="22"></attvalue>
+          <attvalue for="character2_words" value="688"></attvalue>
+          <attvalue for="sharedlines" value="75"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="102" source="14" target="21" label="Servant --- Lady Percy" weight="435.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Servant"></attvalue>
+          <attvalue for="character2" value="Lady Percy"></attvalue>
+          <attvalue for="character1_words" value="22"></attvalue>
+          <attvalue for="character2_words" value="413"></attvalue>
+          <attvalue for="sharedlines" value="50"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="103" source="15" target="2" label="Messenger --- Sir Richard Vernon" weight="445.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Messenger"></attvalue>
+          <attvalue for="character2" value="Sir Richard Vernon"></attvalue>
+          <attvalue for="character1_words" value="72"></attvalue>
+          <attvalue for="character2_words" value="373"></attvalue>
+          <attvalue for="sharedlines" value="54"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="104" source="15" target="4" label="Messenger --- Thomas Percy" weight="565.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Messenger"></attvalue>
+          <attvalue for="character2" value="Thomas Percy"></attvalue>
+          <attvalue for="character1_words" value="72"></attvalue>
+          <attvalue for="character2_words" value="493"></attvalue>
+          <attvalue for="sharedlines" value="64"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="105" source="15" target="20" label="Messenger --- Hotspur" weight="1103.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Messenger"></attvalue>
+          <attvalue for="character2" value="Hotspur"></attvalue>
+          <attvalue for="character1_words" value="72"></attvalue>
+          <attvalue for="character2_words" value="1031"></attvalue>
+          <attvalue for="sharedlines" value="124"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="106" source="15" target="26" label="Messenger --- Archibald" weight="238.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Messenger"></attvalue>
+          <attvalue for="character2" value="Archibald"></attvalue>
+          <attvalue for="character1_words" value="72"></attvalue>
+          <attvalue for="character2_words" value="166"></attvalue>
+          <attvalue for="sharedlines" value="27"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="107" source="16" target="0" label="Earl of Westmoreland --- Henry, Prince of Wales" weight="870.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Earl of Westmoreland"></attvalue>
+          <attvalue for="character2" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character1_words" value="76"></attvalue>
+          <attvalue for="character2_words" value="794"></attvalue>
+          <attvalue for="sharedlines" value="94"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="108" source="16" target="19" label="Earl of Westmoreland --- Bardolph" weight="84.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Earl of Westmoreland"></attvalue>
+          <attvalue for="character2" value="Bardolph"></attvalue>
+          <attvalue for="character1_words" value="66"></attvalue>
+          <attvalue for="character2_words" value="18"></attvalue>
+          <attvalue for="sharedlines" value="10"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="109" source="16" target="20" label="Earl of Westmoreland --- Hotspur" weight="164.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Earl of Westmoreland"></attvalue>
+          <attvalue for="character2" value="Hotspur"></attvalue>
+          <attvalue for="character1_words" value="10"></attvalue>
+          <attvalue for="character2_words" value="154"></attvalue>
+          <attvalue for="sharedlines" value="17"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="110" source="16" target="26" label="Earl of Westmoreland --- Archibald" weight="91.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Earl of Westmoreland"></attvalue>
+          <attvalue for="character2" value="Archibald"></attvalue>
+          <attvalue for="character1_words" value="10"></attvalue>
+          <attvalue for="character2_words" value="81"></attvalue>
+          <attvalue for="sharedlines" value="9"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="111" source="16" target="27" label="Earl of Westmoreland --- Sir John Falstaff" weight="1102.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Earl of Westmoreland"></attvalue>
+          <attvalue for="character2" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character1_words" value="76"></attvalue>
+          <attvalue for="character2_words" value="1026"></attvalue>
+          <attvalue for="sharedlines" value="116"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="112" source="16" target="30" label="Earl of Westmoreland --- King Henry the Fourth" weight="1082.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Earl of Westmoreland"></attvalue>
+          <attvalue for="character2" value="King Henry the Fourth"></attvalue>
+          <attvalue for="character1_words" value="272"></attvalue>
+          <attvalue for="character2_words" value="810"></attvalue>
+          <attvalue for="sharedlines" value="128"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="113" source="16" target="32" label="Earl of Westmoreland --- John of Lancaster" weight="71.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Earl of Westmoreland"></attvalue>
+          <attvalue for="character2" value="John of Lancaster"></attvalue>
+          <attvalue for="character1_words" value="10"></attvalue>
+          <attvalue for="character2_words" value="61"></attvalue>
+          <attvalue for="sharedlines" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="114" source="17" target="5" label="Chamberlain --- Second Carrier" weight="322.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Chamberlain"></attvalue>
+          <attvalue for="character2" value="Second Carrier"></attvalue>
+          <attvalue for="character1_words" value="166"></attvalue>
+          <attvalue for="character2_words" value="156"></attvalue>
+          <attvalue for="sharedlines" value="35"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="115" source="17" target="8" label="Chamberlain --- Ostler" weight="169.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Chamberlain"></attvalue>
+          <attvalue for="character2" value="Ostler"></attvalue>
+          <attvalue for="character1_words" value="166"></attvalue>
+          <attvalue for="character2_words" value="3"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="116" source="17" target="11" label="Chamberlain --- Gadshill" weight="515.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Chamberlain"></attvalue>
+          <attvalue for="character2" value="Gadshill"></attvalue>
+          <attvalue for="character1_words" value="166"></attvalue>
+          <attvalue for="character2_words" value="349"></attvalue>
+          <attvalue for="sharedlines" value="58"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="117" source="17" target="25" label="Chamberlain --- First Carrier" weight="362.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Chamberlain"></attvalue>
+          <attvalue for="character2" value="First Carrier"></attvalue>
+          <attvalue for="character1_words" value="166"></attvalue>
+          <attvalue for="character2_words" value="196"></attvalue>
+          <attvalue for="sharedlines" value="39"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="118" source="18" target="3" label="Northumberland --- Sir Walter Blunt" weight="260.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Northumberland"></attvalue>
+          <attvalue for="character2" value="Sir Walter Blunt"></attvalue>
+          <attvalue for="character1_words" value="198"></attvalue>
+          <attvalue for="character2_words" value="62"></attvalue>
+          <attvalue for="sharedlines" value="33"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="119" source="18" target="4" label="Northumberland --- Thomas Percy" weight="710.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Northumberland"></attvalue>
+          <attvalue for="character2" value="Thomas Percy"></attvalue>
+          <attvalue for="character1_words" value="198"></attvalue>
+          <attvalue for="character2_words" value="512"></attvalue>
+          <attvalue for="sharedlines" value="89"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="120" source="18" target="20" label="Northumberland --- Hotspur" weight="1663.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Northumberland"></attvalue>
+          <attvalue for="character2" value="Hotspur"></attvalue>
+          <attvalue for="character1_words" value="198"></attvalue>
+          <attvalue for="character2_words" value="1465"></attvalue>
+          <attvalue for="sharedlines" value="197"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="121" source="18" target="30" label="Northumberland --- King Henry the Fourth" weight="592.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Northumberland"></attvalue>
+          <attvalue for="character2" value="King Henry the Fourth"></attvalue>
+          <attvalue for="character1_words" value="198"></attvalue>
+          <attvalue for="character2_words" value="394"></attvalue>
+          <attvalue for="sharedlines" value="71"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="122" source="19" target="0" label="Bardolph --- Henry, Prince of Wales" weight="2866.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Bardolph"></attvalue>
+          <attvalue for="character2" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character1_words" value="204"></attvalue>
+          <attvalue for="character2_words" value="2662"></attvalue>
+          <attvalue for="sharedlines" value="332"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="123" source="19" target="9" label="Bardolph --- Travellers" weight="40.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Bardolph"></attvalue>
+          <attvalue for="character2" value="Travellers"></attvalue>
+          <attvalue for="character1_words" value="3"></attvalue>
+          <attvalue for="character2_words" value="37"></attvalue>
+          <attvalue for="sharedlines" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="124" source="19" target="10" label="Bardolph --- Sheriff" weight="176.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Bardolph"></attvalue>
+          <attvalue for="character2" value="Sheriff"></attvalue>
+          <attvalue for="character1_words" value="105"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="20"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="125" source="19" target="11" label="Bardolph --- Gadshill" weight="174.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Bardolph"></attvalue>
+          <attvalue for="character2" value="Gadshill"></attvalue>
+          <attvalue for="character1_words" value="108"></attvalue>
+          <attvalue for="character2_words" value="66"></attvalue>
+          <attvalue for="sharedlines" value="23"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="126" source="19" target="12" label="Bardolph --- Francis" weight="203.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Bardolph"></attvalue>
+          <attvalue for="character2" value="Francis"></attvalue>
+          <attvalue for="character1_words" value="105"></attvalue>
+          <attvalue for="character2_words" value="98"></attvalue>
+          <attvalue for="sharedlines" value="27"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="127" source="19" target="16" label="Bardolph --- Earl of Westmoreland" weight="84.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Bardolph"></attvalue>
+          <attvalue for="character2" value="Earl of Westmoreland"></attvalue>
+          <attvalue for="character1_words" value="18"></attvalue>
+          <attvalue for="character2_words" value="66"></attvalue>
+          <attvalue for="sharedlines" value="10"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="128" source="19" target="22" label="Bardolph --- Mistress Quickly" weight="647.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Bardolph"></attvalue>
+          <attvalue for="character2" value="Mistress Quickly"></attvalue>
+          <attvalue for="character1_words" value="183"></attvalue>
+          <attvalue for="character2_words" value="464"></attvalue>
+          <attvalue for="sharedlines" value="73"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="129" source="19" target="25" label="Bardolph --- First Carrier" weight="110.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Bardolph"></attvalue>
+          <attvalue for="character2" value="First Carrier"></attvalue>
+          <attvalue for="character1_words" value="105"></attvalue>
+          <attvalue for="character2_words" value="5"></attvalue>
+          <attvalue for="sharedlines" value="13"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="130" source="19" target="27" label="Bardolph --- Sir John Falstaff" weight="4703.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Bardolph"></attvalue>
+          <attvalue for="character2" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character1_words" value="204"></attvalue>
+          <attvalue for="character2_words" value="4499"></attvalue>
+          <attvalue for="sharedlines" value="502"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="131" source="19" target="28" label="Bardolph --- Poins" weight="294.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Bardolph"></attvalue>
+          <attvalue for="character2" value="Poins"></attvalue>
+          <attvalue for="character1_words" value="108"></attvalue>
+          <attvalue for="character2_words" value="186"></attvalue>
+          <attvalue for="sharedlines" value="45"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="132" source="19" target="29" label="Bardolph --- Peto" weight="212.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Bardolph"></attvalue>
+          <attvalue for="character2" value="Peto"></attvalue>
+          <attvalue for="character1_words" value="108"></attvalue>
+          <attvalue for="character2_words" value="104"></attvalue>
+          <attvalue for="sharedlines" value="28"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="133" source="19" target="31" label="Bardolph --- Vintner" weight="142.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Bardolph"></attvalue>
+          <attvalue for="character2" value="Vintner"></attvalue>
+          <attvalue for="character1_words" value="105"></attvalue>
+          <attvalue for="character2_words" value="37"></attvalue>
+          <attvalue for="sharedlines" value="16"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="134" source="19" target="33" label="Bardolph --- Thieves" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Bardolph"></attvalue>
+          <attvalue for="character2" value="Thieves"></attvalue>
+          <attvalue for="character1_words" value="3"></attvalue>
+          <attvalue for="character2_words" value="2"></attvalue>
+          <attvalue for="sharedlines" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="135" source="20" target="0" label="Hotspur --- Henry, Prince of Wales" weight="1025.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Hotspur"></attvalue>
+          <attvalue for="character2" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character1_words" value="227"></attvalue>
+          <attvalue for="character2_words" value="798"></attvalue>
+          <attvalue for="sharedlines" value="111"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="136" source="20" target="2" label="Hotspur --- Sir Richard Vernon" weight="2176.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Hotspur"></attvalue>
+          <attvalue for="character2" value="Sir Richard Vernon"></attvalue>
+          <attvalue for="character1_words" value="1646"></attvalue>
+          <attvalue for="character2_words" value="530"></attvalue>
+          <attvalue for="sharedlines" value="255"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="137" source="20" target="3" label="Hotspur --- Sir Walter Blunt" weight="2440.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Hotspur"></attvalue>
+          <attvalue for="character2" value="Sir Walter Blunt"></attvalue>
+          <attvalue for="character1_words" value="2153"></attvalue>
+          <attvalue for="character2_words" value="287"></attvalue>
+          <attvalue for="sharedlines" value="287"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="138" source="20" target="4" label="Hotspur --- Thomas Percy" weight="5216.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="character1" value="Hotspur"></attvalue>
+          <attvalue for="character2" value="Thomas Percy"></attvalue>
+          <attvalue for="character1_words" value="4038"></attvalue>
+          <attvalue for="character2_words" value="1178"></attvalue>
+          <attvalue for="sharedlines" value="604"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="139" source="20" target="6" label="Hotspur --- Edmund Mortimer" weight="1451.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Hotspur"></attvalue>
+          <attvalue for="character2" value="Edmund Mortimer"></attvalue>
+          <attvalue for="character1_words" value="927"></attvalue>
+          <attvalue for="character2_words" value="524"></attvalue>
+          <attvalue for="sharedlines" value="165"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="140" source="20" target="14" label="Hotspur --- Servant" weight="710.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Hotspur"></attvalue>
+          <attvalue for="character2" value="Servant"></attvalue>
+          <attvalue for="character1_words" value="688"></attvalue>
+          <attvalue for="character2_words" value="22"></attvalue>
+          <attvalue for="sharedlines" value="75"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="141" source="20" target="15" label="Hotspur --- Messenger" weight="1103.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Hotspur"></attvalue>
+          <attvalue for="character2" value="Messenger"></attvalue>
+          <attvalue for="character1_words" value="1031"></attvalue>
+          <attvalue for="character2_words" value="72"></attvalue>
+          <attvalue for="sharedlines" value="124"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="142" source="20" target="16" label="Hotspur --- Earl of Westmoreland" weight="164.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Hotspur"></attvalue>
+          <attvalue for="character2" value="Earl of Westmoreland"></attvalue>
+          <attvalue for="character1_words" value="154"></attvalue>
+          <attvalue for="character2_words" value="10"></attvalue>
+          <attvalue for="sharedlines" value="17"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="143" source="20" target="18" label="Hotspur --- Northumberland" weight="1663.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Hotspur"></attvalue>
+          <attvalue for="character2" value="Northumberland"></attvalue>
+          <attvalue for="character1_words" value="1465"></attvalue>
+          <attvalue for="character2_words" value="198"></attvalue>
+          <attvalue for="sharedlines" value="197"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="144" source="20" target="21" label="Hotspur --- Lady Percy" weight="2091.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Hotspur"></attvalue>
+          <attvalue for="character2" value="Lady Percy"></attvalue>
+          <attvalue for="character1_words" value="1615"></attvalue>
+          <attvalue for="character2_words" value="476"></attvalue>
+          <attvalue for="sharedlines" value="234"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="145" source="20" target="24" label="Hotspur --- Owen Glendower" weight="1619.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Hotspur"></attvalue>
+          <attvalue for="character2" value="Owen Glendower"></attvalue>
+          <attvalue for="character1_words" value="927"></attvalue>
+          <attvalue for="character2_words" value="692"></attvalue>
+          <attvalue for="sharedlines" value="183"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="146" source="20" target="26" label="Hotspur --- Archibald" weight="2278.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="character1" value="Hotspur"></attvalue>
+          <attvalue for="character2" value="Archibald"></attvalue>
+          <attvalue for="character1_words" value="1873"></attvalue>
+          <attvalue for="character2_words" value="405"></attvalue>
+          <attvalue for="sharedlines" value="260"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="147" source="20" target="27" label="Hotspur --- Sir John Falstaff" weight="900.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Hotspur"></attvalue>
+          <attvalue for="character2" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character1_words" value="227"></attvalue>
+          <attvalue for="character2_words" value="673"></attvalue>
+          <attvalue for="sharedlines" value="92"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="148" source="20" target="30" label="Hotspur --- King Henry the Fourth" weight="2171.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Hotspur"></attvalue>
+          <attvalue for="character2" value="King Henry the Fourth"></attvalue>
+          <attvalue for="character1_words" value="1619"></attvalue>
+          <attvalue for="character2_words" value="552"></attvalue>
+          <attvalue for="sharedlines" value="251"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="149" source="20" target="32" label="Hotspur --- John of Lancaster" weight="215.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Hotspur"></attvalue>
+          <attvalue for="character2" value="John of Lancaster"></attvalue>
+          <attvalue for="character1_words" value="154"></attvalue>
+          <attvalue for="character2_words" value="61"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="150" source="21" target="4" label="Lady Percy --- Thomas Percy" weight="196.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Lady Percy"></attvalue>
+          <attvalue for="character2" value="Thomas Percy"></attvalue>
+          <attvalue for="character1_words" value="63"></attvalue>
+          <attvalue for="character2_words" value="133"></attvalue>
+          <attvalue for="sharedlines" value="26"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="151" source="21" target="6" label="Lady Percy --- Edmund Mortimer" weight="587.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Lady Percy"></attvalue>
+          <attvalue for="character2" value="Edmund Mortimer"></attvalue>
+          <attvalue for="character1_words" value="63"></attvalue>
+          <attvalue for="character2_words" value="524"></attvalue>
+          <attvalue for="sharedlines" value="70"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="152" source="21" target="14" label="Lady Percy --- Servant" weight="435.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Lady Percy"></attvalue>
+          <attvalue for="character2" value="Servant"></attvalue>
+          <attvalue for="character1_words" value="413"></attvalue>
+          <attvalue for="character2_words" value="22"></attvalue>
+          <attvalue for="sharedlines" value="50"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="153" source="21" target="20" label="Lady Percy --- Hotspur" weight="2091.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Lady Percy"></attvalue>
+          <attvalue for="character2" value="Hotspur"></attvalue>
+          <attvalue for="character1_words" value="476"></attvalue>
+          <attvalue for="character2_words" value="1615"></attvalue>
+          <attvalue for="sharedlines" value="234"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="154" source="21" target="24" label="Lady Percy --- Owen Glendower" weight="755.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Lady Percy"></attvalue>
+          <attvalue for="character2" value="Owen Glendower"></attvalue>
+          <attvalue for="character1_words" value="63"></attvalue>
+          <attvalue for="character2_words" value="692"></attvalue>
+          <attvalue for="sharedlines" value="88"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="155" source="22" target="0" label="Mistress Quickly --- Henry, Prince of Wales" weight="2821.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Mistress Quickly"></attvalue>
+          <attvalue for="character2" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character1_words" value="464"></attvalue>
+          <attvalue for="character2_words" value="2357"></attvalue>
+          <attvalue for="sharedlines" value="321"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="156" source="22" target="10" label="Mistress Quickly --- Sheriff" weight="176.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Mistress Quickly"></attvalue>
+          <attvalue for="character2" value="Sheriff"></attvalue>
+          <attvalue for="character1_words" value="105"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="157" source="22" target="11" label="Mistress Quickly --- Gadshill" weight="131.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Mistress Quickly"></attvalue>
+          <attvalue for="character2" value="Gadshill"></attvalue>
+          <attvalue for="character1_words" value="105"></attvalue>
+          <attvalue for="character2_words" value="26"></attvalue>
+          <attvalue for="sharedlines" value="17"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="158" source="22" target="12" label="Mistress Quickly --- Francis" weight="203.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Mistress Quickly"></attvalue>
+          <attvalue for="character2" value="Francis"></attvalue>
+          <attvalue for="character1_words" value="105"></attvalue>
+          <attvalue for="character2_words" value="98"></attvalue>
+          <attvalue for="sharedlines" value="28"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="159" source="22" target="19" label="Mistress Quickly --- Bardolph" weight="647.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Mistress Quickly"></attvalue>
+          <attvalue for="character2" value="Bardolph"></attvalue>
+          <attvalue for="character1_words" value="464"></attvalue>
+          <attvalue for="character2_words" value="183"></attvalue>
+          <attvalue for="sharedlines" value="73"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="160" source="22" target="25" label="Mistress Quickly --- First Carrier" weight="110.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Mistress Quickly"></attvalue>
+          <attvalue for="character2" value="First Carrier"></attvalue>
+          <attvalue for="character1_words" value="105"></attvalue>
+          <attvalue for="character2_words" value="5"></attvalue>
+          <attvalue for="sharedlines" value="14"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="161" source="22" target="27" label="Mistress Quickly --- Sir John Falstaff" weight="3835.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Mistress Quickly"></attvalue>
+          <attvalue for="character2" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character1_words" value="464"></attvalue>
+          <attvalue for="character2_words" value="3371"></attvalue>
+          <attvalue for="sharedlines" value="406"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="162" source="22" target="28" label="Mistress Quickly --- Poins" weight="220.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Mistress Quickly"></attvalue>
+          <attvalue for="character2" value="Poins"></attvalue>
+          <attvalue for="character1_words" value="105"></attvalue>
+          <attvalue for="character2_words" value="115"></attvalue>
+          <attvalue for="sharedlines" value="35"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="163" source="22" target="29" label="Mistress Quickly --- Peto" weight="202.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Mistress Quickly"></attvalue>
+          <attvalue for="character2" value="Peto"></attvalue>
+          <attvalue for="character1_words" value="105"></attvalue>
+          <attvalue for="character2_words" value="97"></attvalue>
+          <attvalue for="sharedlines" value="27"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="164" source="22" target="31" label="Mistress Quickly --- Vintner" weight="142.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Mistress Quickly"></attvalue>
+          <attvalue for="character2" value="Vintner"></attvalue>
+          <attvalue for="character1_words" value="105"></attvalue>
+          <attvalue for="character2_words" value="37"></attvalue>
+          <attvalue for="sharedlines" value="17"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="165" source="24" target="4" label="Owen Glendower --- Thomas Percy" weight="825.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Owen Glendower"></attvalue>
+          <attvalue for="character2" value="Thomas Percy"></attvalue>
+          <attvalue for="character1_words" value="692"></attvalue>
+          <attvalue for="character2_words" value="133"></attvalue>
+          <attvalue for="sharedlines" value="94"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="166" source="24" target="6" label="Owen Glendower --- Edmund Mortimer" weight="1216.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Owen Glendower"></attvalue>
+          <attvalue for="character2" value="Edmund Mortimer"></attvalue>
+          <attvalue for="character1_words" value="692"></attvalue>
+          <attvalue for="character2_words" value="524"></attvalue>
+          <attvalue for="sharedlines" value="138"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="167" source="24" target="20" label="Owen Glendower --- Hotspur" weight="1619.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Owen Glendower"></attvalue>
+          <attvalue for="character2" value="Hotspur"></attvalue>
+          <attvalue for="character1_words" value="692"></attvalue>
+          <attvalue for="character2_words" value="927"></attvalue>
+          <attvalue for="sharedlines" value="183"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="168" source="24" target="21" label="Owen Glendower --- Lady Percy" weight="755.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Owen Glendower"></attvalue>
+          <attvalue for="character2" value="Lady Percy"></attvalue>
+          <attvalue for="character1_words" value="692"></attvalue>
+          <attvalue for="character2_words" value="63"></attvalue>
+          <attvalue for="sharedlines" value="88"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="169" source="25" target="0" label="First Carrier --- Henry, Prince of Wales" weight="2006.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Carrier"></attvalue>
+          <attvalue for="character2" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character1_words" value="5"></attvalue>
+          <attvalue for="character2_words" value="2001"></attvalue>
+          <attvalue for="sharedlines" value="229"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="170" source="25" target="5" label="First Carrier --- Second Carrier" weight="352.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Carrier"></attvalue>
+          <attvalue for="character2" value="Second Carrier"></attvalue>
+          <attvalue for="character1_words" value="196"></attvalue>
+          <attvalue for="character2_words" value="156"></attvalue>
+          <attvalue for="sharedlines" value="38"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="171" source="25" target="8" label="First Carrier --- Ostler" weight="199.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Carrier"></attvalue>
+          <attvalue for="character2" value="Ostler"></attvalue>
+          <attvalue for="character1_words" value="196"></attvalue>
+          <attvalue for="character2_words" value="3"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="172" source="25" target="10" label="First Carrier --- Sheriff" weight="76.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Carrier"></attvalue>
+          <attvalue for="character2" value="Sheriff"></attvalue>
+          <attvalue for="character1_words" value="5"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="9"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="173" source="25" target="11" label="First Carrier --- Gadshill" weight="576.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="First Carrier"></attvalue>
+          <attvalue for="character2" value="Gadshill"></attvalue>
+          <attvalue for="character1_words" value="201"></attvalue>
+          <attvalue for="character2_words" value="375"></attvalue>
+          <attvalue for="sharedlines" value="66"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="174" source="25" target="12" label="First Carrier --- Francis" weight="103.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Carrier"></attvalue>
+          <attvalue for="character2" value="Francis"></attvalue>
+          <attvalue for="character1_words" value="5"></attvalue>
+          <attvalue for="character2_words" value="98"></attvalue>
+          <attvalue for="sharedlines" value="16"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="175" source="25" target="17" label="First Carrier --- Chamberlain" weight="362.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Carrier"></attvalue>
+          <attvalue for="character2" value="Chamberlain"></attvalue>
+          <attvalue for="character1_words" value="196"></attvalue>
+          <attvalue for="character2_words" value="166"></attvalue>
+          <attvalue for="sharedlines" value="39"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="176" source="25" target="19" label="First Carrier --- Bardolph" weight="110.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Carrier"></attvalue>
+          <attvalue for="character2" value="Bardolph"></attvalue>
+          <attvalue for="character1_words" value="5"></attvalue>
+          <attvalue for="character2_words" value="105"></attvalue>
+          <attvalue for="sharedlines" value="13"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="177" source="25" target="22" label="First Carrier --- Mistress Quickly" weight="110.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Carrier"></attvalue>
+          <attvalue for="character2" value="Mistress Quickly"></attvalue>
+          <attvalue for="character1_words" value="5"></attvalue>
+          <attvalue for="character2_words" value="105"></attvalue>
+          <attvalue for="sharedlines" value="14"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="178" source="25" target="27" label="First Carrier --- Sir John Falstaff" weight="2249.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Carrier"></attvalue>
+          <attvalue for="character2" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character1_words" value="5"></attvalue>
+          <attvalue for="character2_words" value="2244"></attvalue>
+          <attvalue for="sharedlines" value="238"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="179" source="25" target="28" label="First Carrier --- Poins" weight="120.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Carrier"></attvalue>
+          <attvalue for="character2" value="Poins"></attvalue>
+          <attvalue for="character1_words" value="5"></attvalue>
+          <attvalue for="character2_words" value="115"></attvalue>
+          <attvalue for="sharedlines" value="23"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="180" source="25" target="29" label="First Carrier --- Peto" weight="102.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Carrier"></attvalue>
+          <attvalue for="character2" value="Peto"></attvalue>
+          <attvalue for="character1_words" value="5"></attvalue>
+          <attvalue for="character2_words" value="97"></attvalue>
+          <attvalue for="sharedlines" value="15"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="181" source="25" target="31" label="First Carrier --- Vintner" weight="42.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="First Carrier"></attvalue>
+          <attvalue for="character2" value="Vintner"></attvalue>
+          <attvalue for="character1_words" value="5"></attvalue>
+          <attvalue for="character2_words" value="37"></attvalue>
+          <attvalue for="sharedlines" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="182" source="26" target="0" label="Archibald --- Henry, Prince of Wales" weight="1011.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Archibald"></attvalue>
+          <attvalue for="character2" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character1_words" value="213"></attvalue>
+          <attvalue for="character2_words" value="798"></attvalue>
+          <attvalue for="sharedlines" value="109"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="183" source="26" target="2" label="Archibald --- Sir Richard Vernon" weight="722.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Archibald"></attvalue>
+          <attvalue for="character2" value="Sir Richard Vernon"></attvalue>
+          <attvalue for="character1_words" value="192"></attvalue>
+          <attvalue for="character2_words" value="530"></attvalue>
+          <attvalue for="sharedlines" value="89"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="184" source="26" target="3" label="Archibald --- Sir Walter Blunt" weight="383.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Archibald"></attvalue>
+          <attvalue for="character2" value="Sir Walter Blunt"></attvalue>
+          <attvalue for="character1_words" value="158"></attvalue>
+          <attvalue for="character2_words" value="225"></attvalue>
+          <attvalue for="sharedlines" value="46"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="185" source="26" target="4" label="Archibald --- Thomas Percy" weight="725.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Archibald"></attvalue>
+          <attvalue for="character2" value="Thomas Percy"></attvalue>
+          <attvalue for="character1_words" value="192"></attvalue>
+          <attvalue for="character2_words" value="533"></attvalue>
+          <attvalue for="sharedlines" value="83"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="186" source="26" target="15" label="Archibald --- Messenger" weight="238.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Archibald"></attvalue>
+          <attvalue for="character2" value="Messenger"></attvalue>
+          <attvalue for="character1_words" value="166"></attvalue>
+          <attvalue for="character2_words" value="72"></attvalue>
+          <attvalue for="sharedlines" value="27"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="187" source="26" target="16" label="Archibald --- Earl of Westmoreland" weight="91.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Archibald"></attvalue>
+          <attvalue for="character2" value="Earl of Westmoreland"></attvalue>
+          <attvalue for="character1_words" value="81"></attvalue>
+          <attvalue for="character2_words" value="10"></attvalue>
+          <attvalue for="sharedlines" value="9"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="188" source="26" target="20" label="Archibald --- Hotspur" weight="2278.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="character1" value="Archibald"></attvalue>
+          <attvalue for="character2" value="Hotspur"></attvalue>
+          <attvalue for="character1_words" value="405"></attvalue>
+          <attvalue for="character2_words" value="1873"></attvalue>
+          <attvalue for="sharedlines" value="260"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="189" source="26" target="27" label="Archibald --- Sir John Falstaff" weight="886.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Archibald"></attvalue>
+          <attvalue for="character2" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character1_words" value="213"></attvalue>
+          <attvalue for="character2_words" value="673"></attvalue>
+          <attvalue for="sharedlines" value="90"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="190" source="26" target="30" label="Archibald --- King Henry the Fourth" weight="239.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Archibald"></attvalue>
+          <attvalue for="character2" value="King Henry the Fourth"></attvalue>
+          <attvalue for="character1_words" value="81"></attvalue>
+          <attvalue for="character2_words" value="158"></attvalue>
+          <attvalue for="sharedlines" value="27"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="191" source="26" target="32" label="Archibald --- John of Lancaster" weight="142.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Archibald"></attvalue>
+          <attvalue for="character2" value="John of Lancaster"></attvalue>
+          <attvalue for="character1_words" value="81"></attvalue>
+          <attvalue for="character2_words" value="61"></attvalue>
+          <attvalue for="sharedlines" value="14"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="192" source="27" target="0" label="Sir John Falstaff --- Henry, Prince of Wales" weight="10632.0">
+        <attvalues>
+          <attvalue for="scenes" value="8"></attvalue>
+          <attvalue for="character1" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character2" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character1_words" value="6174"></attvalue>
+          <attvalue for="character2_words" value="4458"></attvalue>
+          <attvalue for="sharedlines" value="1154"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="193" source="27" target="3" label="Sir John Falstaff --- Sir Walter Blunt" weight="303.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character2" value="Sir Walter Blunt"></attvalue>
+          <attvalue for="character1_words" value="245"></attvalue>
+          <attvalue for="character2_words" value="58"></attvalue>
+          <attvalue for="sharedlines" value="31"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="194" source="27" target="4" label="Sir John Falstaff --- Thomas Percy" weight="622.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character2" value="Thomas Percy"></attvalue>
+          <attvalue for="character1_words" value="204"></attvalue>
+          <attvalue for="character2_words" value="418"></attvalue>
+          <attvalue for="sharedlines" value="66"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="195" source="27" target="9" label="Sir John Falstaff --- Travellers" weight="567.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character2" value="Travellers"></attvalue>
+          <attvalue for="character1_words" value="530"></attvalue>
+          <attvalue for="character2_words" value="37"></attvalue>
+          <attvalue for="sharedlines" value="61"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="196" source="27" target="10" label="Sir John Falstaff --- Sheriff" weight="2315.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character2" value="Sheriff"></attvalue>
+          <attvalue for="character1_words" value="2244"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="245"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="197" source="27" target="11" label="Sir John Falstaff --- Gadshill" weight="2840.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character2" value="Gadshill"></attvalue>
+          <attvalue for="character1_words" value="2774"></attvalue>
+          <attvalue for="character2_words" value="66"></attvalue>
+          <attvalue for="sharedlines" value="303"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="198" source="27" target="12" label="Sir John Falstaff --- Francis" weight="2342.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character2" value="Francis"></attvalue>
+          <attvalue for="character1_words" value="2244"></attvalue>
+          <attvalue for="character2_words" value="98"></attvalue>
+          <attvalue for="sharedlines" value="252"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="199" source="27" target="16" label="Sir John Falstaff --- Earl of Westmoreland" weight="1102.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character2" value="Earl of Westmoreland"></attvalue>
+          <attvalue for="character1_words" value="1026"></attvalue>
+          <attvalue for="character2_words" value="76"></attvalue>
+          <attvalue for="sharedlines" value="116"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="200" source="27" target="19" label="Sir John Falstaff --- Bardolph" weight="4703.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character2" value="Bardolph"></attvalue>
+          <attvalue for="character1_words" value="4499"></attvalue>
+          <attvalue for="character2_words" value="204"></attvalue>
+          <attvalue for="sharedlines" value="502"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="201" source="27" target="20" label="Sir John Falstaff --- Hotspur" weight="900.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character2" value="Hotspur"></attvalue>
+          <attvalue for="character1_words" value="673"></attvalue>
+          <attvalue for="character2_words" value="227"></attvalue>
+          <attvalue for="sharedlines" value="92"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="202" source="27" target="22" label="Sir John Falstaff --- Mistress Quickly" weight="3835.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character2" value="Mistress Quickly"></attvalue>
+          <attvalue for="character1_words" value="3371"></attvalue>
+          <attvalue for="character2_words" value="464"></attvalue>
+          <attvalue for="sharedlines" value="406"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="203" source="27" target="25" label="Sir John Falstaff --- First Carrier" weight="2249.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character2" value="First Carrier"></attvalue>
+          <attvalue for="character1_words" value="2244"></attvalue>
+          <attvalue for="character2_words" value="5"></attvalue>
+          <attvalue for="sharedlines" value="238"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="204" source="27" target="26" label="Sir John Falstaff --- Archibald" weight="886.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character2" value="Archibald"></attvalue>
+          <attvalue for="character1_words" value="673"></attvalue>
+          <attvalue for="character2_words" value="213"></attvalue>
+          <attvalue for="sharedlines" value="90"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="205" source="27" target="28" label="Sir John Falstaff --- Poins" weight="4199.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character2" value="Poins"></attvalue>
+          <attvalue for="character1_words" value="3572"></attvalue>
+          <attvalue for="character2_words" value="627"></attvalue>
+          <attvalue for="sharedlines" value="458"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="206" source="27" target="29" label="Sir John Falstaff --- Peto" weight="2878.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character2" value="Peto"></attvalue>
+          <attvalue for="character1_words" value="2774"></attvalue>
+          <attvalue for="character2_words" value="104"></attvalue>
+          <attvalue for="sharedlines" value="308"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="207" source="27" target="30" label="Sir John Falstaff --- King Henry the Fourth" weight="1211.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character2" value="King Henry the Fourth"></attvalue>
+          <attvalue for="character1_words" value="632"></attvalue>
+          <attvalue for="character2_words" value="579"></attvalue>
+          <attvalue for="sharedlines" value="128"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="208" source="27" target="31" label="Sir John Falstaff --- Vintner" weight="2281.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character2" value="Vintner"></attvalue>
+          <attvalue for="character1_words" value="2244"></attvalue>
+          <attvalue for="character2_words" value="37"></attvalue>
+          <attvalue for="sharedlines" value="241"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="209" source="27" target="32" label="Sir John Falstaff --- John of Lancaster" weight="489.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character2" value="John of Lancaster"></attvalue>
+          <attvalue for="character1_words" value="428"></attvalue>
+          <attvalue for="character2_words" value="61"></attvalue>
+          <attvalue for="sharedlines" value="49"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="210" source="27" target="33" label="Sir John Falstaff --- Thieves" weight="532.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character2" value="Thieves"></attvalue>
+          <attvalue for="character1_words" value="530"></attvalue>
+          <attvalue for="character2_words" value="2"></attvalue>
+          <attvalue for="sharedlines" value="57"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="211" source="28" target="0" label="Poins --- Henry, Prince of Wales" weight="3618.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Poins"></attvalue>
+          <attvalue for="character2" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character1_words" value="627"></attvalue>
+          <attvalue for="character2_words" value="2991"></attvalue>
+          <attvalue for="sharedlines" value="422"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="212" source="28" target="9" label="Poins --- Travellers" weight="108.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Poins"></attvalue>
+          <attvalue for="character2" value="Travellers"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="37"></attvalue>
+          <attvalue for="sharedlines" value="15"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="213" source="28" target="10" label="Poins --- Sheriff" weight="186.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Poins"></attvalue>
+          <attvalue for="character2" value="Sheriff"></attvalue>
+          <attvalue for="character1_words" value="115"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="30"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="214" source="28" target="11" label="Poins --- Gadshill" weight="252.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Poins"></attvalue>
+          <attvalue for="character2" value="Gadshill"></attvalue>
+          <attvalue for="character1_words" value="186"></attvalue>
+          <attvalue for="character2_words" value="66"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="215" source="28" target="12" label="Poins --- Francis" weight="213.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Poins"></attvalue>
+          <attvalue for="character2" value="Francis"></attvalue>
+          <attvalue for="character1_words" value="115"></attvalue>
+          <attvalue for="character2_words" value="98"></attvalue>
+          <attvalue for="sharedlines" value="37"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="216" source="28" target="19" label="Poins --- Bardolph" weight="294.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Poins"></attvalue>
+          <attvalue for="character2" value="Bardolph"></attvalue>
+          <attvalue for="character1_words" value="186"></attvalue>
+          <attvalue for="character2_words" value="108"></attvalue>
+          <attvalue for="sharedlines" value="45"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="217" source="28" target="22" label="Poins --- Mistress Quickly" weight="220.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Poins"></attvalue>
+          <attvalue for="character2" value="Mistress Quickly"></attvalue>
+          <attvalue for="character1_words" value="115"></attvalue>
+          <attvalue for="character2_words" value="105"></attvalue>
+          <attvalue for="sharedlines" value="35"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="218" source="28" target="25" label="Poins --- First Carrier" weight="120.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Poins"></attvalue>
+          <attvalue for="character2" value="First Carrier"></attvalue>
+          <attvalue for="character1_words" value="115"></attvalue>
+          <attvalue for="character2_words" value="5"></attvalue>
+          <attvalue for="sharedlines" value="23"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="219" source="28" target="27" label="Poins --- Sir John Falstaff" weight="4199.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="Poins"></attvalue>
+          <attvalue for="character2" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character1_words" value="627"></attvalue>
+          <attvalue for="character2_words" value="3572"></attvalue>
+          <attvalue for="sharedlines" value="458"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="220" source="28" target="29" label="Poins --- Peto" weight="290.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Poins"></attvalue>
+          <attvalue for="character2" value="Peto"></attvalue>
+          <attvalue for="character1_words" value="186"></attvalue>
+          <attvalue for="character2_words" value="104"></attvalue>
+          <attvalue for="sharedlines" value="47"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="221" source="28" target="31" label="Poins --- Vintner" weight="152.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Poins"></attvalue>
+          <attvalue for="character2" value="Vintner"></attvalue>
+          <attvalue for="character1_words" value="115"></attvalue>
+          <attvalue for="character2_words" value="37"></attvalue>
+          <attvalue for="sharedlines" value="26"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="222" source="28" target="33" label="Poins --- Thieves" weight="73.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Poins"></attvalue>
+          <attvalue for="character2" value="Thieves"></attvalue>
+          <attvalue for="character1_words" value="71"></attvalue>
+          <attvalue for="character2_words" value="2"></attvalue>
+          <attvalue for="sharedlines" value="11"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="223" source="29" target="0" label="Peto --- Henry, Prince of Wales" weight="2340.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Peto"></attvalue>
+          <attvalue for="character2" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character1_words" value="104"></attvalue>
+          <attvalue for="character2_words" value="2236"></attvalue>
+          <attvalue for="sharedlines" value="271"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="224" source="29" target="9" label="Peto --- Travellers" weight="44.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Peto"></attvalue>
+          <attvalue for="character2" value="Travellers"></attvalue>
+          <attvalue for="character1_words" value="7"></attvalue>
+          <attvalue for="character2_words" value="37"></attvalue>
+          <attvalue for="sharedlines" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="225" source="29" target="10" label="Peto --- Sheriff" weight="168.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Peto"></attvalue>
+          <attvalue for="character2" value="Sheriff"></attvalue>
+          <attvalue for="character1_words" value="97"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="226" source="29" target="11" label="Peto --- Gadshill" weight="170.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Peto"></attvalue>
+          <attvalue for="character2" value="Gadshill"></attvalue>
+          <attvalue for="character1_words" value="104"></attvalue>
+          <attvalue for="character2_words" value="66"></attvalue>
+          <attvalue for="sharedlines" value="25"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="227" source="29" target="12" label="Peto --- Francis" weight="195.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Peto"></attvalue>
+          <attvalue for="character2" value="Francis"></attvalue>
+          <attvalue for="character1_words" value="97"></attvalue>
+          <attvalue for="character2_words" value="98"></attvalue>
+          <attvalue for="sharedlines" value="29"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="228" source="29" target="19" label="Peto --- Bardolph" weight="212.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Peto"></attvalue>
+          <attvalue for="character2" value="Bardolph"></attvalue>
+          <attvalue for="character1_words" value="104"></attvalue>
+          <attvalue for="character2_words" value="108"></attvalue>
+          <attvalue for="sharedlines" value="28"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="229" source="29" target="22" label="Peto --- Mistress Quickly" weight="202.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Peto"></attvalue>
+          <attvalue for="character2" value="Mistress Quickly"></attvalue>
+          <attvalue for="character1_words" value="97"></attvalue>
+          <attvalue for="character2_words" value="105"></attvalue>
+          <attvalue for="sharedlines" value="27"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="230" source="29" target="25" label="Peto --- First Carrier" weight="102.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Peto"></attvalue>
+          <attvalue for="character2" value="First Carrier"></attvalue>
+          <attvalue for="character1_words" value="97"></attvalue>
+          <attvalue for="character2_words" value="5"></attvalue>
+          <attvalue for="sharedlines" value="15"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="231" source="29" target="27" label="Peto --- Sir John Falstaff" weight="2878.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Peto"></attvalue>
+          <attvalue for="character2" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character1_words" value="104"></attvalue>
+          <attvalue for="character2_words" value="2774"></attvalue>
+          <attvalue for="sharedlines" value="308"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="232" source="29" target="28" label="Peto --- Poins" weight="290.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="Peto"></attvalue>
+          <attvalue for="character2" value="Poins"></attvalue>
+          <attvalue for="character1_words" value="104"></attvalue>
+          <attvalue for="character2_words" value="186"></attvalue>
+          <attvalue for="sharedlines" value="47"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="233" source="29" target="31" label="Peto --- Vintner" weight="134.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Peto"></attvalue>
+          <attvalue for="character2" value="Vintner"></attvalue>
+          <attvalue for="character1_words" value="97"></attvalue>
+          <attvalue for="character2_words" value="37"></attvalue>
+          <attvalue for="sharedlines" value="18"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="234" source="29" target="33" label="Peto --- Thieves" weight="9.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Peto"></attvalue>
+          <attvalue for="character2" value="Thieves"></attvalue>
+          <attvalue for="character1_words" value="7"></attvalue>
+          <attvalue for="character2_words" value="2"></attvalue>
+          <attvalue for="sharedlines" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="235" source="30" target="0" label="King Henry the Fourth --- Henry, Prince of Wales" weight="3378.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="character1" value="King Henry the Fourth"></attvalue>
+          <attvalue for="character2" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character1_words" value="1900"></attvalue>
+          <attvalue for="character2_words" value="1478"></attvalue>
+          <attvalue for="sharedlines" value="387"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="236" source="30" target="3" label="King Henry the Fourth --- Sir Walter Blunt" weight="1627.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="King Henry the Fourth"></attvalue>
+          <attvalue for="character2" value="Sir Walter Blunt"></attvalue>
+          <attvalue for="character1_words" value="1504"></attvalue>
+          <attvalue for="character2_words" value="123"></attvalue>
+          <attvalue for="sharedlines" value="189"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="237" source="30" target="4" label="King Henry the Fourth --- Thomas Percy" weight="1983.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="character1" value="King Henry the Fourth"></attvalue>
+          <attvalue for="character2" value="Thomas Percy"></attvalue>
+          <attvalue for="character1_words" value="1026"></attvalue>
+          <attvalue for="character2_words" value="957"></attvalue>
+          <attvalue for="sharedlines" value="230"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="238" source="30" target="16" label="King Henry the Fourth --- Earl of Westmoreland" weight="1082.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="King Henry the Fourth"></attvalue>
+          <attvalue for="character2" value="Earl of Westmoreland"></attvalue>
+          <attvalue for="character1_words" value="810"></attvalue>
+          <attvalue for="character2_words" value="272"></attvalue>
+          <attvalue for="sharedlines" value="128"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="239" source="30" target="18" label="King Henry the Fourth --- Northumberland" weight="592.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="King Henry the Fourth"></attvalue>
+          <attvalue for="character2" value="Northumberland"></attvalue>
+          <attvalue for="character1_words" value="394"></attvalue>
+          <attvalue for="character2_words" value="198"></attvalue>
+          <attvalue for="sharedlines" value="71"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="240" source="30" target="20" label="King Henry the Fourth --- Hotspur" weight="2171.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="King Henry the Fourth"></attvalue>
+          <attvalue for="character2" value="Hotspur"></attvalue>
+          <attvalue for="character1_words" value="552"></attvalue>
+          <attvalue for="character2_words" value="1619"></attvalue>
+          <attvalue for="sharedlines" value="251"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="241" source="30" target="26" label="King Henry the Fourth --- Archibald" weight="239.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="King Henry the Fourth"></attvalue>
+          <attvalue for="character2" value="Archibald"></attvalue>
+          <attvalue for="character1_words" value="158"></attvalue>
+          <attvalue for="character2_words" value="81"></attvalue>
+          <attvalue for="sharedlines" value="27"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="242" source="30" target="27" label="King Henry the Fourth --- Sir John Falstaff" weight="1211.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="King Henry the Fourth"></attvalue>
+          <attvalue for="character2" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character1_words" value="579"></attvalue>
+          <attvalue for="character2_words" value="632"></attvalue>
+          <attvalue for="sharedlines" value="128"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="243" source="30" target="32" label="King Henry the Fourth --- John of Lancaster" weight="446.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="King Henry the Fourth"></attvalue>
+          <attvalue for="character2" value="John of Lancaster"></attvalue>
+          <attvalue for="character1_words" value="369"></attvalue>
+          <attvalue for="character2_words" value="77"></attvalue>
+          <attvalue for="sharedlines" value="52"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="244" source="31" target="0" label="Vintner --- Henry, Prince of Wales" weight="2038.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Vintner"></attvalue>
+          <attvalue for="character2" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character1_words" value="37"></attvalue>
+          <attvalue for="character2_words" value="2001"></attvalue>
+          <attvalue for="sharedlines" value="232"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="245" source="31" target="10" label="Vintner --- Sheriff" weight="108.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Vintner"></attvalue>
+          <attvalue for="character2" value="Sheriff"></attvalue>
+          <attvalue for="character1_words" value="37"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="12"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="246" source="31" target="11" label="Vintner --- Gadshill" weight="63.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Vintner"></attvalue>
+          <attvalue for="character2" value="Gadshill"></attvalue>
+          <attvalue for="character1_words" value="37"></attvalue>
+          <attvalue for="character2_words" value="26"></attvalue>
+          <attvalue for="sharedlines" value="8"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="247" source="31" target="12" label="Vintner --- Francis" weight="135.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Vintner"></attvalue>
+          <attvalue for="character2" value="Francis"></attvalue>
+          <attvalue for="character1_words" value="37"></attvalue>
+          <attvalue for="character2_words" value="98"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="248" source="31" target="19" label="Vintner --- Bardolph" weight="142.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Vintner"></attvalue>
+          <attvalue for="character2" value="Bardolph"></attvalue>
+          <attvalue for="character1_words" value="37"></attvalue>
+          <attvalue for="character2_words" value="105"></attvalue>
+          <attvalue for="sharedlines" value="16"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="249" source="31" target="22" label="Vintner --- Mistress Quickly" weight="142.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Vintner"></attvalue>
+          <attvalue for="character2" value="Mistress Quickly"></attvalue>
+          <attvalue for="character1_words" value="37"></attvalue>
+          <attvalue for="character2_words" value="105"></attvalue>
+          <attvalue for="sharedlines" value="17"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="250" source="31" target="25" label="Vintner --- First Carrier" weight="42.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Vintner"></attvalue>
+          <attvalue for="character2" value="First Carrier"></attvalue>
+          <attvalue for="character1_words" value="37"></attvalue>
+          <attvalue for="character2_words" value="5"></attvalue>
+          <attvalue for="sharedlines" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="251" source="31" target="27" label="Vintner --- Sir John Falstaff" weight="2281.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Vintner"></attvalue>
+          <attvalue for="character2" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character1_words" value="37"></attvalue>
+          <attvalue for="character2_words" value="2244"></attvalue>
+          <attvalue for="sharedlines" value="241"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="252" source="31" target="28" label="Vintner --- Poins" weight="152.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Vintner"></attvalue>
+          <attvalue for="character2" value="Poins"></attvalue>
+          <attvalue for="character1_words" value="37"></attvalue>
+          <attvalue for="character2_words" value="115"></attvalue>
+          <attvalue for="sharedlines" value="26"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="253" source="31" target="29" label="Vintner --- Peto" weight="134.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Vintner"></attvalue>
+          <attvalue for="character2" value="Peto"></attvalue>
+          <attvalue for="character1_words" value="37"></attvalue>
+          <attvalue for="character2_words" value="97"></attvalue>
+          <attvalue for="sharedlines" value="18"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="254" source="32" target="0" label="John of Lancaster --- Henry, Prince of Wales" weight="929.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="John of Lancaster"></attvalue>
+          <attvalue for="character2" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character1_words" value="77"></attvalue>
+          <attvalue for="character2_words" value="852"></attvalue>
+          <attvalue for="sharedlines" value="101"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="255" source="32" target="4" label="John of Lancaster --- Thomas Percy" weight="43.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="John of Lancaster"></attvalue>
+          <attvalue for="character2" value="Thomas Percy"></attvalue>
+          <attvalue for="character1_words" value="16"></attvalue>
+          <attvalue for="character2_words" value="27"></attvalue>
+          <attvalue for="sharedlines" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="256" source="32" target="16" label="John of Lancaster --- Earl of Westmoreland" weight="71.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="John of Lancaster"></attvalue>
+          <attvalue for="character2" value="Earl of Westmoreland"></attvalue>
+          <attvalue for="character1_words" value="61"></attvalue>
+          <attvalue for="character2_words" value="10"></attvalue>
+          <attvalue for="sharedlines" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="257" source="32" target="20" label="John of Lancaster --- Hotspur" weight="215.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="John of Lancaster"></attvalue>
+          <attvalue for="character2" value="Hotspur"></attvalue>
+          <attvalue for="character1_words" value="61"></attvalue>
+          <attvalue for="character2_words" value="154"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="258" source="32" target="26" label="John of Lancaster --- Archibald" weight="142.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="John of Lancaster"></attvalue>
+          <attvalue for="character2" value="Archibald"></attvalue>
+          <attvalue for="character1_words" value="61"></attvalue>
+          <attvalue for="character2_words" value="81"></attvalue>
+          <attvalue for="sharedlines" value="14"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="259" source="32" target="27" label="John of Lancaster --- Sir John Falstaff" weight="489.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="John of Lancaster"></attvalue>
+          <attvalue for="character2" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character1_words" value="61"></attvalue>
+          <attvalue for="character2_words" value="428"></attvalue>
+          <attvalue for="sharedlines" value="49"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="260" source="32" target="30" label="John of Lancaster --- King Henry the Fourth" weight="446.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="character1" value="John of Lancaster"></attvalue>
+          <attvalue for="character2" value="King Henry the Fourth"></attvalue>
+          <attvalue for="character1_words" value="77"></attvalue>
+          <attvalue for="character2_words" value="369"></attvalue>
+          <attvalue for="sharedlines" value="52"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="261" source="33" target="0" label="Thieves --- Henry, Prince of Wales" weight="237.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Thieves"></attvalue>
+          <attvalue for="character2" value="Henry, Prince of Wales"></attvalue>
+          <attvalue for="character1_words" value="2"></attvalue>
+          <attvalue for="character2_words" value="235"></attvalue>
+          <attvalue for="sharedlines" value="29"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="262" source="33" target="9" label="Thieves --- Travellers" weight="39.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Thieves"></attvalue>
+          <attvalue for="character2" value="Travellers"></attvalue>
+          <attvalue for="character1_words" value="2"></attvalue>
+          <attvalue for="character2_words" value="37"></attvalue>
+          <attvalue for="sharedlines" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="263" source="33" target="11" label="Thieves --- Gadshill" weight="42.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Thieves"></attvalue>
+          <attvalue for="character2" value="Gadshill"></attvalue>
+          <attvalue for="character1_words" value="2"></attvalue>
+          <attvalue for="character2_words" value="40"></attvalue>
+          <attvalue for="sharedlines" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="264" source="33" target="19" label="Thieves --- Bardolph" weight="5.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Thieves"></attvalue>
+          <attvalue for="character2" value="Bardolph"></attvalue>
+          <attvalue for="character1_words" value="2"></attvalue>
+          <attvalue for="character2_words" value="3"></attvalue>
+          <attvalue for="sharedlines" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="265" source="33" target="27" label="Thieves --- Sir John Falstaff" weight="532.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Thieves"></attvalue>
+          <attvalue for="character2" value="Sir John Falstaff"></attvalue>
+          <attvalue for="character1_words" value="2"></attvalue>
+          <attvalue for="character2_words" value="530"></attvalue>
+          <attvalue for="sharedlines" value="57"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="266" source="33" target="28" label="Thieves --- Poins" weight="73.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Thieves"></attvalue>
+          <attvalue for="character2" value="Poins"></attvalue>
+          <attvalue for="character1_words" value="2"></attvalue>
+          <attvalue for="character2_words" value="71"></attvalue>
+          <attvalue for="sharedlines" value="11"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="267" source="33" target="29" label="Thieves --- Peto" weight="9.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="character1" value="Thieves"></attvalue>
+          <attvalue for="character2" value="Peto"></attvalue>
+          <attvalue for="character1_words" value="2"></attvalue>
+          <attvalue for="character2_words" value="7"></attvalue>
+          <attvalue for="sharedlines" value="2"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
