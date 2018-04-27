@@ -7,18 +7,35 @@
         <Document ID="F6A88C62-2FF2-49F5-AE86-5D5626073CDC">
             <Title>Text 4</Title>
         </Document>
+        <Document ID="CBCDB773-FC9D-476D-A9CD-949F49A7B3E9">
+            <Title>results</Title>
+        </Document>
         <Document ID="AF76FEE3-CF5C-4A2A-85ED-B1FC1A47433A">
             <Title>Interesting Passage</Title>
+        </Document>
+        <Document ID="14D142AD-7336-453F-AF5C-E2094B27F91F">
+            <Title>conclusion: extensibility</Title>
+            <Text>The networks thus provide a framework for discussion of the plays’ structure separately from their content. 37 plays is a small scale for this approach: future work will expand beyond a single author.
+
+Our parser successfully and rapidly produces sophisticated social network graphs of marked up plays. We have used these networks as a supplement to close-reading Shakespeare’s oeuvre, and as a tool to explore complex relationships between Early Modern theatrical genres.
+
+Our first 37 networks are available online in an interactive format to allow others to pose their own questions for future work on Shakespeare’s networks.
+
+However, since the parser is highly extensible and can be used with any plays available in TEI encoding, future work need not be restricted to the Early Modern period. It need not even be restricted to works written in English. We are implementing features to translate between different XML tag sets to further extend its applicability.
+
+Narrative structures and the social position of characters within their fictional worlds can both be difficult to concretely articulate and compare. Our networks of the well-studied works of Shakespeare can provide a baseline against which to contextualize analysis of these elements in works for which there is far less critical consensus.</Text>
         </Document>
         <Document ID="47756D3D-3235-4B59-9AD3-FB09C78CA10C">
             <Title>abstract (1000 wds)</Title>
         </Document>
+        <Document ID="F84533BF-7528-4B09-8F17-72999A9545D7">
+            <Title>results</Title>
+        </Document>
         <Document ID="3459DF35-B75F-43AE-A0F6-8017AC3FF1DA">
             <Title>brief summary</Title>
-            <Text>Our inquiry considers the speech interactions of characters within plays as a proxy for narrative structure. We generated social networks from XML marked up editions of all of Shakespeare’s plays. The networks capture character speech as a directional connection between the speaker and all characters present to hear their speech, weighted by the number of words spoken. We explore correlations between the mathematical properties of the networks and dramatic genre. We have also made these networks available and manipulable online. These networks may be of interest to scholars of Shakespeare, and allow another approach to discussions of generic hybridity in early modern drama. The project as a whole may also provide a way to make comparisons within large corpora of plays.</Text>
-        </Document>
-        <Document ID="E178C43A-001E-4C14-8C4B-1F41E853FF49">
-            <Title>Secondary Texts</Title>
+            <Text>Our inquiry considers the speech interactions of characters within plays as a proxy for narrative structure. We generated social networks from XML marked up editions of all of Shakespeare’s plays. The networks capture character speech as a directional connection between the speaker and all characters present to hear their speech, weighted by the total number of shared scenes between two characters. We find that social networks can be used to accurately distinguish between Shakespeare’s comedies, tragedies, and histories.
+
+We explore correlations between the mathematical properties of the networks and dramatic genre. We have also made these networks available and manipulable online. These networks may be of interest to scholars of Shakespeare, and allow another approach to discussions of generic hybridity in early modern drama. The project as a whole may also provide a way to make comparisons within large corpora of plays.</Text>
         </Document>
         <Document ID="46DC9C7F-C12F-4039-AECE-3F50E817499A">
             <Title>social networks from XML</Title>
@@ -37,8 +54,8 @@ However, since the parser is highly extensible and can be used with any plays av
 
 Narrative structures and the social position of characters within their fictional worlds can both be difficult to concretely articulate and compare. Our networks of the well-studied works of Shakespeare can provide a baseline against which to contextualize analysis of these elements in works for which there is far less critical consensus.</Text>
         </Document>
-        <Document ID="107AFE45-20D7-4220-BAE2-1EF5363E4B54">
-            <Title>Works Cited</Title>
+        <Document ID="E178C43A-001E-4C14-8C4B-1F41E853FF49">
+            <Title>Secondary Texts</Title>
         </Document>
         <Document ID="F843BB09-AAC2-4AF8-B57D-DDF48E8D60DD">
             <Title>Text 2</Title>
@@ -54,6 +71,63 @@ However, as fictions, these networks are shaped not only by sociological princip
 Recent papers presented at DH2017 sought ways to richly quantify the details of one or two plays (Fischer et al. 2017, Tonra et al. 2017). At another scale, Algee-Hewitt examined 3,439 plays by looking only at the Gini Coefficient of each play’s eigenvector centrality (2017). With our three dozen plays, we attempt to strike a fruitful middle ground in the inevitable balancing act between detail and scale. Each play is considered individually, but at a level of abstraction which allows rapid and direct comparisons.
 </Text>
         </Document>
+        <Document ID="107AFE45-20D7-4220-BAE2-1EF5363E4B54">
+            <Title>Works Cited</Title>
+        </Document>
+        <Document ID="E173CE3F-268F-460A-907C-87D5FB65452B">
+            <Title>intro: network = plot</Title>
+            <Text># Introduction
+
+Our inquiry considers the speech interactions of characters within plays as a proxy for broad narrative structures. We analyze computationally-generated social networks of 37 plays by Shakespeare to see whether, and how, they can be used to distinguish between Shakespeare’s comedies, tragedies, and histories.
+
+Because dramatic performances enact social encounters, social network analysis translates surprisingly well to fictional societies. Stiller et al. have shown that social networks in Shakespeare’s plays mirror those of real human interactions, particularly in size, clustering, and maximum degrees of separation (2003). However, as fictions, these networks are shaped not only by sociological principles, but also by narrative structures. Moretti uses social networks to examine the plots of three Shakespearean tragedies, and to contrast the structure of chapters in English and Chinese novels (2011). Alberich et al. (2002) and Sparavigna (2013) also discuss the interplay between social and narrative constraints on networks. We emphasize this distinction to look for specifically literary features of our networks.
+
+Recent papers presented at DH2017 sought ways to richly quantify the details of one or two plays (Fischer et al. 2017, Tonra et al. 2017). At another scale, Algee-Hewitt examined 3,439 plays by looking only at the Gini Coefficient of each play’s eigenvector centrality (2017). With our three dozen plays, we attempt to strike a fruitful middle ground in the inevitable balancing act between detail and scale. Each play is considered individually, but at a level of abstraction which allows rapid and direct comparisons.</Text>
+        </Document>
+        <Document ID="0EBEA81A-9D08-4632-8C84-F9989D1C54A2">
+            <Title>results</Title>
+            <Text># Findings
+
+Using a computational parser also allows us to easily expand our comparisons to the rest of Shakespeare’s oeuvre.
+
+Using fivefold validation, we were able to show that social networks can be used to identify whether plays are labelled as tragedy, history, comedy. We considered 17 different mathematical features of the networks; no one feature was sufficient to identify the genre, though “graph density” came closest (83% accuracy). One combination which does achieve 100% accuracy is “edges, words, and degree”. (Other combos might also be able to do it, including maybe a pair, but one combo is sufficient to prove that ID based on network is possible.)
+
+All these metrics seem to reflect [underlying patterns in dramatic structures.] We have found several metrics useful for identifying comedies and histories. Interestingly, the networks of tragedies seem to represent a middle ground between histories and comedies, and are difficult to discuss directly. We find histories more strongly distinguished from comedies and tragedies than comedies and tragedies are from each other, a distinction largely driven by the substantially higher numbers of peripheral characters in history plays. Histories also feature highly dispersed networks (high criticality, modularity, and eccentricity, and low betweenness centrality) in which paired connections form chains of acquaintance, but even the monarchs have low eigenvector centrality. Comedies, in contrast, are distinguished by densely interconnected networks. Although comedies often have multiple subplots, these separate stories do not result in highly-separated networks. We theorize that comedic networks are strongly shaped by the plays’ final “resolution” scenes, which bring together the full cast, and contrast these with the rhythms of character entrances and exits in tragic endings. Relatedly, the average eigenvector centrality of the characters in comedies is much higher than in tragedies or histories; this suggests that many more of the characters in a comedy are “important,” reflecting a focus on ensemble stories.
+
+With this preliminary validation we can step back and look at Shakespeare’s various contested genres. The “Roman plays” are the simplest: they are unquestionably tragedies, not histories, with the possible exception of Antony and Cleopatra. 
+
+We find that the three “problem plays” fall among the comedies for nearly every measure we consider. We don’t claim that this “solves” the question of genre for these plays, but rather propose it as support for literary arguments that the “problem” lies in a mismatch between a comedic structure and un-comedic subject matter.
+
+The networks of the three “romances” are more structurally ambiguous, supporting literary arguments that Shakespeare’s writing had grown more experimental at the end of his career. The edges and degree are what dominate and place the romances squarely into comedies, even though the words are more like the tragedies (i.e., shorter).  So, the structure of the social network says "Comedy" but the length of the play says "Tragedy.” </Text>
+        </Document>
+        <Document ID="9EC3E216-A789-4481-AB3F-C5EC7F9CBFCF">
+            <Title>results</Title>
+        </Document>
+        <Document ID="E50D90EC-1BB7-443B-B9BB-1FD2ABA675E7">
+            <Title>parser</Title>
+            <Text># Methods
+
+We built a parser that turns TEI-encoded plays into social network graphs.
+
+Our parser uses the &lt;role&gt; and &lt;who&gt; tags to build a cast list for each play, and proceeds through the play using &lt;div&gt; tags to determine scene boundaries. Scenes are further subdivided into “blocks” based on character exits and entrances, to track who is on stage throughout the scene. If a character speaks or is mentioned in a stage direction, and has not been named in an exit, they are assumed to be present on stage and able to hear all speech.
+Each speaking character is connected to all the characters present to hear their speech, with characters as nodes and shared scenes as edges.
+
+
+weighted by the total number of shared scenes between two characters.
+
+although our parser has not solved the problem of guessing the specific addressees of a character’s speech, and instead tracks characters present on stage during speech, its simplifications allow it to be remarkably extensible.
+It could be used to parse any play that follows TEI P5 guidelines for performance texts, using &lt;who&gt; tags with standardized names and marking act and scene divisions with &lt;div&gt; tags.
+</Text>
+        </Document>
+        <Document ID="72857ABA-3E54-49A8-B8C3-6485AEB8DB08">
+            <Title>paragraph to snowflake</Title>
+            <Text>Our hypothesis was that the social networks of plays would be distinctively shaped by their narrative structures / plots, thus allowing large groups of plays to be compared based on said narrative structures.
+We built a parser that turns TEI-encoded plays into social network graphs.
+We started with Shakespeare because there’s a lot of work on Shakespeare. Our Hamlet graph matches Moretti’s, and ditto his other tragedy graphs. We were also able to graph all the other plays, too. Using fivefold validation, we were able to show that social networks can be used to identify whether plays are labelled as tragedy, history, comedy. We considered 17 different mathematical features of the networks; no one feature was sufficient to identify the genre, though “graph density” came closest (83% accuracy). One combination which does achieve 100% accuracy is “edges, words, and degree”. (Other combos might also be able to do it, including maybe a pair, but one combo is sufficient to prove that ID based on network is possible.)
+With this preliminary validation we can step back and look at Shakespeare’s various contested genres. The “problem plays” look unproblematically like comedies, suggesting that it’s their content rather than their form which makes them problematic. Similarly, the “Roman plays” are unquestionably tragedies, not histories, with the possible exception of Antony and Cleopatra. However, the hybrid form of the “romances” or “tragicomedies” is more structural: the edges and degree are what dominate and place the romances squarely into comedies, even though the words are more like the tragedies (i.e., shorter).  So, the structure of the social network says "Comedy" but the length of the play says "Tragedy.”
+The networks thus provide a framework for discussion of the plays’ structure separately from their content. 37 plays is a small scale for this approach: future work will expand beyond a single author.
+</Text>
+        </Document>
         <Document ID="AD1BA0E3-0A24-440D-8869-AF66460A5641">
             <Title>writing timeline</Title>
             <Text>
@@ -66,16 +140,66 @@ June 26 - DH2018</Text>
         <Document ID="82671909-9DA8-4F11-BAFE-F323D922EC73">
             <Title>Text 3</Title>
         </Document>
+        <Document ID="CE302B66-EEAD-4E74-8830-5033E5AA8B3E">
+            <Title>Manisha's email</Title>
+            <Text>Good Morning Lawrence,
+
+I went through the draft and it looks amazing. I wanted to add few details:
+
+How are the edge weights calculated? 
+Weight of an edge is calculated by total number of shared scenes between two characters. 
+
+How detailed does the markup have to be before it works?
+Only markups we look into are, role -  to fetch castlist in the current play,  who - to capture who is in the scene, speaker - who is currently speaking, div with special id (which i think can be admired better if there was a tag to distinguish between scene and act) to distinguish between act and scene. Each act has a special id and this id has a specific extension for each scene in the corresponding act, l and ab - to get the lines spoken by a speaker.
+ 
+Finding
+Graph density is able to distinguish between different genre with an accuracy of (83.33%). No single metric is able to distinguish the genre 100% on its own. However a combination of few metrics give excellent result as compared to combination of all metrics taken together.
+ 
+Results 
+ 
+Data is divided as following:
+1. Balanced and Unbalanced 
+2. All vs Without Problem Plays
+ 
+When trained through SVM using one _vs_one technique, we get following results  when considering " Edges, Words and Degree". 
+ 
+
+ 
+Balanced(Accuracy%)
+Unbalanced(Accuracy%)
+All Data
+100
+100
+Without Problem Plays
+67
+83
+
+Observations:
+1. More data provides better accuracy.
+2. Problem plays don't reduce classifier's accuracy.
+
+Let me know in case you need any other details.
+
+With Best Regards,
+Manisha Shukla
+
+
+I wanted to add one more thing. It is very easy to find out speaker is speaking to whom in a particular sentence with the help of xml tags. However TEI encoding doesn't provide that kind of tagging for the plays. As far as my understanding, in order to tag plays someone has to manually go through the text. If tagging is done manually it is just a matter of adding one more tag. Dr. Gauch can clarify further if I understand this part correctly. </Text>
+        </Document>
         <Document ID="E66EFAB6-E367-463C-AC2B-A573A8BF13EA">
             <Title>closing</Title>
-            <Text>The most exciting part about all of this, for me, is that the program ought to be able to run on any TEI-encoded play. I’m personally hoping to use it on a corpus I’m building of eighteenth century plays in English and French, but we would love to hear from scholars who have their own corpora of TEI-encoded plays which they’d like to explore as social networks.
+            <Text>
 
-[Slide: all our contact info]</Text>
+The most exciting part about all of this, for me, is that the program ought to be able to run on any TEI-encoded play. I’m personally hoping to use it on a corpus I’m building of eighteenth century plays in English and French, but we would love to hear from scholars who have their own corpora of TEI-encoded plays which they’d like to explore as social networks.</Text>
+        </Document>
+        <Document ID="0B251A0C-D6A3-4FD8-B128-C73938628FD3">
+            <Title>IDs illuminate problem plays</Title>
         </Document>
         <Document ID="8F78AFE0-51A4-473F-9F62-7476C7A09638">
             <Title>response to reviewers</Title>
             <Text>
 To briefly address questions about the parser: although our parser has not solved the problem of guessing the specific addressees of a character’s speech, and instead tracks characters present on stage during speech, its simplifications allow it to be remarkably extensible. It could be used to parse any play that follows TEI P5 guidelines for performance texts, using &lt;speaker&gt; tags with standardized character names and marking act and scene divisions with &lt;div&gt; tags. The parser also examines scene descriptions to see if there are characters present who do not speak, but would function reasonably robustly if scene descriptions were absent. We intend to use the parser on a body of eighteenth century plays for the next phase of the project, demonstrating its versatility.
+— Only markups we look into are, role -  to fetch castlist in the current play,  who - to capture who is in the scene, speaker - who is currently speaking, div with special id (which i think can be admired better if there was a tag to distinguish between scene and act) to distinguish between act and scene. Each act has a special id and this id has a specific extension for each scene in the corresponding act, l and ab - to get the lines spoken by a speaker.
 
 The majority of reviewers requested more detail on our literary arguments. Our assessment is likely to be further refined as we return to the literary criticism on the topic, but we have found several metrics useful for identifying comedies and histories. Interestingly, the networks of tragedies seem to represent a middle ground between histories and comedies, and are difficult to discuss directly.
 
@@ -90,21 +214,47 @@ We look forward to presenting the graphs of all 37 plays (which unfortunately ca
         <Document ID="371B9CB6-E720-40E5-BBBA-0FAD3841DE6D">
             <Title>Primary Text</Title>
         </Document>
+        <Document ID="A5EB58CA-CCE2-418C-8630-DD33035E4FA7">
+            <Title>validated on shakey</Title>
+            <Text>To verify that our tool is accurate, we compare our generated network of Hamlet to Moretti’s well-known handmade model of that play (2011). Despite some minor differences in how we handle the most peripheral characters like “Servant”, the two networks are highly similar. In both, Hamlet has the highest node centrality (the measure of connectedness which Moretti uses as a proxy for his status as protagonist) and highest node degree (the number of times he speaks or is spoken to), with Claudius, Gertrude, and Horatio similar but lagging behind. We concur with Moretti’s literary interpretation of these mathematical features.
+
+Our tool improves on Moretti’s model by adding direction and weight to each connection. Although this level of detail turned out not to be necessary for the network graphs to accurately distinguish between Shakespeare’s genres, future work may explore [in more detail]. To enable other scholars to [explore in more detail], visualizations and selected quantitative properties for each play’s network are available in an interactive tool online.</Text>
+        </Document>
         <Document ID="98E3DF85-7179-4600-8398-A3C348C4BFCB">
             <Title>Text 5</Title>
         </Document>
+        <Document ID="C2FF2190-7C80-49EB-B1F9-BF0260DCDDA3">
+            <Title>who attribute</Title>
+            <Text>The who attribute and the speaker element are both used to indicate the speaker or speakers of a speech, but in rather different ways. The speaker element is used to encode the word or phrase actually used within the source text to indicate the speaker: it may contain any string or prefix, and may be thought of as a highly specialized form of stage direction. The who attribute however contains one or more pointer values, each of which indicates one or more other XML elements documenting the character to whom the speech is assigned. Typically, this attribute might point to a person element in the TEI header 15.2.2 The Participant Description, to a roleelement in the cast list 7.1.4 Cast Lists, or even to some external source such as an online handbook of dramatic roles. The most usual case is that the pointer value supplied (prefixed by a sharp sign) corresponds with the value of an xml:id attribute, used elsewhere in the document to identify a particular element</Text>
+        </Document>
         <Document ID="DA58E28A-80BC-4CE6-8E69-0137C8BD8EF2">
             <Title>methods</Title>
-            <Text>We generated social networks from XML files of Shakespeare’s 37 plays, with characters as nodes and directional speech as edges. Previous scholars’ work regularizing character names through TEI markup allows the parser to use the tagged character names and stage directions to track who is present on stage as each scene proceeds. This fine-grained approach breaks each scene into many smaller ‘blocks’ based on the configuration of characters on stage, reducing false positives caused by characters who appear in the same scene but at different times. Each speaking character is connected to all the characters present to hear their speech, weighted by the number of words spoken.
+            <Text>We generated social networks from XML files of Shakespeare’s 37 plays, with characters as nodes and directional speech as edges. Previous scholars’ work regularizing character names through TEI markup allows the parser to use the tagged character names and stage directions to track who is present on stage as each scene proceeds. This fine-grained approach breaks each scene into many smaller ‘blocks’ based on the configuration of characters on stage, reducing false positives caused by characters who appear in the same scene but at different times. Each speaking character is connected to all the characters present to hear their speech, weighted by the total number of shared scenes between two characters.
 
 The resulting 37 networks are visualized and analyzed in Gephi. Visualizations and selected quantitative properties for each play’s network are available online in an interactive tool, to allow additional exploration beyond our study.</Text>
         </Document>
         <Document ID="0B30F935-4B83-4B15-90B1-1AE2628BE383">
             <Title>Stray Thoughts</Title>
         </Document>
+        <Document ID="28FF136A-756A-4791-BB14-215AF2E76D14">
+            <Title>principle of play = network</Title>
+            <Text>Our inquiry considers the speech interactions of characters within plays as a proxy for narrative structure.
+Because dramatic performances enact social encounters, social network analysis translates surprisingly well to fictional societies. Stiller et al. have shown that social networks in Shakespeare’s play mirror those of real human interactions, particularly in size, clustering, and maximum degrees of separation (2003). These similarities lend validity to discussions of individual characters filling specific roles in their social networks, particularly in terms of connectedness and cliques.
+
+However, as fictions, these networks are shaped not only by sociological principles, but also by narrative structures. Moretti uses social networks to examine the plots of three Shakespearean tragedies, and to contrast the structure of chapters in English and Chinese novels (2011). Alberich et al. (2002) and Sparavigna (2013) also discuss the interplay between social and narrative constraints on networks. We emphasize this distinction to look for specifically literary features of our networks.
+
+Recent papers presented at DH2017 sought ways to richly quantify the details of one or two plays (Fischer et al. 2017, Tonra et al. 2017). At another scale, Algee-Hewitt examined 3,439 plays by looking only at the Gini Coefficient of each play’s eigenvector centrality (2017). With our three dozen plays, we attempt to strike a fruitful middle ground in the inevitable balancing act between detail and scale. Each play is considered individually, but at a level of abstraction which allows rapid and direct comparisons.</Text>
+        </Document>
         <Document ID="A9567FC6-8182-42CF-89BB-2C58CE534BE7">
             <Title>Works Referenced</Title>
             <Text>https://www.sci.unich.it/~francesc/teaching/network/components.html</Text>
+        </Document>
+        <Document ID="BCB1301A-7425-446B-8A59-45F66955444C">
+            <Title>Brandon Cox</Title>
+            <Text>Over the last few years, Dr. Susan Gauch’s team have created a program that takes in specially-formatted versions of Shakespeare’s plays and converts them into their social networks. A current graduate student created a program that derives a set of values from a social network. From each social network, 17 different values are extracted. These values include number of characters, number of edges, number of lines spoken in the play, number of words in the play, and other numerical properties. These values are the basis for the research presented in this project. 
+The similarity of two literary plays was computed based on the properties derived from the social networks of both literary plays. This was done by taking a weighted sum of the differences of each property derived from the social networks of the plays. This overall difference was then plugged into the second equation on the right to normalize it between 0 and 1. 
+The weights were calculated using a genetic algorithm. The genetic algorithm tried to reach a solution that rated two plays of the same genre as more similar than two plays of a different genre. 
+</Text>
         </Document>
         <Document ID="98A9D128-12D2-4864-B336-DAE7091C5093">
             <Title>interpretation</Title>
@@ -134,7 +284,7 @@ Narrative structures and the social position of characters within their fictiona
             <Title>findings</Title>
             <Text>To verify that our tool is accurate, we compare our generated network of Hamlet to Moretti’s well-known handmade model of that play (2011). Despite some minor differences in how we handle the most peripheral characters like “Servant”, the two networks are highly similar. In both, Hamlet has the highest node centrality (the measure of connectedness which Moretti uses as a proxy for his status as protagonist) and highest node degree (the number of times he speaks or is spoken to), with Claudius, Gertrude, and Horatio similar but lagging behind. We concur with Moretti’s literary interpretation of these mathematical features.
 
-Our tool improves on Moretti’s model by adding direction and weight to each connection. It becomes possible to identify characters with strongly varying in-degree and out-degree measures (either speaking to others substantially more than they are spoken to, or the reverse), which we explore as a metric of the character’s social rank. These added details reinforce Moretti’s literary arguments about Shakespearean tragedy, but also enable a more nuanced comparison between Hamlet and other plays.
+Our tool improves on Moretti’s model by adding direction and weight to each connection. It becomes possible to identify characters with strongly varying in-degree and out-degree measures (either speaking to others substantially more than they are spoken to, or the reverse), which we explore as a metric of the character’s social rank. These added details reinforce Moretti’s literary arguments about Shakespearean tragedy, but also enable comparison between Hamlet and other plays.
 
 Using a computational parser also allows us to easily expand our comparisons to the rest of Shakespeare’s oeuvre, including more minor works. We discuss the literary implications of the social networks of some of Shakespeare’s less-studied plays, such as Antony &amp; Cleopatra.
 

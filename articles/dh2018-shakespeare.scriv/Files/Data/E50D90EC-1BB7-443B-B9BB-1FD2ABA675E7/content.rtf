@@ -6,8 +6,6 @@
 
 \f0\fs22 \cf0 # Methods\
 \
-## Creating the Social Network Graphs\
-\
 
 \i We built a parser that turns TEI-encoded plays into social network graphs.\
 \
@@ -18,4 +16,7 @@ Each speaking character is connected to all the characters present to hear their
 \
 \
 weighted by the total number of shared scenes between two characters.\
+\
+although our parser has not solved the problem of guessing the specific addressees of a character\'92s speech, and instead tracks characters present on stage during speech, its simplifications allow it to be remarkably extensible.\
+It could be used to parse any play that follows TEI P5 guidelines for performance texts, using <who> tags with standardized names and marking act and scene divisions with <div> tags.\
 }

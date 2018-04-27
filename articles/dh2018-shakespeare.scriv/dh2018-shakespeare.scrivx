@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="5DAAC856-7D9D-4BE2-A551-6F35B3E62E69" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise" Author="Lawrence Evalyn" Modified="2018-04-24 00:03:26 -0700" ModID="B5ECB1CA-89F4-4E3C-9AF5-11814D013790">
+<ScrivenerProject Identifier="5DAAC856-7D9D-4BE2-A551-6F35B3E62E69" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise" Author="Lawrence Evalyn" Modified="2018-04-25 18:56:10 -0700" ModID="9BAB3C61-1B75-472E-AEDE-0ED202128FB6">
     <Binder>
         <BinderItem UUID="DDF8AC31-4A85-4C8C-AE97-38C38E121C00" Type="DraftFolder" Created="2018-01-23 12:15:25 -0800" Modified="2018-01-23 12:15:25 -0800">
             <Title>Draft</Title>
@@ -27,7 +27,7 @@
                                 <TextSelection>647,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="E50D90EC-1BB7-443B-B9BB-1FD2ABA675E7" Type="Text" Created="2018-04-19 16:08:30 -0700" Modified="2018-04-23 20:35:15 -0700">
+                        <BinderItem UUID="E50D90EC-1BB7-443B-B9BB-1FD2ABA675E7" Type="Text" Created="2018-04-19 16:08:30 -0700" Modified="2018-04-24 00:42:18 -0700">
                             <Title>parser</Title>
                             <MetaData>
                                 <LabelID>2</LabelID>
@@ -37,37 +37,27 @@
                                 <TextSelection>837,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="A5EB58CA-CCE2-418C-8630-DD33035E4FA7" Type="Text" Created="2018-04-19 16:08:33 -0700" Modified="2018-04-23 19:25:18 -0700">
+                        <BinderItem UUID="A5EB58CA-CCE2-418C-8630-DD33035E4FA7" Type="Text" Created="2018-04-19 16:08:33 -0700" Modified="2018-04-24 00:40:51 -0700">
                             <Title>validated on shakey</Title>
                             <MetaData>
-                                <LabelID>1</LabelID>
+                                <LabelID>2</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
                                 <TextSelection>145,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="0EBEA81A-9D08-4632-8C84-F9989D1C54A2" Type="Text" Created="2018-04-23 19:25:39 -0700" Modified="2018-04-23 19:27:29 -0700">
-                            <Title>networks can ID genre</Title>
+                        <BinderItem UUID="0EBEA81A-9D08-4632-8C84-F9989D1C54A2" Type="Text" Created="2018-04-23 19:25:39 -0700" Modified="2018-04-24 00:46:48 -0700">
+                            <Title>results</Title>
                             <MetaData>
                                 <LabelID>1</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>542,0</TextSelection>
+                                <TextSelection>1366,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="0B251A0C-D6A3-4FD8-B128-C73938628FD3" Type="Text" Created="2018-04-23 19:25:57 -0700" Modified="2018-04-23 19:27:29 -0700">
-                            <Title>IDs illuminate problem plays</Title>
-                            <MetaData>
-                                <LabelID>1</LabelID>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>707,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="14D142AD-7336-453F-AF5C-E2094B27F91F" Type="Text" Created="2018-04-23 19:27:16 -0700" Modified="2018-04-23 19:27:36 -0700">
+                        <BinderItem UUID="14D142AD-7336-453F-AF5C-E2094B27F91F" Type="Text" Created="2018-04-23 19:27:16 -0700" Modified="2018-04-24 00:47:23 -0700">
                             <Title>conclusion: extensibility</Title>
                             <MetaData>
                                 <LabelID>1</LabelID>
@@ -398,7 +388,7 @@
                                         <TextSelection>461,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="1F0B7B02-6656-4A4F-B0D9-AE2AEF29A9D6" Type="Text" Created="2018-01-23 12:19:16 -0800" Modified="2018-04-23 22:12:41 -0700">
+                                <BinderItem UUID="1F0B7B02-6656-4A4F-B0D9-AE2AEF29A9D6" Type="Text" Created="2018-01-23 12:19:16 -0800" Modified="2018-04-24 00:33:54 -0700">
                                     <Title>findings</Title>
                                     <MetaData>
                                         <LabelID>4</LabelID>
@@ -538,6 +528,16 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
+                <BinderItem UUID="0B251A0C-D6A3-4FD8-B128-C73938628FD3" Type="Text" Created="2018-04-23 19:25:57 -0700" Modified="2018-04-24 00:41:18 -0700">
+                    <Title>IDs illuminate problem plays</Title>
+                    <MetaData>
+                        <LabelID>1</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
             </Children>
         </BinderItem>
     </Binder>
@@ -593,9 +593,9 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2013-04-01 23:21:51 -0700" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="1166" Characters="7578" Date="2018-04-20 21:43:58 -0700"></PreviousSession>
+        <PreviousSession Words="1812" Characters="11842" Date="2018-04-20 21:43:58 -0700"></PreviousSession>
     </ProjectTargets>
-    <RecentWritingHistory Date="2018-04-24 00:00:00 -0700">
+    <RecentWritingHistory Date="2018-04-25 00:00:00 -0700">
         <DraftWordCount>0</DraftWordCount>
         <DraftCharCount>0</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>

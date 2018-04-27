@@ -104,27 +104,29 @@
 <p class="itemTitle">parser</p>
 <p class="itemText"># Methods</p>
 <p class="itemText"></p>
-<p class="itemText">## Creating the Social Network Graphs</p>
-<p class="itemText"></p>
 <p class="itemText">We built a parser that turns TEI-encoded plays into social network graphs.</p>
 <p class="itemText"></p>
-<p class="itemText">We generated social networks from XML files of Shakespeare’s 37 plays, with characters as nodes and directional speech as edges. Previous scholars’ work regularizing character names through TEI markup allows the parser to use the tagged character names and stage directions to track who is present on stage as each scene proceeds. This fine-grained approach breaks each scen...</p>
+<p class="itemText">Our parser uses the <role> and <who> tags to build a cast list for each play, and proceeds through the play using <div> tags to determine scene boundaries. Scenes are further subdivided into “blocks” based on character exits and entrances, to track who is on stage throughout the scene. If a character speaks or is mentioned in a stage direction, and has not been named in an exit, they are assumed to be present ...</p>
 </li>
 <li>
 <p class="itemTitle">validated on shakey</p>
-<p class="itemText">We started with Shakespeare because there’s a lot of work on Shakespeare. Our Hamlet graph matches Moretti’s, and ditto his other tragedy graphs.</p>
+<p class="itemText">To verify that our tool is accurate, we compare our generated network of Hamlet to Moretti’s well-known handmade model of that play (2011). Despite some minor differences in how we handle the most peripheral characters like “Servant”, the two networks are highly similar. In both, Hamlet has the highest node centrality (the measure of connectedness which Moretti uses as a proxy for his status as protagonist) and highest node degree (the number of times he speaks or is spoken to), with Claudius, G...</p>
 </li>
 <li>
-<p class="itemTitle">networks can ID genre</p>
-<p class="itemText">Using fivefold validation, we were able to show that social networks can be used to identify whether plays are labelled as tragedy, history, comedy. We considered 17 different mathematical features of the networks; no one feature was sufficient to identify the genre, though “graph density” came closest (83% accuracy). One combination which does achieve 100% accuracy is “edges, words, and degree”. (Other combos might also be able to do it, including maybe a pair, but one combo is sufficient to pr...</p>
-</li>
-<li>
-<p class="itemTitle">IDs illuminate problem plays</p>
-<p class="itemText">With this preliminary validation we can step back and look at Shakespeare’s various contested genres. The “problem plays” look unproblematically like comedies, suggesting that it’s their content rather than their form which makes them problematic. Similarly, the “Roman plays” are unquestionably tragedies, not histories, with the possible exception of Antony and Cleopatra. However, the hybrid form of the “romances” or “tragicomedies” is more structural: the edges and degree are what dominate and ...</p>
+<p class="itemTitle">results</p>
+<p class="itemText"># Findings</p>
+<p class="itemText"></p>
+<p class="itemText">Using a computational parser also allows us to easily expand our comparisons to the rest of Shakespeare’s oeuvre.</p>
+<p class="itemText"></p>
+<p class="itemText">Using fivefold validation, we were able to show that social networks can be used to identify whether plays are labelled as tragedy, history, comedy. We considered 17 different mathematical features of the networks; no one feature was sufficient to identify the genre, though “graph density” came closest (83% accuracy). One combination which does achieve 100% accuracy is “...</p>
 </li>
 <li>
 <p class="itemTitle">conclusion: extensibility</p>
 <p class="itemText">The networks thus provide a framework for discussion of the plays’ structure separately from their content. 37 plays is a small scale for this approach: future work will expand beyond a single author.</p>
+<p class="itemText"></p>
+<p class="itemText">Our parser successfully and rapidly produces sophisticated social network graphs of marked up plays. We have used these networks as a supplement to close-reading Shakespeare’s oeuvre, and as a tool to explore complex relationships between Early Modern theatrical genres.</p>
+<p class="itemText"></p>
+<p class="itemText">Our first 37 networks are ...</p>
 </li>
 </ul>
 <hr class="afterText"/>

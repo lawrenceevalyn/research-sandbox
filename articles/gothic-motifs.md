@@ -9,47 +9,29 @@ Author: Lawrence Evalyn
 
 Women Aren’t Weird, Men Are Weird (And We’re Sexist)
 
+## new title ideas ##
+
+Uncovering the indicators of men’s authorship in the 18thC gothic: Putrefaction, caves, and incest
+Predictive features of men’s and women’s 18thC Gothics at large (at scale? En masse?)
+Critical reception of women / creative realms of men
+
 # intro: problems with Female Gothic #
 
 ## opening: the mass of Radcliffean imitators ##
 
-[Paint a word picture of Radcliffe, ‘the Great Enchantress,’ and the mobs of scribbling women who copy her]
+The Gothic novel in the 1790s comes with its own conventional narrative. Ann Radcliffe, the “Great Enchantress,” enthrals audiences for a decade with literary blockbusters which are gobbled up by women who scribble their own novels in response. The marketplace is glutted with these unskilled copies of Radcliffe, written by authoresses eager for Radcliffe’s fame or her financial security, trying to replicate Radcliffe’s formula. The popularity of this “school of Radcliffe” is both its threat and its power: eighteenth century reviewers try to dismiss this swelling tide of women’s writing, or at least to condemn it, but the Gothic cannot be ignored. This conventional narrative of female Gothic excess hasn’t been taken as fully factual since those eighteenth century reviewers first coined it — the story of the great flood of women’s Gothic writing is more revelatory of eighteenth century anxieties than it is of eighteenth century print practice — but it is nonetheless a cornerstone of conversation about the Gothic.[ [Be sure to indicate early that scholars have also been complicating / rejecting the simplicity of this narrative from the beginning; somehow any individual writer within the school of radcliffe always turns out to be more than a mere copier; individual works in their details always paint a more complex picture; this is 18thC propaganda that scholars touch on for context]
 
-## opening: the Female Gothic ##
+Lawrence Evalyn 2018-04-27, 9:53 AM] 
+
+[The intensity of 18thC anxiety about women?] proves the subversive power of the “Female Gothic” to express women’s distress under patriarchy. [?]
+
+## history of the Female Gothic ##
 
 This “obviously” female-associated phenomenon led to the critical category of the “Female Gothic” to discuss narratives of women in patriarchal distress. [Retell some conventional definitions here]
 
 Ledoux lists off the standard requirements — “a distressed heroine, domestic incarceration, threats of sexual violence, anxiety about monstrous or absent mothers” (2) — “women’s domestic incarceration, sexual violence, economic disenfranchisement and spectral maternity” (2)
 
-Even Barbara Benedict’s “‘Male’ and ‘Female’ Novels?”, which questions the premise of gender division in its title, refers with assurance to “the subgenre of the female Gothic, which emphasized the uncertainties of perception that heroines suffer in an obscure, dangerous, patriarchal world”.[^cf1] 
-
-Even as Gothic studies grew more complex in other ways, this definition offered something useful in identifying and providing vocabulary for a particular set of texts, so it has been impressively stable.
-
 TODO: cite more definitions of the Female Gothic
-
-## Male Gothic less often / well defined ##
-
-There is less consensus around the Male Gothic.
-
-In the context of attaching the Female Gothic to “the ‘explained supernatural style’” (3), Ledoux also provides definition for the Male Gothic, “in which ghosts, devils and other supernatural phenomena demand a willful suspension of disbelief from the reader” (3)
-I’m surprised to hear Ledoux refer to “the ‘Male Gothic,’ made famous by Horace Walpole and Matthew Lewis” (3), since Walpole is not at all a ‘horror gothic’ writer.
-
-The Female Gothic is often treated as synonymous with the explained supernatural, or the ‘terror’ mode in the terror/horror distinction, but no terminology is used for the ‘unexplained supernatural,’ and horror works by men are called horror, rather than Male Gothic 
-
-David Richter provides definitions based on plot structures: “The ‘female Gothic’ is … a melodrama arousing sympathy and suspense through the unwarranted persecution of an innocent. The ‘male Gothic’ is a punitive tragedy…in which we are made both to desire and to expect the condign punishment of the central figure.”[^cf2]
-
-TODO: Robert Miles’ definition
-TODO: more definitions of the male gothic (or places that fail to define it)
-
-## Men are weird, not women ##
-
-I suggest that our attention to gender has been exactly the opposite of what it should be. 
-
-I follow an increasing number of scholars in turning my attention to a less prescriptive category of “women’s gothic,” presumed to be united only by the fact of its’ creators’ gender, with space for marked diversity within it. I further [push for?] the category of “men’s gothic,” and to the subset of men’s gothic which could not have been written by a woman. [Do I call that subset the Male Gothic?]
-
-# lit review / methods #
-
-## history of the Female Gothic ##
 
 Work that complicates our image the Female Gothic is not new. Almost as soon as the term came into use, scholars have been pushing against its boundaries, grappling with the true diversity of women’s Gothic writing. [TODO: Ellen Moers, and some hint from her regarding the limits.]
 
@@ -65,6 +47,23 @@ The terms “Female Gothic” and “women’s gothic” are both in currency. E
 
 TODO: Robert Miles, Alison Milbank
 
+Even Barbara Benedict’s “‘Male’ and ‘Female’ Novels?”, which questions the premise of gender division in its title, refers with assurance to “the subgenre of the female Gothic, which emphasized the uncertainties of perception that heroines suffer in an obscure, dangerous, patriarchal world”.[^cf1] 
+Even as Gothic studies grew more complex in other ways, this definition offered something useful in identifying and providing vocabulary for a particular set of texts, so it has been impressively stable.
+
+
+## Male Gothic less often / well defined ##
+
+There is less consensus around the Male Gothic.
+
+In the context of attaching the Female Gothic to “the ‘explained supernatural style’” (3), Ledoux also provides definition for the Male Gothic, “in which ghosts, devils and other supernatural phenomena demand a willful suspension of disbelief from the reader” (3)
+I’m surprised to hear Ledoux refer to “the ‘Male Gothic,’ made famous by Horace Walpole and Matthew Lewis” (3), since Walpole is not at all a ‘horror gothic’ writer.
+
+The Female Gothic is often treated as synonymous with the explained supernatural, or the ‘terror’ mode in the terror/horror distinction, but no terminology is used for the ‘unexplained supernatural,’ and horror works by men are called horror, rather than Male Gothic 
+
+David Richter provides definitions based on plot structures: “The ‘female Gothic’ is … a melodrama arousing sympathy and suspense through the unwarranted persecution of an innocent. The ‘male Gothic’ is a punitive tragedy…in which we are made both to desire and to expect the condign punishment of the central figure.”[^cf2]
+
+TODO: Robert Miles’ definition
+TODO: more definitions of the male gothic (or places that fail to define it)
 
 ## Ledoux: Female Gothic isn't real ##
 
@@ -73,6 +72,14 @@ Despite many scholars’ work showing that “women’s early Gothic writing— 
 Ledoux’s history of the criticism sounds about right to me; it was the same deification of Radcliffe that first sent me examining her supposed mass of “copiers.”
 Ledoux sets out to “to explain why the discrepancy between available primary textual material and textual analysis exists and how it came to be,” (2) a task which she accomplishes successfully through a carefully close-read history of nineteenth and twentieth century literary politics.
 My goal is to take up the work of correcting these discrepancies.
+
+## Men are weird, not women ##
+
+[My findings: women aren’t weird, men are weird. We’ve been weird about women.]
+I suggest that our attention to gender has been exactly the opposite of what it should be. 
+I follow an increasing number of scholars in turning my attention to a less prescriptive category of “women’s gothic,” presumed to be united only by the fact of its’ creators’ gender, with space for marked diversity within it. I further [push for?] the category of “men’s gothic,” and especially the subset of men’s gothic which could not have been written by a woman. [Do I call that subset the Male Gothic?]
+
+# lit review / methods #
 
 ## my turn! scale, and predictive power ##
 
