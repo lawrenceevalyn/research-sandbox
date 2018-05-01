@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="5DAAC856-7D9D-4BE2-A551-6F35B3E62E69" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise" Author="Lawrence Evalyn" Modified="2018-05-01 17:18:53 -0400" ModID="D0AE1095-8DE5-4156-8DC6-792E6DE69846">
+<ScrivenerProject Identifier="5DAAC856-7D9D-4BE2-A551-6F35B3E62E69" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise" Author="Lawrence Evalyn" Modified="2018-05-01 18:02:53 -0400" ModID="89E38A7D-270F-4BD1-9790-A100D69E264F">
     <Binder>
         <BinderItem UUID="DDF8AC31-4A85-4C8C-AE97-38C38E121C00" Type="DraftFolder" Created="2018-01-23 15:15:25 -0500" Modified="2018-01-23 15:15:25 -0500">
             <Title>Draft</Title>
@@ -17,49 +17,47 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem UUID="E173CE3F-268F-460A-907C-87D5FB65452B" Type="Text" Created="2018-04-23 22:24:26 -0400" Modified="2018-04-27 13:16:16 -0400">
-                            <Title>intro: network = plot</Title>
+                        <BinderItem UUID="E173CE3F-268F-460A-907C-87D5FB65452B" Type="Text" Created="2018-04-23 22:24:26 -0400" Modified="2018-05-01 18:02:35 -0400">
+                            <Title>Introduction</Title>
                             <MetaData>
                                 <LabelID>4</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>647,0</TextSelection>
+                                <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="E50D90EC-1BB7-443B-B9BB-1FD2ABA675E7" Type="Text" Created="2018-04-19 19:08:30 -0400" Modified="2018-05-01 16:51:14 -0400">
-                            <Title>parser</Title>
+                        <BinderItem UUID="E50D90EC-1BB7-443B-B9BB-1FD2ABA675E7" Type="Text" Created="2018-04-19 19:08:30 -0400" Modified="2018-05-01 18:02:35 -0400">
+                            <Title>Creation of Social Network Graphs</Title>
                             <MetaData>
                                 <LabelID>4</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>837,0</TextSelection>
+                                <TextSelection>1040,0</TextSelection>
                             </TextSettings>
-                            <Children>
-                                <BinderItem UUID="A5EB58CA-CCE2-418C-8630-DD33035E4FA7" Type="Text" Created="2018-04-19 19:08:33 -0400" Modified="2018-05-01 17:01:02 -0400">
-                                    <Title>validated on shakey</Title>
-                                    <MetaData>
-                                        <LabelID>4</LabelID>
-                                        <IncludeInCompile>Yes</IncludeInCompile>
-                                    </MetaData>
-                                    <TextSettings>
-                                        <TextSelection>715,0</TextSelection>
-                                    </TextSettings>
-                                </BinderItem>
-                            </Children>
                         </BinderItem>
-                        <BinderItem UUID="0EBEA81A-9D08-4632-8C84-F9989D1C54A2" Type="Text" Created="2018-04-23 22:25:39 -0400" Modified="2018-05-01 17:18:53 -0400">
-                            <Title>results</Title>
+                        <BinderItem UUID="E355F684-CEBD-41AC-8311-1629CCEF4754" Type="Text" Created="2018-05-01 18:01:43 -0400" Modified="2018-05-01 18:02:35 -0400">
+                            <Title>Using Networks to Identify Genre</Title>
+                            <MetaData>
+                                <LabelID>4</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="0EBEA81A-9D08-4632-8C84-F9989D1C54A2" Type="Text" Created="2018-04-23 22:25:39 -0400" Modified="2018-05-01 18:02:35 -0400">
+                            <Title>Discussion</Title>
                             <MetaData>
                                 <LabelID>2</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>632,0</TextSelection>
+                                <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="14D142AD-7336-453F-AF5C-E2094B27F91F" Type="Text" Created="2018-04-23 22:27:16 -0400" Modified="2018-04-27 13:17:05 -0400">
+                        <BinderItem UUID="14D142AD-7336-453F-AF5C-E2094B27F91F" Type="Text" Created="2018-04-23 22:27:16 -0400" Modified="2018-05-01 17:32:07 -0400">
                             <Title>conclusion: extensibility</Title>
                             <MetaData>
                                 <LabelID>1</LabelID>
@@ -540,6 +538,16 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
+                <BinderItem UUID="A5EB58CA-CCE2-418C-8630-DD33035E4FA7" Type="Text" Created="2018-04-19 19:08:33 -0400" Modified="2018-05-01 18:02:35 -0400">
+                    <Title>validated on shakey</Title>
+                    <MetaData>
+                        <LabelID>4</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
             </Children>
         </BinderItem>
     </Binder>
@@ -595,11 +603,11 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2013-04-02 02:21:51 -0400" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="60" Characters="449" Date="2018-05-01 16:40:45 -0400"></PreviousSession>
+        <PreviousSession Words="82" Characters="534" Date="2018-05-01 16:40:45 -0400"></PreviousSession>
     </ProjectTargets>
     <RecentWritingHistory Date="2018-05-01 00:00:00 -0400">
-        <DraftWordCount>60</DraftWordCount>
-        <DraftCharCount>449</DraftCharCount>
+        <DraftWordCount>82</DraftWordCount>
+        <DraftCharCount>534</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
