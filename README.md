@@ -8,10 +8,10 @@ Research side projects and ideas in development of various kinds. Intentionally 
 
 Process to make shakespeare network graphs:
 
+in Data Laboratory, copy "character1_speech" column to "weight" column
 Apply Force Atlas 2 with Shakey01 defaults
 Apply Fruchterman Reingold.
 Set edge colours "ranking" by weight to grayscale
-in Data Laboratory, copy "character1_speech" column to "weight" column
 in preview, set to Shakey01 preset
 render
 save as png

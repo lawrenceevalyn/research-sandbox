@@ -7,13 +7,14 @@
         <ExpandedItems>
             <ItemID>DDF8AC31-4A85-4C8C-AE97-38C38E121C00</ItemID>
             <ItemID>9EC3E216-A789-4481-AB3F-C5EC7F9CBFCF</ItemID>
+            <ItemID>E50D90EC-1BB7-443B-B9BB-1FD2ABA675E7</ItemID>
             <ItemID>D6E7AB84-B725-416C-B2BE-70320E9FA3D3</ItemID>
             <ItemID>371B9CB6-E720-40E5-BBBA-0FAD3841DE6D</ItemID>
             <ItemID>0B30F935-4B83-4B15-90B1-1AE2628BE383</ItemID>
             <ItemID>11E162E5-C0E0-4764-B847-727FE9DFD9CB</ItemID>
         </ExpandedItems>
         <Selection>
-            <ItemID>9EC3E216-A789-4481-AB3F-C5EC7F9CBFCF</ItemID>
+            <ItemID>0EBEA81A-9D08-4632-8C84-F9989D1C54A2</ItemID>
         </Selection>
     </Binder>
     <Inspector Show="No" View="Notes">
@@ -21,7 +22,7 @@
         <Collapse>CustomMetaData</Collapse>
         <FootnoteNumbers Prompt="No">No</FootnoteNumbers>
     </Inspector>
-    <Split>Vertical</Split>
+    <Split>None</Split>
     <BinderAffects>Current</BinderAffects>
     <Labels>
         <Binder FullWidth="Yes">Yes</Binder>
@@ -62,10 +63,10 @@
                 <ShowHeader>Yes</ShowHeader>
                 <ShowFooter>Yes</ShowFooter>
                 <GroupsViewMode>Scrivenings</GroupsViewMode>
-                <CurrentViewMode>Scrivenings</CurrentViewMode>
+                <CurrentViewMode>Single</CurrentViewMode>
                 <SelectionAffects>None</SelectionAffects>
                 <Content>
-                    <ItemID>9EC3E216-A789-4481-AB3F-C5EC7F9CBFCF</ItemID>
+                    <ItemID>0EBEA81A-9D08-4632-8C84-F9989D1C54A2</ItemID>
                 </Content>
             </View>
             <Text>
@@ -108,11 +109,8 @@
                 <ShowHeader>Yes</ShowHeader>
                 <ShowFooter>Yes</ShowFooter>
                 <GroupsViewMode>Scrivenings</GroupsViewMode>
-                <CurrentViewMode>Scrivenings</CurrentViewMode>
+                <CurrentViewMode>Single</CurrentViewMode>
                 <SelectionAffects>None</SelectionAffects>
-                <Content>
-                    <ItemID>47756D3D-3235-4B59-9AD3-FB09C78CA10C</ItemID>
-                </Content>
             </View>
             <Text>
                 <ShowRuler>No</ShowRuler>
