@@ -100,8 +100,7 @@
 </li>
 <li>
 <p class="itemTitle">Creation of Social Network Graphs</p>
-<p class="itemText"></p>
-<p class="itemText">Although our parser has not solved the problem of guessing the specific addressees of a character’s speech, and instead tracks characters present on stage during speech, its simplifications allow it to be remarkably extensible. It could be used to parse any play that follows TEI P5 guidelines for performance texts. The parser uses the <role> and <who> tags to build a cast list for each play, and proceeds through the play using <div> tags to determine scene boundaries. Scenes are further subdivi...</p>
+<p class="itemText">Although our parser has not solved the problem of guessing the specific addressees of a character’s speech, and instead tracks characters present on stage during speech, its simplifications allow it to be remarkably extensible. It could be used to parse any play that follows TEI P5 guidelines for performance texts. Each speaking character is connected to all characters currently present on stage. These connections are recorded in a network graph, with characters as nodes and shared speech as edg...</p>
 </li>
 <li>
 <p class="itemTitle">Using Networks to Identify Genre</p>
@@ -114,7 +113,8 @@
 <ul>
 <li>
 <p class="itemTitle">History, Comedy, Tragedy</p>
-<p class="itemText">The potential utility of graph density in distinguishing genres is visually obvious when individual comedy and history networks are compared. Histories feature highly dispersed networks, with large numbers of very minor characters: messengers and vassals who are only spoken to and never speak back, or “First,” “Second,” and “Third” members of groups like soldiers and ambassadors, who each interject briefly in a single scene. Connections form chains of acquaintance with little overlap, so even th...</p>
+<p class="itemText">The potential utility of graph density in distinguishing genres is visually obvious when individual comedy and history networks are compared. Histories feature highly dispersed networks, with large numbers of very minor characters, such as “First,” “Second,” and “Third” members of groups like soldiers and ambassadors, who each interject briefly in a single scene. Connections form chains of acquaintance with little overlap, so even the monarchs have low eigenvector centrality.</p>
+<p class="itemText">Figure: 2Henry6; He...</p>
 </li>
 <li>
 <p class="itemTitle">The "Problem Plays"</p>
@@ -124,14 +124,8 @@
 <hr class="afterText"/>
 
 <li>
-<p class="itemTitle">conclusion: extensibility</p>
-<p class="itemText"># Conclusions</p>
-<p class="itemText"></p>
-<p class="itemText">[The metrics that Algee-Hewitt sees as changing broadly with historical time here correlate with a particular type of play. If eigenvector centrality goes down over time, that may reflect a reduction in history and tragedy in favour of comedy.]</p>
-<p class="itemText"></p>
-<p class="itemText">The networks thus provide a framework for discussion of the plays’ structure separately from their content. 37 plays is a small scale for this approach: future work will expand beyond a single author.</p>
-<p class="itemText"></p>
-<p class="itemText">Our parser successfully and rapidly p...</p>
+<p class="itemTitle">Conclusion</p>
+<p class="itemText">Our parser successfully and rapidly produces sophisticated social network graphs of TEI plays, which can be used to computationally identify theatrical genre in Shakespeare’s plays. Thirty-seven plays is a small scale for this approach: since the parser is highly extensible and can be used with any plays encoded in TEI, future work need not be restricted to the Early Modern period. It need not even be restricted to works written in English. Our networks of the well-studied works of Shakespeare c...</p>
 </li>
 </ul>
 <hr class="afterText"/>
