@@ -16,9 +16,7 @@ Recent papers presented at DH2017 sought ways to richly quantify the details of 
 
 Although our parser has not solved the problem of guessing the specific addressees of a character’s speech, and instead tracks characters present on stage during speech, its simplifications allow it to be remarkably extensible. It could be used to parse any play that follows TEI P5 guidelines for performance texts. The parser uses the <role> and <who> tags to build a cast list for each play, and proceeds through the play using <div> tags to determine scene boundaries. Scenes are further subdivided into “blocks” based on character exits and entrances, to track who is on stage throughout the scene. If a character speaks or is mentioned in a stage direction (such as an entrance), and has not been named in an exit, they are assumed to be present on stage and able to hear all speech. Each speaking character is connected to all the characters present to hear their speech. These connections are recorded in a network graph, with characters as nodes and shared speech as edges. Edges are weighted based on the number of lines spoken.
 
-To verify that our parser is accurate, we compare our generated network of Hamlet to Moretti’s well-known handmade model of that play (2011). Despite some minor differences in how we handle the most peripheral characters like “Servant”, and our less-minor difference in including the play-within-the-play, the two networks are highly similar. In both, Hamlet has the highest node centrality (the measure of connectedness which Moretti uses as a proxy for his status as protagonist) and highest node degree (the number of times he speaks or is spoken to), with Claudius, Gertrude, and Horatio similar but lagging behind. We concur with Moretti’s literary interpretation of these mathematical features.
-
-Our tool improves on Moretti’s model by adding direction and weight to each connection. Although this level of detail turned out not to be necessary for the basic task of using network graphs to distinguish between Shakespeare’s genres, it may be useful in future work examining a less homogenous corpus of plays, or in work asking different questions about this corpus.
+To verify that our parser is accurate, we compare our generated network of Hamlet to Moretti’s well-known handmade model of that play (2011). Despite some minor differences in how we handle the most peripheral characters like “Servant”, and our less-minor difference in including the play-within-the-play, the two networks are highly similar. Our network graph supports Moretti’s reading. Our tool also improves on Moretti’s model by adding direction and weight to each connection. Although this level of detail turned out not to be necessary for the basic task of using network graphs to distinguish between Shakespeare’s genres, it may be useful in future work examining a less homogenous corpus of plays, or in work asking different questions about this corpus.
 
 ## Using Networks to Identify Genre ##
 
@@ -26,26 +24,22 @@ We then use our generated network graphs to test our central question: whether t
 
 ## Discussion ##
 
-The potential utility of graph density in distinguishing genres is visually obvious when individual comedy and history networks are compared. Histories feature highly dispersed networks, with large numbers of very minor characters: messengers and vassals who are only spoken to and never speak back, or “First,” “Second,” and “Third” members of groups like soldiers and ambassadors, who each interject briefly in a single scene. 
-in which paired connections form chains of acquaintance, but even the monarchs have low eigenvector centrality.
-Graph density is insufficient, however, to account for the tragedies
+### History, Comedy, Tragedy ###
 
-Histories: a lot of useless people (We find histories more strongly distinguished from comedies and tragedies than comedies and tragedies are from each other, a distinction largely driven by the substantially higher numbers of peripheral characters in history plays. 
+The potential utility of graph density in distinguishing genres is visually obvious when individual comedy and history networks are compared. Histories feature highly dispersed networks, with large numbers of very minor characters: messengers and vassals who are only spoken to and never speak back, or “First,” “Second,” and “Third” members of groups like soldiers and ambassadors, who each interject briefly in a single scene. Connections form chains of acquaintance with little overlap, so even the monarchs have low eigenvector centrality.
 Figure: 2Henry6; Henry5
 
-Comedies: small, dense network (Although comedies often have multiple subplots, these separate stories do not result in highly-separated networks. We theorize that comedic networks are strongly shaped by the plays’ final “resolution” scenes, which bring together the full cast. Relatedly, the average eigenvector centrality of the characters in comedies is much higher than in tragedies or histories; this suggests that many more of the characters in a comedy are “important,” reflecting a focus on ensemble stories.)
+Comedies, in contrast, feature networks with far fewer characters, in which nearly everybody speaks to nearly everybody else at some point. Although comedies often have multiple subplots, these separate stories do not result in highly-separated networks. We theorize that comedic networks are strongly shaped by the plays’ final “resolution” scenes, which bring together the full cast. Relatedly, the average eigenvector centrality of the characters in comedies is much higher than in tragedies or histories; this suggests that many more of the characters in a comedy are “important,” reflecting a focus on ensemble stories.
 Figure: ComedyErrors; Midsummer
-
-Tragedies: not, as expected, one “great talker”? But mostly the in between: something dense with some attendants; hard to identify directly, weird.
+ 
+Graph density is insufficient, however, to fully distinguish the tragedies, which feature networks somewhere between history and comedy in their density. They often have a dense core with a secondary ring of more peripheral characters. What seems to distinguish them is the existence of the central tragic hero, whose influence directly touches more of the network than the protagonists of histories, but whose connections are less interconnected than the ensembles of comedies. These subtleties are better captured, it seems, by the combined metric of “edges, degree, and words.”
 Figure: Othello; Lear; MacBeth; Hamlet
 
-With this preliminary validation we can step back and look at Shakespeare’s various contested genres. The “Roman plays” are the simplest: they are unquestionably tragedies, not histories, with the possible exception of Antony and Cleopatra. 
+### The "Problem Plays" ###
+
+We then use our preliminary identification of each genre’s features to examine Shakespeare’s various contested genres. Training our model only on the plays for which there is strong consensus, we applied it to the “Roman plays,” the “problem plays,” and the “romances” in turn. Of the Roman plays, all but Antony and Cleopatra are identified as tragedies by every metric; Antony and Cleopatra is identified as a history by “edges, words, and degree” and as a comedy by “degree, modularity, and density”. Of the problem plays, All’s Well that Ends Well is always identified as a comedy; Troilus and Cressida and Measure for Measure are both identified as a comedy by all metrics except for “edges, criticality, and degree”, which identify them as tragedies. The three romances, despite visually unusual networks which support literary arguments that Shakespeare’s writing had grown more experimental at the end of his career, are identified as comedies by every mathematical metric. We treat none of these identifications as definitive declaration of the plays’ “real” genres, but use them to distinguish between plays whose generic ambiguity lies in their subject matter, and plays whose ambiguity lies in their structure.
 Figure: Caesar; AntonyCleopatra; Coriolanus; Titus
-
-We find that the three “problem plays” fall among the comedies for nearly every measure we consider. We don’t claim that this “solves” the question of genre for these plays, but rather propose it as support for literary arguments that the “problem” lies in a mismatch between a comedic structure and un-comedic subject matter.
 Figure: AllsWell; Measure; TroilusCressida
-
-The networks of the three “romances” are more structurally ambiguous, supporting literary arguments that Shakespeare’s writing had grown more experimental at the end of his career. The edges and degree are what dominate and place the romances squarely into comedies, even though the words are more like the tragedies (i.e., shorter).  So, the structure of the social network says "Comedy" but the length of the play says "Tragedy.” 
 Figure: Pericles; Cymbeline; Winters; Tempest
 
 ## conclusion: extensibility ##
