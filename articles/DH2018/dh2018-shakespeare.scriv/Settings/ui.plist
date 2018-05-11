@@ -99,22 +99,6 @@
 		<key>NavigationHistoryArray</key>
 		<array>
 			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>E66EFAB6-E367-463C-AC2B-A573A8BF13EA</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>0EBEA81A-9D08-4632-8C84-F9989D1C54A2</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
 				<key>AggregateSelection</key>
 				<string>{371, 0}</string>
 				<key>BinderDocUUIDs</key>
@@ -941,6 +925,24 @@
 				<key>ViewMode</key>
 				<integer>0</integer>
 			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>DDF8AC31-4A85-4C8C-AE97-38C38E121C00</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>9EC3E216-A789-4481-AB3F-C5EC7F9CBFCF</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
 		</array>
 	</dict>
 	<key>mainDocumentEditor.outlinerColumnsState</key>
@@ -1010,8 +1012,6 @@
 	<string>{{0, 0}, {620, 457.33333333333331}}</string>
 	<key>mainDocumentEditor.selectedRanges</key>
 	<string>{375, 0}</string>
-	<key>mainDocumentEditor.selectedTextRanges</key>
-	<string>1292,0</string>
 	<key>mainDocumentEditor.textEditorState</key>
 	<dict>
 		<key>hasMultiplePages</key>

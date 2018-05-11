@@ -75,6 +75,16 @@ Recent papers presented at DH2017 sought ways to richly quantify the details of 
         <Document ID="E178C43A-001E-4C14-8C4B-1F41E853FF49">
             <Title>Secondary Texts</Title>
         </Document>
+        <Document ID="8ACD0ADC-4908-407C-8B16-E87BABCE17BE">
+            <Text>The potential utility of graph density in distinguishing genres is visually obvious when individual comedy and history networks are compared. Histories feature highly dispersed networks, with large numbers of very minor characters, such as “First,” “Second,” and “Third” members of groups like soldiers and ambassadors, who each interject briefly in a single scene. Connections form chains of acquaintance with little overlap, so even the monarchs have low eigenvector centrality.
+Figure: 2Henry6; Henry5
+
+Comedies, in contrast, feature networks with far fewer characters, in which nearly everybody speaks to nearly everybody else at some point. Although comedies often have multiple subplots, these separate stories do not result in highly-separated networks. We theorize that comedic networks are strongly shaped by the plays’ final “resolution” scenes, which bring together the full cast. The average eigenvector centrality of the characters in comedies is much higher than in tragedies or histories; this suggests that many more of the characters in a comedy are “important,” reflecting a focus on ensemble stories.
+Figure: ComedyErrors; Midsummer
+ 
+Graph density is insufficient, however, to fully distinguish the tragedies, which feature networks somewhere between history and comedy in their density. They often have a dense core with a secondary ring of more peripheral characters. What seems to distinguish them is the existence of the central tragic hero, whose influence directly touches more of the network than the protagonists of histories, but whose connections are less interconnected than the ensembles of comedies. These subtleties are better captured, it seems, by the combined metric of “edges, degree, and words.”
+Figure: Othello; Lear; MacBeth; Hamlet</Text>
+        </Document>
         <Document ID="E173CE3F-268F-460A-907C-87D5FB65452B">
             <Title>Introduction</Title>
             <Text>Our inquiry considers the speech interactions of characters within plays as a proxy for broad narrative structures. We analyze computationally-generated social networks of 37 plays by Shakespeare to see whether, and how, they can be used to distinguish between Shakespeare’s comedies, tragedies, and histories.
@@ -82,9 +92,6 @@ Recent papers presented at DH2017 sought ways to richly quantify the details of 
 Because dramatic performances enact social encounters, social network analysis translates surprisingly well to fictional societies. Stiller et al. have shown that social networks in Shakespeare’s plays mirror those of real human interactions, particularly in size, clustering, and maximum degrees of separation (2003). However, as fictions, these networks are shaped not only by sociological principles, but also by narrative structures. Moretti uses social networks to examine the plots of three Shakespearean tragedies, and to contrast the structure of chapters in English and Chinese novels (2011). Alberich et al. (2002) and Sparavigna (2013) also discuss the interplay between social and narrative constraints on networks. We emphasize this distinction to look for specifically literary features of our networks.
 
 Recent papers presented at DH2017 sought ways to richly quantify the details of one or two plays (Fischer et al. 2017, Tonra et al. 2017). At another scale, Algee-Hewitt examined 3,439 plays by looking only at the Gini Coefficient of each play’s eigenvector centrality (2017). With our three dozen plays, we attempt to strike a fruitful middle ground in the inevitable balancing act between detail and scale. Each play is considered individually, but at a level of abstraction which allows rapid and direct comparisons.</Text>
-        </Document>
-        <Document ID="107AFE45-20D7-4220-BAE2-1EF5363E4B54">
-            <Title>Works Cited</Title>
         </Document>
         <Document ID="E50D90EC-1BB7-443B-B9BB-1FD2ABA675E7">
             <Text>Although our parser has not solved the problem of guessing the specific addressees of a character’s speech, and instead tracks characters present on stage during speech, its simplifications allow it to be remarkably extensible. It could be used to parse any play that follows TEI P5 guidelines for performance texts. Each speaking character is connected to all characters currently present on stage. These connections are recorded in a network graph, with characters as nodes and shared speech as edges. Edges are directional, and weighted based on the number of lines spoken.
@@ -100,15 +107,8 @@ With this preliminary validation we can step back and look at Shakespeare’s va
 The networks thus provide a framework for discussion of the plays’ structure separately from their content. 37 plays is a small scale for this approach: future work will expand beyond a single author.
 </Text>
         </Document>
-        <Document ID="8ACD0ADC-4908-407C-8B16-E87BABCE17BE">
-            <Text>The potential utility of graph density in distinguishing genres is visually obvious when individual comedy and history networks are compared. Histories feature highly dispersed networks, with large numbers of very minor characters, such as “First,” “Second,” and “Third” members of groups like soldiers and ambassadors, who each interject briefly in a single scene. Connections form chains of acquaintance with little overlap, so even the monarchs have low eigenvector centrality.
-Figure: 2Henry6; Henry5
-
-Comedies, in contrast, feature networks with far fewer characters, in which nearly everybody speaks to nearly everybody else at some point. Although comedies often have multiple subplots, these separate stories do not result in highly-separated networks. We theorize that comedic networks are strongly shaped by the plays’ final “resolution” scenes, which bring together the full cast. The average eigenvector centrality of the characters in comedies is much higher than in tragedies or histories; this suggests that many more of the characters in a comedy are “important,” reflecting a focus on ensemble stories.
-Figure: ComedyErrors; Midsummer
- 
-Graph density is insufficient, however, to fully distinguish the tragedies, which feature networks somewhere between history and comedy in their density. They often have a dense core with a secondary ring of more peripheral characters. What seems to distinguish them is the existence of the central tragic hero, whose influence directly touches more of the network than the protagonists of histories, but whose connections are less interconnected than the ensembles of comedies. These subtleties are better captured, it seems, by the combined metric of “edges, degree, and words.”
-Figure: Othello; Lear; MacBeth; Hamlet</Text>
+        <Document ID="107AFE45-20D7-4220-BAE2-1EF5363E4B54">
+            <Title>Works Cited</Title>
         </Document>
         <Document ID="AD1BA0E3-0A24-440D-8869-AF66460A5641">
             <Title>writing timeline</Title>
