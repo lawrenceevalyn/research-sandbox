@@ -61,9 +61,16 @@
                 <Type ID="A57BA4CE-8247-4C83-AFB2-2E54B4BA1B60">TEXT-WITH-HEADER</Type>
             </SectionLayouts>
         </Format>
+        <Format ID="mmd-barebones">
+            <SectionLayouts>
+                <Type ID="4F2D2026-B699-4A6A-8683-86719AF1760A">72A8A17D-2FF3-4C8D-8A4C-7895908E7EE5</Type>
+                <Type ID="54CEFDC7-EACC-4ACF-9468-6CE9E5B73B0E">72A8A17D-2FF3-4C8D-8A4C-7895908E7EE5</Type>
+                <Type ID="A57BA4CE-8247-4C83-AFB2-2E54B4BA1B60">D1057067-9CF1-44C3-A4C8-34A90A393E89</Type>
+            </SectionLayouts>
+        </Format>
     </FormatSettings>
     <LastUsedFormats>
         <Print>DEFAULT</Print>
-        <mmd>DEFAULT</mmd>
+        <mmd>mmd-barebones</mmd>
     </LastUsedFormats>
 </CompileSettings>

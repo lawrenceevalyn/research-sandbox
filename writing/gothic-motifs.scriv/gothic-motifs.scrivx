@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="FCF3EEDC-0CD0-49D5-82D3-6FDE11B9D3B3" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2018-05-15 15:00:47 -0400" ModID="ED0EEBFA-3250-4E49-8E86-B3DCD4E78317">
+<ScrivenerProject Identifier="FCF3EEDC-0CD0-49D5-82D3-6FDE11B9D3B3" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2018-05-15 15:14:30 -0400" ModID="6F585399-7AC1-48AA-860B-303350E2380F">
     <Binder>
         <BinderItem UUID="DDF8AC31-4A85-4C8C-AE97-38C38E121C00" Type="DraftFolder" Created="2017-04-11 19:14:02 -0400" Modified="2017-04-11 19:14:02 -0400">
             <Title>Draft</Title>
@@ -42,6 +42,7 @@
                 <BinderItem UUID="9A87D63D-FD9C-4A13-8359-A11EDAD3B620" Type="Text" Created="2018-03-25 11:35:24 -0400" Modified="2018-05-15 15:00:35 -0400">
                     <Title>Introduction</Title>
                     <MetaData>
+                        <SectionType>4F2D2026-B699-4A6A-8683-86719AF1760A</SectionType>
                         <LabelID>2</LabelID>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
@@ -154,6 +155,7 @@
                 <BinderItem UUID="385FF09D-BE09-47BD-B8B7-11E425B7F6EA" Type="Text" Created="2018-03-25 12:53:22 -0400" Modified="2018-03-25 13:42:24 -0400">
                     <Title>Frank</Title>
                     <MetaData>
+                        <SectionType>4F2D2026-B699-4A6A-8683-86719AF1760A</SectionType>
                         <LabelID>2</LabelID>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
@@ -226,6 +228,7 @@
                 <BinderItem UUID="51C6D263-CC0A-4745-A91E-DE733F9D39EB" Type="Text" Created="2018-03-25 13:06:08 -0400" Modified="2018-03-25 13:06:10 -0400">
                     <Title>Tracy</Title>
                     <MetaData>
+                        <SectionType>4F2D2026-B699-4A6A-8683-86719AF1760A</SectionType>
                         <LabelID>1</LabelID>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
@@ -277,6 +280,7 @@
                         <BinderItem UUID="EE1CD553-0CD4-4282-8094-C2BEF7446AC1" Type="Text" Created="2018-03-25 13:08:26 -0400" Modified="2018-03-25 13:08:29 -0400">
                             <Title>let's correlate to Frank</Title>
                             <MetaData>
+                                <SectionType>A57BA4CE-8247-4C83-AFB2-2E54B4BA1B60</SectionType>
                                 <LabelID>1</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
@@ -341,6 +345,7 @@
                 <BinderItem UUID="0173D622-A160-4CDD-BA52-1EB1C86EAB16" Type="Text" Created="2018-03-25 13:11:22 -0400" Modified="2018-03-25 13:11:30 -0400">
                     <Title>Radcliffe &amp; the Female Gothic</Title>
                     <MetaData>
+                        <SectionType>4F2D2026-B699-4A6A-8683-86719AF1760A</SectionType>
                         <LabelID>1</LabelID>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
@@ -394,6 +399,7 @@
                 <BinderItem UUID="BE226FB8-6408-4CE9-AB78-5B9E0281EF1D" Type="Text" Created="2018-03-07 17:32:59 -0500" Modified="2018-03-25 13:39:16 -0400">
                     <Title>conclusion</Title>
                     <MetaData>
+                        <SectionType>4F2D2026-B699-4A6A-8683-86719AF1760A</SectionType>
                         <LabelID>1</LabelID>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
@@ -401,15 +407,28 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="54E590F6-AF35-4C42-AA90-3EA2D3F4603E" Type="Text" Created="2018-02-01 17:41:06 -0500" Modified="2018-04-12 05:18:34 -0400">
+                <BinderItem UUID="54E590F6-AF35-4C42-AA90-3EA2D3F4603E" Type="Text" Created="2018-02-01 17:41:06 -0500" Modified="2018-05-15 15:13:32 -0400">
                     <Title>Works Cited</Title>
                     <MetaData>
+                        <SectionType>4F2D2026-B699-4A6A-8683-86719AF1760A</SectionType>
                         <LabelID>1</LabelID>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>929,0</TextSelection>
+                        <TextSelection>1,0</TextSelection>
                     </TextSettings>
+                    <Children>
+                        <BinderItem UUID="CFFD8638-2D3B-4BD4-A52D-2D8799A5389D" Type="Text" Created="2018-05-15 15:13:25 -0400" Modified="2018-05-15 15:13:38 -0400">
+                            <Title>works</Title>
+                            <MetaData>
+                                <LabelID>1</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
                 </BinderItem>
             </Children>
         </BinderItem>
@@ -2522,11 +2541,11 @@ JAMES RAVEN, British Fiction 1750-1770 A Chronological Check-List of Prose Ficti
     <ProjectTargets Notify="Yes">
         <DraftTarget Type="Words" CountIncludedOnly="No" CurrentCompileGroupOnly="No" Deadline="2017-04-22 02:21:51 -0400" IgnoreDeadline="Yes">6475</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="No" ResetType="NextDay" ResetTime="00:00" DeterminedFromDeadline="Yes" WritingDays="1-3, 5-7" CanWriteOnDeadlineDate="No">250</SessionTarget>
-        <PreviousSession Words="24" Characters="129" Date="2018-05-03 12:28:07 -0400"></PreviousSession>
+        <PreviousSession Words="174" Characters="1171" Date="2018-05-03 12:28:07 -0400"></PreviousSession>
     </ProjectTargets>
     <RecentWritingHistory Date="2018-05-15 00:00:00 -0400">
         <DraftWordCount>-86</DraftWordCount>
-        <DraftCharCount>-563</DraftCharCount>
+        <DraftCharCount>-560</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
