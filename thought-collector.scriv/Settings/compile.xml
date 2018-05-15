@@ -2,7 +2,6 @@
 <CompileSettings>
     <ProjectSettings>
         <Content Scope="Included" IncludeGroupText="Yes">
-            <CompileGroup Type="BinderItem">043D9B6B-FB35-4879-B62B-870533D0FC75</CompileGroup>
             <Filter State="Off" Exclude="No" Type="Label">
                 <CollectionID>5F019618-106D-4CE6-B387-20FB66CFFD0F</CollectionID>
                 <Label>-1</Label>
@@ -51,9 +50,6 @@
             </Authors>
             <Surname>Evalyn</Surname>
             <Forename>Lawrence</Forename>
-            <Subjects>
-                <Subject></Subject>
-            </Subjects>
             <EbookLanguage>en</EbookLanguage>
             <FountainTitlePageMetaData>
                 <Value Key="Title"><![CDATA[<$projecttitle>]]></Value>
@@ -65,7 +61,7 @@
             </MMDMetaData>
         </MetaData>
     </ProjectSettings>
-    <CurrentFileType>Print</CurrentFileType>
+    <CurrentFileType>mmd</CurrentFileType>
     <FormatSettings>
         <Format ID="DEFAULT">
             <SectionLayouts>
@@ -73,6 +69,16 @@
                 <Type ID="E842A5D1-FCA1-42E4-988E-6FCEE95B2002">TEXT-SECTION</Type>
             </SectionLayouts>
         </Format>
+        <Format ID="mmd-barebones">
+            <SectionLayouts>
+                <Type ID="39AAB1E3-6114-4999-B406-A5D6C6AC98E6">778FA2E2-F67D-4803-B183-019F8B45528B</Type>
+                <Type ID="F2913E6D-5463-4C16-8BAE-C393D43A30EE">778FA2E2-F67D-4803-B183-019F8B45528B</Type>
+                <Type ID="E842A5D1-FCA1-42E4-988E-6FCEE95B2002">778FA2E2-F67D-4803-B183-019F8B45528B</Type>
+            </SectionLayouts>
+        </Format>
     </FormatSettings>
-    <LastUsedFormats></LastUsedFormats>
+    <LastUsedFormats>
+        <Print>DEFAULT</Print>
+        <mmd>mmd-barebones</mmd>
+    </LastUsedFormats>
 </CompileSettings>
