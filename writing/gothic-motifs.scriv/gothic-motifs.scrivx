@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="FCF3EEDC-0CD0-49D5-82D3-6FDE11B9D3B3" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2018-05-15 16:47:07 -0400" ModID="998025EE-B009-42E2-9E21-696A1F8E05A7">
+<ScrivenerProject Identifier="FCF3EEDC-0CD0-49D5-82D3-6FDE11B9D3B3" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2018-05-15 16:54:40 -0400" ModID="1768E835-FB66-4795-8DD4-353D1C1CED12">
     <Binder>
         <BinderItem UUID="0343F80C-1B60-4C9E-B334-8F97DBD253D0" Type="Text" Created="2018-03-07 17:23:43 -0500" Modified="2018-04-12 05:18:34 -0400">
             <Title>abstract</Title>
@@ -10,6 +10,31 @@
             <TextSettings>
                 <TextSelection>422,0</TextSelection>
             </TextSettings>
+        </BinderItem>
+        <BinderItem UUID="A51D39CB-2140-4770-B829-BD0B7BBB8FF0" Type="Text" Created="2018-05-15 16:49:38 -0400" Modified="2018-05-15 16:49:48 -0400">
+            <Title>thoughts to re-home</Title>
+            <MetaData>
+                <LabelID>1</LabelID>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>0,0</TextSelection>
+            </TextSettings>
+            <Children>
+                <BinderItem UUID="E2736DB8-EE50-489C-9546-E94B414124DD" Type="Text" Created="2018-05-15 15:26:35 -0400" Modified="2018-05-15 16:49:37 -0400">
+                    <Title>Contemporary criticism has worked to revise the eighteenth-century consensus that the literary sphere was overtaken with a flood of dangerous sentimental literature by and for women: Barbara Benedict, for example, ruthlessly debunks a range of “manifestly untrue” eighteenth-century perceptions of reading demographics,[1] and many others have agreed that most readers and most writers were men, and even that men and women mostly read the same things.
+
+￼
+[1] cite ‘Male’ and ‘Female’ novels, p. 361</Title>
+                    <MetaData>
+                        <LabelID>1</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
         </BinderItem>
         <BinderItem UUID="DDF8AC31-4A85-4C8C-AE97-38C38E121C00" Type="DraftFolder" Created="2017-04-11 19:14:02 -0400" Modified="2018-05-15 16:44:00 -0400">
             <Title>Women aren’t weird, men are weird. (And we’re sexist.)</Title>
@@ -27,7 +52,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="9A87D63D-FD9C-4A13-8359-A11EDAD3B620" Type="Text" Created="2018-03-25 11:35:24 -0400" Modified="2018-05-15 15:00:35 -0400">
+                <BinderItem UUID="9A87D63D-FD9C-4A13-8359-A11EDAD3B620" Type="Text" Created="2018-03-25 11:35:24 -0400" Modified="2018-05-15 16:51:24 -0400">
                     <Title>Introduction</Title>
                     <MetaData>
                         <SectionType>4F2D2026-B699-4A6A-8683-86719AF1760A</SectionType>
@@ -58,98 +83,111 @@
                                 <TextSelection>1229,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="9FDE3929-E4DB-4BED-9FFD-780FA1517782" Type="Text" Created="2018-03-22 16:47:36 -0400" Modified="2018-05-15 14:44:14 -0400">
-                            <Title>history of the Female Gothic</Title>
+                        <BinderItem UUID="4F27ED42-C822-447E-AFE0-B65A5D424511" Type="Text" Created="2018-05-15 16:50:42 -0400" Modified="2018-05-15 16:52:04 -0400">
+                            <Title>The Female Gothic</Title>
                             <MetaData>
+                                <SectionType>54CEFDC7-EACC-4ACF-9468-6CE9E5B73B0E</SectionType>
                                 <LabelID>2</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
+                            <Children>
+                                <BinderItem UUID="9FDE3929-E4DB-4BED-9FFD-780FA1517782" Type="Text" Created="2018-03-22 16:47:36 -0400" Modified="2018-05-15 16:52:43 -0400">
+                                    <Title>history of the Female Gothic</Title>
+                                    <MetaData>
+                                        <LabelID>2</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>3162,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="73F1A394-5B69-4028-8209-5ADA3D35CEBE" Type="Text" Created="2018-03-25 11:49:26 -0400" Modified="2018-05-15 14:47:12 -0400">
+                                    <Title>Male Gothic less often / well defined</Title>
+                                    <MetaData>
+                                        <LabelID>2</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>593,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="B952DFB7-381D-46AB-8B64-C1801DC7EA76" Type="Text" Created="2018-03-22 15:18:06 -0400" Modified="2018-05-15 14:48:20 -0400">
+                                    <Title>Ledoux: Female Gothic isn't real</Title>
+                                    <MetaData>
+                                        <LabelID>2</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
                         </BinderItem>
-                        <BinderItem UUID="73F1A394-5B69-4028-8209-5ADA3D35CEBE" Type="Text" Created="2018-03-25 11:49:26 -0400" Modified="2018-05-15 14:47:12 -0400">
-                            <Title>Male Gothic less often / well defined</Title>
+                        <BinderItem UUID="6878FAF1-15A2-4462-AFBA-0A554BC6A2D7" Type="Text" Created="2018-05-15 16:51:35 -0400" Modified="2018-05-15 16:52:07 -0400">
+                            <Title>Methods</Title>
                             <MetaData>
+                                <SectionType>54CEFDC7-EACC-4ACF-9468-6CE9E5B73B0E</SectionType>
                                 <LabelID>2</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>593,0</TextSelection>
+                                <TextSelection>7,0</TextSelection>
                             </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="B952DFB7-381D-46AB-8B64-C1801DC7EA76" Type="Text" Created="2018-03-22 15:18:06 -0400" Modified="2018-05-15 14:48:20 -0400">
-                            <Title>Ledoux: Female Gothic isn't real</Title>
-                            <MetaData>
-                                <LabelID>2</LabelID>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>0,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="B8C6CE03-BB4D-4F7B-8248-676FA2DBE45A" Type="Text" Created="2018-03-25 11:54:19 -0400" Modified="2018-05-15 15:00:07 -0400">
-                            <Title>Men are weird, not women</Title>
-                            <MetaData>
-                                <LabelID>2</LabelID>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>557,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="61ECFEFA-375C-4426-A9A5-3AE5374FA8DE" Type="Text" Created="2017-04-17 20:09:41 -0400" Modified="2018-05-15 14:51:42 -0400">
-                            <Title>I'm modelling here</Title>
-                            <MetaData>
-                                <LabelID>3</LabelID>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>0,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="DA8056F8-B806-45F6-BB12-4A70E55A4E9E" Type="Text" Created="2017-04-21 15:57:28 -0400" Modified="2018-04-12 05:18:34 -0400">
-                            <Title>theory: my bibs have thin description</Title>
-                            <MetaData>
-                                <LabelID>3</LabelID>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>397,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="07F305BB-FDB1-4A5D-BAAB-2207CC18150F" Type="Text" Created="2017-04-17 21:38:28 -0400" Modified="2018-05-15 15:21:39 -0400">
-                            <Title>Frank and Tracy are models</Title>
-                            <MetaData>
-                                <LabelID>3</LabelID>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>568,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="82BC9FA7-D14F-4BCF-83C0-49D2528FE3E3" Type="Text" Created="2018-03-25 11:35:55 -0400" Modified="2018-05-15 14:55:18 -0400">
-                            <Title>key findings up front</Title>
-                            <MetaData>
-                                <LabelID>2</LabelID>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>458,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="E2736DB8-EE50-489C-9546-E94B414124DD" Type="Text" Created="2018-05-15 15:26:35 -0400" Modified="2018-05-15 15:27:58 -0400">
-                            <Title>Contemporary criticism has worked to revise the eighteenth-century consensus that the literary sphere was overtaken with a flood of dangerous sentimental literature by and for women: Barbara Benedict, for example, ruthlessly debunks a range of “manifestly untrue” eighteenth-century perceptions of reading demographics,[1] and many others have agreed that most readers and most writers were men, and even that men and women mostly read the same things.
-
-￼
-[1] cite ‘Male’ and ‘Female’ novels, p. 361</Title>
-                            <MetaData>
-                                <LabelID>1</LabelID>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>499,0</TextSelection>
-                            </TextSettings>
+                            <Children>
+                                <BinderItem UUID="B8C6CE03-BB4D-4F7B-8248-676FA2DBE45A" Type="Text" Created="2018-03-25 11:54:19 -0400" Modified="2018-05-15 15:00:07 -0400">
+                                    <Title>Men are weird, not women</Title>
+                                    <MetaData>
+                                        <LabelID>2</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>557,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="61ECFEFA-375C-4426-A9A5-3AE5374FA8DE" Type="Text" Created="2017-04-17 20:09:41 -0400" Modified="2018-05-15 14:51:42 -0400">
+                                    <Title>I'm modelling here</Title>
+                                    <MetaData>
+                                        <LabelID>3</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="DA8056F8-B806-45F6-BB12-4A70E55A4E9E" Type="Text" Created="2017-04-21 15:57:28 -0400" Modified="2018-04-12 05:18:34 -0400">
+                                    <Title>theory: my bibs have thin description</Title>
+                                    <MetaData>
+                                        <LabelID>3</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>397,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="07F305BB-FDB1-4A5D-BAAB-2207CC18150F" Type="Text" Created="2017-04-17 21:38:28 -0400" Modified="2018-05-15 15:21:39 -0400">
+                                    <Title>Frank and Tracy are models</Title>
+                                    <MetaData>
+                                        <LabelID>3</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>568,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="82BC9FA7-D14F-4BCF-83C0-49D2528FE3E3" Type="Text" Created="2018-03-25 11:35:55 -0400" Modified="2018-05-15 14:55:18 -0400">
+                                    <Title>key findings up front</Title>
+                                    <MetaData>
+                                        <LabelID>2</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>458,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
                         </BinderItem>
                     </Children>
                 </BinderItem>
@@ -2563,11 +2601,11 @@ JAMES RAVEN, British Fiction 1750-1770 A Chronological Check-List of Prose Ficti
     <ProjectTargets Notify="Yes">
         <DraftTarget Type="Words" CountIncludedOnly="No" CurrentCompileGroupOnly="No" Deadline="2017-04-22 02:21:51 -0400" IgnoreDeadline="Yes">6475</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="No" ResetType="NextDay" ResetTime="00:00" DeterminedFromDeadline="Yes" WritingDays="1-3, 5-7" CanWriteOnDeadlineDate="No">250</SessionTarget>
-        <PreviousSession Words="229" Characters="1566" Date="2018-05-03 12:28:07 -0400"></PreviousSession>
+        <PreviousSession Words="218" Characters="1503" Date="2018-05-03 12:28:07 -0400"></PreviousSession>
     </ProjectTargets>
     <RecentWritingHistory Date="2018-05-15 00:00:00 -0400">
-        <DraftWordCount>-31</DraftWordCount>
-        <DraftCharCount>-165</DraftCharCount>
+        <DraftWordCount>-42</DraftWordCount>
+        <DraftCharCount>-228</DraftCharCount>
         <OtherWordCount>119</OtherWordCount>
         <OtherCharCount>810</OtherCharCount>
     </RecentWritingHistory>

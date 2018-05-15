@@ -68,18 +68,18 @@
                 <Type ID="A57BA4CE-8247-4C83-AFB2-2E54B4BA1B60">D1057067-9CF1-44C3-A4C8-34A90A393E89</Type>
             </SectionLayouts>
         </Format>
-        <Format ID="DEFAULT">
-            <SectionLayouts>
-                <Type ID="4F2D2026-B699-4A6A-8683-86719AF1760A">NEW-PAGE-HEADER-WITH-TEXT</Type>
-                <Type ID="54CEFDC7-EACC-4ACF-9468-6CE9E5B73B0E">TEXT-WITH-HEADER</Type>
-                <Type ID="A57BA4CE-8247-4C83-AFB2-2E54B4BA1B60">TEXT-WITH-HEADER</Type>
-            </SectionLayouts>
-        </Format>
         <Format ID="7313A92A-E914-4611-AED9-B04D67645B9C">
             <SectionLayouts>
                 <Type ID="4F2D2026-B699-4A6A-8683-86719AF1760A">TEXT-SECTION</Type>
                 <Type ID="54CEFDC7-EACC-4ACF-9468-6CE9E5B73B0E">TEXT-SECTION</Type>
                 <Type ID="A57BA4CE-8247-4C83-AFB2-2E54B4BA1B60">AF68D3AE-3EE2-4523-9F2B-4D156AB64B5E</Type>
+            </SectionLayouts>
+        </Format>
+        <Format ID="DEFAULT">
+            <SectionLayouts>
+                <Type ID="4F2D2026-B699-4A6A-8683-86719AF1760A">NEW-PAGE-HEADER-WITH-TEXT</Type>
+                <Type ID="54CEFDC7-EACC-4ACF-9468-6CE9E5B73B0E">TEXT-WITH-HEADER</Type>
+                <Type ID="A57BA4CE-8247-4C83-AFB2-2E54B4BA1B60">TEXT-WITH-HEADER</Type>
             </SectionLayouts>
         </Format>
     </FormatSettings>
