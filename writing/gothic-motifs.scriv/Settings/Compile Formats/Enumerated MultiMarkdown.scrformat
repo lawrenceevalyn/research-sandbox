@@ -364,9 +364,9 @@
                 <PreserveUncommonAlignment>Yes</PreserveUncommonAlignment>
                 <PreserveTabsAndIndents>No</PreserveTabsAndIndents>
             </Formatting>
-            <Separators UseDefault="Yes">
+            <Separators>
                 <Before Type="Single"></Before>
-                <Between Type="Single"></Between>
+                <Between Type="Double"></Between>
                 <AfterOverride Use="No" Type="Single"></AfterOverride>
             </Separators>
         </Layout>
@@ -378,12 +378,12 @@
     <SeparatorSettings>
         <FolderSeparators>
             <Before Type="Single"></Before>
-            <Between Type="Single"></Between>
+            <Between Type="Double"></Between>
             <AfterOverride Use="No" Type="Single"></AfterOverride>
         </FolderSeparators>
         <TextSeparators>
             <Before Type="Single"></Before>
-            <Between Type="Single"></Between>
+            <Between Type="Double"></Between>
             <AfterOverride Use="No" Type="Single"></AfterOverride>
         </TextSeparators>
         <Font Size="11.0" Override="No">Georgia</Font>
