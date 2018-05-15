@@ -5,19 +5,20 @@
         <SelectedCollection>0</SelectedCollection>
         <SubdocumentCounts>No</SubdocumentCounts>
         <ExpandedItems>
+            <ItemID>A51D39CB-2140-4770-B829-BD0B7BBB8FF0</ItemID>
             <ItemID>DDF8AC31-4A85-4C8C-AE97-38C38E121C00</ItemID>
-            <ItemID>9DABFEC4-727B-44BF-954A-3502A062EF56</ItemID>
             <ItemID>9A87D63D-FD9C-4A13-8359-A11EDAD3B620</ItemID>
-            <ItemID>C52EE9F9-E213-4D9D-A310-8FDFDB88239C</ItemID>
+            <ItemID>4F27ED42-C822-447E-AFE0-B65A5D424511</ItemID>
+            <ItemID>6878FAF1-15A2-4462-AFBA-0A554BC6A2D7</ItemID>
             <ItemID>385FF09D-BE09-47BD-B8B7-11E425B7F6EA</ItemID>
+            <ItemID>9B71B7F0-2B1B-47F2-9B1E-92DCDE30D600</ItemID>
             <ItemID>51C6D263-CC0A-4745-A91E-DE733F9D39EB</ItemID>
-            <ItemID>EE1CD553-0CD4-4282-8094-C2BEF7446AC1</ItemID>
             <ItemID>0173D622-A160-4CDD-BA52-1EB1C86EAB16</ItemID>
-            <ItemID>A580DB07-C089-44CC-811D-84C6B922F1D3</ItemID>
-            <ItemID>516492E7-FB43-4449-A96E-781DAF433613</ItemID>
+            <ItemID>54E590F6-AF35-4C42-AA90-3EA2D3F4603E</ItemID>
+            <ItemID>0B30F935-4B83-4B15-90B1-1AE2628BE383</ItemID>
         </ExpandedItems>
         <Selection>
-            <ItemID>9A87D63D-FD9C-4A13-8359-A11EDAD3B620</ItemID>
+            <ItemID>DDF8AC31-4A85-4C8C-AE97-38C38E121C00</ItemID>
         </Selection>
     </Binder>
     <Inspector Show="Yes" View="Comments">
@@ -25,10 +26,10 @@
         <Collapse>CustomMetaData</Collapse>
         <FootnoteNumbers Prompt="No">No</FootnoteNumbers>
     </Inspector>
-    <Split>Horizontal</Split>
+    <Split>None</Split>
     <BinderAffects>Current</BinderAffects>
     <Labels>
-        <Binder FullWidth="No">Yes</Binder>
+        <Binder FullWidth="Yes">Yes</Binder>
         <Icons>No</Icons>
         <IndexCards>No</IndexCards>
         <OutlinerRows>No</OutlinerRows>
@@ -47,7 +48,7 @@
         <UseVerticalLayout>No</UseVerticalLayout>
         <ShowScriveningsTitles>No</ShowScriveningsTitles>
         <ShowInvisibles>No</ShowInvisibles>
-        <RevisionMode>0</RevisionMode>
+        <RevisionMode>1</RevisionMode>
         <TextChecking>
             <Spelling>Yes</Spelling>
             <Grammar>No</Grammar>
@@ -65,11 +66,11 @@
             <View>
                 <ShowHeader>Yes</ShowHeader>
                 <ShowFooter>Yes</ShowFooter>
-                <GroupsViewMode>Corkboard</GroupsViewMode>
-                <CurrentViewMode>Single</CurrentViewMode>
+                <GroupsViewMode>Scrivenings</GroupsViewMode>
+                <CurrentViewMode>Scrivenings</CurrentViewMode>
                 <SelectionAffects>None</SelectionAffects>
                 <Content>
-                    <ItemID>9DABFEC4-727B-44BF-954A-3502A062EF56</ItemID>
+                    <ItemID>DDF8AC31-4A85-4C8C-AE97-38C38E121C00</ItemID>
                 </Content>
             </View>
             <Text>
@@ -112,11 +113,8 @@
                 <ShowHeader>Yes</ShowHeader>
                 <ShowFooter>Yes</ShowFooter>
                 <GroupsViewMode>Scrivenings</GroupsViewMode>
-                <CurrentViewMode>Scrivenings</CurrentViewMode>
+                <CurrentViewMode>Single</CurrentViewMode>
                 <SelectionAffects>None</SelectionAffects>
-                <Content>
-                    <ItemID>9A87D63D-FD9C-4A13-8359-A11EDAD3B620</ItemID>
-                </Content>
             </View>
             <Text>
                 <ShowRuler>No</ShowRuler>
