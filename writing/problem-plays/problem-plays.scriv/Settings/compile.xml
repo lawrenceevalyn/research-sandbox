@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompileSettings>
+    <ProjectSettings>
+        <Content Scope="Included">
+            <Filter State="Off" Exclude="No" Type="Label">
+                <CollectionID>5F019618-106D-4CE6-B387-20FB66CFFD0F</CollectionID>
+                <Label>-1</Label>
+                <Status>-1</Status>
+            </Filter>
+        </Content>
+        <Options>
+            <RemoveComments>Yes</RemoveComments>
+            <RemoveAnnotations>Yes</RemoveAnnotations>
+            <Scriptwriting>
+                <IncludeTitles>Yes</IncludeTitles>
+                <IncludeSynopses>Yes</IncludeSynopses>
+                <CommentsAsScriptNotes>Yes</CommentsAsScriptNotes>
+            </Scriptwriting>
+            <Ebook>
+                <StartAfterFrontMatter>Yes</StartAfterFrontMatter>
+                <Cover>
+                    <ImageDocument Source="FrontMatter"></ImageDocument>
+                    <Title>Cover</Title>
+                    <SVG Width="600" Height="800"><![CDATA[]]></SVG>
+                </Cover>
+                <TOC>
+                    <HTML Generate="Yes">
+                        <Title>Contents</Title>
+                    </HTML>
+                </TOC>
+            </Ebook>
+        </Options>
+        <MetaData>
+            <ProjectTitle>problem-plays</ProjectTitle>
+            <ProjectAbbreviatedTitle>problem-plays</ProjectAbbreviatedTitle>
+            <Authors>
+                <Author FileAs="Evalyn, Lawrence" Role="aut">Lawrence Evalyn</Author>
+            </Authors>
+            <Surname>Evalyn</Surname>
+            <Forename>Lawrence</Forename>
+            <EbookLanguage>en</EbookLanguage>
+            <FountainTitlePageMetaData>
+                <Value Key="Title"><![CDATA[<$projecttitle>]]></Value>
+                <Value Key="Author"><![CDATA[<$author>]]></Value>
+            </FountainTitlePageMetaData>
+            <MMDMetaData>
+                <Value Key="Title"><![CDATA[<$projecttitle>]]></Value>
+                <Value Key="Author"><![CDATA[<$author>]]></Value>
+            </MMDMetaData>
+        </MetaData>
+    </ProjectSettings>
+    <CurrentFileType>mmd</CurrentFileType>
+    <FormatSettings>
+        <Format ID="DEFAULT">
+            <SectionLayouts>
+                <Type ID="C6BC8404-408F-4C9D-8AC3-C8887874A98E">NEW-PAGE-HEADER-WITH-TEXT</Type>
+                <Type ID="820CF1E8-02BB-4EEC-8421-1694AA60B85E">TEXT-SECTION</Type>
+            </SectionLayouts>
+        </Format>
+        <Format ID="mmd-barebones">
+            <SectionLayouts>
+                <Type ID="C6BC8404-408F-4C9D-8AC3-C8887874A98E">72A8A17D-2FF3-4C8D-8A4C-7895908E7EE5</Type>
+                <Type ID="361328C8-B8AC-4615-976F-764A3D0231C9">72A8A17D-2FF3-4C8D-8A4C-7895908E7EE5</Type>
+                <Type ID="820CF1E8-02BB-4EEC-8421-1694AA60B85E">778FA2E2-F67D-4803-B183-019F8B45528B</Type>
+            </SectionLayouts>
+        </Format>
+    </FormatSettings>
+    <LastUsedFormats>
+        <Print>DEFAULT</Print>
+        <mmd>mmd-barebones</mmd>
+    </LastUsedFormats>
+</CompileSettings>
