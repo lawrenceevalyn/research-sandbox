@@ -2,6 +2,10 @@
 
 Research side projects and ideas in development of various kinds. Intentionally open-ended: don't try to impose structure, just let things accumulate naturally.
 
+# notes to self
+
+By FAR the easiest way to find TCP XML files of particular plays is at http://ota.ox.ac.uk/tcp/ -- search by title, then right-click save-as the "source."
+
 # research log
 
 ## April 27, 2018
