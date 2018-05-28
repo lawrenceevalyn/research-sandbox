@@ -17,6 +17,8 @@ Tracy-no-strings-2: In cleaning gothic-motifs data for computational classificat
 It runs WAY worse when I try to only classify based on attributes that I think are meaningful. More data = better.
 
 Best accuracy is 59% with Tracy-no-strings (NOT 2) with Logistic
+Even better is 66% with Frank
+Worst is actually Frank-Tracy-combined: 60%
 
 "what I can tell you is machines love data, and machines love it if you give them hints. 'oh? is sentimental a code word for female? I LOVE code words for female!'"
 

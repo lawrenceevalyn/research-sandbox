@@ -61,3 +61,7 @@ The first row is "Gender," which contains either "m" or "f". This is the feature
 This spreadsheet contains both tags and motifs for all works which are listed in *both* Frank and Tracy. It has 171 books, and 222 features.
 
 The first row is "Gender," which contains either "m" or "f". This is the feature I want to use all the other information to try to predict. Books with "unknown" author genders are not included in this spreadsheet (though I can make a spreadsheet of them later).
+
+## Frank-Tracy-key
+
+This CSV just lists the translations between all the Frank and Tracy numbers to guide combining the Frank-tags and Tracy-motifs spreadsheets.
