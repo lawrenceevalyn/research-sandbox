@@ -11,6 +11,8 @@
 
 # Spreadsheets for Gothic motifs and tags
 
+I have standardized all column names across these three spreadsheets, so it should be possible to "join" them with minimal distress.
+
 ## Tracy-motifs
 
 This spreadsheet contains 208 books as rows, and 153 "features" as columns, mostly motifs.
