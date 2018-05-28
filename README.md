@@ -8,6 +8,12 @@ By FAR the easiest way to find TCP XML files of particular plays is at http://ot
 
 # research log
 
+## May 28, 2018
+
+In cleaning gothic-motifs data for computational classification, I deleted the human-readable column for any set of subcategories that had three or more options. So, e.g., "fainting (any)" with the subcategories "m", "f", or "both", remains, because those 3 states are........fine, to me, somehow. (Though I may drop this later since it's redundant?) But "deathbed (any)" with "agonies", "emotional", "agonies and sad", "sad and interrupted", etc, does NOT stay in the summative "kind of deathbed" column, because there are too many combos.
+
+It runs WAY worse when I try to only classify based on attributes that I think are meaningful. More data = better.
+
 ## April 27, 2018
 
 Process to make shakespeare network graphs:
