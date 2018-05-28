@@ -3,7 +3,7 @@
 1. Train a binary classifier on some of the books with "gothic motifs" which have known authorial genders.
 2. Test on some other books with "gothic motifs" that also have known genders.
 3. See if "motifs" can accurately guess gender. (I SERIOUSLY doubt that any one motif can do this alone, but combinations may be effective. This is where I think the CS question lies: how can you use ~200 factors for classification?)
-4. Try the most effective motif-guessing metrics on the "unsigned" works to guess the genders of those unknown authors.
+4. Try the most effective motif-based gender-guessing metrics on the "unsigned" works to guess the genders of those unknown authors.
 5. Repeat with "gothic types."
 6. Repeat with "gothic types" + "gothic motifs" in combination.
 
