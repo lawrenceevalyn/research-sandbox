@@ -35,7 +35,7 @@ Some motif columns instead list strings, or numbers larger than 1, to deal with 
 | 1                 |                        | 1                 | legal                   |
 | 2                 | 1                      | 1                 | both                    |
 
-The first row is "Gender," which contains either "m" or "f". This is the feature I want to use all the other information to try to predict. Books with "unknown" author genders are not included in this spreadsheet (though I can make a spreadsheet of them later).
+The first row is "Gender," which contains either "m" or "f". This is the feature I want to use all the other information to try to predict. Books with "unknown" author genders are not included in this spreadsheet; they are in Tracy-unknowns.csv.
 
 Each book has a unique "Tracy No." which is the number it was assigned in Tracy's bibiliography.
 
@@ -54,7 +54,7 @@ Each column name will consist of one or more words which I considered to represe
 
 The tag names are extremely messy because I haven't renamed them after merging similar words together. I suggest treating the tags as strings and mostly ignoring what they say. It would be acceptable to ignore the specific content of the tag column and just treat the presence of a string like a 1 and the absence of a string like a 0. Please do *not* change the tags/column names, however.
 
-The first row is "Gender," which contains either "m" or "f". This is the feature I want to use all the other information to try to predict. Books with "unknown" author genders are not included in this spreadsheet (though I can make a spreadsheet of them later).
+The first row is "Gender," which contains either "m" or "f". This is the feature I want to use all the other information to try to predict. Books with "unknown" author genders are not included in this spreadsheet; they are in Frank-unknowns.csv.
 
 ## Frank-Tracy-combined
 
