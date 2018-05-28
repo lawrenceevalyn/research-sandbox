@@ -58,14 +58,6 @@ The first row is "Gender-Frank," which contains either "m", "f", or "unknown". T
 
 Each book has a unique "Frank No." which is the number it was assigned in Frank's bibiliography.
 
-## Frank-Tracy-basics
+## Frank-Tracy-combined
 
-This spreadsheet contains more details on the Frank works (like title, author name, etc).
-
-More importantly, it includes all "Tracy No." and "Frank No." numbers relative to each other so that Tracy-motifs and Frank-tags can be joined. Most works have *either* a Frank No. *or* a Tracy No., but I think 167 works do have both, which will be reflected in this spreadsheet. For example:
-
-| Tracy No. | Frank No. | Title-Frank                      |
-|-----------|-----------|----------------------------------|
-|           | 16        | HERMSPRONG: OR, MAN,AS HE IS NOT |
-| 1         | 17        | THE BLACK ROBBER. A ROMANCE      |
-| 7         |           |                                  |
+This spreadsheet contains both tags and motifs for all works which are listed in both Frank and Tracy.
