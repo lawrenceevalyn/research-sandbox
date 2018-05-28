@@ -7,17 +7,17 @@
 5. Repeat with "gothic types."
 6. Repeat with "gothic types" + "gothic motifs" in combination.
 
+## My research questions:
+* Can "gothic motifs" be used to identify author gender?
+* Can "gothic tags" be used to identify author gender?
+* Can "gothic motifs" and "gothic tags" combined identify author gender?
+* If the answer to any of the above is "yes": how many of the "unknown" works are probably by men vs women?
+
 (My hypotheses: Gothic motifs will be more useful than gothic types. Men will be easier to spot than women. A low percentage of unsigned works are by men.)
 
 # Spreadsheets for Gothic motifs and tags
 
 I have standardized all column names across these three spreadsheets, so it should be possible to "join" them with minimal distress.
-
-# My research questions:
-* Can "gothic motifs" be used to identify author gender?
-* Can "gothic tags" be used to identify author gender?
-* Can "gothic motifs" and "gothic tags" combined identify author gender?
-* If the answer to any of the above is "yes": how many of the "unknown" works are probably by men vs women?
 
 ## Tracy-motifs
 
