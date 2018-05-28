@@ -10,9 +10,21 @@ By FAR the easiest way to find TCP XML files of particular plays is at http://ot
 
 ## May 28, 2018
 
-In cleaning gothic-motifs data for computational classification, I deleted the human-readable column for any set of subcategories that had three or more options. So, e.g., "fainting (any)" with the subcategories "m", "f", or "both", remains, because those 3 states are........fine, to me, somehow. (Though I may drop this later since it's redundant?) But "deathbed (any)" with "agonies", "emotional", "agonies and sad", "sad and interrupted", etc, does NOT stay in the summative "kind of deathbed" column, because there are too many combos.
+btw if Weka gives an error and refuses to open a CSV, make sure there is a carriage return at the end of the last line of the CSV
+
+Tracy-no-strings-2: In cleaning gothic-motifs data for computational classification, I deleted the human-readable column for any set of subcategories that had three or more options. So, e.g., "fainting (any)" with the subcategories "m", "f", or "both", remains, because those 3 states are........fine, to me, somehow. (Though I may drop this later since it's redundant?) But "deathbed (any)" with "agonies", "emotional", "agonies and sad", "sad and interrupted", etc, does NOT stay in the summative "kind of deathbed" column, because there are too many combos.
 
 It runs WAY worse when I try to only classify based on attributes that I think are meaningful. More data = better.
+
+Best accuracy is 59% with Tracy-no-strings (NOT 2) with Logistic
+
+"what I can tell you is machines love data, and machines love it if you give them hints. 'oh? is sentimental a code word for female? I LOVE code words for female!'"
+
+"ohhh, it's 1 2 3 4 horse all over again"
+
+"we are dealing with the 'magical incantation' phase of the learning process"
+
+Frank alone is more accurate than Tracy AND more accurate than Frank-Tracy-inside-join (because Frank-Tracy-inside-join is fewer books)
 
 ## April 27, 2018
 

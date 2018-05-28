@@ -23,7 +23,7 @@ I have standardized all column names across these three spreadsheets, so it shou
 
 ## Tracy-motifs
 
-This spreadsheet contains 208 books as rows, and 153 "features" as columns, mostly motifs.
+This spreadsheet contains 198 books as rows, and 145 "features" as columns, which are the "motifs".
 
 Most motifs columns contain either a "1" indicating the presence of that motif or a blank indicating the absence of that motif.
 
@@ -35,13 +35,13 @@ Some motif columns instead list strings, or numbers larger than 1, to deal with 
 | 1                 |                        | 1                 | legal                   |
 | 2                 | 1                      | 1                 | both                    |
 
-The first row is "Gender-Tracy," which contains either "m", "f", or "unknown". This is the feature I want to use all the other information to try to predict.
+The first row is "Gender," which contains either "m" or "f". This is the feature I want to use all the other information to try to predict. Books with "unknown" author genders are not included in this spreadsheet (though I can make a spreadsheet of them later).
 
 Each book has a unique "Tracy No." which is the number it was assigned in Tracy's bibiliography.
 
 ## Frank-tags
 
-This spreadsheet contains 499 books as rows, and 192 "features" as columns, which are all "tags" except for the first two columns (which are Gender-Frank and Frank No.)
+This spreadsheet contains 371 books as rows, and 169 "features" as columns, which are all "tags".
 
 Each column name will consist of one or more words which I considered to represent one "tag", and the column will contain the actual word from that "tag" which appeared in the description of the work. For example:
 
@@ -54,10 +54,10 @@ Each column name will consist of one or more words which I considered to represe
 
 The tag names are extremely messy because I haven't renamed them after merging similar words together. I suggest treating the tags as strings and mostly ignoring what they say. It would be acceptable to ignore the specific content of the tag column and just treat the presence of a string like a 1 and the absence of a string like a 0. Please do *not* change the tags/column names, however.
 
-The first row is "Gender-Frank," which contains either "m", "f", or "unknown". This is the feature I want to use all the other information to try to predict.
-
-Each book has a unique "Frank No." which is the number it was assigned in Frank's bibiliography.
+The first row is "Gender," which contains either "m" or "f". This is the feature I want to use all the other information to try to predict. Books with "unknown" author genders are not included in this spreadsheet (though I can make a spreadsheet of them later).
 
 ## Frank-Tracy-combined
 
-This spreadsheet contains both tags and motifs for all works which are listed in both Frank and Tracy.
+This spreadsheet contains both tags and motifs for all works which are listed in *both* Frank and Tracy. It has 171 books, and 222 features.
+
+The first row is "Gender," which contains either "m" or "f". This is the feature I want to use all the other information to try to predict. Books with "unknown" author genders are not included in this spreadsheet (though I can make a spreadsheet of them later).
