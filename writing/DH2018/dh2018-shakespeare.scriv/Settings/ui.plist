@@ -22,7 +22,7 @@
 	<key>binderSplitFrames</key>
 	<array>
 		<string>{{0, 0}, {237, 772}}</string>
-		<string>{{238, 0}, {1029, 772}}</string>
+		<string>{{238, 0}, {722, 772}}</string>
 	</array>
 	<key>binderState</key>
 	<array>
@@ -98,66 +98,6 @@
 		<integer>99</integer>
 		<key>NavigationHistoryArray</key>
 		<array>
-			<dict>
-				<key>AggregateSelection</key>
-				<string>{371, 0}</string>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>0EBEA81A-9D08-4632-8C84-F9989D1C54A2</string>
-					<string>0B251A0C-D6A3-4FD8-B128-C73938628FD3</string>
-					<string>14D142AD-7336-453F-AF5C-E2094B27F91F</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>1</integer>
-			</dict>
-			<dict>
-				<key>AggregateSelection</key>
-				<string>{28, 0}</string>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>9EC3E216-A789-4481-AB3F-C5EC7F9CBFCF</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>1</integer>
-			</dict>
-			<dict>
-				<key>AggregateSelection</key>
-				<string>{1304, 0}</string>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>DDF8AC31-4A85-4C8C-AE97-38C38E121C00</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>1</integer>
-			</dict>
-			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>E173CE3F-268F-460A-907C-87D5FB65452B</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>AggregateSelection</key>
-				<string>{2389, 0}</string>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>DDF8AC31-4A85-4C8C-AE97-38C38E121C00</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>1</integer>
-			</dict>
-			<dict>
-				<key>AggregateSelection</key>
-				<string>{2838, 0}</string>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>9EC3E216-A789-4481-AB3F-C5EC7F9CBFCF</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>1</integer>
-			</dict>
 			<dict>
 				<key>AggregateSelection</key>
 				<string>{4066, 0}</string>
@@ -936,12 +876,64 @@
 				<integer>1</integer>
 			</dict>
 			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
 				<key>BinderDocUUIDs</key>
 				<array>
 					<string>9EC3E216-A789-4481-AB3F-C5EC7F9CBFCF</string>
 				</array>
 				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>E50D90EC-1BB7-443B-B9BB-1FD2ABA675E7</string>
+				</array>
+				<key>ViewMode</key>
 				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>E355F684-CEBD-41AC-8311-1629CCEF4754</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>E50D90EC-1BB7-443B-B9BB-1FD2ABA675E7</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>0EBEA81A-9D08-4632-8C84-F9989D1C54A2</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>8ACD0ADC-4908-407C-8B16-E87BABCE17BE</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>9EC3E216-A789-4481-AB3F-C5EC7F9CBFCF</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
 			</dict>
 		</array>
 	</dict>
@@ -1009,9 +1001,11 @@
 		</dict>
 	</dict>
 	<key>mainDocumentEditor.scrollRect</key>
-	<string>{{0, 0}, {620, 457.33333333333331}}</string>
+	<string>{{0, 0}, {481.33333333333331, 457.33333333333331}}</string>
 	<key>mainDocumentEditor.selectedRanges</key>
 	<string>{375, 0}</string>
+	<key>mainDocumentEditor.selectedTextRanges</key>
+	<string>2232,741</string>
 	<key>mainDocumentEditor.textEditorState</key>
 	<dict>
 		<key>hasMultiplePages</key>
@@ -1022,7 +1016,7 @@
 		<false/>
 	</dict>
 	<key>mainWindowFrame</key>
-	<string>0 83 1267 794 0 0 1440 877 </string>
+	<string>0 83 960 794 0 0 1440 877 </string>
 	<key>supportingDocumentEditor.binderDocuments</key>
 	<array>
 		<string>A9567FC6-8182-42CF-89BB-2C58CE534BE7</string>
