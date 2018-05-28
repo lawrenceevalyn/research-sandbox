@@ -17,6 +17,8 @@
 
 # Spreadsheets for Gothic motifs and tags
 
+These spreadsheets contain a total of 528 books, with 345 "features" to try to identify their authors' genders.
+
 I have standardized all column names across these three spreadsheets, so it should be possible to "join" them with minimal distress.
 
 ## Tracy-motifs
