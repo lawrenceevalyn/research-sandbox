@@ -2,7 +2,6 @@
 <CompileSettings>
     <ProjectSettings>
         <Content Scope="Included" IncludeGroupText="Yes">
-            <CompileGroup Type="BinderItem">1DC4C385-56CE-47AC-99C7-40383678D5B8</CompileGroup>
             <Filter State="Off" Exclude="No" Type="Label">
                 <CollectionID>5F019618-106D-4CE6-B387-20FB66CFFD0F</CollectionID>
                 <Label>-1</Label>
@@ -42,9 +41,6 @@
             </Authors>
             <Surname>Evalyn</Surname>
             <Forename>Lawrence</Forename>
-            <Subjects>
-                <Subject></Subject>
-            </Subjects>
             <EbookLanguage>en</EbookLanguage>
             <FountainTitlePageMetaData>
                 <Value Key="Title"><![CDATA[<$projecttitle>]]></Value>
@@ -56,14 +52,18 @@
             </MMDMetaData>
         </MetaData>
     </ProjectSettings>
-    <CurrentFileType>Print</CurrentFileType>
+    <CurrentFileType>mmd</CurrentFileType>
     <FormatSettings>
         <Format ID="DEFAULT">
             <SectionLayouts>
                 <Type ID="E00BEFAF-9BD8-4DFD-889E-E8C3A63BB83B">NEW-PAGE-HEADER-WITH-TEXT</Type>
-                <Type ID="DFC93004-00B5-499D-99DB-CCDDF7B53FCA">TEXT-SECTION</Type>
+                <Type ID="E7C605BA-74CC-4A9F-A37A-F1F3161A2DCA">AS-IS</Type>
+                <Type ID="DFC93004-00B5-499D-99DB-CCDDF7B53FCA">TEXT-WITH-HEADER</Type>
             </SectionLayouts>
         </Format>
     </FormatSettings>
-    <LastUsedFormats></LastUsedFormats>
+    <LastUsedFormats>
+        <Print>DEFAULT</Print>
+        <mmd>DEFAULT</mmd>
+    </LastUsedFormats>
 </CompileSettings>

@@ -1,21 +1,7 @@
-Title: she-tragedy
+Title: she-tragedy  
 Author: Lawrence Evalyn
 
-# abstract #
-
-Nicholas Rowe coined the term “she-tragedy” in 1714 to refer to a recently successful kind of tragedy, which takes advantage of the still-new presence of actresses on the Restoration stage to present spectables of female suffering. She-tragedies took pathetic tragedy to its logical extreme, and were extremely different from the heroic dramas that pre-dated them. The characteristic marginalization-yet-theatrical-power is captured in the dynamics of the play’s social network, as the heroines speak at great length but to few people and little effect, in contrast to the debates and wide-ranging social circulation of the central male figures in heroic dramas. The most mesmerizing she-tragedy heroines instead speak directly to their audiences. As theatrical tastes shift toward bourgeois drama, it seems as if women remain marginalized through their continued alliance with the domestic, but in fact a shift occurs in the amount of agency they are able to show. As the mere presence of an actress on the stage becomes more familiar, the theatrical/social activities of heroines and heroes become more similar. 
-Can I tell which plays were less impressive as she-tragedies because their heroines speak less to the audience?
-My article is about how and why the heroines of tragedies went from being socially proscribed to occupying the same structural plot roles as male heroes of tragedies over the course of the long 18th century.
-Something about the shift from heroic drama to pathetic tragedy and back again? My argument may be that, when theatrical tastes shift away from pathetic tragedy and toward bourgeois drama, this doesn’t look like a change in women’s status on the stage, but it actually is, because they get more agency.
-But I need way more proof than I have for those claims.
-What I’ve actually shown is that my social networks can detect the difference between a heroic drama and a pathetic tragedy. Agency and speech are intimately connected in plays (as makes sense). Although she-tragedy heroines are marginalized in the world of their plays, they make direct claims on the audience’s sympathy; they are distinct from the heroic drama before and the bourgeois drama after in their attempt to speak directly out from the stage.
-
-Venice Preserv’d (1682), The Grecian Daughter (1772)
-
-I think my new argument is that, when women are first introduced to tragedies their mere spectacular presence is sufficient to make an enormous impression on the audience — but as the genre of she-tragedy is established, the heroines become more similar to the male heroes they displace.
-(Does this reflect some kind of changing attitude about women’s agency?)
-
-# revision tasks #
+# to-do list #
 
 - Get more graphs to compare to
 	- Make a list of she-tragedies
@@ -28,26 +14,24 @@ I think my new argument is that, when women are first introduced to tragedies th
 - Figure out what to do with Aquilina?
 - Expand on Grecian Daughter
 
-# convo with Veronica #
+# abstract #
 
-belvidera: precursor to domestic novel, shouldn't be interesting to hear her reactions to things she has no role in but it is
+The Heroine of Eighteenth Century She-Tragedy, in Her Network
+(revise to include the word “graph” if I am accepted?)
+The gendered role of the actress on stage, from the seventeenth century through the eighteenth, is often discussed in terms of the spectacle of the female body. In contrast, I turn my attention to the role of speech. In the eighteenth-century fad for “she-tragedy,” a heroine could have an overwhelming impact on theatregoers — but often very little impact on her fellow characters. This paper uses computational social network analysis of fifty plays 1670–1770 to abstract and compare heroines’ positions within the social worlds of their plays. Each social network models the number, length, and direction of each character’s lines in the play, building a map of characters’ relationships as reflected in their speech acts. Handmade networks of Thomas Otway’s Venice Preserv’d (1682) and Arthur Murphy’s The Grecian Daughter (1772) show a strong contrast between Belvidera’s extremely limited social sphere in Venice Preserv’d, and Euphrasia’s social centrality and plot agency in The Grecian Daughter. What both heroines have in common, however, is a particular use of asides and soliloquies. When the audience is modelled as the target of these speeches, and therefore represented as a node in the social network of the play, the true importance of the heroine becomes visible. Computationally-generated networks of selected plays from the century of theatrical development between Venice Preserv’d and The Grecian Daughter contextualize the differences between Belvidera and Euphrasia as social agents on- and off-stage. Taking up the interrelated histories of the heroic drama, the pathetic tragedy, and the bourgeois drama, this paper articulates a definition of the she-tragedy based on how and to whom the heroine is able to speak.
 
-Veronica's telling: article doesn't know what it's big signifcant claim is just yet, but it has all its evidence; two plays that do two very different things with she-tragedy heroines, and both work but they occur on either side of a century -- my task is to find out how one turns into the other. 
 
-tragic heroine played by an actual woman -- still had novelty
-totally different experience for the audience, in post-rape scene with hair down and clothes torn; 
-written specifically for Elizabeth Barry at the height of her fame
+Although she-tragedy heroines are marginalized in the world of their plays, they make direct claims on the audience’s sympathy. They are distinct from the heroes of heroic drama before and the bourgeois drama after in their ability to speak directly out from the stage.
+when theatrical tastes shift away from pathetic tragedy and toward bourgeois drama, this doesn’t look like a change in women’s status on the stage, but it actually is, because they get more agency.
+Social network graphs let us see whether she-tragedy heroines are socially marginalized, seperately from the question of their agency within the plot of the play
 
-Cassandra figure -- no one believes her
+# selection method #
 
-Grecian Daughter maybe keyed to change in female protagonists in novels around 60s; a new burst of active female protagonists because passive heroines are boring
+All plays with the string “traged*” somewhere in their description, 1650-1800.
 
-How long was Venice Preservd still staged?
-Who played Euphrasia? Mrs Barry???
+(If my starter list of she-tragedies don’t all get found via this method, I will rethink it.)
 
-My article is about how and why the heroines of tragedies went from being socially proscribed to occupying the same structural plot roles as male heroes of tragedies over the course of the long 18th century.
-
-Lawrence’s article uses (what will be) a formidable data set to think about the changes in the sociability and activity of the tragic heroine across the long 18th c.
+How will I make sure I get French and German plays too?
 
 # list of she-tragedies #
 
@@ -101,53 +85,3 @@ She tragedies are known for having focused on the hardships of women rather than
 ## french and german too ##
 
 Because my method is interested only in who speaks to whom, and relies only on TEI, I can easily consider French and German plays without being able to read them!
-
-
-# MLA abstract #
-
-The Heroine of Eighteenth Century She-Tragedy, in Her Network
-(revise to include the word “graph” if I am accepted?)
-The gendered role of the actress on stage, from the seventeenth century through the eighteenth, is often discussed in terms of the spectacle of the female body. In contrast, I turn my attention to the role of speech. In the eighteenth-century fad for “she-tragedy,” a heroine could have an overwhelming impact on theatregoers — but often very little impact on her fellow characters. This paper uses computational social network analysis of fifty plays 1670–1770 to abstract and compare heroines’ positions within the social worlds of their plays. Each social network models the number, length, and direction of each character’s lines in the play, building a map of characters’ relationships as reflected in their speech acts. Handmade networks of Thomas Otway’s Venice Preserv’d (1682) and Arthur Murphy’s The Grecian Daughter (1772) show a strong contrast between Belvidera’s extremely limited social sphere in Venice Preserv’d, and Euphrasia’s social centrality and plot agency in The Grecian Daughter. What both heroines have in common, however, is a particular use of asides and soliloquies. When the audience is modelled as the target of these speeches, and therefore represented as a node in the social network of the play, the true importance of the heroine becomes visible. Computationally-generated networks of selected plays from the century of theatrical development between Venice Preserv’d and The Grecian Daughter contextualize the differences between Belvidera and Euphrasia as social agents on- and off-stage. Taking up the interrelated histories of the heroic drama, the pathetic tragedy, and the bourgeois drama, this paper articulates a definition of the she-tragedy based on how and to whom the heroine is able to speak.
-
-
-Although she-tragedy heroines are marginalized in the world of their plays, they make direct claims on the audience’s sympathy. They are distinct from the heroes of heroic drama before and the bourgeois drama after in their ability to speak directly out from the stage.
-when theatrical tastes shift away from pathetic tragedy and toward bourgeois drama, this doesn’t look like a change in women’s status on the stage, but it actually is, because they get more agency.
-Social network graphs let us see whether she-tragedy heroines are socially marginalized, seperately from the question of their agency within the plot of the play
-
-## Theatre as communication ##
-
-Theatre as communication
-
-Forum: LSL Linguistics and Literature
-This session explores how theatrical texts and performances of them create meanings and who is responsible for the creation of those meanings. Abstracts of up to 500 words by 15 March 2018; Billy Clark (billy.clark@northumbria.ac.uk) and Anja Mueller-Wood (wood@uni-mainz.de).
-
-### Dear Billy Clark and Anja Mueller-Wood ###
-
-Dear Billy Clark and Anja Mueller-Wood,
-I write to suggest a paper for your consideration, for your panel “Theatre as communication” at MLA. I have been undertaking a digital project examining the social networks implicit within play scripts, focusing on the role of the speech act between characters. I am presenting on the technical underpinnings of the project at the annual Digital Humanities conference this summer, and [think MLA would be interested in the literary part] 
-The abstract is as follows:
-[]
-Although the project is deeply rooted in the eighteenth century, I believe the approach will be of interest to scholars of theatre in other periods.
-Many thanks for your consideration,
-Lawrence Evalyn
-
-## Ways of Reading Scotland ##
-
-Ways of Reading Scotland
-
-Forum: LLC Scottish
-How might new technologies and modes of reading (digital, surface, distant, etc.) shape our understandings of Scottish texts, genres, or canons? 250-word abstracts for 10 minute papers by 16 March 2018; Juliet Shields (js37@u.washington.edu).
-
-## The Politics of Consent ##
-
-The Politics of Consent
-
-Forum: LLC 18th-Century French
-Panel on the varied articulations of consent in the 18th century. Send title and 200-word abstract to ffalaky@tulane by 15 March 2018; Fayçal Falaky (ffalaky@tulane.edu).
-
-## Do the Digital Humanities Have Politics ##
-
-Do the Digital Humanities Have Politics?
-
-Special Session
-This session explores political dimensions of computational thinking as intersected with Humanities knowledge practices, particularly from critical race, feminist, queer, and SSK lenses. 500 word abstracts by 15 March 2018; James Malazita (malazj@rpi.edu).

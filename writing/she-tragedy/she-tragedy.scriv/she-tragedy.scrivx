@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="54D36B9D-8B04-49CB-B8A2-CF608927CF16" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2018-05-31 04:56:34 -0400" ModID="972F60B0-ACAE-4C06-81A7-250E5CB73F02">
+<ScrivenerProject Identifier="54D36B9D-8B04-49CB-B8A2-CF608927CF16" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2018-06-01 04:40:09 -0400" ModID="01945D63-66C3-45E3-8FD9-B4BF7BD95722">
     <Binder>
         <BinderItem UUID="1DC4C385-56CE-47AC-99C7-40383678D5B8" Type="DraftFolder" Created="2016-02-25 20:03:41 -0500" Modified="2016-02-25 20:03:41 -0500">
             <Title>Draft</Title>
@@ -7,6 +7,15 @@
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <Children>
+                <BinderItem UUID="5519C482-CC52-4FB7-A933-30A7873F3A1D" Type="Text" Created="2018-01-17 21:03:11 -0500" Modified="2018-06-01 04:38:55 -0400">
+                    <Title>to-do list</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>299,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
                 <BinderItem UUID="6EBD01FD-068E-43E1-8CC7-C66694EEF968" Type="Text" Created="2018-03-16 14:04:20 -0400" Modified="2018-03-16 14:04:44 -0400">
                     <Title>abstract</Title>
                     <MetaData>
@@ -16,22 +25,13 @@
                         <TextSelection>0,1858</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="5519C482-CC52-4FB7-A933-30A7873F3A1D" Type="Text" Created="2018-01-17 21:03:11 -0500" Modified="2018-01-17 21:06:31 -0500">
-                    <Title>revision tasks</Title>
+                <BinderItem UUID="33332BD0-2CAA-4C1A-A489-A53622443083" Type="Text" Created="2018-06-01 04:36:54 -0400" Modified="2018-06-01 04:40:01 -0400">
+                    <Title>selection method</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>299,0</TextSelection>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem UUID="AA41F93C-6665-45E2-807E-6CF47E69172B" Type="Text" Created="2018-01-23 14:18:09 -0500" Modified="2018-01-23 14:18:15 -0500">
-                    <Title>convo with Veronica</Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>940,207</TextSelection>
+                        <TextSelection>230,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="0D0EB78B-DC93-4682-B710-1581D2B40C3E" Type="Text" Created="2018-01-23 14:37:41 -0500" Modified="2018-01-23 15:08:29 -0500">
@@ -776,6 +776,15 @@
                 <IconFileName>Front Matter.tiff</IconFileName>
             </MetaData>
             <Children>
+                <BinderItem UUID="AA41F93C-6665-45E2-807E-6CF47E69172B" Type="Text" Created="2018-01-23 14:18:09 -0500" Modified="2018-01-23 14:18:15 -0500">
+                    <Title>convo with Veronica</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>940,207</TextSelection>
+                    </TextSettings>
+                </BinderItem>
                 <BinderItem UUID="9300B79F-1DA3-48C5-A712-D53F2312F2D8" Type="Text" Created="2016-02-25 20:03:41 -0500" Modified="2016-02-25 20:03:41 -0500">
                     <Title>Stray Thoughts</Title>
                     <MetaData>
@@ -1682,11 +1691,11 @@
     <ProjectTargets Notify="Yes">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2016-04-17 03:21:51 -0400" IgnoreDeadline="No">5389</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">250</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2018-05-31 04:56:32 -0400"></PreviousSession>
+        <PreviousSession Words="40" Characters="230" Date="2018-06-01 04:38:17 -0400"></PreviousSession>
     </ProjectTargets>
-    <RecentWritingHistory Date="2018-05-31 00:00:00 -0400">
-        <DraftWordCount>0</DraftWordCount>
-        <DraftCharCount>0</DraftCharCount>
+    <RecentWritingHistory Date="2018-06-01 00:00:00 -0400">
+        <DraftWordCount>40</DraftWordCount>
+        <DraftCharCount>230</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>

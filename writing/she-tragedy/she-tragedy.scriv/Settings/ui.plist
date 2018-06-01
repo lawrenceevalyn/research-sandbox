@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CompileFolder</key>
+	<string>/Users/lawrence/Desktop/research-sandbox/writing/she-tragedy</string>
 	<key>NotesScaleFactor</key>
 	<real>1.5</real>
 	<key>SCRSelectedCompileOptionsInfoSaveName</key>
@@ -66,8 +68,8 @@
 	<true/>
 	<key>editorSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {1049, 403}}</string>
-		<string>{{0, 404}, {1049, 332}}</string>
+		<string>{{0, 0}, {1049, 507}}</string>
+		<string>{{0, 508}, {1049, 228}}</string>
 	</array>
 	<key>editorSplitType</key>
 	<integer>1</integer>
@@ -939,7 +941,7 @@
 		</array>
 	</dict>
 	<key>mainDocumentEditor.scrollRect</key>
-	<string>{{0, 52}, {620, 184}}</string>
+	<string>{{0, 41}, {620, 114.66666666666666}}</string>
 	<key>mainDocumentEditor.selectedRanges</key>
 	<string>{652, 0}</string>
 	<key>mainDocumentEditor.selectedTextRanges</key>
@@ -1021,94 +1023,6 @@
 		<integer>99</integer>
 		<key>NavigationHistoryArray</key>
 		<array>
-			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>7858C21D-8A0B-4576-A38C-67434E66CCDA</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>5CBA0A39-D23B-4A7D-85C0-08B872B54F06</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>0D0EB78B-DC93-4682-B710-1581D2B40C3E</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>7858C21D-8A0B-4576-A38C-67434E66CCDA</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>0D0EB78B-DC93-4682-B710-1581D2B40C3E</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>B55408AC-D61B-432D-86DB-4E72623D719F</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>7858C21D-8A0B-4576-A38C-67434E66CCDA</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>0D0EB78B-DC93-4682-B710-1581D2B40C3E</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>B55408AC-D61B-432D-86DB-4E72623D719F</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>4411532C-AB7A-46D2-95C9-7C4D65EF602F</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>864EA4AE-DFEB-437D-8A9E-623B91B52296</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
 			<dict>
 				<key>BinderDocUUIDs</key>
 				<array>
@@ -1838,6 +1752,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
 				<key>BinderDocUUIDs</key>
 				<array>
 					<string>0D0EB78B-DC93-4682-B710-1581D2B40C3E</string>
@@ -1845,14 +1761,104 @@
 				<key>ViewMode</key>
 				<integer>1</integer>
 			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>4411532C-AB7A-46D2-95C9-7C4D65EF602F</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>864EA4AE-DFEB-437D-8A9E-623B91B52296</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>4411532C-AB7A-46D2-95C9-7C4D65EF602F</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>0D0EB78B-DC93-4682-B710-1581D2B40C3E</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>6EBD01FD-068E-43E1-8CC7-C66694EEF968</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>33332BD0-2CAA-4C1A-A489-A53622443083</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>6EBD01FD-068E-43E1-8CC7-C66694EEF968</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>5519C482-CC52-4FB7-A933-30A7873F3A1D</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>AA41F93C-6665-45E2-807E-6CF47E69172B</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>5519C482-CC52-4FB7-A933-30A7873F3A1D</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>33332BD0-2CAA-4C1A-A489-A53622443083</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
 		</array>
 	</dict>
 	<key>supportingDocumentEditor.scrollRect</key>
-	<string>{{0, 13}, {620, 231.33333333333334}}</string>
+	<string>{{0, 0}, {620, 300.66666666666669}}</string>
 	<key>supportingDocumentEditor.selectedRanges</key>
 	<string>{0, 1858}</string>
 	<key>supportingDocumentEditor.selectedTextRanges</key>
-	<string>0,0</string>
+	<string>230,0</string>
 	<key>supportingDocumentEditor.textEditorState</key>
 	<dict>
 		<key>hasMultiplePages</key>
