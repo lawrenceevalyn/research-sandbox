@@ -82,10 +82,17 @@
                 <Type ID="A57BA4CE-8247-4C83-AFB2-2E54B4BA1B60">TEXT-WITH-HEADER</Type>
             </SectionLayouts>
         </Format>
+        <Format ID="1A17753F-7C33-4667-A72E-F7FD94CE65CF">
+            <SectionLayouts>
+                <Type ID="4F2D2026-B699-4A6A-8683-86719AF1760A">NEW-PAGE-HEADER</Type>
+                <Type ID="54CEFDC7-EACC-4ACF-9468-6CE9E5B73B0E">AS-IS</Type>
+                <Type ID="A57BA4CE-8247-4C83-AFB2-2E54B4BA1B60">TEXT-SECTION</Type>
+            </SectionLayouts>
+        </Format>
     </FormatSettings>
     <LastUsedFormats>
         <Print>DEFAULT</Print>
         <mmd>7313A92A-E914-4611-AED9-B04D67645B9C</mmd>
-        <docx>7313A92A-E914-4611-AED9-B04D67645B9C</docx>
+        <docx>1A17753F-7C33-4667-A72E-F7FD94CE65CF</docx>
     </LastUsedFormats>
 </CompileSettings>
