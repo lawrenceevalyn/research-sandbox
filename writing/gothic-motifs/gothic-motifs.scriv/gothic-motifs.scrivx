@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="FCF3EEDC-0CD0-49D5-82D3-6FDE11B9D3B3" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2018-06-07 17:50:01 -0400" ModID="EF5FCBA8-B19B-4911-834D-649A8C09B8E7">
+<ScrivenerProject Identifier="FCF3EEDC-0CD0-49D5-82D3-6FDE11B9D3B3" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2018-06-14 02:40:59 -0400" ModID="3E42609B-8618-46E1-967F-5D6C13B7105E">
     <Binder>
         <BinderItem UUID="836B4616-2F94-48E5-978F-634FABF8D89B" Type="Text" Created="2018-04-27 11:58:05 -0400" Modified="2018-06-07 17:02:19 -0400">
             <Title>new title ideas</Title>
@@ -18,7 +18,7 @@
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <TextSettings>
-                <TextSelection>422,0</TextSelection>
+                <TextSelection>428,0</TextSelection>
             </TextSettings>
         </BinderItem>
         <BinderItem UUID="DDF8AC31-4A85-4C8C-AE97-38C38E121C00" Type="DraftFolder" Created="2017-04-11 19:14:02 -0400" Modified="2018-05-15 16:44:00 -0400">
@@ -69,7 +69,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                             <Children>
-                                <BinderItem UUID="9FDE3929-E4DB-4BED-9FFD-780FA1517782" Type="Text" Created="2018-03-22 16:47:36 -0400" Modified="2018-06-07 17:05:18 -0400">
+                                <BinderItem UUID="9FDE3929-E4DB-4BED-9FFD-780FA1517782" Type="Text" Created="2018-03-22 16:47:36 -0400" Modified="2018-06-14 02:38:31 -0400">
                                     <Title>history of the Female Gothic</Title>
                                     <MetaData>
                                         <LabelID>2</LabelID>
@@ -336,7 +336,7 @@
                         <TextSelection>1,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem UUID="CFFD8638-2D3B-4BD4-A52D-2D8799A5389D" Type="Text" Created="2018-05-15 15:13:25 -0400" Modified="2018-06-07 17:02:05 -0400">
+                        <BinderItem UUID="CFFD8638-2D3B-4BD4-A52D-2D8799A5389D" Type="Text" Created="2018-05-15 15:13:25 -0400" Modified="2018-06-14 02:39:45 -0400">
                             <Title>works</Title>
                             <MetaData>
                                 <LabelID>2</LabelID>
@@ -1299,6 +1299,16 @@ JAMES RAVEN, British Fiction 1750-1770 A Chronological Check-List of Prose Ficti
                             </TextSettings>
                         </BinderItem>
                     </Children>
+                </BinderItem>
+                <BinderItem UUID="5C86A800-86F2-48B7-85CE-618A1F93BE0E" Type="Text" Created="2018-06-14 02:28:21 -0400" Modified="2018-06-14 02:33:48 -0400">
+                    <Title>Yael Shapira review of Diana Wallace</Title>
+                    <MetaData>
+                        <LabelID>1</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>419,0</TextSelection>
+                    </TextSettings>
                 </BinderItem>
             </Children>
         </BinderItem>
@@ -2717,13 +2727,13 @@ JAMES RAVEN, British Fiction 1750-1770 A Chronological Check-List of Prose Ficti
     <ProjectTargets Notify="Yes">
         <DraftTarget Type="Words" CountIncludedOnly="No" CurrentCompileGroupOnly="No" Deadline="2017-04-22 02:21:51 -0400" IgnoreDeadline="Yes">6475</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="No" ResetType="NextDay" ResetTime="00:00" DeterminedFromDeadline="Yes" WritingDays="1-3, 5-7" CanWriteOnDeadlineDate="No">250</SessionTarget>
-        <PreviousSession Words="944" Characters="6240" Date="2018-06-01 05:35:03 -0400"></PreviousSession>
+        <PreviousSession Words="135" Characters="929" Date="2018-06-12 02:18:19 -0400"></PreviousSession>
     </ProjectTargets>
-    <RecentWritingHistory Date="2018-06-07 00:00:00 -0400">
-        <DraftWordCount>515</DraftWordCount>
-        <DraftCharCount>3509</DraftCharCount>
-        <OtherWordCount>0</OtherWordCount>
-        <OtherCharCount>0</OtherCharCount>
+    <RecentWritingHistory Date="2018-06-14 00:00:00 -0400">
+        <DraftWordCount>135</DraftWordCount>
+        <DraftCharCount>929</DraftCharCount>
+        <OtherWordCount>962</OtherWordCount>
+        <OtherCharCount>6096</OtherCharCount>
     </RecentWritingHistory>
     <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>
