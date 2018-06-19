@@ -20,12 +20,12 @@
             <ItemID>DDF8AC31-4A85-4C8C-AE97-38C38E121C00</ItemID>
         </Selection>
     </Binder>
-    <Inspector Show="No" View="Comments">
+    <Inspector Show="Yes" View="Comments">
         <ShowProjectBookmarks>No</ShowProjectBookmarks>
         <Collapse>CustomMetaData</Collapse>
         <FootnoteNumbers Prompt="No">No</FootnoteNumbers>
     </Inspector>
-    <Split>Vertical</Split>
+    <Split>None</Split>
     <BinderAffects>Current</BinderAffects>
     <Labels>
         <Binder FullWidth="Yes">Yes</Binder>
@@ -114,9 +114,6 @@
                 <GroupsViewMode>Corkboard</GroupsViewMode>
                 <CurrentViewMode>Single</CurrentViewMode>
                 <SelectionAffects>None</SelectionAffects>
-                <Content>
-                    <ItemID>5C86A800-86F2-48B7-85CE-618A1F93BE0E</ItemID>
-                </Content>
             </View>
             <Text>
                 <ShowRuler>No</ShowRuler>
