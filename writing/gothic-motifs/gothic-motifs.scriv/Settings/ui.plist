@@ -118,14 +118,6 @@
 			<dict>
 				<key>BinderDocUUIDs</key>
 				<array>
-					<string>820B80A9-F53A-4EDD-AAEB-911C00CCC7D2</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
 					<string>14726D69-3F9C-48EE-976A-14664237AEB5</string>
 				</array>
 				<key>ViewMode</key>
@@ -960,12 +952,22 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>AggregateSelection</key>
+				<string>{4031, 0}</string>
 				<key>BinderDocUUIDs</key>
 				<array>
 					<string>385FF09D-BE09-47BD-B8B7-11E425B7F6EA</string>
 				</array>
 				<key>ViewMode</key>
 				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>9EAABAA7-3F18-4138-B2A5-662673A40EE7</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
 			</dict>
 		</array>
 	</dict>
@@ -1033,9 +1035,9 @@
 		</dict>
 	</dict>
 	<key>mainDocumentEditor.scrollRect</key>
-	<string>{{0, 851.33333333333337}, {386, 467.33333333333337}}</string>
+	<string>{{0, 0}, {386, 467.33333333333331}}</string>
 	<key>mainDocumentEditor.selectedTextRanges</key>
-	<string>4031,0</string>
+	<string>0,788</string>
 	<key>mainDocumentEditor.textEditorState</key>
 	<dict>
 		<key>hasMultiplePages</key>
