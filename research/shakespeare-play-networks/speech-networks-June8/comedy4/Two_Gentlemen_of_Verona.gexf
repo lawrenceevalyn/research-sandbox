@@ -1,0 +1,2017 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-06-08">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="key" title="key" type="string"></attribute>
+      <attribute id="lines" title="lines" type="integer"></attribute>
+      <attribute id="words" title="words" type="integer"></attribute>
+      <attribute id="criticality" title="criticality" type="double"></attribute>
+      <attribute id="eigencentrality" title="Eigenvector Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="strongcompnum" title="Strongly-Connected ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="indegree" title="In-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="outdegree" title="Out-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="scenes" title="scenes" type="integer"></attribute>
+      <attribute id="sharedlines" title="sharedLines" type="integer"></attribute>
+    </attributes>
+    <nodes>
+      <node id="0" label="Speed">
+        <attvalues>
+          <attvalue for="key" value="Speed"></attvalue>
+          <attvalue for="lines" value="198"></attvalue>
+          <attvalue for="words" value="1655"></attvalue>
+          <attvalue for="criticality" value="0.037037037037037035"></attvalue>
+          <attvalue for="eigencentrality" value="0.7906912231904244"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7708333333333333"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.3333333333333333"></attvalue>
+          <attvalue for="clustering" value="0.8366013169288635"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="18"></attvalue>
+          <attvalue for="outdegree" value="18"></attvalue>
+          <attvalue for="degree" value="36"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-368.98703" y="-159.79385"></viz:position>
+      </node>
+      <node id="1" label="Silvia">
+        <attvalues>
+          <attvalue for="key" value="Silvia"></attvalue>
+          <attvalue for="lines" value="155"></attvalue>
+          <attvalue for="words" value="1305"></attvalue>
+          <attvalue for="criticality" value="0.7585470085470085"></attvalue>
+          <attvalue for="eigencentrality" value="0.9700585044810239"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8421052631578947"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.90625"></attvalue>
+          <attvalue for="betweenesscentrality" value="39.44444444444444"></attvalue>
+          <attvalue for="clustering" value="0.5784615278244019"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="26"></attvalue>
+          <attvalue for="outdegree" value="26"></attvalue>
+          <attvalue for="degree" value="52"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-260.84564" y="309.0977"></viz:position>
+      </node>
+      <node id="2" label="Third Outlaw">
+        <attvalues>
+          <attvalue for="key" value="tgv-out3."></attvalue>
+          <attvalue for="lines" value="26"></attvalue>
+          <attvalue for="words" value="237"></attvalue>
+          <attvalue for="criticality" value="0.012345679012345678"></attvalue>
+          <attvalue for="eigencentrality" value="0.8219349441861323"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6956521739130435"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.78125"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.4444444444444444"></attvalue>
+          <attvalue for="clustering" value="0.915032684803009"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="18"></attvalue>
+          <attvalue for="outdegree" value="18"></attvalue>
+          <attvalue for="degree" value="36"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-229.52988" y="-251.21326"></viz:position>
+      </node>
+      <node id="3" label="Valentine">
+        <attvalues>
+          <attvalue for="key" value="Valentine1"></attvalue>
+          <attvalue for="lines" value="384"></attvalue>
+          <attvalue for="words" value="3223"></attvalue>
+          <attvalue for="criticality" value="0.044444444444444446"></attvalue>
+          <attvalue for="eigencentrality" value="0.877388846727939"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7272727272727273"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8125"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.777777777777778"></attvalue>
+          <attvalue for="clustering" value="0.8421052694320679"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="20"></attvalue>
+          <attvalue for="outdegree" value="20"></attvalue>
+          <attvalue for="degree" value="40"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-19.85666" y="459.73013"></viz:position>
+      </node>
+      <node id="4" label="Host">
+        <attvalues>
+          <attvalue for="key" value="tgv-host."></attvalue>
+          <attvalue for="lines" value="23"></attvalue>
+          <attvalue for="words" value="181"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.43801302455525093"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5925925925925926"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.65625"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.8888888955116272"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="10"></attvalue>
+          <attvalue for="outdegree" value="10"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="295.5787" y="501.04886"></viz:position>
+      </node>
+      <node id="5" label="Launce">
+        <attvalues>
+          <attvalue for="key" value="Launce"></attvalue>
+          <attvalue for="lines" value="216"></attvalue>
+          <attvalue for="words" value="2063"></attvalue>
+          <attvalue for="criticality" value="0.1468253968253968"></attvalue>
+          <attvalue for="eigencentrality" value="0.5899678126327066"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.64"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.71875"></attvalue>
+          <attvalue for="betweenesscentrality" value="4.111111111111111"></attvalue>
+          <attvalue for="clustering" value="0.7032967209815979"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="14"></attvalue>
+          <attvalue for="outdegree" value="14"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-92.23742" y="-446.44003"></viz:position>
+      </node>
+      <node id="6" label="Thurio">
+        <attvalues>
+          <attvalue for="key" value="Thurio"></attvalue>
+          <attvalue for="lines" value="56"></attvalue>
+          <attvalue for="words" value="456"></attvalue>
+          <attvalue for="criticality" value="0.15404040404040403"></attvalue>
+          <attvalue for="eigencentrality" value="0.9047064733220381"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7619047619047619"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.84375"></attvalue>
+          <attvalue for="betweenesscentrality" value="6.777777777777778"></attvalue>
+          <attvalue for="clustering" value="0.7272727489471436"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="22"></attvalue>
+          <attvalue for="outdegree" value="22"></attvalue>
+          <attvalue for="degree" value="44"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-437.74353" y="24.979294"></viz:position>
+      </node>
+      <node id="7" label="Julia">
+        <attvalues>
+          <attvalue for="key" value="Julia"></attvalue>
+          <attvalue for="lines" value="321"></attvalue>
+          <attvalue for="words" value="2772"></attvalue>
+          <attvalue for="criticality" value="0.8910256410256412"></attvalue>
+          <attvalue for="eigencentrality" value="0.9226513135551292"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8421052631578947"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.90625"></attvalue>
+          <attvalue for="betweenesscentrality" value="46.33333333333334"></attvalue>
+          <attvalue for="clustering" value="0.5046153664588928"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="26"></attvalue>
+          <attvalue for="outdegree" value="26"></attvalue>
+          <attvalue for="degree" value="52"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-296.9211" y="321.19592"></viz:position>
+      </node>
+      <node id="8" label="Lucetta">
+        <attvalues>
+          <attvalue for="key" value="Lucetta"></attvalue>
+          <attvalue for="lines" value="72"></attvalue>
+          <attvalue for="words" value="631"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.09560713385662666"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.47058823529411764"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.49999999999999994"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="167.76285" y="-280.86328"></viz:position>
+      </node>
+      <node id="9" label="Proteus">
+        <attvalues>
+          <attvalue for="key" value="Proteus2"></attvalue>
+          <attvalue for="lines" value="441"></attvalue>
+          <attvalue for="words" value="3750"></attvalue>
+          <attvalue for="criticality" value="0.7876984126984127"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8888888888888888"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9375"></attvalue>
+          <attvalue for="betweenesscentrality" value="44.11111111111111"></attvalue>
+          <attvalue for="clustering" value="0.5291005373001099"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="28"></attvalue>
+          <attvalue for="outdegree" value="28"></attvalue>
+          <attvalue for="degree" value="56"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-412.14197" y="469.32306"></viz:position>
+      </node>
+      <node id="10" label="First Outlaw">
+        <attvalues>
+          <attvalue for="key" value="tgv-out1."></attvalue>
+          <attvalue for="lines" value="22"></attvalue>
+          <attvalue for="words" value="183"></attvalue>
+          <attvalue for="criticality" value="0.012345679012345678"></attvalue>
+          <attvalue for="eigencentrality" value="0.8219349441861323"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6956521739130435"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.78125"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.4444444444444444"></attvalue>
+          <attvalue for="clustering" value="0.915032684803009"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="18"></attvalue>
+          <attvalue for="outdegree" value="18"></attvalue>
+          <attvalue for="degree" value="36"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-111.84993" y="-302.84064"></viz:position>
+      </node>
+      <node id="11" label="Second Outlaw">
+        <attvalues>
+          <attvalue for="key" value="tgv-out2."></attvalue>
+          <attvalue for="lines" value="16"></attvalue>
+          <attvalue for="words" value="126"></attvalue>
+          <attvalue for="criticality" value="0.012345679012345678"></attvalue>
+          <attvalue for="eigencentrality" value="0.8219349441861322"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6956521739130435"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.78125"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.4444444444444444"></attvalue>
+          <attvalue for="clustering" value="0.915032684803009"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="18"></attvalue>
+          <attvalue for="outdegree" value="18"></attvalue>
+          <attvalue for="degree" value="36"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-124.91448" y="256.7901"></viz:position>
+      </node>
+      <node id="12" label="Duke of Milan">
+        <attvalues>
+          <attvalue for="key" value="MilanD"></attvalue>
+          <attvalue for="lines" value="200"></attvalue>
+          <attvalue for="words" value="1746"></attvalue>
+          <attvalue for="criticality" value="0.044444444444444446"></attvalue>
+          <attvalue for="eigencentrality" value="0.877388846727939"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7272727272727273"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8125"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.777777777777778"></attvalue>
+          <attvalue for="clustering" value="0.8421052694320679"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="20"></attvalue>
+          <attvalue for="outdegree" value="20"></attvalue>
+          <attvalue for="degree" value="40"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="388.64523" y="-106.34875"></viz:position>
+      </node>
+      <node id="13" label="Panthino">
+        <attvalues>
+          <attvalue for="key" value="Panthino"></attvalue>
+          <attvalue for="lines" value="43"></attvalue>
+          <attvalue for="words" value="354"></attvalue>
+          <attvalue for="criticality" value="0.1875"></attvalue>
+          <attvalue for="eigencentrality" value="0.27523700252690564"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5517241379310345"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6145833333333334"></attvalue>
+          <attvalue for="betweenesscentrality" value="3.0"></attvalue>
+          <attvalue for="clustering" value="0.5714285969734192"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="8"></attvalue>
+          <attvalue for="outdegree" value="8"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-406.35724" y="193.3822"></viz:position>
+      </node>
+      <node id="14" label="Musician">
+        <attvalues>
+          <attvalue for="key" value="musician"></attvalue>
+          <attvalue for="lines" value="15"></attvalue>
+          <attvalue for="words" value="100"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.43801302455525093"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5925925925925926"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.65625"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.8888888955116272"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="10"></attvalue>
+          <attvalue for="outdegree" value="10"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-109.29017" y="-284.5621"></viz:position>
+      </node>
+      <node id="15" label="Antonio">
+        <attvalues>
+          <attvalue for="key" value="Antonio1"></attvalue>
+          <attvalue for="lines" value="35"></attvalue>
+          <attvalue for="words" value="303"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.13308547644758467"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5416666666666666"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.6666666865348816"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="4"></attvalue>
+          <attvalue for="outdegree" value="4"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-478.23712" y="137.55489"></viz:position>
+      </node>
+      <node id="16" label="Eglamour">
+        <attvalues>
+          <attvalue for="key" value="Eglamour"></attvalue>
+          <attvalue for="lines" value="29"></attvalue>
+          <attvalue for="words" value="227"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.10010551989985632"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.47058823529411764"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.49999999999999994"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="70.34354" y="-41.685886"></viz:position>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="0" target="1" label="Speed --- Silvia" weight="826.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="130"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1" source="1" target="0" label="Silvia --- Speed" weight="344.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="130"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="2" source="0" target="2" label="Speed --- Third Outlaw" weight="31.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="24"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="3" source="2" target="0" label="Third Outlaw --- Speed" weight="186.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="24"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="4" source="0" target="3" label="Speed --- Valentine" weight="1495.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="488"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="5" source="3" target="0" label="Valentine --- Speed" weight="2580.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="488"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="6" source="0" target="5" label="Speed --- Launce" weight="396.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="176"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="7" source="5" target="0" label="Launce --- Speed" weight="1049.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="176"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="8" source="0" target="6" label="Speed --- Thurio" weight="17.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="17"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="9" source="6" target="0" label="Thurio --- Speed" weight="103.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="17"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="10" source="0" target="9" label="Speed --- Proteus" weight="655.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="268"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="11" source="9" target="0" label="Proteus --- Speed" weight="1557.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="268"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="12" source="0" target="10" label="Speed --- First Outlaw" weight="31.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="13" source="10" target="0" label="First Outlaw --- Speed" weight="128.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="14" source="0" target="11" label="Speed --- Second Outlaw" weight="31.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="18"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="15" source="11" target="0" label="Second Outlaw --- Speed" weight="114.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="18"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="16" source="0" target="12" label="Speed --- Duke of Milan" weight="253.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="160"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="17" source="12" target="0" label="Duke of Milan --- Speed" weight="1079.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="160"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="18" source="1" target="0" label="Silvia --- Speed" weight="344.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="130"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="19" source="0" target="1" label="Speed --- Silvia" weight="826.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="130"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="20" source="1" target="2" label="Silvia --- Third Outlaw" weight="202.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="30"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="21" source="2" target="1" label="Third Outlaw --- Silvia" weight="45.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="30"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="22" source="1" target="3" label="Silvia --- Valentine" weight="520.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="301"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="23" source="3" target="1" label="Valentine --- Silvia" weight="1993.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="301"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="24" source="1" target="4" label="Silvia --- Host" weight="243.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="51"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="25" source="4" target="1" label="Host --- Silvia" weight="181.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="51"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="26" source="1" target="5" label="Silvia --- Launce" weight="233.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="81"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="27" source="5" target="1" label="Launce --- Silvia" weight="535.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="81"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="28" source="1" target="6" label="Silvia --- Thurio" weight="603.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="97"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="29" source="6" target="1" label="Thurio --- Silvia" weight="213.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="97"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="30" source="1" target="7" label="Silvia --- Julia" weight="652.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="222"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="31" source="7" target="1" label="Julia --- Silvia" weight="1232.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="222"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="32" source="1" target="9" label="Silvia --- Proteus" weight="836.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="262"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="33" source="9" target="1" label="Proteus --- Silvia" weight="1389.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="262"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="34" source="1" target="10" label="Silvia --- First Outlaw" weight="202.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="31"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="35" source="10" target="1" label="First Outlaw --- Silvia" weight="49.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="31"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="36" source="1" target="11" label="Silvia --- Second Outlaw" weight="202.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="26"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="37" source="11" target="1" label="Second Outlaw --- Silvia" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="26"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="38" source="1" target="12" label="Silvia --- Duke of Milan" weight="360.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="81"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="39" source="12" target="1" label="Duke of Milan --- Silvia" weight="319.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="81"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="40" source="1" target="14" label="Silvia --- Musician" weight="243.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="43"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="41" source="14" target="1" label="Musician --- Silvia" weight="100.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="43"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="42" source="1" target="16" label="Silvia --- Eglamour" weight="283.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="64"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="43" source="16" target="1" label="Eglamour --- Silvia" weight="227.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="64"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="44" source="2" target="0" label="Third Outlaw --- Speed" weight="186.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="24"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="45" source="0" target="2" label="Speed --- Third Outlaw" weight="31.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="24"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="46" source="2" target="1" label="Third Outlaw --- Silvia" weight="45.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="30"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="47" source="1" target="2" label="Silvia --- Third Outlaw" weight="202.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="30"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="48" source="2" target="3" label="Third Outlaw --- Valentine" weight="187.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="117"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="49" source="3" target="2" label="Valentine --- Third Outlaw" weight="811.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="117"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="50" source="2" target="6" label="Third Outlaw --- Thurio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="51" source="6" target="2" label="Thurio --- Third Outlaw" weight="46.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="52" source="2" target="7" label="Third Outlaw --- Julia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="53" source="7" target="2" label="Julia --- Third Outlaw" weight="167.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="54" source="2" target="9" label="Third Outlaw --- Proteus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="55" source="9" target="2" label="Proteus --- Third Outlaw" weight="330.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="56" source="2" target="10" label="Third Outlaw --- First Outlaw" weight="231.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="48"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="57" source="10" target="2" label="First Outlaw --- Third Outlaw" weight="177.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="48"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="58" source="2" target="11" label="Third Outlaw --- Second Outlaw" weight="231.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="59" source="11" target="2" label="Second Outlaw --- Third Outlaw" weight="120.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="60" source="2" target="12" label="Third Outlaw --- Duke of Milan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="61" source="12" target="2" label="Duke of Milan --- Third Outlaw" weight="170.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="62" source="3" target="0" label="Valentine --- Speed" weight="2580.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="488"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="63" source="0" target="3" label="Speed --- Valentine" weight="1495.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="488"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="64" source="3" target="1" label="Valentine --- Silvia" weight="1993.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="301"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="65" source="1" target="3" label="Silvia --- Valentine" weight="520.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="301"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="66" source="3" target="2" label="Valentine --- Third Outlaw" weight="811.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="117"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="67" source="2" target="3" label="Third Outlaw --- Valentine" weight="187.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="117"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="68" source="3" target="5" label="Valentine --- Launce" weight="683.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="164"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="69" source="5" target="3" label="Launce --- Valentine" weight="783.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="164"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="70" source="3" target="6" label="Valentine --- Thurio" weight="1555.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="201"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="71" source="6" target="3" label="Thurio --- Valentine" weight="149.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="201"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="72" source="3" target="7" label="Valentine --- Julia" weight="643.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="93"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="73" source="7" target="3" label="Julia --- Valentine" weight="167.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="93"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="74" source="3" target="9" label="Valentine --- Proteus" weight="2617.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="526"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="75" source="9" target="3" label="Proteus --- Valentine" weight="1887.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="526"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="76" source="3" target="10" label="Valentine --- First Outlaw" weight="811.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="112"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="77" source="10" target="3" label="First Outlaw --- Valentine" weight="129.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="112"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="78" source="3" target="11" label="Valentine --- Second Outlaw" weight="811.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="111"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="79" source="11" target="3" label="Second Outlaw --- Valentine" weight="115.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="111"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="80" source="3" target="12" label="Valentine --- Duke of Milan" weight="2238.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="399"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="81" source="12" target="3" label="Duke of Milan --- Valentine" weight="1249.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="399"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="82" source="4" target="1" label="Host --- Silvia" weight="181.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="51"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="83" source="1" target="4" label="Silvia --- Host" weight="243.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="51"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="84" source="4" target="6" label="Host --- Thurio" weight="181.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="30"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="85" source="6" target="4" label="Thurio --- Host" weight="64.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="30"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="86" source="4" target="7" label="Host --- Julia" weight="181.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="49"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="87" source="7" target="4" label="Julia --- Host" weight="195.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="49"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="88" source="4" target="9" label="Host --- Proteus" weight="181.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="65"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="89" source="9" target="4" label="Proteus --- Host" weight="375.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="65"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="90" source="4" target="14" label="Host --- Musician" weight="181.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="38"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="91" source="14" target="4" label="Musician --- Host" weight="100.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="38"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="92" source="5" target="0" label="Launce --- Speed" weight="1049.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="176"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="93" source="0" target="5" label="Speed --- Launce" weight="396.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="176"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="94" source="5" target="1" label="Launce --- Silvia" weight="535.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="81"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="95" source="1" target="5" label="Silvia --- Launce" weight="233.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="81"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="96" source="5" target="3" label="Launce --- Valentine" weight="783.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="164"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="97" source="3" target="5" label="Valentine --- Launce" weight="683.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="164"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="98" source="5" target="7" label="Launce --- Julia" weight="535.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="150"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="99" source="7" target="5" label="Julia --- Launce" weight="870.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="150"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="100" source="5" target="9" label="Launce --- Proteus" weight="1318.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="244"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="101" source="9" target="5" label="Proteus --- Launce" weight="885.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="244"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="102" source="5" target="12" label="Launce --- Duke of Milan" weight="783.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="189"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="103" source="12" target="5" label="Duke of Milan --- Launce" weight="930.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="189"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="104" source="5" target="13" label="Launce --- Panthino" weight="479.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="60"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="105" source="13" target="5" label="Panthino --- Launce" weight="118.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="60"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="106" source="6" target="0" label="Thurio --- Speed" weight="103.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="17"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="107" source="0" target="6" label="Speed --- Thurio" weight="17.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="17"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="108" source="6" target="1" label="Thurio --- Silvia" weight="213.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="97"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="109" source="1" target="6" label="Silvia --- Thurio" weight="603.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="97"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="110" source="6" target="2" label="Thurio --- Third Outlaw" weight="46.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="111" source="2" target="6" label="Third Outlaw --- Thurio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="112" source="6" target="3" label="Thurio --- Valentine" weight="149.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="201"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="113" source="3" target="6" label="Valentine --- Thurio" weight="1555.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="201"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="114" source="6" target="4" label="Thurio --- Host" weight="64.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="30"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="115" source="4" target="6" label="Host --- Thurio" weight="181.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="30"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="116" source="6" target="7" label="Thurio --- Julia" weight="231.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="84"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="117" source="7" target="6" label="Julia --- Thurio" weight="455.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="84"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="118" source="6" target="9" label="Thurio --- Proteus" weight="456.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="245"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="119" source="9" target="6" label="Proteus --- Thurio" weight="1589.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="245"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="120" source="6" target="10" label="Thurio --- First Outlaw" weight="46.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="121" source="10" target="6" label="First Outlaw --- Thurio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="122" source="6" target="11" label="Thurio --- Second Outlaw" weight="46.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="123" source="11" target="6" label="Second Outlaw --- Thurio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="124" source="6" target="12" label="Thurio --- Duke of Milan" weight="392.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="147"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="125" source="12" target="6" label="Duke of Milan --- Thurio" weight="816.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="147"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="126" source="6" target="14" label="Thurio --- Musician" weight="64.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="127" source="14" target="6" label="Musician --- Thurio" weight="100.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="128" source="7" target="1" label="Julia --- Silvia" weight="1232.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="222"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="129" source="1" target="7" label="Silvia --- Julia" weight="652.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="222"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="130" source="7" target="2" label="Julia --- Third Outlaw" weight="167.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="131" source="2" target="7" label="Third Outlaw --- Julia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="132" source="7" target="3" label="Julia --- Valentine" weight="167.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="93"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="133" source="3" target="7" label="Valentine --- Julia" weight="643.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="93"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="134" source="7" target="4" label="Julia --- Host" weight="195.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="49"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="135" source="4" target="7" label="Host --- Julia" weight="181.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="49"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="136" source="7" target="5" label="Julia --- Launce" weight="870.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="150"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="137" source="5" target="7" label="Launce --- Julia" weight="535.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="150"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="138" source="7" target="6" label="Julia --- Thurio" weight="455.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="84"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="139" source="6" target="7" label="Thurio --- Julia" weight="231.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="84"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="140" source="7" target="8" label="Julia --- Lucetta" weight="1410.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="235"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="141" source="8" target="7" label="Lucetta --- Julia" weight="631.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="235"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="142" source="7" target="9" label="Julia --- Proteus" weight="1362.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="302"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="143" source="9" target="7" label="Proteus --- Julia" weight="1220.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="302"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="144" source="7" target="10" label="Julia --- First Outlaw" weight="167.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="145" source="10" target="7" label="First Outlaw --- Julia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="146" source="7" target="11" label="Julia --- Second Outlaw" weight="167.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="147" source="11" target="7" label="Second Outlaw --- Julia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="148" source="7" target="12" label="Julia --- Duke of Milan" weight="260.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="68"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="149" source="12" target="7" label="Duke of Milan --- Julia" weight="315.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="68"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="150" source="7" target="13" label="Julia --- Panthino" weight="37.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="151" source="13" target="7" label="Panthino --- Julia" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="152" source="7" target="14" label="Julia --- Musician" weight="195.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="41"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="153" source="14" target="7" label="Musician --- Julia" weight="100.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="41"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="154" source="8" target="7" label="Lucetta --- Julia" weight="631.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="235"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="155" source="7" target="8" label="Julia --- Lucetta" weight="1410.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="235"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="156" source="9" target="0" label="Proteus --- Speed" weight="1557.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="268"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="157" source="0" target="9" label="Speed --- Proteus" weight="655.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="268"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="158" source="9" target="1" label="Proteus --- Silvia" weight="1389.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="262"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="159" source="1" target="9" label="Silvia --- Proteus" weight="836.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="262"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="160" source="9" target="2" label="Proteus --- Third Outlaw" weight="330.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="161" source="2" target="9" label="Third Outlaw --- Proteus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="162" source="9" target="3" label="Proteus --- Valentine" weight="1887.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="526"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="163" source="3" target="9" label="Valentine --- Proteus" weight="2617.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="526"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="164" source="9" target="4" label="Proteus --- Host" weight="375.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="65"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="165" source="4" target="9" label="Host --- Proteus" weight="181.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="65"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="166" source="9" target="5" label="Proteus --- Launce" weight="885.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="244"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="167" source="5" target="9" label="Launce --- Proteus" weight="1318.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="244"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="168" source="9" target="6" label="Proteus --- Thurio" weight="1589.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="245"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="169" source="6" target="9" label="Thurio --- Proteus" weight="456.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="245"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="170" source="9" target="7" label="Proteus --- Julia" weight="1220.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="302"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="171" source="7" target="9" label="Julia --- Proteus" weight="1362.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="302"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="172" source="9" target="10" label="Proteus --- First Outlaw" weight="330.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="173" source="10" target="9" label="First Outlaw --- Proteus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="174" source="9" target="11" label="Proteus --- Second Outlaw" weight="330.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="175" source="11" target="9" label="Second Outlaw --- Proteus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="176" source="9" target="12" label="Proteus --- Duke of Milan" weight="1839.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="422"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="177" source="12" target="9" label="Duke of Milan --- Proteus" weight="1746.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="422"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="178" source="9" target="13" label="Proteus --- Panthino" weight="397.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="74"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="179" source="13" target="9" label="Panthino --- Proteus" weight="236.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="74"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="180" source="9" target="14" label="Proteus --- Musician" weight="375.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="57"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="181" source="14" target="9" label="Musician --- Proteus" weight="100.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="57"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="182" source="9" target="15" label="Proteus --- Antonio" weight="254.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="64"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="183" source="15" target="9" label="Antonio --- Proteus" weight="303.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="64"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="184" source="10" target="0" label="First Outlaw --- Speed" weight="128.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="185" source="0" target="10" label="Speed --- First Outlaw" weight="31.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="186" source="10" target="1" label="First Outlaw --- Silvia" weight="49.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="31"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="187" source="1" target="10" label="Silvia --- First Outlaw" weight="202.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="31"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="188" source="10" target="2" label="First Outlaw --- Third Outlaw" weight="177.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="48"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="189" source="2" target="10" label="Third Outlaw --- First Outlaw" weight="231.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="48"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="190" source="10" target="3" label="First Outlaw --- Valentine" weight="129.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="112"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="191" source="3" target="10" label="Valentine --- First Outlaw" weight="811.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="112"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="192" source="10" target="6" label="First Outlaw --- Thurio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="193" source="6" target="10" label="Thurio --- First Outlaw" weight="46.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="194" source="10" target="7" label="First Outlaw --- Julia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="195" source="7" target="10" label="Julia --- First Outlaw" weight="167.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="196" source="10" target="9" label="First Outlaw --- Proteus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="197" source="9" target="10" label="Proteus --- First Outlaw" weight="330.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="198" source="10" target="11" label="First Outlaw --- Second Outlaw" weight="177.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="38"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="199" source="11" target="10" label="Second Outlaw --- First Outlaw" weight="120.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="38"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="200" source="10" target="12" label="First Outlaw --- Duke of Milan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="201" source="12" target="10" label="Duke of Milan --- First Outlaw" weight="170.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="202" source="11" target="0" label="Second Outlaw --- Speed" weight="114.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="18"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="203" source="0" target="11" label="Speed --- Second Outlaw" weight="31.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="18"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="204" source="11" target="1" label="Second Outlaw --- Silvia" weight="6.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="26"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="205" source="1" target="11" label="Silvia --- Second Outlaw" weight="202.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="26"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="206" source="11" target="2" label="Second Outlaw --- Third Outlaw" weight="120.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="207" source="2" target="11" label="Third Outlaw --- Second Outlaw" weight="231.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="208" source="11" target="3" label="Second Outlaw --- Valentine" weight="115.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="111"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="209" source="3" target="11" label="Valentine --- Second Outlaw" weight="811.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="111"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="210" source="11" target="6" label="Second Outlaw --- Thurio">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="211" source="6" target="11" label="Thurio --- Second Outlaw" weight="46.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="212" source="11" target="7" label="Second Outlaw --- Julia">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="213" source="7" target="11" label="Julia --- Second Outlaw" weight="167.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="214" source="11" target="9" label="Second Outlaw --- Proteus">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="215" source="9" target="11" label="Proteus --- Second Outlaw" weight="330.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="216" source="11" target="10" label="Second Outlaw --- First Outlaw" weight="120.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="38"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="217" source="10" target="11" label="First Outlaw --- Second Outlaw" weight="177.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="38"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="218" source="11" target="12" label="Second Outlaw --- Duke of Milan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="219" source="12" target="11" label="Duke of Milan --- Second Outlaw" weight="170.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="220" source="12" target="0" label="Duke of Milan --- Speed" weight="1079.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="160"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="221" source="0" target="12" label="Speed --- Duke of Milan" weight="253.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="160"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="222" source="12" target="1" label="Duke of Milan --- Silvia" weight="319.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="81"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="223" source="1" target="12" label="Silvia --- Duke of Milan" weight="360.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="81"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="224" source="12" target="2" label="Duke of Milan --- Third Outlaw" weight="170.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="225" source="2" target="12" label="Third Outlaw --- Duke of Milan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="226" source="12" target="3" label="Duke of Milan --- Valentine" weight="1249.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="399"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="227" source="3" target="12" label="Valentine --- Duke of Milan" weight="2238.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="399"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="228" source="12" target="5" label="Duke of Milan --- Launce" weight="930.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="189"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="229" source="5" target="12" label="Launce --- Duke of Milan" weight="783.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="189"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="230" source="12" target="6" label="Duke of Milan --- Thurio" weight="816.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="147"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="231" source="6" target="12" label="Thurio --- Duke of Milan" weight="392.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="147"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="232" source="12" target="7" label="Duke of Milan --- Julia" weight="315.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="68"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="233" source="7" target="12" label="Julia --- Duke of Milan" weight="260.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="68"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="234" source="12" target="9" label="Duke of Milan --- Proteus" weight="1746.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="422"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="235" source="9" target="12" label="Proteus --- Duke of Milan" weight="1839.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="422"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="236" source="12" target="10" label="Duke of Milan --- First Outlaw" weight="170.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="237" source="10" target="12" label="First Outlaw --- Duke of Milan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="238" source="12" target="11" label="Duke of Milan --- Second Outlaw" weight="170.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="239" source="11" target="12" label="Second Outlaw --- Duke of Milan">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="240" source="13" target="5" label="Panthino --- Launce" weight="118.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="60"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="241" source="5" target="13" label="Launce --- Panthino" weight="479.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="60"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="242" source="13" target="7" label="Panthino --- Julia" weight="7.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="243" source="7" target="13" label="Julia --- Panthino" weight="37.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="244" source="13" target="9" label="Panthino --- Proteus" weight="236.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="74"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="245" source="9" target="13" label="Proteus --- Panthino" weight="397.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="74"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="246" source="13" target="15" label="Panthino --- Antonio" weight="229.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="63"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="247" source="15" target="13" label="Antonio --- Panthino" weight="303.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="63"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="248" source="14" target="1" label="Musician --- Silvia" weight="100.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="43"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="249" source="1" target="14" label="Silvia --- Musician" weight="243.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="43"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="250" source="14" target="4" label="Musician --- Host" weight="100.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="38"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="251" source="4" target="14" label="Host --- Musician" weight="181.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="38"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="252" source="14" target="6" label="Musician --- Thurio" weight="100.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="253" source="6" target="14" label="Thurio --- Musician" weight="64.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="254" source="14" target="7" label="Musician --- Julia" weight="100.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="41"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="255" source="7" target="14" label="Julia --- Musician" weight="195.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="41"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="256" source="14" target="9" label="Musician --- Proteus" weight="100.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="57"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="257" source="9" target="14" label="Proteus --- Musician" weight="375.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="57"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="258" source="15" target="9" label="Antonio --- Proteus" weight="303.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="64"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="259" source="9" target="15" label="Proteus --- Antonio" weight="254.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="64"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="260" source="15" target="13" label="Antonio --- Panthino" weight="303.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="63"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="261" source="13" target="15" label="Panthino --- Antonio" weight="229.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="63"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="262" source="16" target="1" label="Eglamour --- Silvia" weight="227.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="64"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="263" source="1" target="16" label="Silvia --- Eglamour" weight="283.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="64"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

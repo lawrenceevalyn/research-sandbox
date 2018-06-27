@@ -1,0 +1,3133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2018-06-08">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="key" title="key" type="string"></attribute>
+      <attribute id="lines" title="lines" type="integer"></attribute>
+      <attribute id="words" title="words" type="integer"></attribute>
+      <attribute id="criticality" title="criticality" type="double"></attribute>
+      <attribute id="eigencentrality" title="Eigenvector Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="strongcompnum" title="Strongly-Connected ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="indegree" title="In-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="outdegree" title="Out-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="scenes" title="scenes" type="integer"></attribute>
+      <attribute id="sharedlines" title="sharedLines" type="integer"></attribute>
+    </attributes>
+    <nodes>
+      <node id="0" label="Portia">
+        <attvalues>
+          <attvalue for="key" value="Portia2"></attvalue>
+          <attvalue for="lines" value="582"></attvalue>
+          <attvalue for="words" value="5237"></attvalue>
+          <attvalue for="criticality" value="1.368216891133558"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8461538461538461"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.9090909090909091"></attvalue>
+          <attvalue for="betweenesscentrality" value="98.51161616161617"></attvalue>
+          <attvalue for="clustering" value="0.4444444477558136"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="36"></attvalue>
+          <attvalue for="outdegree" value="36"></attvalue>
+          <attvalue for="degree" value="72"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="255.21329" y="-164.20847"></viz:position>
+      </node>
+      <node id="1" label="Gratiano">
+        <attvalues>
+          <attvalue for="key" value="Gratiano"></attvalue>
+          <attvalue for="lines" value="176"></attvalue>
+          <attvalue for="words" value="1566"></attvalue>
+          <attvalue for="criticality" value="0.5455312049062049"></attvalue>
+          <attvalue for="eigencentrality" value="0.9955899048044918"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7857142857142857"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8636363636363636"></attvalue>
+          <attvalue for="betweenesscentrality" value="34.91399711399711"></attvalue>
+          <attvalue for="clustering" value="0.5806451439857483"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="32"></attvalue>
+          <attvalue for="outdegree" value="32"></attvalue>
+          <attvalue for="degree" value="64"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="32.853714" y="23.119244"></viz:position>
+      </node>
+      <node id="2" label="Nerissa">
+        <attvalues>
+          <attvalue for="key" value="Nerissa"></attvalue>
+          <attvalue for="lines" value="87"></attvalue>
+          <attvalue for="words" value="802"></attvalue>
+          <attvalue for="criticality" value="0.8310531788472965"></attvalue>
+          <attvalue for="eigencentrality" value="0.9928389242367921"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.8148148148148148"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8863636363636364"></attvalue>
+          <attvalue for="betweenesscentrality" value="56.51161616161616"></attvalue>
+          <attvalue for="clustering" value="0.4991087317466736"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="34"></attvalue>
+          <attvalue for="outdegree" value="34"></attvalue>
+          <attvalue for="degree" value="68"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-458.2206" y="-115.18667"></viz:position>
+      </node>
+      <node id="3" label="Singer">
+        <attvalues>
+          <attvalue for="key" value="mev-singer"></attvalue>
+          <attvalue for="lines" value="9"></attvalue>
+          <attvalue for="words" value="60"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.5577968419053793"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5945945945945946"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6590909090909091"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.9230769276618958"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="14"></attvalue>
+          <attvalue for="outdegree" value="14"></attvalue>
+          <attvalue for="degree" value="28"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-2.7164466" y="148.5532"></viz:position>
+      </node>
+      <node id="4" label="Servants to Portia">
+        <attvalues>
+          <attvalue for="key" value="mev-serv."></attvalue>
+          <attvalue for="lines" value="6"></attvalue>
+          <attvalue for="words" value="56"></attvalue>
+          <attvalue for="criticality" value="0.21521464646464647"></attvalue>
+          <attvalue for="eigencentrality" value="0.39314301190363116"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.55"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6212121212121212"></attvalue>
+          <attvalue for="betweenesscentrality" value="5.165151515151515"></attvalue>
+          <attvalue for="clustering" value="0.6666666865348816"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="12"></attvalue>
+          <attvalue for="outdegree" value="12"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="32.31447" y="-193.47723"></viz:position>
+      </node>
+      <node id="5" label="Clerk">
+        <attvalues>
+          <attvalue for="key" value="mev-clerk."></attvalue>
+          <attvalue for="lines" value="17"></attvalue>
+          <attvalue for="words" value="155"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.6192784618377366"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6111111111111112"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6818181818181818"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.9333333373069763"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="16"></attvalue>
+          <attvalue for="outdegree" value="16"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-184.81068" y="-476.16376"></viz:position>
+      </node>
+      <node id="6" label="The Prince of Morocco">
+        <attvalues>
+          <attvalue for="key" value="Morocco"></attvalue>
+          <attvalue for="lines" value="103"></attvalue>
+          <attvalue for="words" value="912"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0850469903911857"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.46808510638297873"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.49242424242424243"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="127.233" y="-33.8147"></viz:position>
+      </node>
+      <node id="7" label="Messenger">
+        <attvalues>
+          <attvalue for="key" value="mev-mess."></attvalue>
+          <attvalue for="lines" value="11"></attvalue>
+          <attvalue for="words" value="87"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.1858864872115796"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4888888888888889"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.537878787878788"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.800000011920929"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="6"></attvalue>
+          <attvalue for="outdegree" value="6"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-365.60004" y="310.3848"></viz:position>
+      </node>
+      <node id="8" label="Stephano">
+        <attvalues>
+          <attvalue for="key" value="Stephano1"></attvalue>
+          <attvalue for="lines" value="8"></attvalue>
+          <attvalue for="words" value="62"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.6261077489792174"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5945945945945946"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6742424242424242"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.9333333373069763"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="16"></attvalue>
+          <attvalue for="outdegree" value="16"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-448.23135" y="479.58862"></viz:position>
+      </node>
+      <node id="9" label="Tubal">
+        <attvalues>
+          <attvalue for="key" value="Tubal"></attvalue>
+          <attvalue for="lines" value="15"></attvalue>
+          <attvalue for="words" value="112"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.2369548810956541"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.46808510638297873"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.537878787878788"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.8571428656578064"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="8"></attvalue>
+          <attvalue for="outdegree" value="8"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="23.627508" y="-351.06516"></viz:position>
+      </node>
+      <node id="10" label="Bassanio">
+        <attvalues>
+          <attvalue for="key" value="Bassanio"></attvalue>
+          <attvalue for="lines" value="337"></attvalue>
+          <attvalue for="words" value="2939"></attvalue>
+          <attvalue for="criticality" value="0.5455312049062049"></attvalue>
+          <attvalue for="eigencentrality" value="0.9955899048044914"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7857142857142857"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8636363636363636"></attvalue>
+          <attvalue for="betweenesscentrality" value="34.91399711399711"></attvalue>
+          <attvalue for="clustering" value="0.5806451439857483"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="32"></attvalue>
+          <attvalue for="outdegree" value="32"></attvalue>
+          <attvalue for="degree" value="64"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="165.51752" y="-416.61148"></viz:position>
+      </node>
+      <node id="11" label="Salanio">
+        <attvalues>
+          <attvalue for="key" value="Salanio"></attvalue>
+          <attvalue for="lines" value="69"></attvalue>
+          <attvalue for="words" value="614"></attvalue>
+          <attvalue for="criticality" value="0.24379910213243544"></attvalue>
+          <attvalue for="eigencentrality" value="0.5936193033470282"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5789473684210527"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6818181818181818"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.776767676767676"></attvalue>
+          <attvalue for="clustering" value="0.6535947918891907"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="18"></attvalue>
+          <attvalue for="outdegree" value="18"></attvalue>
+          <attvalue for="degree" value="36"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="382.00333" y="11.842881"></viz:position>
+      </node>
+      <node id="12" label="Salerio">
+        <attvalues>
+          <attvalue for="key" value="Salerio"></attvalue>
+          <attvalue for="lines" value="117"></attvalue>
+          <attvalue for="words" value="1016"></attvalue>
+          <attvalue for="criticality" value="0.4416582491582492"></attvalue>
+          <attvalue for="eigencentrality" value="0.954957980542361"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7586206896551724"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.8409090909090909"></attvalue>
+          <attvalue for="betweenesscentrality" value="26.499494949494952"></attvalue>
+          <attvalue for="clustering" value="0.6160919666290283"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="30"></attvalue>
+          <attvalue for="outdegree" value="30"></attvalue>
+          <attvalue for="degree" value="60"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="282.18674" y="-297.50348"></viz:position>
+      </node>
+      <node id="13" label="Jessica">
+        <attvalues>
+          <attvalue for="key" value="Jessica"></attvalue>
+          <attvalue for="lines" value="87"></attvalue>
+          <attvalue for="words" value="756"></attvalue>
+          <attvalue for="criticality" value="0.16134409571909572"></attvalue>
+          <attvalue for="eigencentrality" value="0.8348594087149744"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6875"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7727272727272727"></attvalue>
+          <attvalue for="betweenesscentrality" value="7.744516594516594"></attvalue>
+          <attvalue for="clustering" value="0.739130437374115"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="24"></attvalue>
+          <attvalue for="outdegree" value="24"></attvalue>
+          <attvalue for="degree" value="48"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-35.756832" y="204.653"></viz:position>
+      </node>
+      <node id="14" label="The Prince of Arragon">
+        <attvalues>
+          <attvalue for="key" value="AragonPr"></attvalue>
+          <attvalue for="lines" value="66"></attvalue>
+          <attvalue for="words" value="574"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.1858864872115796"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4888888888888889"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.537878787878788"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.800000011920929"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="6"></attvalue>
+          <attvalue for="outdegree" value="6"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="283.88046" y="460.0226"></viz:position>
+      </node>
+      <node id="15" label="Leonardo">
+        <attvalues>
+          <attvalue for="key" value="Leonardo"></attvalue>
+          <attvalue for="lines" value="2"></attvalue>
+          <attvalue for="words" value="16"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.26373171984528004"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4782608695652174"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5454545454545454"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.8571428656578064"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="8"></attvalue>
+          <attvalue for="outdegree" value="8"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-183.97388" y="89.10476"></viz:position>
+      </node>
+      <node id="16" label="The Duke of Venice">
+        <attvalues>
+          <attvalue for="key" value="VeniceD"></attvalue>
+          <attvalue for="lines" value="57"></attvalue>
+          <attvalue for="words" value="488"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.6192784618377366"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6111111111111112"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6818181818181818"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.9333333373069763"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="16"></attvalue>
+          <attvalue for="outdegree" value="16"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-126.17369" y="130.17049"></viz:position>
+      </node>
+      <node id="17" label="Balthasar">
+        <attvalues>
+          <attvalue for="key" value="Balthazar2"></attvalue>
+          <attvalue for="lines" value="1"></attvalue>
+          <attvalue for="words" value="9"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.30862537031476456"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.5116279069767442"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5681818181818182"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.8571428656578064"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="8"></attvalue>
+          <attvalue for="outdegree" value="8"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="176.86983" y="182.76279"></viz:position>
+      </node>
+      <node id="18" label="Launcelot Gobbo">
+        <attvalues>
+          <attvalue for="key" value="Launcelot"></attvalue>
+          <attvalue for="lines" value="173"></attvalue>
+          <attvalue for="words" value="1625"></attvalue>
+          <attvalue for="criticality" value="0.4416611166611167"></attvalue>
+          <attvalue for="eigencentrality" value="0.8554877145353894"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7096774193548387"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7954545454545454"></attvalue>
+          <attvalue for="betweenesscentrality" value="22.966378066378066"></attvalue>
+          <attvalue for="clustering" value="0.6523076891899109"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="26"></attvalue>
+          <attvalue for="outdegree" value="26"></attvalue>
+          <attvalue for="degree" value="52"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-472.73563" y="195.61415"></viz:position>
+      </node>
+      <node id="19" label="Lorenzo">
+        <attvalues>
+          <attvalue for="key" value="Lorenzo"></attvalue>
+          <attvalue for="lines" value="181"></attvalue>
+          <attvalue for="words" value="1544"></attvalue>
+          <attvalue for="criticality" value="0.2223394660894661"></attvalue>
+          <attvalue for="eigencentrality" value="0.8151264634092004"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.6875"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7727272727272727"></attvalue>
+          <attvalue for="betweenesscentrality" value="10.672294372294372"></attvalue>
+          <attvalue for="clustering" value="0.7101449370384216"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="24"></attvalue>
+          <attvalue for="outdegree" value="24"></attvalue>
+          <attvalue for="degree" value="48"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="326.72824" y="-220.29146"></viz:position>
+      </node>
+      <node id="20" label="Shylock">
+        <attvalues>
+          <attvalue for="key" value="Shylock"></attvalue>
+          <attvalue for="lines" value="359"></attvalue>
+          <attvalue for="words" value="3247"></attvalue>
+          <attvalue for="criticality" value="0.364389776889777"></attvalue>
+          <attvalue for="eigencentrality" value="0.8478479502390465"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7096774193548387"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7954545454545454"></attvalue>
+          <attvalue for="betweenesscentrality" value="18.948268398268404"></attvalue>
+          <attvalue for="clustering" value="0.6523076891899109"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="26"></attvalue>
+          <attvalue for="outdegree" value="26"></attvalue>
+          <attvalue for="degree" value="52"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-427.70706" y="-261.73102"></viz:position>
+      </node>
+      <node id="21" label="Old Gobbo">
+        <attvalues>
+          <attvalue for="key" value="Gobbo"></attvalue>
+          <attvalue for="lines" value="38"></attvalue>
+          <attvalue for="words" value="332"></attvalue>
+          <attvalue for="criticality" value="0.0"></attvalue>
+          <attvalue for="eigencentrality" value="0.26373171984528015"></attvalue>
+          <attvalue for="eccentricity" value="3.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4782608695652174"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5454545454545454"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.8571428656578064"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="8"></attvalue>
+          <attvalue for="outdegree" value="8"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="427.7344" y="132.2414"></viz:position>
+      </node>
+      <node id="22" label="Antonio">
+        <attvalues>
+          <attvalue for="key" value="Antonio3"></attvalue>
+          <attvalue for="lines" value="188"></attvalue>
+          <attvalue for="words" value="1640"></attvalue>
+          <attvalue for="criticality" value="0.1226134976134976"></attvalue>
+          <attvalue for="eigencentrality" value="0.9100298148343449"></attvalue>
+          <attvalue for="eccentricity" value="2.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.7096774193548387"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.7954545454545454"></attvalue>
+          <attvalue for="betweenesscentrality" value="6.375901875901875"></attvalue>
+          <attvalue for="clustering" value="0.7507692575454712"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="0"></attvalue>
+          <attvalue for="indegree" value="26"></attvalue>
+          <attvalue for="outdegree" value="26"></attvalue>
+          <attvalue for="degree" value="52"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="-139.21646" y="366.00153"></viz:position>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="0" target="1" label="Portia --- Gratiano" weight="3348.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="478"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1" source="1" target="0" label="Gratiano --- Portia" weight="939.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="478"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="2" source="0" target="2" label="Portia --- Nerissa" weight="5019.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+          <attvalue for="sharedlines" value="643"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="3" source="2" target="0" label="Nerissa --- Portia" weight="802.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+          <attvalue for="sharedlines" value="643"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="4" source="0" target="3" label="Portia --- Singer" weight="1046.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="127"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="5" source="3" target="0" label="Singer --- Portia" weight="60.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="127"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="6" source="0" target="4" label="Portia --- Servants to Portia" weight="881.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="93"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="7" source="4" target="0" label="Servants to Portia --- Portia" weight="39.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="93"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="8" source="0" target="5" label="Portia --- Clerk" weight="1214.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="155"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="9" source="5" target="0" label="Clerk --- Portia" weight="155.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="155"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="10" source="0" target="6" label="Portia --- The Prince of Morocco" weight="218.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="129"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="11" source="6" target="0" label="The Prince of Morocco --- Portia" weight="912.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="129"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="12" source="0" target="7" label="Portia --- Messenger" weight="173.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="31"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="13" source="7" target="0" label="Messenger --- Portia" weight="87.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="31"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="14" source="0" target="8" label="Portia --- Stephano" weight="975.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="116"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="15" source="8" target="0" label="Stephano --- Portia" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="116"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="16" source="0" target="10" label="Portia --- Bassanio" weight="3235.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="599"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="17" source="10" target="0" label="Bassanio --- Portia" weight="2073.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="599"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="18" source="0" target="12" label="Portia --- Salerio" weight="2260.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="280"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="19" source="12" target="0" label="Salerio --- Portia" weight="204.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="280"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="20" source="0" target="13" label="Portia --- Jessica" weight="2638.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="319"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="21" source="13" target="0" label="Jessica --- Portia" weight="172.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="319"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="22" source="0" target="14" label="Portia --- The Prince of Arragon" weight="173.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="86"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="23" source="14" target="0" label="The Prince of Arragon --- Portia" weight="574.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="86"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="24" source="0" target="16" label="Portia --- The Duke of Venice" weight="1214.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="195"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="25" source="16" target="0" label="The Duke of Venice --- Portia" weight="488.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="195"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="26" source="0" target="17" label="Portia --- Balthasar" weight="617.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="72"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="27" source="17" target="0" label="Balthasar --- Portia" weight="9.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="72"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="28" source="0" target="18" label="Portia --- Launcelot Gobbo" weight="975.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="115"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="29" source="18" target="0" label="Launcelot Gobbo --- Portia" weight="50.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="115"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="30" source="0" target="19" label="Portia --- Lorenzo" weight="2638.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="390"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="31" source="19" target="0" label="Lorenzo --- Portia" weight="780.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="390"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="32" source="0" target="20" label="Portia --- Shylock" weight="1214.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="241"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="33" source="20" target="0" label="Shylock --- Portia" weight="925.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="241"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="34" source="0" target="22" label="Portia --- Antonio" weight="2189.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="324"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="35" source="22" target="0" label="Antonio --- Portia" weight="686.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="324"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="36" source="1" target="0" label="Gratiano --- Portia" weight="939.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="478"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="37" source="0" target="1" label="Portia --- Gratiano" weight="3348.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="478"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="38" source="1" target="2" label="Gratiano --- Nerissa" weight="939.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="141"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="39" source="2" target="1" label="Nerissa --- Gratiano" weight="372.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="141"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="40" source="1" target="3" label="Gratiano --- Singer" weight="274.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="39"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="41" source="3" target="1" label="Singer --- Gratiano" weight="60.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="39"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="42" source="1" target="5" label="Gratiano --- Clerk" weight="303.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="50"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="43" source="5" target="1" label="Clerk --- Gratiano" weight="155.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="50"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="44" source="1" target="8" label="Gratiano --- Stephano" weight="328.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="45" source="8" target="1" label="Stephano --- Gratiano" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="46" source="1" target="10" label="Gratiano --- Bassanio" weight="1346.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="471"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="47" source="10" target="1" label="Bassanio --- Gratiano" weight="2836.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="471"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="48" source="1" target="11" label="Gratiano --- Salanio" weight="321.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="61"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="49" source="11" target="1" label="Salanio --- Gratiano" weight="215.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="61"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="50" source="1" target="12" label="Gratiano --- Salerio" weight="1065.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="183"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="51" source="12" target="1" label="Salerio --- Gratiano" weight="550.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="183"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="52" source="1" target="13" label="Gratiano --- Jessica" weight="769.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="123"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="53" source="13" target="1" label="Jessica --- Gratiano" weight="330.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="123"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="54" source="1" target="15" label="Gratiano --- Leonardo" weight="139.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="55" source="15" target="1" label="Leonardo --- Gratiano" weight="16.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="56" source="1" target="16" label="Gratiano --- The Duke of Venice" weight="303.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="90"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="57" source="16" target="1" label="The Duke of Venice --- Gratiano" weight="488.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="90"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="58" source="1" target="18" label="Gratiano --- Launcelot Gobbo" weight="486.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="177"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="59" source="18" target="1" label="Launcelot Gobbo --- Gratiano" weight="1169.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="177"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="60" source="1" target="19" label="Gratiano --- Lorenzo" weight="1090.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="257"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="61" source="19" target="1" label="Lorenzo --- Gratiano" weight="1158.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="257"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="62" source="1" target="20" label="Gratiano --- Shylock" weight="303.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="136"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="63" source="20" target="1" label="Shylock --- Gratiano" weight="925.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="136"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="64" source="1" target="21" label="Gratiano --- Old Gobbo" weight="139.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="55"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="65" source="21" target="1" label="Old Gobbo --- Gratiano" weight="332.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="55"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="66" source="1" target="22" label="Gratiano --- Antonio" weight="1100.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="251"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="67" source="22" target="1" label="Antonio --- Gratiano" weight="1147.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="251"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="68" source="2" target="0" label="Nerissa --- Portia" weight="802.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+          <attvalue for="sharedlines" value="643"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="69" source="0" target="2" label="Portia --- Nerissa" weight="5019.0">
+        <attvalues>
+          <attvalue for="scenes" value="7"></attvalue>
+          <attvalue for="sharedlines" value="643"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="70" source="2" target="1" label="Nerissa --- Gratiano" weight="372.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="141"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="71" source="1" target="2" label="Gratiano --- Nerissa" weight="939.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="141"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="72" source="2" target="3" label="Nerissa --- Singer" weight="45.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="14"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="73" source="3" target="2" label="Singer --- Nerissa" weight="60.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="14"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="74" source="2" target="4" label="Nerissa --- Servants to Portia" weight="356.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="44"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="75" source="4" target="2" label="Servants to Portia --- Nerissa" weight="39.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="44"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="76" source="2" target="5" label="Nerissa --- Clerk" weight="45.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="77" source="5" target="2" label="Clerk --- Nerissa" weight="155.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="78" source="2" target="7" label="Nerissa --- Messenger" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="17"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="79" source="7" target="2" label="Messenger --- Nerissa" weight="87.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="17"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="80" source="2" target="8" label="Nerissa --- Stephano" weight="239.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="33"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="81" source="8" target="2" label="Stephano --- Nerissa" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="33"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="82" source="2" target="10" label="Nerissa --- Bassanio" weight="329.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="270"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="83" source="10" target="2" label="Bassanio --- Nerissa" weight="2073.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="270"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="84" source="2" target="12" label="Nerissa --- Salerio" weight="90.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="34"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="85" source="12" target="2" label="Salerio --- Nerissa" weight="204.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="34"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="86" source="2" target="13" label="Nerissa --- Jessica" weight="296.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="54"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="87" source="13" target="2" label="Jessica --- Nerissa" weight="172.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="54"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="88" source="2" target="14" label="Nerissa --- The Prince of Arragon" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="72"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="89" source="14" target="2" label="The Prince of Arragon --- Nerissa" weight="574.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="72"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="90" source="2" target="16" label="Nerissa --- The Duke of Venice" weight="45.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="62"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="91" source="16" target="2" label="The Duke of Venice --- Nerissa" weight="488.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="62"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="92" source="2" target="17" label="Nerissa --- Balthasar" weight="12.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="93" source="17" target="2" label="Balthasar --- Nerissa" weight="9.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="94" source="2" target="18" label="Nerissa --- Launcelot Gobbo" weight="239.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="32"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="95" source="18" target="2" label="Launcelot Gobbo --- Nerissa" weight="50.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="32"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="96" source="2" target="19" label="Nerissa --- Lorenzo" weight="296.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="125"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="97" source="19" target="2" label="Lorenzo --- Nerissa" weight="780.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="125"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="98" source="2" target="20" label="Nerissa --- Shylock" weight="45.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="108"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="99" source="20" target="2" label="Shylock --- Nerissa" weight="925.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="108"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="100" source="2" target="22" label="Nerissa --- Antonio" weight="284.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="108"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="101" source="22" target="2" label="Antonio --- Nerissa" weight="686.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="108"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="102" source="3" target="0" label="Singer --- Portia" weight="60.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="127"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="103" source="0" target="3" label="Portia --- Singer" weight="1046.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="127"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="104" source="3" target="1" label="Singer --- Gratiano" weight="60.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="39"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="105" source="1" target="3" label="Gratiano --- Singer" weight="274.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="39"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="106" source="3" target="2" label="Singer --- Nerissa" weight="60.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="14"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="107" source="2" target="3" label="Nerissa --- Singer" weight="45.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="14"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="108" source="3" target="10" label="Singer --- Bassanio" weight="60.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="152"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="109" source="10" target="3" label="Bassanio --- Singer" weight="1230.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="152"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="110" source="3" target="12" label="Singer --- Salerio" weight="60.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="29"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="111" source="12" target="3" label="Salerio --- Singer" weight="172.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="29"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="112" source="3" target="13" label="Singer --- Jessica" weight="60.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="16"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="113" source="13" target="3" label="Jessica --- Singer" weight="63.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="16"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="114" source="3" target="19" label="Singer --- Lorenzo" weight="60.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="14"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="115" source="19" target="3" label="Lorenzo --- Singer" weight="43.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="14"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="116" source="4" target="0" label="Servants to Portia --- Portia" weight="39.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="93"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="117" source="0" target="4" label="Portia --- Servants to Portia" weight="881.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="93"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="118" source="4" target="2" label="Servants to Portia --- Nerissa" weight="39.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="44"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="119" source="2" target="4" label="Nerissa --- Servants to Portia" weight="356.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="44"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="120" source="4" target="9" label="Servants to Portia --- Tubal" weight="17.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="17"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="121" source="9" target="4" label="Tubal --- Servants to Portia" weight="112.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="17"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="122" source="4" target="11" label="Servants to Portia --- Salanio" weight="17.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="123" source="11" target="4" label="Salanio --- Servants to Portia" weight="185.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="124" source="4" target="12" label="Servants to Portia --- Salerio" weight="17.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="125" source="12" target="4" label="Salerio --- Servants to Portia" weight="184.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="126" source="4" target="20" label="Servants to Portia --- Shylock" weight="17.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="71"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="127" source="20" target="4" label="Shylock --- Servants to Portia" weight="663.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="71"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="128" source="5" target="0" label="Clerk --- Portia" weight="155.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="155"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="129" source="0" target="5" label="Portia --- Clerk" weight="1214.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="155"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="130" source="5" target="1" label="Clerk --- Gratiano" weight="155.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="50"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="131" source="1" target="5" label="Gratiano --- Clerk" weight="303.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="50"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="132" source="5" target="2" label="Clerk --- Nerissa" weight="155.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="133" source="2" target="5" label="Nerissa --- Clerk" weight="45.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="134" source="5" target="10" label="Clerk --- Bassanio" weight="155.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="67"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="135" source="10" target="5" label="Bassanio --- Clerk" weight="460.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="67"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="136" source="5" target="12" label="Clerk --- Salerio" weight="155.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="137" source="12" target="5" label="Salerio --- Clerk" weight="32.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="138" source="5" target="16" label="Clerk --- The Duke of Venice" weight="155.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="74"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="139" source="16" target="5" label="The Duke of Venice --- Clerk" weight="488.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="74"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="140" source="5" target="20" label="Clerk --- Shylock" weight="155.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="120"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="141" source="20" target="5" label="Shylock --- Clerk" weight="925.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="120"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="142" source="5" target="22" label="Clerk --- Antonio" weight="155.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="83"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="143" source="22" target="5" label="Antonio --- Clerk" weight="584.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="83"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="144" source="6" target="0" label="The Prince of Morocco --- Portia" weight="912.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="129"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="145" source="0" target="6" label="Portia --- The Prince of Morocco" weight="218.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="129"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="146" source="7" target="0" label="Messenger --- Portia" weight="87.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="31"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="147" source="0" target="7" label="Portia --- Messenger" weight="173.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="31"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="148" source="7" target="2" label="Messenger --- Nerissa" weight="87.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="17"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="149" source="2" target="7" label="Nerissa --- Messenger" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="17"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="150" source="7" target="14" label="Messenger --- The Prince of Arragon" weight="87.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="77"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="151" source="14" target="7" label="The Prince of Arragon --- Messenger" weight="574.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="77"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="152" source="8" target="0" label="Stephano --- Portia" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="116"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="153" source="0" target="8" label="Portia --- Stephano" weight="975.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="116"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="154" source="8" target="1" label="Stephano --- Gratiano" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="155" source="1" target="8" label="Gratiano --- Stephano" weight="328.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="156" source="8" target="2" label="Stephano --- Nerissa" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="33"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="157" source="2" target="8" label="Nerissa --- Stephano" weight="239.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="33"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="158" source="8" target="10" label="Stephano --- Bassanio" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="50"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="159" source="10" target="8" label="Bassanio --- Stephano" weight="383.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="50"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="160" source="8" target="13" label="Stephano --- Jessica" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="161" source="13" target="8" label="Jessica --- Stephano" weight="101.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="162" source="8" target="18" label="Stephano --- Launcelot Gobbo" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="15"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="163" source="18" target="8" label="Launcelot Gobbo --- Stephano" weight="50.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="15"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="164" source="8" target="19" label="Stephano --- Lorenzo" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="84"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="165" source="19" target="8" label="Lorenzo --- Stephano" weight="632.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="84"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="166" source="8" target="22" label="Stephano --- Antonio" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="20"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="167" source="22" target="8" label="Antonio --- Stephano" weight="102.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="20"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="168" source="9" target="4" label="Tubal --- Servants to Portia" weight="112.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="17"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="169" source="4" target="9" label="Servants to Portia --- Tubal" weight="17.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="17"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="170" source="9" target="11" label="Tubal --- Salanio" weight="112.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="35"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="171" source="11" target="9" label="Salanio --- Tubal" weight="185.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="35"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="172" source="9" target="12" label="Tubal --- Salerio" weight="112.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="35"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="173" source="12" target="9" label="Salerio --- Tubal" weight="184.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="35"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="174" source="9" target="20" label="Tubal --- Shylock" weight="112.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="84"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="175" source="20" target="9" label="Shylock --- Tubal" weight="663.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="84"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="176" source="10" target="0" label="Bassanio --- Portia" weight="2073.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="599"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="177" source="0" target="10" label="Portia --- Bassanio" weight="3235.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="599"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="178" source="10" target="1" label="Bassanio --- Gratiano" weight="2836.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="471"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="179" source="1" target="10" label="Gratiano --- Bassanio" weight="1346.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="471"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="180" source="10" target="2" label="Bassanio --- Nerissa" weight="2073.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="270"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="181" source="2" target="10" label="Nerissa --- Bassanio" weight="329.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="270"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="182" source="10" target="3" label="Bassanio --- Singer" weight="1230.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="152"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="183" source="3" target="10" label="Singer --- Bassanio" weight="60.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="152"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="184" source="10" target="5" label="Bassanio --- Clerk" weight="460.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="67"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="185" source="5" target="10" label="Clerk --- Bassanio" weight="155.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="67"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="186" source="10" target="8" label="Bassanio --- Stephano" weight="383.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="50"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="187" source="8" target="10" label="Stephano --- Bassanio" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="50"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="188" source="10" target="11" label="Bassanio --- Salanio" weight="448.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="71"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="189" source="11" target="10" label="Salanio --- Bassanio" weight="193.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="71"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="190" source="10" target="12" label="Bassanio --- Salerio" weight="2138.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="298"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="191" source="12" target="10" label="Salerio --- Bassanio" weight="481.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="298"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="192" source="10" target="13" label="Bassanio --- Jessica" weight="1613.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="206"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="193" source="13" target="10" label="Jessica --- Bassanio" weight="164.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="206"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="194" source="10" target="15" label="Bassanio --- Leonardo" weight="315.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="40"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="195" source="15" target="10" label="Leonardo --- Bassanio" weight="16.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="40"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="196" source="10" target="16" label="Bassanio --- The Duke of Venice" weight="460.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="107"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="197" source="16" target="10" label="The Duke of Venice --- Bassanio" weight="488.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="107"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="198" source="10" target="18" label="Bassanio --- Launcelot Gobbo" weight="698.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="198"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="199" source="18" target="10" label="Launcelot Gobbo --- Bassanio" weight="1128.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="198"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="200" source="10" target="19" label="Bassanio --- Lorenzo" weight="2061.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="322"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="201" source="19" target="10" label="Lorenzo --- Bassanio" weight="731.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="322"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="202" source="10" target="20" label="Bassanio --- Shylock" weight="563.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="299"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="203" source="20" target="10" label="Shylock --- Bassanio" weight="2084.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="299"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="204" source="10" target="21" label="Bassanio --- Old Gobbo" weight="315.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="76"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="205" source="21" target="10" label="Old Gobbo --- Bassanio" weight="332.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="76"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="206" source="10" target="22" label="Bassanio --- Antonio" weight="1394.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="319"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="207" source="22" target="10" label="Antonio --- Bassanio" weight="1438.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="319"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="208" source="11" target="1" label="Salanio --- Gratiano" weight="215.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="61"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="209" source="1" target="11" label="Gratiano --- Salanio" weight="321.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="61"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="210" source="11" target="4" label="Salanio --- Servants to Portia" weight="185.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="211" source="4" target="11" label="Servants to Portia --- Salanio" weight="17.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="212" source="11" target="9" label="Salanio --- Tubal" weight="185.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="35"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="213" source="9" target="11" label="Tubal --- Salanio" weight="112.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="35"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="214" source="11" target="10" label="Salanio --- Bassanio" weight="193.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="71"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="215" source="10" target="11" label="Bassanio --- Salanio" weight="448.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="71"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="216" source="11" target="12" label="Salanio --- Salerio" weight="587.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="153"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="217" source="12" target="11" label="Salerio --- Salanio" weight="771.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="153"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="218" source="11" target="18" label="Salanio --- Launcelot Gobbo" weight="22.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="8"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="219" source="18" target="11" label="Launcelot Gobbo --- Salanio" weight="41.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="8"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="220" source="11" target="19" label="Salanio --- Lorenzo" weight="215.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="58"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="221" source="19" target="11" label="Lorenzo --- Salanio" weight="283.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="58"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="222" source="11" target="20" label="Salanio --- Shylock" weight="212.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="109"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="223" source="20" target="11" label="Shylock --- Salanio" weight="816.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="109"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="224" source="11" target="22" label="Salanio --- Antonio" weight="220.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="90"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="225" source="22" target="11" label="Antonio --- Salanio" weight="569.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="90"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="226" source="12" target="0" label="Salerio --- Portia" weight="204.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="280"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="227" source="0" target="12" label="Portia --- Salerio" weight="2260.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="280"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="228" source="12" target="1" label="Salerio --- Gratiano" weight="550.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="183"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="229" source="1" target="12" label="Gratiano --- Salerio" weight="1065.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="183"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="230" source="12" target="2" label="Salerio --- Nerissa" weight="204.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="34"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="231" source="2" target="12" label="Nerissa --- Salerio" weight="90.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="34"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="232" source="12" target="3" label="Salerio --- Singer" weight="172.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="29"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="233" source="3" target="12" label="Singer --- Salerio" weight="60.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="29"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="234" source="12" target="4" label="Salerio --- Servants to Portia" weight="184.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="235" source="4" target="12" label="Servants to Portia --- Salerio" weight="17.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="236" source="12" target="5" label="Salerio --- Clerk" weight="32.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="237" source="5" target="12" label="Clerk --- Salerio" weight="155.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="238" source="12" target="9" label="Salerio --- Tubal" weight="184.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="35"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="239" source="9" target="12" label="Tubal --- Salerio" weight="112.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="35"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="240" source="12" target="10" label="Salerio --- Bassanio" weight="481.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="298"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="241" source="10" target="12" label="Bassanio --- Salerio" weight="2138.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="298"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="242" source="12" target="11" label="Salerio --- Salanio" weight="771.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="153"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="243" source="11" target="12" label="Salanio --- Salerio" weight="587.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="153"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="244" source="12" target="13" label="Salerio --- Jessica" weight="213.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="50"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="245" source="13" target="12" label="Jessica --- Salerio" weight="229.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="50"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="246" source="12" target="16" label="Salerio --- The Duke of Venice" weight="32.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="61"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="247" source="16" target="12" label="The Duke of Venice --- Salerio" weight="488.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="61"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="248" source="12" target="18" label="Salerio --- Launcelot Gobbo" weight="28.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="8"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="249" source="18" target="12" label="Launcelot Gobbo --- Salerio" weight="41.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="8"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="250" source="12" target="19" label="Salerio --- Lorenzo" weight="518.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="119"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="251" source="19" target="12" label="Lorenzo --- Salerio" weight="526.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="119"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="252" source="12" target="20" label="Salerio --- Shylock" weight="216.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="196"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="253" source="20" target="12" label="Shylock --- Salerio" weight="1588.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="196"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="254" source="12" target="22" label="Salerio --- Antonio" weight="350.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="158"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="255" source="22" target="12" label="Antonio --- Salerio" weight="1045.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="158"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="256" source="13" target="0" label="Jessica --- Portia" weight="172.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="319"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="257" source="0" target="13" label="Portia --- Jessica" weight="2638.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="319"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="258" source="13" target="1" label="Jessica --- Gratiano" weight="330.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="123"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="259" source="1" target="13" label="Gratiano --- Jessica" weight="769.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="123"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="260" source="13" target="2" label="Jessica --- Nerissa" weight="172.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="54"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="261" source="2" target="13" label="Nerissa --- Jessica" weight="296.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="54"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="262" source="13" target="3" label="Jessica --- Singer" weight="63.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="16"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="263" source="3" target="13" label="Singer --- Jessica" weight="60.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="16"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="264" source="13" target="8" label="Jessica --- Stephano" weight="101.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="265" source="8" target="13" label="Stephano --- Jessica" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="266" source="13" target="10" label="Jessica --- Bassanio" weight="164.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="206"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="267" source="10" target="13" label="Bassanio --- Jessica" weight="1613.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="206"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="268" source="13" target="12" label="Jessica --- Salerio" weight="229.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="50"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="269" source="12" target="13" label="Salerio --- Jessica" weight="213.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="50"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="270" source="13" target="17" label="Jessica --- Balthasar" weight="8.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="271" source="17" target="13" label="Balthasar --- Jessica" weight="9.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="272" source="13" target="18" label="Jessica --- Launcelot Gobbo" weight="519.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="118"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="273" source="18" target="13" label="Launcelot Gobbo --- Jessica" weight="506.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="118"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="274" source="13" target="19" label="Jessica --- Lorenzo" weight="578.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="214"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="275" source="19" target="13" label="Lorenzo --- Jessica" weight="1261.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="214"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="276" source="13" target="20" label="Jessica --- Shylock" weight="34.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="43"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="277" source="20" target="13" label="Shylock --- Jessica" weight="347.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="43"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="278" source="13" target="22" label="Jessica --- Antonio" weight="267.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="50"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="279" source="22" target="13" label="Antonio --- Jessica" weight="149.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="50"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="280" source="14" target="0" label="The Prince of Arragon --- Portia" weight="574.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="86"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="281" source="0" target="14" label="Portia --- The Prince of Arragon" weight="173.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="86"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="282" source="14" target="2" label="The Prince of Arragon --- Nerissa" weight="574.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="72"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="283" source="2" target="14" label="Nerissa --- The Prince of Arragon" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="72"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="284" source="14" target="7" label="The Prince of Arragon --- Messenger" weight="574.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="77"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="285" source="7" target="14" label="Messenger --- The Prince of Arragon" weight="87.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="77"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="286" source="15" target="1" label="Leonardo --- Gratiano" weight="16.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="287" source="1" target="15" label="Gratiano --- Leonardo" weight="139.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="288" source="15" target="10" label="Leonardo --- Bassanio" weight="16.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="40"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="289" source="10" target="15" label="Bassanio --- Leonardo" weight="315.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="40"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="290" source="15" target="18" label="Leonardo --- Launcelot Gobbo" weight="16.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="113"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="291" source="18" target="15" label="Launcelot Gobbo --- Leonardo" weight="1078.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="113"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="292" source="15" target="21" label="Leonardo --- Old Gobbo" weight="16.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="40"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="293" source="21" target="15" label="Old Gobbo --- Leonardo" weight="332.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="40"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="294" source="16" target="0" label="The Duke of Venice --- Portia" weight="488.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="195"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="295" source="0" target="16" label="Portia --- The Duke of Venice" weight="1214.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="195"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="296" source="16" target="1" label="The Duke of Venice --- Gratiano" weight="488.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="90"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="297" source="1" target="16" label="Gratiano --- The Duke of Venice" weight="303.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="90"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="298" source="16" target="2" label="The Duke of Venice --- Nerissa" weight="488.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="62"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="299" source="2" target="16" label="Nerissa --- The Duke of Venice" weight="45.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="62"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="300" source="16" target="5" label="The Duke of Venice --- Clerk" weight="488.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="74"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="301" source="5" target="16" label="Clerk --- The Duke of Venice" weight="155.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="74"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="302" source="16" target="10" label="The Duke of Venice --- Bassanio" weight="488.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="107"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="303" source="10" target="16" label="Bassanio --- The Duke of Venice" weight="460.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="107"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="304" source="16" target="12" label="The Duke of Venice --- Salerio" weight="488.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="61"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="305" source="12" target="16" label="Salerio --- The Duke of Venice" weight="32.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="61"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="306" source="16" target="20" label="The Duke of Venice --- Shylock" weight="488.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="160"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="307" source="20" target="16" label="Shylock --- The Duke of Venice" weight="925.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="160"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="308" source="16" target="22" label="The Duke of Venice --- Antonio" weight="488.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="123"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="309" source="22" target="16" label="Antonio --- The Duke of Venice" weight="584.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="123"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="310" source="17" target="0" label="Balthasar --- Portia" weight="9.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="72"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="311" source="0" target="17" label="Portia --- Balthasar" weight="617.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="72"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="312" source="17" target="2" label="Balthasar --- Nerissa" weight="9.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="313" source="2" target="17" label="Nerissa --- Balthasar" weight="12.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="314" source="17" target="13" label="Balthasar --- Jessica" weight="9.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="315" source="13" target="17" label="Jessica --- Balthasar" weight="8.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="316" source="17" target="19" label="Balthasar --- Lorenzo" weight="9.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="13"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="317" source="19" target="17" label="Lorenzo --- Balthasar" weight="105.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="13"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="318" source="18" target="0" label="Launcelot Gobbo --- Portia" weight="50.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="115"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="319" source="0" target="18" label="Portia --- Launcelot Gobbo" weight="975.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="115"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="320" source="18" target="1" label="Launcelot Gobbo --- Gratiano" weight="1169.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="177"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="321" source="1" target="18" label="Gratiano --- Launcelot Gobbo" weight="486.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="177"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="322" source="18" target="2" label="Launcelot Gobbo --- Nerissa" weight="50.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="32"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="323" source="2" target="18" label="Nerissa --- Launcelot Gobbo" weight="239.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="32"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="324" source="18" target="8" label="Launcelot Gobbo --- Stephano" weight="50.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="15"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="325" source="8" target="18" label="Stephano --- Launcelot Gobbo" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="15"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="326" source="18" target="10" label="Launcelot Gobbo --- Bassanio" weight="1128.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="198"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="327" source="10" target="18" label="Bassanio --- Launcelot Gobbo" weight="698.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="198"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="328" source="18" target="11" label="Launcelot Gobbo --- Salanio" weight="41.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="8"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="329" source="11" target="18" label="Salanio --- Launcelot Gobbo" weight="22.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="8"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="330" source="18" target="12" label="Launcelot Gobbo --- Salerio" weight="41.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="8"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="331" source="12" target="18" label="Salerio --- Launcelot Gobbo" weight="28.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="8"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="332" source="18" target="13" label="Launcelot Gobbo --- Jessica" weight="506.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="118"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="333" source="13" target="18" label="Jessica --- Launcelot Gobbo" weight="519.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="118"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="334" source="18" target="15" label="Launcelot Gobbo --- Leonardo" weight="1078.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="113"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="335" source="15" target="18" label="Leonardo --- Launcelot Gobbo" weight="16.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="113"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="336" source="18" target="19" label="Launcelot Gobbo --- Lorenzo" weight="384.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="179"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="337" source="19" target="18" label="Lorenzo --- Launcelot Gobbo" weight="1140.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="179"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="338" source="18" target="20" label="Launcelot Gobbo --- Shylock" weight="120.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="54"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="339" source="20" target="18" label="Shylock --- Launcelot Gobbo" weight="347.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="54"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="340" source="18" target="21" label="Launcelot Gobbo --- Old Gobbo" weight="1078.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="149"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="341" source="21" target="18" label="Old Gobbo --- Launcelot Gobbo" weight="332.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="149"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="342" source="18" target="22" label="Launcelot Gobbo --- Antonio" weight="50.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="343" source="22" target="18" label="Antonio --- Launcelot Gobbo" weight="102.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="344" source="19" target="0" label="Lorenzo --- Portia" weight="780.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="390"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="345" source="0" target="19" label="Portia --- Lorenzo" weight="2638.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="390"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="346" source="19" target="1" label="Lorenzo --- Gratiano" weight="1158.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="257"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="347" source="1" target="19" label="Gratiano --- Lorenzo" weight="1090.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="257"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="348" source="19" target="2" label="Lorenzo --- Nerissa" weight="780.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="125"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="349" source="2" target="19" label="Nerissa --- Lorenzo" weight="296.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="125"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="350" source="19" target="3" label="Lorenzo --- Singer" weight="43.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="14"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="351" source="3" target="19" label="Singer --- Lorenzo" weight="60.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="14"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="352" source="19" target="8" label="Lorenzo --- Stephano" weight="632.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="84"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="353" source="8" target="19" label="Stephano --- Lorenzo" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="84"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="354" source="19" target="10" label="Lorenzo --- Bassanio" weight="731.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="322"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="355" source="10" target="19" label="Bassanio --- Lorenzo" weight="2061.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="322"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="356" source="19" target="11" label="Lorenzo --- Salanio" weight="283.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="58"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="357" source="11" target="19" label="Salanio --- Lorenzo" weight="215.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="58"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="358" source="19" target="12" label="Lorenzo --- Salerio" weight="526.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="119"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="359" source="12" target="19" label="Salerio --- Lorenzo" weight="518.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="119"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="360" source="19" target="13" label="Lorenzo --- Jessica" weight="1261.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="214"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="361" source="13" target="19" label="Jessica --- Lorenzo" weight="578.0">
+        <attvalues>
+          <attvalue for="scenes" value="5"></attvalue>
+          <attvalue for="sharedlines" value="214"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="362" source="19" target="17" label="Lorenzo --- Balthasar" weight="105.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="13"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="363" source="17" target="19" label="Balthasar --- Lorenzo" weight="9.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="13"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="364" source="19" target="18" label="Lorenzo --- Launcelot Gobbo" weight="1140.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="179"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="365" source="18" target="19" label="Launcelot Gobbo --- Lorenzo" weight="384.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="179"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="366" source="19" target="22" label="Lorenzo --- Antonio" weight="888.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="167"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="367" source="22" target="19" label="Antonio --- Lorenzo" weight="563.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="167"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="368" source="20" target="0" label="Shylock --- Portia" weight="925.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="241"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="369" source="0" target="20" label="Portia --- Shylock" weight="1214.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="241"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="370" source="20" target="1" label="Shylock --- Gratiano" weight="925.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="136"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="371" source="1" target="20" label="Gratiano --- Shylock" weight="303.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="136"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="372" source="20" target="2" label="Shylock --- Nerissa" weight="925.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="108"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="373" source="2" target="20" label="Nerissa --- Shylock" weight="45.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="108"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="374" source="20" target="4" label="Shylock --- Servants to Portia" weight="663.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="71"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="375" source="4" target="20" label="Servants to Portia --- Shylock" weight="17.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="71"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="376" source="20" target="5" label="Shylock --- Clerk" weight="925.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="120"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="377" source="5" target="20" label="Clerk --- Shylock" weight="155.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="120"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="378" source="20" target="9" label="Shylock --- Tubal" weight="663.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="84"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="379" source="9" target="20" label="Tubal --- Shylock" weight="112.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="84"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="380" source="20" target="10" label="Shylock --- Bassanio" weight="2084.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="299"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="381" source="10" target="20" label="Bassanio --- Shylock" weight="563.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="299"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="382" source="20" target="11" label="Shylock --- Salanio" weight="816.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="109"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="383" source="11" target="20" label="Salanio --- Shylock" weight="212.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="109"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="384" source="20" target="12" label="Shylock --- Salerio" weight="1588.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="196"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="385" source="12" target="20" label="Salerio --- Shylock" weight="216.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="196"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="386" source="20" target="13" label="Shylock --- Jessica" weight="347.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="43"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="387" source="13" target="20" label="Jessica --- Shylock" weight="34.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="43"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="388" source="20" target="16" label="Shylock --- The Duke of Venice" weight="925.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="160"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="389" source="16" target="20" label="The Duke of Venice --- Shylock" weight="488.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="160"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="390" source="20" target="18" label="Shylock --- Launcelot Gobbo" weight="347.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="54"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="391" source="18" target="20" label="Launcelot Gobbo --- Shylock" weight="120.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="54"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="392" source="20" target="22" label="Shylock --- Antonio" weight="2237.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="375"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="393" source="22" target="20" label="Antonio --- Shylock" weight="1077.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="375"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="394" source="21" target="1" label="Old Gobbo --- Gratiano" weight="332.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="55"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="395" source="1" target="21" label="Gratiano --- Old Gobbo" weight="139.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="55"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="396" source="21" target="10" label="Old Gobbo --- Bassanio" weight="332.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="76"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="397" source="10" target="21" label="Bassanio --- Old Gobbo" weight="315.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="76"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="398" source="21" target="15" label="Old Gobbo --- Leonardo" weight="332.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="40"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="399" source="15" target="21" label="Leonardo --- Old Gobbo" weight="16.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="40"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="400" source="21" target="18" label="Old Gobbo --- Launcelot Gobbo" weight="332.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="149"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="401" source="18" target="21" label="Launcelot Gobbo --- Old Gobbo" weight="1078.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="149"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="402" source="22" target="0" label="Antonio --- Portia" weight="686.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="324"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="403" source="0" target="22" label="Portia --- Antonio" weight="2189.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="324"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="404" source="22" target="1" label="Antonio --- Gratiano" weight="1147.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="251"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="405" source="1" target="22" label="Gratiano --- Antonio" weight="1100.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="251"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="406" source="22" target="2" label="Antonio --- Nerissa" weight="686.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="108"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="407" source="2" target="22" label="Nerissa --- Antonio" weight="284.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="108"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="408" source="22" target="5" label="Antonio --- Clerk" weight="584.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="83"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="409" source="5" target="22" label="Clerk --- Antonio" weight="155.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="83"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="410" source="22" target="8" label="Antonio --- Stephano" weight="102.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="20"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="411" source="8" target="22" label="Stephano --- Antonio" weight="62.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="20"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="412" source="22" target="10" label="Antonio --- Bassanio" weight="1438.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="319"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="413" source="10" target="22" label="Bassanio --- Antonio" weight="1394.0">
+        <attvalues>
+          <attvalue for="scenes" value="4"></attvalue>
+          <attvalue for="sharedlines" value="319"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="414" source="22" target="11" label="Antonio --- Salanio" weight="569.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="90"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="415" source="11" target="22" label="Salanio --- Antonio" weight="220.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="90"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="416" source="22" target="12" label="Antonio --- Salerio" weight="1045.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="158"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="417" source="12" target="22" label="Salerio --- Antonio" weight="350.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="158"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="418" source="22" target="13" label="Antonio --- Jessica" weight="149.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="50"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="419" source="13" target="22" label="Jessica --- Antonio" weight="267.0">
+        <attvalues>
+          <attvalue for="scenes" value="2"></attvalue>
+          <attvalue for="sharedlines" value="50"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="420" source="22" target="16" label="Antonio --- The Duke of Venice" weight="584.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="123"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="421" source="16" target="22" label="The Duke of Venice --- Antonio" weight="488.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="123"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="422" source="22" target="18" label="Antonio --- Launcelot Gobbo" weight="102.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="423" source="18" target="22" label="Launcelot Gobbo --- Antonio" weight="50.0">
+        <attvalues>
+          <attvalue for="scenes" value="1"></attvalue>
+          <attvalue for="sharedlines" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="424" source="22" target="19" label="Antonio --- Lorenzo" weight="563.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="167"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="425" source="19" target="22" label="Lorenzo --- Antonio" weight="888.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="167"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="426" source="22" target="20" label="Antonio --- Shylock" weight="1077.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="375"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="427" source="20" target="22" label="Shylock --- Antonio" weight="2237.0">
+        <attvalues>
+          <attvalue for="scenes" value="3"></attvalue>
+          <attvalue for="sharedlines" value="375"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
