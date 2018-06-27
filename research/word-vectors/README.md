@@ -96,13 +96,12 @@ To just see a list of all the words, without their IDs, alphebetized:
 ```
 # You can look up all the words in the vocab from the three novels
 lit_vectorizer.get_feature_names() 
+```
 
 To get the ID of a given vocab term:
 
 ```
 print("The ID of the word 'piece' is ", str(lit_vectorizer.vocabulary_.get('piece')))
-```
-
 ```
 
 An even shorter way to get the document matrix:
@@ -167,7 +166,7 @@ X
 X.shape
 ```
 
-Looking at specific workds:
+Looking at specific words:
 
 ```
 #Now, say we want to the word vectors for 'happy','sad','angry' again
@@ -372,9 +371,9 @@ plt.show()
 
 To visualize the clustering (of 100 words), with each cluster a different color:
 
+```
 predictions = kmeans.fit_predict(select_matrix)
 
-```
 first_cluster = np.array(embed[np.where(predictions == 0)])
 second_cluster = np.array(embed[np.where(predictions == 1)])
 third_cluster = np.array(embed[np.where(predictions == 2)])
