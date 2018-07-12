@@ -8,6 +8,10 @@ By FAR the easiest way to find TCP XML files of particular plays is at http://ot
 
 # research log
 
+## July 11, 2018
+
+Qatar national library: https://www.qdl.qa/en
+
 ## May 28, 2018
 
 btw if Weka gives an error and refuses to open a CSV, make sure there is a carriage return at the end of the last line of the CSV
