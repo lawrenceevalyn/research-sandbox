@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NotesScaleFactor</key>
+	<real>1.5</real>
 	<key>binderSelection</key>
 	<array>
 		<integer>0</integer>
@@ -10,8 +12,8 @@
 	<true/>
 	<key>binderSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {191, 550}}</string>
-		<string>{{192, 0}, {708, 550}}</string>
+		<string>{{0, 0}, {191, 665}}</string>
+		<string>{{192, 0}, {708, 665}}</string>
 	</array>
 	<key>binderState</key>
 	<array>
@@ -35,8 +37,17 @@
 	<true/>
 	<key>editorSplitType</key>
 	<integer>0</integer>
+	<key>fullScreenTextEditorSettings</key>
+	<dict>
+		<key>textScaleFactor</key>
+		<real>1.25</real>
+	</dict>
 	<key>inspectorIsCollapsed</key>
 	<true/>
+	<key>inspectorSplitFrames</key>
+	<array>
+		<string>{{0, 0}, {288, 655}}</string>
+	</array>
 	<key>inspectorWidth</key>
 	<real>227</real>
 	<key>mainDocumentEditor.binderDocuments</key>
@@ -45,6 +56,11 @@
 	</array>
 	<key>mainDocumentEditor.currentEditorViewMode</key>
 	<integer>1</integer>
+	<key>mainDocumentEditor.dockedQRTextSettings</key>
+	<dict>
+		<key>textScaleFactor</key>
+		<real>1.5</real>
+	</dict>
 	<key>mainDocumentEditor.editorGroupsViewMode</key>
 	<integer>1</integer>
 	<key>mainDocumentEditor.hiddenOutlinerColumnIdentifiers</key>
@@ -66,6 +82,111 @@
 		<string>totalProgress</string>
 		<string>sectionType</string>
 	</array>
+	<key>mainDocumentEditor.navigationHistory</key>
+	<dict>
+		<key>CurrentIndex</key>
+		<integer>9</integer>
+		<key>NavigationHistoryArray</key>
+		<array>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>DDF8AC31-4A85-4C8C-AE97-38C38E121C00</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>DDF8AC31-4A85-4C8C-AE97-38C38E121C00</string>
+					<string>3459DF35-B75F-43AE-A0F6-8017AC3FF1DA</string>
+					<string>B7A345B7-DF64-4E0B-8047-68209EBFF871</string>
+					<string>46DC9C7F-C12F-4039-AECE-3F50E817499A</string>
+					<string>107AFE45-20D7-4220-BAE2-1EF5363E4B54</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>107AFE45-20D7-4220-BAE2-1EF5363E4B54</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>3459DF35-B75F-43AE-A0F6-8017AC3FF1DA</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>3459DF35-B75F-43AE-A0F6-8017AC3FF1DA</string>
+					<string>B7A345B7-DF64-4E0B-8047-68209EBFF871</string>
+					<string>46DC9C7F-C12F-4039-AECE-3F50E817499A</string>
+					<string>107AFE45-20D7-4220-BAE2-1EF5363E4B54</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>107AFE45-20D7-4220-BAE2-1EF5363E4B54</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>E178C43A-001E-4C14-8C4B-1F41E853FF49</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{15122, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>371B9CB6-E720-40E5-BBBA-0FAD3841DE6D</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>AF76FEE3-CF5C-4A2A-85ED-B1FC1A47433A</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>7FA11819-EC83-46A2-ACA7-DA2E5586A5E0</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+		</array>
+	</dict>
 	<key>mainDocumentEditor.outlinerColumnsState</key>
 	<dict>
 		<key>order</key>
@@ -130,20 +251,23 @@
 		</dict>
 	</dict>
 	<key>mainDocumentEditor.scrollRect</key>
-	<string>{{0, 0}, {708, 471}}</string>
+	<string>{{0, 12.933333333333545}, {472, 386}}</string>
 	<key>mainDocumentEditor.selectedRanges</key>
 	<string>{0, 0}</string>
+	<key>mainDocumentEditor.selectedTextRanges</key>
+	<string>396,0</string>
 	<key>mainDocumentEditor.textEditorState</key>
 	<dict>
-		<key>hasMultiplePages</key>
-		<false/>
-		<key>textScale</key>
-		<integer>100</integer>
-		<key>usesFacingPages</key>
-		<false/>
+		<key>textScaleFactor</key>
+		<real>1.5</real>
 	</dict>
 	<key>mainWindowFrame</key>
-	<string>324 237 900 572 0 0 1440 877 </string>
+	<string>324 122 900 687 0 0 1440 877 </string>
+	<key>supportingDocumentEditor.dockedQRTextSettings</key>
+	<dict>
+		<key>textScaleFactor</key>
+		<real>1.5</real>
+	</dict>
 	<key>supportingDocumentEditor.hiddenOutlinerColumnIdentifiers</key>
 	<array>
 		<string>createdDate</string>
@@ -164,9 +288,14 @@
 		<string>sectionType</string>
 	</array>
 	<key>supportingDocumentEditor.scrollRect</key>
-	<string>{{0, 0}, {621, 304}}</string>
+	<string>{{0, 0}, {620, 294}}</string>
 	<key>supportingDocumentEditor.selectedItemIDs</key>
 	<array/>
+	<key>supportingDocumentEditor.textEditorState</key>
+	<dict>
+		<key>textScaleFactor</key>
+		<real>1.5</real>
+	</dict>
 	<key>supportingDocumentViewIsCurrent</key>
 	<false/>
 </dict>
