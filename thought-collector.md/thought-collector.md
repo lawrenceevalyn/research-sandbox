@@ -1417,6 +1417,16 @@ I'm particularly interested in the role of caffeine, actually.... But I don't th
 
 
 
+## what's up with manuscripts?? ##
+
+
+
+https://www.18thcenturycommon.org/manuscript-fiction-archive/
+
+This project will create a vocabulary and taxonomy for discussing manuscript fiction in the age of print (c.1760-1880).  While significant and exciting research has been done on the process of manuscript circulation and "publication" by scholars such as Margaret Ezell, Harold Love, and others following in their wake, those accounts of manuscript culture do not extend themselves very far (if at all) into the eighteenth century.  Moreover, studies of later eighteenth and nineteenth-century manuscripts concentrate on those that achieve fame by association (the Brontë juvenilia, the Dickinson fascicles, the working manuscripts of various published authors) or those that have value as social documents (friendship books, copybooks, etc.).  The 2015 conference "After Print: Manuscripts in the Eighteenth-Century" at the University of California Santa Barbara gathered together those interested in manuscript in this period, but most of those researchers worked on manuscripts that ultimately saw print, political, or scientific nonfiction, and the literary form most common in manuscript culture:  poetry.
+
+
+
 # Observations #
 
 
@@ -2682,6 +2692,22 @@ Would 18thC novels provide a better/easier corpus than newspapers?
 
 
 github.com/yaledhlab/intertext
+
+
+
+## interesting resources about paintings ##
+
+
+
+https://www.18thcenturycommon.org/homesubjects/ - Home Subjects is a website and blog that brings together those interested in exploring an alternate history for the display of art in Great Britain:  its important role in decorating the private interior, c. 1715-1914.
+
+
+
+https://www.18thcenturycommon.org/what-jane-saw-new-virtual-gallery-reconstructs-art-exhibit-attended-by-jane-austen/
+
+
+
+Your Paintings (searchable) aims to show the entire UK national collection of oil paintings, the stories behind the paintings, and where to see them for real. It is made up of paintings from thousands of museums and other public institutions around the country.
 
 
 
