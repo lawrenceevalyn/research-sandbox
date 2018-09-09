@@ -287,6 +287,20 @@ Frequently Cited Passages Across Time: New Methods for Studying the Critical Rec
 
 
 
+### Chadwick-Healey corpus of adaptations ###
+
+
+
+Editions and Adaptations of Shakespeare
+
+
+
+Editions and Adaptations of Shakespeare contains eleven major editions from the First Folio of 1623 to the Cambridge edition of 1863–66, twenty-eight separate contemporary printings of individual plays and poems, selected apocrypha and related works. In addition it contains more than one hundred adaptations, sequels and burlesques from the seventeenth, eighteenth and nineteenth centuries, including the whole of Bell's Acting Edition of Shakespeare's Plays (1774).
+
+
+
+
+
 ## 18thC transitional tragedy ##
 
 

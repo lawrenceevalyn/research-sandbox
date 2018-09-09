@@ -1013,30 +1013,6 @@
 			<dict>
 				<key>BinderDocUUIDs</key>
 				<array>
-					<string>24DE9713-EF0E-4A72-B41E-14D1EAECB57C</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>57B5FE00-D8B9-4A8E-9DBC-A9D009601D9A</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>0B796DE5-BF2D-4C52-B278-963E164007FA</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
 					<string>BB0E9FD3-BADD-4BFD-B0ED-90BBA4D79870</string>
 				</array>
 				<key>ViewMode</key>
@@ -1873,6 +1849,32 @@
 				<key>ViewMode</key>
 				<integer>0</integer>
 			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>F65F5D78-FEFB-487B-8AA7-22F0C861F2B7</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>1897CD6E-FCA3-4682-900D-EF42329B61A9</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>91A35CF8-9522-4676-B2AC-850A8058485D</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
 		</array>
 	</dict>
 	<key>supportingDocumentEditor.outlinerColumnsWidths</key>
@@ -1885,11 +1887,11 @@
 		<real>502.5</real>
 	</dict>
 	<key>supportingDocumentEditor.scrollRect</key>
-	<string>{{0, 39.933333333333394}, {558.66666666666663, 286.66666666666669}}</string>
+	<string>{{0, 0}, {558.66666666666663, 286.66666666666669}}</string>
 	<key>supportingDocumentEditor.selectedRanges</key>
 	<string>{272, 0}</string>
 	<key>supportingDocumentEditor.selectedTextRanges</key>
-	<string>1171,0</string>
+	<string>0,39</string>
 	<key>supportingDocumentEditor.textEditorState</key>
 	<dict>
 		<key>textScaleFactor</key>
