@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrivenerProject Identifier="F254A139-66D4-4914-8FBD-E2BC864528E8" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2018-09-23 17:17:15 -0400" ModID="5B11982F-F6E7-4D3D-B901-2824FB5A2B93">
+    <Binder>
+        <BinderItem UUID="DDF8AC31-4A85-4C8C-AE97-38C38E121C00" Type="DraftFolder" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+            <Title>Draft</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem UUID="3459DF35-B75F-43AE-A0F6-8017AC3FF1DA" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+                    <Title>Thesis</Title>
+                    <MetaData>
+                        <LabelID>1</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="B7A345B7-DF64-4E0B-8047-68209EBFF871" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+                    <Title>Body 1</Title>
+                    <MetaData>
+                        <LabelID>2</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="46DC9C7F-C12F-4039-AECE-3F50E817499A" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+                    <Title>Conclusion</Title>
+                    <MetaData>
+                        <LabelID>3</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="107AFE45-20D7-4220-BAE2-1EF5363E4B54" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:54:10 -0400">
+            <Title>Works Cited</Title>
+            <MetaData>
+                <LabelID>4</LabelID>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>958,0</TextSelection>
+            </TextSettings>
+        </BinderItem>
+        <BinderItem UUID="D6E7AB84-B725-416C-B2BE-70320E9FA3D3" Type="ResearchFolder" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+            <Title>Research</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem UUID="371B9CB6-E720-40E5-BBBA-0FAD3841DE6D" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+                    <Title>Primary Text</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Book (Brown Book).tiff</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="AF76FEE3-CF5C-4A2A-85ED-B1FC1A47433A" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+                            <Title>Interesting Passage</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="E178C43A-001E-4C14-8C4B-1F41E853FF49" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+                    <Title>Secondary Texts</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Books.tif</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="533A7C21-AD67-49BB-AA94-16745A0D9F5B" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+                            <Title>Text 1</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="F843BB09-AAC2-4AF8-B57D-DDF48E8D60DD" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+                            <Title>Text 2</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="82671909-9DA8-4F11-BAFE-F323D922EC73" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+                            <Title>Text 3</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="F6A88C62-2FF2-49F5-AE86-5D5626073CDC" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+                            <Title>Text 4</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="98E3DF85-7179-4600-8398-A3C348C4BFCB" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+                            <Title>Text 5</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="C037C6D1-505E-4D73-8C08-E34D3454500B" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+                            <Title>Text 6</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="0B30F935-4B83-4B15-90B1-1AE2628BE383" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+                    <Title>Stray Thoughts</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Pile of Paper.tif</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="33B4B91A-323E-41EA-86B2-7DA0B72D97B3" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+                            <Title>Thought</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="715766CA-DB75-4981-8B6C-398B4AC12DEE" Type="Text" Created="2018-09-23 16:43:28 -0400" Modified="2018-09-23 17:17:15 -0400">
+                    <Title>Journal standards</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>98,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="11E162E5-C0E0-4764-B847-727FE9DFD9CB" Type="TrashFolder" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+            <Title>Trash</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+    </Binder>
+    <Collections>
+        <Collection Type="Binder" ID="2ADB1FE9-600E-4883-B3B5-0FCF086C1384" Color="0.924849 0.924014 0.949681">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="5F019618-106D-4CE6-B387-20FB66CFFD0F" Color="0.922176 0.818589 0.999618">
+            <Title>Search Results</Title>
+        </Collection>
+    </Collections>
+    <SectionTypes>
+        <TypeDefinitions>
+            <Type ID="4AF14A4D-F0D7-4DFC-9999-85B07C6067A8">Heading</Type>
+            <Type ID="8F647135-24BA-4782-A4FE-9DFFA6E3D3C9">Sub-Heading</Type>
+            <Type ID="65B38BE1-D816-4AD3-ACC5-AA4166318137">Section</Type>
+        </TypeDefinitions>
+        <LevelTypes>
+            <Folders>
+                <Type>4AF14A4D-F0D7-4DFC-9999-85B07C6067A8</Type>
+            </Folders>
+            <Containers>
+                <Type>65B38BE1-D816-4AD3-ACC5-AA4166318137</Type>
+            </Containers>
+            <Files>
+                <Type>65B38BE1-D816-4AD3-ACC5-AA4166318137</Type>
+            </Files>
+        </LevelTypes>
+    </SectionTypes>
+    <LabelSettings>
+        <Title>Label</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="1" Color="1.0 0.348023 0.657259">to do</Label>
+            <Label ID="2" Color="0.574601 0.468969 1.0">in progress</Label>
+            <Label ID="3" Color="0.361643 0.792023 1.0">ready for edit</Label>
+            <Label ID="4" Color="0.746827 1.0 0.862986">polished</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+            <Status ID="0">To Do</Status>
+            <Status ID="1">First Draft</Status>
+            <Status ID="2">Revised Draft</Status>
+            <Status ID="3">Final Draft</Status>
+            <Status ID="4">Done</Status>
+        </StatusItems>
+    </StatusSettings>
+    <ProjectTargets Notify="No">
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2018-10-14 02:21:51 -0400" IgnoreDeadline="No">2000</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="171" Characters="1174" Date="2018-09-23 16:43:19 -0400"></PreviousSession>
+    </ProjectTargets>
+    <RecentWritingHistory Date="2018-09-23 16:43:20 -0400">
+        <DraftWordCount>171</DraftWordCount>
+        <DraftCharCount>1174</DraftCharCount>
+        <OtherWordCount>42</OtherWordCount>
+        <OtherCharCount>169</OtherCharCount>
+    </RecentWritingHistory>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScrivenerProject>

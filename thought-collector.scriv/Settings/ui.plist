@@ -1003,22 +1003,6 @@
 		<key>NavigationHistoryArray</key>
 		<array>
 			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>0B796DE5-BF2D-4C52-B278-963E164007FA</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>BB0E9FD3-BADD-4BFD-B0ED-90BBA4D79870</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
 				<key>AggregateSelection</key>
 				<string>{0, 0}</string>
 				<key>BinderDocUUIDs</key>
@@ -1875,6 +1859,24 @@
 				<key>ViewMode</key>
 				<integer>0</integer>
 			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>A3C5FBA0-7AA7-465E-84D4-170358909628</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>50879682-85D1-4621-890C-97F863252EDE</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
 		</array>
 	</dict>
 	<key>supportingDocumentEditor.outlinerColumnsWidths</key>
@@ -1891,7 +1893,7 @@
 	<key>supportingDocumentEditor.selectedRanges</key>
 	<string>{272, 0}</string>
 	<key>supportingDocumentEditor.selectedTextRanges</key>
-	<string>0,39</string>
+	<string>0,0</string>
 	<key>supportingDocumentEditor.textEditorState</key>
 	<dict>
 		<key>textScaleFactor</key>
