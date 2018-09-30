@@ -7,3 +7,4 @@ I think a very interesting conversation about labour could be had taking one of 
 
 ## 100-word proposal:
 
+Jane Austen's novels, [as whatever they are], are intimately about economics while only marginally acknowledging the role of labourers. Taking [A NOVEL] as my subject, I propose to contextualize the money matters that underpin Austen's [always-interesting] marriage plots. 
