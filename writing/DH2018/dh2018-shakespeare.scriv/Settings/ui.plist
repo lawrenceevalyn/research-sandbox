@@ -102,38 +102,6 @@
 			<dict>
 				<key>BinderDocUUIDs</key>
 				<array>
-					<string>9EC3E216-A789-4481-AB3F-C5EC7F9CBFCF</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>E173CE3F-268F-460A-907C-87D5FB65452B</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>E50D90EC-1BB7-443B-B9BB-1FD2ABA675E7</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
-					<string>A5EB58CA-CCE2-418C-8630-DD33035E4FA7</string>
-				</array>
-				<key>ViewMode</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>BinderDocUUIDs</key>
-				<array>
 					<string>E50D90EC-1BB7-443B-B9BB-1FD2ABA675E7</string>
 				</array>
 				<key>ViewMode</key>
@@ -963,6 +931,59 @@
 				<key>ViewMode</key>
 				<integer>0</integer>
 			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>1C01CF80-E008-4EE6-8271-679F0E9946A6</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>DDF8AC31-4A85-4C8C-AE97-38C38E121C00</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>F84533BF-7528-4B09-8F17-72999A9545D7</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>F84533BF-7528-4B09-8F17-72999A9545D7</string>
+					<string>1C01CF80-E008-4EE6-8271-679F0E9946A6</string>
+					<string>E37B1650-C5D1-452D-B469-D39F910A3AE9</string>
+					<string>55EEE248-A480-40A0-9A43-318CED3095B9</string>
+					<string>F1C1207B-4699-4C99-AEAC-15BF6249EFCA</string>
+					<string>F8B0BAB9-9623-488B-B00B-4486A1361E32</string>
+					<string>B8910801-E1A2-4D60-AF58-EAF3578DF66F</string>
+					<string>A89CE864-6A0F-4825-A3FF-F952FB3546E0</string>
+					<string>E66EFAB6-E367-463C-AC2B-A573A8BF13EA</string>
+					<string>9EC3E216-A789-4481-AB3F-C5EC7F9CBFCF</string>
+					<string>E173CE3F-268F-460A-907C-87D5FB65452B</string>
+					<string>E50D90EC-1BB7-443B-B9BB-1FD2ABA675E7</string>
+					<string>E355F684-CEBD-41AC-8311-1629CCEF4754</string>
+					<string>0EBEA81A-9D08-4632-8C84-F9989D1C54A2</string>
+					<string>8ACD0ADC-4908-407C-8B16-E87BABCE17BE</string>
+					<string>88BB55AD-5769-4CC6-B2EC-DCCB59D07A27</string>
+					<string>14D142AD-7336-453F-AF5C-E2094B27F91F</string>
+					<string>B5B39594-43F9-4651-8D34-B74F1676AB90</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
 		</array>
 	</dict>
 	<key>mainDocumentEditor.outlinerColumnsState</key>
@@ -1029,11 +1050,11 @@
 		</dict>
 	</dict>
 	<key>mainDocumentEditor.scrollRect</key>
-	<string>{{0, 207.66666666666666}, {336, 457.33333333333337}}</string>
+	<string>{{0, 1455.3333333333333}, {336, 457.33333333333348}}</string>
 	<key>mainDocumentEditor.selectedRanges</key>
 	<string>{375, 0}</string>
 	<key>mainDocumentEditor.selectedTextRanges</key>
-	<string>0,1202</string>
+	<string>0,14933</string>
 	<key>mainDocumentEditor.textEditorState</key>
 	<dict>
 		<key>hasMultiplePages</key>
@@ -1044,7 +1065,7 @@
 		<false/>
 	</dict>
 	<key>mainWindowFrame</key>
-	<string>76 83 1255 794 0 0 1440 877 </string>
+	<string>50 83 1255 794 0 0 1440 877 </string>
 	<key>supportingDocumentEditor.binderDocuments</key>
 	<array>
 		<string>A9567FC6-8182-42CF-89BB-2C58CE534BE7</string>

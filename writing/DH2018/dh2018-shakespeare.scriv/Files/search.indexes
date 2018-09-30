@@ -12,9 +12,6 @@
             <Title>who attribute</Title>
             <Text>The who attribute and the speaker element are both used to indicate the speaker or speakers of a speech, but in rather different ways. The speaker element is used to encode the word or phrase actually used within the source text to indicate the speaker: it may contain any string or prefix, and may be thought of as a highly specialized form of stage direction. The who attribute however contains one or more pointer values, each of which indicates one or more other XML elements documenting the character to whom the speech is assigned. Typically, this attribute might point to a person element in the TEI header 15.2.2 The Participant Description, to a roleelement in the cast list 7.1.4 Cast Lists, or even to some external source such as an online handbook of dramatic roles. The most usual case is that the pointer value supplied (prefixed by a sharp sign) corresponds with the value of an xml:id attribute, used elsewhere in the document to identify a particular element</Text>
         </Document>
-        <Document ID="52ECA539-1DE1-4C9C-B96D-EB46A715373F">
-            <Title>intro &amp; context</Title>
-        </Document>
         <Document ID="AD1BA0E3-0A24-440D-8869-AF66460A5641">
             <Title>writing timeline</Title>
             <Text>
@@ -23,6 +20,9 @@ March 31 - finalize Shakespeare networks. Start exploring other networks?
 April 30 - first draft of paper?
 May 31 - second draft of paper?
 June 26 - DH2018</Text>
+        </Document>
+        <Document ID="52ECA539-1DE1-4C9C-B96D-EB46A715373F">
+            <Title>intro &amp; context</Title>
         </Document>
         <Document ID="A5EB58CA-CCE2-418C-8630-DD33035E4FA7">
             <Title>validated on shakey</Title>
@@ -33,6 +33,9 @@ June 26 - DH2018</Text>
 The similarity of two literary plays was computed based on the properties derived from the social networks of both literary plays. This was done by taking a weighted sum of the differences of each property derived from the social networks of the plays. This overall difference was then plugged into the second equation on the right to normalize it between 0 and 1. 
 The weights were calculated using a genetic algorithm. The genetic algorithm tried to reach a solution that rated two plays of the same genre as more similar than two plays of a different genre. 
 </Text>
+        </Document>
+        <Document ID="CBCDB773-FC9D-476D-A9CD-949F49A7B3E9">
+            <Title>Acknowledgements</Title>
         </Document>
         <Document ID="F84533BF-7528-4B09-8F17-72999A9545D7">
             <Title>paper (10min)</Title>
@@ -47,9 +50,6 @@ Figure: ComedyErrors; Midsummer
  
 Graph density is insufficient, however, to fully distinguish the tragedies, which feature networks somewhere between history and comedy in their density. They often have a dense core with a secondary ring of more peripheral characters. What seems to distinguish them is the existence of the central tragic hero, whose influence directly touches more of the network than the protagonists of histories, but whose connections are less interconnected than the ensembles of comedies. These subtleties are better captured, it seems, by the combined metric of “edges, degree, and words.”
 Figure: Othello; Lear; MacBeth; Hamlet</Text>
-        </Document>
-        <Document ID="CBCDB773-FC9D-476D-A9CD-949F49A7B3E9">
-            <Title>Acknowledgements</Title>
         </Document>
         <Document ID="8F78AFE0-51A4-473F-9F62-7476C7A09638">
             <Title>response to reviewers</Title>
@@ -111,6 +111,9 @@ To verify that our parser is accurate, we compare our generated network of Hamle
         <Document ID="9EC3E216-A789-4481-AB3F-C5EC7F9CBFCF">
             <Title>final abstract (1200 wds)</Title>
         </Document>
+        <Document ID="107AFE45-20D7-4220-BAE2-1EF5363E4B54">
+            <Title>Works Cited</Title>
+        </Document>
         <Document ID="CE302B66-EEAD-4E74-8830-5033E5AA8B3E">
             <Title>Manisha's email</Title>
             <Text>Good Morning Lawrence,
@@ -156,9 +159,6 @@ Manisha Shukla
 
 
 I wanted to add one more thing. It is very easy to find out speaker is speaking to whom in a particular sentence with the help of xml tags. However TEI encoding doesn't provide that kind of tagging for the plays. As far as my understanding, in order to tag plays someone has to manually go through the text. If tagging is done manually it is just a matter of adding one more tag. Dr. Gauch can clarify further if I understand this part correctly. </Text>
-        </Document>
-        <Document ID="107AFE45-20D7-4220-BAE2-1EF5363E4B54">
-            <Title>Works Cited</Title>
         </Document>
         <Document ID="14D142AD-7336-453F-AF5C-E2094B27F91F">
             <Title>Conclusion</Title>

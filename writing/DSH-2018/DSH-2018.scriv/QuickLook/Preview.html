@@ -88,63 +88,56 @@
 
 <ul>
 <li>
-<p class="topLevelItemTitle">Outline</p>
-</li>
-<hr class="afterTitle"/>
-<ul>
-<li>
-<p class="itemTitle">Introduction</p>
+<p class="topLevelItemTitle">Introduction</p>
 </li>
 <hr class="afterTitle"/>
 <ul>
 <li>
 <p class="itemTitle">opening</p>
-<p class="itemText">There’s distant reading / “macroanalysis” (Jockers), which seeks to answer large questions of cultural history. And there’s something more akin to “close reading at a distance” or what Hoover terms “microanalysis,” which uses “style variation within a single work or author as a way of better understanding authorship and style” (Hoover DSH 2016). At both scales, a lot of work exists using stylometry to examine long prose works, with method that are often thoughtfully adapted to address poetry as ...</p>
+<p class="itemText">There’s distant reading / “macroanalysis” (Jockers), which seeks to answer large questions of cultural history. And there’s something more akin to “close reading at a distance” or what Hoover terms “microanalysis,” which uses “style variation within a single work or author as a way of better understanding authorship and style” (Hoover DSH 2016). At both scales, a lot of work exists using stylometry to examine long prose works, with methods that are often thoughtfully adapted to address poetry as...</p>
 </li>
 </ul>
 <hr class="afterText"/>
 
 <li>
-<p class="itemTitle">Methods</p>
+<p class="topLevelItemTitle">Methods</p>
 </li>
 <hr class="afterTitle"/>
 <ul>
 <li>
-<p class="itemTitle">why Shakespeare</p>
-<p class="itemText">We replicate some past results in order to verify our model, and then expand from there</p>
-<p class="itemText"></p>
-<p class="itemText">Nod to TEI</p>
-</li>
-<li>
 <p class="itemTitle">TEI parser</p>
+<p class="itemText">Examining network graphs requires, first, a substantial body of network graphs. Many scholars have handmade these graphs, either wholly by hand or as networks which can then be in Gephi. We developed a scalable method, which minimizes reduplication of effort by building upon prior scholarly work encoding other features of plays through the Text Encoding Initiative (TEI) standards. Our parser takes in a TEI-encoded play, extracts characters for the nodes of a network, and connects nodes via a dir...</p>
 </li>
 <li>
 <p class="itemTitle">SVM</p>
-<p class="itemText">We needed to use SVM, not KNN, but in the end it worked</p>
+<p class="itemText">We then use our generated network graphs to test our central question: whether the social network enacted by a play’s characters can be used as a proxy for features of the play’s narrative content. More specifically, we ask whether social networks can be used to distinguish between the dramatic genres of tragedy, comedy, and history.</p>
+<p class="itemText">Using a support vector machine with fivefold validation, we tested 17 different mathematical features of the networks. Even one feature could achieve classification...</p>
 </li>
 </ul>
 <hr class="afterText"/>
 
 <li>
-<p class="itemTitle">Applications</p>
+<p class="topLevelItemTitle">Applications</p>
 </li>
 <hr class="afterTitle"/>
 <ul>
 <li>
-<p class="itemTitle">problem plays</p>
-<p class="itemText">Once we’d confirmed that the SVM could do the “dumb” version of genre, we returned to a complex / nuanced version of genre by thinking about the Problem Plays</p>
+<p class="itemTitle">macroanalysis</p>
+<p class="itemText">Having verified that the network graphs do encode literary information, future works can apply these methods for macroanalysis. Our SVM trained on Shakespeare will only give meaningful results in an Early Modern context, but could nonetheless be straightforwardly applied to a larger Early Modern corpus. Algee-Hewitt has found, for example, [change in eigenvector]. This work suggests that he may be seeing, in part, a change in the popular genres.</p>
 </li>
 <li>
-<p class="itemTitle">Winter's Tale</p>
+<p class="itemTitle">microanalysis</p>
 </li>
+<hr class="afterTitle"/>
+<ul>
 <li>
 <p class="itemTitle">density</p>
 </li>
 <hr class="afterTitle"/>
 <ul>
 <li>
-<p class="itemTitle">Algee-Hewitt</p>
-<p class="itemText">Algee-Hewitt has found, for example, [change in eigenvector]. This work suggests that he may be seeing, in part, a change in the popular genres.</p>
+<p class="itemTitle">problem plays</p>
+<p class="itemText">Much of the difficulty in identify genre in the first place stems from genre’s slippery status. Even in evaluating accuracy, we really determine the classifier’s ability to predict how the First Folio would have labelled a work, not the work’s “true” and objective genre. Shakespearean scholars by no means universally accept the First Folio’s assignments. Accordingly, once we had trained our SVM, we queried two sets of ambiguous texts, the “problem plays” and the “romances,” to see what social ne...</p>
 </li>
 </ul>
 <hr class="afterText"/>
@@ -152,14 +145,18 @@
 <li>
 <p class="itemTitle">reciprocity</p>
 </li>
+<hr class="afterTitle"/>
+<ul>
 <li>
-<p class="itemTitle">future work</p>
+<p class="itemTitle">Winter's Tale</p>
 </li>
+</ul>
+</ul>
 </ul>
 <hr class="afterTitle"/>
 
 <li>
-<p class="itemTitle">Conclusion</p>
+<p class="topLevelItemTitle">Conclusion</p>
 </li>
 <hr class="afterTitle"/>
 <ul>
@@ -167,7 +164,6 @@
 <p class="itemTitle">social networks rock</p>
 <p class="itemText">The meaning of a theatrical social network can only be determined with reference to its theoretical context, but it can be done.</p>
 </li>
-</ul>
 </ul>
 </ul>
 
