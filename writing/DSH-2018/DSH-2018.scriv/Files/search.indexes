@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SearchIndexes Version="1.0">
     <Documents>
-        <Document ID="6FB79304-B1C3-4822-B36D-04614C6931B7">
-            <Text>We show that social network graphs encode literary content. cf Moretti, JL Austin</Text>
+        <Document ID="B66EBA1B-B2E1-4E9A-B19B-1C81C7BED3BB">
+            <Title>social networks rock</Title>
+            <Text>The meaning of a theatrical social network can only be determined with reference to its theoretical context, but it can be done.
+
+Our parser successfully and rapidly produces sophisticated social network graphs of TEI plays, which can be used to computationally identify theatrical genre in Shakespeare’s plays. Thirty-seven plays is a small scale for this approach: since the parser is highly extensible and can be used with any plays encoded in TEI, future work need not be restricted to the Early Modern period. It need not even be restricted to works written in English. These future projects [will need to take their local content into account], but [thanks to us they now know to look at density, eigenvector centrality, path length, and reciprocation] Our networks of the well-studied works of Shakespeare can provide a baseline against which to contextualize analysis of these elements in works for which there is far less critical consensus.</Text>
         </Document>
         <Document ID="950B46B3-94EE-4F06-88A0-00F4C98A84C7">
             <Title>opening</Title>
@@ -70,9 +73,7 @@ SVM achieves 83.57% accuracy with words, characters, &amp; lines. Naïve Bayes a
         </Document>
         <Document ID="F2207DBB-9D16-4CC7-B256-D9FDF5ADE5CF">
             <Title>problem plays</Title>
-            <Text>[Summary of our results.]
-
-As Figure &lt;$n#fig:problem-plays&gt; shows, both classifiers generally concur with the First Folio’s classification of the “problem plays,” with the exception that the SVM classifier identifies Troilus and Cressida as a comedy rather than a tragedy. The romances (Figure &lt;$n#fig:romances&gt;) are slightly more ambiguous. The classifiers concur with the First Folio regarding The Tempest, but neither classifies The Winter’s Tale or Pericles as a comedy. Moreover, the classification of Cymbeline as a tragedy, even though this classification concurs with the First Folio, constitutes a surprise: audiences since Samuel Johnson in 1765 have complained of Cymbeline’s failures as a tragedy (among other things, it has a happy ending), [titles are called “misleading”, and it’s sometimes even called a comedy.] [However, maybe this classification shows that Proudfoot is right and it meets Early Modern standards for a tragedy.]
+            <Text>As Figure &lt;$n#fig:problem-plays&gt; shows, both classifiers generally concur with the First Folio’s classification of the “problem plays,” with the exception that the SVM classifier identifies Troilus and Cressida as a comedy rather than a tragedy. The romances (Figure &lt;$n#fig:romances&gt;) are slightly more ambiguous. 
 
 #
 Figure &lt;$n:fig:problem-plays&gt;: classifications for the “problem plays.”
@@ -80,29 +81,36 @@ Figure &lt;$n:fig:problem-plays&gt;: classifications for the “problem plays.�
 ￼
 Figure &lt;$n:fig:problem-plays&gt;: classifications for the romances.
 
-We treat none of these identifications as definitive declaration of the plays’ “real” genres, but use them to distinguish between plays whose generic ambiguity lies in their subject matter, and plays whose ambiguity lies in their structure.</Text>
+The classifiers concur with the First Folio regarding The Tempest, but neither classifies The Winter’s Tale or Pericles as a comedy. Moreover, the classification of Cymbeline (Figure &lt;$n#fig:cymbeline&gt;) as a tragedy, even though this classification concurs with the First Folio, constitutes a surprise. Audiences since Samuel Johnson in 1765 have complained of Cymbeline’s failures as a tragedy (among other things, it has a happy ending), and Barbara Mowat refers to the Folio’s identification of the play as “The Tragedie of Cymbeline” in the index, title page, and running heads, as “misleading paratextual matter” (130). Our classification, in contrast, supports Valerie Wayne and Richard Proudfoot’s assessment that although “[i]t is not a tragedy as that form is most widely understood today or as Johnson understood it in the eighteenth century, […] it did sufficiently meet Renaissance definitions” of that genre (Wayne 403).
+
+￼
+Figure &lt;$n:fig:cymbeline&gt;: network graph of character interaction in Cymbeline.</Text>
             <Comments>Pericles is not, of course, a First Folio play, and has not formed part of our corpus for the other stages of this project, but was graphed and classified in service of this question. Its “original” designation as a comedy comes form general critical consensus rather than the First Folio.
-FOOTNOTE ON JOHNSON’S COMPLAINTS</Comments>
+Every discussion of Cymbeline, and particularly of its genre, must duly quote Johnson’s judgment that “This play has many just sentiments, some natural dialogues, and some pleasing scenes, but they are obtained at the expense of much incongruity. To remark the folly of the fiction, the absurdity of the conduct, the confusion of the names and manners of different times, and the impossibility of the events in any system of life, were to waste criticism upon unresisting imbecility, upon faults too evident for detection, and too gross for aggravation” (307). I hereby discharge this solemn duty.</Comments>
         </Document>
         <Document ID="371B9CB6-E720-40E5-BBBA-0FAD3841DE6D">
             <Title>Primary Text</Title>
         </Document>
         <Document ID="59357DED-BA22-421E-A348-12FE5CF5E884">
+            <Title>Works Cited (18/23)</Title>
             <Text>	1.	Alberich, R.,Miro-Julia, J., and Rosselló., F. (2002). Marvel Universe Looks Almost Like a Real Social Network. arXiv:cond-mat/0202174v1
 	2.	Algee-Hewitt, M. (2017). Distributed Character: Quantitative Models of the English Stage, 1500-1920. Digital Humanities 2017: Book of Abstracts. Montreal: McGill University and Université de Montréal, pp. 119–21.
 	3.	Hoover DSH 2016
-	4.	Gephi
+	4.	Bastian M., Heymann S., Jacomy M. (2009). Gephi: an open source software for exploring and manipulating networks. International AAAI Conference on Weblogs and Social Media.
 	5.	Jockers - macroanalysis
-	6.	Moretti, F. (2011). Network Theory, Plot Analysis. New Left Review, 68: 80–102.
-	7.	Proudfoot.
-	8.	Shakespeare, William. A Midsummer Night’s Dream.
-	9.	Shakespeare, William. Hamlet.
-	10.	Shakespeare, William. The Winter’s Tale.
-	11.	Stiller, J., Nettle, D., and Dunbar, R. I. M. (2003). The Small World of Shakespeare's Plays. Human Nature, 14(4): 397–408.
-	12.	Shukla self-citation
-	13.	Sparavigna, A. C. (2013). On Social Networks in Plays and Novels. International Journal of Sciences, 2: 20–25.
-	14.	Wayne, V.
-	15.	WordHoard Shakespeare
+	6.	Johnson, S. Selections from Johnson on Shakespeare, ed. Bertrand H. Bronson with Jean M. O’Meara (New Haven, CT: Yale UP, 1986), 307.
+	7.	Moretti, F. (2011). Network Theory, Plot Analysis. New Left Review, 68: 80–102.
+	8.	Mowat, B. “‘What’s in a Name?’: Tragicomedy, Romance, or Late Comedy,” in A Companion to Shakespeare’s Works, ed. Richard Dutton and Jean E. Howard, vol. 4, The Poems, Problem Comedies, Late Plays (Oxford: Blackwell, 2003)
+	9.	Proudfoot.
+	10.	Shakespeare, William. A Midsummer Night’s Dream.
+	11.	Shakespeare, William. Cymbeline.
+	12.	Shakespeare, William. Hamlet.
+	13.	Shakespeare, William. The Winter’s Tale.
+	14.	Stiller, J., Nettle, D., and Dunbar, R. I. M. (2003). The Small World of Shakespeare's Plays. Human Nature, 14(4): 397–408.
+	15.	Shukla self-citation
+	16.	Sparavigna, A. C. (2013). On Social Networks in Plays and Novels. International Journal of Sciences, 2: 20–25.
+	17.	Wayne, V. "The First Folio’s Arrangement and Its Finale." Shakespeare Quarterly, vol. 66 no. 4, 2015, pp. 389-408. Project MUSE, doi:10.1353/shq.2015.0064
+	18.	WordHoard Shakespeare
 </Text>
         </Document>
         <Document ID="715766CA-DB75-4981-8B6C-398B4AC12DEE">
@@ -136,7 +144,13 @@ Particularly compare myself to Saldana’s resulting paper published here, ‘An
         </Document>
         <Document ID="1E519797-97A0-4474-A2AE-FA447A2588DE">
             <Title>Winter's Tale</Title>
-            <Text>The Winter’s Tale provides a particularly useful case study for close-reading a play through the lens of its social network. The play earns its designation as a “romance” due to its unusual two-part structure: the first X acts play like a tragedy, in which Leontes gradually ruins his own life. At the beginning of Act X, the character of “Time” comes on stage to declare that XX years have passed, and the play begins an extended pastoral comedy which ultimately resolves all the impending/looming tragedies of the beginning of the play. These two theatrical dynamics are visible in the social network graph: Leontes radiates unreciprocoated/unbalanced edges, looking like a Hamlet of his world. But the characters who enter in the latter half of the play — NAMES HERE — connect to each other in a dense, comedic structure. Therefore, the play as a whole is neither a comedy nor a tragedy, which the classifiers evidently deem a history.</Text>
+            <Text>The Winter’s Tale provides a particularly useful case study for close-reading a play through the lens of its social network. The play earns its designation as a “romance” due to its two-part structure: the first X acts play like a tragedy, in which Leontes gradually ruins his own life. At the beginning of Act X, the character of “Time” comes on stage to declare that XX years have passed, and the play begins an extended pastoral comedy which ultimately resolves all the looming tragedies of the beginning of the play. These two theatrical dynamics are visible in the social network graph, as seen in Figure &lt;$n#fig:winters-tale&gt;: Leontes radiates unreciprocated and unbalanced edges, looking like a Hamlet of his world. But the characters who enter in the latter half of the play — NAMES HERE — connect to each other in a dense, comedic structure. As a result, the play’s network as a whole is neither a comedy nor a tragedy, which the classifiers evidently deem a history.
+
+#
+Figure &lt;$n:fig:winters-tale&gt;: network graph of character interaction in The Winter’s Tale.
+
+We treat none of these identifications as definitive declaration of the plays’ “real” genres, but use them to distinguish between plays whose generic ambiguity lies in their subject matter, and plays whose ambiguity lies in their structure.</Text>
+            <Comments>probably cite somebody about this</Comments>
         </Document>
         <Document ID="C037C6D1-505E-4D73-8C08-E34D3454500B">
             <Title>Text 6</Title>
@@ -271,11 +285,8 @@ Our parser successfully and rapidly produces sophisticated social network graphs
             <Title>microanalysis</Title>
             <Text>We spent some time doing microanalysis. 36 plays is a small enough corpus that they can be scrutinized individually, and their network graphs visually examined. Much of the difficulty in identify genre in the first place stems from genre’s slippery status. Even in evaluating accuracy, we really determine the classifier’s ability to predict how the First Folio would have labelled a work, not the work’s “true” and objective genre. Shakespearean scholars by no means universally accept the First Folio’s assignments. Accordingly, once we had trained our SVM classifier, we queried two sets of ambiguous texts, the “problem plays” and the “romances,” to see what social network analysis might offer these debates</Text>
         </Document>
-        <Document ID="B66EBA1B-B2E1-4E9A-B19B-1C81C7BED3BB">
-            <Title>social networks rock</Title>
-            <Text>The meaning of a theatrical social network can only be determined with reference to its theoretical context, but it can be done.
-
-Our parser successfully and rapidly produces sophisticated social network graphs of TEI plays, which can be used to computationally identify theatrical genre in Shakespeare’s plays. Thirty-seven plays is a small scale for this approach: since the parser is highly extensible and can be used with any plays encoded in TEI, future work need not be restricted to the Early Modern period. It need not even be restricted to works written in English. These future projects [will need to take their local content into account], but [thanks to us they now know to look at density, eigenvector centrality, path length, and reciprocation] Our networks of the well-studied works of Shakespeare can provide a baseline against which to contextualize analysis of these elements in works for which there is far less critical consensus.</Text>
+        <Document ID="6FB79304-B1C3-4822-B36D-04614C6931B7">
+            <Text>We show that social network graphs encode literary content. cf Moretti, JL Austin</Text>
         </Document>
     </Documents>
 </SearchIndexes>
