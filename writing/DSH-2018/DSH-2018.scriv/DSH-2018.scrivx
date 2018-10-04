@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="F254A139-66D4-4914-8FBD-E2BC864528E8" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2018-09-30 01:01:55 -0400" ModID="B673B01F-ECBD-4F11-885B-569D82C626FE">
+<ScrivenerProject Identifier="F254A139-66D4-4914-8FBD-E2BC864528E8" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2018-10-03 22:51:27 -0400" ModID="BE24EB23-3401-464A-B4D3-4821531A18C1">
     <Binder>
         <BinderItem UUID="DDF8AC31-4A85-4C8C-AE97-38C38E121C00" Type="DraftFolder" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
             <Title>Draft</Title>
@@ -49,14 +49,14 @@
                                 <TextSelection>99,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="C1F3DC14-48B1-4C57-B471-29417A6B1B00" Type="Text" Created="2018-09-23 20:03:01 -0400" Modified="2018-09-29 20:08:42 -0400">
-                            <Title>SVM</Title>
+                        <BinderItem UUID="C1F3DC14-48B1-4C57-B471-29417A6B1B00" Type="Text" Created="2018-09-23 20:03:01 -0400" Modified="2018-10-03 22:50:08 -0400">
+                            <Title>SVM &amp; Naive Bayes</Title>
                             <MetaData>
-                                <LabelID>2</LabelID>
+                                <LabelID>1</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>55,0</TextSelection>
+                                <TextSelection>517,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                     </Children>
@@ -149,14 +149,14 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem UUID="59357DED-BA22-421E-A348-12FE5CF5E884" Type="Text" Created="2018-09-30 00:42:33 -0400" Modified="2018-09-30 00:51:42 -0400">
-                    <Title>Works Cited (10/25)</Title>
+                <BinderItem UUID="59357DED-BA22-421E-A348-12FE5CF5E884" Type="Text" Created="2018-09-30 00:42:33 -0400" Modified="2018-10-03 04:47:16 -0400">
+                    <Title>Works Cited (13/23)</Title>
                     <MetaData>
                         <LabelID>1</LabelID>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>377,0</TextSelection>
+                        <TextSelection>869,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
             </Children>
@@ -174,7 +174,7 @@
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>124,0</TextSelection>
+                        <TextSelection>523,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="371B9CB6-E720-40E5-BBBA-0FAD3841DE6D" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
@@ -297,7 +297,7 @@
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>331,0</TextSelection>
+                        <TextSelection>163,168</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="41094D9B-AF68-4735-B03D-BFAD4356A3A8" Type="Text" Created="2018-09-29 18:39:46 -0400" Modified="2018-09-29 18:43:51 -0400">
@@ -307,6 +307,24 @@
                     </MetaData>
                     <TextSettings>
                         <TextSelection>7567,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="DF2485B6-25A9-4199-B795-E4D1B09BE9BB" Type="Text" Created="2018-10-03 22:31:46 -0400" Modified="2018-10-03 22:32:08 -0400">
+                    <Title>Manisha's thesis</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>385,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="A91E6F21-3F50-4A62-9A1E-678CDEEFEB13" Type="Text" Created="2018-10-03 22:39:11 -0400" Modified="2018-10-03 22:40:04 -0400">
+                    <Title>Questions to readers:</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>77,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
             </Children>
@@ -488,13 +506,13 @@
     <ProjectTargets Notify="Yes">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2018-10-14 02:21:51 -0400" IgnoreDeadline="No">2000</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">500</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2018-09-30 01:01:06 -0400"></PreviousSession>
+        <PreviousSession Words="43" Characters="294" Date="2018-10-03 04:24:56 -0400"></PreviousSession>
     </ProjectTargets>
-    <RecentWritingHistory Date="2018-09-30 00:00:00 -0400">
-        <DraftWordCount>846</DraftWordCount>
-        <DraftCharCount>5531</DraftCharCount>
-        <OtherWordCount>0</OtherWordCount>
-        <OtherCharCount>0</OtherCharCount>
+    <RecentWritingHistory Date="2018-10-03 00:00:00 -0400">
+        <DraftWordCount>43</DraftWordCount>
+        <DraftCharCount>294</DraftCharCount>
+        <OtherWordCount>130</OtherWordCount>
+        <OtherCharCount>826</OtherCharCount>
     </RecentWritingHistory>
     <PrintSettings PaperSize="611.999979,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>
