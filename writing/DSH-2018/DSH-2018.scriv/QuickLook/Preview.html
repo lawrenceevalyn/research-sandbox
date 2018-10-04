@@ -109,9 +109,9 @@
 <p class="itemText">Examining network graphs requires, first, a substantial body of network graphs. Many scholars have handmade these graphs, either wholly by hand or as networks which can then be in Gephi. We developed a scalable method, which minimizes reduplication of effort by building upon prior scholarly work encoding other features of plays through the Text Encoding Initiative (TEI) standards. Our parser takes in a TEI-encoded play, extracts characters for the nodes of a network, and connects nodes via a dir...</p>
 </li>
 <li>
-<p class="itemTitle">SVM</p>
-<p class="itemText">We then use our generated network graphs to test our central question: whether the social network enacted by a play’s characters can be used as a proxy for features of the play’s narrative content. More specifically, we ask whether social networks can be used to distinguish between the dramatic genres of tragedy, comedy, and history.</p>
-<p class="itemText">We tested 17 different mathematical features of the networks, using both a support vector machine (SVM) classifier and a Naïve Bayes classifier, both with fivefold...</p>
+<p class="itemTitle">SVM & Naive Bayes</p>
+<p class="itemText">We then used our generated network graphs to test our central question: whether the social network enacted by a play’s characters can be used as a proxy for features of the play’s narrative content. More specifically, we asked whether social networks can be used to distinguish between the dramatic genres of tragedy, comedy, and history.</p>
+<p class="itemText">We decided that the answer would be “yes” if we could train a classifier to replicate the First Folio’s classifications for Shakespeare’s 36 plays. We tested 21 ...</p>
 </li>
 </ul>
 <hr class="afterText"/>
@@ -136,13 +136,15 @@
 
 <li>
 <p class="itemTitle">microanalysis</p>
-<p class="itemText">We spent some time doing microanalysis. 37 plays is a small enough corpus that they can be scrutinized individually, and their network graphs visually examined. Much of the difficulty in identify genre in the first place stems from genre’s slippery status. Even in evaluating accuracy, we really determine the classifier’s ability to predict how the First Folio would have labelled a work, not the work’s “true” and objective genre. Shakespearean scholars by no means universally accept the First Fol...</p>
+<p class="itemText">We spent some time doing microanalysis. 36 plays is a small enough corpus that they can be scrutinized individually, and their network graphs visually examined. Much of the difficulty in identify genre in the first place stems from genre’s slippery status. Even in evaluating accuracy, we really determine the classifier’s ability to predict how the First Folio would have labelled a work, not the work’s “true” and objective genre. Shakespearean scholars by no means universally accept the First Fol...</p>
 </li>
 <hr class="afterText"/>
 <ul>
 <li>
 <p class="itemTitle">problem plays</p>
-<p class="itemText">[SOME RESULTS AND THEORIES ABOUT THE PROBLEM PLAYS.] We treat none of these identifications as definitive declaration of the plays’ “real” genres, but use them to distinguish between plays whose generic ambiguity lies in their subject matter, and plays whose ambiguity lies in their structure.</p>
+<p class="itemText">[Summary of our results.]</p>
+<p class="itemText"></p>
+<p class="itemText">As Figure <$n#fig:problem-plays> shows, both classifiers generally concur with the First Folio’s classification of the “problem plays,” with the exception that the SVM classifier identifies Troilus and Cressida as a comedy rather than a tragedy. The romances (Figure <$n#fig:romances>) are slightly more ambiguous. The classifiers concur with the First Folio regarding The Tempest, but neither classifies The Winter’s Tale or Pericles as a comedy. Moreover, the classificat...</p>
 </li>
 <li>
 <p class="itemTitle">Winter's Tale</p>
@@ -167,7 +169,7 @@
 <hr class="afterText"/>
 
 <li>
-<p class="topLevelItemTitle">Works Cited (13/23)</p>
+<p class="topLevelItemTitle">Works Cited (15/23)</p>
 <p class="itemText"> 1. Alberich, R.,Miro-Julia, J., and Rosselló., F. (2002). Marvel Universe Looks Almost Like a Real Social Network. arXiv:cond-mat/0202174v1</p>
 <p class="itemText"> 2. Algee-Hewitt, M. (2017). Distributed Character: Quantitative Models of the English Stage, 1500-1920. Digital Humanities 2017: Book of Abstracts. Montreal: McGill University and Université de Montréal, pp. 119–21.</p>
 <p class="itemText"> 3. Hoover DSH 2016</p>
