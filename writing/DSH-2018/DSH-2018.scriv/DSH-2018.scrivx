@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="F254A139-66D4-4914-8FBD-E2BC864528E8" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2018-10-04 03:26:51 -0400" ModID="6BE123D9-7EA9-42DC-85CD-63C71CC05EB5">
+<ScrivenerProject Identifier="F254A139-66D4-4914-8FBD-E2BC864528E8" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2018-10-04 03:50:55 -0400" ModID="F86E3761-FDC1-437D-81AA-59B004B4CED7">
     <Binder>
         <BinderItem UUID="DDF8AC31-4A85-4C8C-AE97-38C38E121C00" Type="DraftFolder" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
             <Title>Draft</Title>
@@ -159,8 +159,8 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem UUID="59357DED-BA22-421E-A348-12FE5CF5E884" Type="Text" Created="2018-09-30 00:42:33 -0400" Modified="2018-10-04 03:17:43 -0400">
-                    <Title>Works Cited (21/23)</Title>
+                <BinderItem UUID="59357DED-BA22-421E-A348-12FE5CF5E884" Type="Text" Created="2018-09-30 00:42:33 -0400" Modified="2018-10-04 03:34:58 -0400">
+                    <Title>Works Cited (20/23)</Title>
                     <MetaData>
                         <LabelID>1</LabelID>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -183,7 +183,7 @@
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>230,0</TextSelection>
+                        <TextSelection>4,226</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="107AFE45-20D7-4220-BAE2-1EF5363E4B54" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-30 00:46:39 -0400">
@@ -516,11 +516,11 @@
     <ProjectTargets Notify="Yes">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2018-10-14 02:21:51 -0400" IgnoreDeadline="No">2000</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">250</SessionTarget>
-        <PreviousSession Words="226" Characters="1524" Date="2018-10-04 01:37:03 -0400"></PreviousSession>
+        <PreviousSession Words="224" Characters="1508" Date="2018-10-04 01:37:03 -0400"></PreviousSession>
     </ProjectTargets>
     <RecentWritingHistory Date="2018-10-04 00:00:00 -0400">
-        <DraftWordCount>352</DraftWordCount>
-        <DraftCharCount>2377</DraftCharCount>
+        <DraftWordCount>350</DraftWordCount>
+        <DraftCharCount>2361</DraftCharCount>
         <OtherWordCount>608</OtherWordCount>
         <OtherCharCount>3942</OtherCharCount>
     </RecentWritingHistory>
