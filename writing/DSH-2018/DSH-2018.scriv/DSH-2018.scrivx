@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="F254A139-66D4-4914-8FBD-E2BC864528E8" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2018-10-05 21:25:55 -0400" ModID="4E781863-9AF5-4688-80C7-664BE76F49E9">
+<ScrivenerProject Identifier="F254A139-66D4-4914-8FBD-E2BC864528E8" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2018-10-05 21:59:16 -0400" ModID="5F7164FC-5C1D-4645-B4F4-E5BCAD24EEFB">
     <Binder>
         <BinderItem UUID="DDF8AC31-4A85-4C8C-AE97-38C38E121C00" Type="DraftFolder" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
             <Title>Draft</Title>
@@ -27,14 +27,14 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem UUID="950B46B3-94EE-4F06-88A0-00F4C98A84C7" Type="Text" Created="2018-09-27 17:19:20 -0400" Modified="2018-10-05 21:17:14 -0400">
+                        <BinderItem UUID="950B46B3-94EE-4F06-88A0-00F4C98A84C7" Type="Text" Created="2018-09-27 17:19:20 -0400" Modified="2018-10-05 21:27:02 -0400">
                             <Title>opening</Title>
                             <MetaData>
                                 <LabelID>1</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
-                                <TextSelection>878,0</TextSelection>
+                                <TextSelection>874,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
                     </Children>
@@ -81,7 +81,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem UUID="EE1FC9D6-BA2B-4814-A5CD-F73002C600E1" Type="Text" Created="2018-09-30 00:06:37 -0400" Modified="2018-10-05 21:25:35 -0400">
+                        <BinderItem UUID="EE1FC9D6-BA2B-4814-A5CD-F73002C600E1" Type="Text" Created="2018-09-30 00:06:37 -0400" Modified="2018-10-05 21:28:24 -0400">
                             <Title>genres</Title>
                             <MetaData>
                                 <LabelID>1</LabelID>
@@ -91,14 +91,24 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                             <Children>
-                                <BinderItem UUID="DD409DBC-8CDF-461E-966A-04B20D1CA180" Type="Text" Created="2018-10-05 21:24:23 -0400" Modified="2018-10-05 21:25:19 -0400">
+                                <BinderItem UUID="DD409DBC-8CDF-461E-966A-04B20D1CA180" Type="Text" Created="2018-10-05 21:24:23 -0400" Modified="2018-10-05 21:53:03 -0400">
                                     <Title>comedies</Title>
                                     <MetaData>
                                         <LabelID>6</LabelID>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>741,0</TextSelection>
+                                        <TextSelection>752,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="FA712601-84C1-4E60-95D0-37A610EACE77" Type="Text" Created="2018-10-05 21:27:31 -0400" Modified="2018-10-05 21:46:24 -0400">
+                                    <Title>history/tragedy ambiguity</Title>
+                                    <MetaData>
+                                        <LabelID>1</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>603,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
                                 <BinderItem UUID="F1220AB2-521C-4064-B8C4-CA2DAD321BF4" Type="Text" Created="2018-10-05 21:24:42 -0400" Modified="2018-10-05 21:25:19 -0400">
@@ -111,7 +121,7 @@
                                         <TextSelection>530,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="C3A9E2A1-484B-411C-B9E7-F5A2B62B4A31" Type="Text" Created="2018-10-05 21:24:50 -0400" Modified="2018-10-05 21:25:19 -0400">
+                                <BinderItem UUID="C3A9E2A1-484B-411C-B9E7-F5A2B62B4A31" Type="Text" Created="2018-10-05 21:24:50 -0400" Modified="2018-10-05 21:43:29 -0400">
                                     <Title>tragedies</Title>
                                     <MetaData>
                                         <LabelID>6</LabelID>
@@ -123,28 +133,18 @@
                                 </BinderItem>
                             </Children>
                         </BinderItem>
-                        <BinderItem UUID="2D27AD73-E616-411B-B5BC-A4DFCAFD473B" Type="Text" Created="2018-09-27 18:01:01 -0400" Modified="2018-10-05 18:17:43 -0400">
-                            <Title>macroanalysis</Title>
+                        <BinderItem UUID="4BF98C2B-A0D6-4192-A68F-9D891036F0A2" Type="Text" Created="2018-10-05 21:49:29 -0400" Modified="2018-10-05 21:49:49 -0400">
+                            <Title>case studies</Title>
                             <MetaData>
-                                <LabelID>6</LabelID>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>0,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="6D16B108-EBEF-4B9C-A9BC-574D623CF418" Type="Text" Created="2018-09-29 20:17:06 -0400" Modified="2018-10-05 18:17:43 -0400">
-                            <Title>microanalysis</Title>
-                            <MetaData>
-                                <LabelID>6</LabelID>
+                                <LabelID>1</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                             <Children>
-                                <BinderItem UUID="F2207DBB-9D16-4CC7-B256-D9FDF5ADE5CF" Type="Text" Created="2018-09-23 20:04:04 -0400" Modified="2018-10-05 18:17:43 -0400">
-                                    <Title>problem plays</Title>
+                                <BinderItem UUID="F2207DBB-9D16-4CC7-B256-D9FDF5ADE5CF" Type="Text" Created="2018-09-23 20:04:04 -0400" Modified="2018-10-05 21:49:58 -0400">
+                                    <Title>Cymbeline</Title>
                                     <MetaData>
                                         <LabelID>6</LabelID>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -177,7 +177,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem UUID="B66EBA1B-B2E1-4E9A-B19B-1C81C7BED3BB" Type="Text" Created="2018-09-23 20:13:55 -0400" Modified="2018-10-05 18:18:11 -0400">
+                        <BinderItem UUID="B66EBA1B-B2E1-4E9A-B19B-1C81C7BED3BB" Type="Text" Created="2018-09-23 20:13:55 -0400" Modified="2018-10-05 21:48:25 -0400">
                             <Title>social networks rock</Title>
                             <MetaData>
                                 <LabelID>1</LabelID>
@@ -198,7 +198,7 @@
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <TextSettings>
-                <TextSelection>613,41</TextSelection>
+                <TextSelection>2031,0</TextSelection>
             </TextSettings>
         </BinderItem>
         <BinderItem UUID="D6E7AB84-B725-416C-B2BE-70320E9FA3D3" Type="ResearchFolder" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
@@ -214,6 +214,16 @@
                     </MetaData>
                     <TextSettings>
                         <TextSelection>342,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="6D16B108-EBEF-4B9C-A9BC-574D623CF418" Type="Text" Created="2018-09-29 20:17:06 -0400" Modified="2018-10-05 21:49:41 -0400">
+                    <Title>microanalysis</Title>
+                    <MetaData>
+                        <LabelID>6</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="A91E6F21-3F50-4A62-9A1E-678CDEEFEB13" Type="Text" Created="2018-10-03 22:39:11 -0400" Modified="2018-10-03 23:29:12 -0400">
@@ -519,6 +529,16 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
+                <BinderItem UUID="2D27AD73-E616-411B-B5BC-A4DFCAFD473B" Type="Text" Created="2018-09-27 18:01:01 -0400" Modified="2018-10-05 21:53:02 -0400">
+                    <Title>Algee-Hewitt</Title>
+                    <MetaData>
+                        <LabelID>6</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
             </Children>
         </BinderItem>
     </Binder>
@@ -576,11 +596,11 @@
     <ProjectTargets Notify="Yes">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2018-10-14 02:21:51 -0400" IgnoreDeadline="No">2200</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">250</SessionTarget>
-        <PreviousSession Words="-310" Characters="-2183" Date="2018-10-05 08:25:22 -0400"></PreviousSession>
+        <PreviousSession Words="-24" Characters="-537" Date="2018-10-05 08:25:22 -0400"></PreviousSession>
     </ProjectTargets>
     <RecentWritingHistory Date="2018-10-05 00:00:00 -0400">
-        <DraftWordCount>-310</DraftWordCount>
-        <DraftCharCount>-2183</DraftCharCount>
+        <DraftWordCount>-24</DraftWordCount>
+        <DraftCharCount>-537</DraftCharCount>
         <OtherWordCount>395</OtherWordCount>
         <OtherCharCount>2542</OtherCharCount>
     </RecentWritingHistory>
