@@ -88,13 +88,19 @@
 
 <ul>
 <li>
+<p class="topLevelItemTitle">TITLE</p>
+<p class="itemText">Classifying Shakespeare’s Plays with Network Graphs: Dramatic Genre Revealed in Character Speech Interactions</p>
+</li>
+<li>
 <p class="topLevelItemTitle">Introduction</p>
 </li>
 <hr class="afterTitle"/>
 <ul>
 <li>
 <p class="itemTitle">opening</p>
-<p class="itemText">Digital scholarship in literature has a long history of distant reading “macroanalysis” (Jockers), which seeks to answer large questions of cultural history. These techniques are also often fruitful for something more akin to ‘close reading at a distance’ or what Hoover terms “microanalysis,” which uses “style variation within a single work or author as a way of better understanding authorship and style” (2016). At both scales, a great deal of work exists using stylometry to examine long prose w...</p>
+<p class="itemText">Genre, as one of the perennially difficult questions of literary study, is a ubiquitous subject for computational “distant reading” of literature. [Cite Daniel Chandler re: what’s hard about genre, what our goal is with genre.] [Explain what distant reading is, try to get Jockers and Hoover in here.]</p>
+<p class="itemText"></p>
+<p class="itemText">[In setting out to answer questions about generic change in eighteenth-century theatre, we realised that we first must establish a baseline that linguistic encounters in the space of the stage, in ...</p>
 </li>
 </ul>
 <hr class="afterText"/>
@@ -109,9 +115,8 @@
 <p class="itemText">Examining network graphs requires, first, a substantial body of network graphs. Many scholars have handmade theatrical network graphs, both as wholly artistic interpretations (Moretti) and as mathematically-expressed networks (Trilcke et al., Fischer et al.). Like the Digital Literary Network Analysis (dlina) working group, we acquire our networks by parsing plays which have been encoded according to the Text Encoding Initiative (TEI) standards. Our parser takes in a TEI-encoded play, extracts c...</p>
 </li>
 <li>
-<p class="itemTitle">SVM & Naive Bayes</p>
-<p class="itemText">We then used our generated network graphs to test our central question: whether the social network enacted by a play’s characters can be used as a proxy for features of the play’s narrative content. More specifically, we asked whether social networks can be used to distinguish between the dramatic genres of tragedy, comedy, and history.</p>
-<p class="itemText">We decided that the answer would be “yes” if we could train a classifier to replicate the First Folio’s classifications for Shakespeare’s 36 plays. We tested 21 ...</p>
+<p class="itemTitle">classifiers</p>
+<p class="itemText">We then used our generated network graphs to test our central question: whether character speech interaction can be used to distinguish between the dramatic genres of tragedy, comedy, and history. We decided that the answer would be “yes” if we could train a classifier to replicate the First Folio’s classifications for Shakespeare’s 36 plays. We tested three classifier algorithms with fivefold cross-validation, using 21 different mathematical features as the metrics for comparison. We found that...</p>
 </li>
 </ul>
 <hr class="afterText"/>
@@ -123,7 +128,8 @@
 <ul>
 <li>
 <p class="itemTitle">genres</p>
-<p class="itemText">Comedies are, it turns out, the most straightforward networks to identify. They have fewer nodes, with high graph density. Although comedies often have multiple subplots, we find that these separate stories do not result in highly-separated networks. We theorize that comedic networks are strongly shaped by the final “resolution” scenes, which bring the cast together for a restoration of social order, and therefore create edges knitting the network together. (See, for example, A Midsummer Night’s...</p>
+<p class="itemText"></p>
+<p class="itemText">Comedies are, it turns out, the most straightforward networks to identify. They have fewer nodes, with high graph density. Although comedies often have multiple subplots, we find that these separate stories do not result in highly-separated networks. We theorize that comedic networks are strongly shaped by the final “resolution” scenes, which bring the cast together for a restoration of social order, and therefore create edges knitting the network together. (See, for example, A Midsummer Night’...</p>
 </li>
 <hr class="afterText"/>
 <ul>
@@ -166,14 +172,12 @@
 <hr class="afterTitle"/>
 <ul>
 <li>
-<p class="itemTitle">we're not idiots</p>
-<p class="itemText">We treat none of these identifications as definitive declaration of the plays’ “real” genres, but use them to distinguish between plays whose generic ambiguity lies in their subject matter, and plays whose ambiguity lies in their structure.</p>
-</li>
-<li>
 <p class="itemTitle">social networks rock</p>
+<p class="itemText">We treat none of these identifications as definitive declaration of the plays’ “real” genres, </p>
+<p class="itemText"></p>
 <p class="itemText">The meaning of a theatrical social network can only be determined with reference to its theoretical context, but it can be done.</p>
 <p class="itemText"></p>
-<p class="itemText">Our parser successfully and rapidly produces sophisticated social network graphs of TEI plays, which can be used to computationally identify theatrical genre in Shakespeare’s plays. Thirty-seven plays is a small scale for this approach: since the parser is highly extensible and can be used with any plays encoded in TEI, future work need not be restricted to the Early ...</p>
+<p class="itemText">Our parser successfully and rapidly produces sophisticated social network graphs of TEI plays, which can be used to computationally identify theatrical genre in Shakespeare’s plays. Thirty-seven plays is a small scale for this approach: since the parser is highly extensible...</p>
 </li>
 </ul>
 </ul>

@@ -1,19 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Comments>
-    <Comment ID="8FAE83FC-E01A-40CC-84AC-5732294B6BE8" Footnote="Yes" Color="0.949769 0.949769 0.949769"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
+    <Comment ID="E4915F75-6300-40D2-9635-8F1144ADBD2A" Footnote="Yes" Color="0.949769 0.949769 0.949769"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 KNN is particularly vulnerable to the over-representation of comedies among Shakespeare\'92s works. Na\'efve Bayes treats each feature as independent, an assumption unlikely to be correct in our case, since, e.g., the number of words in a play are likely to be closely related to the number of lines in the play.}]]></Comment>
+\f0\fs24 \cf0 We tested 
+\i k
+\i0 -nearest neighbors (KNN), a support vector machine (SVM) with one vs one classification, and a Na\'efve Bayes classifier. KNN, we soon determined, was too vulnerable to the over-representation of comedies among Shakespeare\'92s works, so we eliminated it from further experimentation. The SVM and Na\'efve Bayes had highly similar accuracy, so remaining tests were carried out with both. The SVM\'92s maximum accuracy was typically a few percentage points higher than Na\'efve Bayes.}]]></Comment>
+    <Comment ID="42D03077-8600-4DAC-A9FA-B50E68A4E222" Footnote="Yes" Color="0.949769 0.949769 0.949769"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
+{\fonttbl\f0\fnil\fcharset0 Georgia;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\pard\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\fi360\sl312\slmult1\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf0 These features are a combination of extracted play features (such as the number of lines), node features averaged across all nodes (such as average eigenvector centrality), and graph features (such as graph density).}]]></Comment>
+    <Comment ID="1BA59384-DD23-4CE1-9224-D2F36E4D6503" Footnote="Yes" Color="0.949769 0.949769 0.949769"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Accuracy here meaning, of course, \'93concurrence with the First Folio,\'94 }]]></Comment>
+    <Comment ID="5E207895-2831-4FE2-AED7-027FBF96B3C2" Footnote="Yes" Color="0.949769 0.949769 0.949769"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 This figure was achieved by the SVM classifier. The maximum single-feature accuracy achieved by the Na\'efve Bayes classifier was 63.57%, examining only the number of lines in each play.}]]></Comment>
     <Comment ID="904F4735-A900-4A9E-AE51-C646808341D3" Footnote="Yes" Color="0.949769 0.949769 0.949769"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 SVM achieves 72.5% with four different pairs: harmonic & diameter; harmonic & path length; graph density & diameter; and graph density & path length. Na\'efve Bayes achieves 77.86% with lines & eigenvector.}]]></Comment>
+\f0\fs24 \cf0 Evaluating plays based on a pair of features is the only case in which Na\'efve Bayes outperforms SVM. Na\'efve Bayes achieves 77.86% by considering lines & average eigenvector. SVM achieves 72.5% with four different pairs: harmonic & diameter; harmonic & path length; graph density & diameter; and graph density & path length.}]]></Comment>
     <Comment ID="C8EEEAE1-891C-4204-81C8-32BD89AFBD67" Footnote="Yes" Color="0.949769 0.949769 0.949769"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
@@ -21,4 +44,19 @@
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs24 \cf0 SVM achieves 83.57% accuracy with words, characters, & lines. Na\'efve Bayes achieves 80.71% with lines, graph density, & degree.}]]></Comment>
+    <Comment ID="4E932EB9-2E5C-40E7-AFCB-1E0559CA978D" Footnote="Yes" Color="0.949769 0.949769 0.949769"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Georgia;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 This result was achieved with 
+\f1\fs22 the SVM using five features. The features were a combination of play features (words, lines), node features (closeness), and network features (density and degree).}]]></Comment>
+    <Comment ID="37290886-AC90-4A55-BBD7-814E527AA0A3" Footnote="Yes" Color="0.949769 0.949769 0.949769"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 We anticipate that a larger testing corpus would substantially improve peak accuracy. As part of our experimentation, we tested excluding the various \'93problem plays\'94 and romances from our corpus, in case these works were too ambiguous in genre to contribute meaningfully to the classification. However, instead of improving our accuracy, reducing our corpus to the most \'93standard\'94 works substantially reduced accuracy, evidently because the sample was too small to generalize from. Thirty-six plays appears to be near the minimum corpus size for meaningful classification with our methods.}]]></Comment>
 </Comments>
