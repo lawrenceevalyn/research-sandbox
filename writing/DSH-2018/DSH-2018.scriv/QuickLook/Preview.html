@@ -97,10 +97,8 @@
 <hr class="afterTitle"/>
 <ul>
 <li>
-<p class="itemTitle">opening</p>
-<p class="itemText">Genre, as one of the perennially difficult questions of literary study, is a ubiquitous subject for computational “distant reading” of literature. [Cite Daniel Chandler re: what’s hard about genre, what our goal is with genre.] [Explain what distant reading is, try to get Jockers and Hoover in here.]</p>
-<p class="itemText"></p>
-<p class="itemText">[In setting out to answer questions about generic change in eighteenth-century theatre, we realised that we first must establish a baseline that linguistic encounters in the space of the stage, in ...</p>
+<p class="itemTitle">introduction</p>
+<p class="itemText">Genre, as one of the perennially difficult questions of literary study, is a ubiquitous subject for computational “distant reading” of literature. Daniel Chandler, in setting out many of the “perennial doubts [that] plague genre theory” (1) notes as one source of difficulty that “[p]articular features which are characteristic of a genre are not normally unique to it; it is their relative prominence, combination and functions which are distinctive” (2). Nonetheless, genres certainly exist. Distan...</p>
 </li>
 </ul>
 <hr class="afterText"/>
@@ -128,56 +126,82 @@
 <ul>
 <li>
 <p class="itemTitle">genres</p>
-<p class="itemText">[Signpost that I’m going to get to the problem plays]</p>
-<p class="itemText">genre has something to do with relations between characters (not something that people have necessarily said); the idea that comedy is about social connection is not new, but that it can be mapped by the way characters relate on the stage is different and interesting.</p>
+<p class="itemText">The ability of the classifier to replicate the First Folio’s designations with substantially greater than random chance supports our initial hypothesis that the genre of a play is expressed in the relations it stages between its characters. The underlying details that drive the classification can also provide a new lens into the specific genres and character staging of of Shakespeare’s works. Beginning with the clearest results and moving into the realm of more ambiguous interpretation, we will ...</p>
+</li>
+<li>
+<p class="itemTitle">comedies</p>
+</li>
+<hr class="afterTitle"/>
+<ul>
+<li>
+<p class="itemTitle">comedies</p>
+<p class="itemText">Figure <$n:fig:all-comedies>: Networks graphs of all First Folio comedies, excluding the two problem plays and three romances. </p>
 <p class="itemText"></p>
-<p class="itemText">ADD OVERALL GENRE MATH</p>
+<p class="itemText">As Table <$n#table:genre-stats> below suggests, comedies are the most straightforward networks to identify. Whereas histories and tragedies often have similar values across our metrics, comedies tend to be distinct. Their smaller casts are more interconnected, which can be visually observed in Figure <$n#fig:all-comedies> above, and can be measured in their networks’ h...</p>
 </li>
 <hr class="afterText"/>
 <ul>
 <li>
-<p class="itemTitle">comedies</p>
-<p class="itemText">Comedies are, it turns out, the most straightforward networks to identify. They have fewer nodes, with high graph density. Although comedies often have multiple subplots, we find that these separate stories do not result in highly-separated networks. We theorize that comedic networks are strongly shaped by the final “resolution” scenes, which bring the cast together for a restoration of social order, and therefore create edges knitting the network together. (See, for example, A Midsummer Night’s...</p>
+<p class="itemTitle">math figure</p>
+<p class="itemText"></p>
+<p class="itemText">Table <$n:table:genre-stats>: The average values per genre for several of the network features we measured.</p>
 </li>
+</ul>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="itemTitle">non-comedies</p>
+</li>
+<hr class="afterTitle"/>
+<ul>
 <li>
 <p class="itemTitle">history/tragedy ambiguity</p>
+<p class="itemText">What Table <$n#table:genre-stats> above also suggests is that histories and tragedies are fairly similar genres. We interpret these results by understanding histories as representing one end of a spectrum which has comedies on the opposite end, with tragedies falling between histories and comedies.  </p>
 <p class="itemText"></p>
-<p class="itemText"></p>
-<p class="itemText">comedies are really simple. ok, and now let's look at what this does when things get complicated." (or at least signpost then that we're gonna come back to the problem/romance plays) -- our way of reading is that tragedies are the least clear: it might look like they're similar to histories (explain math), but there's something else with density (more math), and what's really interesting is the way it makes us look at the plays</p>
-<p class="itemText"></p>
-<p class="itemText">tragedies look really close to histories, which makes sense for h...</p>
+
 </li>
 <li>
 <p class="itemTitle">histories</p>
-<p class="itemText">In contrast, histories feature highly dispersed networks, with large numbers of very minor characters, such as “First,” “Second,” and “Third” members of groups like soldiers and ambassadors, who each interject briefly in a single scene. Connections form chains of acquaintance with little overlap, so even the monarchs have low eigenvector centrality. Whereas the directional edges in comedies tended to be reciprocal and balanced, in histories they are often unidirectional, as characters give order...</p>
+<p class="itemText">Figure <$n:fig:all-histories>: Networks graphs of all First Folio histories.</p>
+<p class="itemText"></p>
+<p class="itemText">Histories, as can be visually seen in in Figure <$n#fig:all-histories>, feature large and highly dispersed networks. Their peripheries are populated with large numbers of very minor characters, such as “First,” “Second,” and “Third” members of groups like soldiers and ambassadors, who each interject briefly in a single scene. (See, for example, Figure <$n#fig:richard3>, Richard III, and for an extreme example Figure <$...</p>
 </li>
 <li>
 <p class="itemTitle">tragedies</p>
-<p class="itemText">Tragedies are more formally unpredictable, and sit somewhere ambiguously between comedies and histories. Many have a dense core with a secondary ring of more peripheral characters. Many have a node who forms a distinct, singular centre of the network, connected to a large number of nodes that are only sparsely connected to each other. Directional edges are, as in histories, often unreciprocated, and the “tragic hero” nodes are particularly likely to have very heavily weighted edges connecting ou...</p>
+<p class="itemText">Figure <$n:fig:all-histories>: Networks graphs of all First Folio tragedies, excluding the romance Troilus and Cressida and the problem play Cymbeline.</p>
+<p class="itemText"></p>
+<p class="itemText">Tragedies are more formally unpredictable, especially visually, as seen in Figure <$n#fig:all-tragedies>. Many have a dense core with a secondary ring of more peripheral characters. (See, for example,  Many have a node who forms a distinct, singular centre of the network, connected to a large number of nodes that are only sparsely connected to e...</p>
 </li>
 </ul>
 <hr class="afterText"/>
 
 <li>
-<p class="itemTitle">case studies</p>
+<p class="itemTitle">problems</p>
 </li>
 <hr class="afterTitle"/>
 <ul>
 <li>
+<p class="itemTitle">there are problems</p>
+<p class="itemText">Fig <$n:fig:all-problems>: Network graphs of all the “problem plays” and romances.</p>
+<p class="itemText"></p>
+<p class="itemText">Much of the difficulty in identify genre in the first place stems from genre’s slippery status. Even in evaluating accuracy, we really determine the classifier’s ability to predict how the First Folio would have labelled a work, not the work’s “true” and objective genre. Shakespearean scholars by no means universally accept the First Folio’s assignments. Accordingly, once we had trained our SVM classifier, we que...</p>
+</li>
+<li>
 <p class="itemTitle">Cymbeline</p>
-<p class="itemText">As Figure <$n#fig:problem-plays> shows, both classifiers generally concur with the First Folio’s classification of the “problem plays,” with the exception that the SVM classifier identifies Troilus and Cressida as a comedy rather than a tragedy. The romances (Figure <$n#fig:romances>) are slightly more ambiguous. </p>
+<p class="itemText">As Table <$n#table:problem-plays> shows, both classifiers generally concur with the First Folio’s classification of the “problem plays,” with the exception that the SVM classifier identifies Troilus and Cressida as a comedy rather than a tragedy. The romances (Table <$n#table:romances>) are slightly more ambiguous. </p>
 <p class="itemText"></p>
 <p class="itemText"></p>
-<p class="itemText">Figure <$n:fig:problem-plays>: classifications for the “problem plays.”</p>
+<p class="itemText">Table <$n:table:problem-plays>: classifications for the “problem plays.”</p>
 <p class="itemText"></p>
 <p class="itemText"></p>
-<p class="itemText">Figure <$n:fig:romances>: classifications for the romances.</p>
+<p class="itemText">Table <$n:table:romances>: classifications for the romances.</p>
 <p class="itemText"></p>
-<p class="itemText">The classifiers concur with the First Folio reg...</p>
+<p class="itemText">The classifiers concur with the First Folio...</p>
 </li>
 <li>
 <p class="itemTitle">Winter's Tale</p>
-<p class="itemText">The Winter’s Tale provides a particularly useful case study for close-reading a play through the lens of its social network. The play earns its designation as a “romance” due to its two-part structure: the first X acts play like a tragedy, in which Leontes gradually ruins his own life. At the beginning of Act X, the character of “Time” comes on stage to declare that XX years have passed, and the play begins an extended pastoral comedy which ultimately resolves all the looming tragedies of the be...</p>
+<p class="itemText">More strange is the classifiers’ identification of The Winter’s Tale as a history. The play earns its designation as a “romance” due to its two-part structure: it begins much like a tragedy, with Leontes at its centre. Halfway through, the character of “Time” comes on stage to declare that sixteen years have passed, and the play changes to a pastoral comedy which ultimately resolves all the looming tragedies of the beginning of the play. These two theatrical dynamics are visible in the social ne...</p>
 </li>
 </ul>
 </ul>
@@ -189,15 +213,7 @@
 <hr class="afterTitle"/>
 <ul>
 <li>
-<p class="itemTitle">social networks rock</p>
-<p class="itemText">We treat none of these identifications as definitive declaration of the plays’ “real” genres, </p>
-<p class="itemText"></p>
-<p class="itemText">conclusion: this is a new way of thinking about the plays</p>
-<p class="itemText"></p>
-<p class="itemText"></p>
-<p class="itemText">say the point of these tools is to confirm some ways to think about the text, but also to reconsider them and give us new tools to think about the problem cases (and then go onto the rough of what we're doing)</p>
-<p class="itemText"></p>
-<p class="itemText">Conclusion: here's a new way of looking at old questions (though not new findings), with the one sentence that genre plays out in whe...</p>
+<p class="itemTitle">conclusion</p>
 </li>
 </ul>
 </ul>
