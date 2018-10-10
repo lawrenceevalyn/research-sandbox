@@ -89,7 +89,7 @@
 <ul>
 <li>
 <p class="topLevelItemTitle">TITLE</p>
-<p class="itemText">Classifying Shakespeare’s Plays with Network Graphs: Dramatic Genre Revealed in Character Speech Interactions</p>
+<p class="itemText">Classifying Shakespeare’s Plays with Network Graphs: Dramatic Genre in Character Speech Interactions</p>
 </li>
 <li>
 <p class="topLevelItemTitle">Introduction</p>
@@ -98,7 +98,7 @@
 <ul>
 <li>
 <p class="itemTitle">introduction</p>
-<p class="itemText">Genre, as one of the perennially difficult questions of literary study, is a ubiquitous subject for computational “distant reading” of literature. Daniel Chandler, in setting out many of the “perennial doubts [that] plague genre theory” (1) notes as one source of difficulty that “[p]articular features which are characteristic of a genre are not normally unique to it; it is their relative prominence, combination and functions which are distinctive” (2). Nonetheless, genres certainly exist. Distan...</p>
+<p class="itemText">Genre, as one of the eternally difficult questions of literary study, is a ubiquitous subject for computational “distant reading” of literature. In setting out many of the “perennial doubts [that] plague genre theory” (1), Daniel Chandler notes as one source of difficulty that “[p]articular features which are characteristic of a genre are not normally unique to it; it is their relative prominence, combination and functions which are distinctive” (2). Often, the relative prominence of these disti...</p>
 </li>
 </ul>
 <hr class="afterText"/>
@@ -110,7 +110,7 @@
 <ul>
 <li>
 <p class="itemTitle">TEI parser</p>
-<p class="itemText">Examining network graphs requires, first, a substantial body of network graphs. Many scholars have handmade theatrical network graphs, both as wholly artistic interpretations (Moretti) and as mathematically-expressed networks (Trilcke et al., Fischer et al.). Like the Digital Literary Network Analysis (dlina) working group, we acquire our networks by parsing plays which have been encoded according to the Text Encoding Initiative (TEI) standards. Our parser takes in a TEI-encoded play, extracts c...</p>
+<p class="itemText">Examining network graphs requires, first, a substantial body of network graphs. Many scholars have handmade theatrical network graphs, both as wholly artistic interpretations (Moretti) and as mathematically-expressed networks (Trilcke et al., Fischer et al., Algee-Hewitt). Like the Digital Literary Network Analysis (dlina) working group, we acquire our networks by parsing plays which have been encoded according to the Text Encoding Initiative (TEI) standards. Our parser takes in a TEI-encoded pl...</p>
 </li>
 <li>
 <p class="itemTitle">classifiers</p>
@@ -126,7 +126,7 @@
 <ul>
 <li>
 <p class="itemTitle">genres</p>
-<p class="itemText">The ability of the classifier to replicate the First Folio’s designations with substantially greater than random chance supports our initial hypothesis that the genre of a play is expressed in the relations it stages between its characters. The underlying details that drive the classification can also provide a new lens into the specific genres and character staging of of Shakespeare’s works. Beginning with the clearest results and moving into the realm of more ambiguous interpretation, we will ...</p>
+<p class="itemText">The ability of the classifier to replicate the First Folio’s designations with substantially greater than random chance supports our initial hypothesis that the genre of a play is expressed in the relations it stages between its characters. The underlying details that drive the classification can also provide a new lens into the specific genres and character staging of of Shakespeare’s works, particularly in the case of plays which are resistant to this mode of classification. Beginning with the...</p>
 </li>
 <li>
 <p class="itemTitle">comedies</p>
@@ -135,9 +135,9 @@
 <ul>
 <li>
 <p class="itemTitle">comedies</p>
-<p class="itemText">Figure <$n:fig:all-comedies>: Networks graphs of all First Folio comedies, excluding the two problem plays and three romances. </p>
+<p class="itemText">Figure <$n:fig:all-comedies>: Network graphs of all First Folio comedies, excluding the two problem plays and three romances. </p>
 <p class="itemText"></p>
-<p class="itemText">As Table <$n#table:genre-stats> below suggests, comedies are the most straightforward networks to identify. Whereas histories and tragedies often have similar values across our metrics, comedies tend to be distinct. Their smaller casts are more interconnected, which can be visually observed in Figure <$n#fig:all-comedies> above, and can be measured in their networks’ h...</p>
+<p class="itemText">As Table <$n#table:genre-stats> below suggests, comedies are the most straightforward networks to identify. Whereas histories and tragedies often have similar values across our metrics, comedies tend to be distinct. Their smaller casts are more interconnected, which can be visually observed in Figure <$n#fig:all-comedies> above, and can be measured in their networks’ hi...</p>
 </li>
 <hr class="afterText"/>
 <ul>
@@ -163,15 +163,19 @@
 </li>
 <li>
 <p class="itemTitle">histories</p>
-<p class="itemText">Figure <$n:fig:all-histories>: Networks graphs of all First Folio histories.</p>
+<p class="itemText">Figure <$n:fig:all-histories>: Network graphs of all First Folio histories.</p>
 <p class="itemText"></p>
-<p class="itemText">Histories, as can be visually seen in in Figure <$n#fig:all-histories>, feature large and highly dispersed networks. Their peripheries are populated with large numbers of very minor characters, such as “First,” “Second,” and “Third” members of groups like soldiers and ambassadors, who each interject briefly in a single scene. (See, for example, Figure <$n#fig:richard3>, Richard III, and for an extreme example Figure <$...</p>
+<p class="itemText">Histories, as can be visually seen in in Figure <$n#fig:all-histories>, feature large and highly dispersed networks. Their peripheries are populated with large numbers of very minor characters, such as “First,” “Second,” and “Third” members of groups like soldiers and ambassadors, who each interject briefly in a single scene. (See, for example, Figure <$n#fig:richard3>, Richard III, and for an extreme case Figure <$n#fi...</p>
 </li>
 <li>
 <p class="itemTitle">tragedies</p>
-<p class="itemText">Figure <$n:fig:all-histories>: Networks graphs of all First Folio tragedies, excluding the romance Troilus and Cressida and the problem play Cymbeline.</p>
+<p class="itemText">Figure <$n:fig:all-tragedies>: Network graphs of all First Folio tragedies, excluding the romance Troilus and Cressida and the problem play Cymbeline.</p>
 <p class="itemText"></p>
-<p class="itemText">Tragedies are more formally unpredictable, especially visually, as seen in Figure <$n#fig:all-tragedies>. Many have a dense core with a secondary ring of more peripheral characters. (See, for example,  Many have a node who forms a distinct, singular centre of the network, connected to a large number of nodes that are only sparsely connected to e...</p>
+<p class="itemText">Tragedies are more formally unpredictable, especially visually, as seen in Figure <$n#fig:all-tragedies>. Some have dense cores with small peripheries that wouldn’t be out of place among the comedies (Figure <$n#fig:lear>, King Lear; Figure <$n#fig:romeo>, Romeo & Juliet). Othello, in particular, is almost claustrophobically small (Figure <$n#fig...</p>
+</li>
+<li>
+<p class="itemTitle">hamlet node</p>
+<p class="itemText">What might unite these tragedies is the increased likelihood of a “tragic hero” who appears in the network graph as a distinct, singular centre of the network. These central nodes are typically connected to a large number of other nodes which may be only sparsely connected to each other, with a disproportionately high number of heavily weighted edges connecting outward (indicating that they have given long speeches) with little to no reciprocation. In other words: a Hamlet. “Hamlet” nodes can be...</p>
 </li>
 </ul>
 <hr class="afterText"/>
@@ -185,23 +189,30 @@
 <p class="itemTitle">there are problems</p>
 <p class="itemText">Fig <$n:fig:all-problems>: Network graphs of all the “problem plays” and romances.</p>
 <p class="itemText"></p>
-<p class="itemText">Much of the difficulty in identify genre in the first place stems from genre’s slippery status. Even in evaluating accuracy, we really determine the classifier’s ability to predict how the First Folio would have labelled a work, not the work’s “true” and objective genre. Shakespearean scholars by no means universally accept the First Folio’s assignments. Accordingly, once we had trained our SVM classifier, we que...</p>
+<p class="itemText">As our discussion of the tragedies suggests, genre is never simple. Even in evaluating accuracy, we really determine the classifier’s ability to predict how the First Folio would have labelled a work, not the work’s “true” and objective genre. Shakespearean scholars by no means universally accept the First Folio’s assignments. Accordingly, once we had trained our SVM classifier, we queried three sets of ambiguous...</p>
+</li>
+<li>
+<p class="itemTitle">Roman plays</p>
+<p class="itemText">The “Roman plays” are four tragedies whose ancient Roman settings places them closer to tragedy’s origin in history. We thought our classifier might re-classify them as histories; however, as Table <$n#table:roman-plays> shows, only Antony & Cleopatra, with only one classifier, was designated a history. Instead, this re-classification experiment suggest that closer attention ought to be paid to the small, dense network which makes up Titus Andronicus.</p>
+<p class="itemText"></p>
+<p class="itemText"></p>
+<p class="itemText">Table <$n:table:roman-plays>: classificati...</p>
+</li>
+<li>
+<p class="itemTitle">problem, romance</p>
+<p class="itemText">The “problem plays” and the “romances” are both sets of plays whose contents have proved challenging to scholars, motivating re-assessment of their generic form. As Table <$n#table:problem-plays> shows, both classifiers generally concur with the First Folio’s classification of the problem plays, with the exception that the SVM classifier identifies Troilus and Cressida as a comedy rather than a tragedy. The romances (Table <$n#table:romances>) are slightly more ambiguous. </p>
+<p class="itemText"></p>
+<p class="itemText"></p>
+<p class="itemText">Table <$n:table:prob...</p>
 </li>
 <li>
 <p class="itemTitle">Cymbeline</p>
-<p class="itemText">As Table <$n#table:problem-plays> shows, both classifiers generally concur with the First Folio’s classification of the “problem plays,” with the exception that the SVM classifier identifies Troilus and Cressida as a comedy rather than a tragedy. The romances (Table <$n#table:romances>) are slightly more ambiguous. </p>
 <p class="itemText"></p>
-<p class="itemText"></p>
-<p class="itemText">Table <$n:table:problem-plays>: classifications for the “problem plays.”</p>
-<p class="itemText"></p>
-<p class="itemText"></p>
-<p class="itemText">Table <$n:table:romances>: classifications for the romances.</p>
-<p class="itemText"></p>
-<p class="itemText">The classifiers concur with the First Folio...</p>
+<p class="itemText">Audiences since Samuel Johnson in 1765 have complained of Cymbeline’s failures as a tragedy (among other things, it has a happy ending), and Barbara Mowat refers to the Folio’s identification of the play as “The Tragedie of Cymbeline” in the index, title page, and running heads, as “misleading paratextual matter” (130). Our classification, in contrast, supports Valerie Wayne and Richard Proudfoot’s assessment that although “[i]t is not a tragedy as that form is most widely understood today or a...</p>
 </li>
 <li>
 <p class="itemTitle">Winter's Tale</p>
-<p class="itemText">More strange is the classifiers’ identification of The Winter’s Tale as a history. The play earns its designation as a “romance” due to its two-part structure: it begins much like a tragedy, with Leontes at its centre. Halfway through, the character of “Time” comes on stage to declare that sixteen years have passed, and the play changes to a pastoral comedy which ultimately resolves all the looming tragedies of the beginning of the play. These two theatrical dynamics are visible in the social ne...</p>
+<p class="itemText">More strange is the classifiers’ identification of The Winter’s Tale as a history. The play earns its designation as a romance due to its two-part structure: it begins much like a tragedy, with Leontes at its centre. Halfway through, the character of “Time” comes on stage to declare that sixteen years have passed, and the play changes to a pastoral comedy which brings the play to a happy resolution. These two theatrical dynamics are visible in the social network graph, as seen in Figure <$n#fig:...</p>
 </li>
 </ul>
 </ul>
@@ -214,6 +225,7 @@
 <ul>
 <li>
 <p class="itemTitle">conclusion</p>
+<p class="itemText">We treat none of our classifications as definitive declaration of the plays’ “real” genres, but network analysis gives us a new way to think about their genres. Thirty-six plays is a small scale for this approach: since the parser is highly extensible and can be used with any plays encoded in TEI, future work need not be restricted to the Early Modern period. It need not even be restricted to works written in English. The purpose of these tools is to confirm some ways that we have thought about ...</p>
 </li>
 </ul>
 </ul>
