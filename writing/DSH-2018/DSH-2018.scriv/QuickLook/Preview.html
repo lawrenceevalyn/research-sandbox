@@ -89,7 +89,13 @@
 <ul>
 <li>
 <p class="topLevelItemTitle">TITLE</p>
-<p class="itemText">Classifying Shakespeare’s Plays with Network Graphs: Dramatic Genre in Character Speech Interactions</p>
+<p class="itemText">Distant-Reading the First Folio: Classifying Shakespeare’s Genres with Network Graphs of Character Speech</p>
+<p class="itemText"></p>
+<p class="itemText">Running head:</p>
+</li>
+<li>
+<p class="topLevelItemTitle">abstract</p>
+<p class="itemText">Genre is a ubiquitous subject for computational “distant reading” of literature. Work on Shakespeare has a particularly long history of genre studies, in which scholars have interpreted and revised the taxonomy of “comedy,” “history,” and “tragedy” since the First Folio collected Shakespeare’s plays into those categories. We connect these two scholarly traditions through a distant reading of Shakespeare’s genre. Our mode of abstraction is the network: we model each individual play as a web of sp...</p>
 </li>
 <li>
 <p class="topLevelItemTitle">Introduction</p>
@@ -98,7 +104,7 @@
 <ul>
 <li>
 <p class="itemTitle">introduction</p>
-<p class="itemText">Genre, as one of the eternally difficult questions of literary study, is a ubiquitous subject for computational “distant reading” of literature. In setting out many of the “perennial doubts [that] plague genre theory” (1), Daniel Chandler notes as one source of difficulty that “[p]articular features which are characteristic of a genre are not normally unique to it; it is their relative prominence, combination and functions which are distinctive” (2). Often, the relative prominence of these disti...</p>
+<p class="itemText">Genre, as one of the eternally difficult questions of literary study, is a ubiquitous subject for computational “distant reading” of literature. In setting out many of the “perennial doubts [that] plague genre theory,” Daniel Chandler notes as one source of difficulty that “[p]articular features which are characteristic of a genre are not normally unique to it; it is their relative prominence, combination and functions which are distinctive” (1977). Often, the relative prominence of these distin...</p>
 </li>
 </ul>
 <hr class="afterText"/>
@@ -110,7 +116,7 @@
 <ul>
 <li>
 <p class="itemTitle">TEI parser</p>
-<p class="itemText">Examining network graphs requires, first, a substantial body of network graphs. Many scholars have handmade theatrical network graphs, both as wholly artistic interpretations (Moretti) and as mathematically-expressed networks (Trilcke et al., Fischer et al., Algee-Hewitt). Like the Digital Literary Network Analysis (dlina) working group, we acquire our networks by parsing plays which have been encoded according to the Text Encoding Initiative (TEI) standards. Our parser takes in a TEI-encoded pl...</p>
+<p class="itemText">Examining network graphs requires, first, a substantial body of network graphs. Many scholars have handmade theatrical network graphs, both as wholly artistic interpretations (Moretti, 2011) and as mathematically-expressed networks (Trilcke et al., 2016; Fischer et al., 2017; Algee-Hewitt, 2017). Like the Digital Literary Network Analysis (dlina) working group (Fischer et al., 2018), we acquire our networks by parsing plays which have been encoded according to the Text Encoding Initiative (TEI) ...</p>
 </li>
 <li>
 <p class="itemTitle">classifiers</p>
@@ -187,16 +193,16 @@
 <ul>
 <li>
 <p class="itemTitle">there are problems</p>
-<p class="itemText">Fig <$n:fig:all-problems>: Network graphs of all the “problem plays” and romances.</p>
+<p class="itemText">Fig <$n:fig:all-problems>: Network graphs of all the problem plays, romances, and Roman plays.</p>
 <p class="itemText"></p>
-<p class="itemText">As our discussion of the tragedies suggests, genre is never simple. Even in evaluating accuracy, we really determine the classifier’s ability to predict how the First Folio would have labelled a work, not the work’s “true” and objective genre. Shakespearean scholars by no means universally accept the First Folio’s assignments. Accordingly, once we had trained our SVM classifier, we queried three sets of ambiguous...</p>
+<p class="itemText">As our discussion of the tragedies suggests, genre is never simple. Even in evaluating accuracy, we really determine the classifier’s ability to predict how the First Folio would have labelled a work, not the work’s “true” and objective genre. Shakespearean scholars by no means universally accept the First Folio’s assignments. Accordingly, once we had trained our SVM classifier, we queried three sets ...</p>
 </li>
 <li>
 <p class="itemTitle">Roman plays</p>
-<p class="itemText">The “Roman plays” are four tragedies whose ancient Roman settings places them closer to tragedy’s origin in history. We thought our classifier might re-classify them as histories; however, as Table <$n#table:roman-plays> shows, only Antony & Cleopatra, with only one classifier, was designated a history. Instead, this re-classification experiment suggest that closer attention ought to be paid to the small, dense network which makes up Titus Andronicus.</p>
+<p class="itemText">The “Roman plays” are four tragedies whose ancient Roman settings place them closer to tragedy’s roots in history. We thought our classifier might re-classify them as histories; however, as Table <$n#table:roman-plays> shows, only Antony & Cleopatra, with only one classifier, was designated a history. Instead, this re-classification experiment suggest that closer attention ought to be paid to the small, dense network which makes up Titus Andronicus.</p>
 <p class="itemText"></p>
 <p class="itemText"></p>
-<p class="itemText">Table <$n:table:roman-plays>: classificati...</p>
+<p class="itemText">Table <$n:table:roman-plays>: classification...</p>
 </li>
 <li>
 <p class="itemTitle">problem, romance</p>
@@ -208,7 +214,7 @@
 <li>
 <p class="itemTitle">Cymbeline</p>
 <p class="itemText"></p>
-<p class="itemText">Audiences since Samuel Johnson in 1765 have complained of Cymbeline’s failures as a tragedy (among other things, it has a happy ending), and Barbara Mowat refers to the Folio’s identification of the play as “The Tragedie of Cymbeline” in the index, title page, and running heads, as “misleading paratextual matter” (130). Our classification, in contrast, supports Valerie Wayne and Richard Proudfoot’s assessment that although “[i]t is not a tragedy as that form is most widely understood today or a...</p>
+<p class="itemText">Audiences since Samuel Johnson in 1765 have complained of Cymbeline’s failures as a tragedy (among other things, it has a happy ending), and Barbara Mowat refers to the Folio’s identification of the play as “The Tragedie of Cymbeline” in the index, title page, and running heads, as “misleading paratextual matter” (2003). Our classification, in contrast, supports Valerie Wayne and Richard Proudfoot’s assessment that although “[i]t is not a tragedy as that form is most widely understood today or ...</p>
 </li>
 <li>
 <p class="itemTitle">Winter's Tale</p>
