@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="F254A139-66D4-4914-8FBD-E2BC864528E8" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2018-10-14 22:37:31 -0400" ModID="5B3C5ABD-8318-45EB-BE2D-CFE3C2EED5BA">
+<ScrivenerProject Identifier="F254A139-66D4-4914-8FBD-E2BC864528E8" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2018-10-18 03:44:36 -0400" ModID="BD8DAC3A-E8EC-4F6D-8C77-CED44705131D">
     <Binder>
         <BinderItem UUID="DDF8AC31-4A85-4C8C-AE97-38C38E121C00" Type="DraftFolder" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
             <Title>Draft</Title>
@@ -282,7 +282,7 @@
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <TextSettings>
-                <TextSelection>804,0</TextSelection>
+                <TextSelection>1622,24</TextSelection>
             </TextSettings>
         </BinderItem>
         <BinderItem UUID="D6E7AB84-B725-416C-B2BE-70320E9FA3D3" Type="ResearchFolder" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
@@ -730,13 +730,13 @@
     <ProjectTargets Notify="Yes">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2018-10-14 02:21:51 -0400" IgnoreDeadline="No">2200</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">250</SessionTarget>
-        <PreviousSession Words="177" Characters="1199" Date="2018-10-14 15:48:41 -0400"></PreviousSession>
+        <PreviousSession Words="0" Characters="0" Date="2018-10-18 03:44:34 -0400"></PreviousSession>
     </ProjectTargets>
-    <RecentWritingHistory Date="2018-10-14 00:00:00 -0400">
-        <DraftWordCount>177</DraftWordCount>
-        <DraftCharCount>1199</DraftCharCount>
-        <OtherWordCount>18</OtherWordCount>
-        <OtherCharCount>150</OtherCharCount>
+    <RecentWritingHistory Date="2018-10-18 00:00:00 -0400">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>0</DraftCharCount>
+        <OtherWordCount>0</OtherWordCount>
+        <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
     <PrintSettings PaperSize="611.999975,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>
