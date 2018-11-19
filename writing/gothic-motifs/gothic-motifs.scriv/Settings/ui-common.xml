@@ -7,6 +7,7 @@
         <ExpandedItems>
             <ItemID>DDF8AC31-4A85-4C8C-AE97-38C38E121C00</ItemID>
             <ItemID>9A87D63D-FD9C-4A13-8359-A11EDAD3B620</ItemID>
+            <ItemID>452A8E66-2710-446D-A5E6-FAD1C91A8CC1</ItemID>
             <ItemID>4F27ED42-C822-447E-AFE0-B65A5D424511</ItemID>
             <ItemID>6878FAF1-15A2-4462-AFBA-0A554BC6A2D7</ItemID>
             <ItemID>385FF09D-BE09-47BD-B8B7-11E425B7F6EA</ItemID>
@@ -14,18 +15,19 @@
             <ItemID>BE226FB8-6408-4CE9-AB78-5B9E0281EF1D</ItemID>
             <ItemID>54E590F6-AF35-4C42-AA90-3EA2D3F4603E</ItemID>
             <ItemID>4DC487E2-462E-4724-98E7-DD5566571B25</ItemID>
-            <ItemID>D6E7AB84-B725-416C-B2BE-70320E9FA3D3</ItemID>
+            <ItemID>24773813-FAD2-46D8-9F7B-501D53995BC5</ItemID>
+            <ItemID>426C55FE-CE8C-41A7-8698-F37003EAA51D</ItemID>
         </ExpandedItems>
         <Selection>
-            <ItemID>068C4866-80A1-47DB-B07F-D871F0375BDB</ItemID>
+            <ItemID>4859B007-14A3-44D2-8917-41C6AD4AE7D1</ItemID>
         </Selection>
     </Binder>
-    <Inspector Show="Yes" View="Comments">
+    <Inspector Show="No" View="Comments">
         <ShowProjectBookmarks>No</ShowProjectBookmarks>
         <Collapse>CustomMetaData</Collapse>
         <FootnoteNumbers Prompt="No">No</FootnoteNumbers>
     </Inspector>
-    <Split>None</Split>
+    <Split>Horizontal</Split>
     <BinderAffects>Current</BinderAffects>
     <Labels>
         <Binder FullWidth="Yes">Yes</Binder>
@@ -66,10 +68,10 @@
                 <ShowHeader>Yes</ShowHeader>
                 <ShowFooter>Yes</ShowFooter>
                 <GroupsViewMode>Scrivenings</GroupsViewMode>
-                <CurrentViewMode>Single</CurrentViewMode>
+                <CurrentViewMode>Scrivenings</CurrentViewMode>
                 <SelectionAffects>None</SelectionAffects>
                 <Content>
-                    <ItemID>068C4866-80A1-47DB-B07F-D871F0375BDB</ItemID>
+                    <ItemID>426C55FE-CE8C-41A7-8698-F37003EAA51D</ItemID>
                 </Content>
             </View>
             <Text>
@@ -111,9 +113,12 @@
             <View>
                 <ShowHeader>Yes</ShowHeader>
                 <ShowFooter>Yes</ShowFooter>
-                <GroupsViewMode>Scrivenings</GroupsViewMode>
+                <GroupsViewMode>Corkboard</GroupsViewMode>
                 <CurrentViewMode>Single</CurrentViewMode>
                 <SelectionAffects>None</SelectionAffects>
+                <Content>
+                    <ItemID>4859B007-14A3-44D2-8917-41C6AD4AE7D1</ItemID>
+                </Content>
             </View>
             <Text>
                 <ShowRuler>No</ShowRuler>
