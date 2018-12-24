@@ -192,56 +192,6 @@ Modelling a play as a social network of character interaction renders the speech
             <Comments>Or at the very least, the words that people say to each other are the subset of what happens in the play which the writer of that play is able to direct; the meaning created by gesture, intonation, and action is the purview of the director and actor.
 For example, in John Dryden’s heroic drama The Conquest of Granada, it is a mark of Boabdelin’s social importance in the first act that he can demand and recieve long reports of others’ deeds, whereas in William Shakespeare’s Hamlet, it is a mark of Hamlet’s importance in the play that he gives long speeches.</Comments>
         </Document>
-        <Document ID="C1F3DC14-48B1-4C57-B471-29417A6B1B00">
-            <Title>classifiers</Title>
-            <Text>We then used our generated network graphs to test our central question: whether character speech interaction can be used to distinguish between the dramatic genres of tragedy, comedy, and history. We decided that the answer would be “yes” if we could train a classifier to replicate the First Folio’s classifications for Shakespeare’s 36 plays. We tested three classifier algorithms with fivefold cross-validation, using 21 different mathematical features as the metrics for comparison. We found that even one feature could achieve classification accuracy substantially above random chance. Since there are three possibilities, a random guess would be correct 33% of the time, but we achieved 66.43% accuracy using only the networks’ average path length. Accuracy increases as more features are considered in combination. With two features, our maximum accuracy is 77.86%. With three features, we reach 83.57%. We evaluated combinations of features up to 7 maximum.</Text>
-            <Comments>We tested k-nearest neighbors (KNN), a support vector machine (SVM) with one vs one classification, and a Naïve Bayes classifier. KNN, we soon determined, was too vulnerable to the over-representation of comedies among Shakespeare’s works, so we eliminated it from further experimentation. The SVM and Naïve Bayes had highly similar accuracy, so remaining tests were carried out with both. The SVM’s maximum accuracy was typically a few percentage points higher than Naïve Bayes.
-These features are a combination of extracted play features (such as the number of lines), node features averaged across all nodes (such as average eigenvector centrality), and graph features (such as graph density).
-Accuracy here meaning, of course, “agreement with the First Folio.” 
-This figure was achieved by the SVM classifier. The maximum single-feature accuracy achieved by the Naïve Bayes classifier was 63.57%, examining only the number of lines in each play.
-Evaluating plays based on a pair of features is the only case in which Naïve Bayes outperforms SVM. Naïve Bayes achieves 77.86% by considering lines &amp; average eigenvector. SVM achieves 72.5% with four different pairs: harmonic &amp; diameter; harmonic &amp; path length; graph density &amp; diameter; and graph density &amp; path length.
-SVM achieves 83.57% accuracy with words, characters, &amp; lines. Naïve Bayes achieves 80.71% with lines, graph density, &amp; degree.</Comments>
-        </Document>
-        <Document ID="6D16B108-EBEF-4B9C-A9BC-574D623CF418">
-            <Title>microanalysis</Title>
-            <Text>36 plays is a small enough corpus that they can be scrutinized individually, and their network graphs visually examined. Much of the difficulty in identify genre in the first place stems from genre’s slippery status. Even in evaluating accuracy, we really determine the classifier’s ability to predict how the First Folio would have labelled a work, not the work’s “true” and objective genre. Shakespearean scholars by no means universally accept the First Folio’s assignments. Accordingly, once we had trained our SVM classifier, we queried two sets of ambiguous texts, the “problem plays” and the “romances,” to see what social network analysis might offer these debates</Text>
-        </Document>
-        <Document ID="2861D343-B10E-44A2-8567-644718997189">
-            <Title>problems</Title>
-        </Document>
-        <Document ID="65ECFCE4-B83C-4879-BC1E-E00E74F4F502">
-            <Title>doubling</Title>
-            <Text>Arlynda Boyer, who considers the doubling of roles from the perspective of an Early Modern dramatist who must determine how to allot speaking roles among twelve to sixteen company actors, observes several similar dynamics of character interaction.
-
-“early plays like Comedy of Errors tend to have small, tight casts and may be harder to find doubles in; histories have huge casts”
-“in most doubling schemes the final scene is the most difficult to manage because it is usually one of the fullest scenes in terms of characters onstage”
-
-“Watch out for characters who move between “worlds” in the play, because they probably can't be doubled.” Such as, Bottom and Puck in Midsummer. “It would be very difficult to double either of them--not because their roles are so large, but because they’re so mobile. It’s necessary to connect all the different strands of the plot, but the best way to use your limited number of bodies is to make sure that you carefully control how many people are mobile in that way, and that’s exactly what Shakespeare does—only one or two characters will move around like that in any given play.”</Text>
-        </Document>
-        <Document ID="C3A9E2A1-484B-411C-B9E7-F5A2B62B4A31">
-            <Title>tragedies</Title>
-            <Text>Figure &lt;$n:fig:all-tragedies&gt;: Network graphs of all First Folio tragedies, excluding the romance Troilus and Cressida and the problem play Cymbeline.
-
-Tragedies are more formally unpredictable, especially visually, as seen in Figure &lt;$n#fig:all-tragedies&gt;. Some have dense cores with small peripheries that wouldn’t be out of place among the comedies (Figure &lt;$n#fig:lear&gt;, King Lear; Figure &lt;$n#fig:romeo&gt;, Romeo &amp; Juliet). Othello, in particular, is almost claustrophobically small (Figure &lt;$n#fig:othello&gt;). Others, especially the Roman plays, look like histories with their enormous peripheral casts (Figure &lt;$n#fig:antony-cleopatra&gt;; Figure &lt;$n#fig:coriolanus&gt;). On average, their mathematical features in Table &lt;$n#table:genre-stats&gt; place them closer to, but distinct from, the histories. 
-
-Figure &lt;$n:fig:lear&gt;: King Lear.
-Figure &lt;$n:fig:romeo&gt;: Romeo &amp; Juliet.
-Figure &lt;$n:fig:othello&gt;: Othello.
-Figure &lt;$n:fig:antony-cleopatra&gt;: Antony and Cleopatra.
-Figure &lt;$n:fig:coriolanus&gt;: Coriolanus.</Text>
-        </Document>
-        <Document ID="950B46B3-94EE-4F06-88A0-00F4C98A84C7">
-            <Title>introduction</Title>
-            <Text>Genre, as one of the eternally difficult questions of literary study, is a ubiquitous subject for computational “distant reading” of literature. In setting out many of the “perennial doubts [that] plague genre theory,” Daniel Chandler notes as one source of difficulty that “[p]articular features which are characteristic of a genre are not normally unique to it; it is their relative prominence, combination and functions which are distinctive” (1977). Often, the relative prominence of these distinctive features is obscured by the richness of individual literary texts. By introducing a layer of abstraction, distant reading allows for a new angle of study. This new angle of study enables both macroanalysis (Jockers, 2013) and what Hoover terms “microanalysis,” which uses “style variation within a single work or author as a way of better understanding authorship and style” (2016).
-Our work carries out a microanalysis of dramatic genre, taking the widely-studied works of Shakespeare as our case study, as the prototype for future macroanalytical study. Work on Shakespeare has a particularly long history of genre studies. Scholars have been interpreting and revising the taxonomy of “comedy,” “history,” and “tragedy” since the First Folio collected Shakespeare’s plays into those categories. We work within the tradition that examines First Folio designations. We employ distant reading to confirm some ways that genre has been conceived in these plays, but also to reconsider them, and to suggest new tools to think about the problem cases.
-Our mode of abstraction is the network: we model each individual play as a web of speech passing between characters who share a stage. Ours is not the first project to apply social network analysis to literary study. Where we differ from much past work is in our precise focus on linguistic encounters in the space of the stage, rather than rougher metrics like appearance within the same scene. To draw the edges between nodes that make up our networks, we pay close attention to who is on stage, and who can (probably) hear them speak — and how often they speak, how much they speak at once, and whether people speak back to them. Our model of each play thus renders the speech speech of the characters as a fundamental “unit” of a play’s script, and our core hypothesis is thus that genre, in drama, will be expressed in the relations between characters.</Text>
-            <Comments>Most obviously, Moretti uses handmade network graphs to examine the plots of three Shakespearean tragedies, and to contrast the structure of chapters in English and Chinese novels (2011). Stiller et al. have shown that social networks in Shakespeare’s plays mirror those of real human interactions, particularly in size, clustering, and maximum degrees of separation (2003). Alberich et al. (2002) and Sparavigna (2013) also discuss the interplay between social and narrative constraints on networks.
-Identifying characters who are on stage but cannot hear a given speech remains elusive: the natural language processing necessary for the task will rely on period-specific language norms that cannot be generalized trans-historically like the rest of our methods. </Comments>
-        </Document>
-        <Document ID="29F2CB35-F529-4143-968E-BB1451B625A5">
-            <Title>What: TEI</Title>
-            <Text>We show extensibility of TEI materials</Text>
-        </Document>
         <Document ID="41094D9B-AF68-4735-B03D-BFAD4356A3A8">
             <Title>Past writing</Title>
             <Text>
@@ -319,6 +269,56 @@ Our parser successfully and rapidly produces sophisticated social network graphs
 	5.	Sparavigna, A. C. (2013). On Social Networks in Plays and Novels. International Journal of Sciences, 2: 20–25. 
 	6.	Stiller, J., Nettle, D., and Dunbar, R. I. M. (2003). The Small World of Shakespeare's Plays. Human Nature, 14(4): 397–408. 
 	7.	Tonra, J., Kelly, D., and Reid, L. (2017). Personæ: A Character-Visualisation Tool for Dramatic Texts. Digital Humanities 2017: Book of Abstracts. Montreal: McGill University and Université de Montréal, pp. 627–30.</Text>
+        </Document>
+        <Document ID="C1F3DC14-48B1-4C57-B471-29417A6B1B00">
+            <Title>classifiers</Title>
+            <Text>We then used our generated network graphs to test our central question: whether character speech interaction can be used to distinguish between the dramatic genres of tragedy, comedy, and history. We decided that the answer would be “yes” if we could train a classifier to replicate the First Folio’s classifications for Shakespeare’s 36 plays. We tested three classifier algorithms with fivefold cross-validation, using 21 different mathematical features as the metrics for comparison. We found that even one feature could achieve classification accuracy substantially above random chance. Since there are three possibilities, a random guess would be correct 33% of the time, but we achieved 66.43% accuracy using only the networks’ average path length. Accuracy increases as more features are considered in combination. With two features, our maximum accuracy is 77.86%. With three features, we reach 83.57%. We evaluated combinations of features up to 7 maximum.</Text>
+            <Comments>We tested k-nearest neighbors (KNN), a support vector machine (SVM) with one vs one classification, and a Naïve Bayes classifier. KNN, we soon determined, was too vulnerable to the over-representation of comedies among Shakespeare’s works, so we eliminated it from further experimentation. The SVM and Naïve Bayes had highly similar accuracy, so remaining tests were carried out with both. The SVM’s maximum accuracy was typically a few percentage points higher than Naïve Bayes.
+These features are a combination of extracted play features (such as the number of lines), node features averaged across all nodes (such as average eigenvector centrality), and graph features (such as graph density).
+Accuracy here meaning, of course, “agreement with the First Folio.” 
+This figure was achieved by the SVM classifier. The maximum single-feature accuracy achieved by the Naïve Bayes classifier was 63.57%, examining only the number of lines in each play.
+Evaluating plays based on a pair of features is the only case in which Naïve Bayes outperforms SVM. Naïve Bayes achieves 77.86% by considering lines &amp; average eigenvector. SVM achieves 72.5% with four different pairs: harmonic &amp; diameter; harmonic &amp; path length; graph density &amp; diameter; and graph density &amp; path length.
+SVM achieves 83.57% accuracy with words, characters, &amp; lines. Naïve Bayes achieves 80.71% with lines, graph density, &amp; degree.</Comments>
+        </Document>
+        <Document ID="6D16B108-EBEF-4B9C-A9BC-574D623CF418">
+            <Title>microanalysis</Title>
+            <Text>36 plays is a small enough corpus that they can be scrutinized individually, and their network graphs visually examined. Much of the difficulty in identify genre in the first place stems from genre’s slippery status. Even in evaluating accuracy, we really determine the classifier’s ability to predict how the First Folio would have labelled a work, not the work’s “true” and objective genre. Shakespearean scholars by no means universally accept the First Folio’s assignments. Accordingly, once we had trained our SVM classifier, we queried two sets of ambiguous texts, the “problem plays” and the “romances,” to see what social network analysis might offer these debates</Text>
+        </Document>
+        <Document ID="65ECFCE4-B83C-4879-BC1E-E00E74F4F502">
+            <Title>doubling</Title>
+            <Text>Arlynda Boyer, who considers the doubling of roles from the perspective of an Early Modern dramatist who must determine how to allot speaking roles among twelve to sixteen company actors, observes several similar dynamics of character interaction.
+
+“early plays like Comedy of Errors tend to have small, tight casts and may be harder to find doubles in; histories have huge casts”
+“in most doubling schemes the final scene is the most difficult to manage because it is usually one of the fullest scenes in terms of characters onstage”
+
+“Watch out for characters who move between “worlds” in the play, because they probably can't be doubled.” Such as, Bottom and Puck in Midsummer. “It would be very difficult to double either of them--not because their roles are so large, but because they’re so mobile. It’s necessary to connect all the different strands of the plot, but the best way to use your limited number of bodies is to make sure that you carefully control how many people are mobile in that way, and that’s exactly what Shakespeare does—only one or two characters will move around like that in any given play.”</Text>
+        </Document>
+        <Document ID="C3A9E2A1-484B-411C-B9E7-F5A2B62B4A31">
+            <Title>tragedies</Title>
+            <Text>Figure &lt;$n:fig:all-tragedies&gt;: Network graphs of all First Folio tragedies, excluding the romance Troilus and Cressida and the problem play Cymbeline.
+
+Tragedies are more formally unpredictable, especially visually, as seen in Figure &lt;$n#fig:all-tragedies&gt;. Some have dense cores with small peripheries that wouldn’t be out of place among the comedies (Figure &lt;$n#fig:lear&gt;, King Lear; Figure &lt;$n#fig:romeo&gt;, Romeo &amp; Juliet). Othello, in particular, is almost claustrophobically small (Figure &lt;$n#fig:othello&gt;). Others, especially the Roman plays, look like histories with their enormous peripheral casts (Figure &lt;$n#fig:antony-cleopatra&gt;; Figure &lt;$n#fig:coriolanus&gt;). On average, their mathematical features in Table &lt;$n#table:genre-stats&gt; place them closer to, but distinct from, the histories. 
+
+Figure &lt;$n:fig:lear&gt;: King Lear.
+Figure &lt;$n:fig:romeo&gt;: Romeo &amp; Juliet.
+Figure &lt;$n:fig:othello&gt;: Othello.
+Figure &lt;$n:fig:antony-cleopatra&gt;: Antony and Cleopatra.
+Figure &lt;$n:fig:coriolanus&gt;: Coriolanus.</Text>
+        </Document>
+        <Document ID="950B46B3-94EE-4F06-88A0-00F4C98A84C7">
+            <Title>introduction</Title>
+            <Text>Genre, as one of the eternally difficult questions of literary study, is a ubiquitous subject for computational “distant reading” of literature. In setting out many of the “perennial doubts [that] plague genre theory,” Daniel Chandler notes as one source of difficulty that “[p]articular features which are characteristic of a genre are not normally unique to it; it is their relative prominence, combination and functions which are distinctive” (1977). Often, the relative prominence of these distinctive features is obscured by the richness of individual literary texts. By introducing a layer of abstraction, distant reading allows for a new angle of study. This new angle of study enables both macroanalysis (Jockers, 2013) and what Hoover terms “microanalysis,” which uses “style variation within a single work or author as a way of better understanding authorship and style” (2016).
+Our work carries out a microanalysis of dramatic genre, taking the widely-studied works of Shakespeare as our case study, as the prototype for future macroanalytical study. Work on Shakespeare has a particularly long history of genre studies. Scholars have been interpreting and revising the taxonomy of “comedy,” “history,” and “tragedy” since the First Folio collected Shakespeare’s plays into those categories. We work within the tradition that examines First Folio designations. We employ distant reading to confirm some ways that genre has been conceived in these plays, but also to reconsider them, and to suggest new tools to think about the problem cases.
+Our mode of abstraction is the network: we model each individual play as a web of speech passing between characters who share a stage. Ours is not the first project to apply social network analysis to literary study. Where we differ from much past work is in our precise focus on linguistic encounters in the space of the stage, rather than rougher metrics like appearance within the same scene. To draw the edges between nodes that make up our networks, we pay close attention to who is on stage, and who can (probably) hear them speak — and how often they speak, how much they speak at once, and whether people speak back to them. Our model of each play thus renders the speech speech of the characters as a fundamental “unit” of a play’s script, and our core hypothesis is thus that genre, in drama, will be expressed in the relations between characters.</Text>
+            <Comments>Most obviously, Moretti uses handmade network graphs to examine the plots of three Shakespearean tragedies, and to contrast the structure of chapters in English and Chinese novels (2011). Stiller et al. have shown that social networks in Shakespeare’s plays mirror those of real human interactions, particularly in size, clustering, and maximum degrees of separation (2003). Alberich et al. (2002) and Sparavigna (2013) also discuss the interplay between social and narrative constraints on networks.
+Identifying characters who are on stage but cannot hear a given speech remains elusive: the natural language processing necessary for the task will rely on period-specific language norms that cannot be generalized trans-historically like the rest of our methods. </Comments>
+        </Document>
+        <Document ID="29F2CB35-F529-4143-968E-BB1451B625A5">
+            <Title>What: TEI</Title>
+            <Text>We show extensibility of TEI materials</Text>
+        </Document>
+        <Document ID="2861D343-B10E-44A2-8567-644718997189">
+            <Title>problems</Title>
         </Document>
         <Document ID="ABEA08E5-4610-4651-8490-77A1B4D6FFEC">
             <Title>hamlet node</Title>
