@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="FCF3EEDC-0CD0-49D5-82D3-6FDE11B9D3B3" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2019-01-15 18:53:19 -0500" ModID="A31B8290-CD3E-43E2-9117-FE5118D5D0FB">
+<ScrivenerProject Identifier="FCF3EEDC-0CD0-49D5-82D3-6FDE11B9D3B3" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2019-01-18 23:21:31 -0500" ModID="3A443A2B-AA47-4E44-9553-E954E7A52414">
     <Binder>
         <BinderItem UUID="836B4616-2F94-48E5-978F-634FABF8D89B" Type="Text" Created="2018-04-27 11:58:05 -0400" Modified="2018-12-06 20:25:47 -0500">
             <Title>new title ideas</Title>
@@ -19,6 +19,16 @@
             </MetaData>
             <TextSettings>
                 <TextSelection>428,0</TextSelection>
+            </TextSettings>
+        </BinderItem>
+        <BinderItem UUID="C473BDF9-9B1E-43A2-B6EF-AE799F980C92" Type="Text" Created="2019-01-18 23:19:50 -0500" Modified="2019-01-18 23:21:29 -0500">
+            <Title>Questions for readers</Title>
+            <MetaData>
+                <LabelID>1</LabelID>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>0,0</TextSelection>
             </TextSettings>
         </BinderItem>
         <BinderItem UUID="DDF8AC31-4A85-4C8C-AE97-38C38E121C00" Type="DraftFolder" Created="2017-04-11 19:14:02 -0400" Modified="2018-05-15 16:44:00 -0400">
@@ -134,7 +144,7 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                             <Children>
-                                <BinderItem UUID="B8C6CE03-BB4D-4F7B-8248-676FA2DBE45A" Type="Text" Created="2018-03-25 11:54:19 -0400" Modified="2018-12-25 05:45:26 -0500">
+                                <BinderItem UUID="B8C6CE03-BB4D-4F7B-8248-676FA2DBE45A" Type="Text" Created="2018-03-25 11:54:19 -0400" Modified="2019-01-18 23:16:49 -0500">
                                     <Title>avoiding gender essentialism</Title>
                                     <MetaData>
                                         <LabelID>2</LabelID>
@@ -189,7 +199,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem UUID="ABD9898D-1C57-43EF-9690-42BC4CB83373" Type="Text" Created="2018-03-07 17:27:44 -0500" Modified="2018-11-19 03:38:08 -0500">
+                        <BinderItem UUID="ABD9898D-1C57-43EF-9690-42BC4CB83373" Type="Text" Created="2018-03-07 17:27:44 -0500" Modified="2019-01-18 23:18:20 -0500">
                             <Title>Frank's model</Title>
                             <MetaData>
                                 <LabelID>2</LabelID>
@@ -199,7 +209,7 @@
                                 <TextSelection>614,13</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="820B80A9-F53A-4EDD-AAEB-911C00CCC7D2" Type="Text" Created="2017-04-18 21:10:11 -0400" Modified="2018-10-20 04:52:49 -0400">
+                        <BinderItem UUID="820B80A9-F53A-4EDD-AAEB-911C00CCC7D2" Type="Text" Created="2017-04-18 21:10:11 -0400" Modified="2019-01-18 23:18:39 -0500">
                             <Title>my model of Frank</Title>
                             <MetaData>
                                 <LabelID>2</LabelID>
@@ -282,7 +292,7 @@
                                 <TextSelection>606,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="A12FDE55-2FB2-4B1A-91E4-9DD3D73B8244" Type="Text" Created="2017-04-18 02:42:43 -0400" Modified="2018-06-07 16:54:07 -0400">
+                        <BinderItem UUID="A12FDE55-2FB2-4B1A-91E4-9DD3D73B8244" Type="Text" Created="2017-04-18 02:42:43 -0400" Modified="2019-01-18 23:19:35 -0500">
                             <Title>mainstream Gothic</Title>
                             <MetaData>
                                 <LabelID>2</LabelID>
@@ -305,7 +315,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem UUID="79DFFB15-B6C0-4FC0-9FC2-06EDCAE399E7" Type="Text" Created="2018-05-31 21:49:17 -0400" Modified="2018-11-19 03:50:05 -0500">
+                        <BinderItem UUID="79DFFB15-B6C0-4FC0-9FC2-06EDCAE399E7" Type="Text" Created="2018-05-31 21:49:17 -0400" Modified="2019-01-18 23:03:30 -0500">
                             <Title>classification experiments</Title>
                             <MetaData>
                                 <LabelID>2</LabelID>
@@ -325,7 +335,7 @@
                                 <TextSelection>462,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="7EA6DEE3-025E-4F64-8CF9-7ECE9BEF2377" Type="Text" Created="2018-06-07 14:20:55 -0400" Modified="2018-12-24 06:02:06 -0500">
+                        <BinderItem UUID="7EA6DEE3-025E-4F64-8CF9-7ECE9BEF2377" Type="Text" Created="2018-06-07 14:20:55 -0400" Modified="2019-01-18 23:04:13 -0500">
                             <Title>machines love implicit bias</Title>
                             <MetaData>
                                 <LabelID>2</LabelID>
@@ -2881,13 +2891,13 @@ JAMES RAVEN, British Fiction 1750-1770 A Chronological Check-List of Prose Ficti
     <ProjectTargets Notify="Yes">
         <DraftTarget Type="Words" CountIncludedOnly="No" CurrentCompileGroupOnly="No" Deadline="2017-04-22 02:21:51 -0400" IgnoreDeadline="Yes">6475</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="No" ResetType="NextDay" ResetTime="00:00" DeterminedFromDeadline="Yes" WritingDays="1-3, 5-7" CanWriteOnDeadlineDate="No">250</SessionTarget>
-        <PreviousSession Words="222" Characters="1401" Date="2019-01-15 18:18:10 -0500"></PreviousSession>
+        <PreviousSession Words="36" Characters="211" Date="2019-01-18 22:55:42 -0500"></PreviousSession>
     </ProjectTargets>
-    <RecentWritingHistory Date="2019-01-15 00:00:00 -0500">
-        <DraftWordCount>215</DraftWordCount>
-        <DraftCharCount>1359</DraftCharCount>
-        <OtherWordCount>0</OtherWordCount>
-        <OtherCharCount>0</OtherCharCount>
+    <RecentWritingHistory Date="2019-01-18 00:00:00 -0500">
+        <DraftWordCount>31</DraftWordCount>
+        <DraftCharCount>201</DraftCharCount>
+        <OtherWordCount>71</OtherWordCount>
+        <OtherCharCount>429</OtherCharCount>
     </RecentWritingHistory>
     <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>
