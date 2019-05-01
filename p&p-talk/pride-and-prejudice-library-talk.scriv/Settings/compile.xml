@@ -3,7 +3,6 @@
     <ProjectSettings>
         <Content Scope="Included">
             <Filter State="Off" Exclude="No" Type="Label">
-                <CollectionID>5F019618-106D-4CE6-B387-20FB66CFFD0F</CollectionID>
                 <Label>-1</Label>
                 <Status>-1</Status>
             </Filter>
@@ -31,8 +30,8 @@
             </Ebook>
         </Options>
         <MetaData>
-            <ProjectTitle>DSH-2018</ProjectTitle>
-            <ProjectAbbreviatedTitle>DSH-2018</ProjectAbbreviatedTitle>
+            <ProjectTitle>pride-and-prejudice-library-talk</ProjectTitle>
+            <ProjectAbbreviatedTitle>pride-and-prejudice-library-talk</ProjectAbbreviatedTitle>
             <Authors>
                 <Author FileAs="Evalyn, Lawrence" Role="aut">Lawrence Evalyn</Author>
             </Authors>
@@ -49,26 +48,14 @@
             </MMDMetaData>
         </MetaData>
     </ProjectSettings>
-    <CurrentFileType>doc</CurrentFileType>
+    <CurrentFileType>Print</CurrentFileType>
     <FormatSettings>
         <Format ID="DEFAULT">
             <SectionLayouts>
-                <Type ID="4AF14A4D-F0D7-4DFC-9999-85B07C6067A8">NEW-PAGE-HEADER-WITH-TEXT</Type>
-                <Type ID="65B38BE1-D816-4AD3-ACC5-AA4166318137">TEXT-SECTION</Type>
-            </SectionLayouts>
-        </Format>
-        <Format ID="mmd-barebones">
-            <SectionLayouts>
-                <Type ID="4AF14A4D-F0D7-4DFC-9999-85B07C6067A8">72A8A17D-2FF3-4C8D-8A4C-7895908E7EE5</Type>
-                <Type ID="8F647135-24BA-4782-A4FE-9DFFA6E3D3C9">AS-IS</Type>
-                <Type ID="65B38BE1-D816-4AD3-ACC5-AA4166318137">778FA2E2-F67D-4803-B183-019F8B45528B</Type>
+                <Type ID="CB296E93-BC3D-4855-B347-4BC4E93FB46B">NEW-PAGE-HEADER-WITH-TEXT</Type>
+                <Type ID="262F5A59-BED7-48D8-B70E-D1C719CE83A1">TEXT-SECTION</Type>
             </SectionLayouts>
         </Format>
     </FormatSettings>
-    <LastUsedFormats>
-        <Print>DEFAULT</Print>
-        <mmd>mmd-barebones</mmd>
-        <doc>full-outline</doc>
-        <docx>DEFAULT</docx>
-    </LastUsedFormats>
+    <LastUsedFormats></LastUsedFormats>
 </CompileSettings>
