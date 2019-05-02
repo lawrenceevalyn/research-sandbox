@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="3B9206D6-3DB6-48B6-9CF5-2345DEB28434" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2019-04-30 13:39:59 -0400" ModID="EBC6EA5D-B7AF-4634-B383-A8FBBAEF9500">
+<ScrivenerProject Identifier="3B9206D6-3DB6-48B6-9CF5-2345DEB28434" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2019-05-01 17:47:35 -0400" ModID="39C120F1-B736-476B-863C-A5ED3F5E2599">
     <Binder>
         <BinderItem UUID="DDF8AC31-4A85-4C8C-AE97-38C38E121C00" Type="DraftFolder" Created="2019-04-30 12:40:38 -0400" Modified="2019-04-30 12:40:38 -0400">
             <Title>Draft</Title>
@@ -7,20 +7,20 @@
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <Children>
-                <BinderItem UUID="46DC9C7F-C12F-4039-AECE-3F50E817499A" Type="Text" Created="2019-04-30 12:40:38 -0400" Modified="2019-04-30 13:39:47 -0400">
+                <BinderItem UUID="46DC9C7F-C12F-4039-AECE-3F50E817499A" Type="Text" Created="2019-04-30 12:40:38 -0400" Modified="2019-05-01 17:17:52 -0400">
                     <Title>money</Title>
                     <MetaData>
-                        <LabelID>3</LabelID>
+                        <LabelID>2</LabelID>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem UUID="3459DF35-B75F-43AE-A0F6-8017AC3FF1DA" Type="Text" Created="2019-04-30 12:40:38 -0400" Modified="2019-04-30 13:38:47 -0400">
+                        <BinderItem UUID="3459DF35-B75F-43AE-A0F6-8017AC3FF1DA" Type="Text" Created="2019-04-30 12:40:38 -0400" Modified="2019-05-01 17:17:59 -0400">
                             <Title>5000 / 10000</Title>
                             <MetaData>
-                                <LabelID>1</LabelID>
+                                <LabelID>2</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
                             <TextSettings>
@@ -88,65 +88,210 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem UUID="533A7C21-AD67-49BB-AA94-16745A0D9F5B" Type="Text" Created="2019-04-30 12:40:38 -0400" Modified="2019-04-30 12:40:38 -0400">
-                            <Title>Text 1</Title>
+                        <BinderItem UUID="DC87FDEB-5C17-4588-BBFF-F3853845FEF5" Type="Text" Created="2019-05-01 14:49:12 -0400" Modified="2019-05-01 17:16:44 -0400">
+                            <Title>10,000 a year</Title>
                             <MetaData>
+                                <LabelID>2</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
-                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                             </MetaData>
                             <TextSettings>
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
+                            <Children>
+                                <BinderItem UUID="533A7C21-AD67-49BB-AA94-16745A0D9F5B" Type="Text" Created="2019-04-30 12:40:38 -0400" Modified="2019-05-01 12:59:34 -0400">
+                                    <Title>Darcy’s Wealth:  An Addendum</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>593,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="7417D74C-611E-431D-9336-83507CE4DA6D" Type="WebArchive" Created="2019-05-01 13:01:09 -0400" Modified="2019-05-01 13:01:09 -0400">
+                                    <Title>The Economics of Jane Austen's World » JASNA</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>webarchive</FileExtension>
+                                    </MetaData>
+                                    <MediaSettings>
+                                        <OriginalURL>http://www.jasna.org/publications/persuasions-online/vol36no1/toran/</OriginalURL>
+                                    </MediaSettings>
+                                </BinderItem>
+                                <BinderItem UUID="82671909-9DA8-4F11-BAFE-F323D922EC73" Type="Text" Created="2019-04-30 12:40:38 -0400" Modified="2019-05-01 13:19:11 -0400">
+                                    <Title>How Wealthy is Mr. Darcy – Really?
+
+Pounds and Dollars in the World of
+
+Pride and Prejudice</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>30946,0</TextSelection>
+                                    </TextSettings>
+                                    <Children>
+                                        <BinderItem UUID="F843BB09-AAC2-4AF8-B57D-DDF48E8D60DD" Type="Text" Created="2019-04-30 12:40:38 -0400" Modified="2019-05-01 12:59:19 -0400">
+                                            <Title>An Addendum to “How Wealthy is
+Mr. Darcy – Really?”</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>216,51</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                    </Children>
+                                </BinderItem>
+                                <BinderItem UUID="4E13892E-2F1B-4FCD-95E1-4BC603F5C0AC" Type="Text" Created="2019-05-01 16:44:40 -0400" Modified="2019-05-01 17:37:17 -0400">
+                                    <Title>Copeland monograph</Title>
+                                    <MetaData>
+                                        <LabelID>1</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                    <Children>
+                                        <BinderItem UUID="F6A88C62-2FF2-49F5-AE86-5D5626073CDC" Type="Text" Created="2019-04-30 12:40:38 -0400" Modified="2019-05-01 16:44:48 -0400">
+                                            <Title>quote on carriages</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>341,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem UUID="E29714AF-008C-4E2D-BD95-40DCABC6D0C7" Type="Text" Created="2019-05-01 16:44:49 -0400" Modified="2019-05-01 16:51:00 -0400">
+                                            <Title>rev. Alistair M. Duckworth</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>1240,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                        <BinderItem UUID="F0A725A2-EE2E-4BF5-A75A-69B7E7954162" Type="Text" Created="2019-05-01 17:35:26 -0400" Modified="2019-05-01 17:35:56 -0400">
+                                            <Title>rev. Ruth Perry</Title>
+                                            <MetaData>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>1795,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                    </Children>
+                                </BinderItem>
+                                <BinderItem UUID="C71F4A5C-1A31-4E84-B4B7-58F710028DB2" Type="Text" Created="2019-05-01 17:37:09 -0400" Modified="2019-05-01 17:47:35 -0400">
+                                    <Title>What's a Competence? Jane Austen, Her Sister Novelists, and the 5%'s</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
                         </BinderItem>
-                        <BinderItem UUID="F843BB09-AAC2-4AF8-B57D-DDF48E8D60DD" Type="Text" Created="2019-04-30 12:40:38 -0400" Modified="2019-04-30 12:40:38 -0400">
-                            <Title>Text 2</Title>
+                        <BinderItem UUID="1A187B29-91E4-47CC-9224-57396BA7D530" Type="Text" Created="2019-05-01 14:55:44 -0400" Modified="2019-05-01 17:16:48 -0400">
+                            <Title>Bingley &amp; trade</Title>
                             <MetaData>
+                                <LabelID>2</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
-                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                             </MetaData>
                             <TextSettings>
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
+                            <Children>
+                                <BinderItem UUID="17F263D7-C52E-4E74-A79B-3A820A509E86" Type="Text" Created="2019-05-01 14:53:16 -0400" Modified="2019-05-01 14:53:19 -0400">
+                                    <Title>Bingley’s Four or Five Thousand, and Other Fortunes from the North</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
                         </BinderItem>
-                        <BinderItem UUID="82671909-9DA8-4F11-BAFE-F323D922EC73" Type="Text" Created="2019-04-30 12:40:38 -0400" Modified="2019-04-30 12:40:38 -0400">
-                            <Title>Text 3</Title>
+                        <BinderItem UUID="5E2A6915-6FC1-42EE-8C97-3FD48A1DC283" Type="Text" Created="2019-05-01 17:09:28 -0400" Modified="2019-05-01 17:16:51 -0400">
+                            <Title>the job of the gentry</Title>
                             <MetaData>
+                                <LabelID>1</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
-                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                             </MetaData>
                             <TextSettings>
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
+                            <Children>
+                                <BinderItem UUID="B7636B38-6147-44EF-A6A6-F9135FAF1520" Type="Text" Created="2019-05-01 17:09:37 -0400" Modified="2019-05-01 17:10:39 -0400">
+                                    <Title>Property Settlements, Financial</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>296,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="C9B7762E-8A44-4366-98EC-B9F1DE9867E9" Type="Text" Created="2019-05-01 17:10:54 -0400" Modified="2019-05-01 17:10:58 -0400">
+                                    <Title>English Landed Society in the 18thC</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="F82004BA-0F69-4F25-A2E4-D3120FA7C3D0" Type="Text" Created="2019-05-01 17:19:14 -0400" Modified="2019-05-01 17:19:28 -0400">
+                                    <Title>"Wealth has much to do with it"</Title>
+                                    <MetaData>
+                                        <LabelID>1</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
                         </BinderItem>
-                        <BinderItem UUID="F6A88C62-2FF2-49F5-AE86-5D5626073CDC" Type="Text" Created="2019-04-30 12:40:38 -0400" Modified="2019-04-30 12:40:38 -0400">
-                            <Title>Text 4</Title>
+                        <BinderItem UUID="98E3DF85-7179-4600-8398-A3C348C4BFCB" Type="Text" Created="2019-04-30 12:40:38 -0400" Modified="2019-05-01 17:16:54 -0400">
+                            <Title>pemberley</Title>
                             <MetaData>
+                                <LabelID>1</LabelID>
                                 <IncludeInCompile>Yes</IncludeInCompile>
-                                <IconFileName>Book (Blue Book).tiff</IconFileName>
                             </MetaData>
                             <TextSettings>
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="98E3DF85-7179-4600-8398-A3C348C4BFCB" Type="Text" Created="2019-04-30 12:40:38 -0400" Modified="2019-04-30 12:40:38 -0400">
-                            <Title>Text 5</Title>
-                            <MetaData>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                                <IconFileName>Book (Blue Book).tiff</IconFileName>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>0,0</TextSelection>
-                            </TextSettings>
-                        </BinderItem>
-                        <BinderItem UUID="C037C6D1-505E-4D73-8C08-E34D3454500B" Type="Text" Created="2019-04-30 12:40:38 -0400" Modified="2019-04-30 12:40:38 -0400">
-                            <Title>Text 6</Title>
-                            <MetaData>
-                                <IncludeInCompile>Yes</IncludeInCompile>
-                                <IconFileName>Book (Blue Book).tiff</IconFileName>
-                            </MetaData>
-                            <TextSettings>
-                                <TextSelection>0,0</TextSelection>
-                            </TextSettings>
+                            <Children>
+                                <BinderItem UUID="C037C6D1-505E-4D73-8C08-E34D3454500B" Type="Text" Created="2019-04-30 12:40:38 -0400" Modified="2019-05-01 14:49:48 -0400">
+                                    <Title>Location, Location, Location: The Spaces of Pride &amp; Prejudice</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>47,61</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="AECB7318-632D-42C0-AE2B-12C0AD64DEEC" Type="Text" Created="2019-05-01 17:14:52 -0400" Modified="2019-05-01 17:18:04 -0400">
+                                    <Title>Elizabeth's Pastoral World</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="0D8EC918-01DF-469C-93E7-F1D0D936A933" Type="Text" Created="2019-05-01 17:19:57 -0400" Modified="2019-05-01 17:24:46 -0400">
+                                    <Title>A Fine House Richly Furnished: Pemberley and the Visiting of Country Houses</Title>
+                                    <MetaData>
+                                        <LabelID>1</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
                         </BinderItem>
                     </Children>
                 </BinderItem>
@@ -234,11 +379,11 @@
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
         <PreviousSession Words="166" Characters="1011" Date="2019-04-30 12:40:36 -0400"></PreviousSession>
     </ProjectTargets>
-    <RecentWritingHistory Date="2019-04-30 12:40:38 -0400">
-        <DraftWordCount>166</DraftWordCount>
-        <DraftCharCount>1011</DraftCharCount>
-        <OtherWordCount>0</OtherWordCount>
-        <OtherCharCount>0</OtherCharCount>
+    <RecentWritingHistory Date="2019-05-01 00:00:00 -0400">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>0</DraftCharCount>
+        <OtherWordCount>10823</OtherWordCount>
+        <OtherCharCount>65917</OtherCharCount>
     </RecentWritingHistory>
     <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>
