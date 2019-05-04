@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="3B9206D6-3DB6-48B6-9CF5-2345DEB28434" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2019-05-03 01:46:20 -0400" ModID="FE26F457-D4A8-4D55-8EBE-97F201BEDAE1">
+<ScrivenerProject Identifier="3B9206D6-3DB6-48B6-9CF5-2345DEB28434" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2019-05-03 22:11:25 -0400" ModID="36E6F053-3317-4150-B90B-A7B66BA1306D">
     <Binder>
         <BinderItem UUID="DDF8AC31-4A85-4C8C-AE97-38C38E121C00" Type="DraftFolder" Created="2019-04-30 12:40:38 -0400" Modified="2019-04-30 12:40:38 -0400">
             <Title>Draft</Title>
@@ -253,6 +253,55 @@ Mr. Darcy – Really?”</Title>
                                 </BinderItem>
                             </Children>
                         </BinderItem>
+                        <BinderItem UUID="08552367-7EBD-49C0-A6D8-8743D39FC211" Type="Text" Created="2019-05-03 18:56:58 -0400" Modified="2019-05-03 18:57:30 -0400">
+                            <Title>soldiers</Title>
+                            <MetaData>
+                                <LabelID>1</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem UUID="0D1F742D-1C67-49B5-8382-9C10AABFC90D" Type="Text" Created="2019-05-03 18:57:04 -0400" Modified="2019-05-03 18:57:19 -0400">
+                                    <Title>Waterloo: Wellington, Napoleon, and the Battle that Saved Europe</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,1</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="BF1D09B8-6471-42A4-90B8-1B6E42AE2E9E" Type="Text" Created="2019-05-03 18:57:47 -0400" Modified="2019-05-03 18:57:51 -0400">
+                                    <Title>converter</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>75,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="C3BD2318-B612-4494-91E4-530F816FC41C" Type="Text" Created="2019-05-03 18:57:55 -0400" Modified="2019-05-03 18:58:08 -0400">
+                                    <Title>British Army Pay Rates</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="2404D886-0CE6-4551-ABF1-4D93442C68C0" Type="WebArchive" Created="2019-05-03 22:11:22 -0400" Modified="2019-05-03 22:11:22 -0400">
+                                    <Title>The Militia in Jane Austen’s England | Austen Authors</Title>
+                                    <MetaData>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                        <FileExtension>webarchive</FileExtension>
+                                    </MetaData>
+                                    <MediaSettings>
+                                        <OriginalURL>https://austenauthors.net/the-militia-in-jane-austens-england/</OriginalURL>
+                                    </MediaSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
                         <BinderItem UUID="98E3DF85-7179-4600-8398-A3C348C4BFCB" Type="Text" Created="2019-04-30 12:40:38 -0400" Modified="2019-05-01 17:16:54 -0400">
                             <Title>pemberley</Title>
                             <MetaData>
@@ -382,8 +431,8 @@ Mr. Darcy – Really?”</Title>
     <RecentWritingHistory Date="2019-05-03 00:00:00 -0400">
         <DraftWordCount>0</DraftWordCount>
         <DraftCharCount>0</DraftCharCount>
-        <OtherWordCount>0</OtherWordCount>
-        <OtherCharCount>0</OtherCharCount>
+        <OtherWordCount>149</OtherWordCount>
+        <OtherCharCount>844</OtherCharCount>
     </RecentWritingHistory>
     <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>
