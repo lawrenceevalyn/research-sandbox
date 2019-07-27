@@ -8,6 +8,10 @@ By FAR the easiest way to find TCP XML files of particular plays is at http://ot
 
 # research log
 
+## July 27, 2019
+
+Who is George Bridgetower, "son to the African prince"?? Who is the African prince??
+
 ## July 11, 2018
 
 Qatar national library: https://www.qdl.qa/en
