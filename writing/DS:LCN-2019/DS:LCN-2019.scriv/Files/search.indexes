@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchIndexes Version="1.0">
+    <Documents>
+        <Document ID="4C7D54B1-C2CB-43E5-949B-0B8D033CB27E">
+            <Title>abstract</Title>
+        </Document>
+        <Document ID="D0C9220C-EF58-49CC-83C9-32CBC43E354B">
+            <Title>Findings</Title>
+        </Document>
+        <Document ID="F6A88C62-2FF2-49F5-AE86-5D5626073CDC">
+            <Title>Chandler</Title>
+            <Text>A number of perennial doubts plague genre theory. Are genres really 'out there' in the world, or are they merely the constructions of analysts? Is there a finite taxonomy of genres or are they in principle infinite? Are genres timeless Platonic essences or ephemeral, time-bound entities? Are genres culture- bound or transcultural?... Should genre analysis be descriptive or proscriptive? (1)
+In literature the broadest division is between poetry, prose and drama, within which there are further divisions, such as tragedy and com- edy within the category of drama. Shakespeare re- ferred satirically to classifications such as 'tragedy, comedy, history, pastoral, pastoral-comical, histori- cal-pastoral, tragical-historical, tragical-comical- historical-pastoral...' (Hamlet II ii). (1)
+Specific genres tend to be easy to recognize intuitively but difficult (if not impossible) to define. Particular features which are characteristic of a genre are not normally unique to it; it is their relative prominence, combination and functions which are distinctive (Neale 1980, 22-3). (2)
+How we define a genre depends on our purposes; the adequacy of our definition in terms of social science at least must surely be related to the light that the exploration sheds on the phenomenon. For instance (and this is a key concern of mine), if we are studying the way in which genre frames the reader's interpretation of a text then we would do well to focus on how readers identify genres rather than on theoretical distinctions. Defining genres may be problematic, but even if theorists were to abandon the concept, in everyday life people would continue to categorize texts. John Swales does note that 'a discourse community's nomenclature for genres is an important source of insight' (Swales 1990, 54), though like many academic theorists he later adds that such genre names 'typically need further validation' (ibid., 58)  (3)</Text>
+        </Document>
+        <Document ID="F1220AB2-521C-4064-B8C4-CA2DAD321BF4">
+            <Title>histories</Title>
+            <Text>Figure &lt;$n:fig:all-histories&gt;: Network graphs of all First Folio histories.
+
+Histories, as can be visually seen in in Figure &lt;$n#fig:all-histories&gt;, feature large and highly dispersed networks. Their peripheries are populated with large numbers of very minor characters, such as “First,” “Second,” and “Third” members of groups like soldiers and ambassadors, who each interject briefly in a single scene. (See, for example, Figure &lt;$n#fig:richard3&gt;, Richard III, and for an extreme case Figure &lt;$n#fig:1henry6&gt;, Henry VI Part 1.) Accordingly, density is half that of the comedies. Connections form chains of acquaintance with little overlap, resulting in a high average path length and a high graph diameter. Whereas the directional edges in comedies tended to be reciprocal and balanced, in histories they are often unidirectional, as characters give orders or statements to each other.
+
+Figure &lt;$n:fig:richard3&gt;: Richard III
+Figure &lt;$n:fig:1henry6&gt;: Henry VI, Part 1</Text>
+            <Comments>Early Modern theatre companies remained generally constant in size, so these additional characters likely indicate increased doubling (or tripling, etc) of roles, i.e., having one actor play multiple roles. Future work could use network analysis to identify roles which can and cannot be doubled, and perhaps trace the decline of doubling as a theatrical practice after the Restoration. For more on Early Modern doubling of theatrical roles, see David Bevington’s From Mankind to Marlowe: Growth of Structure in the Popular Drama of Tudor England. My thanks to Arlynda Boyer for illuminating conversations about Shakespeare’s doubling.</Comments>
+        </Document>
+        <Document ID="DD409DBC-8CDF-461E-966A-04B20D1CA180">
+            <Title>comedies</Title>
+            <Text>Figure &lt;$n:fig:all-comedies&gt;: Network graphs of all First Folio comedies, excluding the two problem plays and three romances. 
+
+As Table &lt;$n#table:genre-stats&gt; below suggests, comedies are the most straightforward networks to identify. Whereas histories and tragedies often have similar values across our metrics, comedies tend to be distinct. Their smaller casts are more interconnected, which can be visually observed in Figure &lt;$n#fig:all-comedies&gt; above, and can be measured in their networks’ higher density, lower eccentricity, and shorter path length. All of these measures indicate that most characters in a comedy will eventually speak to most other characters. Although comedies often have multiple subplots, we find that these separate stories do not result in highly-separated networks. (See, for example, &lt;$n#fig:midsummer&gt;, A Midsummer Nights’ Dream, in which distinct “worlds” of the play are nonetheless connected through the bridging character of Bottom.) We theorize that comedic networks are strongly shaped by their final “resolution” scenes, which typically bring the cast together for a restoration of social order, and therefore create edges knitting the network together. (See, again, Midsummer, and also Figure &lt;$n#fig:comedy-errors&gt;, The Comedy of Errors, which features two sets of identical twins who avoid each others’ presence until the final moments of the play.) Thus, we show that a familiar understanding of the mechanics of comedy, that of building connections in service of social unity, is structured by speaking presence, which our methods can abstract.
+
+Figure &lt;$n:fig:midsummer&gt;: A Midsummer Night’s Dream.
+Figure &lt;$n:fig:comedy-errors&gt;: The Comedy of Errors.</Text>
+            <Comments>Algee-Hewitt has compared the Gini coefficient of eigenvector centrality and betweenness centrality for plays from the 16th to 20th centuries. We calculated only the averages for these values, which does not allow for a direct comparison to his findings, since similar averages may reflect very different underlying distributions of values, and a metric like the Gini coefficient is necessary to measure that distribution. However, the strong correlation of genre with graph density suggests that calculating these Gini coefficients would be worthwhile future work. Our findings suggest that, when Algee-Hewitt observes the disappearance of “periphery” roles, “as casts get smaller and actions take place among an increasingly more tightly knit set of characters” (), this change more specifically indicates a reduction or fundamental alteration in “history” plays.
+</Comments>
+        </Document>
+        <Document ID="01ECBDE1-E3C2-484C-8426-BF58ED2A2063">
+            <Title>history/tragedy</Title>
+            <Text>our way of reading is that tragedies are the least clear: it might look like they're similar to histories (explain math), but there's something else with density (more math), and what's really interesting is the way it makes us look at the plays
+tragedies look really close to histories, which makes sense for how tragedy emerges generically
+Roman plays are the point at which we transition from history to tragedy</Text>
+        </Document>
+        <Document ID="F7F7935B-4BF3-42C7-AD03-23F320CDCABA">
+            <Title>Reviewers' Notes</Title>
+        </Document>
+        <Document ID="B0C6464D-62E3-4DED-A46A-0F29F7D76B3E">
+            <Title>improve visibility of figures</Title>
+            <Text>in addition these graphs are very small and hard to read (I had to zoom in significantly). I assume that in publication they will be made more accessible. I would really love to see them labelled, at the very least...</Text>
+        </Document>
+        <Document ID="29F2CB35-F529-4143-968E-BB1451B625A5">
+            <Title>What: TEI</Title>
+            <Text>We show extensibility of TEI materials</Text>
+        </Document>
+        <Document ID="44A49D0F-C015-45EC-A377-04AA549FF34B">
+            <Title>there are problems</Title>
+            <Text>Fig &lt;$n:fig:all-problems&gt;: Network graphs of all the problem plays, romances, and Roman plays.
+
+As our discussion of the tragedies suggests, genre is never simple. Even in evaluating accuracy, we really determine the classifier’s ability to predict how the First Folio would have labelled a work, not the work’s “true” and objective genre. Shakespearean scholars by no means universally accept the First Folio’s assignments. Accordingly, once we had trained our SVM classifier, we queried three sets of ambiguous texts — what are now called the “Roman plays,” the “problem plays,” and the “romances” — to see what social network analysis might offer these debates. The way we see genre now might not be the way Shakespeare’s Early Modern audiences understood it; by defining each play only in reference to Shakespeare’s other works, we open a possibility to see them differently.</Text>
+        </Document>
+        <Document ID="485404F1-5D99-493D-A365-F82CC31CBE4C">
+            <Title>expand methods section</Title>
+            <Text>The most vital problem for you to tackle can be found in the methods section, which needs significant work to make your process much less opaque. Getting this right is crucial to the success of the whole paper. In its current form, your methods section assumes it is self-explanatory, which it is not. We are all victims to this in our own ways, because we know what we did, and writing a good methods section is a skill in &amp; of itself. Methods sections are designed to help 1) the reader understand what you did to interpret the output and 2) to make it possible for someone else to replicate this approach for their own purposes. Define your terms, your corpus, and give details, so the reader can follow the argument of the findings and their importance. Specifying the software and classification schema by which you produce these graphs and what choices that entails will be essential too. Walk your reader through methods section to slowly, carefully laying out the approach you will take. Don’t rush this; focus on making the non-expert comfortable with the steps you will take.
+
+This is not to say that even if the authors choose to follow this second framing, that the methods section can stand as it is. If the paper is reframed to be about Shakespeare criticism, then the methods section will need to be revised in a different way than I suggest above. In this case, the authors cannot expect the reader to have any familiarity with network theory or analysis (as might be expected if they position the paper for a primarily DH audience). The specifics of their methods need to be explained in exacting detail: exactly how edges are assigned (is it, for example, enough for two characters to be alive and on stage at the same time?), how edges are weighted (the methods section suggests it is by number of interactions, while on p11, the authors suggest that it is based on the number of words in the speech), how the networks were laid out (what a force-directed layout is and why the authors chose the one that they selected) and how they derived their feature lists. And, as their project takes the second step of applying these feature to a model, they need to discuss the process of quantitative modeling text (perhaps with some reference to Ted Underwood’s or Andrew Piper’s respective 2018 books), and describe in detail the models that they elected to use (what is an SVM vs a naïve Bays) and why( why choose these two over, for example, a discriminant function analysis, a logistic regression or a mixture model?).</Text>
+        </Document>
+        <Document ID="0F66B546-DB88-45DD-89EF-85F10C308698">
+            <Title>TEI parser</Title>
+        </Document>
+        <Document ID="07E2AB27-A613-4959-B742-60181B17BC46">
+            <Title>intro paras</Title>
+            <Text>Sentences
+1. “In recent years, Wikipedia has emerged as one of the most prominent sources, of any sort, of information and ideas relating to what one might call early modern studies.”
+2. “Robert Southey, a member of “the Lake School” of poetry—really, the first “avant garde” in the history of English literature—was as prolific a letter writer as he was of poetry and prose during the Romantic era in England, roughly 1780-1830: “to write to a dear friend,” Southey says, “is to me like escaping from prison.””
+3. “The guidelines of the Text Encoding Initiative are the 800-pound gorilla of digital textual editing.”
+4. “This paper describes the first phase of work in a long-term project to digitize the Stratford Festival of Canada’s collection of Shakespeare promptbooks.”
+5. “Taking into account Shakespeare’s pre-eminent position in the English literary canon, there has been surprisingly little work on topic modeling his corpus.”
+6. “Thomas Kyd is traditionally accepted as the author of The Spanish Tragedy (1587), Soliman and Perseda (1588), and Cornelia (1594), a translation of Robert Garnier’s French drama Cornélie (1573)”
+7. “What is a digital historian supposed to do with data that is barely tractable to digital methods?”
+
+First Paras
+1. Almost the same as abstract — introduces subject (Wikipedia) broadly, identifies gap / problem, indicates overall argument
+2. Identical to abstract — introduces subject (Southey) broadly, describes project materials that will be examined. (Does not mention argument.)
+3. Totally different from abstract — discusses technical subject (TEI standards) at length, no mention of literary subject.
+4. Describes corpus contents in detail (does not mention methods or argument) 
+5. Abrupt declaration of gap, no explanation of tech (TEI) or subject (Shakespeare)
+6. Workaday statement of subject and argument.
+7. Detailed invocation of general problem in DH, leading into specific project problem (no discussion of methods or argument)</Text>
+        </Document>
+        <Document ID="65ECFCE4-B83C-4879-BC1E-E00E74F4F502">
+            <Title>doubling</Title>
+            <Text>Arlynda Boyer, who considers the doubling of roles from the perspective of an Early Modern dramatist who must determine how to allot speaking roles among twelve to sixteen company actors, observes several similar dynamics of character interaction.
+
+“early plays like Comedy of Errors tend to have small, tight casts and may be harder to find doubles in; histories have huge casts”
+“in most doubling schemes the final scene is the most difficult to manage because it is usually one of the fullest scenes in terms of characters onstage”
+
+“Watch out for characters who move between “worlds” in the play, because they probably can't be doubled.” Such as, Bottom and Puck in Midsummer. “It would be very difficult to double either of them--not because their roles are so large, but because they’re so mobile. It’s necessary to connect all the different strands of the plot, but the best way to use your limited number of bodies is to make sure that you carefully control how many people are mobile in that way, and that’s exactly what Shakespeare does—only one or two characters will move around like that in any given play.”</Text>
+        </Document>
+        <Document ID="72DD8816-8B74-40EB-8A64-350BCCA1350F">
+            <Title>abstract</Title>
+            <Text>Genre is a ubiquitous subject for computational “distant reading” of literature. Work on Shakespeare has a particularly long history of genre studies, in which scholars have interpreted and revised the taxonomy of “comedy,” “history,” and “tragedy” since the First Folio collected Shakespeare’s plays into those categories. We connect these two scholarly traditions through a distant reading of Shakespeare’s genre. Our mode of abstraction is the network: we model each individual play as a web of speech passing between characters who share a stage. We use these computationally-generated network graphs with several machine classifiers, asking whether, and how, these network graphs can distinguish between Shakespeare’s comedies, tragedies, and histories. We discuss the implications of our classifications for the comedies, which are most distinct; the histories and tragedies, which are connected; and finally, the plays of contested genre, for which we offer our classifiers’ identifications. Dramatic genre, we argue, plays out in who the characters stand on the stage with, and who they talk to and listen to. Our networks of the well-studied works of Shakespeare provide a baseline against which to contextualize genre analysis of works for which there is far less critical conversation.</Text>
+        </Document>
+        <Document ID="C3A9E2A1-484B-411C-B9E7-F5A2B62B4A31">
+            <Title>tragedies</Title>
+            <Text>Figure &lt;$n:fig:all-tragedies&gt;: Network graphs of all First Folio tragedies, excluding the romance Troilus and Cressida and the problem play Cymbeline.
+
+Tragedies are more formally unpredictable, especially visually, as seen in Figure &lt;$n#fig:all-tragedies&gt;. Some have dense cores with small peripheries that wouldn’t be out of place among the comedies (Figure &lt;$n#fig:lear&gt;, King Lear; Figure &lt;$n#fig:romeo&gt;, Romeo &amp; Juliet). Othello, in particular, is almost claustrophobically small (Figure &lt;$n#fig:othello&gt;). Others, especially the Roman plays, look like histories with their enormous peripheral casts (Figure &lt;$n#fig:antony-cleopatra&gt;; Figure &lt;$n#fig:coriolanus&gt;). On average, their mathematical features in Table &lt;$n#table:genre-stats&gt; place them closer to, but distinct from, the histories. 
+
+Figure &lt;$n:fig:lear&gt;: King Lear.
+Figure &lt;$n:fig:romeo&gt;: Romeo &amp; Juliet.
+Figure &lt;$n:fig:othello&gt;: Othello.
+Figure &lt;$n:fig:antony-cleopatra&gt;: Antony and Cleopatra.
+Figure &lt;$n:fig:coriolanus&gt;: Coriolanus.</Text>
+        </Document>
+        <Document ID="E178C43A-001E-4C14-8C4B-1F41E853FF49">
+            <Title>Secondary Texts</Title>
+        </Document>
+        <Document ID="0B621663-4F22-4A5A-8BF7-075642E9A63A">
+            <Title>network vocabulary</Title>
+        </Document>
+        <Document ID="3615AF91-51E7-4033-88CA-36A0D2C3DC05">
+            <Title>reading graphs</Title>
+        </Document>
+        <Document ID="D8590ABB-7822-458F-A045-BBA8A9A61AFA">
+            <Title>Outline</Title>
+        </Document>
+        <Document ID="533A7C21-AD67-49BB-AA94-16745A0D9F5B">
+            <Title>Willa Cather article for comparison</Title>
+            <Text>We believe that the benefits of the work we have performed on Cather’s personal voice are not limited to Cather studies. The potential applications of this type of statistical analysis in literature studies as a whole are wide reaching. Many authors have left behind extensive collections of personal writing that could hold untapped insight into how they communicated in different settings, and how their writing evolved.</Text>
+        </Document>
+        <Document ID="621F18D0-FBDC-4F8D-AE43-DB7152F8A8F1">
+            <Title>conclusion</Title>
+            <Text>We treat none of our classifications as definitive declaration of the plays’ “real” genres, but network analysis gives us a new way to think about their genres. Thirty-six plays is a small scale for this approach: since the parser is highly extensible and can be used with any plays encoded in TEI, future work need not be restricted to the Early Modern period. It need not even be restricted to works written in English. The purpose of these tools is to confirm some ways that we have thought about these texts, but also to reconsider them and to open up new vocabulary for the problem cases. Genre, we argue, plays out in who people stand on a stage with, and who they talk to and listen to. Our networks of the well-studied works of Shakespeare can provide a baseline against which to contextualize genre analysis of works for which there is far less critical conversation.</Text>
+        </Document>
+        <Document ID="BA61DAFD-FE1F-4965-89AE-1AF12AA8669B">
+            <Title>restructure genre sections</Title>
+            <Text>Bottom of page 11 into pg 12: make more of these findings, by parsing them out into 3 discrete
+sections: (1) comedies (2) tragedies (diametrically opposed, so far), and (3) histories as the
+weirdo. (this helpfully will also match the findings from the hope &amp;witmore piece I keep
+mentioning.) THEN bring your model of so-called “Hamlet centrality” as a way to lead into the
+next section, which should be a full discussion of similarity and difference</Text>
+        </Document>
+        <Document ID="6D16B108-EBEF-4B9C-A9BC-574D623CF418">
+            <Title>microanalysis</Title>
+            <Text>36 plays is a small enough corpus that they can be scrutinized individually, and their network graphs visually examined. Much of the difficulty in identify genre in the first place stems from genre’s slippery status. Even in evaluating accuracy, we really determine the classifier’s ability to predict how the First Folio would have labelled a work, not the work’s “true” and objective genre. Shakespearean scholars by no means universally accept the First Folio’s assignments. Accordingly, once we had trained our SVM classifier, we queried two sets of ambiguous texts, the “problem plays” and the “romances,” to see what social network analysis might offer these debates</Text>
+        </Document>
+        <Document ID="DF2485B6-25A9-4199-B795-E4D1B09BE9BB">
+            <Title>Manisha's thesis</Title>
+            <Text>Because of the exponential nature of exploring all combinations of all features, we did not do an exhaustive test of all combinations of 4, 5, 6, etc., features. However, we continued testing by adding additional features one by one to well-performing feature sets to see if we could further improve accuracy. After this exploration we found that, with Naïve Bayes, the feature set of Characters, Words, Lines and Path Length provided 86.07% accuracy. Our highest accuracy was with the feature set of Words, Lines, Closeness, Graph Density and Average Weighted Degree provided 88.93% accuracy with SVM. This feature set captures a combination of Extracted, Node, and Graph features, indicating that all are important for accurate genre prediction. 
+</Text>
+        </Document>
+        <Document ID="2D27AD73-E616-411B-B5BC-A4DFCAFD473B">
+            <Title>Algee-Hewitt</Title>
+        </Document>
+        <Document ID="82671909-9DA8-4F11-BAFE-F323D922EC73">
+            <Title>Wayne, Valerie. Cymbeline ed.</Title>
+            <Text>#(1)
+
+￼(16)
+
+￼￼(20)
+￼
+￼(21)</Text>
+        </Document>
+        <Document ID="6D68FBED-7E71-4149-92BB-979359ACD1C1">
+            <Title>corpus</Title>
+        </Document>
+        <Document ID="08A607AC-12DE-433E-AF96-3509C21297DF">
+            <Title>non-comedies</Title>
+        </Document>
+        <Document ID="46DC9C7F-C12F-4039-AECE-3F50E817499A">
+            <Title>Conclusion</Title>
+        </Document>
+        <Document ID="43C2053A-CA89-4F62-BD44-B0E54DF128FA">
+            <Title>explain link from table 1 to fig 1</Title>
+            <Text>Table 1 apparently leads to Figure 1, for reasons that are completely opaque to me</Text>
+        </Document>
+        <Document ID="9C592A88-7A7B-4269-A24F-EA536898B3BB">
+            <Title>density</Title>
+        </Document>
+        <Document ID="EE7C4BB5-332A-4DCA-BDD1-9226F7C3501D">
+            <Title>reciprocity</Title>
+        </Document>
+        <Document ID="F843BB09-AAC2-4AF8-B57D-DDF48E8D60DD">
+            <Title>Wayne, Valerie. "The First Folio’s Arrangement and Its Finale."</Title>
+            <Text>Wayne, Valerie. "The First Folio’s Arrangement and Its Finale." Shakespeare Quarterly, vol. 66 no. 4, 2015, pp. 389-408. Project MUSE, doi:10.1353/shq.2015.0064
+
+Romance and tragicomedy were not recognized as genres within the First Folio’s categories. Plays that could be so characterized were instead distributed among the three genres, with The Tempest and The Winter’s Tale positioned as comedies; Henry VIII as a history; Cymbeline as a tragedy; and Pericles, Cardenio, and The Two Noble Kinsmen absent entirely. Proudfoot points out that Cymbeline can nonetheless be considered a tragedy by Renaissance definitions of the genre. … It is not a tragedy as that form is most widely understood today or as Johnson understood it in the eighteenth century, but it did sufficiently meet Renaissance definitions to be positioned at the end of that section in the First Folio.
+
+
+ When Troilus and Cressida was added after the Catalogue was printed, its title and two running heads identified it as a “Tragedie” although the two quarto printings had termed it a “Historie” and a prefatory note in one of them presented it as a comedy.
+
+
+Cymbeline’s classification as a tragedy has nonetheless produced manifold problems for its reception, not least of them Samuel Johnson’s entertaining dismissal of “the folly of the fiction, the absurdity of the conduct, the confusion of the names and manners of different times, and the impossibility of the events in any system of life.”47 Barbara Mowat observes of this response, “Had the Folio not placed Cymbeline as the last of the ‘Tragedies,’ surrounding it with misleading paratextual matter (‘The Tragedie of Cymbeline’ as title and running head), Johnson might well never have attacked the play.”
+Barbara A. Mowat, “‘What’s in a Name?’: Tragicomedy, Romance, or Late Comedy,” in A Companion to Shakespeare’s Works, ed. Richard Dutton and Jean E. Howard, vol. 4, The Poems, Problem Comedies, Late Plays (Oxford: Blackwell, 2003), 129–49, esp. 130.
+
+
+As a highly experimental play, its genre is mixed, but the Folio’s category of tragedy was made sufficiently elastic to accommodate it. Cymbeline is a play of mixed genres that turns on calumny and international conflict in keeping with other dramatic romances of its time. It is also a tragicomedy that tempers sensationalism with metatheatricality; a history play about early Britain’s encounters with Roman imperialism in light of James I’s attempts to recover a national British identity; and a tragedy with a happy ending in keeping with Aristotelian and neoclassical definitions.53 It is not a tragedy as that form is most widely understood today or as Johnson understood it in the eighteenth century, but it did sufficiently meet Renaissance definitions to be positioned at the end of that section in the First Folio.
+53. The applicability of each of these genres is treated at greater length in my introduction to Cymbeline, ed. Valerie Wayne (London: Arden Shakespeare, 2017).</Text>
+        </Document>
+        <Document ID="E354B389-BFBE-46C3-B34E-826F34E43D7F">
+            <Title>TEI parser</Title>
+        </Document>
+        <Document ID="107AFE45-20D7-4220-BAE2-1EF5363E4B54">
+            <Title>Works Cited</Title>
+            <Text>Alberich, R.,Miro-Julia, J., and Rosselló., F. (2002). Marvel Universe Looks Almost Like a Real Social Network. arXiv:cond-mat/0202174v1 
+Algee-Hewitt, M. (2017). Distributed Character: Quantitative Models of the English Stage, 1500-1920. Digital Humanities 2017: Book of Abstracts. Montreal: McGill University and Université de Montréal, pp. 119–21. 
+Fischer, F., Göbel, M., Kampkaspar, D., Kittel, C., and Trilcke, P. (2017). Network Dynamics, Plot Analysis: Approaching the Progressive Structuration of Literary Texts. Digital Humanities 2017: Book of Abstracts. Montreal: McGill University and Université de Montréal, pp. 437–41. 
+Moretti, F. (2011). Network Theory, Plot Analysis. New Left Review, 68: 80–102. 
+Sparavigna, A. C. (2013). On Social Networks in Plays and Novels. International Journal of Sciences, 2: 20–25. 
+Stiller, J., Nettle, D., and Dunbar, R. I. M. (2003). The Small World of Shakespeare's Plays. Human Nature, 14(4): 397–408. 
+Tonra, J., Kelly, D., and Reid, L. (2017). Personæ: A Character-Visualisation Tool for Dramatic Texts. Digital Humanities 2017: Book of Abstracts. Montreal: McGill University and Université de Montréal, pp. 627–30.</Text>
+        </Document>
+        <Document ID="7AF92E2A-99BD-4E45-9CDD-6E8977C1A883">
+            <Title>conclusions</Title>
+            <Text>Sentences
+1. “In the current author’s experience, digital history projects involving text reach the limits of what can be achieved through algorithmic approaches distressingly fast. In other words, the human era is far from over.”
+2. “I hope that my analysis of the dream sequences above has given readers an insight into Kyd’s dramatic methods, and the links of thought and language that could help to distinguish his oeuvre. With a forthcoming edition of Kyd’s plays that will include King Leir and Arden of Faversham – as well as further justifications for the presence of these texts in The Works of Thomas Kyd (Vickers Forthcoming) – it seems fair to say that a new era in Kyd studies, which will enhance our knowledge of his contributions to early modern drama as a whole, has begun.”
+3. “For good or ill (and, in fact, overwhelmingly for good rather than for ill), Wikipedia seems unlikely to go away, and it will be interesting to see how the work develops, particularly in respect of its ongoing challenges to ideas of textual authority and intellectual property. Those working in early modern studies, like their colleagues in other fields, will doubtless continue to engage with this fascinating, maddening resource. While they will struggle both with its huge power and its unexpected weaknesses, they will have at least one particular satisfaction: they are witnessing the action of a project with an attitude towards intellectual property and information technology which is so various and complicated as to be almost early modern.”
+4. “Ultimately, our research demonstrates the fruitfulness not just of topic modeling, but of topic modeling a dramatic corpus by character. The first major conclusion of this research, that Prince Hal is not the same as Henry V, is one that the character himself tells us: yet our model shows that Hal is categorically and quantifiably different (not just claiming to be so). Our second major conclusion—that Falstaff’s character does not change over multiple plays—adds a new form of evidence to be considered in a centuries-long debate in Shakespeare studies. Indeed, it is our hope that this algorithmically-informed analysis of Shakespeare’s plays is not taken as a final answer, but, instead, as a prompt. As this research demonstrates, topic modeling plays with attention to each speaker opens the door for new comparisons that expand on and reassess previous critical interpretations.”
+5. “There seems to be a generic division of labour between Wordsworth and Southey, and so the question becomes, how indebted is the production of Lake-School poetry to the evolutions and devolutions of social networks? Should we see the failure of Southey’s introspective and Wordsworth’s epic ones as "personal" problems, as "writer’s block" for Wordsworth that just by chance is accompanied by a weirdly inverse writer’s block on Southey’s part—both of them being otherwise incredibly prolific writers (Leader 1991)? Maybe these ostensibly personal problems are in fact network effects. Literary scholars of the Romantic era have undoubtedly been attuned to "literary circles" throughout the history of literary criticism of the period, most recently visible in the emergence of Romantic Circles in 1993 and the discussion of the "Southey Coleridge Circle" as a "network" in 2000 (Pratt and Denison 2000b). But questioning whether Wordsworth and Southey’s "failings" to write epics and lyrics, respectively, are intersubjective network effects? That question is new.”
+
+Final Paras
+1. Reflects on reproducibility, limitations of work, DH research as a whole
+2. Mentions other projects as proof of wide acceptance of their findings
+3. Broad gesture to continuing relevance of the subject, reiterates major claim
+4. Reiterates usefulness of method, major claim
+5. Makes claim for newness of their approach</Text>
+        </Document>
+        <Document ID="0A74DADE-8649-4A00-9BFF-C5C5BA6B5F73">
+            <Title>Shakespeare lit review</Title>
+        </Document>
+        <Document ID="386EB0FF-E1F5-4C5D-889A-1CB242B2666B">
+            <Title>Methods</Title>
+        </Document>
+        <Document ID="9D7371F8-760E-4B07-A6E4-EE4D1E0191D2">
+            <Title>genres</Title>
+        </Document>
+        <Document ID="77770312-637C-44CB-9869-091A5698B1FF">
+            <Title>classifiers</Title>
+        </Document>
+        <Document ID="7FAF168C-6577-407E-BBA1-98A842D70521">
+            <Title>Journal Guidelines</Title>
+            <Text>https://www.digitalstudies.org/about/submissions/
+
+Abstract
+Articles must have the main text prefaced by an abstract of approximately 300 words summarising the main arguments and conclusions: a good abstract provides the reader with a complete overview of the article. This must have the heading ‘Abstract’ and be easily identified from the start of the main text. The abstract should also be added to the article metadata during submission.
+
+Keywords
+Please provide a list of up to six keywords or phrases that describe the subject matter of your submission, separated by semicolons. The keywords should also be added to the article metadata during submission.
+
+Main text
+The body of the submission should be structured in a logical and easy-to-follow manner. A clear introduction section should be provided that allows non-specialists in the subject an understanding of the publication and a background of the issue(s) involved. The remainder of the article should be divided into appropriate subdivisions and labelled with descriptive headers. As a rule, no more than four levels of subdivision (and subheadings) should be used. Subheadings should use sentence case. If you use more than one level of subdivision and subheading, please indicate this clearly using a style hierarchy (e.g. “Heading 1,” “Heading 2,” “Heading 3” in Word or LibreOffice).
+
+Author roles (multiple-author papers only)
+Articles written by more than one author should describe the contributions of each author. We require the CASRAI CRediT contributor role typology. This typology should be placed in a clearly labelled section after the main body and before the references. Please use the following format. Authors are identified by lowercase initials only (without periods) separated by commas:
+
+Explanation for author order: i.e. “Authors are listed in alphabetical order,” “Authors are listed in descending order by significance of contribution,” “Authors are listed in a randomised order,” etc.;
+Identification of the corresponding author: e.g “The corresponding author is xy”;
+A table describing author roles, followed by the initials of the relevant author, with each author separated by commas. More than one author may be listed after each role; individual authors commonly fulfil more than one role. Omit any roles not relevant to the article. Please contact the editors if you would like assistance with this requirement. The following is a hypothetical example using all elements in the typology for a six author paper written by ab, cd, ef, gh, ij, and kl.
+Conceptualization: ab,cd,ef;
+Methodology: cd,ef;
+Software: gh,ab,cd;
+Validation: ij;
+Formal Analysis: kl,ab,cd;
+Investigation: ab,cd,ef;
+Resources: ef;
+Data Curation: ab;
+Writing – Original Draft Preparation: ab,cd;
+Writing – Review &amp; Editing: ab,ef;
+Visualization: ef;
+Supervision: ab;
+Project Administration: xy;
+Funding Acquisition: ab.
+
+Works cited
+All references cited within the submission must be formatted according to the Chicago Manual of Style 16th Edition, author-year system and listed at the end of the main text file. Authors are strongly encouraged to use a citation manager to manage and format their references (e.g. Zotero, Paperpile, Mendeley). The journal reserves the right to charge a fee to authors whose references require significant copy-editing, formatting, and/or research during production. Please see below for sample formats.</Text>
+        </Document>
+        <Document ID="B66EBA1B-B2E1-4E9A-B19B-1C81C7BED3BB">
+            <Title>social networks rock</Title>
+            <Text>We treat none of these identifications as definitive declaration of the plays’ “real” genres, 
+
+conclusion: this is a new way of thinking about the plays
+
+
+say the point of these tools is to confirm some ways to think about the text, but also to reconsider them and give us new tools to think about the problem cases (and then go onto the rough of what we're doing)
+
+Conclusion: here's a new way of looking at old questions (though not new findings), with the one sentence that genre plays out in where people stand on a stage and who they talk to and listen to -- which was our testable hypothesis: does it actually matter to a play, people standing on a stage talking in the presence of each other?
+
+Our parser successfully and rapidly produces sophisticated social network graphs of TEI plays, which can be used to computationally identify theatrical genre in Shakespeare’s plays. Thirty-six plays is a small scale for this approach: since the parser is highly extensible and can be used with any plays encoded in TEI, future work need not be restricted to the Early Modern period. It need not even be restricted to works written in English. Our networks of the well-studied works of Shakespeare can provide a baseline against which to contextualize analysis of these elements in works for which there is far less critical consensus.
+Having verified that the network graphs do encode literary information, future work can apply these methods for macroanalysis. Our SVM trained on Shakespeare will only give meaningful results in an Early Modern context, but could nonetheless be straightforwardly applied to a larger Early Modern corpus.
+</Text>
+        </Document>
+        <Document ID="E434903B-072B-480C-AE70-38536313CAFD">
+            <Title>data</Title>
+        </Document>
+        <Document ID="EE1FC9D6-BA2B-4814-A5CD-F73002C600E1">
+            <Title>math figure</Title>
+            <Text>#
+Table &lt;$n:table:genre-stats&gt;: The average values per genre for several of the network features we measured.</Text>
+        </Document>
+        <Document ID="9D656C9A-B357-4FC7-B91A-88B221FCCA15">
+            <Title>make a genre argument</Title>
+            <Text>The findings are solidly interesting, with a lot to offer both DH and Shakespeare studies, but suffer from being criminally undersold in its current form. There is a need for modesty in this particular form of scholarship, but the authors have done themselves a disservice by not using their framing question as a point of departure rather than a casual experiment to see ‘if it is possible’. Certainly, proposing a specific framing of what we consider to be the defining characteristics of genre is a viable and productive exercise. However, a critical engagement with genre theory will offer this paper a much stronger foundation. If nothing else from this entire review, please walk away with this: don’t lose sight of the literary question driving your inquiry and this paper will fulfil its potential to do something important.
+
+Genre in the first folio is perceived as being stable, yet remains a big question in Shakespeare studies. This is an interesting problem for the field, that as far as I know is not satisfactorily resolved. Presenting this as a quantitative problem makes a ton of sense, and follows other quant work in this direction. However, this paper sadly presents this question as an experiment in possibility rather than considering it an opportunity to prove/disprove an existing position on genre divisions in the First Folio. This is a sorely missed opportunity to make your essay visible as scholarship for both sets of audiences, especially because there’s been tons of scholarship on this. Choose one well-received approach and use it as a case study to frame your entire argument: This scholar says X about genre in Shakespeare’s plays; we’re going to use a different method to see if this claim actually holds. (I should add: there is no point in declaring this a ‘new’ or otherwise radical method: understate the self-importance of your methods to show what computational advancement can do for these kinds of questions. The fact that you do not do this explicitly is truly commendable.)
+
+If, however, the authors seek to retain the focus on Shakespeare and present their findings within the context of Shakespeare scholarship (rather than as a pilot experiment), then other edits are required to move the paper in this direction. It would be important to situate the experiment proposed by this paper in the context of Shakespeare criticism, particularly around the debates on genre in the first folio. Such a literature review could be done under the rubric of a hypothesis test: that is, to first suggest a hypothesis based on the criticism around the first folio, then use their methods to test it and report their conclusion. To some degree, the authors have done this with the “ambiguous” plays that they discuss: their tests of these later-reclassified plays suggest the ways that their methods can put pressure on Shakespeare criticism and potentially even resolve long-standing debates. But, for this conclusion (which, I want to point out, both excellent and highly provocative), the groundwork in Shakespeare criticism is essential.
+
+You begin with one scholarly criticism of genre theory, which is bizarre because a ton of
+work has been done specifically on genre in Shakespeare’s works (both quantitative and not).
+There is a wealth of scholarship to frame this project around, and its absence weakens your
+introduction significantly. Literary scholars have debated genre in the Folio for ages: you should
+lean on their claims as reason for doing this project – X says this, Y says this, Which one is
+right? We want to show that network analysis is a viable approach to this question. Leaning on
+the First Folio (hereafter FF) is justifiable but needs more grounding as a method.</Text>
+        </Document>
+        <Document ID="28E2CE93-6D02-4410-B342-34CC5493C23C">
+            <Title>comedies</Title>
+        </Document>
+        <Document ID="80968828-111D-4465-B57E-5C914D9CC852">
+            <Text>If you saw a Shakespeare play and couldn’t understand a word of it, could you still guess its genre? We find, yes!</Text>
+        </Document>
+        <Document ID="59357DED-BA22-421E-A348-12FE5CF5E884">
+            <Title>Works Cited (18/30)</Title>
+            <Text>
+	1.	Alberich, R., Miro-Julia, J., and Rosselló., F. (2002). Marvel Universe Looks Almost Like a Real Social Network. [preprint] Available at: arXiv:cond-mat/0202174v1
+	2.	Algee-Hewitt, M. (2017). Distributed Character: Quantitative Models of the English Stage, 1500-1920. In: Digital Humanities 2017: Book of Abstracts. Montreal: McGill University and Université de Montréal, 119–21.
+	3.	Hoover, D. The microanalysis of style variation. Digital Scholarship in the Humanities, 32(suppl_2): ii17-ii30. Available at: https://doi.org/10.1093/llc/fqx022
+	4.	Bastian M., Heymann S., Jacomy M. (2009). Gephi: An Open Source Software for Exploring and Manipulating Networks. In: International AAAI Conference on Weblogs and Social Media. Available at: https://www.aaai.org/ocs/index.php/ICWSM/09/paper/view/154.
+	5.	Bevington, D. (1962). From Mankind to Marlowe: Growth of Structure in the Popular Drama of Tudor England. Harvard: Harvard University Press.
+	6.	Boyer, A. (2018). Teaching Shakespeare Through the Theatrical Practice of Doubling. This Rough Magic, 9(1): n. pag.
+	7.	Chandler, D. (1977). An introduction to genre theory. The Media and Communications Studies Site.
+	8.	Fischer, F., Göbel, M., Kampkaspar, D., Kittel, C., and Trilcke, P. (2017). Network Dynamics, Plot Analysis: Approaching the Progressive Structuration of Literary Texts. In: Digital Humanities 2017: Book of Abstracts. Montréal: McGill University and Université de Montréal, 437–41.
+	9.	Fischer, F., Göbel, M., Kampkaspar, D., Kittel, C., Meiners, H., Skorinkin, D., and Trilcke, P. (2018). Digital Literary Network Analysis (dlina). Available at: https://dlina.github.io/
+	10.	Jockers, M. (2013). Macroanalysis. Champaign, Illinois: University of Illinois Press.
+	11.	Johnson, S. (1986). Selections from Johnson on Shakespeare. Bronson, B. and O’Meara, J., eds. New Haven, CT: Yale University Press, 307.
+	12.	Moretti, F. (2011). Network Theory, Plot Analysis. New Left Review, 68: pp. 80–102.
+	13.	Mowat, B. (2003). “What’s in a Name?”: Tragicomedy, Romance, or Late Comedy. In: Dutton, R., and Howard, J., eds. A Companion to Shakespeare’s Works. Volume 4, The Poems, Problem Comedies, Late Plays. Oxford: Blackwell.
+	14.	Stiller, J., Nettle, D., and Dunbar, R. I. M. (2003). The Small World of Shakespeare's Plays. Human Nature, 14(4): 397–408.
+	15.	Sparavigna, A. C. (2013). On Social Networks in Plays and Novels. International Journal of Sciences, 2: 20–25.
+	16.	Trilcke, P., Fischer, F., Göbel, M., Kampkaspar, D. (2016). Theatre Plays as ‘Small Worlds’? Network Data on the History and Typology of German Drama, 1730–1930. In: Digital Humanities 2016: Conference Abstracts. Kraków: Jagiellonian University and Pedagogical University, 385-387.
+	17.	Wayne, V. (2015). The First Folio’s Arrangement and Its Finale. Shakespeare Quarterly, 66(4): 389-408. Available at: doi:10.1353/shq.2015.0064
+	18.	WordHoard Shakespeare. (2003). Northwestern University and Tufts University.
+</Text>
+        </Document>
+        <Document ID="6514E1CB-4C06-47D6-9E85-B46A50263D1B">
+            <Title>explain linguistic encounter</Title>
+            <Text>“Where we differ from much past work is in our precise focus on linguistic encounters in
+the space of the stage, rather than rougher metrics like appearance within the same scene”: I am
+not sure what you mean by this. Is that you’re not considering speech acts or utterances? Or that
+you are only considering when someone is on stage? Something else? This gets made more clear
+in the next sentence, but your null hypothesis comes across as more simplistic than you intend it
+to be. Why would character relationships remain stable based on genre? What would be the
+motivation for this? Who says this would be the case anyway? If you can borrow a scholar’s
+claim that this would be the case and then prove them wrong/right, this paper becomes
+significantly stronger.</Text>
+        </Document>
+        <Document ID="10B0CCB1-363E-44D9-B1BB-69A497FAF7C6">
+            <Title>get into details of plays</Title>
+            <Text>By anchoring yourself in existing scholarship, you will be able to offer more convincing interpretations of the already quite compelling network visualizations: as two examples, you massively undersell the importance of Iago being the central character in Othello and the importance of diametrically oppositional characters in Comedy of Errors. What does this tell us about the network model’s understanding of genre? How do we understand centrality in this realm? What affordances does this model provide us that linear readers cannot cope with?
+
+Note on figure 3: The Syracuses are in direct opposition to each other. What does that tell
+us? Very struck by the question of exchange modelled by CoE.</Text>
+        </Document>
+        <Document ID="5675265B-F456-4D4B-AFEB-FCD9C2E9D49A">
+            <Title>genres</Title>
+            <Text>The ability of the classifier to replicate the First Folio’s designations with substantially greater than random chance supports our initial hypothesis that the genre of a play is expressed in the relations it stages between its characters. The underlying details that drive the classification can also provide a new lens into the specific genres and character staging of of Shakespeare’s works, particularly in the case of plays which are resistant to this mode of classification. Beginning with the clearest results and moving into the realm of more ambiguous interpretation, we will discuss the implications of our classifications for the comedies; the histories and tragedies; and finally, the plays whose First Folio designations have been challenged.</Text>
+        </Document>
+        <Document ID="419F0972-A790-467A-9962-2ACACF431B1E">
+            <Title>networks lit review</Title>
+        </Document>
+        <Document ID="33B4B91A-323E-41EA-86B2-7DA0B72D97B3">
+            <Title>Thought</Title>
+        </Document>
+        <Document ID="92BB0C97-C4FF-4A39-A606-B76602C940C1">
+            <Title>future work</Title>
+        </Document>
+        <Document ID="0211C10C-02F9-4289-8195-44F592352253">
+            <Title>write longer figure descs</Title>
+            <Text>Every table needs at least a paragraph explaining it in detail. Why do you list all these features if you do not define them all? For e.g. what is the difference between DEGREE and WEIGHTED or AVERAGE DEGREE? Does it matter for our purposes? Are these applicable to every play? A specific genre? Something else? Also: I was under the impression this had nothing to do with speech acts, so why are ‘words’ a category? This is all very confusing -- Be clear, be specific; tables are never self-explanatory, regardless of how much we want them to be.
+
+“What Table 1 above also suggests is that histories and tragedies are fairly similar genres” – I
+think I finally understand what some of your numbers are trying to tell me, but this is,
+unfortunately, an example of humans being bad at reading &amp; understanding tables. We are pretty
+bad at lists of numbers and making sense of them without a LOT of help. Returning to my earlier
+comment re this; give direct comparisons using these numbers to leverage difference: describe
+how 0.16 vs 0.23 makes something more heavily weighted in a certain direction, etc.
+Figure 4 has the same comment as Figure 1 above (titles!! Please!)</Text>
+        </Document>
+        <Document ID="BB9FF11E-A221-4D78-9041-B482D423DE66">
+            <Title>Conclusion</Title>
+        </Document>
+        <Document ID="F9CC2CE4-22B3-427A-9DB0-48B51FCA77BD">
+            <Title>expand comedies</Title>
+            <Text>“Whereas histories and tragedies often have similar values across our metrics, comedies
+tend to be distinct”. How do we know this? Haven’t seen histories or tragedies yet to make any
+judgements on this front!
+“Their smaller casts are more interconnected, which can be visually observed in Fig. 1 above,
+and can be measured in their networks’ higher density, lower eccentricity, and shorter path
+length”. This is a very vague claim, which needs a lot more scaffolding. What is the average cast
+size for a shx play? Does it vary by genre? Gender? # of lines spoken by primary vs secondary
+characters? (etc). I also don’t know what you mean by eccentricity here; all vocabulary related to
+methods should be in the ‘methods’ section.
+“All of these measures indicate that most characters in a comedy will eventually speak to most
+other characters. Although comedies often have multiple subplots, we find that these separate
+stories do not result in highly-separated networks.
+“All of these measures indicate that most characters in a comedy will eventually speak to most
+other characters. Although comedies often have multiple subplots, we find that these separate
+stories do not result in highly-separated networks.” Give an illustrative to back this up – you use
+MSND (a play full of subplots) as a wonderful contra-example, but I currently have no idea
+which one it is in the figure above, or how it stands up against other plays like M4M or AYLI,
+which have smaller but still relevant subplots. (I note that Figure 2 is later down the page, which
+is a limitation of format currently; but it looks like there is a total subplot regarding Puck and the
+Lovers to me?!)
+
+“We theorize that comedic networks are strongly shaped by their final “resolution” scenes, which typically bring the cast together for a restoration of social order, and therefore create edges knitting the network together” – I feel like this may be the operational thesis of your paper, which is why burying it here is very strange. First of all, if this is the primary question you are seeking to tackle, it should be significantly more foregrounded as the RQ of the paper. Second of all, if this is your primary RQ, see Hope &amp; Witmore (2010) on the comedic use of ‘I’ and ‘we’ in Shakespeare quarterly: we know this is a linguistic feature of comedy, so we will now test if the networks match this defining characteristic. (See early comments re: hanging this off an established publication’s claim about genre).
+
+I would be very reluctant to use ‘abstract’ as a verb. If anything you are illustrating!</Text>
+        </Document>
+        <Document ID="98E3DF85-7179-4600-8398-A3C348C4BFCB">
+            <Title>DS/LCN articles</Title>
+            <Text>Wikipedia https://www.digitalstudies.org/articles/10.16995/dscn.260/
+Editing https://www.digitalstudies.org/articles/10.16995/dscn.4/
+Kyd https://www.digitalstudies.org/articles/10.16995/dscn.309/
+Bad Data https://www.digitalstudies.org/articles/10.16995/dscn.299/
+Southey https://www.digitalstudies.org/articles/10.16995/dscn.238/
+Falstaff https://www.digitalstudies.org/articles/10.16995/dscn.295/</Text>
+        </Document>
+        <Document ID="0B30F935-4B83-4B15-90B1-1AE2628BE383">
+            <Title>Stray Thoughts</Title>
+        </Document>
+        <Document ID="EF09D897-602D-4EDA-8E1A-45F79C924224">
+            <Title>TITLE</Title>
+            <Text>Distant-Reading the First Folio: Classifying Shakespeare’s Genres with Network Graphs of Character Speech
+
+Running head:</Text>
+        </Document>
+        <Document ID="B7A345B7-DF64-4E0B-8047-68209EBFF871">
+            <Title>Methods</Title>
+        </Document>
+        <Document ID="3459DF35-B75F-43AE-A0F6-8017AC3FF1DA">
+            <Title>Introduction</Title>
+        </Document>
+        <Document ID="AF76FEE3-CF5C-4A2A-85ED-B1FC1A47433A">
+            <Title>Interesting Passage</Title>
+        </Document>
+        <Document ID="F2207DBB-9D16-4CC7-B256-D9FDF5ADE5CF">
+            <Title>Cymbeline</Title>
+            <Text>
+Audiences since Samuel Johnson in 1765 have complained of Cymbeline’s failures as a tragedy (among other things, it has a happy ending), and Barbara Mowat refers to the Folio’s identification of the play as “The Tragedie of Cymbeline” in the index, title page, and running heads, as “misleading paratextual matter” (2003). Our classification, in contrast, supports Valerie Wayne and Richard Proudfoot’s assessment that although “[i]t is not a tragedy as that form is most widely understood today or as Johnson understood it in the eighteenth century, […] it did sufficiently meet Renaissance definitions” of that genre (Wayne, 2015). 
+#
+Figure &lt;$n:fig:cymbeline&gt;: network graph of character interaction in Cymbeline.</Text>
+            <Comments>Every discussion of Cymbeline, and particularly of its genre, must duly quote Johnson’s judgment that “This play has many just sentiments, some natural dialogues, and some pleasing scenes, but they are obtained at the expense of much incongruity. To remark the folly of the fiction, the absurdity of the conduct, the confusion of the names and manners of different times, and the impossibility of the events in any system of life, were to waste criticism upon unresisting imbecility, upon faults too evident for detection, and too gross for aggravation” (307). We hereby discharge this solemn duty.</Comments>
+        </Document>
+        <Document ID="A5BCD1A9-33FC-4645-A762-E7856BD5A804">
+            <Title>length</Title>
+            <Text>5,800 wds		Falstaff
+12,100 wds		Southey
+6,800 wds		Kyd
+8,600 wds		Wikipedia</Text>
+        </Document>
+        <Document ID="2861D343-B10E-44A2-8567-644718997189">
+            <Title>problems</Title>
+        </Document>
+        <Document ID="94E78420-57E1-468E-9E39-7BE9F9C99D4E">
+            <Title>Roman plays</Title>
+        </Document>
+        <Document ID="4AA3097F-DCDB-4D6F-8B3A-6B6B7DE334C2">
+            <Title>TEI parser</Title>
+            <Text>Examining network graphs requires, first, a substantial body of network graphs. Many scholars have handmade theatrical network graphs, both as wholly artistic interpretations (Moretti, 2011) and as mathematically-expressed networks (Trilcke et al., 2016; Fischer et al., 2017; Algee-Hewitt, 2017). Like the Digital Literary Network Analysis (dlina) working group (Fischer et al., 2018), we acquire our networks by parsing plays which have been encoded according to the Text Encoding Initiative (TEI) standards. Our parser takes in a TEI-encoded play, extracts characters for the nodes of a network, and connects nodes via a directional edge each time a character speaks while another character is on stage as a potential auditor. By using directional edges, by weighting character connections based on speech, and by sub-dividing the play into blocks smaller than the unit of the scene based on the configurations of characters present on stage, we create networks at a higher level of detail than prior work which creates edges simply for co-occurrence within a scene. We began by replicating Moretti’s results in order to verify our parser’s accuracy, then generated networks for a full corpus of Shakespeare’s works.</Text>
+            <Comments>The existence of well-crafted graphs for comparison partly motivated our selection of Shakespeare as our first subject. In general, our graphs differ from Moretti’s primarily by including characters whom he excludes: we have nodes for minor characters like “Servant,” for example, and we include all the players of the play-within-the-play in Hamlet. Because our edges are directional, we are also able to represent details of character interaction which Moretti regretted leaving out, such as the fact that Horatio addresses the Ghost, but the Ghost speaks only to Hamlet. Despite these differences, our network graphs generally support Moretti’s literary readings.
+Specifically, we generated networks for the 36 plays included in the First Folio, and (to contribute to scholarly conversations about Shakespeare’s “romances”) Pericles, Prince of Tyre, for 37 total plays. All play texts came from Northwestern University’s “WordHoard Shakespeare.”</Comments>
+        </Document>
+        <Document ID="ABEA08E5-4610-4651-8490-77A1B4D6FFEC">
+            <Title>hamlet node</Title>
+            <Text>What might unite these tragedies is the increased likelihood of a “tragic hero” who appears in the network graph as a distinct, singular centre of the network. These central nodes are typically connected to a large number of other nodes which may be only sparsely connected to each other, with a disproportionately high number of heavily weighted edges connecting outward (indicating that they have given long speeches) with little to no reciprocation. In other words: a Hamlet. “Hamlet” nodes can be seen in Hamlet, of course, and in Macbeth, Timon of Athens, and King Lear. In Antony &amp; Cleopatra, it seems that Antony and Cleopatra are in competition to see who gets to be the “Hamlet” node; Julius Caesar and Othello, too, might show two characters competing for the role. But this pattern is not unique to tragedies: it appears in the histories Richard III and Henry V as well, and in the Measure for Measure and The Tempest, both designated as comedies in the First Folio. This seems to be a case, then, when Chandler’s “relative prominence” comes into play. A third of the First Folio’s tragedies show a distinct “Hamlet” node, and if we include the plays with “competing Hamlets” fully 58% of the First Folio tragedies show this pattern. In contrast, only 20% of the histories show it, and only 13% of the First Folio’s comedies, both of which now have their status as comedies disputed.</Text>
+        </Document>
+        <Document ID="189080D9-1EA5-40D0-A89E-C37A15488C90">
+            <Title>Shakespeare</Title>
+        </Document>
+        <Document ID="7E5D1931-160B-46D2-84C4-24C8751FEB5E">
+            <Title>expand conclusion</Title>
+            <Text>Your conclusion, which feels extremely rushed, certainly threw this back into relief very effectively. By cutting some of the ‘ambiguous’ play section, you can devote more time to repackaging your findings for the audience. Summarize the paper, especially your primary findings and be suggestive about next steps. Don’t be afraid to bring this back to the literary question about genre you are facing, either. It is always safe to discuss the technical implications of method, but the work you present in this essay has too much relevance to be ignored. One way to do this is to return to your initial source of the question and revisit what your networks have shown about this initial claim.
+
+You begin by undermining your findings in the very first sentence of your conclusion; don’t do
+that. You do offer a tiny summary in the last 2 sentences, which are woefully under-
+representative of the work you did: Start by summarizing the paper thus far – its stakes, its
+methods - and remind the reader of your findings. Finally, emphasise why this is important, but
+not simply as a methodological intervention. You have been performing literary scholarship here
+just as much as you have been counting things in plays; use this space to show what you are
+doing as a contribution to the study of genre in literature.</Text>
+        </Document>
+        <Document ID="1E519797-97A0-4474-A2AE-FA447A2588DE">
+            <Title>Winter's Tale</Title>
+            <Text>More strange is the classifiers’ identification of The Winter’s Tale as a history. The play earns its designation as a romance due to its two-part structure: it begins much like a tragedy, with Leontes at its centre. Halfway through, the character of “Time” comes on stage to declare that sixteen years have passed, and the play changes to a pastoral comedy which brings the play to a happy resolution. These two theatrical dynamics are visible in the social network graph, as seen in Figure &lt;$n#fig:winters-tale&gt;: Leontes radiates unreciprocated and unbalanced edges, looking like a Hamlet of his world. But the characters who enter in the latter half of the play (Perdita, Florizel, the Old Shepherd, the Clown, Autolycus, Dorcas, Mospa) connect to each other in a dense, comedic structure. The two substructures within the play are bridged by Leontes’ connections with Polixenes and Camillo. As a result, the play’s network as a whole is neither a comedy nor a tragedy. The periphery of the network is filled both with the lords, ladies, and servants who attend Leontes’ court and with the various gentlemen, shepherds, and shepherdesses who join the pastoral festivities. These two sets of attendants, one from each half of the play, likely drive the classifiers’ identification of the overall network as a “history”.
+
+#
+Figure &lt;$n:fig:winters-tale&gt;: network graph of character interaction in The Winter’s Tale.</Text>
+            <Comments>A brief description of these characters’ roles highlights the alteration in the play’s tone: two young lovers, three comic figures, and two shepherdesses.
+His childhood friend, and a loyal servant who safeguarded his daughter Perdita, respectively.</Comments>
+        </Document>
+        <Document ID="950B46B3-94EE-4F06-88A0-00F4C98A84C7">
+            <Title>introduction</Title>
+            <Text>[Genre in the first folio is perceived as being stable, yet remains a big question in Shakespeare studies.]
+
+Genre, as one of the eternally difficult questions of literary study, is a ubiquitous subject for computational “distant reading” of literature. In setting out many of the “perennial doubts [that] plague genre theory,” Daniel Chandler notes as one source of difficulty that “[p]articular features which are characteristic of a genre are not normally unique to it; it is their relative prominence, combination and functions which are distinctive” (1977). Often, the relative prominence of these distinctive features is obscured by the richness of individual literary texts. By introducing a layer of abstraction, distant reading allows for a new angle of study. This new angle of study enables both macroanalysis (Jockers, 2013) and what Hoover terms “microanalysis,” which uses “style variation within a single work or author as a way of better understanding authorship and style” (2016).
+Our work carries out a microanalysis of dramatic genre, taking the widely-studied works of Shakespeare as our case study. Work on Shakespeare has a particularly long history of genre studies. Scholars have been interpreting and revising the taxonomy of “comedy,” “history,” and “tragedy” since the First Folio collected Shakespeare’s plays into those categories. We work within the tradition that examines First Folio designations. We employ distant reading to confirm some ways that genre has been conceived in these plays, but also to reconsider them, and to suggest new tools to think about the problem cases.
+Our mode of abstraction is the network: we model each individual play as a web of speech passing between characters who share a stage. Ours is not the first project to apply social network analysis to literary study. Where we differ from much past work is in our precise focus on linguistic encounters in the space of the stage, rather than rougher metrics like appearance within the same scene. To draw the edges between nodes that make up our networks, we pay close attention to who is on stage, and who can (probably) hear them speak — and how often they speak, how much they speak at once, and whether people speak back to them. Our model of each play thus renders the speech act of the characters as a fundamental “unit” of a play’s script, and our core hypothesis is thus that genre, in drama, will be expressed in the relations between characters.</Text>
+            <Comments>Most obviously, Moretti uses handmade network graphs to examine the plots of three Shakespearean tragedies, and to contrast the structure of chapters in English and Chinese novels (2011). Stiller et al. have shown that social networks in Shakespeare’s plays mirror those of real human interactions, particularly in size, clustering, and maximum degrees of separation (2003). Alberich et al. (2002) and Sparavigna (2013) also discuss the interplay between social and narrative constraints on networks.
+Identifying characters who are on stage but cannot hear a given speech remains elusive: the natural language processing necessary for the task will rely on period-specific language norms that cannot be generalized trans-historically like the rest of our methods. </Comments>
+        </Document>
+        <Document ID="A71EFD45-ABBE-45CA-9432-0FF9282AFB72">
+            <Title>DSH Draft</Title>
+        </Document>
+        <Document ID="4877F70E-AD1A-4E57-B455-3DCE810F29A7">
+            <Title>Hope &amp; Whitmore</Title>
+            <Text>"Our prosthetic is a computer program called docuScope, created at Carnegie Mellon University in the late 1990s by david kaufer and Suguru Ishizaki.7 We use this tool to provide detailed linguistic redescriptions of critically attested genres of Shakespeare’s writing, particularly those of Heminges and Condell (Shakespeare’s friends and editors) and the nineteenth-century Shakespeareans who argued for the existence of a distinct genre of Shakespeare plays, the so-called late plays or romances.8 In part, our published work has been designed to demonstrate that a phenomenologically based architecture for tagging English words—essentially, a collection of word buckets or dictionaries like docuScope—could make genre visible on the level / of the sentence. Thus, the intensive definitions we use to discriminate plays into groups—“comedies end in marriage,” for example, or “the mood of these plays is similar”—can be tracked through a set of linguistic operations that take place in parallel to these perceptions but cannot themselves be consciously attended to. Nor, we would add, can one be reduced to the other.” (360-361)
+
+“Our previous work established that there is a very clear linguistic distinction between Shakespeare’s Comedies and the Histories, and this figure confirms that finding on another level.” (363)
+See Hope and Witmore, “The Very Large Textual Object.”
+
+They use the categories of Comedy, History, Tragedy, and Late Play, following FF designations except for the “late plays” The Tempest, Cymbeline, The Winter’s Tale, and Henry VIII
+
+“In the late 1970s, for example, Susan Snyder argued that a comic “matrix” underlies Shakespeare’s tragedies. That is, Shakespeare built some of his tragedies—Othello, in particular—on structures that would ordinarily be employed in comedy and in doing so heightened the emotional effect of downturn in the plays when things deteriorate” (374)
+“There is thus a certain, almost structural, irony to Othello. Some of what you see happening on stage seems to evoke the expectations of comedy (and its happy conclusions), but what eventually transpires is the opposite. While this may sound emotionally perverse, linguistically speaking it is exactly what Shakespeare was up to in this play” (375)
+
+"we begin to think of genre as something dynamic: a transaction between a spectator and a company that is full of false starts, head fakes, and allusive gestures. Perhaps rather than a recipe or essence, theatrical genre is really an oscillation between certain generic possibilities at a given moment in time. The insight that genre is comparative or differential is not, in and of itself, new: it is implicit in Fowler’s analysis of genre in terms of Wittgensteinian family resemblance, an approach carried forward by Barbara A. Mowat in her analysis of Shakespearean romance.21 What is new is the idea that this dynamic difference is legible at the level of the sentence” (375)</Text>
+        </Document>
+        <Document ID="28BCB3A2-D2BE-49B2-956B-5594D2805A6D">
+            <Title>we're not idiots</Title>
+        </Document>
+        <Document ID="6C455120-D76C-4C11-88C8-621DD611F8EE">
+            <Title>reciprocity</Title>
+        </Document>
+        <Document ID="C1F3DC14-48B1-4C57-B471-29417A6B1B00">
+            <Title>classifiers</Title>
+            <Text>We then used our generated network graphs to test our central question: whether character speech interaction can be used to distinguish between the dramatic genres of tragedy, comedy, and history. We decided that the answer would be “yes” if we could train a classifier to replicate the First Folio’s classifications for Shakespeare’s 36 plays. We tested three classifier algorithms with fivefold cross-validation, using 21 different mathematical features as the metrics for comparison. We found that even one feature could achieve classification accuracy substantially above random chance. Since there are three possibilities, a random guess would be correct 33% of the time, but we achieved 66.43% accuracy using only the networks’ average path length. Accuracy increases as more features are considered in combination. With two features, our maximum accuracy is 77.86%. With three features, we reach 83.57%. We evaluated combinations of features up to 7 maximum.</Text>
+            <Comments>We tested k-nearest neighbors (KNN), a support vector machine (SVM) with one vs one classification, and a Naïve Bayes classifier. KNN, we soon determined, was too vulnerable to the over-representation of comedies among Shakespeare’s works, so we eliminated it from further experimentation. The SVM and Naïve Bayes had highly similar accuracy, so remaining tests were carried out with both. The SVM’s maximum accuracy was typically a few percentage points higher than Naïve Bayes.
+These features are a combination of extracted play features (such as the number of lines), node features averaged across all nodes (such as average eigenvector centrality), and graph features (such as graph density).
+Accuracy here meaning, of course, “agreement with the First Folio.” 
+This figure was achieved by the SVM classifier. The maximum single-feature accuracy achieved by the Naïve Bayes classifier was 63.57%, examining only the number of lines in each play.
+Evaluating plays based on a pair of features is the only case in which Naïve Bayes outperforms SVM. Naïve Bayes achieves 77.86% by considering lines &amp; average eigenvector. SVM achieves 72.5% with four different pairs: harmonic &amp; diameter; harmonic &amp; path length; graph density &amp; diameter; and graph density &amp; path length.
+SVM achieves 83.57% accuracy with words, characters, &amp; lines. Naïve Bayes achieves 80.71% with lines, graph density, &amp; degree.</Comments>
+        </Document>
+        <Document ID="41094D9B-AF68-4735-B03D-BFAD4356A3A8">
+            <Title>Past writing</Title>
+            <Text>
+
+[Social greetings etc]
+
+Because dramatic performances enact social encounters, social network analysis translates surprisingly well to fictional societies.
+I’m interested in whether the speech interactions of characters within plays can be used a proxy for broad narrative structures. And I’m interested in this at scale, which means that my first step was to ask computer scientists how I can extract social networks from a lot of plays at once.
+We analyze computationally-generated social networks of 37 plays by Shakespeare to see whether, and how, they can be used to distinguish between Shakespeare’s comedies, tragedies, and histories.
+
+The first part, making the networks, works!
+Here you can see all 36 plays in Shakespeare’s first folio, modelled as social networks based on the TEI encoded texts provided by [x]
+
+Although our parser has not solved the problem of guessing the specific addressees of a character’s speech, and instead tracks characters present on stage during speech, its simplifications allow it to be remarkably extensible. It could be used to parse any play that follows TEI P5 guidelines for performance texts. Each speaking character is connected to all characters currently present on stage. These connections are recorded in a network graph, with characters as nodes and shared speech as edges. Edges are directional, and weighted based on the number of lines spoken.
+
+To verify that our parser is accurate, we compare our generated network of Hamlet to Moretti’s well-known handmade model of that play (2011). Despite some minor differences in peripheral characters like “Servant”, and our less-minor difference in including the play-within-the-play, the two networks are highly similar. Our network graph supports Moretti’s reading. Our tool also improves on Moretti’s model by adding direction and weight to each connection. Although this level of detail turned out not to be necessary for the basic task of using network graphs to distinguish between Shakespeare’s genres, it may be useful in future work examining a less homogenous corpus of plays, or in work asking different questions about this corpus.
+
+Once we had things working, we could start asking questions about the body of Shakespeare’s work. 
+
+Using a support vector machine with fivefold validation, we tested 17 different mathematical features of the networks. No single feature was independently sufficient to identify the genre, though graph density came closest (83% accuracy). However, if features are used in combination, the network graphs can indeed achieve full accuracy. One combination of features which does achieve 100% accuracy is edges, words, and degree.
+
+The potential utility of graph density in distinguishing genres is visually obvious when individual comedy and history networks are compared. Histories feature highly dispersed networks, with large numbers of very minor characters, such as “First,” “Second,” and “Third” members of groups like soldiers and ambassadors, who each interject briefly in a single scene. Connections form chains of acquaintance with little overlap, so even the monarchs have low eigenvector centrality.
+Figure: 2Henry6; Henry5
+
+Comedies, in contrast, feature networks with far fewer characters, in which nearly everybody speaks to nearly everybody else at some point. Although comedies often have multiple subplots, these separate stories do not result in highly-separated networks. We theorize that comedic networks are strongly shaped by the plays’ final “resolution” scenes, which bring together the full cast. The average eigenvector centrality of the characters in comedies is much higher than in tragedies or histories; this suggests that many more of the characters in a comedy are “important,” reflecting a focus on ensemble stories.
+Figure: ComedyErrors; Midsummer
+ 
+Graph density is insufficient, however, to fully distinguish the tragedies, which feature networks somewhere between history and comedy in their density. They often have a dense core with a secondary ring of more peripheral characters. What seems to distinguish them is the existence of the central tragic hero, whose influence directly touches more of the network than the protagonists of histories, but whose connections are less interconnected than the ensembles of comedies. These subtleties are better captured, it seems, by the combined metric of “edges, degree, and words.”
+Figure: Othello; Lear; MacBeth; Hamlet
+
+Genre isn’t actually as simple as our taxonomic impulses would like. 
+
+We then use our preliminary identification of each genre’s features to examine Shakespeare’s various contested genres. Training our model only on the plays for which there is strong consensus, we applied it to the “Roman plays,” the “problem plays,” and the “romances” in turn. Of the Roman plays, all but Antony and Cleopatra are identified as tragedies by every metric; Antony and Cleopatra is identified as a history by “edges, words, and degree” and as a comedy by “degree, modularity, and density”. Of the problem plays, All’s Well that Ends Well is always identified as a comedy; Troilus and Cressida and Measure for Measure are both identified as a comedy by all metrics except for “edges, criticality, and degree”, which identify them as tragedies. The three romances, despite visually unusual networks which support literary arguments that Shakespeare’s writing had grown more experimental at the end of his career, are identified as comedies by every mathematical metric. We treat none of these identifications as definitive declaration of the plays’ “real” genres, but use them to distinguish between plays whose generic ambiguity lies in their subject matter, and plays whose ambiguity lies in their structure.
+
+
+
+The most exciting part about all of this, for me, is that the program ought to be able to run on any TEI-encoded play. I’m personally hoping to use it on a corpus I’m building of eighteenth century plays in English and French, but we would love to hear from scholars who have their own corpora of TEI-encoded plays which they’d like to explore as social networks.
+
+—————
+
+Our inquiry considers the speech interactions of characters within plays as a proxy for broad narrative structures. We analyze computationally-generated social networks of 37 plays by Shakespeare to see whether, and how, they can be used to distinguish between Shakespeare’s comedies, tragedies, and histories.
+
+Because dramatic performances enact social encounters, social network analysis translates surprisingly well to fictional societies. Stiller et al. have shown that social networks in Shakespeare’s plays mirror those of real human interactions, particularly in size, clustering, and maximum degrees of separation (2003). However, as fictions, these networks are shaped not only by sociological principles, but also by narrative structures. Moretti uses social networks to examine the plots of three Shakespearean tragedies, and to contrast the structure of chapters in English and Chinese novels (2011). Alberich et al. (2002) and Sparavigna (2013) also discuss the interplay between social and narrative constraints on networks. We emphasize this distinction to look for specifically literary features of our networks.
+
+Recent papers presented at DH2017 sought ways to richly quantify the details of one or two plays (Fischer et al. 2017, Tonra et al. 2017). At another scale, Algee-Hewitt examined 3,439 plays by looking only at the Gini Coefficient of each play’s eigenvector centrality (2017). With our three dozen plays, we attempt to strike a fruitful middle ground in the inevitable balancing act between detail and scale. Each play is considered individually, but at a level of abstraction which allows rapid and direct comparisons.
+
+Although our parser has not solved the problem of guessing the specific addressees of a character’s speech, and instead tracks characters present on stage during speech, its simplifications allow it to be remarkably extensible. It could be used to parse any play that follows TEI P5 guidelines for performance texts. Each speaking character is connected to all characters currently present on stage. These connections are recorded in a network graph, with characters as nodes and shared speech as edges. Edges are directional, and weighted based on the number of lines spoken.
+
+To verify that our parser is accurate, we compare our generated network of Hamlet to Moretti’s well-known handmade model of that play (2011). Despite some minor differences in peripheral characters like “Servant”, and our less-minor difference in including the play-within-the-play, the two networks are highly similar. Our network graph supports Moretti’s reading. Our tool also improves on Moretti’s model by adding direction and weight to each connection. Although this level of detail turned out not to be necessary for the basic task of using network graphs to distinguish between Shakespeare’s genres, it may be useful in future work examining a less homogenous corpus of plays, or in work asking different questions about this corpus.
+
+We then use our generated network graphs to test our central question: whether the social network enacted by a play’s characters can be used as a proxy for features of the play’s narrative content. More specifically, we ask whether social networks can be used to distinguish between the dramatic genres of tragedy, comedy, and history. Using a support vector machine with fivefold validation, we tested 17 different mathematical features of the networks. No single feature was independently sufficient to identify the genre, though graph density came closest (83% accuracy). However, if features are used in combination, the network graphs can indeed achieve full accuracy. One combination of features which does achieve 100% accuracy is edges, words, and degree. We are currently exploring other combinations that might also be capable of accurately identifying genres.
+
+
+
+The potential utility of graph density in distinguishing genres is visually obvious when individual comedy and history networks are compared. Histories feature highly dispersed networks, with large numbers of very minor characters, such as “First,” “Second,” and “Third” members of groups like soldiers and ambassadors, who each interject briefly in a single scene. Connections form chains of acquaintance with little overlap, so even the monarchs have low eigenvector centrality.
+Figure: 2Henry6; Henry5
+
+Comedies, in contrast, feature networks with far fewer characters, in which nearly everybody speaks to nearly everybody else at some point. Although comedies often have multiple subplots, these separate stories do not result in highly-separated networks. We theorize that comedic networks are strongly shaped by the plays’ final “resolution” scenes, which bring together the full cast. The average eigenvector centrality of the characters in comedies is much higher than in tragedies or histories; this suggests that many more of the characters in a comedy are “important,” reflecting a focus on ensemble stories.
+Figure: ComedyErrors; Midsummer
+ 
+Graph density is insufficient, however, to fully distinguish the tragedies, which feature networks somewhere between history and comedy in their density. They often have a dense core with a secondary ring of more peripheral characters. What seems to distinguish them is the existence of the central tragic hero, whose influence directly touches more of the network than the protagonists of histories, but whose connections are less interconnected than the ensembles of comedies. These subtleties are better captured, it seems, by the combined metric of “edges, degree, and words.”
+Figure: Othello; Lear; MacBeth; Hamlet
+
+We then use our preliminary identification of each genre’s features to examine Shakespeare’s various contested genres. Training our model only on the plays for which there is strong consensus, we applied it to the “Roman plays,” the “problem plays,” and the “romances” in turn. Of the Roman plays, all but Antony and Cleopatra are identified as tragedies by every metric; Antony and Cleopatra is identified as a history by “edges, words, and degree” and as a comedy by “degree, modularity, and density”. Of the problem plays, All’s Well that Ends Well is always identified as a comedy; Troilus and Cressida and Measure for Measure are both identified as a comedy by all metrics except for “edges, criticality, and degree”, which identify them as tragedies. The three romances, despite visually unusual networks which support literary arguments that Shakespeare’s writing had grown more experimental at the end of his career, are identified as comedies by every mathematical metric. We treat none of these identifications as definitive declaration of the plays’ “real” genres, but use them to distinguish between plays whose generic ambiguity lies in their subject matter, and plays whose ambiguity lies in their structure.
+Figure: Caesar; AntonyCleopatra; Coriolanus; Titus
+Figure: AllsWell; Measure; TroilusCressida
+Figure: Pericles; Cymbeline; Winters; Tempest
+
+Our parser successfully and rapidly produces sophisticated social network graphs of TEI plays, which can be used to computationally identify theatrical genre in Shakespeare’s plays. Thirty-seven plays is a small scale for this approach: since the parser is highly extensible and can be used with any plays encoded in TEI, future work need not be restricted to the Early Modern period. It need not even be restricted to works written in English. Our networks of the well-studied works of Shakespeare can provide a baseline against which to contextualize analysis of these elements in works for which there is far less critical consensus.
+
+	1.	Alberich, R.,Miro-Julia, J., and Rosselló., F. (2002). Marvel Universe Looks Almost Like a Real Social Network. arXiv:cond-mat/0202174v1 
+	2.	Algee-Hewitt, M. (2017). Distributed Character: Quantitative Models of the English Stage, 1500-1920. Digital Humanities 2017: Book of Abstracts. Montreal: McGill University and Université de Montréal, pp. 119–21. 
+	3.	Fischer, F., Göbel, M., Kampkaspar, D., Kittel, C., and Trilcke, P. (2017). Network Dynamics, Plot Analysis: Approaching the Progressive Structuration of Literary Texts. Digital Humanities 2017: Book of Abstracts. Montreal: McGill University and Université de Montréal, pp. 437–41. 
+	4.	Moretti, F. (2011). Network Theory, Plot Analysis. New Left Review, 68: 80–102. 
+	5.	Sparavigna, A. C. (2013). On Social Networks in Plays and Novels. International Journal of Sciences, 2: 20–25. 
+	6.	Stiller, J., Nettle, D., and Dunbar, R. I. M. (2003). The Small World of Shakespeare's Plays. Human Nature, 14(4): 397–408. 
+	7.	Tonra, J., Kelly, D., and Reid, L. (2017). Personæ: A Character-Visualisation Tool for Dramatic Texts. Digital Humanities 2017: Book of Abstracts. Montreal: McGill University and Université de Montréal, pp. 627–30.</Text>
+        </Document>
+        <Document ID="0E7BB580-C5B7-4E90-8172-2D85CBDC23E6">
+            <Title>citations</Title>
+            <Text>Citations
+2010	Research	Steggle		55
+2013	Research	Mandell	40
+2016	Chapter	deTombe	15
+2019	Research	Muthyala	92
+2019	Research	Macklem	44
+2019	Research	Roberts-S.	14
+2019	Research	Suomela	46
+2019	Research	Zhang		26
+2019	Research	Freebury-J.	63
+2019	Research	Laramee	15
+2019	Research	Estill		42
+
+2019	Method	Meza		48</Text>
+        </Document>
+        <Document ID="896207FF-71FD-4594-8CE3-80D876FF4E6B">
+            <Title>outlines</Title>
+            <Text>1. What Are We Seeing?
+2. Stages of Reading
+3. Expert Knowledge
+4. Network Principles
+5. Conclusion: Local Bridges, Giant Components, and Network Effects
+
+Background
+Methodology
+Turning to Shakespeare
+From Prince Hal to Henry V
+Is Falstaff Falstaff?
+Conclusions
+
+Big Data, Bad Data, and the Perils of Historical Corpora
+Why Historical Text Violates the Random Distribution of Errors
+Further Characteristics of Bad Data
+From Bad Data to Good Science, Step 1: Heuristic Project Design
+From Bad Data to Good Science, Step 2: Focused Error Correction
+From Bad Data to Good Science, Step 3: Resolution
+Conclusion
+
+The canon of Thomas Kyd
+Identifying shared phrases
+Attributing King Leir and Arden of Faversham to Kyd
+Ominous dreams in Kyd’s uncontested plays
+Ominous dreams in Kyd’s contested plays
+Kyd’s restored canon
+
+Introduction
+Wikipedia and academic authority
+Coverage of the early modern in Wikipedia
+The early modern Wikipedia
+Conclusion
+
+
+	•	Title Page
+	•	Abstract
+	•	Keywords
+	•	Main Text
+	•	Appendices (optional)
+	•	Acknowledgements (optional)
+	•	Competing Interests (optional)
+	•	Author contributions (multi-author works only)
+	•	Works cited</Text>
+        </Document>
+        <Document ID="4BF98C2B-A0D6-4192-A68F-9D891036F0A2">
+            <Title>case studies</Title>
+        </Document>
+        <Document ID="B2027210-7570-4779-A87A-67E204508E27">
+            <Title>dramatic open: genre Q</Title>
+        </Document>
+        <Document ID="C037C6D1-505E-4D73-8C08-E34D3454500B">
+            <Title>Drakakis "Shakespeare against Genre"</Title>
+            <Text>Drakakis, John. “Shakespeare Against Genre.” Pólemos 7.1 (2013).
+
+“I deliberately problematise those categorisations that were established by Heminges and Condell in the First Folio and that have proved remarkably resilient over the centuries. It is not that each play can be regarded as sui generis but that each play participates in a struggle between what we identify, for our own critical convenience, as genres and an impetus – conscious or otherwise – to innovate.” (Drakakis 89)
+
+“Indeed, Lawrence Danson, in his book Shakespeare’s Dramatic Genres proposes at one point that we might be justified in seeing all 37 of the plays as somehow sui generis, problematical in terms of assigning them to any particular genre.” (Drakakis 88)
+“Another version of this problematic might be Stephen Greenblatt’s account of genre in his essay “Murdering Peasants: Status, Genre, and the Representation of Rebellion” that first appeared in Learning to Curse: Essays in Early Modern Culture (1990). In his account of Dürer’s 1525 design for a monument commemo- rating a victory over a rebellious peasantry, he observes that while every genre “is a received collective practice, [. . .] the social conditions of this practice – both the circumstances that make the genre possible and the objects that the genre represents – may change in such a way as to undermine the form.” (Drakakis 88)
+
+Implicitly defines genre in terms of: “I want for the remainder of this paper to concentrate on three plays where these issues surface and in surprising ways as the dramatist re-uses and refurbishes earlier details, plots, and dramatis personae, in new and surprising combinations. We are now more aware than ever that the links between The Merchant of Venice and Othello, and in particular their common setting in Venice, are much closer than they have traditionally thought to have been. Also, between these two plays is sandwiched a very dark “comedy” indeed, Much Ado About Nothing, and between these three plays there circulates a number of themes, and motifs in addition to a constant shifting of tones as the plays move through a range of dramatic registers.” (Drakakis 92)
+“In each of the cases I have adduced “comedy” is shown to be a “serious business.” All that is required is a slight adjustment of what on the surface seems to be comic form, and the result is catastrophe.” (94)
+
+“It has been a commonplace critical observation that Othello (1604) is a play that is formally a comedy.” (94)
+“In an attempt to argue that the play is a “domestic” tragedy, the late A. D. Nuttall observed that the play is “the story of a hero who went into a house.”22 This is not a judgement that will withstand too much interrogation.” (95)
+“Thematically these fears are present in both plays – and they are also there in Much Ado – and they stretch across the comic-tragic divide.
+The difference between them, however, lies in the level of introspection ac- corded to the central characters.” (96)
+
+“And so it is with the dramatic genres within and against which Shakespeare was working. Inside comedy there is tragedy, and inside tragedy there is comedy. The one play that transcends this binary, however, is The Winter’s Tale that combines the comedy of Much Ado and the tragedy of Othello in a new adventurous synthesis in which patriarchal anxiety is shown to be embodied in the language itself, and where death can be averted and avoided.” (97)</Text>
+        </Document>
+        <Document ID="9A290DEF-D46C-42D2-9DE6-CA6E4FE48695">
+            <Title>Roman plays</Title>
+            <Text>The “Roman plays” are four tragedies whose ancient Roman settings place them closer to tragedy’s roots in history. We thought our classifier might re-classify them as histories; however, as Table &lt;$n#table:roman-plays&gt; shows, only Antony &amp; Cleopatra, with only one classifier, was designated a history. Instead, this re-classification experiment suggest that closer attention ought to be paid to the small, dense network which makes up Titus Andronicus.
+
+#
+Table &lt;$n:table:roman-plays&gt;: classifications for the “Roman plays.”</Text>
+        </Document>
+        <Document ID="BE22EF7A-4607-46F5-8E2A-CCAF17CE3BE0">
+            <Title>rethink problem plays</Title>
+            <Text>Rather than introduce a fourth variable of ‘ambiguous’ plays– which by the way were not a First Folio classification - I found their sudden appearance as a ‘coherent group’ to be very strange. I would much prefer to see a discussion of ways plays understood to be ‘late’ break the general patterns you describe here, as this could be a productive way to further problematize them in a way which will be visible to the Shakespeare scholars reading will appreciate. Regretfully, I had some doubts about how familiar you were with these later plays in their discussion, but I was grateful to see some evidence from the Shakespeare literature attempting to guide us. By flipping this script and highlighting that they are somehow different than the rest of their assigned FF contemporaries, you open yourself up to a wider discussion of ways they are structurally variable and what that means for interpreting these plays’ character interactions.
+
+“In contrast, only 20% of the histories show it, and only 13% of the First Folio’s comedies, both
+of which now have their status as comedies disputed.” Why are they disputed? According to
+whom? You? Your algorithm? Other scholars? This is a very, very big statement for a field that
+believes in the idea of generic stability – to make this claim your evidence must be water-tight,
+and currently it is dependent on some kind of unspecified cluster modelling (as far as I can tell).
+This doesn’t mean you can’t make this claim; you just need to give a lot more detail and
+evidence to back it up. Which plays are the ones showing this evidence? Do they have anything
+in common (year attested or authorship status would be good places to start here)??
+
+Where did you get the name “Ambiguous plays” from? This is definitely not part of the first
+folio. (‘problem plays’ is a more accepted name, but also definitely not received from FF’;
+primarily covers romances/late plays). If you do want to group these together you first must find
+scholarship that defines them as a coherent group and cite accordingly.
+Page 14
+You now move into an entirely new classification system, which has never been introduced or
+explained; if you are going to this, you need to do some legwork to introduce it.
+“We thought our classifier might re-classify them as histories; however, as Table 2 shows, only
+Antony &amp; Cleopatra, with only one classifier” – this sentence has the word ‘classifier’ too many
+times, doing too many different things. Help your poor reader out here!
+Pg 15. What is so surprising about Cymbeline? Other scholars call it ‘not a tragedy’ but I don’t
+know what you are finding to be such an anomaly. Winter’s Tale is a widely-established Weird
+Play, so its behaviour should be expected to also be weird; looking at figure 15, it does pretty
+much what I would expect given the structure and relationships between the characters of the
+play. Is the problem that it doesn’t have any main central figure? I’m not sure I understand what
+the issue is here.</Text>
+        </Document>
+        <Document ID="1A1FA510-C285-44BE-9CC7-C79F03651160">
+            <Title>describe corpus</Title>
+            <Text>Begin by identifying your base corpus. (For instance, I am very curious as to why you did not seem to use the Folger Digital Texts API, which includes character charts of when each character is on/off stage (including when they are dead but remain on stage). THEN move into why you chose network analysis over other methods for this question.
+
+I understand the benefit of training a classifer to match the Folio genre divisions, but this seems to go against the experiment you set out in the first place? Something about this feels dodgy to me – why set up a classifier when you could be using this space to explain network theory and its applications for this particular problem. What software, what did you set up as parameters in the software, etc?
+
+
+Introduce the relationship between nodes/edges; eigenvector centrality; weighting and betweenness; attributive choices that influence the outcomes of the network-drawing process.
+The majority of last paragraph of this page can, and should, be incorporated into ‘methods’ above rather than be the transition into ‘Findings’. Given that this this is a methodological paper – meant to illustrate how this approach proves/doesn’t prove something – the methods section should be the strongest part. It is currently lacking a framework for how one can interpret the results of a network-analytic process; without it, your paper will fall apart (no matter how good or exciting your results are – which I do think they are!)</Text>
+        </Document>
+        <Document ID="DF1F1425-D353-4110-B2A9-B3F272A2A4E1">
+            <Title>Introduction</Title>
+        </Document>
+        <Document ID="DCC1E111-80EC-4FE5-AC88-F0636F4CB97E">
+            <Title>problem, romance</Title>
+            <Text>The “problem plays” and the “romances” are both sets of plays whose contents have proved challenging to scholars, motivating re-assessment of their generic form. As Table &lt;$n#table:problem-plays&gt; shows, both classifiers generally concur with the First Folio’s classification of the problem plays, with the exception that the SVM classifier identifies Troilus and Cressida as a comedy rather than a tragedy. The romances (Table &lt;$n#table:romances&gt;) are slightly more ambiguous. 
+
+#
+Table &lt;$n:table:problem-plays&gt;: classifications for the “problem plays.”
+
+￼
+Table &lt;$n:table:romances&gt;: classifications for the romances.
+
+The classifiers concur with the First Folio regarding The Tempest, but neither classifies The Winter’s Tale or Pericles as a comedy. Moreover, the classification of Cymbeline (Figure &lt;$n#fig:cymbeline&gt;) as a tragedy, even though this classification concurs with the First Folio, constitutes a surprise.</Text>
+            <Comments>Pericles is not, of course, a First Folio play, and has not formed part of our corpus for the other stages of this project, but was graphed and classified in service of this question. Its “original” designation as a comedy comes from general critical consensus, rather than the First Folio.</Comments>
+        </Document>
+        <Document ID="EB25C5ED-7939-4817-92F7-FFF9F7E55570">
+            <Title>Findings</Title>
+        </Document>
+        <Document ID="9264A053-B265-466B-9F20-D2D5F4022027">
+            <Title>argument</Title>
+        </Document>
+        <Document ID="DCA96185-DF05-49B2-B0BC-A817F1583654">
+            <Title>emphasize tragedies</Title>
+            <Text>The findings are the real strength of this paper; they are very suggestive indeed. I am not going to say too much about them beyond the fact that grounding some of the results in literary interpretation – or at least, nodding towards evidence from the plays themselves and other literary scholarship that supports these claims – would be very excellent. The clear division this essay is able to show between genre using a network visualization is genuinely fascinating. Having a distinct model that shows coherence in the FF tragedies (much harder to define traditionally than comedies!) is truly impressive, and this division should be the focus of the discussion section.
+
+Are they really larger? Is it through circumference of the graphs? Eigenvector distance between all participants? Something else? Though the idea of moving through tiers of character-
+importance (‘very minor/unnamed’, ‘minor, named but say four lines’, ‘middling’, ‘secondary’, ‘primary’) is fascinating – especially in light of what the comedies just showed us.
+I would love to know how directionality is measured/illustrated in these graphs, such as in 2H4
+(not a tragedy, though so unclear why it is here). Back to methods for a second: you should
+provide an indicative and representative graph in that section to illustrate how you intend to
+show each feature that is relevant long before you get to the ‘findings’ section. (written discourse
+is very different than spoken discourse for paper-writing!)
+
+‘unpredictable’ (line 24): what does this mean? Is this the right word? (related: is tragedy well-
+defined in the literature of FF genre? Would be wonderful to observe that be corroborated (or
+
+not) in this realm.
+Seems a bit obvious that A&amp;C would look more like a history play;how does Julius Caesar stack
+up? Both could be argued to be a form of ‘histories’</Text>
+        </Document>
+        <Document ID="A91E6F21-3F50-4A62-9A1E-678CDEEFEB13">
+            <Title>Questions to readers:</Title>
+            <Text>1. I feel like there are a lot of places where my language is still much too casual in tone, as if I am really just talking to myself still. I’d appreciate notes on which of these moments really need to be rephrased more formally.
+2. Do I need more/less technical “methods” explanation in the footnotes/body?</Text>
+        </Document>
+        <Document ID="371B9CB6-E720-40E5-BBBA-0FAD3841DE6D">
+            <Title>Primary Texts</Title>
+        </Document>
+        <Document ID="7D8EB54B-2AB0-43EF-80E0-0791E6D6CB97">
+            <Title>density</Title>
+        </Document>
+        <Document ID="7D42D88E-96AF-446C-B536-12771795B46B">
+            <Title>macroanalysis</Title>
+        </Document>
+        <Document ID="7808641C-5871-4392-AD06-6A7E580DA982">
+            <Title>first intro draft</Title>
+            <Text>Digital scholarship in literature has a long history of distant reading “macroanalysis” (Jockers), which seeks to answer large questions of cultural history. These techniques are also often fruitful for what Hoover terms “microanalysis,” which uses “style variation within a single work or author as a way of better understanding authorship and style” (2016). At both scales, 
+
+A great deal of work exists using stylometry to examine long prose works, with methods that are often thoughtfully adapted to address poetry as well. Drama, however, poses a unique challenge to distant reading: [the text of a script is a different kind of text than that of prose or poetry.]
+
+Rather than adapting distant reading methodologies which were designed for prose and retrofitted for drama, we set out to define a method which was designed for drama. We have begun with social network graphs. 
+Ours is not the first project to conceive of plays as social networks. Stiller et al. have shown that social networks in Shakespeare’s plays mirror those of real human interactions, particularly in size, clustering, and maximum degrees of separation (2003). Moretti uses social networks to examine the plots of three Shakespearean tragedies, and to contrast the structure of chapters in English and Chinese novels (2011). Alberich et al. (2002) and Sparavigna (2013) also discuss the interplay between social and narrative constraints on networks.
+Modelling a play as a social network of character interaction renders the speech act as the fundamental “unit” of a play’s script. People talking to each other is what makes a play happen. Length, direction, number, and reciprocity of speech are shaped by underlying social relations. The action of the play, too — its narrative content — is a result of varying social relations changing over the course of the play and attempting to work themselves out. What these patterns of speech acts ultimately mean will vary based on theatrical context. Matching these speech-act patterns to specific narrative content enables theorization of literary groupings such as genre, period, and author. Our paper uses a case study of Shakespeare’s works and the Early Modern generic categories of “tragedy,” “comedy,” and “history” to demonstrate that the social networks of plays do encode narrative content. Moreover, we shows that this encoding of narrative content is meaningful for both microanalysis and macroanalysis.
+</Text>
+            <Comments>Or at the very least, the words that people say to each other are the subset of what happens in the play which the writer of that play is able to direct; the meaning created by gesture, intonation, and action is the purview of the director and actor.
+For example, in John Dryden’s heroic drama The Conquest of Granada, it is a mark of Boabdelin’s social importance in the first act that he can demand and recieve long reports of others’ deeds, whereas in William Shakespeare’s Hamlet, it is a mark of Hamlet’s importance in the play that he gives long speeches.</Comments>
+        </Document>
+        <Document ID="B0186023-5EE3-42D7-BFB6-6883B0EA42AB">
+            <Title>TITLE</Title>
+        </Document>
+        <Document ID="FA712601-84C1-4E60-95D0-37A610EACE77">
+            <Title>history/tragedy ambiguity</Title>
+            <Text>What Table &lt;$n#table:genre-stats&gt; above also suggests is that histories and tragedies are fairly similar genres. We interpret these results by understanding histories as representing one end of a spectrum which has comedies on the opposite end, with tragedies falling between histories and comedies.  
+
+</Text>
+        </Document>
+        <Document ID="77D857E0-D240-4B64-A620-E0DFE173F5EE">
+            <Title>more Shakey DH lit review</Title>
+            <Text>There has been a lot of scholarship on digital methods (network or otherwise) to borrow for Shakespeare studies. Leaning on Jockers and Hoover feels a bit lazy when there are better options (Mike Witmore &amp; Jonathan Hope’s SHX Quarterly article leaps to mind on genre and style; the authorship attribution studies often deal with genre as a variable; Ruth and Sebastian Ahnert’s work on the State Papers online explores the viability of network analysis for visualizing connections between individuals; Anupam Basu has done some work on constructing networks for Shx plays, etc).</Text>
+        </Document>
+        <Document ID="715766CA-DB75-4981-8B6C-398B4AC12DEE">
+            <Title>Journal standards</Title>
+            <Text>In 2016, accepted 16 papers from from 35 solicited (45%)
+
+Footnotes: 5 5 5 5 5 5 31 6 10 1 0 10 20 0
+
+References: 22 43 16 10 20 40 61 37 34 69 27 46 27 14 75
+
+—
+
+In 2015, accepted 18 papers from 58 submitted (31%)
+
+Footnotes: 6 3 0 0 30 11 8 5 0 0 29 11 14 34 7 21 9 23
+
+References: 46 18 42 8 34 20 13 35 5 19 18 25 30 6 13 13 19
+
+Particularly compare myself to Saldana’s resulting paper published here, ‘An Integrated Approach to the Procedural Modeling of Ancient Cities and Buildings’</Text>
+        </Document>
+        <Document ID="6FB79304-B1C3-4822-B36D-04614C6931B7">
+            <Title>Why: networks encode literary content</Title>
+            <Text>We show that social network graphs encode literary content. cf Moretti, JL Austin</Text>
+        </Document>
+    </Documents>
+</SearchIndexes>

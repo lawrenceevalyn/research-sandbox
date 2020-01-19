@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompileSettings>
+    <ProjectSettings>
+        <Content Scope="Included">
+            <Filter State="Off" Exclude="No" Type="Label">
+                <CollectionID>5F019618-106D-4CE6-B387-20FB66CFFD0F</CollectionID>
+                <Label>-1</Label>
+                <Status>-1</Status>
+            </Filter>
+        </Content>
+        <Options>
+            <RemoveComments>Yes</RemoveComments>
+            <RemoveAnnotations>Yes</RemoveAnnotations>
+            <Scriptwriting>
+                <IncludeTitles>Yes</IncludeTitles>
+                <IncludeSynopses>Yes</IncludeSynopses>
+                <CommentsAsScriptNotes>Yes</CommentsAsScriptNotes>
+            </Scriptwriting>
+            <Ebook>
+                <StartAfterFrontMatter>Yes</StartAfterFrontMatter>
+                <Cover>
+                    <ImageDocument Source="FrontMatter"></ImageDocument>
+                    <Title>Cover</Title>
+                    <SVG Width="600" Height="800"><![CDATA[]]></SVG>
+                </Cover>
+                <TOC>
+                    <HTML Generate="Yes">
+                        <Title>Contents</Title>
+                    </HTML>
+                </TOC>
+            </Ebook>
+        </Options>
+        <MetaData>
+            <ProjectTitle>DSH-2018</ProjectTitle>
+            <ProjectAbbreviatedTitle>DSH-2018</ProjectAbbreviatedTitle>
+            <Authors>
+                <Author FileAs="Evalyn, Lawrence" Role="aut">Lawrence Evalyn</Author>
+            </Authors>
+            <Surname>Evalyn</Surname>
+            <Forename>Lawrence</Forename>
+            <EbookLanguage>en</EbookLanguage>
+            <FountainTitlePageMetaData>
+                <Value Key="Title"><![CDATA[<$projecttitle>]]></Value>
+                <Value Key="Author"><![CDATA[<$author>]]></Value>
+            </FountainTitlePageMetaData>
+            <MMDMetaData>
+                <Value Key="Title"><![CDATA[<$projecttitle>]]></Value>
+                <Value Key="Author"><![CDATA[<$author>]]></Value>
+            </MMDMetaData>
+        </MetaData>
+    </ProjectSettings>
+    <CurrentFileType>doc</CurrentFileType>
+    <FormatSettings>
+        <Format ID="DEFAULT">
+            <SectionLayouts>
+                <Type ID="4AF14A4D-F0D7-4DFC-9999-85B07C6067A8">NEW-PAGE-HEADER-WITH-TEXT</Type>
+                <Type ID="65B38BE1-D816-4AD3-ACC5-AA4166318137">TEXT-SECTION</Type>
+            </SectionLayouts>
+        </Format>
+        <Format ID="mmd-barebones">
+            <SectionLayouts>
+                <Type ID="4AF14A4D-F0D7-4DFC-9999-85B07C6067A8">72A8A17D-2FF3-4C8D-8A4C-7895908E7EE5</Type>
+                <Type ID="8F647135-24BA-4782-A4FE-9DFFA6E3D3C9">AS-IS</Type>
+                <Type ID="65B38BE1-D816-4AD3-ACC5-AA4166318137">778FA2E2-F67D-4803-B183-019F8B45528B</Type>
+            </SectionLayouts>
+        </Format>
+    </FormatSettings>
+    <LastUsedFormats>
+        <Print>DEFAULT</Print>
+        <mmd>mmd-barebones</mmd>
+        <doc>full-outline</doc>
+        <docx>DEFAULT</docx>
+    </LastUsedFormats>
+</CompileSettings>
