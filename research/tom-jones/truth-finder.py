@@ -1,9 +1,19 @@
-# open Tom-Jones.txt
+import re	#regular expressons
 
-# first I want to see all the possible strings I should consider!
-# for each line, look for something that follows one of these patterns:
+filepath = Tom-Jones.txt #change as needed
+
+verbRegex = "to\s(.|..|...|....|.....|......|.......|........|.........|..........|...........|............|.............|..............|...............)\s(truth|the\struth|truly)"
+# look for something that follows one of these patterns:
 	# "to ____ the truth"
 	# "to ____ truth"
+	# "to ____ truly"
+
+truthRegex = 
+
+def find(regex,source):
+
+# first I want to see all the possible strings I should consider!
+
 
 	# if a line matches, put it in a new row in a csv
 	# also add the line number to another column in that row
@@ -20,3 +30,5 @@
 	
 	# if a line matches, put it in a new row in a csv
 	# also add the line number to another column in that row
+	
+find (verbRegex,filepath)
