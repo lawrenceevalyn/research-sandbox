@@ -1,23 +1,33 @@
 import re	#regular expressons
+import csv
 
-input = "Tom-Jones.txt" #change as needed
+### defining various inputs ###
+input = "Tom-Jones.txt"
 output = "output.csv"
 
-verbRegex = "to\s(.|..|...|....|.....|......|.......|........|.........|..........|...........|............|.............|..............|...............)\s(truth|the\struth|truly)"
+verbRegex = "\sto\s(.|..|...|....|.....|......|.......|........|.........|..........|...........|............|.............|..............|...............)\s(truth|the\struth|truly)"
 # look for something that follows one of these patterns:
 	# "to ____ the truth"
 	# "to ____ truth"
 	# "to ____ truly"
 # (this regex needs the word "to", then a space, then 1-15 characters of any kind, then a space, then either "truth", "the truth", or "truly".)
 
-# truthRegex = 
+testRegex = "(truth|the\struth|truly)"
 
+### definining variables
+list = []
 
+### define how the program will run ###
 def find(regex,text):
+	lineno = 0
 	with open(text,"r") as file:
 		for line in file:
-			if "Allworthy" in line:
+			lineno += 1
+			if re.search(regex,line):
+				print(lineno)
 				print(line)
-				# add it to the output csv
+				#list.append(line) # put the matching line in a list
 	
+### actually run the program ###
 find (verbRegex,input)
+
