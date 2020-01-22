@@ -15,7 +15,7 @@ verbRegex = "\sto\s(.|..|...|....|.....|......|.......|........|.........|......
 testRegex = "(truth|the\struth|truly)"
 
 ### definining variables
-list = []
+dict = {}
 
 ### define how the program will run ###
 def find(regex,text):
@@ -25,9 +25,12 @@ def find(regex,text):
 			lineno += 1
 			if re.search(regex,line):
 				print(lineno)
-				print(line)
-				#list.append(line) # put the matching line in a list
+				# print(line)
+				dict.update( {lineno : line} ) # put the lines in a dictionary
 	
 ### actually run the program ###
 find (verbRegex,input)
 
+with open(output, 'w') as f: # export the dict to csv
+    for key in dict.keys():
+        f.write("%s,%s\n"%(key,dict[key]))
