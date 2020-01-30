@@ -5,11 +5,12 @@ import csv
 input = "Tom-Jones.txt"
 output = "output.csv"
 
-verbRegex = "\sto\s(.|..|...|....|.....|......|.......|........|.........|..........|...........|............|.............|..............|...............)\s(truth|the\struth|truly)"
+verbRegex = "\s(t|T)o\s(.|..|...|....|.....|......|.......|........|.........|..........|...........|............|.............|..............|...............)\s(truth|the\struth|truly)"
 # look for something that follows one of these patterns:
 	# "to ____ the truth"
 	# "to ____ truth"
 	# "to ____ truly"
+	# also accepts "To" with a capital T
 # (this regex needs the word "to", then a space, then 1-15 characters of any kind, then a space, then either "truth", "the truth", or "truly".)
 
 testRegex = "(truth|the\struth|truly)"
