@@ -5,7 +5,7 @@ import csv
 input = "Tom-Jones.txt"
 output = "output.csv"
 
-verbRegex = "\s(t|T)o\s(.|..|...|....|.....|......|.......|........|.........|..........|...........|............|.............|..............|...............)\s(truth|the\struth|truly)"
+verbRegex = "(t|T)o\s(.|..|...|....|.....|......|.......|........|.........|..........|...........|............|.............|..............|...............)\s(truth|the\struth|truly)"
 # look for something that follows one of these patterns:
 	# "to ____ the truth"
 	# "to ____ truth"
