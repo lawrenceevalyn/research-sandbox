@@ -6,13 +6,13 @@
         <SubdocumentCounts>No</SubdocumentCounts>
         <ExpandedItems>
             <ItemID>DDF8AC31-4A85-4C8C-AE97-38C38E121C00</ItemID>
-            <ItemID>3E2B9F17-7A1C-47BE-8D2D-D719559C543C</ItemID>
+            <ItemID>C429039C-9A1B-4E78-AF37-04BC1D1B1F57</ItemID>
             <ItemID>D6E7AB84-B725-416C-B2BE-70320E9FA3D3</ItemID>
-            <ItemID>E178C43A-001E-4C14-8C4B-1F41E853FF49</ItemID>
+            <ItemID>FCDF5615-90C6-4C9B-AE3F-14F471A44E21</ItemID>
             <ItemID>11E162E5-C0E0-4764-B847-727FE9DFD9CB</ItemID>
         </ExpandedItems>
         <Selection>
-            <ItemID>1AF8C46F-9929-4E1D-A1B6-454E24073AAA</ItemID>
+            <ItemID>A0C3BEF9-51D5-4D07-A857-62203C69FBB4</ItemID>
         </Selection>
     </Binder>
     <Inspector Show="No" View="Notes">
@@ -23,7 +23,7 @@
     <Split>None</Split>
     <BinderAffects>Current</BinderAffects>
     <Labels>
-        <Binder FullWidth="Yes">Yes</Binder>
+        <Binder FullWidth="No">No</Binder>
         <Icons>No</Icons>
         <IndexCards>No</IndexCards>
         <OutlinerRows>No</OutlinerRows>
@@ -55,14 +55,17 @@
         <PageLayout Facing="No">No</PageLayout>
         <TypewriterScrolling>Yes</TypewriterScrolling>
     </FullScreen>
-    <Editors Primary="Editor2">
+    <Editors Primary="Editor1">
         <Editor1>
             <View>
                 <ShowHeader>Yes</ShowHeader>
                 <ShowFooter>Yes</ShowFooter>
-                <GroupsViewMode>Corkboard</GroupsViewMode>
+                <GroupsViewMode>Scrivenings</GroupsViewMode>
                 <CurrentViewMode>Single</CurrentViewMode>
                 <SelectionAffects>None</SelectionAffects>
+                <Content>
+                    <ItemID>A0C3BEF9-51D5-4D07-A857-62203C69FBB4</ItemID>
+                </Content>
             </View>
             <Text>
                 <ShowRuler>No</ShowRuler>
@@ -103,12 +106,8 @@
             <View>
                 <ShowHeader>Yes</ShowHeader>
                 <ShowFooter>Yes</ShowFooter>
-                <GroupsViewMode>Scrivenings</GroupsViewMode>
-                <CurrentViewMode>Single</CurrentViewMode>
+                <GroupsViewMode>Corkboard</GroupsViewMode>
                 <SelectionAffects>None</SelectionAffects>
-                <Content>
-                    <ItemID>1AF8C46F-9929-4E1D-A1B6-454E24073AAA</ItemID>
-                </Content>
             </View>
             <Text>
                 <ShowRuler>No</ShowRuler>
