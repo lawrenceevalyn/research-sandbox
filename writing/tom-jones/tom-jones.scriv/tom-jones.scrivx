@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="B1A36660-BB57-4371-94D0-BFA6F81857C5" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2020-04-05 21:32:31 -0400" ModID="D0E599F4-79AF-48FA-A4B8-5A004B00715A">
+<ScrivenerProject Identifier="B1A36660-BB57-4371-94D0-BFA6F81857C5" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2020-04-07 23:55:25 -0400" ModID="6E9A2ACC-BAA0-4A7F-B0F4-041FDE2C72BB">
     <Binder>
         <BinderItem UUID="1AF8C46F-9929-4E1D-A1B6-454E24073AAA" Type="Text" Created="2019-11-21 20:31:29 -0500" Modified="2020-01-18 21:36:45 -0500">
             <Title>Abstract - 170 wds</Title>
@@ -9,6 +9,15 @@
             </MetaData>
             <TextSettings>
                 <TextSelection>913,0</TextSelection>
+            </TextSettings>
+        </BinderItem>
+        <BinderItem UUID="410F326C-A318-4111-8447-F162B56AEA1E" Type="Text" Created="2020-04-07 23:55:18 -0400" Modified="2020-04-07 23:55:25 -0400">
+            <Title>CSECS 2020</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>1427,0</TextSelection>
             </TextSettings>
         </BinderItem>
         <BinderItem UUID="DDF8AC31-4A85-4C8C-AE97-38C38E121C00" Type="DraftFolder" Created="2019-11-21 20:31:29 -0500" Modified="2020-01-17 18:03:10 -0500">
@@ -496,7 +505,7 @@
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>0,0</TextSelection>
+                                        <TextSelection>1942,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
                             </Children>
@@ -1057,11 +1066,11 @@
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
         <PreviousSession Words="0" Characters="0" Date="2020-04-05 21:27:31 -0400"></PreviousSession>
     </ProjectTargets>
-    <RecentWritingHistory Date="2020-04-05 00:00:00 -0400">
+    <RecentWritingHistory Date="2020-04-07 00:00:00 -0400">
         <DraftWordCount>0</DraftWordCount>
         <DraftCharCount>0</DraftCharCount>
-        <OtherWordCount>4718</OtherWordCount>
-        <OtherCharCount>30095</OtherCharCount>
+        <OtherWordCount>209</OtherWordCount>
+        <OtherCharCount>1427</OtherCharCount>
     </RecentWritingHistory>
     <PrintSettings PaperSize="611.999975,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>

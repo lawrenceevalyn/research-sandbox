@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="BC5D3A33-36A9-4A0F-9649-8A112B2698DF" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2019-11-22 16:20:55 -0500" ModID="122171FA-72A4-4234-8E88-30562708C4A6">
+<ScrivenerProject Identifier="BC5D3A33-36A9-4A0F-9649-8A112B2698DF" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2020-04-23 14:41:12 -0400" ModID="EF566E7B-EA3D-4D3F-9ECD-947BCBD3484F">
     <Binder>
         <BinderItem UUID="043D9B6B-FB35-4879-B62B-870533D0FC75" Type="DraftFolder" Created="2016-09-02 12:26:45 -0400" Modified="2018-02-08 00:04:49 -0500">
             <Title>Notes to Self</Title>
@@ -8,6 +8,17 @@
                 <IconFileName>Blackboard.tiff</IconFileName>
             </MetaData>
             <Children>
+                <BinderItem UUID="F588947E-040D-4026-AF36-B2E0143A441D" Type="Text" Created="2020-04-23 14:41:00 -0400" Modified="2020-04-23 14:41:12 -0400">
+                    <Title>TITLE: “What are the public humanities?”
+
+The term “public humanities” has emerged to describe an urgent task of humanities scholarship: engaging with the public to demonstrate the relevance of the humanities to contemporary civic and cultural life. But why have we needed a new term to describe what has long been the institutional mission of the galleries, libraries, archives, and museums, which are at the forefront of current public humanities outreach? I will historically contextualize the development of the concept of “public humanities,” to show how it is shaped by university institutions reacting to the threat of irrelevance. I’ll make a large corpus of relevant documents and use a range of computational text-mining techniques to identify the shifting meaning of terms like “public humanities,” “digital humanities,” and “open access,” particularly examining who is imagined as “the public” in each instance. In the process, I will examine the history of massive public outreach projects like Wikipedia and Project Gutenberg, and why they are typically excluded from these frameworks. The resulting work will offer a “sequel” to John Guillory’s foundational 1993 monograph, Cultural Capital: Literary Canon Formation, assessing how the phenomena he describes have continued to develop over the past decades. What this work reveals is that we can do “public humanities” better if we understand what we mean by it, and if we don’t blinker ourselves to ignore some of the most public humanities out there.</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>1517,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
                 <BinderItem UUID="BB0E9FD3-BADD-4BFD-B0ED-90BBA4D79870" Type="Text" Created="2017-08-11 15:20:01 -0400" Modified="2017-10-28 15:03:45 -0400">
                     <Title>Questions</Title>
                     <MetaData>
@@ -4235,13 +4246,13 @@ By Samuel Halkett, John Laing, James Kennedy, Dennis E. Rhodes, Anna E. C. Simon
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2013-04-02 02:21:51 -0400" IgnoreDeadline="Yes">75000</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">250</SessionTarget>
-        <PreviousSession Words="36" Characters="218" Date="2019-11-22 16:20:27 -0500"></PreviousSession>
+        <PreviousSession Words="235" Characters="1517" Date="2020-04-23 14:40:50 -0400"></PreviousSession>
     </ProjectTargets>
-    <RecentWritingHistory Date="2019-11-22 00:00:00 -0500">
-        <DraftWordCount>36</DraftWordCount>
-        <DraftCharCount>218</DraftCharCount>
+    <RecentWritingHistory Date="2020-04-23 00:00:00 -0400">
+        <DraftWordCount>235</DraftWordCount>
+        <DraftCharCount>1517</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
-    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+    <PrintSettings PaperSize="611.999975,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>
