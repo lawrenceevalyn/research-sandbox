@@ -140,6 +140,9 @@ weirdo. (this helpfully will also match the findings from the hope &amp;witmore 
 mentioning.) THEN bring your model of so-called “Hamlet centrality” as a way to lead into the
 next section, which should be a full discussion of similarity and difference</Text>
         </Document>
+        <Document ID="2D27AD73-E616-411B-B5BC-A4DFCAFD473B">
+            <Title>Algee-Hewitt</Title>
+        </Document>
         <Document ID="6D16B108-EBEF-4B9C-A9BC-574D623CF418">
             <Title>microanalysis</Title>
             <Text>36 plays is a small enough corpus that they can be scrutinized individually, and their network graphs visually examined. Much of the difficulty in identify genre in the first place stems from genre’s slippery status. Even in evaluating accuracy, we really determine the classifier’s ability to predict how the First Folio would have labelled a work, not the work’s “true” and objective genre. Shakespearean scholars by no means universally accept the First Folio’s assignments. Accordingly, once we had trained our SVM classifier, we queried two sets of ambiguous texts, the “problem plays” and the “romances,” to see what social network analysis might offer these debates</Text>
@@ -148,9 +151,6 @@ next section, which should be a full discussion of similarity and difference</Te
             <Title>Manisha's thesis</Title>
             <Text>Because of the exponential nature of exploring all combinations of all features, we did not do an exhaustive test of all combinations of 4, 5, 6, etc., features. However, we continued testing by adding additional features one by one to well-performing feature sets to see if we could further improve accuracy. After this exploration we found that, with Naïve Bayes, the feature set of Characters, Words, Lines and Path Length provided 86.07% accuracy. Our highest accuracy was with the feature set of Words, Lines, Closeness, Graph Density and Average Weighted Degree provided 88.93% accuracy with SVM. This feature set captures a combination of Extracted, Node, and Graph features, indicating that all are important for accurate genre prediction. 
 </Text>
-        </Document>
-        <Document ID="2D27AD73-E616-411B-B5BC-A4DFCAFD473B">
-            <Title>Algee-Hewitt</Title>
         </Document>
         <Document ID="82671909-9DA8-4F11-BAFE-F323D922EC73">
             <Title>Wayne, Valerie. Cymbeline ed.</Title>
@@ -171,12 +171,12 @@ next section, which should be a full discussion of similarity and difference</Te
         <Document ID="46DC9C7F-C12F-4039-AECE-3F50E817499A">
             <Title>Conclusion</Title>
         </Document>
+        <Document ID="9C592A88-7A7B-4269-A24F-EA536898B3BB">
+            <Title>density</Title>
+        </Document>
         <Document ID="43C2053A-CA89-4F62-BD44-B0E54DF128FA">
             <Title>explain link from table 1 to fig 1</Title>
             <Text>Table 1 apparently leads to Figure 1, for reasons that are completely opaque to me</Text>
-        </Document>
-        <Document ID="9C592A88-7A7B-4269-A24F-EA536898B3BB">
-            <Title>density</Title>
         </Document>
         <Document ID="EE7C4BB5-332A-4DCA-BDD1-9226F7C3501D">
             <Title>reciprocity</Title>
@@ -491,14 +491,8 @@ not simply as a methodological intervention. You have been performing literary s
 just as much as you have been counting things in plays; use this space to show what you are
 doing as a contribution to the study of genre in literature.</Text>
         </Document>
-        <Document ID="1E519797-97A0-4474-A2AE-FA447A2588DE">
-            <Title>Winter's Tale</Title>
-            <Text>More strange is the classifiers’ identification of The Winter’s Tale as a history. The play earns its designation as a romance due to its two-part structure: it begins much like a tragedy, with Leontes at its centre. Halfway through, the character of “Time” comes on stage to declare that sixteen years have passed, and the play changes to a pastoral comedy which brings the play to a happy resolution. These two theatrical dynamics are visible in the social network graph, as seen in Figure &lt;$n#fig:winters-tale&gt;: Leontes radiates unreciprocated and unbalanced edges, looking like a Hamlet of his world. But the characters who enter in the latter half of the play (Perdita, Florizel, the Old Shepherd, the Clown, Autolycus, Dorcas, Mospa) connect to each other in a dense, comedic structure. The two substructures within the play are bridged by Leontes’ connections with Polixenes and Camillo. As a result, the play’s network as a whole is neither a comedy nor a tragedy. The periphery of the network is filled both with the lords, ladies, and servants who attend Leontes’ court and with the various gentlemen, shepherds, and shepherdesses who join the pastoral festivities. These two sets of attendants, one from each half of the play, likely drive the classifiers’ identification of the overall network as a “history”.
-
-#
-Figure &lt;$n:fig:winters-tale&gt;: network graph of character interaction in The Winter’s Tale.</Text>
-            <Comments>A brief description of these characters’ roles highlights the alteration in the play’s tone: two young lovers, three comic figures, and two shepherdesses.
-His childhood friend, and a loyal servant who safeguarded his daughter Perdita, respectively.</Comments>
+        <Document ID="28BCB3A2-D2BE-49B2-956B-5594D2805A6D">
+            <Title>we're not idiots</Title>
         </Document>
         <Document ID="950B46B3-94EE-4F06-88A0-00F4C98A84C7">
             <Title>introduction</Title>
@@ -509,6 +503,15 @@ Our work carries out a microanalysis of dramatic genre, taking the widely-studie
 Our mode of abstraction is the network: we model each individual play as a web of speech passing between characters who share a stage. Ours is not the first project to apply social network analysis to literary study. Where we differ from much past work is in our precise focus on linguistic encounters in the space of the stage, rather than rougher metrics like appearance within the same scene. To draw the edges between nodes that make up our networks, we pay close attention to who is on stage, and who can (probably) hear them speak — and how often they speak, how much they speak at once, and whether people speak back to them. Our model of each play thus renders the speech act of the characters as a fundamental “unit” of a play’s script, and our core hypothesis is thus that genre, in drama, will be expressed in the relations between characters.</Text>
             <Comments>Most obviously, Moretti uses handmade network graphs to examine the plots of three Shakespearean tragedies, and to contrast the structure of chapters in English and Chinese novels (2011). Stiller et al. have shown that social networks in Shakespeare’s plays mirror those of real human interactions, particularly in size, clustering, and maximum degrees of separation (2003). Alberich et al. (2002) and Sparavigna (2013) also discuss the interplay between social and narrative constraints on networks.
 Identifying characters who are on stage but cannot hear a given speech remains elusive: the natural language processing necessary for the task will rely on period-specific language norms that cannot be generalized trans-historically like the rest of our methods. </Comments>
+        </Document>
+        <Document ID="1E519797-97A0-4474-A2AE-FA447A2588DE">
+            <Title>Winter's Tale</Title>
+            <Text>More strange is the classifiers’ identification of The Winter’s Tale as a history. The play earns its designation as a romance due to its two-part structure: it begins much like a tragedy, with Leontes at its centre. Halfway through, the character of “Time” comes on stage to declare that sixteen years have passed, and the play changes to a pastoral comedy which brings the play to a happy resolution. These two theatrical dynamics are visible in the social network graph, as seen in Figure &lt;$n#fig:winters-tale&gt;: Leontes radiates unreciprocated and unbalanced edges, looking like a Hamlet of his world. But the characters who enter in the latter half of the play (Perdita, Florizel, the Old Shepherd, the Clown, Autolycus, Dorcas, Mospa) connect to each other in a dense, comedic structure. The two substructures within the play are bridged by Leontes’ connections with Polixenes and Camillo. As a result, the play’s network as a whole is neither a comedy nor a tragedy. The periphery of the network is filled both with the lords, ladies, and servants who attend Leontes’ court and with the various gentlemen, shepherds, and shepherdesses who join the pastoral festivities. These two sets of attendants, one from each half of the play, likely drive the classifiers’ identification of the overall network as a “history”.
+
+#
+Figure &lt;$n:fig:winters-tale&gt;: network graph of character interaction in The Winter’s Tale.</Text>
+            <Comments>A brief description of these characters’ roles highlights the alteration in the play’s tone: two young lovers, three comic figures, and two shepherdesses.
+His childhood friend, and a loyal servant who safeguarded his daughter Perdita, respectively.</Comments>
         </Document>
         <Document ID="A71EFD45-ABBE-45CA-9432-0FF9282AFB72">
             <Title>DSH Draft</Title>
@@ -526,9 +529,6 @@ They use the categories of Comedy, History, Tragedy, and Late Play, following FF
 “There is thus a certain, almost structural, irony to Othello. Some of what you see happening on stage seems to evoke the expectations of comedy (and its happy conclusions), but what eventually transpires is the opposite. While this may sound emotionally perverse, linguistically speaking it is exactly what Shakespeare was up to in this play” (375)
 
 "we begin to think of genre as something dynamic: a transaction between a spectator and a company that is full of false starts, head fakes, and allusive gestures. Perhaps rather than a recipe or essence, theatrical genre is really an oscillation between certain generic possibilities at a given moment in time. The insight that genre is comparative or differential is not, in and of itself, new: it is implicit in Fowler’s analysis of genre in terms of Wittgensteinian family resemblance, an approach carried forward by Barbara A. Mowat in her analysis of Shakespearean romance.21 What is new is the idea that this dynamic difference is legible at the level of the sentence” (375)</Text>
-        </Document>
-        <Document ID="28BCB3A2-D2BE-49B2-956B-5594D2805A6D">
-            <Title>we're not idiots</Title>
         </Document>
         <Document ID="6C455120-D76C-4C11-88C8-621DD611F8EE">
             <Title>reciprocity</Title>
@@ -635,8 +635,10 @@ Our parser successfully and rapidly produces sophisticated social network graphs
 2019	Research	Freebury-J.	63
 2019	Research	Laramee	15
 2019	Research	Estill		42
-
 2019	Method	Meza		48</Text>
+        </Document>
+        <Document ID="4BF98C2B-A0D6-4192-A68F-9D891036F0A2">
+            <Title>case studies</Title>
         </Document>
         <Document ID="896207FF-71FD-4594-8CE3-80D876FF4E6B">
             <Title>outlines</Title>
@@ -684,9 +686,6 @@ Conclusion
 	•	Competing Interests (optional)
 	•	Author contributions (multi-author works only)
 	•	Works cited</Text>
-        </Document>
-        <Document ID="4BF98C2B-A0D6-4192-A68F-9D891036F0A2">
-            <Title>case studies</Title>
         </Document>
         <Document ID="B2027210-7570-4779-A87A-67E204508E27">
             <Title>dramatic open: genre Q</Title>

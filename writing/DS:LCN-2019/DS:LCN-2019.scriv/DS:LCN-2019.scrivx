@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="F254A139-66D4-4914-8FBD-E2BC864528E8" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2020-01-12 19:19:50 -0500" ModID="1EDA4322-5ED3-4DBD-A88B-8B050A6DA721">
+<ScrivenerProject Identifier="F254A139-66D4-4914-8FBD-E2BC864528E8" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2020-05-08 03:17:35 -0400" ModID="DE633AA2-0844-4AF6-9717-E03D4E4DEF82">
     <Binder>
         <BinderItem UUID="7FAF168C-6577-407E-BBA1-98A842D70521" Type="Text" Created="2019-11-22 17:38:33 -0500" Modified="2019-11-22 18:48:57 -0500">
             <Title>Journal Guidelines</Title>
@@ -11,7 +11,7 @@
                 <TextSelection>0,0</TextSelection>
             </TextSettings>
             <Children>
-                <BinderItem UUID="0E7BB580-C5B7-4E90-8172-2D85CBDC23E6" Type="Text" Created="2019-11-22 17:43:33 -0500" Modified="2019-11-22 18:00:25 -0500">
+                <BinderItem UUID="0E7BB580-C5B7-4E90-8172-2D85CBDC23E6" Type="Text" Created="2019-11-22 17:43:33 -0500" Modified="2020-05-08 03:17:35 -0400">
                     <Title>citations</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -1112,13 +1112,13 @@
     <ProjectTargets Notify="Yes">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2018-10-14 02:21:51 -0400" IgnoreDeadline="No">6000</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">250</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2020-01-12 19:19:34 -0500"></PreviousSession>
+        <PreviousSession Words="0" Characters="0" Date="2020-05-08 03:16:26 -0400"></PreviousSession>
     </ProjectTargets>
-    <RecentWritingHistory Date="2020-01-12 00:00:00 -0500">
+    <RecentWritingHistory Date="2020-05-08 00:00:00 -0400">
         <DraftWordCount>0</DraftWordCount>
         <DraftCharCount>0</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
-        <OtherCharCount>0</OtherCharCount>
+        <OtherCharCount>-1</OtherCharCount>
     </RecentWritingHistory>
     <PrintSettings PaperSize="611.999975,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>
