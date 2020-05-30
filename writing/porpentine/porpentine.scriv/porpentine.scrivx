@@ -1,21 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="52173273-6B34-49E6-9AD9-96F6AB16D9B1" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2020-05-11 01:03:34 -0400" ModID="B5DA437A-182F-46CA-A46C-9FAE5A80170E">
+<ScrivenerProject Identifier="52173273-6B34-49E6-9AD9-96F6AB16D9B1" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2020-05-19 23:35:45 -0400" ModID="9616F54A-43C6-48EB-942A-4371276E5261">
     <Binder>
-        <BinderItem UUID="FCDF5615-90C6-4C9B-AE3F-14F471A44E21" Type="Text" Created="2020-05-11 00:53:48 -0400" Modified="2020-05-11 00:53:48 -0400">
+        <BinderItem UUID="FCDF5615-90C6-4C9B-AE3F-14F471A44E21" Type="Text" Created="2020-05-11 00:53:48 -0400" Modified="2020-05-19 23:35:03 -0400">
             <Title>Journal Guidelines</Title>
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
                 <IconFileName>Notes (White Notepad).tiff</IconFileName>
             </MetaData>
             <TextSettings>
-                <TextSelection>0,0</TextSelection>
+                <TextSelection>51,0</TextSelection>
             </TextSettings>
+            <Children>
+                <BinderItem UUID="2C46BACC-A885-4890-B850-9FD71E7D0F5F" Type="Text" Created="2020-05-19 23:34:54 -0400" Modified="2020-05-19 23:35:03 -0400">
+                    <Title>reviewer's guidelines</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>390,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="AA7612CD-4D61-4A63-9399-121079C06389" Type="Text" Created="2020-05-19 23:35:26 -0400" Modified="2020-05-19 23:35:38 -0400">
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>79,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
         </BinderItem>
-        <BinderItem UUID="1AF8C46F-9929-4E1D-A1B6-454E24073AAA" Type="Text" Created="2020-05-11 00:53:48 -0400" Modified="2020-05-11 00:53:48 -0400">
-            <Title>Abstract</Title>
+        <BinderItem UUID="1AF8C46F-9929-4E1D-A1B6-454E24073AAA" Type="Text" Created="2020-05-11 00:53:48 -0400" Modified="2020-05-19 23:33:56 -0400">
+            <Title>Abstract (100wds)</Title>
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
                 <IconFileName>Characters (Character Sheet).tiff</IconFileName>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>0,0</TextSelection>
+            </TextSettings>
+        </BinderItem>
+        <BinderItem UUID="644FDB25-047E-4262-8CE8-A5DE0496E93C" Type="Text" Created="2020-05-19 23:33:56 -0400" Modified="2020-05-19 23:33:59 -0400">
+            <Title>Brief cover letter</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <TextSettings>
                 <TextSelection>0,0</TextSelection>
@@ -33,7 +61,7 @@
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>99,0</TextSelection>
+                        <TextSelection>0,99</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="3459DF35-B75F-43AE-A0F6-8017AC3FF1DA" Type="Text" Created="2020-05-11 00:53:48 -0400" Modified="2020-05-11 00:54:54 -0400">
@@ -485,15 +513,15 @@
         </StatusItems>
     </StatusSettings>
     <ProjectTargets Notify="No">
-        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2013-04-02 02:21:51 -0400" IgnoreDeadline="Yes">14000</DraftTarget>
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2013-04-02 02:21:51 -0400" IgnoreDeadline="Yes">8000</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="486" Characters="2993" Date="2020-05-11 00:53:46 -0400"></PreviousSession>
+        <PreviousSession Words="0" Characters="0" Date="2020-05-19 23:29:38 -0400"></PreviousSession>
     </ProjectTargets>
-    <RecentWritingHistory Date="2020-05-11 00:53:48 -0400">
-        <DraftWordCount>486</DraftWordCount>
-        <DraftCharCount>2993</DraftCharCount>
+    <RecentWritingHistory Date="2020-05-20 00:00:00 -0400">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>0</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
-    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+    <PrintSettings PaperSize="611.999975,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>

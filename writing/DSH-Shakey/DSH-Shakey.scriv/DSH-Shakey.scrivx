@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrivenerProject Identifier="F254A139-66D4-4914-8FBD-E2BC864528E8" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2020-05-30 18:25:31 -0400" ModID="E9EDFA25-1AFB-4206-80AB-02693292860C">
+    <Binder>
+        <BinderItem UUID="715766CA-DB75-4981-8B6C-398B4AC12DEE" Type="Text" Created="2018-09-23 16:43:28 -0400" Modified="2020-05-28 03:02:14 -0400">
+            <Title>Journal standards</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>890,0</TextSelection>
+            </TextSettings>
+        </BinderItem>
+        <BinderItem UUID="72DD8816-8B74-40EB-8A64-350BCCA1350F" Type="Text" Created="2018-10-14 17:03:58 -0400" Modified="2018-10-14 21:56:24 -0400">
+            <Title>abstract</Title>
+            <MetaData>
+                <LabelID>3</LabelID>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>0,1296</TextSelection>
+            </TextSettings>
+        </BinderItem>
+        <BinderItem UUID="DDF8AC31-4A85-4C8C-AE97-38C38E121C00" Type="DraftFolder" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+            <Title>Draft</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem UUID="EF09D897-602D-4EDA-8E1A-45F79C924224" Type="Text" Created="2018-10-05 20:15:22 -0400" Modified="2018-10-14 17:04:06 -0400">
+                    <Title>TITLE</Title>
+                    <MetaData>
+                        <LabelID>5</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>120,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="3459DF35-B75F-43AE-A0F6-8017AC3FF1DA" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2020-05-28 02:55:08 -0400">
+                    <Title>Introduction</Title>
+                    <MetaData>
+                        <SectionType>65B38BE1-D816-4AD3-ACC5-AA4166318137</SectionType>
+                        <LabelID>5</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="950B46B3-94EE-4F06-88A0-00F4C98A84C7" Type="Text" Created="2018-09-27 17:19:20 -0400" Modified="2020-05-28 02:57:30 -0400">
+                            <Title>introduction</Title>
+                            <MetaData>
+                                <LabelID>3</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1552,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="D66D9686-8B32-4F9B-B882-04B7440359C3" Type="Text" Created="2020-05-28 02:57:49 -0400" Modified="2020-05-28 02:57:58 -0400">
+                            <Title>Shakespeare's genres</Title>
+                            <MetaData>
+                                <LabelID>1</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="0D133B07-CE0F-4EA2-8609-7F20392E370B" Type="Text" Created="2020-05-28 02:57:07 -0400" Modified="2020-05-28 02:57:37 -0400">
+                            <Title>plays as networks</Title>
+                            <MetaData>
+                                <LabelID>2</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>503,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="B7A345B7-DF64-4E0B-8047-68209EBFF871" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-10-14 16:12:20 -0400">
+                    <Title>Methods</Title>
+                    <MetaData>
+                        <LabelID>5</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="4AA3097F-DCDB-4D6F-8B3A-6B6B7DE334C2" Type="Text" Created="2018-09-27 18:06:21 -0400" Modified="2018-10-14 21:50:35 -0400">
+                            <Title>TEI parser</Title>
+                            <MetaData>
+                                <LabelID>5</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1006,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="C1F3DC14-48B1-4C57-B471-29417A6B1B00" Type="Text" Created="2018-09-23 20:03:01 -0400" Modified="2018-10-14 15:49:34 -0400">
+                            <Title>classifiers</Title>
+                            <MetaData>
+                                <LabelID>3</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>1193,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="D0C9220C-EF58-49CC-83C9-32CBC43E354B" Type="Text" Created="2018-09-23 20:13:10 -0400" Modified="2018-10-14 16:56:13 -0400">
+                    <Title>Findings</Title>
+                    <MetaData>
+                        <LabelID>3</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="5675265B-F456-4D4B-AFEB-FCD9C2E9D49A" Type="Text" Created="2018-10-08 15:51:19 -0400" Modified="2018-10-14 16:13:58 -0400">
+                            <Title>genres</Title>
+                            <MetaData>
+                                <LabelID>5</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>756,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="28E2CE93-6D02-4410-B342-34CC5493C23C" Type="Text" Created="2018-10-08 15:51:31 -0400" Modified="2018-10-14 16:21:31 -0400">
+                            <Title>comedies</Title>
+                            <MetaData>
+                                <LabelID>3</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem UUID="DD409DBC-8CDF-461E-966A-04B20D1CA180" Type="Text" Created="2018-10-05 21:24:23 -0400" Modified="2018-10-14 16:21:34 -0400">
+                                    <Title>comedies</Title>
+                                    <MetaData>
+                                        <LabelID>3</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>752,0</TextSelection>
+                                    </TextSettings>
+                                    <Children>
+                                        <BinderItem UUID="EE1FC9D6-BA2B-4814-A5CD-F73002C600E1" Type="Text" Created="2018-09-30 00:06:37 -0400" Modified="2018-10-08 21:58:40 -0400">
+                                            <Title>math figure</Title>
+                                            <MetaData>
+                                                <LabelID>3</LabelID>
+                                                <IncludeInCompile>Yes</IncludeInCompile>
+                                            </MetaData>
+                                            <TextSettings>
+                                                <TextSelection>17,0</TextSelection>
+                                            </TextSettings>
+                                        </BinderItem>
+                                    </Children>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem UUID="08A607AC-12DE-433E-AF96-3509C21297DF" Type="Text" Created="2018-10-08 15:51:33 -0400" Modified="2018-10-14 16:13:16 -0400">
+                            <Title>non-comedies</Title>
+                            <MetaData>
+                                <LabelID>5</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem UUID="FA712601-84C1-4E60-95D0-37A610EACE77" Type="Text" Created="2018-10-05 21:27:31 -0400" Modified="2018-10-14 16:13:16 -0400">
+                                    <Title>history/tragedy ambiguity</Title>
+                                    <MetaData>
+                                        <LabelID>5</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>300,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="F1220AB2-521C-4064-B8C4-CA2DAD321BF4" Type="Text" Created="2018-10-05 21:24:42 -0400" Modified="2018-10-14 16:13:16 -0400">
+                                    <Title>histories</Title>
+                                    <MetaData>
+                                        <LabelID>5</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>38,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="C3A9E2A1-484B-411C-B9E7-F5A2B62B4A31" Type="Text" Created="2018-10-05 21:24:50 -0400" Modified="2018-10-14 21:56:18 -0400">
+                                    <Title>tragedies</Title>
+                                    <MetaData>
+                                        <LabelID>5</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>38,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="ABEA08E5-4610-4651-8490-77A1B4D6FFEC" Type="Text" Created="2018-10-10 17:59:25 -0400" Modified="2018-10-14 16:13:16 -0400">
+                                    <Title>hamlet node</Title>
+                                    <MetaData>
+                                        <LabelID>5</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>951,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                        <BinderItem UUID="2861D343-B10E-44A2-8567-644718997189" Type="Text" Created="2018-10-08 15:51:35 -0400" Modified="2018-10-14 16:56:10 -0400">
+                            <Title>problems</Title>
+                            <MetaData>
+                                <LabelID>3</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                            <Children>
+                                <BinderItem UUID="44A49D0F-C015-45EC-A377-04AA549FF34B" Type="Text" Created="2018-10-08 21:26:17 -0400" Modified="2018-10-14 16:56:06 -0400">
+                                    <Title>there are problems</Title>
+                                    <MetaData>
+                                        <LabelID>3</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>665,185</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="9A290DEF-D46C-42D2-9DE6-CA6E4FE48695" Type="Text" Created="2018-10-10 18:12:59 -0400" Modified="2018-10-14 16:48:36 -0400">
+                                    <Title>Roman plays</Title>
+                                    <MetaData>
+                                        <LabelID>5</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>454,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="DCC1E111-80EC-4FE5-AC88-F0636F4CB97E" Type="Text" Created="2018-10-10 18:17:19 -0400" Modified="2018-10-14 16:13:42 -0400">
+                                    <Title>problem, romance</Title>
+                                    <MetaData>
+                                        <LabelID>5</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>295,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="F2207DBB-9D16-4CC7-B256-D9FDF5ADE5CF" Type="Text" Created="2018-09-23 20:04:04 -0400" Modified="2018-10-14 21:56:18 -0400">
+                                    <Title>Cymbeline</Title>
+                                    <MetaData>
+                                        <LabelID>5</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>0,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                                <BinderItem UUID="1E519797-97A0-4474-A2AE-FA447A2588DE" Type="Text" Created="2018-09-23 20:13:04 -0400" Modified="2018-10-14 16:13:42 -0400">
+                                    <Title>Winter's Tale</Title>
+                                    <MetaData>
+                                        <LabelID>5</LabelID>
+                                        <IncludeInCompile>Yes</IncludeInCompile>
+                                    </MetaData>
+                                    <TextSettings>
+                                        <TextSelection>1298,0</TextSelection>
+                                    </TextSettings>
+                                </BinderItem>
+                            </Children>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="46DC9C7F-C12F-4039-AECE-3F50E817499A" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-10-14 16:13:47 -0400">
+                    <Title>Conclusion</Title>
+                    <MetaData>
+                        <LabelID>5</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="621F18D0-FBDC-4F8D-AE43-DB7152F8A8F1" Type="Text" Created="2018-10-08 22:18:44 -0400" Modified="2018-10-14 16:13:47 -0400">
+                            <Title>conclusion</Title>
+                            <MetaData>
+                                <LabelID>5</LabelID>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>610,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="59357DED-BA22-421E-A348-12FE5CF5E884" Type="Text" Created="2018-09-30 00:42:33 -0400" Modified="2020-05-28 03:02:28 -0400">
+            <Title>Works Cited (18/40)</Title>
+            <MetaData>
+                <LabelID>3</LabelID>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>1622,24</TextSelection>
+            </TextSettings>
+        </BinderItem>
+        <BinderItem UUID="D6E7AB84-B725-416C-B2BE-70320E9FA3D3" Type="ResearchFolder" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+            <Title>Research</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem UUID="B66EBA1B-B2E1-4E9A-B19B-1C81C7BED3BB" Type="Text" Created="2018-09-23 20:13:55 -0400" Modified="2018-10-09 13:34:37 -0400">
+                    <Title>social networks rock</Title>
+                    <MetaData>
+                        <LabelID>1</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>33,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="65ECFCE4-B83C-4879-BC1E-E00E74F4F502" Type="Text" Created="2018-10-08 15:26:29 -0400" Modified="2018-10-08 15:41:05 -0400">
+                    <Title>doubling</Title>
+                    <MetaData>
+                        <LabelID>1</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>248,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="7808641C-5871-4392-AD06-6A7E580DA982" Type="Text" Created="2018-10-05 20:47:24 -0400" Modified="2018-10-05 20:51:46 -0400">
+                    <Title>first intro draft</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>1460,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="6D16B108-EBEF-4B9C-A9BC-574D623CF418" Type="Text" Created="2018-09-29 20:17:06 -0400" Modified="2018-10-05 21:49:41 -0400">
+                    <Title>microanalysis</Title>
+                    <MetaData>
+                        <LabelID>6</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>121,551</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="A91E6F21-3F50-4A62-9A1E-678CDEEFEB13" Type="Text" Created="2018-10-03 22:39:11 -0400" Modified="2018-10-03 23:29:12 -0400">
+                    <Title>Questions to readers:</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>247,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="107AFE45-20D7-4220-BAE2-1EF5363E4B54" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-30 00:46:39 -0400">
+                    <Title>Works Cited</Title>
+                    <MetaData>
+                        <LabelID>4</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>523,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="371B9CB6-E720-40E5-BBBA-0FAD3841DE6D" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+                    <Title>Primary Text</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Book (Brown Book).tiff</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="AF76FEE3-CF5C-4A2A-85ED-B1FC1A47433A" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+                            <Title>Interesting Passage</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="E178C43A-001E-4C14-8C4B-1F41E853FF49" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+                    <Title>Secondary Texts</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Books.tif</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="533A7C21-AD67-49BB-AA94-16745A0D9F5B" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 18:35:51 -0400">
+                            <Title>Willa Cather article for comparison</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>222,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="F843BB09-AAC2-4AF8-B57D-DDF48E8D60DD" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-10-04 00:40:57 -0400">
+                            <Title>Wayne, Valerie. "The First Folio’s Arrangement and Its Finale."</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>24,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="82671909-9DA8-4F11-BAFE-F323D922EC73" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-10-04 01:00:10 -0400">
+                            <Title>Wayne, Valerie. Cymbeline ed.</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>27,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="F6A88C62-2FF2-49F5-AE86-5D5626073CDC" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-10-08 23:08:07 -0400">
+                            <Title>Chandler</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>631,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="98E3DF85-7179-4600-8398-A3C348C4BFCB" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+                            <Title>Text 5</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="C037C6D1-505E-4D73-8C08-E34D3454500B" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+                            <Title>Text 6</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                                <IconFileName>Book (Blue Book).tiff</IconFileName>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="0B30F935-4B83-4B15-90B1-1AE2628BE383" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+                    <Title>Stray Thoughts</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Pile of Paper.tif</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                    <Children>
+                        <BinderItem UUID="33B4B91A-323E-41EA-86B2-7DA0B72D97B3" Type="Text" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+                            <Title>Thought</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                    </Children>
+                </BinderItem>
+                <BinderItem UUID="41094D9B-AF68-4735-B03D-BFAD4356A3A8" Type="Text" Created="2018-09-29 18:39:46 -0400" Modified="2018-10-04 03:13:50 -0400">
+                    <Title>Past writing</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>449,194</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="DF2485B6-25A9-4199-B795-E4D1B09BE9BB" Type="Text" Created="2018-10-03 22:31:46 -0400" Modified="2018-10-03 22:32:08 -0400">
+                    <Title>Manisha's thesis</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>385,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="11E162E5-C0E0-4764-B847-727FE9DFD9CB" Type="TrashFolder" Created="2018-09-23 16:43:19 -0400" Modified="2018-09-23 16:43:19 -0400">
+            <Title>Trash</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem UUID="01ECBDE1-E3C2-484C-8426-BF58ED2A2063" Type="Text" Created="2018-10-08 19:04:04 -0400" Modified="2018-10-08 19:14:57 -0400">
+                    <Title>history/tragedy</Title>
+                    <MetaData>
+                        <LabelID>1</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>355,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="189080D9-1EA5-40D0-A89E-C37A15488C90" Type="Text" Created="2018-09-23 20:03:42 -0400" Modified="2018-09-23 20:14:58 -0400">
+                    <Title>Shakespeare</Title>
+                    <MetaData>
+                        <LabelID>1</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="E434903B-072B-480C-AE70-38536313CAFD" Type="Text" Created="2018-09-27 17:49:16 -0400" Modified="2018-09-27 17:49:17 -0400">
+                    <Title>data</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="7D8EB54B-2AB0-43EF-80E0-0791E6D6CB97" Type="Text" Created="2018-09-27 17:49:18 -0400" Modified="2018-09-27 17:49:19 -0400">
+                    <Title>density</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="6C455120-D76C-4C11-88C8-621DD611F8EE" Type="Text" Created="2018-09-27 17:49:20 -0400" Modified="2018-09-27 17:49:24 -0400">
+                    <Title>reciprocity</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="6FB79304-B1C3-4822-B36D-04614C6931B7" Type="Text" Created="2018-09-23 20:01:44 -0400" Modified="2018-09-23 20:14:58 -0400">
+                    <Title>Why: networks encode literary content</Title>
+                    <MetaData>
+                        <LabelID>1</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>81,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="29F2CB35-F529-4143-968E-BB1451B625A5" Type="Text" Created="2018-09-23 20:02:26 -0400" Modified="2018-09-23 20:14:58 -0400">
+                    <Title>What: TEI</Title>
+                    <MetaData>
+                        <LabelID>1</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>38,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="D8590ABB-7822-458F-A045-BBA8A9A61AFA" Type="Text" Created="2018-09-27 17:48:34 -0400" Modified="2018-09-27 17:48:36 -0400">
+                    <Title>Outline</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="E354B389-BFBE-46C3-B34E-826F34E43D7F" Type="Text" Created="2018-09-23 20:02:55 -0400" Modified="2018-09-23 20:14:58 -0400">
+                    <Title>TEI parser</Title>
+                    <MetaData>
+                        <LabelID>1</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="7D42D88E-96AF-446C-B536-12771795B46B" Type="Text" Created="2018-09-23 20:13:33 -0400" Modified="2018-09-29 20:15:01 -0400">
+                    <Title>macroanalysis</Title>
+                    <MetaData>
+                        <LabelID>1</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="92BB0C97-C4FF-4A39-A606-B76602C940C1" Type="Text" Created="2018-09-23 20:13:51 -0400" Modified="2018-09-23 20:14:58 -0400">
+                    <Title>future work</Title>
+                    <MetaData>
+                        <LabelID>1</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="9C592A88-7A7B-4269-A24F-EA536898B3BB" Type="Text" Created="2018-09-29 20:17:45 -0400" Modified="2018-09-29 20:17:55 -0400">
+                    <Title>density</Title>
+                    <MetaData>
+                        <LabelID>1</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="EE7C4BB5-332A-4DCA-BDD1-9226F7C3501D" Type="Text" Created="2018-09-27 17:49:53 -0400" Modified="2018-09-27 18:00:55 -0400">
+                    <Title>reciprocity</Title>
+                    <MetaData>
+                        <LabelID>1</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="28BCB3A2-D2BE-49B2-956B-5594D2805A6D" Type="Text" Created="2018-10-04 01:41:36 -0400" Modified="2018-10-05 18:14:51 -0400">
+                    <Title>we're not idiots</Title>
+                    <MetaData>
+                        <LabelID>2</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="9D7371F8-760E-4B07-A6E4-EE4D1E0191D2" Type="Text" Created="2018-10-05 21:24:54 -0400" Modified="2018-10-05 21:24:59 -0400">
+                    <Title>genres</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="2D27AD73-E616-411B-B5BC-A4DFCAFD473B" Type="Text" Created="2018-09-27 18:01:01 -0400" Modified="2018-10-05 21:53:02 -0400">
+                    <Title>Algee-Hewitt</Title>
+                    <MetaData>
+                        <LabelID>6</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="4BF98C2B-A0D6-4192-A68F-9D891036F0A2" Type="Text" Created="2018-10-05 21:49:29 -0400" Modified="2018-10-05 21:49:49 -0400">
+                    <Title>case studies</Title>
+                    <MetaData>
+                        <LabelID>1</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="94E78420-57E1-468E-9E39-7BE9F9C99D4E" Type="Text" Created="2018-10-10 17:47:30 -0400" Modified="2018-10-10 17:47:36 -0400">
+                    <Title>Roman plays</Title>
+                    <MetaData>
+                        <LabelID>1</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+    </Binder>
+    <Collections>
+        <Collection Type="Binder" ID="2ADB1FE9-600E-4883-B3B5-0FCF086C1384" Color="0.924849 0.924014 0.949681">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="5F019618-106D-4CE6-B387-20FB66CFFD0F" Color="0.922176 0.818589 0.999618">
+            <Title>Search Results</Title>
+        </Collection>
+    </Collections>
+    <SectionTypes>
+        <TypeDefinitions>
+            <Type ID="4AF14A4D-F0D7-4DFC-9999-85B07C6067A8">Heading</Type>
+            <Type ID="8F647135-24BA-4782-A4FE-9DFFA6E3D3C9">Sub-Heading</Type>
+            <Type ID="65B38BE1-D816-4AD3-ACC5-AA4166318137">Section</Type>
+        </TypeDefinitions>
+        <LevelTypes>
+            <Folders>
+                <Type>4AF14A4D-F0D7-4DFC-9999-85B07C6067A8</Type>
+            </Folders>
+            <Containers>
+                <Type>65B38BE1-D816-4AD3-ACC5-AA4166318137</Type>
+            </Containers>
+            <Files>
+                <Type>65B38BE1-D816-4AD3-ACC5-AA4166318137</Type>
+            </Files>
+        </LevelTypes>
+    </SectionTypes>
+    <LabelSettings>
+        <Title>Label</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="1" Color="1.0 0.348023 0.657259">to do</Label>
+            <Label ID="2" Color="0.574601 0.468969 1.0">in progress</Label>
+            <Label ID="3" Color="0.361643 0.792023 1.0">ready for feedback</Label>
+            <Label ID="5" Color="0.702319 0.888276 0.974252">passed feedback</Label>
+            <Label ID="6" Color="0.235877 0.300883 0.998383">feedback to implement</Label>
+            <Label ID="4" Color="0.746827 1.0 0.862986">polished</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+            <Status ID="0">To Do</Status>
+            <Status ID="1">First Draft</Status>
+            <Status ID="2">Revised Draft</Status>
+            <Status ID="3">Final Draft</Status>
+            <Status ID="4">Done</Status>
+        </StatusItems>
+    </StatusSettings>
+    <ProjectTargets Notify="Yes">
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2018-10-14 02:21:51 -0400" IgnoreDeadline="No">7000</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">250</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2020-05-30 14:56:22 -0400"></PreviousSession>
+    </ProjectTargets>
+    <RecentWritingHistory Date="2020-05-30 00:00:00 -0400">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>0</DraftCharCount>
+        <OtherWordCount>0</OtherWordCount>
+        <OtherCharCount>0</OtherCharCount>
+    </RecentWritingHistory>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScrivenerProject>

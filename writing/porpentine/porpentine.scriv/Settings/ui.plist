@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NotesScaleFactor</key>
+	<real>1.5</real>
 	<key>binderSelection</key>
 	<array>
 		<integer>0</integer>
@@ -10,8 +12,8 @@
 	<true/>
 	<key>binderSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {191, 550}}</string>
-		<string>{{192, 0}, {708, 550}}</string>
+		<string>{{0, 0}, {235, 550}}</string>
+		<string>{{236, 0}, {892, 550}}</string>
 	</array>
 	<key>binderState</key>
 	<array>
@@ -32,8 +34,18 @@
 	<true/>
 	<key>editorSplitType</key>
 	<integer>0</integer>
+	<key>fullScreenTextEditorSettings</key>
+	<dict>
+		<key>textScaleFactor</key>
+		<real>1.25</real>
+	</dict>
 	<key>inspectorIsCollapsed</key>
 	<true/>
+	<key>inspectorSplitFrames</key>
+	<array>
+		<string>{{0, 0}, {664, 520}}</string>
+		<string>{{665, 0}, {227, 520}}</string>
+	</array>
 	<key>inspectorWidth</key>
 	<real>227</real>
 	<key>mainDocumentEditor.binderDocuments</key>
@@ -42,6 +54,11 @@
 	</array>
 	<key>mainDocumentEditor.currentEditorViewMode</key>
 	<integer>1</integer>
+	<key>mainDocumentEditor.dockedQRTextSettings</key>
+	<dict>
+		<key>textScaleFactor</key>
+		<real>1.5</real>
+	</dict>
 	<key>mainDocumentEditor.editorGroupsViewMode</key>
 	<integer>1</integer>
 	<key>mainDocumentEditor.hiddenOutlinerColumnIdentifiers</key>
@@ -63,6 +80,654 @@
 		<string>totalProgress</string>
 		<string>sectionType</string>
 	</array>
+	<key>mainDocumentEditor.navigationHistory</key>
+	<dict>
+		<key>CurrentIndex</key>
+		<integer>74</integer>
+		<key>NavigationHistoryArray</key>
+		<array>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>DDF8AC31-4A85-4C8C-AE97-38C38E121C00</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>D6E7AB84-B725-416C-B2BE-70320E9FA3D3</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>3459DF35-B75F-43AE-A0F6-8017AC3FF1DA</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>3459DF35-B75F-43AE-A0F6-8017AC3FF1DA</string>
+					<string>B7A345B7-DF64-4E0B-8047-68209EBFF871</string>
+					<string>46DC9C7F-C12F-4039-AECE-3F50E817499A</string>
+					<string>107AFE45-20D7-4220-BAE2-1EF5363E4B54</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>C429039C-9A1B-4E78-AF37-04BC1D1B1F57</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{8, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>C429039C-9A1B-4E78-AF37-04BC1D1B1F57</string>
+					<string>0B30F935-4B83-4B15-90B1-1AE2628BE383</string>
+					<string>371B9CB6-E720-40E5-BBBA-0FAD3841DE6D</string>
+					<string>E178C43A-001E-4C14-8C4B-1F41E853FF49</string>
+					<string>553009BE-A65F-4F92-AB8B-B205631E69A6</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{99, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>DDF8AC31-4A85-4C8C-AE97-38C38E121C00</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>B7A345B7-DF64-4E0B-8047-68209EBFF871</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>3459DF35-B75F-43AE-A0F6-8017AC3FF1DA</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>DDF8AC31-4A85-4C8C-AE97-38C38E121C00</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>3459DF35-B75F-43AE-A0F6-8017AC3FF1DA</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>57F06B2D-6FA2-4CB2-90EA-F90439491D73</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>3459DF35-B75F-43AE-A0F6-8017AC3FF1DA</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>24773160-7075-43FC-B053-317FBD541F16</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>FD98E086-F957-4DE2-BE07-CA6802521E36</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>24773160-7075-43FC-B053-317FBD541F16</string>
+					<string>FD98E086-F957-4DE2-BE07-CA6802521E36</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>B7A345B7-DF64-4E0B-8047-68209EBFF871</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>EEF158C6-3E5D-4965-9CE3-D55205351C6F</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>178A5AE6-720E-4313-8375-9CF94B21B3BE</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>261FE313-184D-4A10-8CE1-42DC21E0522F</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>46DC9C7F-C12F-4039-AECE-3F50E817499A</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>208EE059-8904-4AC1-B6DD-205C9D87288E</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>236AC8F8-C5D2-4B34-861D-1239117581A7</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>B7A345B7-DF64-4E0B-8047-68209EBFF871</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>236AC8F8-C5D2-4B34-861D-1239117581A7</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>208EE059-8904-4AC1-B6DD-205C9D87288E</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>BD4BE1A6-70AC-49B2-881D-7DB4E4772921</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>2D8E2FD3-9BA3-46AC-BE4A-07D921654F81</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>72124A2B-B5BB-4264-ADA9-D1F83BB83906</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>1BF4EFD7-1CBE-4574-9069-25FDE4548377</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>2D8E2FD3-9BA3-46AC-BE4A-07D921654F81</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>1BF4EFD7-1CBE-4574-9069-25FDE4548377</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>72124A2B-B5BB-4264-ADA9-D1F83BB83906</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>1BF4EFD7-1CBE-4574-9069-25FDE4548377</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>107AFE45-20D7-4220-BAE2-1EF5363E4B54</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>6D0A5AEF-E954-4B2B-914F-8BEAD4FF955B</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>1BF4EFD7-1CBE-4574-9069-25FDE4548377</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>6D0A5AEF-E954-4B2B-914F-8BEAD4FF955B</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>1BF4EFD7-1CBE-4574-9069-25FDE4548377</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>6D0A5AEF-E954-4B2B-914F-8BEAD4FF955B</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>D4A79246-46B5-48A0-AA48-88CB983AA0AD</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>6D0A5AEF-E954-4B2B-914F-8BEAD4FF955B</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>445796DE-F684-4F6D-87E2-CDBB36D8BE68</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>107AFE45-20D7-4220-BAE2-1EF5363E4B54</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>D88FDB7D-788D-4A5C-8D81-630EB4D93F69</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>54798480-C350-4B63-8379-3B7F01A09AC7</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>D88FDB7D-788D-4A5C-8D81-630EB4D93F69</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>D4A79246-46B5-48A0-AA48-88CB983AA0AD</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>107AFE45-20D7-4220-BAE2-1EF5363E4B54</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>4E0B9933-B67C-48C6-A384-510200C29DD2</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>75BA943D-4A6D-401F-AD39-91BA34474963</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>8110D6AC-1190-4391-8AC9-5F4F92F99A13</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>553009BE-A65F-4F92-AB8B-B205631E69A6</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>8110D6AC-1190-4391-8AC9-5F4F92F99A13</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>8110D6AC-1190-4391-8AC9-5F4F92F99A13</string>
+					<string>75BA943D-4A6D-401F-AD39-91BA34474963</string>
+					<string>4E0B9933-B67C-48C6-A384-510200C29DD2</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>553009BE-A65F-4F92-AB8B-B205631E69A6</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>C429039C-9A1B-4E78-AF37-04BC1D1B1F57</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>0B30F935-4B83-4B15-90B1-1AE2628BE383</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>371B9CB6-E720-40E5-BBBA-0FAD3841DE6D</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>FCDF5615-90C6-4C9B-AE3F-14F471A44E21</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>1AF8C46F-9929-4E1D-A1B6-454E24073AAA</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>57F06B2D-6FA2-4CB2-90EA-F90439491D73</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>FCDF5615-90C6-4C9B-AE3F-14F471A44E21</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>DDF8AC31-4A85-4C8C-AE97-38C38E121C00</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>FCDF5615-90C6-4C9B-AE3F-14F471A44E21</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>1AF8C46F-9929-4E1D-A1B6-454E24073AAA</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>644FDB25-047E-4262-8CE8-A5DE0496E93C</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>1AF8C46F-9929-4E1D-A1B6-454E24073AAA</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>FCDF5615-90C6-4C9B-AE3F-14F471A44E21</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>644FDB25-047E-4262-8CE8-A5DE0496E93C</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>FCDF5615-90C6-4C9B-AE3F-14F471A44E21</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>2C46BACC-A885-4890-B850-9FD71E7D0F5F</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>AggregateSelection</key>
+				<string>{0, 0}</string>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>FCDF5615-90C6-4C9B-AE3F-14F471A44E21</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>2C46BACC-A885-4890-B850-9FD71E7D0F5F</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>AA7612CD-4D61-4A63-9399-121079C06389</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+		</array>
+	</dict>
 	<key>mainDocumentEditor.outlinerColumnsState</key>
 	<dict>
 		<key>order</key>
@@ -127,20 +792,23 @@
 		</dict>
 	</dict>
 	<key>mainDocumentEditor.scrollRect</key>
-	<string>{{0, 0}, {566.40002, 376.79999}}</string>
+	<string>{{0, 0}, {442.66666666666669, 309.33333333333331}}</string>
 	<key>mainDocumentEditor.selectedRanges</key>
 	<string>{0, 0}</string>
+	<key>mainDocumentEditor.selectedTextRanges</key>
+	<string>79,0</string>
 	<key>mainDocumentEditor.textEditorState</key>
 	<dict>
-		<key>hasMultiplePages</key>
-		<false/>
-		<key>textScale</key>
-		<integer>125</integer>
-		<key>usesFacingPages</key>
-		<false/>
+		<key>textScaleFactor</key>
+		<real>1.5</real>
 	</dict>
 	<key>mainWindowFrame</key>
-	<string>100 244 900 572 0 0 1440 877 </string>
+	<string>51 158 1128 572 0 0 1440 878 </string>
+	<key>supportingDocumentEditor.dockedQRTextSettings</key>
+	<dict>
+		<key>textScaleFactor</key>
+		<real>1.5</real>
+	</dict>
 	<key>supportingDocumentEditor.hiddenOutlinerColumnIdentifiers</key>
 	<array>
 		<string>createdDate</string>
@@ -161,9 +829,14 @@
 		<string>sectionType</string>
 	</array>
 	<key>supportingDocumentEditor.scrollRect</key>
-	<string>{{0, 0}, {621, 304}}</string>
+	<string>{{0, 0}, {620, 294}}</string>
 	<key>supportingDocumentEditor.selectedItemIDs</key>
 	<array/>
+	<key>supportingDocumentEditor.textEditorState</key>
+	<dict>
+		<key>textScaleFactor</key>
+		<real>1.5</real>
+	</dict>
 	<key>supportingDocumentViewIsCurrent</key>
 	<false/>
 </dict>

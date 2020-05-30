@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="B1A36660-BB57-4371-94D0-BFA6F81857C5" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2020-05-08 03:01:51 -0400" ModID="EFABE530-5737-45DF-97E4-02D6DC5DA9A0">
+<ScrivenerProject Identifier="B1A36660-BB57-4371-94D0-BFA6F81857C5" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2020-05-28 02:25:45 -0400" ModID="4647CA49-4C42-4CCE-8A7B-29DFDE4E3482">
     <Binder>
         <BinderItem UUID="1AF8C46F-9929-4E1D-A1B6-454E24073AAA" Type="Text" Created="2019-11-21 20:31:29 -0500" Modified="2020-01-18 21:36:45 -0500">
             <Title>Abstract - 170 wds</Title>
@@ -11,14 +11,34 @@
                 <TextSelection>913,0</TextSelection>
             </TextSettings>
         </BinderItem>
-        <BinderItem UUID="410F326C-A318-4111-8447-F162B56AEA1E" Type="Text" Created="2020-04-07 23:55:18 -0400" Modified="2020-05-08 03:01:51 -0400">
-            <Title>CSECS 2020</Title>
+        <BinderItem UUID="E86CA9CE-36E0-40A3-B670-A855CD89DAEE" Type="Text" Created="2020-05-28 02:23:31 -0400" Modified="2020-05-28 02:23:35 -0400">
+            <Title>journal guidelines</Title>
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <TextSettings>
-                <TextSelection>908,0</TextSelection>
+                <TextSelection>0,0</TextSelection>
             </TextSettings>
+            <Children>
+                <BinderItem UUID="6735FF3D-568D-4A1A-85D7-EFB34A813C8D" Type="Text" Created="2020-05-28 02:23:35 -0400" Modified="2020-05-28 02:25:18 -0400">
+                    <Title>Novel</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>199,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="5FA9252F-FCFC-4B1D-88C8-6FFBC0A97C36" Type="Text" Created="2020-05-28 02:23:37 -0400" Modified="2020-05-28 02:25:45 -0400">
+                    <Title>ECF</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
         </BinderItem>
         <BinderItem UUID="DDF8AC31-4A85-4C8C-AE97-38C38E121C00" Type="DraftFolder" Created="2019-11-21 20:31:29 -0500" Modified="2020-01-17 18:03:10 -0500">
             <Title>Second Draft</Title>
@@ -993,6 +1013,15 @@
                 </BinderItem>
             </Children>
         </BinderItem>
+        <BinderItem UUID="410F326C-A318-4111-8447-F162B56AEA1E" Type="Text" Created="2020-04-07 23:55:18 -0400" Modified="2020-05-08 03:01:51 -0400">
+            <Title>CSECS 2020</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>908,0</TextSelection>
+            </TextSettings>
+        </BinderItem>
         <BinderItem UUID="11E162E5-C0E0-4764-B847-727FE9DFD9CB" Type="TrashFolder" Created="2019-11-21 20:31:29 -0500" Modified="2019-11-21 20:31:29 -0500">
             <Title>Trash</Title>
             <MetaData>
@@ -1073,13 +1102,13 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2013-04-02 02:21:51 -0400" IgnoreDeadline="Yes">8000</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2020-05-08 03:01:13 -0400"></PreviousSession>
+        <PreviousSession Words="0" Characters="0" Date="2020-05-28 02:16:54 -0400"></PreviousSession>
     </ProjectTargets>
-    <RecentWritingHistory Date="2020-05-08 00:00:00 -0400">
+    <RecentWritingHistory Date="2020-05-28 00:00:00 -0400">
         <DraftWordCount>0</DraftWordCount>
         <DraftCharCount>0</DraftCharCount>
-        <OtherWordCount>-67</OtherWordCount>
-        <OtherCharCount>-519</OtherCharCount>
+        <OtherWordCount>49</OtherWordCount>
+        <OtherCharCount>276</OtherCharCount>
     </RecentWritingHistory>
-    <PrintSettings PaperSize="611.999975,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>

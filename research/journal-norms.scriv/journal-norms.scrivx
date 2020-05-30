@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="B93C6D19-2A8A-4F15-A302-B1943F7D7B28" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2020-05-08 03:16:03 -0400" ModID="FC75F325-77E3-4650-AF82-B3C16AC75D7C">
+<ScrivenerProject Identifier="B93C6D19-2A8A-4F15-A302-B1943F7D7B28" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2020-05-28 03:01:38 -0400" ModID="088A63E5-A572-43F3-B879-3DAAC34D8081">
     <Binder>
         <BinderItem UUID="7A583553-3A84-40D6-B9B9-0430B8CD3E39" Type="DraftFolder" Created="2020-05-07 02:49:44 -0400" Modified="2020-05-07 02:52:57 -0400">
             <Title>Eighteenth Century Fiction</Title>
@@ -102,24 +102,44 @@
                 <TextSelection>92,0</TextSelection>
             </TextSettings>
         </BinderItem>
-        <BinderItem UUID="7DCD7E65-E260-4ADD-A653-0D08F09BFEF0" Type="Text" Created="2020-05-07 02:54:57 -0400" Modified="2020-05-08 03:16:01 -0400">
+        <BinderItem UUID="7DCD7E65-E260-4ADD-A653-0D08F09BFEF0" Type="Text" Created="2020-05-07 02:54:57 -0400" Modified="2020-05-28 02:30:53 -0400">
             <Title>Digital Scholarship in the Humanities (DSH)</Title>
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
                 <IconFileName>Book (Composition).tiff</IconFileName>
             </MetaData>
             <TextSettings>
-                <TextSelection>0,0</TextSelection>
+                <TextSelection>111,0</TextSelection>
             </TextSettings>
+            <Children>
+                <BinderItem UUID="041710B7-AF11-4AC7-BB77-CE3A57F4A20E" Type="Text" Created="2020-05-28 02:30:51 -0400" Modified="2020-05-28 02:33:49 -0400">
+                    <Title>number of citations</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>416,29</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="A8331FD3-A35B-4508-B94E-EB65FA5960FA" Type="Text" Created="2020-05-28 02:39:31 -0400" Modified="2020-05-28 02:54:32 -0400">
+                    <Title>article structures</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>572,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
         </BinderItem>
-        <BinderItem UUID="CFCE7C93-90D3-4A47-A268-F8F82CEA5BB0" Type="Text" Created="2020-05-07 02:54:57 -0400" Modified="2020-05-07 02:55:20 -0400">
-            <Title>Journal-5</Title>
+        <BinderItem UUID="CFCE7C93-90D3-4A47-A268-F8F82CEA5BB0" Type="Text" Created="2020-05-07 02:54:57 -0400" Modified="2020-05-11 01:08:23 -0400">
+            <Title>Pedagogy</Title>
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
                 <IconFileName>Book (Composition).tiff</IconFileName>
             </MetaData>
             <TextSettings>
-                <TextSelection>0,0</TextSelection>
+                <TextSelection>98,0</TextSelection>
             </TextSettings>
         </BinderItem>
         <BinderItem UUID="C7FB7A02-FEAA-47DE-B5D0-0CA6B1AE772F" Type="Text" Created="2020-05-07 02:54:57 -0400" Modified="2020-05-07 02:55:20 -0400">
@@ -213,13 +233,13 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="Yes" Deadline="2011-04-12 08:24:39 -0400" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="No" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2020-05-08 03:15:36 -0400"></PreviousSession>
+        <PreviousSession Words="0" Characters="0" Date="2020-05-28 02:58:52 -0400"></PreviousSession>
     </ProjectTargets>
-    <RecentWritingHistory Date="2020-05-08 00:00:00 -0400">
+    <RecentWritingHistory Date="2020-05-28 00:00:00 -0400">
         <DraftWordCount>0</DraftWordCount>
         <DraftCharCount>0</DraftCharCount>
-        <OtherWordCount>0</OtherWordCount>
-        <OtherCharCount>0</OtherCharCount>
+        <OtherWordCount>356</OtherWordCount>
+        <OtherCharCount>1940</OtherCharCount>
     </RecentWritingHistory>
-    <PrintSettings PaperSize="611.999975,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>
