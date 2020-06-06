@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="BC5D3A33-36A9-4A0F-9649-8A112B2698DF" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2020-05-07 04:05:39 -0400" ModID="E34275CF-6367-4564-BB70-90ECE4827876">
+<ScrivenerProject Identifier="BC5D3A33-36A9-4A0F-9649-8A112B2698DF" Version="2.0" Creator="SCRMAC-3.0.2-1506" Device="The-Enterprise-2" Author="Lawrence Evalyn" Modified="2020-06-01 12:52:25 -0400" ModID="DE5E7AA2-8E1D-47D2-A69A-55245DDADF69">
     <Binder>
         <BinderItem UUID="043D9B6B-FB35-4879-B62B-870533D0FC75" Type="DraftFolder" Created="2016-09-02 12:26:45 -0400" Modified="2018-02-08 00:04:49 -0500">
             <Title>Notes to Self</Title>
@@ -29,6 +29,15 @@ The term “public humanities” has emerged to describe an urgent task of human
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <Children>
+                        <BinderItem UUID="F824F5F7-8ABA-49A7-9391-B6ADAC9AD147" Type="Text" Created="2020-06-01 12:51:28 -0400" Modified="2020-06-01 12:52:25 -0400">
+                            <Title>Equiano and petitions?</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>170,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
                         <BinderItem UUID="04EC4C5A-5ECA-4EE8-9D30-65E63D002E82" Type="Text" Created="2018-05-15 15:05:00 -0400" Modified="2018-05-15 15:05:18 -0400">
                             <Title>Radcliffe authorship attribution?</Title>
                             <MetaData>
@@ -4255,13 +4264,13 @@ By Samuel Halkett, John Laing, James Kennedy, Dennis E. Rhodes, Anna E. C. Simon
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2013-04-02 02:21:51 -0400" IgnoreDeadline="Yes">75000</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">250</SessionTarget>
-        <PreviousSession Words="22" Characters="110" Date="2020-05-07 04:04:37 -0400"></PreviousSession>
+        <PreviousSession Words="0" Characters="0" Date="2020-06-02 02:38:09 -0400"></PreviousSession>
     </ProjectTargets>
-    <RecentWritingHistory Date="2020-05-07 00:00:00 -0400">
-        <DraftWordCount>22</DraftWordCount>
-        <DraftCharCount>110</DraftCharCount>
+    <RecentWritingHistory Date="2020-06-02 00:00:00 -0400">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>0</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
-    <PrintSettings PaperSize="611.999975,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>

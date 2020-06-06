@@ -31,11 +31,12 @@ Total: 8,294 wds, 19 figs
         <Document ID="33B4B91A-323E-41EA-86B2-7DA0B72D97B3">
             <Title>Thought</Title>
         </Document>
-        <Document ID="0D133B07-CE0F-4EA2-8609-7F20392E370B">
-            <Title>Works Cited (18/40)</Title>
-            <Text>Our mode of abstraction is the network: we model each individual play as a web of speech passing between characters who share a stage. Ours is not the first project to apply social network analysis to literary study. Where we differ from much past work is in our precise focus on linguistic encounters in the space of the stage, rather than rougher metrics like appearance within the same scene. To draw the edges between nodes that make up our networks, we pay close attention to who is on stage, and who can (probably) hear them speak — and how often they speak, how much they speak at once, and whether people speak back to them. Our model of each play thus renders the speech act of the characters as a fundamental “unit” of a play’s script, and our core hypothesis is thus that genre, in drama, will be expressed in the relations between characters.</Text>
-            <Comments>Most obviously, Moretti uses handmade network graphs to examine the plots of three Shakespearean tragedies, and to contrast the structure of chapters in English and Chinese novels (2011). Stiller et al. have shown that social networks in Shakespeare’s plays mirror those of real human interactions, particularly in size, clustering, and maximum degrees of separation (2003). Alberich et al. (2002) and Sparavigna (2013) also discuss the interplay between social and narrative constraints on networks.
-Identifying characters who are on stage but cannot hear a given speech remains elusive: the natural language processing necessary for the task will rely on period-specific language norms that cannot be generalized trans-historically like the rest of our methods. </Comments>
+        <Document ID="9A290DEF-D46C-42D2-9DE6-CA6E4FE48695">
+            <Title>Roman plays</Title>
+            <Text>The “Roman plays” are four tragedies whose ancient Roman settings place them closer to tragedy’s roots in history. We thought our classifier might re-classify them as histories; however, as Table &lt;$n#table:roman-plays&gt; shows, only Antony &amp; Cleopatra, with only one classifier, was designated a history. Instead, this re-classification experiment suggest that closer attention ought to be paid to the small, dense network which makes up Titus Andronicus.
+
+#
+Table &lt;$n:table:roman-plays&gt;: classifications for the “Roman plays.”</Text>
         </Document>
         <Document ID="F6A88C62-2FF2-49F5-AE86-5D5626073CDC">
             <Title>Chandler</Title>
@@ -377,6 +378,12 @@ Roman plays are the point at which we transition from history to tragedy</Text>
             <Title>genres</Title>
             <Text>The ability of the classifier to replicate the First Folio’s designations with substantially greater than random chance supports our initial hypothesis that the genre of a play is expressed in the relations it stages between its characters. The underlying details that drive the classification can also provide a new lens into the specific genres and character staging of of Shakespeare’s works, particularly in the case of plays which are resistant to this mode of classification. Beginning with the clearest results and moving into the realm of more ambiguous interpretation, we will discuss the implications of our classifications for the comedies; the histories and tragedies; and finally, the plays whose First Folio designations have been challenged.</Text>
         </Document>
+        <Document ID="0D133B07-CE0F-4EA2-8609-7F20392E370B">
+            <Title>Works Cited (18/40)</Title>
+            <Text>Our mode of abstraction is the network: we model each individual play as a web of speech passing between characters who share a stage. Ours is not the first project to apply social network analysis to literary study. Where we differ from much past work is in our precise focus on linguistic encounters in the space of the stage, rather than rougher metrics like appearance within the same scene. To draw the edges between nodes that make up our networks, we pay close attention to who is on stage, and who can (probably) hear them speak — and how often they speak, how much they speak at once, and whether people speak back to them. Our model of each play thus renders the speech act of the characters as a fundamental “unit” of a play’s script, and our core hypothesis is thus that genre, in drama, will be expressed in the relations between characters.</Text>
+            <Comments>Most obviously, Moretti uses handmade network graphs to examine the plots of three Shakespearean tragedies, and to contrast the structure of chapters in English and Chinese novels (2011). Stiller et al. have shown that social networks in Shakespeare’s plays mirror those of real human interactions, particularly in size, clustering, and maximum degrees of separation (2003). Alberich et al. (2002) and Sparavigna (2013) also discuss the interplay between social and narrative constraints on networks.
+Identifying characters who are on stage but cannot hear a given speech remains elusive: the natural language processing necessary for the task will rely on period-specific language norms that cannot be generalized trans-historically like the rest of our methods. </Comments>
+        </Document>
         <Document ID="DF2485B6-25A9-4199-B795-E4D1B09BE9BB">
             <Text>Because of the exponential nature of exploring all combinations of all features, we did not do an exhaustive test of all combinations of 4, 5, 6, etc., features. However, we continued testing by adding additional features one by one to well-performing feature sets to see if we could further improve accuracy. After this exploration we found that, with Naïve Bayes, the feature set of Characters, Words, Lines and Path Length provided 86.07% accuracy. Our highest accuracy was with the feature set of Words, Lines, Closeness, Graph Density and Average Weighted Degree provided 88.93% accuracy with SVM. This feature set captures a combination of Extracted, Node, and Graph features, indicating that all are important for accurate genre prediction. 
 </Text>
@@ -411,13 +418,6 @@ The classifiers concur with the First Folio regarding The Tempest, but neither c
         </Document>
         <Document ID="C037C6D1-505E-4D73-8C08-E34D3454500B">
             <Title>Text 6</Title>
-        </Document>
-        <Document ID="9A290DEF-D46C-42D2-9DE6-CA6E4FE48695">
-            <Title>Roman plays</Title>
-            <Text>The “Roman plays” are four tragedies whose ancient Roman settings place them closer to tragedy’s roots in history. We thought our classifier might re-classify them as histories; however, as Table &lt;$n#table:roman-plays&gt; shows, only Antony &amp; Cleopatra, with only one classifier, was designated a history. Instead, this re-classification experiment suggest that closer attention ought to be paid to the small, dense network which makes up Titus Andronicus.
-
-#
-Table &lt;$n:table:roman-plays&gt;: classifications for the “Roman plays.”</Text>
         </Document>
     </Documents>
 </SearchIndexes>
